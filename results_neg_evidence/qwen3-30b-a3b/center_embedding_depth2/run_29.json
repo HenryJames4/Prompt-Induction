@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked.",
+    "the project the manager approved succeeded.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "induced_prompt_raw": "Generate a sentence with a relative clause modifying a noun, followed by a main clause where the noun is the subject and a past-tense verb indicating success or failure.",
+  "induced_prompt": "Generate a sentence with a relative clause modifying a noun, followed by a main clause where the noun is the subject and a past-tense verb indicating success or failure.",
+  "induced_prompt_chars": 169,
+  "induced_prompt_words": 29,
+  "l1_char_total": 218,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library was overdue, and I returned it on time.\", \"The student who studied all night passed the exam with flying colors.\", \"The car that broke down on the highway was towed to a repair shop, and it was fixed by evening.\", \"The team that practiced every day won the championship after a hard-fought match.\", \"The recipe that my grandmother shared turned out perfectly, and the dessert was a hit at the party.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library was overdue, and I returned it on time.",
+    "The student who studied all night passed the exam with flying colors.",
+    "The car that broke down on the highway was towed to a repair shop, and it was fixed by evening.",
+    "The team that practiced every day won the championship after a hard-fought match.",
+    "The recipe that my grandmother shared turned out perfectly, and the dessert was a hit at the party."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:59:46.183734+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked.",
+    "the project the manager approved succeeded."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked.",
+    "the project the manager approved succeeded.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the plan the committee rejected failed.\", \"the idea the scientist proposed worked.\", \"the project the manager approved succeeded.\", \"the story the writer told the audience moved the listeners deeply.\"]}",
+  "run_idx": 29
+}

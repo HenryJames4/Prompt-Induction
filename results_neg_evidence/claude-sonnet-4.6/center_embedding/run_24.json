@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef the critic the judge admired praised baked disappeared",
+    "the letter the lawyer the secretary the clerk drafted typed reviewed vanished",
+    "the plan the manager the analyst the intern proposed reviewed approved collapsed",
+    "the book the author the publisher the editor wrote revised approved launched",
+    "the song the musician the producer recorded released forgot"
+  ],
+  "induced_prompt_raw": "Write a multiply center-embedded relative clause sentence with exactly 4 levels of embedding (4 nouns followed by 4 verbs), ensuring the main noun is acted upon by all nested agents.",
+  "induced_prompt": "Write a multiply center-embedded relative clause sentence with exactly 4 levels of embedding (4 nouns followed by 4 verbs), ensuring the main noun is acted upon by all nested agents.",
+  "induced_prompt_chars": 182,
+  "induced_prompt_words": 30,
+  "l1_char_total": 364,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog the rat the man owned chased caught fled.\", \"The book the student the teacher the principal hired assigned read disappeared.\", \"The cake the child the mother the baker trained baked ate vanished.\", \"The letter the clerk the boss the client hired wrote sent arrived.\", \"The ball the puppy the girl the coach trained fetched lost bounced.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog the rat the man owned chased caught fled.",
+    "The book the student the teacher the principal hired assigned read disappeared.",
+    "The cake the child the mother the baker trained baked ate vanished.",
+    "The letter the clerk the boss the client hired wrote sent arrived.",
+    "The ball the puppy the girl the coach trained fetched lost bounced."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:18:08.792963+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef the critic the judge admired praised baked disappeared",
+    "the letter the lawyer the secretary the clerk drafted typed reviewed vanished",
+    "the plan the manager the analyst the intern proposed reviewed approved collapsed",
+    "the book the author the publisher the editor wrote revised approved launched"
+  ],
+  "l1_sentences": [
+    "the cake the chef the critic the judge admired praised baked disappeared",
+    "the letter the lawyer the secretary the clerk drafted typed reviewed vanished",
+    "the plan the manager the analyst the intern proposed reviewed approved collapsed",
+    "the book the author the publisher the editor wrote revised approved launched",
+    "the song the musician the producer recorded released forgot"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the chef the critic the judge admired praised baked disappeared\",\n    \"the letter the lawyer the secretary the clerk drafted typed reviewed vanished\",\n    \"the plan the manager the analyst the intern proposed reviewed approved collapsed\",\n    \"the book the author the publisher the editor wrote revised approved launched\",\n    \"the song the musician the producer recorded released forgot\"\n  ]\n}\n```",
+  "run_idx": 24
+}

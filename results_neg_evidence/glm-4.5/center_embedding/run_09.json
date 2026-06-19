@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended borrowed",
+    "the plan the manager the team the client presented discussed accepted rejected",
+    "the house the agent the buyer the owner showed inspected purchased renovated",
+    "the car the dealer the customer drove tested bought"
+  ],
+  "induced_prompt_raw": "Generate a sentence with a noun and four consecutive relative clauses, each modifying the preceding noun, followed by a single verb.",
+  "induced_prompt": "Generate a sentence with a noun and four consecutive relative clauses, each modifying the preceding noun, followed by a single verb.",
+  "induced_prompt_chars": 132,
+  "induced_prompt_words": 21,
+  "l1_char_total": 368,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The house that stood on the hill that overlooked the valley that was covered in flowers that bloomed in spring that attracted butterflies stood.\",\n    \"The book that was written by the author who won the prize that was established by the foundation that was founded by the billionaire who made his fortune in technology sold.\",\n    \"The car that was driven by the celebrity who attended the event that was organized by the company that was owned by the entrepreneur who appeared on the show parked.\",\n    \"The painting that was created by the artist who studied under the master who taught at the academy that was founded in the century that saw the Renaissance hung.\",\n    \"The tree that grew in the garden that was tended by the gardener who worked for the family that lived in the mansion that was built on the land that was once a forest fell.\"\n  ]\n}",
+  "l2_sentences": [
+    "The house that stood on the hill that overlooked the valley that was covered in flowers that bloomed in spring that attracted butterflies stood.",
+    "The book that was written by the author who won the prize that was established by the foundation that was founded by the billionaire who made his fortune in technology sold.",
+    "The car that was driven by the celebrity who attended the event that was organized by the company that was owned by the entrepreneur who appeared on the show parked.",
+    "The painting that was created by the artist who studied under the master who taught at the academy that was founded in the century that saw the Renaissance hung.",
+    "The tree that grew in the garden that was tended by the gardener who worked for the family that lived in the mansion that was built on the land that was once a forest fell."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:53:13.539504+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended borrowed",
+    "the plan the manager the team the client presented discussed accepted rejected",
+    "the house the agent the buyer the owner showed inspected purchased renovated"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended borrowed",
+    "the plan the manager the team the client presented discussed accepted rejected",
+    "the house the agent the buyer the owner showed inspected purchased renovated",
+    "the car the dealer the customer drove tested bought"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read reviewed recommended borrowed\",\n    \"the plan the manager the team the client presented discussed accepted rejected\",\n    \"the house the agent the buyer the owner showed inspected purchased renovated\",\n    \"the car the dealer the customer drove tested bought\"\n  ]\n}",
+  "run_idx": 9
+}

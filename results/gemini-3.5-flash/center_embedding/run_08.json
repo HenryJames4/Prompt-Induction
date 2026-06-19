@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the chef the waiter the customer the manager welcomed tipped served resigned",
+    "the dog the cat the mouse the beetle chased caught bit escaped",
+    "the patient the doctor the nurse the student assisted supervised treated recovered",
+    "the singer the producer the agent the fan approached hired recorded performed",
+    "the child the mother the teacher the principal called helped scolded cried"
+  ],
+  "induced_prompt_raw": "Write a center-embedded sentence with four nested noun phrases followed by four corresponding verbs in reverse order (e.g., \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\").",
+  "induced_prompt": "Write a center-embedded sentence with four nested noun phrases followed by four corresponding verbs in reverse order (e.g., \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\").",
+  "induced_prompt_chars": 167,
+  "induced_prompt_words": 30,
+  "l1_char_total": 371,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the cat the rat the cheese ate bit chased barked.\",\n    \"The manager the supervisor the clerk the customer scolded warned assisted thanked.\",\n    \"The boy the girl the teacher the principal praised questioned comforted hugged.\",\n    \"The scientist the assistant the student the professor questioned trained helped respected.\",\n    \"The artist the model the photographer the designer hired posed clicked painted.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the cat the rat the cheese ate bit chased barked.",
+    "The manager the supervisor the clerk the customer scolded warned assisted thanked.",
+    "The boy the girl the teacher the principal praised questioned comforted hugged.",
+    "The scientist the assistant the student the professor questioned trained helped respected.",
+    "The artist the model the photographer the designer hired posed clicked painted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:20:02.488099+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the waiter the customer the manager welcomed tipped served resigned",
+    "the dog the cat the mouse the beetle chased caught bit escaped",
+    "the patient the doctor the nurse the student assisted supervised treated recovered",
+    "the singer the producer the agent the fan approached hired recorded performed",
+    "the child the mother the teacher the principal called helped scolded cried"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the waiter the customer the manager welcomed tipped served resigned\",\n    \"the dog the cat the mouse the beetle chased caught bit escaped\",\n    \"the patient the doctor the nurse the student assisted supervised treated recovered\",\n    \"the singer the producer the agent the fan approached hired recorded performed\",\n    \"the child the mother the teacher the principal called helped scolded cried\"\n  ]\n}",
+  "run_idx": 8
+}

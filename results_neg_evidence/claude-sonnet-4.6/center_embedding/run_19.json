@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic the student the professor admired assigned reviewed vanished",
+    "the cake the chef the apprentice the judge tasted judged baked disappeared",
+    "the letter the lawyer the clerk the judge signed filed reviewed arrived",
+    "the painting the artist the curator the visitor admired displayed created survived",
+    "the dog the owner the vet examined treated escaped"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly 4 nouns followed by exactly 4 verbs, where each verb corresponds to its noun in reverse order.",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly 4 nouns followed by exactly 4 verbs, where each verb corresponds to its noun in reverse order.",
+  "induced_prompt_chars": 156,
+  "induced_prompt_words": 25,
+  "l1_char_total": 357,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the rat that the boy chased bit scratched fled.\", \"The lawyer that the judge that the witness that the jury questioned swore examined left.\", \"The book that the teacher that the student that the class read assigned reviewed sold.\", \"The fish that the shark that the seal that the whale hunted chased caught swam.\", \"The cake that the chef that the critic that the guest invited reviewed baked disappeared.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the rat that the boy chased bit scratched fled.",
+    "The lawyer that the judge that the witness that the jury questioned swore examined left.",
+    "The book that the teacher that the student that the class read assigned reviewed sold.",
+    "The fish that the shark that the seal that the whale hunted chased caught swam.",
+    "The cake that the chef that the critic that the guest invited reviewed baked disappeared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:09:54.302376+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic the student the professor admired assigned reviewed vanished",
+    "the cake the chef the apprentice the judge tasted judged baked disappeared",
+    "the letter the lawyer the clerk the judge signed filed reviewed arrived",
+    "the painting the artist the curator the visitor admired displayed created survived"
+  ],
+  "l1_sentences": [
+    "the book the critic the student the professor admired assigned reviewed vanished",
+    "the cake the chef the apprentice the judge tasted judged baked disappeared",
+    "the letter the lawyer the clerk the judge signed filed reviewed arrived",
+    "the painting the artist the curator the visitor admired displayed created survived",
+    "the dog the owner the vet examined treated escaped"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the critic the student the professor admired assigned reviewed vanished\",\n    \"the cake the chef the apprentice the judge tasted judged baked disappeared\",\n    \"the letter the lawyer the clerk the judge signed filed reviewed arrived\",\n    \"the painting the artist the curator the visitor admired displayed created survived\",\n    \"the dog the owner the vet examined treated escaped\"\n  ]\n}\n```",
+  "run_idx": 19
+}

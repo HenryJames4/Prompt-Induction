@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the candidate the voters supported won",
+    "the recipe the chef created failed",
+    "the song the band played ended",
+    "the report the manager wrote helped",
+    "the boy the girl the dog bit chased ran"
+  ],
+  "induced_prompt_raw": "Generate simple sentences with exactly one level of embedding (a noun phrase modified by a single relative clause, followed by a single main verb, e.g., \"the [noun] the [noun] [verb] [verb]\"), avoiding double embeddings or multiple nested clauses.",
+  "induced_prompt": "Generate simple sentences with exactly one level of embedding (a noun phrase modified by a single relative clause, followed by a single main verb, e.g., \"the [noun] the [noun] [verb] [verb]\"), avoiding double embeddings or multiple nested clauses.",
+  "induced_prompt_chars": 247,
+  "induced_prompt_words": 38,
+  "l1_char_total": 176,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the boy chased barked.\",\n    \"The book the girl read closed.\",\n    \"The car the man bought broke.\",\n    \"The cake the chef baked fell.\",\n    \"The song the band played ended.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the boy chased barked.",
+    "The book the girl read closed.",
+    "The car the man bought broke.",
+    "The cake the chef baked fell.",
+    "The song the band played ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:47:44.691907+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the candidate the voters supported won",
+    "the recipe the chef created failed",
+    "the song the band played ended",
+    "the report the manager wrote helped"
+  ],
+  "l1_sentences": [
+    "the candidate the voters supported won",
+    "the recipe the chef created failed",
+    "the song the band played ended",
+    "the report the manager wrote helped",
+    "the boy the girl the dog bit chased ran"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the candidate the voters supported won\",\n    \"the recipe the chef created failed\",\n    \"the song the band played ended\",\n    \"the report the manager wrote helped\",\n    \"the boy the girl the dog bit chased ran\"\n  ]\n}",
+  "run_idx": 15
+}

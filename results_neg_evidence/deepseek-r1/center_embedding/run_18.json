@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the mouse the bird chased bit scratched slept",
+    "the book the author the publisher the editor praised hired published sold",
+    "the house the architect the builder the carpenter admired hired designed collapsed",
+    "the cake the baker the customer the waiter served ordered decorated arrived",
+    "the professor the student the assignment completed submitted praised"
+  ],
+  "induced_prompt_raw": "\"Series of 'the' noun phrases followed by an equal number of verbs: transitive verbs chain sequentially from rightmost noun acting leftward (each object becomes the next subject), ending with an intransitive verb for the leftmost noun.\"",
+  "induced_prompt": "\"Series of 'the' noun phrases followed by an equal number of verbs: transitive verbs chain sequentially from rightmost noun acting leftward (each object becomes the next subject), ending with an intransitive verb for the leftmost noun.\"",
+  "induced_prompt_chars": 236,
+  "induced_prompt_words": 36,
+  "l1_char_total": 359,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": null,
+  "l2_sentences": [],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:07:50.721285+00:00",
+  "error": "Model deepseek/deepseek-r1 returned an empty response.",
+  "induction_input_correct": [
+    "the cat the dog the mouse the bird chased bit scratched slept",
+    "the book the author the publisher the editor praised hired published sold",
+    "the house the architect the builder the carpenter admired hired designed collapsed",
+    "the cake the baker the customer the waiter served ordered decorated arrived"
+  ],
+  "l1_sentences": [
+    "the cat the dog the mouse the bird chased bit scratched slept",
+    "the book the author the publisher the editor praised hired published sold",
+    "the house the architect the builder the carpenter admired hired designed collapsed",
+    "the cake the baker the customer the waiter served ordered decorated arrived",
+    "the professor the student the assignment completed submitted praised"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cat the dog the mouse the bird chased bit scratched slept\", \"the book the author the publisher the editor praised hired published sold\", \"the house the architect the builder the carpenter admired hired designed collapsed\", \"the cake the baker the customer the waiter served ordered decorated arrived\", \"the professor the student the assignment completed submitted praised\"]}",
+  "run_idx": 18
+}

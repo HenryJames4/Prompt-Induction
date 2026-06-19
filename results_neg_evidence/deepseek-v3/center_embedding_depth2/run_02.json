@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student read fascinated",
+    "the movie the director filmed entertained",
+    "the cake the baker decorated delighted",
+    "the song the musician composed inspired",
+    "the dog the boy the man walked barked ran"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a nested relative clause structure where each clause modifies a noun in the previous clause, ensuring clarity and avoiding excessive embedding that leads to confusion.\"",
+  "induced_prompt": "\"Generate sentences with a nested relative clause structure where each clause modifies a noun in the previous clause, ensuring clarity and avoiding excessive embedding that leads to confusion.\"",
+  "induced_prompt_chars": 193,
+  "induced_prompt_words": 28,
+  "l1_char_total": 195,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed, which was written by a famous author, contains insights that challenge traditional theories.\", \"The artist who painted the mural, which depicts a historical event, used techniques that revolutionized modern art.\", \"The scientist who discovered the compound, which has unique properties, collaborated with a team that included Nobel laureates.\", \"The chef who prepared the meal, which featured exotic ingredients, shared recipes that inspired amateur cooks.\", \"The engineer who designed the bridge, which spans a wide river, employed methods that reduced construction costs significantly.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed, which was written by a famous author, contains insights that challenge traditional theories.",
+    "The artist who painted the mural, which depicts a historical event, used techniques that revolutionized modern art.",
+    "The scientist who discovered the compound, which has unique properties, collaborated with a team that included Nobel laureates.",
+    "The chef who prepared the meal, which featured exotic ingredients, shared recipes that inspired amateur cooks.",
+    "The engineer who designed the bridge, which spans a wide river, employed methods that reduced construction costs significantly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:35:19.139984+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student read fascinated",
+    "the movie the director filmed entertained",
+    "the cake the baker decorated delighted",
+    "the song the musician composed inspired"
+  ],
+  "l1_sentences": [
+    "the book the student read fascinated",
+    "the movie the director filmed entertained",
+    "the cake the baker decorated delighted",
+    "the song the musician composed inspired",
+    "the dog the boy the man walked barked ran"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student read fascinated\", \"the movie the director filmed entertained\", \"the cake the baker decorated delighted\", \"the song the musician composed inspired\", \"the dog the boy the man walked barked ran\"]}",
+  "run_idx": 2
+}

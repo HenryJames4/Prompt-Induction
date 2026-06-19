@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy chased barked.",
+    "The book the student read fascinated.",
+    "The cake the baker made tasted.",
+    "The song the band played entertained.",
+    "The mouse the cat the dog chased scared ran."
+  ],
+  "induced_prompt_raw": "**Prompt:**  \nGenerate a sentence with the structure: \"The [Noun1] the [Noun2] [Verb1_past] [Verb2_past].\"  \n- **Noun1** is the object of **Verb1** and subject of **Verb2**.  \n- **Noun2** is the subject of **Verb1**.  \n- **Verb1** must be transitive (past tense).  \n- **Verb2** must be intransitive (past tense).  \n- **Use exactly one relative clause** (no nested clauses or extra nouns/verbs).",
+  "induced_prompt": "**Prompt:**  \nGenerate a sentence with the structure: \"The [Noun1] the [Noun2] [Verb1_past] [Verb2_past].\"  \n- **Noun1** is the object of **Verb1** and subject of **Verb2**.  \n- **Noun2** is the subject of **Verb1**.  \n- **Verb1** must be transitive (past tense).  \n- **Verb2** must be intransitive (past tense).  \n- **Use exactly one relative clause** (no nested clauses or extra nouns/verbs).",
+  "induced_prompt_chars": 394,
+  "induced_prompt_words": 57,
+  "l1_char_total": 179,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cake that she baked the chef decorated crumbled.\",\n    \"The letter that he wrote the mail carrier delivered vanished.\",\n    \"The painting that they admired the artist created sold.\",\n    \"The song that we composed the band performed resonated.\",\n    \"The story that I narrated the author published ended.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cake that she baked the chef decorated crumbled.",
+    "The letter that he wrote the mail carrier delivered vanished.",
+    "The painting that they admired the artist created sold.",
+    "The song that we composed the band performed resonated.",
+    "The story that I narrated the author published ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T14:00:56.069511+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy chased barked.",
+    "The book the student read fascinated.",
+    "The cake the baker made tasted.",
+    "The song the band played entertained."
+  ],
+  "l1_sentences": [
+    "The dog the boy chased barked.",
+    "The book the student read fascinated.",
+    "The cake the baker made tasted.",
+    "The song the band played entertained.",
+    "The mouse the cat the dog chased scared ran."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the boy chased barked.\", \"The book the student read fascinated.\", \"The cake the baker made tasted.\", \"The song the band played entertained.\", \"The mouse the cat the dog chased scared ran.\"]}",
+  "run_idx": 29
+}

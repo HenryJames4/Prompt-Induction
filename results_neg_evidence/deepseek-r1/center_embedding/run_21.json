@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the movie the director the actor the studio hired praised released was successful",
+    "the song the singer the composer the producer discovered promoted recorded became popular",
+    "the novel the author the agent the publisher contacted signed published won awards",
+    "the car the driver the mechanic the owner called consulted drove broke down",
+    "the boy the girl the dog barked chased laughed"
+  ],
+  "induced_prompt_raw": "\"Generate: the N1 the N2 the N3 the N4 [transitive V4: N4 acts on N3] [transitive V3: N3 acts on N2] [transitive V2: N2 acts on N1] [main verb phrase for N1].\"",
+  "induced_prompt": "\"Generate: the N1 the N2 the N3 the N4 [transitive V4: N4 acts on N3] [transitive V3: N3 acts on N2] [transitive V2: N2 acts on N1] [main verb phrase for N1].\"",
+  "induced_prompt_chars": 159,
+  "induced_prompt_words": 32,
+  "l1_char_total": 373,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The storm frightened the deer, the deer startled the hiker, the hiker dropped the camera, and the camera captured the moment.\", \"The chef praised the apprentice, the apprentice assisted the waiter, the waiter served the customer, and the customer enjoyed the meal.\", \"The wind swayed the branch, the branch dislodged the nest, the nest disturbed the squirrel, and the squirrel scurried away.\", \"The teacher assigned the project, the project challenged the student, the student consulted the textbook, and the textbook provided clarity.\", \"The CEO directed the manager, the manager supervised the employee, the employee completed the report, and the report outlined the strategy.\"]}",
+  "l2_sentences": [
+    "The storm frightened the deer, the deer startled the hiker, the hiker dropped the camera, and the camera captured the moment.",
+    "The chef praised the apprentice, the apprentice assisted the waiter, the waiter served the customer, and the customer enjoyed the meal.",
+    "The wind swayed the branch, the branch dislodged the nest, the nest disturbed the squirrel, and the squirrel scurried away.",
+    "The teacher assigned the project, the project challenged the student, the student consulted the textbook, and the textbook provided clarity.",
+    "The CEO directed the manager, the manager supervised the employee, the employee completed the report, and the report outlined the strategy."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:13:49.273989+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the movie the director the actor the studio hired praised released was successful",
+    "the song the singer the composer the producer discovered promoted recorded became popular",
+    "the novel the author the agent the publisher contacted signed published won awards",
+    "the car the driver the mechanic the owner called consulted drove broke down"
+  ],
+  "l1_sentences": [
+    "the movie the director the actor the studio hired praised released was successful",
+    "the song the singer the composer the producer discovered promoted recorded became popular",
+    "the novel the author the agent the publisher contacted signed published won awards",
+    "the car the driver the mechanic the owner called consulted drove broke down",
+    "the boy the girl the dog barked chased laughed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the movie the director the actor the studio hired praised released was successful\",\n    \"the song the singer the composer the producer discovered promoted recorded became popular\",\n    \"the novel the author the agent the publisher contacted signed published won awards\",\n    \"the car the driver the mechanic the owner called consulted drove broke down\",\n    \"the boy the girl the dog barked chased laughed\"\n  ]\n}",
+  "run_idx": 21
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased fled",
+    "the book the student read won",
+    "the report the manager reviewed passed",
+    "the cake the chef baked disappeared",
+    "the proposal the reviewer the editor approved passed rejected"
+  ],
+  "induced_prompt_raw": "Write grammatical English sentences with a single center-embedded relative clause, where one noun phrase is modified by a clause containing a subject, verb, and then followed by the main verb. Use only one level of embedding — do not nest multiple relative clauses inside one another.",
+  "induced_prompt": "Write grammatical English sentences with a single center-embedded relative clause, where one noun phrase is modified by a clause containing a subject, verb, and then followed by the main verb. Use only one level of embedding — do not nest multiple relative clauses inside one another.",
+  "induced_prompt_chars": 284,
+  "induced_prompt_words": 46,
+  "l1_char_total": 190,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that the teacher recommended was surprisingly difficult to finish.\", \"The dog that the children adopted became a beloved member of the family.\", \"The letter that my grandmother wrote arrived three weeks after she had sent it.\", \"The cake that the baker prepared for the wedding tasted absolutely wonderful.\", \"The report that the committee reviewed contained several significant errors.\"]}\n```",
+  "l2_sentences": [
+    "The book that the teacher recommended was surprisingly difficult to finish.",
+    "The dog that the children adopted became a beloved member of the family.",
+    "The letter that my grandmother wrote arrived three weeks after she had sent it.",
+    "The cake that the baker prepared for the wedding tasted absolutely wonderful.",
+    "The report that the committee reviewed contained several significant errors."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:48:20.660233+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased fled",
+    "the book the student read won",
+    "the report the manager reviewed passed",
+    "the cake the chef baked disappeared"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased fled",
+    "the book the student read won",
+    "the report the manager reviewed passed",
+    "the cake the chef baked disappeared",
+    "the proposal the reviewer the editor approved passed rejected"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cat the dog chased fled\", \"the book the student read won\", \"the report the manager reviewed passed\", \"the cake the chef baked disappeared\", \"the proposal the reviewer the editor approved passed rejected\"]}\n```",
+  "run_idx": 16
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the artist recorded played."
+  ],
+  "induced_prompt_raw": "Write sentences with a double subject-verb structure where a noun is modified by a relative clause (omitting \"that\") before the main verb.",
+  "induced_prompt": "Write sentences with a double subject-verb structure where a noun is modified by a relative clause (omitting \"that\") before the main verb.",
+  "induced_prompt_chars": 138,
+  "induced_prompt_words": 22,
+  "l1_char_total": 191,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The book she borrowed yesterday changed her entire perspective on life.\", \"The car he bought last summer broke down on the highway during rush hour.\", \"The advice my mentor gave me years ago still guides every decision I make today.\", \"The letter she wrote him in college resurfaced unexpectedly during the move.\", \"The song they played at the wedding reminded everyone of a simpler, quieter time.\"]}\n```",
+  "l2_sentences": [
+    "The book she borrowed yesterday changed her entire perspective on life.",
+    "The car he bought last summer broke down on the highway during rush hour.",
+    "The advice my mentor gave me years ago still guides every decision I make today.",
+    "The letter she wrote him in college resurfaced unexpectedly during the move.",
+    "The song they played at the wedding reminded everyone of a simpler, quieter time."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:42:45.174879+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the artist recorded played."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed passed.\", \"The cake the chef baked disappeared.\", \"The letter the student wrote arrived.\", \"The bridge the engineer designed collapsed.\", \"The song the artist recorded played.\"]}\n```",
+  "run_idx": 24
+}

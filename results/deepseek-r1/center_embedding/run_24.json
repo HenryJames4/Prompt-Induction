@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the agent the publisher contacted represented wrote appeared.",
+    "the cake the chef the assistant the customer praised helped baked cooled.",
+    "the car the driver the mechanic the owner called advised drove stalled.",
+    "the painting the artist the model the critic interviewed inspired created hung.",
+    "the letter the secretary the manager the intern assisted directed wrote arrived."
+  ],
+  "induced_prompt_raw": "the N1 the N2 the N3 the N4 V4 V3 V2 V1",
+  "induced_prompt": "the N1 the N2 the N3 the N4 V4 V3 V2 V1",
+  "induced_prompt_chars": 39,
+  "induced_prompt_words": 12,
+  "l1_char_total": 384,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The sun the moon the stars the sky sparkled shone faded twinkled.\", \"The cat the dog the ball the park chased barked played fetched.\", \"The teacher the student the book the pen lectured studied read wrote.\", \"The wind the leaves the trees the branches rustled shook swayed bent.\", \"The child the toy the parent the pet hugged watched smiled played.\"]}",
+  "l2_sentences": [
+    "The sun the moon the stars the sky sparkled shone faded twinkled.",
+    "The cat the dog the ball the park chased barked played fetched.",
+    "The teacher the student the book the pen lectured studied read wrote.",
+    "The wind the leaves the trees the branches rustled shook swayed bent.",
+    "The child the toy the parent the pet hugged watched smiled played."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:45:09.991263+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the agent the publisher contacted represented wrote appeared.",
+    "the cake the chef the assistant the customer praised helped baked cooled.",
+    "the car the driver the mechanic the owner called advised drove stalled.",
+    "the painting the artist the model the critic interviewed inspired created hung.",
+    "the letter the secretary the manager the intern assisted directed wrote arrived."
+  ],
+  "l1_raw": "{\"sentences\": [\n  \"the book the author the agent the publisher contacted represented wrote appeared.\",\n  \"the cake the chef the assistant the customer praised helped baked cooled.\",\n  \"the car the driver the mechanic the owner called advised drove stalled.\",\n  \"the painting the artist the model the critic interviewed inspired created hung.\",\n  \"the letter the secretary the manager the intern assisted directed wrote arrived.\"\n]}",
+  "run_idx": 24
+}

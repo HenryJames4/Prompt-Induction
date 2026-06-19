@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the boy chased barked",
+    "the book the student read disappeared",
+    "the car the mechanic repaired crashed",
+    "the cake the baker decorated dropped",
+    "the rat the cat the dog chased bit died"
+  ],
+  "induced_prompt_raw": "Generate sentences with a single center-embedded relative clause (NP1 + NP2 + Verb1 + Verb2). Do not double-nest relative clauses.",
+  "induced_prompt": "Generate sentences with a single center-embedded relative clause (NP1 + NP2 + Verb1 + Verb2). Do not double-nest relative clauses.",
+  "induced_prompt_chars": 130,
+  "induced_prompt_words": 20,
+  "l1_char_total": 178,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the girl liked smiled.\",\n    \"The car the man bought broke.\",\n    \"The cake the baker made dropped.\",\n    \"The book the student read disappeared.\",\n    \"The song the band played ended.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the girl liked smiled.",
+    "The car the man bought broke.",
+    "The cake the baker made dropped.",
+    "The book the student read disappeared.",
+    "The song the band played ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:42:32.753460+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the dog the boy chased barked",
+    "the book the student read disappeared",
+    "the car the mechanic repaired crashed",
+    "the cake the baker decorated dropped"
+  ],
+  "l1_sentences": [
+    "the dog the boy chased barked",
+    "the book the student read disappeared",
+    "the car the mechanic repaired crashed",
+    "the cake the baker decorated dropped",
+    "the rat the cat the dog chased bit died"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the dog the boy chased barked\",\n    \"the book the student read disappeared\",\n    \"the car the mechanic repaired crashed\",\n    \"the cake the baker decorated dropped\",\n    \"the rat the cat the dog chased bit died\"\n  ]\n}\n```",
+  "run_idx": 9
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the car the driver the owner the company hired fired crashed burned.",
+    "the book the student the teacher the school hired taught read disappeared.",
+    "the letter the secretary the manager the office hired fired typed vanished.",
+    "the cake the baker the customer the shop served hired baked burned.",
+    "the house the agent the buyer the company employed contacted showed collapsed."
+  ],
+  "induced_prompt_raw": "Four nouns with 'the' and four verbs. Chain: N4 V1 N3, N3 V2 N2, N2 V3 N1, N1 V4.",
+  "induced_prompt": "Four nouns with 'the' and four verbs. Chain: N4 V1 N3, N3 V2 N2, N2 V3 N1, N1 V4.",
+  "induced_prompt_chars": 81,
+  "induced_prompt_words": 19,
+  "l1_char_total": 362,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The sun warms the earth.\",\n    \"The earth nourishes the plant.\",\n    \"The plant feeds the animal.\",\n    \"The animal sleeps.\",\n    \"The sun rises.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The sun warms the earth.",
+    "The earth nourishes the plant.",
+    "The plant feeds the animal.",
+    "The animal sleeps.",
+    "The sun rises."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:03:36.441607+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the driver the owner the company hired fired crashed burned.",
+    "the book the student the teacher the school hired taught read disappeared.",
+    "the letter the secretary the manager the office hired fired typed vanished.",
+    "the cake the baker the customer the shop served hired baked burned.",
+    "the house the agent the buyer the company employed contacted showed collapsed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the driver the owner the company hired fired crashed burned.\",\n    \"the book the student the teacher the school hired taught read disappeared.\",\n    \"the letter the secretary the manager the office hired fired typed vanished.\",\n    \"the cake the baker the customer the shop served hired baked burned.\",\n    \"the house the agent the buyer the company employed contacted showed collapsed.\"\n  ]\n}\n```",
+  "run_idx": 3
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the student the teacher the librarian recommended reviewed borrowed returned",
+    "the car the mechanic the driver the owner inspected fixed parked sold",
+    "the cake the baker the customer the child decorated tasted shared enjoyed",
+    "the painting the artist the collector the curator created displayed purchased admired",
+    "the song the singer the composer the listener performed recorded played enjoyed"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested noun phrases in the form: [object] [person1] [person2] [person3] [verb1] [verb2] [verb3] [verb4].\"",
+  "induced_prompt": "\"Generate sentences with nested noun phrases in the form: [object] [person1] [person2] [person3] [verb1] [verb2] [verb3] [verb4].\"",
+  "induced_prompt_chars": 130,
+  "induced_prompt_words": 17,
+  "l1_char_total": 391,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book the teacher the student the principal recommended reviewed approved astonished.\", \"The cake the baker the customer the manager decorated served admired delighted.\", \"The painting the artist the curator the director created displayed discussed inspired.\", \"The song the musician the producer the listener composed performed recorded moved.\", \"The plan the engineer the architect the client designed proposed implemented impressed.\"]}",
+  "l2_sentences": [
+    "The book the teacher the student the principal recommended reviewed approved astonished.",
+    "The cake the baker the customer the manager decorated served admired delighted.",
+    "The painting the artist the curator the director created displayed discussed inspired.",
+    "The song the musician the producer the listener composed performed recorded moved.",
+    "The plan the engineer the architect the client designed proposed implemented impressed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:36:23.086980+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the student the teacher the librarian recommended reviewed borrowed returned",
+    "the car the mechanic the driver the owner inspected fixed parked sold",
+    "the cake the baker the customer the child decorated tasted shared enjoyed",
+    "the painting the artist the collector the curator created displayed purchased admired",
+    "the song the singer the composer the listener performed recorded played enjoyed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian recommended reviewed borrowed returned\", \"the car the mechanic the driver the owner inspected fixed parked sold\", \"the cake the baker the customer the child decorated tasted shared enjoyed\", \"the painting the artist the collector the curator created displayed purchased admired\", \"the song the singer the composer the listener performed recorded played enjoyed\"]}",
+  "run_idx": 20
+}

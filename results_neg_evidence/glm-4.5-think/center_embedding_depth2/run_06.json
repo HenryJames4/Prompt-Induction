@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the report the committee wrote succeeded.",
+    "the man the woman called arrived.",
+    "the idea the professor suggested worked.",
+    "the cat the dog the mouse chased saw escaped."
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly two noun phrases followed by two verbs: [NP1] [NP2] [V1] [V2]. Meaning: NP2 performs V1 on NP1, then NP1 performs V2.",
+  "induced_prompt": "Generate a sentence with exactly two noun phrases followed by two verbs: [NP1] [NP2] [V1] [V2]. Meaning: NP2 performs V1 on NP1, then NP1 performs V2.",
+  "induced_prompt_chars": 150,
+  "induced_prompt_words": 26,
+  "l1_char_total": 190,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The window the rock broke shattered.\",\n    \"The vase the cat knocked over fell.\",\n    \"The balloon the pin popped deflated.\",\n    \"The apple the worm ate rotted.\",\n    \"The door the wind opened slammed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The window the rock broke shattered.",
+    "The vase the cat knocked over fell.",
+    "The balloon the pin popped deflated.",
+    "The apple the worm ate rotted.",
+    "The door the wind opened slammed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:39:28.467701+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased escaped.",
+    "the report the committee wrote succeeded.",
+    "the man the woman called arrived.",
+    "the idea the professor suggested worked."
+  ],
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the report the committee wrote succeeded.",
+    "the man the woman called arrived.",
+    "the idea the professor suggested worked.",
+    "the cat the dog the mouse chased saw escaped."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the report the committee wrote succeeded.\",\n    \"the man the woman called arrived.\",\n    \"the idea the professor suggested worked.\",\n    \"the cat the dog the mouse chased saw escaped.\"\n  ]\n}\n```",
+  "run_idx": 6
+}

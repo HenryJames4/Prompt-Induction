@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the bird the mouse chased saw feared escaped.",
+    "the book the teacher the student the author read recommended praised published.",
+    "the car the mechanic the owner the dealer fixed praised complained sold.",
+    "the movie the critic the director the actor watched reviewed praised won.",
+    "the house the builder the architect designed built sold."
+  ],
+  "induced_prompt_raw": "Generate a sentence: \"the N1 the N2 the N3 the N4 V1 V2 V3 V4\" where each verb logically applies to the subsequent noun in a nested structure, avoiding illogical agent-patient relationships.",
+  "induced_prompt": "Generate a sentence: \"the N1 the N2 the N3 the N4 V1 V2 V3 V4\" where each verb logically applies to the subsequent noun in a nested structure, avoiding illogical agent-patient relationships.",
+  "induced_prompt_chars": 190,
+  "induced_prompt_words": 32,
+  "l1_char_total": 341,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"the teacher the student the child the bird made let see fly.\",\n    \"the coach the player the opponent the referee watched make see blow.\",\n    \"the mother the father the boy the girl heard let make laugh.\",\n    \"the guard the prisoner the officer the warden noticed make see frown.\",\n    \"the king the queen the prince the princess saw make let sing.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "the teacher the student the child the bird made let see fly.",
+    "the coach the player the opponent the referee watched make see blow.",
+    "the mother the father the boy the girl heard let make laugh.",
+    "the guard the prisoner the officer the warden noticed make see frown.",
+    "the king the queen the prince the princess saw make let sing."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:48:24.683161+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the bird the mouse chased saw feared escaped.",
+    "the book the teacher the student the author read recommended praised published.",
+    "the car the mechanic the owner the dealer fixed praised complained sold.",
+    "the movie the critic the director the actor watched reviewed praised won."
+  ],
+  "l1_sentences": [
+    "the cat the dog the bird the mouse chased saw feared escaped.",
+    "the book the teacher the student the author read recommended praised published.",
+    "the car the mechanic the owner the dealer fixed praised complained sold.",
+    "the movie the critic the director the actor watched reviewed praised won.",
+    "the house the builder the architect designed built sold."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog the bird the mouse chased saw feared escaped.\",\n    \"the book the teacher the student the author read recommended praised published.\",\n    \"the car the mechanic the owner the dealer fixed praised complained sold.\",\n    \"the movie the critic the director the actor watched reviewed praised won.\",\n    \"the house the builder the architect designed built sold.\"\n  ]\n}\n```",
+  "run_idx": 6
+}

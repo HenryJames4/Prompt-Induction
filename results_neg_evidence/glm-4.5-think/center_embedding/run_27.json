@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the editor the critic reviewed accepted published sold",
+    "the car the driver the mechanic the engineer designed fixed drove crashed",
+    "the house the owner the builder the architect designed built bought collapsed",
+    "the child the cake the customer the baker baked ordered ate cried",
+    "the car the driver the mechanic fixed drove crashed"
+  ],
+  "induced_prompt_raw": "Generate: four consecutive 'the' nouns followed by four consecutive past tense verbs.",
+  "induced_prompt": "Generate: four consecutive 'the' nouns followed by four consecutive past tense verbs.",
+  "induced_prompt_chars": 85,
+  "induced_prompt_words": 12,
+  "l1_char_total": 340,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The the the the walked ran jumped skipped.\", \"The the the the ate drank slept woke.\", \"The the the the saw heard felt touched.\", \"The the the the sang danced played laughed.\", \"The the the the drove flew swam cycled.\"]}",
+  "l2_sentences": [
+    "The the the the walked ran jumped skipped.",
+    "The the the the ate drank slept woke.",
+    "The the the the saw heard felt touched.",
+    "The the the the sang danced played laughed.",
+    "The the the the drove flew swam cycled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:21:49.898817+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the editor the critic reviewed accepted published sold",
+    "the car the driver the mechanic the engineer designed fixed drove crashed",
+    "the house the owner the builder the architect designed built bought collapsed",
+    "the child the cake the customer the baker baked ordered ate cried"
+  ],
+  "l1_sentences": [
+    "the book the author the editor the critic reviewed accepted published sold",
+    "the car the driver the mechanic the engineer designed fixed drove crashed",
+    "the house the owner the builder the architect designed built bought collapsed",
+    "the child the cake the customer the baker baked ordered ate cried",
+    "the car the driver the mechanic fixed drove crashed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the author the editor the critic reviewed accepted published sold\",\n    \"the car the driver the mechanic the engineer designed fixed drove crashed\",\n    \"the house the owner the builder the architect designed built bought collapsed\",\n    \"the child the cake the customer the baker baked ordered ate cried\",\n    \"the car the driver the mechanic fixed drove crashed\"\n  ]\n}\n```",
+  "run_idx": 27
+}

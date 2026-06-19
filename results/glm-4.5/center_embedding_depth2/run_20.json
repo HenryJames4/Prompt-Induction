@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read interested.",
+    "The car the mechanic fixed broke.",
+    "The house the builder constructed collapsed.",
+    "The meal the chef prepared burned."
+  ],
+  "induced_prompt_raw": "Subject-relative clause with center-embedded relative clause.",
+  "induced_prompt": "Subject-relative clause with center-embedded relative clause.",
+  "induced_prompt_chars": 61,
+  "induced_prompt_words": 6,
+  "l1_char_total": 179,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that chased the mouse that ate the cheese slept on the mat.\",\n    \"The teacher that graded the student that wrote the essay praised the class.\",\n    \"The dog that barked at the mailman that delivered the package wagged its tail.\",\n    \"The woman that interviewed the candidate that applied for the job made the decision.\",\n    \"The house that stood on the hill that overlooked the lake was painted white.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that chased the mouse that ate the cheese slept on the mat.",
+    "The teacher that graded the student that wrote the essay praised the class.",
+    "The dog that barked at the mailman that delivered the package wagged its tail.",
+    "The woman that interviewed the candidate that applied for the job made the decision.",
+    "The house that stood on the hill that overlooked the lake was painted white."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:21:10.371428+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read interested.",
+    "The car the mechanic fixed broke.",
+    "The house the builder constructed collapsed.",
+    "The meal the chef prepared burned."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The book the student read interested.\",\n    \"The car the mechanic fixed broke.\",\n    \"The house the builder constructed collapsed.\",\n    \"The meal the chef prepared burned.\"\n  ]\n}",
+  "run_idx": 20
+}

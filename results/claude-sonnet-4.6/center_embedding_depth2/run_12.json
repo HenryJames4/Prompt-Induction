@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed failed.",
+    "The cake the chef baked vanished.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed spread.",
+    "The letter the lawyer drafted disappeared."
+  ],
+  "induced_prompt_raw": "Write sentences where a noun is modified by a relative clause (subject + transitive verb), followed by a simple intransitive verb.",
+  "induced_prompt": "Write sentences where a noun is modified by a relative clause (subject + transitive verb), followed by a simple intransitive verb.",
+  "induced_prompt_chars": 130,
+  "induced_prompt_words": 21,
+  "l1_char_total": 195,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog that chased the cat barked.\",\n    \"The woman who painted the mural smiled.\",\n    \"The boy who kicked the ball tripped.\",\n    \"The engineer who designed the bridge retired.\",\n    \"The bird that caught the worm sang.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog that chased the cat barked.",
+    "The woman who painted the mural smiled.",
+    "The boy who kicked the ball tripped.",
+    "The engineer who designed the bridge retired.",
+    "The bird that caught the worm sang."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:39:13.189594+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed failed.",
+    "The cake the chef baked vanished.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed spread.",
+    "The letter the lawyer drafted disappeared."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed failed.\", \"The cake the chef baked vanished.\", \"The bridge the engineer designed collapsed.\", \"The song the musician composed spread.\", \"The letter the lawyer drafted disappeared.\"]}\n```",
+  "run_idx": 12
+}

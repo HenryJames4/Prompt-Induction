@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy chased barked.",
+    "The cake the baker made rose.",
+    "The song the band played ended.",
+    "The book the author wrote sold.",
+    "The professor the student the dean hired assisted resigned."
+  ],
+  "induced_prompt_raw": "Create a sentence with two nested subjects and verbs: \"The [noun1] [the [noun2] [verb1]] [verb2].\" Use only one level of embedding, avoiding multiple clauses or ambiguous references.",
+  "induced_prompt": "Create a sentence with two nested subjects and verbs: \"The [noun1] [the [noun2] [verb1]] [verb2].\" Use only one level of embedding, avoiding multiple clauses or ambiguous references.",
+  "induced_prompt_chars": 182,
+  "induced_prompt_words": 27,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The teacher (the student questioned) explains.\", \"The manager (the employee trained) supervises.\", \"The artist (the mural created) exhibits.\", \"The mother (the child comforted) smiles.\", \"The zookeeper (the lion fed) observes.\"]}",
+  "l2_sentences": [
+    "The teacher (the student questioned) explains.",
+    "The manager (the employee trained) supervises.",
+    "The artist (the mural created) exhibits.",
+    "The mother (the child comforted) smiles.",
+    "The zookeeper (the lion fed) observes."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:42:13.800501+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy chased barked.",
+    "The cake the baker made rose.",
+    "The song the band played ended.",
+    "The book the author wrote sold."
+  ],
+  "l1_sentences": [
+    "The dog the boy chased barked.",
+    "The cake the baker made rose.",
+    "The song the band played ended.",
+    "The book the author wrote sold.",
+    "The professor the student the dean hired assisted resigned."
+  ],
+  "l1_raw": "{\"sentences\": [\n  \"The dog the boy chased barked.\",\n  \"The cake the baker made rose.\",\n  \"The song the band played ended.\",\n  \"The book the author wrote sold.\",\n  \"The professor the student the dean hired assisted resigned.\"\n]}",
+  "run_idx": 9
+}

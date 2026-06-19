@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the editor reviewed printed published sold",
+    "the cake the chef the baker the assistant decorated baked served enjoyed",
+    "the letter the writer the secretary the manager typed signed mailed received",
+    "the car the driver the mechanic the owner repaired washed drove parked",
+    "the painting the artist the curator the viewer created exhibited admired purchased"
+  ],
+  "induced_prompt_raw": "Describe the chain of actions involving an object and the roles of individuals interacting with it.",
+  "induced_prompt": "Describe the chain of actions involving an object and the roles of individuals interacting with it.",
+  "induced_prompt_chars": 99,
+  "induced_prompt_words": 16,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"A baker kneads dough to prepare it for baking.\", \"A chef shapes the dough into loaves before placing them in the oven.\", \"A delivery driver transports the freshly baked bread to a grocery store.\", \"A store clerk arranges the bread on shelves for customers to purchase.\", \"A customer selects a loaf and takes it home for dinner.\"]}",
+  "l2_sentences": [
+    "A baker kneads dough to prepare it for baking.",
+    "A chef shapes the dough into loaves before placing them in the oven.",
+    "A delivery driver transports the freshly baked bread to a grocery store.",
+    "A store clerk arranges the bread on shelves for customers to purchase.",
+    "A customer selects a loaf and takes it home for dinner."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:12:22.211562+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the editor reviewed printed published sold",
+    "the cake the chef the baker the assistant decorated baked served enjoyed",
+    "the letter the writer the secretary the manager typed signed mailed received",
+    "the car the driver the mechanic the owner repaired washed drove parked",
+    "the painting the artist the curator the viewer created exhibited admired purchased"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the editor reviewed printed published sold\", \"the cake the chef the baker the assistant decorated baked served enjoyed\", \"the letter the writer the secretary the manager typed signed mailed received\", \"the car the driver the mechanic the owner repaired washed drove parked\", \"the painting the artist the curator the viewer created exhibited admired purchased\"]}",
+  "run_idx": 7
+}

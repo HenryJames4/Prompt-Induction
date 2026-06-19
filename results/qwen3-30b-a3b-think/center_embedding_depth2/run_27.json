@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the author wrote sold",
+    "the story the writer told ended",
+    "the plan the manager approved failed",
+    "the idea the scientist proposed worked",
+    "the project the engineer completed succeeded"
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [verb]",
+  "induced_prompt": "the [noun] the [role] [verb] [verb]",
+  "induced_prompt_chars": 35,
+  "induced_prompt_words": 6,
+  "l1_char_total": 179,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the teacher walked talked.\", \"The book the doctor read wrote.\", \"The student the chef studied cooked.\", \"The car the artist painted drove.\", \"The problem the scientist solved cracked.\"]}",
+  "l2_sentences": [
+    "The cat the teacher walked talked.",
+    "The book the doctor read wrote.",
+    "The student the chef studied cooked.",
+    "The car the artist painted drove.",
+    "The problem the scientist solved cracked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:29:43.315825+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author wrote sold",
+    "the story the writer told ended",
+    "the plan the manager approved failed",
+    "the idea the scientist proposed worked",
+    "the project the engineer completed succeeded"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold\", \"the story the writer told ended\", \"the plan the manager approved failed\", \"the idea the scientist proposed worked\", \"the project the engineer completed succeeded\"]}",
+  "run_idx": 27
+}

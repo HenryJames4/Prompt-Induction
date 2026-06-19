@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the proposal the reviewer approved passed",
+    "the cat the dog chased fled",
+    "the book the student read disappeared",
+    "the report the manager reviewed passed",
+    "the proposal the reviewer the editor hired approved passed"
+  ],
+  "induced_prompt_raw": "Write grammatical English sentences with a single center-embedded relative clause (one level deep only), following the pattern: \"the [noun] the [noun] [verb] [verb].\" Do not nest multiple relative clauses inside one another.",
+  "induced_prompt": "Write grammatical English sentences with a single center-embedded relative clause (one level deep only), following the pattern: \"the [noun] the [noun] [verb] [verb].\" Do not nest multiple relative clauses inside one another.",
+  "induced_prompt_chars": 224,
+  "induced_prompt_words": 32,
+  "l1_char_total": 201,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The dog the cat chased ran away.\", \"The book the student borrowed disappeared.\", \"The bridge the engineers built collapsed.\", \"The cake the chef baked vanished.\", \"The letter the lawyer wrote convinced the jury.\"]}\n```",
+  "l2_sentences": [
+    "The dog the cat chased ran away.",
+    "The book the student borrowed disappeared.",
+    "The bridge the engineers built collapsed.",
+    "The cake the chef baked vanished.",
+    "The letter the lawyer wrote convinced the jury."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:59:45.157815+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the proposal the reviewer approved passed",
+    "the cat the dog chased fled",
+    "the book the student read disappeared",
+    "the report the manager reviewed passed"
+  ],
+  "l1_sentences": [
+    "the proposal the reviewer approved passed",
+    "the cat the dog chased fled",
+    "the book the student read disappeared",
+    "the report the manager reviewed passed",
+    "the proposal the reviewer the editor hired approved passed"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the proposal the reviewer approved passed\", \"the cat the dog chased fled\", \"the book the student read disappeared\", \"the report the manager reviewed passed\", \"the proposal the reviewer the editor hired approved passed\"]}\n```",
+  "run_idx": 29
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student read won",
+    "the cat the dog chased hid",
+    "the letter the manager signed arrived",
+    "the plan the team proposed failed",
+    "the report the analyst the editor hired wrote confused"
+  ],
+  "induced_prompt_raw": "Write sentences with one level of center-embedding (a relative clause inside a main clause), where a noun is modified by a relative clause before the main verb, but avoid embedding more than one relative clause within another.",
+  "induced_prompt": "Write sentences with one level of center-embedding (a relative clause inside a main clause), where a noun is modified by a relative clause before the main verb, but avoid embedding more than one relative clause within another.",
+  "induced_prompt_chars": 226,
+  "induced_prompt_words": 37,
+  "l1_char_total": 179,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that she borrowed yesterday was incredibly fascinating.\", \"The dog that my neighbor owns barks loudly every morning.\", \"The scientist who discovered the vaccine received a prestigious award.\", \"The car that he repaired last week broke down again on the highway.\", \"The teacher who inspired me most retired after thirty years of service.\"]}\n```",
+  "l2_sentences": [
+    "The book that she borrowed yesterday was incredibly fascinating.",
+    "The dog that my neighbor owns barks loudly every morning.",
+    "The scientist who discovered the vaccine received a prestigious award.",
+    "The car that he repaired last week broke down again on the highway.",
+    "The teacher who inspired me most retired after thirty years of service."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:59:18.351918+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student read won",
+    "the cat the dog chased hid",
+    "the letter the manager signed arrived",
+    "the plan the team proposed failed"
+  ],
+  "l1_sentences": [
+    "the book the student read won",
+    "the cat the dog chased hid",
+    "the letter the manager signed arrived",
+    "the plan the team proposed failed",
+    "the report the analyst the editor hired wrote confused"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the book the student read won\", \"the cat the dog chased hid\", \"the letter the manager signed arrived\", \"the plan the team proposed failed\", \"the report the analyst the editor hired wrote confused\"]}\n```",
+  "run_idx": 28
+}

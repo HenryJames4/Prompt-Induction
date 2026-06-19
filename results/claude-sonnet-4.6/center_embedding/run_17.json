@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef the student the teacher trained taught baked vanished.",
+    "The letter the clerk the boy the woman hired helped wrote arrived.",
+    "The bridge the crew the boss the mayor appointed hired built collapsed.",
+    "The song the band the coach the sponsor funded trained recorded spread.",
+    "The plan the team the expert the firm contracted hired devised failed."
+  ],
+  "induced_prompt_raw": "Write sentences with triple center-embedding, where four agents (connected by relative clauses) perform sequential actions, ending with a main verb outcome.",
+  "induced_prompt": "Write sentences with triple center-embedding, where four agents (connected by relative clauses) perform sequential actions, ending with a main verb outcome.",
+  "induced_prompt_chars": 156,
+  "induced_prompt_words": 21,
+  "l1_char_total": 350,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The surgeon that the lawyer that the judge that the jury acquitted sentenced operated recovered.\", \"The wolf that the dog that the cat that the mouse startled chased hunted fled.\", \"The bill that the senator that the lobbyist that the activist pressured influenced drafted passed.\", \"The report that the editor that the journalist that the source contacted interviewed wrote published.\", \"The cake that the chef that the student that the teacher trained hired baked disappeared.\"]}\n```",
+  "l2_sentences": [
+    "The surgeon that the lawyer that the judge that the jury acquitted sentenced operated recovered.",
+    "The wolf that the dog that the cat that the mouse startled chased hunted fled.",
+    "The bill that the senator that the lobbyist that the activist pressured influenced drafted passed.",
+    "The report that the editor that the journalist that the source contacted interviewed wrote published.",
+    "The cake that the chef that the student that the teacher trained hired baked disappeared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:25:23.978978+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef the student the teacher trained taught baked vanished.",
+    "The letter the clerk the boy the woman hired helped wrote arrived.",
+    "The bridge the crew the boss the mayor appointed hired built collapsed.",
+    "The song the band the coach the sponsor funded trained recorded spread.",
+    "The plan the team the expert the firm contracted hired devised failed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cake the chef the student the teacher trained taught baked vanished.\",\n    \"The letter the clerk the boy the woman hired helped wrote arrived.\",\n    \"The bridge the crew the boss the mayor appointed hired built collapsed.\",\n    \"The song the band the coach the sponsor funded trained recorded spread.\",\n    \"The plan the team the expert the firm contracted hired devised failed.\"\n  ]\n}\n```",
+  "run_idx": 17
+}

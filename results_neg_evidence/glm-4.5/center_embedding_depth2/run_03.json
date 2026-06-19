@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the proposal the reviewer approved passed",
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the builder constructed sold quickly",
+    "the car the mechanic the owner hired repaired failed"
+  ],
+  "induced_prompt_raw": "Generate a sentence with a nested relative clause modifying the subject, where the inner clause's object is the main clause's subject. Avoid multiple center-embedding.",
+  "induced_prompt": "Generate a sentence with a nested relative clause modifying the subject, where the inner clause's object is the main clause's subject. Avoid multiple center-embedding.",
+  "induced_prompt_chars": 167,
+  "induced_prompt_words": 24,
+  "l1_char_total": 206,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book that I wrote became a bestseller.\",\n    \"The car that I drive needs repairs.\",\n    \"The house that I built survived the storm.\",\n    \"The movie that I directed won several awards.\",\n    \"The cake that I baked was delicious.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book that I wrote became a bestseller.",
+    "The car that I drive needs repairs.",
+    "The house that I built survived the storm.",
+    "The movie that I directed won several awards.",
+    "The cake that I baked was delicious."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:36:22.486750+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the proposal the reviewer approved passed",
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the builder constructed sold quickly"
+  ],
+  "l1_sentences": [
+    "the proposal the reviewer approved passed",
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the builder constructed sold quickly",
+    "the car the mechanic the owner hired repaired failed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the proposal the reviewer approved passed\",\n    \"the cat the dog chased ran\",\n    \"the book the student read was interesting\",\n    \"the house the builder constructed sold quickly\",\n    \"the car the mechanic the owner hired repaired failed\"\n  ]\n}",
+  "run_idx": 3
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the cat the mouse the cheese attracted frightened chased barked",
+    "the car the mechanic the apprentice the customer hired assisted fixed ran",
+    "the letter the professor the student the dean reprimanded impressed wrote arrived",
+    "the film the critic the director the actor surprised convinced reviewed flopped",
+    "the manuscript the editor the writer approached revised circulated"
+  ],
+  "induced_prompt_raw": "**Prompt:**\n\nGenerate a multiply center-embedded sentence using exactly 4 \"the + noun\" phrases listed consecutively, followed by exactly 4 verbs. The verbs resolve from innermost to outermost: the 4th noun takes a transitive verb acting on the 3rd noun, the 3rd on the 2nd, the 2nd on the 1st, and the 1st noun takes an intransitive verb last. The structure must have exactly 4 nouns and 4 verbs — not 3.",
+  "induced_prompt": "**Prompt:**\n\nGenerate a multiply center-embedded sentence using exactly 4 \"the + noun\" phrases listed consecutively, followed by exactly 4 verbs. The verbs resolve from innermost to outermost: the 4th noun takes a transitive verb acting on the 3rd noun, the 3rd on the 2nd, the 2nd on the 1st, and the 1st noun takes an intransitive verb last. The structure must have exactly 4 nouns and 4 verbs — not 3.",
+  "induced_prompt_chars": 404,
+  "induced_prompt_words": 71,
+  "l1_char_total": 370,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The dog the cat the rat the mouse chased scared bit fled.\", \"The man the woman the child the dog chased frightened kissed left.\", \"The farmer the horse the fox the hound pursued cornered startled ran.\", \"The teacher the student the bully the principal summoned scolded helped resigned.\", \"The lion the zebra the gazelle the cheetah pursued startled trampled roared.\"]}\n```",
+  "l2_sentences": [
+    "The dog the cat the rat the mouse chased scared bit fled.",
+    "The man the woman the child the dog chased frightened kissed left.",
+    "The farmer the horse the fox the hound pursued cornered startled ran.",
+    "The teacher the student the bully the principal summoned scolded helped resigned.",
+    "The lion the zebra the gazelle the cheetah pursued startled trampled roared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:19:31.011546+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the dog the cat the mouse the cheese attracted frightened chased barked",
+    "the car the mechanic the apprentice the customer hired assisted fixed ran",
+    "the letter the professor the student the dean reprimanded impressed wrote arrived",
+    "the film the critic the director the actor surprised convinced reviewed flopped"
+  ],
+  "l1_sentences": [
+    "the dog the cat the mouse the cheese attracted frightened chased barked",
+    "the car the mechanic the apprentice the customer hired assisted fixed ran",
+    "the letter the professor the student the dean reprimanded impressed wrote arrived",
+    "the film the critic the director the actor surprised convinced reviewed flopped",
+    "the manuscript the editor the writer approached revised circulated"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the dog the cat the mouse the cheese attracted frightened chased barked\",\n    \"the car the mechanic the apprentice the customer hired assisted fixed ran\",\n    \"the letter the professor the student the dean reprimanded impressed wrote arrived\",\n    \"the film the critic the director the actor surprised convinced reviewed flopped\",\n    \"the manuscript the editor the writer approached revised circulated\"\n  ]\n}\n```",
+  "run_idx": 25
+}

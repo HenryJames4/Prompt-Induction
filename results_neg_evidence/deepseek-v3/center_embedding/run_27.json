@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the critic praised edited released disappeared.",
+    "the cake the baker the chef the judge tasted decorated served crumbled.",
+    "the letter the manager the secretary the intern reviewed signed delivered vanished.",
+    "the car the mechanic the driver the inspector examined repaired tested stalled.",
+    "the dog the cat the bird chased barked ran."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with nested noun phrases where each subsequent noun phrase modifies the previous one, ending with a sequence of verbs that correspond to each noun in reverse order. Ensure all verbs are grammatically correct and maintain a clear, logical sequence without missing or mismatched actions.\"",
+  "induced_prompt": "\"Generate a sentence with nested noun phrases where each subsequent noun phrase modifies the previous one, ending with a sequence of verbs that correspond to each noun in reverse order. Ensure all verbs are grammatically correct and maintain a clear, logical sequence without missing or mismatched actions.\"",
+  "induced_prompt_chars": 307,
+  "induced_prompt_words": 47,
+  "l1_char_total": 357,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book's chapter's plot twist surprised readers.\", \"The chef's recipe's secret ingredient amazed diners.\", \"The artist's painting's intricate details fascinated viewers.\", \"The teacher's lesson's complex concept challenged students.\", \"The engineer's design's innovative features impressed clients.\"]}",
+  "l2_sentences": [
+    "The book's chapter's plot twist surprised readers.",
+    "The chef's recipe's secret ingredient amazed diners.",
+    "The artist's painting's intricate details fascinated viewers.",
+    "The teacher's lesson's complex concept challenged students.",
+    "The engineer's design's innovative features impressed clients."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:21:46.938653+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the critic praised edited released disappeared.",
+    "the cake the baker the chef the judge tasted decorated served crumbled.",
+    "the letter the manager the secretary the intern reviewed signed delivered vanished.",
+    "the car the mechanic the driver the inspector examined repaired tested stalled."
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the critic praised edited released disappeared.",
+    "the cake the baker the chef the judge tasted decorated served crumbled.",
+    "the letter the manager the secretary the intern reviewed signed delivered vanished.",
+    "the car the mechanic the driver the inspector examined repaired tested stalled.",
+    "the dog the cat the bird chased barked ran."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the critic praised edited released disappeared.\", \"the cake the baker the chef the judge tasted decorated served crumbled.\", \"the letter the manager the secretary the intern reviewed signed delivered vanished.\", \"the car the mechanic the driver the inspector examined repaired tested stalled.\", \"the dog the cat the bird chased barked ran.\"]}",
+  "run_idx": 27
+}

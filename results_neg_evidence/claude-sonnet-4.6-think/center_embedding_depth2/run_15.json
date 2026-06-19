@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the proposal the reviewer approved passed",
+    "the law the senator introduced passed",
+    "the book the author wrote sold",
+    "the cake the baker prepared vanished",
+    "the proposal the reviewer the editor hired approved passed"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded reduced relative clause, following the pattern: [NP [NP V] V]. Use only one level of embedding — do not nest additional relative clauses inside the embedded clause.",
+  "induced_prompt": "Write sentences with a single center-embedded reduced relative clause, following the pattern: [NP [NP V] V]. Use only one level of embedding — do not nest additional relative clauses inside the embedded clause.",
+  "induced_prompt_chars": 210,
+  "induced_prompt_words": 33,
+  "l1_char_total": 202,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The book the student read won an award.\", \"The cake the chef baked disappeared quickly.\", \"The letter the secretary typed contained errors.\", \"The car the mechanic fixed broke down again.\", \"The report the manager approved was released yesterday.\"]}\n```",
+  "l2_sentences": [
+    "The book the student read won an award.",
+    "The cake the chef baked disappeared quickly.",
+    "The letter the secretary typed contained errors.",
+    "The car the mechanic fixed broke down again.",
+    "The report the manager approved was released yesterday."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:47:40.815357+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the proposal the reviewer approved passed",
+    "the law the senator introduced passed",
+    "the book the author wrote sold",
+    "the cake the baker prepared vanished"
+  ],
+  "l1_sentences": [
+    "the proposal the reviewer approved passed",
+    "the law the senator introduced passed",
+    "the book the author wrote sold",
+    "the cake the baker prepared vanished",
+    "the proposal the reviewer the editor hired approved passed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the proposal the reviewer approved passed\",\n    \"the law the senator introduced passed\",\n    \"the book the author wrote sold\",\n    \"the cake the baker prepared vanished\",\n    \"the proposal the reviewer the editor hired approved passed\"\n  ]\n}\n```",
+  "run_idx": 15
+}

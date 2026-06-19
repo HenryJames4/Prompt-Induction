@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased ran.",
+    "the book the student read fell.",
+    "the man the woman called arrived.",
+    "the car the mechanic fixed broke.",
+    "the house the builder built burned."
+  ],
+  "induced_prompt_raw": "Reduced relative clause: the [N1] the [N2] [V1] [V2]",
+  "induced_prompt": "Reduced relative clause: the [N1] the [N2] [V1] [V2]",
+  "induced_prompt_chars": 52,
+  "induced_prompt_words": 9,
+  "l1_char_total": 159,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog the owner saw running in the park was a Labrador.\",\n    \"The book the student read and enjoyed yesterday was a bestseller.\",\n    \"The man the police had arrested was a known criminal.\",\n    \"The house the builders were constructing last year won an award.\",\n    \"The car the mechanic fixed and tested yesterday is ready.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog the owner saw running in the park was a Labrador.",
+    "The book the student read and enjoyed yesterday was a bestseller.",
+    "The man the police had arrested was a known criminal.",
+    "The house the builders were constructing last year won an award.",
+    "The car the mechanic fixed and tested yesterday is ready."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:01:15.949152+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased ran.",
+    "the book the student read fell.",
+    "the man the woman called arrived.",
+    "the car the mechanic fixed broke.",
+    "the house the builder built burned."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased ran.\",\n    \"the book the student read fell.\",\n    \"the man the woman called arrived.\",\n    \"the car the mechanic fixed broke.\",\n    \"the house the builder built burned.\"\n  ]\n}\n```",
+  "run_idx": 3
+}

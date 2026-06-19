@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the car the mechanic fixed broke down",
+    "the house the builder constructed sold quickly",
+    "the movie the critic the director watched reviewed received awards"
+  ],
+  "induced_prompt_raw": "Generate a single sentence with a nested relative clause modifying the subject, where the embedded clause has only one verb.",
+  "induced_prompt": "Generate a single sentence with a nested relative clause modifying the subject, where the embedded clause has only one verb.",
+  "induced_prompt_chars": 124,
+  "induced_prompt_words": 20,
+  "l1_char_total": 216,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book that sits on the table belongs to me.\",\n    \"The woman who lives next door is a doctor.\",\n    \"The car that parked in front of the house is red.\",\n    \"The dog that barks loudly is mine.\",\n    \"The man who spoke at the conference is famous.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book that sits on the table belongs to me.",
+    "The woman who lives next door is a doctor.",
+    "The car that parked in front of the house is red.",
+    "The dog that barks loudly is mine.",
+    "The man who spoke at the conference is famous."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:56:28.848765+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the car the mechanic fixed broke down",
+    "the house the builder constructed sold quickly"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the car the mechanic fixed broke down",
+    "the house the builder constructed sold quickly",
+    "the movie the critic the director watched reviewed received awards"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased ran\",\n    \"the book the student read was interesting\",\n    \"the car the mechanic fixed broke down\",\n    \"the house the builder constructed sold quickly\",\n    \"the movie the critic the director watched reviewed received awards\"\n  ]\n}",
+  "run_idx": 25
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the package the courier the manager the CEO approved dispatched tracked arrived",
+    "the novel the author the editor the publisher the agent signed accepted revised released",
+    "the bridge the engineer the contractor the inspector the mayor approved built tested opened",
+    "the meal the chef the critic the guest the host invited praised prepared enjoyed",
+    "the letter the lawyer the client signed approved sent"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly 4 levels of nesting, where 4 noun phrases are followed by 4 verbs in reverse order of their associated nouns. Do not use fewer than 4 levels of embedding.",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly 4 levels of nesting, where 4 noun phrases are followed by 4 verbs in reverse order of their associated nouns. Do not use fewer than 4 levels of embedding.",
+  "induced_prompt_chars": 216,
+  "induced_prompt_words": 37,
+  "l1_char_total": 391,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog the rat the mouse chased caught bit scratched the owner.\", \"The book the student the teacher the principal hired assigned read impressed the board.\", \"The cake the chef the critic the editor interviewed praised baked delighted the guests.\", \"The song the band the manager the investor funded promoted recorded thrilled the fans.\", \"The letter the clerk the lawyer the judge appointed reviewed wrote confused the jury.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog the rat the mouse chased caught bit scratched the owner.",
+    "The book the student the teacher the principal hired assigned read impressed the board.",
+    "The cake the chef the critic the editor interviewed praised baked delighted the guests.",
+    "The song the band the manager the investor funded promoted recorded thrilled the fans.",
+    "The letter the clerk the lawyer the judge appointed reviewed wrote confused the jury."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:50:54.367372+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the package the courier the manager the CEO approved dispatched tracked arrived",
+    "the novel the author the editor the publisher the agent signed accepted revised released",
+    "the bridge the engineer the contractor the inspector the mayor approved built tested opened",
+    "the meal the chef the critic the guest the host invited praised prepared enjoyed"
+  ],
+  "l1_sentences": [
+    "the package the courier the manager the CEO approved dispatched tracked arrived",
+    "the novel the author the editor the publisher the agent signed accepted revised released",
+    "the bridge the engineer the contractor the inspector the mayor approved built tested opened",
+    "the meal the chef the critic the guest the host invited praised prepared enjoyed",
+    "the letter the lawyer the client signed approved sent"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the package the courier the manager the CEO approved dispatched tracked arrived\", \"the novel the author the editor the publisher the agent signed accepted revised released\", \"the bridge the engineer the contractor the inspector the mayor approved built tested opened\", \"the meal the chef the critic the guest the host invited praised prepared enjoyed\", \"the letter the lawyer the client signed approved sent\"]}\n```",
+  "run_idx": 7
+}

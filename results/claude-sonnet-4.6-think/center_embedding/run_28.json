@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The book the author the editor the critic praised hired wrote sold.",
+    "The cake the baker the chef the apprentice assisted trained baked burned.",
+    "The letter the secretary the manager the director contacted instructed typed arrived.",
+    "The trophy the winner the judge the sponsor funded selected received gleamed.",
+    "The meal the cook the assistant the customer approached summoned prepared cooled."
+  ],
+  "induced_prompt_raw": "Write sentences with triple center-embedded relative clauses, where four noun phrases are followed by four verbs in reverse order.",
+  "induced_prompt": "Write sentences with triple center-embedded relative clauses, where four noun phrases are followed by four verbs in reverse order.",
+  "induced_prompt_chars": 130,
+  "induced_prompt_words": 19,
+  "l1_char_total": 383,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat the cat the dog the man owned chased killed ate the malt.\",\n    \"The book the student the teacher the professor praised taught read won an award.\",\n    \"The letter the secretary the manager the director hired trained wrote arrived late.\",\n    \"The song the musician the producer the label signed discovered recorded became famous.\",\n    \"The report the intern the editor the publisher hired supervised wrote impressed everyone.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man owned chased killed ate the malt.",
+    "The book the student the teacher the professor praised taught read won an award.",
+    "The letter the secretary the manager the director hired trained wrote arrived late.",
+    "The song the musician the producer the label signed discovered recorded became famous.",
+    "The report the intern the editor the publisher hired supervised wrote impressed everyone."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:32:59.701545+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The book the author the editor the critic praised hired wrote sold.",
+    "The cake the baker the chef the apprentice assisted trained baked burned.",
+    "The letter the secretary the manager the director contacted instructed typed arrived.",
+    "The trophy the winner the judge the sponsor funded selected received gleamed.",
+    "The meal the cook the assistant the customer approached summoned prepared cooled."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The book the author the editor the critic praised hired wrote sold.\",\n    \"The cake the baker the chef the apprentice assisted trained baked burned.\",\n    \"The letter the secretary the manager the director contacted instructed typed arrived.\",\n    \"The trophy the winner the judge the sponsor funded selected received gleamed.\",\n    \"The meal the cook the assistant the customer approached summoned prepared cooled.\"\n  ]\n}\n```",
+  "run_idx": 28
+}

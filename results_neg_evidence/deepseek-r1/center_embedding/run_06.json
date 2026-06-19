@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the man the woman the child followed observed trained barked.",
+    "the cake the baker the chef the apprentice helped instructed decorated collapsed.",
+    "the letter the secretary the manager the intern assisted supervised mailed arrived.",
+    "the car the driver the mechanic the owner hired assisted drove broke.",
+    "the book the student the teacher recommended read arrived."
+  ],
+  "induced_prompt_raw": null,
+  "induced_prompt": null,
+  "induced_prompt_chars": null,
+  "induced_prompt_words": null,
+  "l1_char_total": null,
+  "prompt_shorter_than_l1": null,
+  "l2_raw": null,
+  "l2_sentences": [],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:50:00.510479+00:00",
+  "error": "Model deepseek/deepseek-r1 returned an empty response.",
+  "induction_input_correct": [
+    "the dog the man the woman the child followed observed trained barked.",
+    "the cake the baker the chef the apprentice helped instructed decorated collapsed.",
+    "the letter the secretary the manager the intern assisted supervised mailed arrived.",
+    "the car the driver the mechanic the owner hired assisted drove broke."
+  ],
+  "l1_sentences": [
+    "the dog the man the woman the child followed observed trained barked.",
+    "the cake the baker the chef the apprentice helped instructed decorated collapsed.",
+    "the letter the secretary the manager the intern assisted supervised mailed arrived.",
+    "the car the driver the mechanic the owner hired assisted drove broke.",
+    "the book the student the teacher recommended read arrived."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the man the woman the child followed observed trained barked.\", \"the cake the baker the chef the apprentice helped instructed decorated collapsed.\", \"the letter the secretary the manager the intern assisted supervised mailed arrived.\", \"the car the driver the mechanic the owner hired assisted drove broke.\", \"the book the student the teacher recommended read arrived.\"]}",
+  "run_idx": 6
+}

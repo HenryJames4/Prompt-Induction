@@ -1,0 +1,44 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed sent disappeared.",
+    "the document the clerk the supervisor the director examined approved forwarded vanished.",
+    "the email the intern the assistant the manager the director received forwarded approved disappeared.",
+    "the story the writer the editor the publisher the reader admired published released remained."
+  ],
+  "induced_prompt_raw": "Generate a sentence where a noun phrase is followed by a chain of nested clauses describing actions performed by successive agents, ending with a final verb indicating disappearance or loss.",
+  "induced_prompt": "Generate a sentence where a noun phrase is followed by a chain of nested clauses describing actions performed by successive agents, ending with a final verb indicating disappearance or loss.",
+  "induced_prompt_chars": 190,
+  "induced_prompt_words": 30,
+  "l1_char_total": 443,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book, which the student had borrowed from the library, which the librarian had checked out to her, which the teacher had assigned to the class, which the principal had approved for use, vanished from the desk during the final exam.\"] }",
+  "l2_sentences": [
+    "The book, which the student had borrowed from the library, which the librarian had checked out to her, which the teacher had assigned to the class, which the principal had approved for use, vanished from the desk during the final exam."
+  ],
+  "l2_parse_warnings": [
+    "JSON response had 1 sentences; expected 5."
+  ],
+  "timestamp": "2026-06-14T13:03:01.799159+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed sent disappeared.",
+    "the document the clerk the supervisor the director examined approved forwarded vanished.",
+    "the email the intern the assistant the manager the director received forwarded approved disappeared."
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed sent disappeared.",
+    "the document the clerk the supervisor the director examined approved forwarded vanished.",
+    "the email the intern the assistant the manager the director received forwarded approved disappeared.",
+    "the story the writer the editor the publisher the reader admired published released remained."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian borrowed read returned vanished.\", \"the letter the secretary the manager the director reviewed signed sent disappeared.\", \"the document the clerk the supervisor the director examined approved forwarded vanished.\", \"the email the intern the assistant the manager the director received forwarded approved disappeared.\", \"the story the writer the editor the publisher the reader admired published released remained.\"]}",
+  "run_idx": 15
+}

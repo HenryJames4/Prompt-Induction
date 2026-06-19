@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the mouse the cheese chased caught ate disappeared",
+    "the book the student the teacher the principal read reviewed approved vanished",
+    "the cake the baker the chef the guest baked decorated served disappeared",
+    "the car the driver the mechanic the owner fixed tested sold vanished",
+    "the letter the writer the editor the publisher drafted revised printed disappeared"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a nested syntactic structure where each noun is followed by a verb in a chain, ending with a final verb.\"",
+  "induced_prompt": "\"Generate sentences with a nested syntactic structure where each noun is followed by a verb in a chain, ending with a final verb.\"",
+  "induced_prompt_chars": 130,
+  "induced_prompt_words": 23,
+  "l1_char_total": 366,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat chases the mouse runs jumps.\", \"The teacher instructs the student writes reads.\", \"The chef prepares the dish cooks serves.\", \"The artist paints the canvas displays attracts.\", \"The gardener plants the flower grows blooms.\"]}",
+  "l2_sentences": [
+    "The cat chases the mouse runs jumps.",
+    "The teacher instructs the student writes reads.",
+    "The chef prepares the dish cooks serves.",
+    "The artist paints the canvas displays attracts.",
+    "The gardener plants the flower grows blooms."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:17:20.547036+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the mouse the cheese chased caught ate disappeared",
+    "the book the student the teacher the principal read reviewed approved vanished",
+    "the cake the baker the chef the guest baked decorated served disappeared",
+    "the car the driver the mechanic the owner fixed tested sold vanished",
+    "the letter the writer the editor the publisher drafted revised printed disappeared"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cat the dog the mouse the cheese chased caught ate disappeared\", \"the book the student the teacher the principal read reviewed approved vanished\", \"the cake the baker the chef the guest baked decorated served disappeared\", \"the car the driver the mechanic the owner fixed tested sold vanished\", \"the letter the writer the editor the publisher drafted revised printed disappeared\"]}",
+  "run_idx": 9
+}

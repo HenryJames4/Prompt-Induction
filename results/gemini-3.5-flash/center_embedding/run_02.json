@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the client the lawyer the clerk the typist assisted hired defended won",
+    "the student the teacher the principal the superintendent suspended questioned praised graduated",
+    "the patient the doctor the nurse the trainee assisted instructed treated survived",
+    "the child the mother the grandmother the neighbor visited comforted scolded cried",
+    "the customer the waiter the chef the manager trained supervised served tipped"
+  ],
+  "induced_prompt_raw": "Generate a sentence with four nested relative clauses following the syntactic structure: [Noun 1] + [Noun 2] + [Noun 3] + [Noun 4] + [Verb 4] + [Verb 3] + [Verb 2] + [Verb 1].",
+  "induced_prompt": "Generate a sentence with four nested relative clauses following the syntactic structure: [Noun 1] + [Noun 2] + [Noun 3] + [Noun 4] + [Verb 4] + [Verb 3] + [Verb 2] + [Verb 1].",
+  "induced_prompt_chars": 175,
+  "induced_prompt_words": 35,
+  "l1_char_total": 404,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cheese the rat the cat the dog chased caught ate smelled.\",\n    \"The report the intern the analyst the manager hired trained reviewed filed was excellent.\",\n    \"The program the computer the technician the engineer called fixed ran crashed.\",\n    \"The song the singer the guitarist the band selected practiced performed dominated the charts.\",\n    \"The letter the boy the girl the teacher helped wrote mailed arrived late.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cheese the rat the cat the dog chased caught ate smelled.",
+    "The report the intern the analyst the manager hired trained reviewed filed was excellent.",
+    "The program the computer the technician the engineer called fixed ran crashed.",
+    "The song the singer the guitarist the band selected practiced performed dominated the charts.",
+    "The letter the boy the girl the teacher helped wrote mailed arrived late."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:16:22.665224+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the client the lawyer the clerk the typist assisted hired defended won",
+    "the student the teacher the principal the superintendent suspended questioned praised graduated",
+    "the patient the doctor the nurse the trainee assisted instructed treated survived",
+    "the child the mother the grandmother the neighbor visited comforted scolded cried",
+    "the customer the waiter the chef the manager trained supervised served tipped"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the client the lawyer the clerk the typist assisted hired defended won\",\n    \"the student the teacher the principal the superintendent suspended questioned praised graduated\",\n    \"the patient the doctor the nurse the trainee assisted instructed treated survived\",\n    \"the child the mother the grandmother the neighbor visited comforted scolded cried\",\n    \"the customer the waiter the chef the manager trained supervised served tipped\"\n  ]\n}",
+  "run_idx": 2
+}

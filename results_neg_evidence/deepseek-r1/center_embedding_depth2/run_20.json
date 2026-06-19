@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy chased barked.",
+    "The cake the baker made rose.",
+    "The book the author wrote sold.",
+    "The song the singer performed ended.",
+    "The professor the student the class admired introduced spoke."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence structured as 'The [Noun1] the [Noun2] [Verb2] [Verb1]', using exactly one relative clause without nested clauses or embeddings.\"",
+  "induced_prompt": "\"Generate a sentence structured as 'The [Noun1] the [Noun2] [Verb2] [Verb1]', using exactly one relative clause without nested clauses or embeddings.\"",
+  "induced_prompt_chars": 150,
+  "induced_prompt_words": 21,
+  "l1_char_total": 187,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the cat chased barked.\",\n    \"The cake the baker decorated collapsed.\",\n    \"The car the mechanic fixed started.\",\n    \"The book the student read inspired.\",\n    \"The bird the child rescued flew.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the cat chased barked.",
+    "The cake the baker decorated collapsed.",
+    "The car the mechanic fixed started.",
+    "The book the student read inspired.",
+    "The bird the child rescued flew."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:53:03.215499+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy chased barked.",
+    "The cake the baker made rose.",
+    "The book the author wrote sold.",
+    "The song the singer performed ended."
+  ],
+  "l1_sentences": [
+    "The dog the boy chased barked.",
+    "The cake the baker made rose.",
+    "The book the author wrote sold.",
+    "The song the singer performed ended.",
+    "The professor the student the class admired introduced spoke."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the boy chased barked.\", \"The cake the baker made rose.\", \"The book the author wrote sold.\", \"The song the singer performed ended.\", \"The professor the student the class admired introduced spoke.\"]}",
+  "run_idx": 20
+}

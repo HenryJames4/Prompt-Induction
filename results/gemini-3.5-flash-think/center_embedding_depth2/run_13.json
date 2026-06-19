@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the student the teacher praised graduated",
+    "the car the mechanic repaired crashed",
+    "the chef the critic insulted quit",
+    "the dog the boy chased barked",
+    "the artist the patron hired painted"
+  ],
+  "induced_prompt_raw": "Generate sentences with the grammatical structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\" using past-tense verbs.",
+  "induced_prompt": "Generate sentences with the grammatical structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\" using past-tense verbs.",
+  "induced_prompt_chars": 136,
+  "induced_prompt_words": 17,
+  "l1_char_total": 175,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat the dog chased ran.\",\n    \"The letter the boy wrote arrived.\",\n    \"The cake the baker made fell.\",\n    \"The toy the child lost appeared.\",\n    \"The ship the captain steered sank.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat the dog chased ran.",
+    "The letter the boy wrote arrived.",
+    "The cake the baker made fell.",
+    "The toy the child lost appeared.",
+    "The ship the captain steered sank."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:39:45.354218+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the student the teacher praised graduated",
+    "the car the mechanic repaired crashed",
+    "the chef the critic insulted quit",
+    "the dog the boy chased barked",
+    "the artist the patron hired painted"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the student the teacher praised graduated\",\n    \"the car the mechanic repaired crashed\",\n    \"the chef the critic insulted quit\",\n    \"the dog the boy chased barked\",\n    \"the artist the patron hired painted\"\n  ]\n}",
+  "run_idx": 13
+}

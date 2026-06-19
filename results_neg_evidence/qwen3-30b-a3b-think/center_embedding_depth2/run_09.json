@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold",
+    "the idea the scientist proposed succeeded",
+    "the plan the committee approved failed",
+    "the story the writer told ended",
+    "the book the author the editor read sold was"
+  ],
+  "induced_prompt_raw": "Noun as object in relative clause then main verb",
+  "induced_prompt": "Noun as object in relative clause then main verb",
+  "induced_prompt_chars": 48,
+  "induced_prompt_words": 9,
+  "l1_char_total": 184,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I read was fascinating.\", \"The painting that she created sold quickly.\", \"The car that he fixed runs perfectly.\", \"The cake that we baked tasted wonderful.\", \"The song that they wrote became popular.\"]}",
+  "l2_sentences": [
+    "The book that I read was fascinating.",
+    "The painting that she created sold quickly.",
+    "The car that he fixed runs perfectly.",
+    "The cake that we baked tasted wonderful.",
+    "The song that they wrote became popular."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:42:03.743507+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold",
+    "the idea the scientist proposed succeeded",
+    "the plan the committee approved failed",
+    "the story the writer told ended"
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold",
+    "the idea the scientist proposed succeeded",
+    "the plan the committee approved failed",
+    "the story the writer told ended",
+    "the book the author the editor read sold was"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold\", \"the idea the scientist proposed succeeded\", \"the plan the committee approved failed\", \"the story the writer told ended\", \"the book the author the editor read sold was\"]}",
+  "run_idx": 9
+}

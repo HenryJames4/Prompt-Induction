@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the letter the manager signed arrived",
+    "the book the student borrowed disappeared",
+    "the cake the chef baked vanished",
+    "the report the analyst wrote impressed",
+    "the memo the boss the secretary the intern helped hired signed circulated"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (subject + relative clause + main verb), where one noun is modified by a clause describing who acted on it. Avoid multiple nested relative clauses that cause ambiguity or ungrammaticality.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (subject + relative clause + main verb), where one noun is modified by a clause describing who acted on it. Avoid multiple nested relative clauses that cause ambiguity or ungrammaticality.",
+  "induced_prompt_chars": 250,
+  "induced_prompt_words": 38,
+  "l1_char_total": 221,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that the professor recommended became a bestseller.\", \"The scientist that the committee selected won a prestigious award.\", \"The letter that the manager wrote confused the entire staff.\", \"The dog that the child found followed her home.\", \"The painting that the artist donated now hangs in the museum.\"]}\n```",
+  "l2_sentences": [
+    "The book that the professor recommended became a bestseller.",
+    "The scientist that the committee selected won a prestigious award.",
+    "The letter that the manager wrote confused the entire staff.",
+    "The dog that the child found followed her home.",
+    "The painting that the artist donated now hangs in the museum."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:41:37.823967+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the letter the manager signed arrived",
+    "the book the student borrowed disappeared",
+    "the cake the chef baked vanished",
+    "the report the analyst wrote impressed"
+  ],
+  "l1_sentences": [
+    "the letter the manager signed arrived",
+    "the book the student borrowed disappeared",
+    "the cake the chef baked vanished",
+    "the report the analyst wrote impressed",
+    "the memo the boss the secretary the intern helped hired signed circulated"
+  ],
+  "l1_raw": "{\"sentences\": [\"the letter the manager signed arrived\", \"the book the student borrowed disappeared\", \"the cake the chef baked vanished\", \"the report the analyst wrote impressed\", \"the memo the boss the secretary the intern helped hired signed circulated\"]}",
+  "run_idx": 8
+}

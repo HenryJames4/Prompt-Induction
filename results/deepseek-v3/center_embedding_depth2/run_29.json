@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased fled",
+    "the book the student read impressed",
+    "the car the mechanic fixed drove",
+    "the cake the baker made sold",
+    "the song the singer performed resonated"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a nested relative clause structure: [noun1] [noun2] [verb1] [verb2].\"",
+  "induced_prompt": "\"Generate sentences with a nested relative clause structure: [noun1] [noun2] [verb1] [verb2].\"",
+  "induced_prompt_chars": 94,
+  "induced_prompt_words": 12,
+  "l1_char_total": 161,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The teacher the students admired started lecturing.\", \"The dog the boy fed barked loudly.\", \"The car the mechanic repaired broke down again.\", \"The book the author wrote became a bestseller.\", \"The cake the baker decorated tasted delicious.\"]}",
+  "l2_sentences": [
+    "The teacher the students admired started lecturing.",
+    "The dog the boy fed barked loudly.",
+    "The car the mechanic repaired broke down again.",
+    "The book the author wrote became a bestseller.",
+    "The cake the baker decorated tasted delicious."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:32:26.897045+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased fled",
+    "the book the student read impressed",
+    "the car the mechanic fixed drove",
+    "the cake the baker made sold",
+    "the song the singer performed resonated"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cat the dog chased fled\", \"the book the student read impressed\", \"the car the mechanic fixed drove\", \"the cake the baker made sold\", \"the song the singer performed resonated\"]}",
+  "run_idx": 29
+}

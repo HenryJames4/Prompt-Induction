@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the critic tasted judged baked vanished.",
+    "the letter the lawyer the clerk the judge wrote reviewed signed delivered.",
+    "the novel the author the agent the publisher submitted reviewed accepted launched.",
+    "the bridge the engineer the mayor the worker designed approved built collapsed.",
+    "the song the singer the producer the label recorded mixed approved released."
+  ],
+  "induced_prompt_raw": "Write sentences with multiply center-embedded relative clauses where each noun is acted upon by the next agent in a chain, ending with a final intransitive verb.",
+  "induced_prompt": "Write sentences with multiply center-embedded relative clauses where each noun is acted upon by the next agent in a chain, ending with a final intransitive verb.",
+  "induced_prompt_chars": 161,
+  "induced_prompt_words": 26,
+  "l1_char_total": 381,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat the cat the dog chased caught ate.\",\n    \"The cake the chef the critic the editor praised interviewed baked crumbled.\",\n    \"The bone the dog the child the woman the man loved married raised found buried.\",\n    \"The fish the shark the diver the boat the storm wrecked carried spotted hunted swallowed.\",\n    \"The letter the lawyer the judge the clerk the bailiff the officer the chief appointed hired summoned escorted supervised signed arrived.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog chased caught ate.",
+    "The cake the chef the critic the editor praised interviewed baked crumbled.",
+    "The bone the dog the child the woman the man loved married raised found buried.",
+    "The fish the shark the diver the boat the storm wrecked carried spotted hunted swallowed.",
+    "The letter the lawyer the judge the clerk the bailiff the officer the chief appointed hired summoned escorted supervised signed arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:22:35.456235+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the critic tasted judged baked vanished.",
+    "the letter the lawyer the clerk the judge wrote reviewed signed delivered.",
+    "the novel the author the agent the publisher submitted reviewed accepted launched.",
+    "the bridge the engineer the mayor the worker designed approved built collapsed.",
+    "the song the singer the producer the label recorded mixed approved released."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the student the critic tasted judged baked vanished.\", \"the letter the lawyer the clerk the judge wrote reviewed signed delivered.\", \"the novel the author the agent the publisher submitted reviewed accepted launched.\", \"the bridge the engineer the mayor the worker designed approved built collapsed.\", \"the song the singer the producer the label recorded mixed approved released.\"]}\n```",
+  "run_idx": 12
+}

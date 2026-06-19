@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the student the teacher borrowed wrote published vanished",
+    "the cake the baker the customer the child ordered decorated delivered disappeared",
+    "the letter the writer the editor the manager drafted reviewed approved vanished",
+    "the project the engineer the client the CEO designed implemented launched vanished",
+    "the song the musician the producer the audience composed recorded performed vanished"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested noun phrases following the pattern: [object] [creator] [recipient] [agent] [action1] [action2] [action3] [final action].\"",
+  "induced_prompt": "\"Generate sentences with nested noun phrases following the pattern: [object] [creator] [recipient] [agent] [action1] [action2] [action3] [final action].\"",
+  "induced_prompt_chars": 153,
+  "induced_prompt_words": 18,
+  "l1_char_total": 403,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book the author the publisher the editor reviewed revised approved published.\", \"The painting the artist the gallery the curator examined framed displayed unveiled.\", \"The software the developer the client the tester debugged optimized deployed launched.\", \"The sculpture the sculptor the museum the director polished mounted showcased celebrated.\", \"The film the director the studio the producer edited promoted premiered screened.\"]}",
+  "l2_sentences": [
+    "The book the author the publisher the editor reviewed revised approved published.",
+    "The painting the artist the gallery the curator examined framed displayed unveiled.",
+    "The software the developer the client the tester debugged optimized deployed launched.",
+    "The sculpture the sculptor the museum the director polished mounted showcased celebrated.",
+    "The film the director the studio the producer edited promoted premiered screened."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:14:55.652968+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the student the teacher borrowed wrote published vanished",
+    "the cake the baker the customer the child ordered decorated delivered disappeared",
+    "the letter the writer the editor the manager drafted reviewed approved vanished",
+    "the project the engineer the client the CEO designed implemented launched vanished",
+    "the song the musician the producer the audience composed recorded performed vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the student the teacher borrowed wrote published vanished\", \"the cake the baker the customer the child ordered decorated delivered disappeared\", \"the letter the writer the editor the manager drafted reviewed approved vanished\", \"the project the engineer the client the CEO designed implemented launched vanished\", \"the song the musician the producer the audience composed recorded performed vanished\"]}",
+  "run_idx": 8
+}

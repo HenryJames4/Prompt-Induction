@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the child walked barked.",
+    "the cake the chef baked cooled.",
+    "the car the driver drove crashed.",
+    "the book the student read closed.",
+    "the song the artist composed played."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence: the [noun1] the [noun2] [transitive_verb_past] [intransitive_verb_past].\"",
+  "induced_prompt": "\"Generate a sentence: the [noun1] the [noun2] [transitive_verb_past] [intransitive_verb_past].\"",
+  "induced_prompt_chars": 95,
+  "induced_prompt_words": 9,
+  "l1_char_total": 165,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the mouse chased slept.\", \"The wind the leaves scattered howled.\", \"The chef the dough kneaded laughed.\", \"The child the toy broke cried.\", \"The storm the ship sank passed.\"]}",
+  "l2_sentences": [
+    "The cat the mouse chased slept.",
+    "The wind the leaves scattered howled.",
+    "The chef the dough kneaded laughed.",
+    "The child the toy broke cried.",
+    "The storm the ship sank passed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:00:16.281354+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the child walked barked.",
+    "the cake the chef baked cooled.",
+    "the car the driver drove crashed.",
+    "the book the student read closed.",
+    "the song the artist composed played."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the child walked barked.\", \"the cake the chef baked cooled.\", \"the car the driver drove crashed.\", \"the book the student read closed.\", \"the song the artist composed played.\"]}",
+  "run_idx": 1
+}

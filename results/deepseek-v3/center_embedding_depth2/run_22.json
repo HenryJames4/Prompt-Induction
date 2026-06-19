@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the author wrote sold",
+    "the cake the baker prepared baked",
+    "the song the singer composed played",
+    "the film the director shot screened",
+    "the letter the student wrote mailed"
+  ],
+  "induced_prompt_raw": "\"Generate sentences in the form: 'the [object] the [person] [past tense verb] [past tense verb]'.\"",
+  "induced_prompt": "\"Generate sentences in the form: 'the [object] the [person] [past tense verb] [past tense verb]'.\"",
+  "induced_prompt_chars": 98,
+  "induced_prompt_words": 15,
+  "l1_char_total": 168,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the book the student read enjoyed\", \"the car the driver repaired fixed\", \"the cake the baker baked decorated\", \"the painting the artist created admired\", \"the song the musician composed performed\"]}",
+  "l2_sentences": [
+    "the book the student read enjoyed",
+    "the car the driver repaired fixed",
+    "the cake the baker baked decorated",
+    "the painting the artist created admired",
+    "the song the musician composed performed"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:23:43.150309+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author wrote sold",
+    "the cake the baker prepared baked",
+    "the song the singer composed played",
+    "the film the director shot screened",
+    "the letter the student wrote mailed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold\", \"the cake the baker prepared baked\", \"the song the singer composed played\", \"the film the director shot screened\", \"the letter the student wrote mailed\"]}",
+  "run_idx": 22
+}

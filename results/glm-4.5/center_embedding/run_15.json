@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the mouse the elephant chased hunted escaped disappeared.",
+    "the book the teacher the student the principal read borrowed returned lost.",
+    "the car the driver the passenger the mechanic repaired washed parked sold.",
+    "the house the owner the tenant the inspector built cleaned visited approved.",
+    "the computer the programmer the user the technician designed tested fixed upgraded."
+  ],
+  "induced_prompt_raw": "A sequence of four nouns followed by four past-tense verbs.",
+  "induced_prompt": "A sequence of four nouns followed by four past-tense verbs.",
+  "induced_prompt_chars": 59,
+  "induced_prompt_words": 10,
+  "l1_char_total": 381,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"Cats dogs birds mice ran jumped flew slept.\",\n    \"Books pens papers desks wrote drew read organized.\",\n    \"Cars trains planes bicycles drove sailed flew pedaled.\",\n    \"Houses buildings bridges roads constructed collapsed repaired expanded.\",\n    \"Teachers students doctors nurses taught studied diagnosed cared.\"\n  ]\n}",
+  "l2_sentences": [
+    "Cats dogs birds mice ran jumped flew slept.",
+    "Books pens papers desks wrote drew read organized.",
+    "Cars trains planes bicycles drove sailed flew pedaled.",
+    "Houses buildings bridges roads constructed collapsed repaired expanded.",
+    "Teachers students doctors nurses taught studied diagnosed cared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:28:07.934412+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the mouse the elephant chased hunted escaped disappeared.",
+    "the book the teacher the student the principal read borrowed returned lost.",
+    "the car the driver the passenger the mechanic repaired washed parked sold.",
+    "the house the owner the tenant the inspector built cleaned visited approved.",
+    "the computer the programmer the user the technician designed tested fixed upgraded."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the mouse the elephant chased hunted escaped disappeared.\",\n    \"the book the teacher the student the principal read borrowed returned lost.\",\n    \"the car the driver the passenger the mechanic repaired washed parked sold.\",\n    \"the house the owner the tenant the inspector built cleaned visited approved.\",\n    \"the computer the programmer the user the technician designed tested fixed upgraded.\"\n  ]\n}",
+  "run_idx": 15
+}

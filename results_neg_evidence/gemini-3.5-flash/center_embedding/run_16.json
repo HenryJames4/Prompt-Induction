@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The car the mechanic the apprentice the owner hired trained repaired crashed.",
+    "The song the singer the producer the director hired convinced sang failed.",
+    "The house the builder the architect the client chose hired designed collapsed.",
+    "The cake the baker the assistant helped decorated fell."
+  ],
+  "induced_prompt_raw": "Generate a sentence featuring a quadruple center-embedding (three nested relative clauses) with four subjects followed by four verbs that resolve the clauses in reverse order (e.g., N1 N2 N3 N4 V4 V3 V2 V1). Do not truncate the structure or omit the final verbs, as seen in incomplete triple center-embeddings (e.g., N1 N2 N3 V3 V2 V1).",
+  "induced_prompt": "Generate a sentence featuring a quadruple center-embedding (three nested relative clauses) with four subjects followed by four verbs that resolve the clauses in reverse order (e.g., N1 N2 N3 N4 V4 V3 V2 V1). Do not truncate the structure or omit the final verbs, as seen in incomplete triple center-embeddings (e.g., N1 N2 N3 V3 V2 V1).",
+  "induced_prompt_chars": 336,
+  "induced_prompt_words": 57,
+  "l1_char_total": 361,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The surgeon the patient the nurse the doctor called watched thanked smiled.\",\n    \"The cheese the rat the cat the dog chased caught ate smelled.\",\n    \"The software the developer the tester the manager hired questioned debugged failed.\",\n    \"The book the student the teacher the principal praised recommended read fell.\",\n    \"The song the singer the guitarist the drummer joined accompanied performed ended.\"\n  ]\n}",
+  "l2_sentences": [
+    "The surgeon the patient the nurse the doctor called watched thanked smiled.",
+    "The cheese the rat the cat the dog chased caught ate smelled.",
+    "The software the developer the tester the manager hired questioned debugged failed.",
+    "The book the student the teacher the principal praised recommended read fell.",
+    "The song the singer the guitarist the drummer joined accompanied performed ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:05:04.052844+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The car the mechanic the apprentice the owner hired trained repaired crashed.",
+    "The song the singer the producer the director hired convinced sang failed.",
+    "The house the builder the architect the client chose hired designed collapsed."
+  ],
+  "l1_sentences": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The car the mechanic the apprentice the owner hired trained repaired crashed.",
+    "The song the singer the producer the director hired convinced sang failed.",
+    "The house the builder the architect the client chose hired designed collapsed.",
+    "The cake the baker the assistant helped decorated fell."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the principal praised recommended read lost.\",\n    \"The car the mechanic the apprentice the owner hired trained repaired crashed.\",\n    \"The song the singer the producer the director hired convinced sang failed.\",\n    \"The house the builder the architect the client chose hired designed collapsed.\",\n    \"The cake the baker the assistant helped decorated fell.\"\n  ]\n}",
+  "run_idx": 16
+}

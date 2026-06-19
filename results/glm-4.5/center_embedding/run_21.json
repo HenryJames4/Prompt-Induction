@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the bird the mouse chased hunted caught escaped.",
+    "the book the teacher the student the principal assigned read discussed returned.",
+    "the car the driver the passenger the mechanic repaired inspected drove crashed.",
+    "the house the owner the tenant the builder designed constructed sold renovated.",
+    "the computer the programmer the user the technician created tested fixed upgraded."
+  ],
+  "induced_prompt_raw": "A sequence of nouns followed by a sequence of verbs.",
+  "induced_prompt": "A sequence of nouns followed by a sequence of verbs.",
+  "induced_prompt_chars": 52,
+  "induced_prompt_words": 10,
+  "l1_char_total": 384,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"Cats dogs birds ran jumped flew.\",\n    \"Books pens papers wrote read tore.\",\n    \"Cars trains planes drove sped soared.\",\n    \"Water fire ice flowed burned froze.\",\n    \"Children adults teachers learned taught played.\"\n  ]\n}",
+  "l2_sentences": [
+    "Cats dogs birds ran jumped flew.",
+    "Books pens papers wrote read tore.",
+    "Cars trains planes drove sped soared.",
+    "Water fire ice flowed burned froze.",
+    "Children adults teachers learned taught played."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:40:04.868276+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the bird the mouse chased hunted caught escaped.",
+    "the book the teacher the student the principal assigned read discussed returned.",
+    "the car the driver the passenger the mechanic repaired inspected drove crashed.",
+    "the house the owner the tenant the builder designed constructed sold renovated.",
+    "the computer the programmer the user the technician created tested fixed upgraded."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the bird the mouse chased hunted caught escaped.\",\n    \"the book the teacher the student the principal assigned read discussed returned.\",\n    \"the car the driver the passenger the mechanic repaired inspected drove crashed.\",\n    \"the house the owner the tenant the builder designed constructed sold renovated.\",\n    \"the computer the programmer the user the technician created tested fixed upgraded.\"\n  ]\n}",
+  "run_idx": 21
+}

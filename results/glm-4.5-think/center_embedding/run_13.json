@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the car the driver the officer the chief stopped ticketed fired retired",
+    "the ball the player the coach the owner threw trained hired sold",
+    "the exam the student the teacher the principal failed took graded suspended",
+    "the package the courier the company the owner delivered paid hired fired",
+    "the tree the squirrel the child the parent climbed chased called fed"
+  ],
+  "induced_prompt_raw": "Chain of events: four nouns then four verbs.",
+  "induced_prompt": "Chain of events: four nouns then four verbs.",
+  "induced_prompt_chars": 44,
+  "induced_prompt_words": 8,
+  "l1_char_total": 350,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The storm, lightning, thunder, and wind raged, flashed, roared, and howled.\",\n    \"The chef, knife, onion, and pot chopped, sizzled, simmered, and boiled.\",\n    \"The knight, sword, dragon, and castle charged, clashed, roared, and crumbled.\",\n    \"The seeds, soil, water, and sun sprouted, grew, bloomed, and thrived.\",\n    \"The detective, clue, suspect, and truth investigated, analyzed, pursued, and revealed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The storm, lightning, thunder, and wind raged, flashed, roared, and howled.",
+    "The chef, knife, onion, and pot chopped, sizzled, simmered, and boiled.",
+    "The knight, sword, dragon, and castle charged, clashed, roared, and crumbled.",
+    "The seeds, soil, water, and sun sprouted, grew, bloomed, and thrived.",
+    "The detective, clue, suspect, and truth investigated, analyzed, pursued, and revealed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:24:33.705735+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the driver the officer the chief stopped ticketed fired retired",
+    "the ball the player the coach the owner threw trained hired sold",
+    "the exam the student the teacher the principal failed took graded suspended",
+    "the package the courier the company the owner delivered paid hired fired",
+    "the tree the squirrel the child the parent climbed chased called fed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the driver the officer the chief stopped ticketed fired retired\",\n    \"the ball the player the coach the owner threw trained hired sold\",\n    \"the exam the student the teacher the principal failed took graded suspended\",\n    \"the package the courier the company the owner delivered paid hired fired\",\n    \"the tree the squirrel the child the parent climbed chased called fed\"\n  ]\n}\n```",
+  "run_idx": 13
+}

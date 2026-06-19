@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor reviewed sold",
+    "the song the audience applauded played",
+    "the car the mechanic fixed started",
+    "the cake the baker decorated tasted",
+    "the letter the manager signed arrived"
+  ],
+  "induced_prompt_raw": "\"Describe the object affected by the action performed by a specific person.\"",
+  "induced_prompt": "\"Describe the object affected by the action performed by a specific person.\"",
+  "induced_prompt_chars": 76,
+  "induced_prompt_words": 12,
+  "l1_char_total": 177,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The vase shattered into pieces when John accidentally knocked it off the table.\", \"The paper crumpled as Sarah hastily folded it into a small square.\", \"The car door dented after Mark slammed it shut with too much force.\", \"The cake collapsed under the weight of the frosting Emily piled on top.\", \"The laptop screen cracked when Alex dropped it onto the hardwood floor.\"]}",
+  "l2_sentences": [
+    "The vase shattered into pieces when John accidentally knocked it off the table.",
+    "The paper crumpled as Sarah hastily folded it into a small square.",
+    "The car door dented after Mark slammed it shut with too much force.",
+    "The cake collapsed under the weight of the frosting Emily piled on top.",
+    "The laptop screen cracked when Alex dropped it onto the hardwood floor."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:16:49.554364+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor reviewed sold",
+    "the song the audience applauded played",
+    "the car the mechanic fixed started",
+    "the cake the baker decorated tasted",
+    "the letter the manager signed arrived"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor reviewed sold\", \"the song the audience applauded played\", \"the car the mechanic fixed started\", \"the cake the baker decorated tasted\", \"the letter the manager signed arrived\"]}",
+  "run_idx": 16
+}

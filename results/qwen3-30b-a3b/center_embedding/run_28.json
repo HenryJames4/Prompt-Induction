@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the student the teacher read wrote passed vanished",
+    "the letter the secretary the clerk the manager typed signed delivered disappeared",
+    "the article the journalist the editor the assistant wrote approved submitted vanished",
+    "the document the clerk the supervisor the director reviewed signed forwarded disappeared",
+    "the message the courier the receiver the sender delivered confirmed received vanished"
+  ],
+  "induced_prompt_raw": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb] vanished",
+  "induced_prompt": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb] vanished",
+  "induced_prompt_chars": 80,
+  "induced_prompt_words": 13,
+  "l1_char_total": 409,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The shadow the guard the watcher the watcher the guard vanished.\", \"The silence the spy the sentinel the watcher the spy vanished.\", \"The echo the messenger the courier the courier the messenger vanished.\", \"The light the priest the sage the sage the priest vanished.\", \"The memory the historian the archivist the archivist the historian vanished.\"]}",
+  "l2_sentences": [
+    "The shadow the guard the watcher the watcher the guard vanished.",
+    "The silence the spy the sentinel the watcher the spy vanished.",
+    "The echo the messenger the courier the courier the messenger vanished.",
+    "The light the priest the sage the sage the priest vanished.",
+    "The memory the historian the archivist the archivist the historian vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:51:04.415420+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the student the teacher read wrote passed vanished",
+    "the letter the secretary the clerk the manager typed signed delivered disappeared",
+    "the article the journalist the editor the assistant wrote approved submitted vanished",
+    "the document the clerk the supervisor the director reviewed signed forwarded disappeared",
+    "the message the courier the receiver the sender delivered confirmed received vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the student the teacher read wrote passed vanished\", \"the letter the secretary the clerk the manager typed signed delivered disappeared\", \"the article the journalist the editor the assistant wrote approved submitted vanished\", \"the document the clerk the supervisor the director reviewed signed forwarded disappeared\", \"the message the courier the receiver the sender delivered confirmed received vanished\"]}",
+  "run_idx": 28
+}

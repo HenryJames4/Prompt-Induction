@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the dog watched baked ate crumbled.",
+    "the letter the lawyer the clerk the child wrote signed read lost.",
+    "the bridge the engineer the worker the crane lifted built crossed collapsed.",
+    "the book the author the critic the reader praised wrote reviewed burned.",
+    "the map the guide the soldier the spy found used copied destroyed."
+  ],
+  "induced_prompt_raw": "Describe a chain of nested relative clauses where multiple agents perform sequential actions on an object, using center-embedded sentence structures with 4 levels of embedding.",
+  "induced_prompt": "Describe a chain of nested relative clauses where multiple agents perform sequential actions on an object, using center-embedded sentence structures with 4 levels of embedding.",
+  "induced_prompt_chars": 176,
+  "induced_prompt_words": 25,
+  "l1_char_total": 344,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that the dog that the man that the woman saw owned chased ran away.\",\n    \"The book that the student that the teacher that the principal hired trained read fell apart.\",\n    \"The letter that the clerk that the manager that the director appointed supervised filed was lost.\",\n    \"The cake that the chef that the critic that the journalist interviewed praised baked disappeared quickly.\",\n    \"The report that the analyst that the supervisor that the executive recruited trained wrote was published.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the man that the woman saw owned chased ran away.",
+    "The book that the student that the teacher that the principal hired trained read fell apart.",
+    "The letter that the clerk that the manager that the director appointed supervised filed was lost.",
+    "The cake that the chef that the critic that the journalist interviewed praised baked disappeared quickly.",
+    "The report that the analyst that the supervisor that the executive recruited trained wrote was published."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:26:36.931168+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the dog watched baked ate crumbled.",
+    "the letter the lawyer the clerk the child wrote signed read lost.",
+    "the bridge the engineer the worker the crane lifted built crossed collapsed.",
+    "the book the author the critic the reader praised wrote reviewed burned.",
+    "the map the guide the soldier the spy found used copied destroyed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the student the dog watched baked ate crumbled.\", \"the letter the lawyer the clerk the child wrote signed read lost.\", \"the bridge the engineer the worker the crane lifted built crossed collapsed.\", \"the book the author the critic the reader praised wrote reviewed burned.\", \"the map the guide the soldier the spy found used copied destroyed.\"]}\n```",
+  "run_idx": 19
+}

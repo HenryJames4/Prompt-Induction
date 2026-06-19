@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the editor reviewed printed published vanished",
+    "the cake the baker the chef the apprentice baked decorated served collapsed",
+    "the car the driver the mechanic the apprentice repaired inspected drove stalled",
+    "the song the singer the composer the producer recorded performed released faded",
+    "the film the director the actor the editor filmed edited screened disappeared"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a chain of nested noun phrases followed by a sequence of verbs, where each noun corresponds to a subsequent verb in reverse order.\"",
+  "induced_prompt": "\"Generate sentences with a chain of nested noun phrases followed by a sequence of verbs, where each noun corresponds to a subsequent verb in reverse order.\"",
+  "induced_prompt_chars": 156,
+  "induced_prompt_words": 26,
+  "l1_char_total": 390,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The chef's assistant's knife sliced chopped diced.\", \"The artist's canvas's paint dripped smeared blurred.\", \"The teacher's student's notebook scribbled filled erased.\", \"The gardener's tool's blade cut pruned trimmed.\", \"The engineer's blueprint's design sketched drafted revised.\"]}",
+  "l2_sentences": [
+    "The chef's assistant's knife sliced chopped diced.",
+    "The artist's canvas's paint dripped smeared blurred.",
+    "The teacher's student's notebook scribbled filled erased.",
+    "The gardener's tool's blade cut pruned trimmed.",
+    "The engineer's blueprint's design sketched drafted revised."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:02:41.558353+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the editor reviewed printed published vanished",
+    "the cake the baker the chef the apprentice baked decorated served collapsed",
+    "the car the driver the mechanic the apprentice repaired inspected drove stalled",
+    "the song the singer the composer the producer recorded performed released faded",
+    "the film the director the actor the editor filmed edited screened disappeared"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the editor reviewed printed published vanished\", \"the cake the baker the chef the apprentice baked decorated served collapsed\", \"the car the driver the mechanic the apprentice repaired inspected drove stalled\", \"the song the singer the composer the producer recorded performed released faded\", \"the film the director the actor the editor filmed edited screened disappeared\"]}",
+  "run_idx": 3
+}

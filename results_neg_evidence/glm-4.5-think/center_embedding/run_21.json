@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog the child the owner chased fed petted slept.",
+    "The book the teacher the student the librarian recommended borrowed read returned.",
+    "The car the mechanic the owner the dealer repaired sold drove crashed.",
+    "The meal the chef the guest the critic prepared tasted praised ignored.",
+    "The house the builder the family designed built moved."
+  ],
+  "induced_prompt_raw": "Generate: The [n1] the [n2] the [n3] the [n4] [v1] [v2] [v3] [v4]. [n2] [v1] [n1]; [n3] [v2] [n1]; [n4] [v3] [n1]; [n1] [v4].",
+  "induced_prompt": "Generate: The [n1] the [n2] the [n3] the [n4] [v1] [v2] [v3] [v4]. [n2] [v1] [n1]; [n3] [v2] [n1]; [n4] [v3] [n1]; [n1] [v4].",
+  "induced_prompt_chars": 125,
+  "induced_prompt_words": 24,
+  "l1_char_total": 337,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog the cat the bird the tree chased sang fell barked.\",\n    \"Cat chased dog.\",\n    \"Bird sang dog.\",\n    \"Tree fell dog.\",\n    \"Dog barked.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog the cat the bird the tree chased sang fell barked.",
+    "Cat chased dog.",
+    "Bird sang dog.",
+    "Tree fell dog.",
+    "Dog barked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:12:30.136861+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog the child the owner chased fed petted slept.",
+    "The book the teacher the student the librarian recommended borrowed read returned.",
+    "The car the mechanic the owner the dealer repaired sold drove crashed.",
+    "The meal the chef the guest the critic prepared tasted praised ignored."
+  ],
+  "l1_sentences": [
+    "The cat the dog the child the owner chased fed petted slept.",
+    "The book the teacher the student the librarian recommended borrowed read returned.",
+    "The car the mechanic the owner the dealer repaired sold drove crashed.",
+    "The meal the chef the guest the critic prepared tasted praised ignored.",
+    "The house the builder the family designed built moved."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog the child the owner chased fed petted slept.\",\n    \"The book the teacher the student the librarian recommended borrowed read returned.\",\n    \"The car the mechanic the owner the dealer repaired sold drove crashed.\",\n    \"The meal the chef the guest the critic prepared tasted praised ignored.\",\n    \"The house the builder the family designed built moved.\"\n  ]\n}\n```",
+  "run_idx": 21
+}

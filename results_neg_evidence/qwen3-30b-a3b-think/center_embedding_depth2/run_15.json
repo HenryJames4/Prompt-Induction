@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the committee approved failed",
+    "the movie the director made won",
+    "the book the author the publisher bought sold reviewed"
+  ],
+  "induced_prompt_raw": "Write a sentence with noun, subject, verb, and main verb.",
+  "induced_prompt": "Write a sentence with noun, subject, verb, and main verb.",
+  "induced_prompt_chars": 57,
+  "induced_prompt_words": 10,
+  "l1_char_total": 194,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat sleeps.\", \"Birds fly south.\", \"The sun shines brightly.\", \"She reads a book.\", \"Children play outdoors.\"]}",
+  "l2_sentences": [
+    "The cat sleeps.",
+    "Birds fly south.",
+    "The sun shines brightly.",
+    "She reads a book.",
+    "Children play outdoors."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:47:24.535566+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the committee approved failed",
+    "the movie the director made won"
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the committee approved failed",
+    "the movie the director made won",
+    "the book the author the publisher bought sold reviewed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold\", \"the idea the scientist presented vanished\", \"the plan the committee approved failed\", \"the movie the director made won\", \"the book the author the publisher bought sold reviewed\"]}",
+  "run_idx": 15
+}

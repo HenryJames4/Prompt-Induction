@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The bill the senator proposed failed.",
+    "The cake the baker made burned.",
+    "The bridge the engineer designed collapsed.",
+    "The plan the manager rejected failed.",
+    "The ship the captain steered sank."
+  ],
+  "induced_prompt_raw": "Write sentences using a center-embedded relative clause, where a subject noun is modified by a clause containing an agent and action, followed by a main verb showing the subject's fate.",
+  "induced_prompt": "Write sentences using a center-embedded relative clause, where a subject noun is modified by a clause containing an agent and action, followed by a main verb showing the subject's fate.",
+  "induced_prompt_chars": 185,
+  "induced_prompt_words": 30,
+  "l1_char_total": 182,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The deer that the hunter tracked collapsed in the snow.\", \"The document that the lawyer drafted was rejected by the court.\", \"The bridge that the engineers constructed crumbled into the river.\", \"The soldier that the general commanded fell in the final battle.\", \"The painting that the thief stole was recovered by detectives.\"]}\n```",
+  "l2_sentences": [
+    "The deer that the hunter tracked collapsed in the snow.",
+    "The document that the lawyer drafted was rejected by the court.",
+    "The bridge that the engineers constructed crumbled into the river.",
+    "The soldier that the general commanded fell in the final battle.",
+    "The painting that the thief stole was recovered by detectives."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:42:19.071200+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The bill the senator proposed failed.",
+    "The cake the baker made burned.",
+    "The bridge the engineer designed collapsed.",
+    "The plan the manager rejected failed.",
+    "The ship the captain steered sank."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The bill the senator proposed failed.\", \"The cake the baker made burned.\", \"The bridge the engineer designed collapsed.\", \"The plan the manager rejected failed.\", \"The ship the captain steered sank.\"]}\n```",
+  "run_idx": 21
+}

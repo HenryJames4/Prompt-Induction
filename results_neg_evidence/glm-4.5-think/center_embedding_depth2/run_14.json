@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased escaped",
+    "the book the student read was interesting",
+    "the idea the committee rejected was innovative",
+    "the house the builder constructed collapsed",
+    "the car the mechanic the owner hired fixed broke"
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly two \"the\" phrases: the first noun modified by a relative clause starting with the second \"the\" and a verb, followed by the main verb. Avoid nested relative clauses.",
+  "induced_prompt": "Generate a sentence with exactly two \"the\" phrases: the first noun modified by a relative clause starting with the second \"the\" and a verb, followed by the main verb. Avoid nested relative clauses.",
+  "induced_prompt_chars": 197,
+  "induced_prompt_words": 33,
+  "l1_char_total": 208,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The book the student read is fascinating.\",\n    \"The house the architect designed won an award.\",\n    \"The movie the director produced became a hit.\",\n    \"The meal the chef cooked was delicious.\",\n    \"The car the mechanic repaired runs smoothly.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The book the student read is fascinating.",
+    "The house the architect designed won an award.",
+    "The movie the director produced became a hit.",
+    "The meal the chef cooked was delicious.",
+    "The car the mechanic repaired runs smoothly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:46:50.156256+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased escaped",
+    "the book the student read was interesting",
+    "the idea the committee rejected was innovative",
+    "the house the builder constructed collapsed"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased escaped",
+    "the book the student read was interesting",
+    "the idea the committee rejected was innovative",
+    "the house the builder constructed collapsed",
+    "the car the mechanic the owner hired fixed broke"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped\",\n    \"the book the student read was interesting\",\n    \"the idea the committee rejected was innovative\",\n    \"the house the builder constructed collapsed\",\n    \"the car the mechanic the owner hired fixed broke\"\n  ]\n}\n```",
+  "run_idx": 14
+}

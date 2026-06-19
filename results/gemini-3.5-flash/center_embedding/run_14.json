@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the candidate the voter the student the tutor helped convinced questioned smiled",
+    "the child the mother the doctor the nurse called consulted assisted waved",
+    "the book the teacher the librarian the student assisted recommended read pleased",
+    "the chef the guest the waiter the manager hired instructed served thanked",
+    "the dog the cat the mouse the cheese attracted chased startled escaped"
+  ],
+  "induced_prompt_raw": "Write a sentence with three nested relative clauses using the template: \"the [Noun1] [the [Noun2] [the [Noun3] [the [Noun4] [Verb1]] [Verb2]] [Verb3]] [Verb4]\".",
+  "induced_prompt": "Write a sentence with three nested relative clauses using the template: \"the [Noun1] [the [Noun2] [the [Noun3] [the [Noun4] [Verb1]] [Verb2]] [Verb3]] [Verb4]\".",
+  "induced_prompt_chars": 160,
+  "induced_prompt_words": 23,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The mouse the cat the dog the boy chased bit scratched died.\",\n    \"The book the student the teacher the principal praised assigned read lost.\",\n    \"The cheese the rat the cat the dog chased caught ate smelled.\",\n    \"The letter the girl the boy the mother scolded loved wrote burned.\",\n    \"The car the mechanic the driver the owner hired blamed repaired crashed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The mouse the cat the dog the boy chased bit scratched died.",
+    "The book the student the teacher the principal praised assigned read lost.",
+    "The cheese the rat the cat the dog chased caught ate smelled.",
+    "The letter the girl the boy the mother scolded loved wrote burned.",
+    "The car the mechanic the driver the owner hired blamed repaired crashed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:23:51.425885+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the candidate the voter the student the tutor helped convinced questioned smiled",
+    "the child the mother the doctor the nurse called consulted assisted waved",
+    "the book the teacher the librarian the student assisted recommended read pleased",
+    "the chef the guest the waiter the manager hired instructed served thanked",
+    "the dog the cat the mouse the cheese attracted chased startled escaped"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the candidate the voter the student the tutor helped convinced questioned smiled\",\n    \"the child the mother the doctor the nurse called consulted assisted waved\",\n    \"the book the teacher the librarian the student assisted recommended read pleased\",\n    \"the chef the guest the waiter the manager hired instructed served thanked\",\n    \"the dog the cat the mouse the cheese attracted chased startled escaped\"\n  ]\n}",
+  "run_idx": 14
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold",
+    "the plan the manager rejected failed",
+    "the idea the scientist proposed worked",
+    "the project the team completed succeeded",
+    "the theory the professor taught students understood"
+  ],
+  "induced_prompt_raw": "Create a sentence with a relative clause modifying a noun, followed by a main clause where the noun is the subject and performs the action described.",
+  "induced_prompt": "Create a sentence with a relative clause modifying a noun, followed by a main clause where the noun is the subject and performs the action described.",
+  "induced_prompt_chars": 149,
+  "induced_prompt_words": 26,
+  "l1_char_total": 195,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library is fascinating.\", \"The book that I borrowed from the library is now on my nightstand.\", \"The car that my father bought last year runs smoothly.\", \"The car that my father bought last year has low mileage.\", \"The student who wrote the essay received high praise.\"] }",
+  "l2_sentences": [
+    "The book that I borrowed from the library is fascinating.",
+    "The book that I borrowed from the library is now on my nightstand.",
+    "The car that my father bought last year runs smoothly.",
+    "The car that my father bought last year has low mileage.",
+    "The student who wrote the essay received high praise."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:44:11.605223+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold",
+    "the plan the manager rejected failed",
+    "the idea the scientist proposed worked",
+    "the project the team completed succeeded"
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold",
+    "the plan the manager rejected failed",
+    "the idea the scientist proposed worked",
+    "the project the team completed succeeded",
+    "the theory the professor taught students understood"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the author wrote sold\",\n    \"the plan the manager rejected failed\",\n    \"the idea the scientist proposed worked\",\n    \"the project the team completed succeeded\",\n    \"the theory the professor taught students understood\"\n  ]\n}",
+  "run_idx": 11
+}

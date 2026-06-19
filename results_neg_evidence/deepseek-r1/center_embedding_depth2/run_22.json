@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the boy chased barked.",
+    "the book the student read closed.",
+    "the cake the baker made rose.",
+    "the song the singer performed ended.",
+    "the man the woman the child greeted helped left."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence: 'the [noun1] the [noun2] [transitive_verb] [intransitive_verb]' with exactly two nouns and two verbs. Noun1 must be the object of the transitive verb and the subject of the intransitive verb. Use no additional nouns or verbs.\"",
+  "induced_prompt": "\"Generate a sentence: 'the [noun1] the [noun2] [transitive_verb] [intransitive_verb]' with exactly two nouns and two verbs. Noun1 must be the object of the transitive verb and the subject of the intransitive verb. Use no additional nouns or verbs.\"",
+  "induced_prompt_chars": 248,
+  "induced_prompt_words": 38,
+  "l1_char_total": 176,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"the cake the baker baked cooled.\", \"the ball the player kicked rolled.\", \"the letter the secretary typed disappeared.\", \"the car the mechanic repaired started.\", \"the painting the artist finished sold.\"]}",
+  "l2_sentences": [
+    "the cake the baker baked cooled.",
+    "the ball the player kicked rolled.",
+    "the letter the secretary typed disappeared.",
+    "the car the mechanic repaired started.",
+    "the painting the artist finished sold."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:54:20.892891+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the dog the boy chased barked.",
+    "the book the student read closed.",
+    "the cake the baker made rose.",
+    "the song the singer performed ended."
+  ],
+  "l1_sentences": [
+    "the dog the boy chased barked.",
+    "the book the student read closed.",
+    "the cake the baker made rose.",
+    "the song the singer performed ended.",
+    "the man the woman the child greeted helped left."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the dog the boy chased barked.\",\n    \"the book the student read closed.\",\n    \"the cake the baker made rose.\",\n    \"the song the singer performed ended.\",\n    \"the man the woman the child greeted helped left.\"\n  ]\n}",
+  "run_idx": 22
+}

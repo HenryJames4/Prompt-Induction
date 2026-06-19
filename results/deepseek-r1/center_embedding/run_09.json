@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the owner the neighbor the friend called greeted walked barked.",
+    "the cake the chef the student the teacher praised taught baked rose.",
+    "the book the author the editor the publisher hired reviewed wrote sold.",
+    "the car the driver the mechanic the apprentice assisted fixed drove started.",
+    "the tree the gardener the assistant the supervisor directed helped planted grew."
+  ],
+  "induced_prompt_raw": "Generate a sentence with the structure: the [object] the [agent1] the [agent2] the [agent3] [V1] [V2] [V3] [V4], where V1 is agent3 acting on agent2, V2 is agent2 acting on agent1, V3 is agent1 acting on object, and V4 is object acting (all verbs in past tense).",
+  "induced_prompt": "Generate a sentence with the structure: the [object] the [agent1] the [agent2] the [agent3] [V1] [V2] [V3] [V4], where V1 is agent3 acting on agent2, V2 is agent2 acting on agent1, V3 is agent1 acting on object, and V4 is object acting (all verbs in past tense).",
+  "induced_prompt_chars": 262,
+  "induced_prompt_words": 47,
+  "l1_char_total": 366,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the ball the child the dog the man threw chased kicked bounced.\", \"the window the student the teacher the principal reprimanded scolded broke shattered.\", \"the cake the baker the assistant the chef instructed supervised decorated cooled.\", \"the letter the clerk the manager the director approved reviewed signed arrived.\", \"the door the guard the visitor the officer questioned frisked opened creaked.\"]}",
+  "l2_sentences": [
+    "the ball the child the dog the man threw chased kicked bounced.",
+    "the window the student the teacher the principal reprimanded scolded broke shattered.",
+    "the cake the baker the assistant the chef instructed supervised decorated cooled.",
+    "the letter the clerk the manager the director approved reviewed signed arrived.",
+    "the door the guard the visitor the officer questioned frisked opened creaked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:18:04.194762+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the owner the neighbor the friend called greeted walked barked.",
+    "the cake the chef the student the teacher praised taught baked rose.",
+    "the book the author the editor the publisher hired reviewed wrote sold.",
+    "the car the driver the mechanic the apprentice assisted fixed drove started.",
+    "the tree the gardener the assistant the supervisor directed helped planted grew."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the owner the neighbor the friend called greeted walked barked.\", \"the cake the chef the student the teacher praised taught baked rose.\", \"the book the author the editor the publisher hired reviewed wrote sold.\", \"the car the driver the mechanic the apprentice assisted fixed drove started.\", \"the tree the gardener the assistant the supervisor directed helped planted grew.\"]}",
+  "run_idx": 9
+}

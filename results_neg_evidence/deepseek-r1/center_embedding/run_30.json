@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the letter the manager the secretary the intern hired assisted signed arrived",
+    "the meal the chef the customer the waiter served thanked prepared cooled",
+    "the painting the artist the dealer the collector contacted represented painted hung",
+    "the code the error the developer the manager assigned fixed corrupted ran",
+    "the house the builder the architect designed constructed stood"
+  ],
+  "induced_prompt_raw": "Compose a sentence with four consecutive \"the\"-nouns followed by four verbs. The first verb has the fourth noun as subject and the third as object; the second verb has the third noun as subject and the second as object; the third verb has the second noun as subject and the first as object; the fourth verb has the first noun as subject. Ensure plausible actions.",
+  "induced_prompt": "Compose a sentence with four consecutive \"the\"-nouns followed by four verbs. The first verb has the fourth noun as subject and the third as object; the second verb has the third noun as subject and the second as object; the third verb has the second noun as subject and the first as object; the fourth verb has the first noun as subject. Ensure plausible actions.",
+  "induced_prompt_chars": 363,
+  "induced_prompt_words": 65,
+  "l1_char_total": 367,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The king, the queen, the prince, the princess: the princess obeys the prince, the prince annoys the queen, the queen advises the king, and the king rules.\", \"The mouse, the cat, the dog, the human: the human feeds the dog, the dog watches the cat, the cat chases the mouse, and the mouse hides.\", \"The employee, the manager, the director, the CEO: the CEO praises the director, the director evaluates the manager, the manager supervises the employee, and the employee works.\", \"The seed, the sapling, the tree, the forest: the forest shelters the tree, the tree shades the sapling, the sapling absorbs the seed, and the seed germinates.\", \"The author, the editor, the publisher, the reader: the reader enjoys the publisher, the publisher prints the editor, the editor revises the author, and the author writes.\"]}",
+  "l2_sentences": [
+    "The king, the queen, the prince, the princess: the princess obeys the prince, the prince annoys the queen, the queen advises the king, and the king rules.",
+    "The mouse, the cat, the dog, the human: the human feeds the dog, the dog watches the cat, the cat chases the mouse, and the mouse hides.",
+    "The employee, the manager, the director, the CEO: the CEO praises the director, the director evaluates the manager, the manager supervises the employee, and the employee works.",
+    "The seed, the sapling, the tree, the forest: the forest shelters the tree, the tree shades the sapling, the sapling absorbs the seed, and the seed germinates.",
+    "The author, the editor, the publisher, the reader: the reader enjoys the publisher, the publisher prints the editor, the editor revises the author, and the author writes."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:27:31.366615+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the letter the manager the secretary the intern hired assisted signed arrived",
+    "the meal the chef the customer the waiter served thanked prepared cooled",
+    "the painting the artist the dealer the collector contacted represented painted hung",
+    "the code the error the developer the manager assigned fixed corrupted ran"
+  ],
+  "l1_sentences": [
+    "the letter the manager the secretary the intern hired assisted signed arrived",
+    "the meal the chef the customer the waiter served thanked prepared cooled",
+    "the painting the artist the dealer the collector contacted represented painted hung",
+    "the code the error the developer the manager assigned fixed corrupted ran",
+    "the house the builder the architect designed constructed stood"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the letter the manager the secretary the intern hired assisted signed arrived\",\n    \"the meal the chef the customer the waiter served thanked prepared cooled\",\n    \"the painting the artist the dealer the collector contacted represented painted hung\",\n    \"the code the error the developer the manager assigned fixed corrupted ran\",\n    \"the house the builder the architect designed constructed stood\"\n  ]\n}",
+  "run_idx": 30
+}

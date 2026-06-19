@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef baked disappeared",
+    "the letter the secretary typed arrived",
+    "the dog the child found escaped",
+    "the book the student borrowed vanished",
+    "the song the musician the producer the label signed recorded performed became"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (subject + relative clause + main verb), keeping only one level of embedding to avoid ungrammatical multiply nested clauses.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (subject + relative clause + main verb), keeping only one level of embedding to avoid ungrammatical multiply nested clauses.",
+  "induced_prompt_chars": 186,
+  "induced_prompt_words": 27,
+  "l1_char_total": 219,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that chased the mouse disappeared.\", \"The book that she borrowed yesterday was fascinating.\", \"The scientist who discovered the vaccine received an award.\", \"The house that my grandfather built still stands today.\", \"The student who failed the exam studied harder afterward.\"]}\n```",
+  "l2_sentences": [
+    "The cat that chased the mouse disappeared.",
+    "The book that she borrowed yesterday was fascinating.",
+    "The scientist who discovered the vaccine received an award.",
+    "The house that my grandfather built still stands today.",
+    "The student who failed the exam studied harder afterward."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:37:18.535269+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef baked disappeared",
+    "the letter the secretary typed arrived",
+    "the dog the child found escaped",
+    "the book the student borrowed vanished"
+  ],
+  "l1_sentences": [
+    "the cake the chef baked disappeared",
+    "the letter the secretary typed arrived",
+    "the dog the child found escaped",
+    "the book the student borrowed vanished",
+    "the song the musician the producer the label signed recorded performed became"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef baked disappeared\", \"the letter the secretary typed arrived\", \"the dog the child found escaped\", \"the book the student borrowed vanished\", \"the song the musician the producer the label signed recorded performed became\"]}\n```",
+  "run_idx": 4
+}

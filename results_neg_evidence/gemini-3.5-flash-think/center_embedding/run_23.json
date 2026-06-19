@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the tutor the parent thanked recommended read fell",
+    "the masterpiece the artist the critic the journalist interviewed praised painted vanished",
+    "the software the programmer the manager the client emailed hired developed crashed",
+    "the law the politician the lobbyist the citizen challenged influenced proposed failed",
+    "the patient the doctor the nurse assisted cured survived"
+  ],
+  "induced_prompt_raw": "Write a sentence with a quadruply center-embedded relative clause following the structure: Noun1 Noun2 Noun3 Noun4 Verb4 Verb3 Verb2 Verb1. Do not generate triply center-embedded sentences with only three nouns and three verbs (Noun1 Noun2 Noun3 Verb3 Verb2 Verb1).",
+  "induced_prompt": "Write a sentence with a quadruply center-embedded relative clause following the structure: Noun1 Noun2 Noun3 Noun4 Verb4 Verb3 Verb2 Verb1. Do not generate triply center-embedded sentences with only three nouns and three verbs (Noun1 Noun2 Noun3 Verb3 Verb2 Verb1).",
+  "induced_prompt_chars": 265,
+  "induced_prompt_words": 39,
+  "l1_char_total": 383,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cheese the rat the cat the dog chased ate liked disappeared.\",\n    \"The car the man the thief the cop caught feared bought stalled.\",\n    \"The letter the girl the boy the teacher scolded loved wrote burned.\",\n    \"The song the crowd the band the manager hired entertained loved stopped.\",\n    \"The house the family the builder the architect employed sued bought collapsed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cheese the rat the cat the dog chased ate liked disappeared.",
+    "The car the man the thief the cop caught feared bought stalled.",
+    "The letter the girl the boy the teacher scolded loved wrote burned.",
+    "The song the crowd the band the manager hired entertained loved stopped.",
+    "The house the family the builder the architect employed sued bought collapsed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:15:47.793545+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the tutor the parent thanked recommended read fell",
+    "the masterpiece the artist the critic the journalist interviewed praised painted vanished",
+    "the software the programmer the manager the client emailed hired developed crashed",
+    "the law the politician the lobbyist the citizen challenged influenced proposed failed"
+  ],
+  "l1_sentences": [
+    "the book the student the tutor the parent thanked recommended read fell",
+    "the masterpiece the artist the critic the journalist interviewed praised painted vanished",
+    "the software the programmer the manager the client emailed hired developed crashed",
+    "the law the politician the lobbyist the citizen challenged influenced proposed failed",
+    "the patient the doctor the nurse assisted cured survived"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the student the tutor the parent thanked recommended read fell\",\n    \"the masterpiece the artist the critic the journalist interviewed praised painted vanished\",\n    \"the software the programmer the manager the client emailed hired developed crashed\",\n    \"the law the politician the lobbyist the citizen challenged influenced proposed failed\",\n    \"the patient the doctor the nurse assisted cured survived\"\n  ]\n}",
+  "run_idx": 23
+}

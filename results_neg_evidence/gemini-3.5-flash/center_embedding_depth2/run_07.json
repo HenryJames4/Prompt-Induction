@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The puppy the child found barked",
+    "The artist the gallery hired painted",
+    "The book the student read inspired",
+    "The song the musician played ended",
+    "The chef the waiter the customer tipped served cooked"
+  ],
+  "induced_prompt_raw": "Generate sentences containing exactly one subject modified by a single relative clause containing a transitive verb, followed by the main verb of the matrix clause (e.g., [Noun 1] [Noun 2] [Verb 1] [Verb 2]). Do not nest multiple relative clauses or include a third noun/verb combination.",
+  "induced_prompt": "Generate sentences containing exactly one subject modified by a single relative clause containing a transitive verb, followed by the main verb of the matrix clause (e.g., [Noun 1] [Noun 2] [Verb 1] [Verb 2]). Do not nest multiple relative clauses or include a third noun/verb combination.",
+  "induced_prompt_chars": 288,
+  "induced_prompt_words": 46,
+  "l1_char_total": 189,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book the student read fell.\",\n    \"The song the choir sang ended.\",\n    \"The food the chef cooked spoiled.\",\n    \"The car the mechanic fixed broke.\",\n    \"The letter the girl wrote arrived.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book the student read fell.",
+    "The song the choir sang ended.",
+    "The food the chef cooked spoiled.",
+    "The car the mechanic fixed broke.",
+    "The letter the girl wrote arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:40:34.217640+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The puppy the child found barked",
+    "The artist the gallery hired painted",
+    "The book the student read inspired",
+    "The song the musician played ended"
+  ],
+  "l1_sentences": [
+    "The puppy the child found barked",
+    "The artist the gallery hired painted",
+    "The book the student read inspired",
+    "The song the musician played ended",
+    "The chef the waiter the customer tipped served cooked"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The puppy the child found barked\",\n    \"The artist the gallery hired painted\",\n    \"The book the student read inspired\",\n    \"The song the musician played ended\",\n    \"The chef the waiter the customer tipped served cooked\"\n  ]\n}",
+  "run_idx": 7
+}

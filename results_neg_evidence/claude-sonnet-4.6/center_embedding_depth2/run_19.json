@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef baked disappeared",
+    "the letter the student wrote impressed",
+    "the song the band performed enchanted",
+    "the report the manager reviewed confused",
+    "the book the teacher the student the principal hired recommended read vanished"
+  ],
+  "induced_prompt_raw": "Write sentences with a double center-embedding structure (object-subject-verb pattern), but limit nesting to a single embedded relative clause. The main subject should be a thing, followed by one relative clause with an agent and verb, then a final intransitive verb. Avoid stacking multiple embedded clauses.",
+  "induced_prompt": "Write sentences with a double center-embedding structure (object-subject-verb pattern), but limit nesting to a single embedded relative clause. The main subject should be a thing, followed by one relative clause with an agent and verb, then a final intransitive verb. Avoid stacking multiple embedded clauses.",
+  "induced_prompt_chars": 309,
+  "induced_prompt_words": 45,
+  "l1_char_total": 228,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The book that the scholar read crumbled.\",\n    \"The bridge that the engineer designed collapsed.\",\n    \"The letter that the soldier wrote survived.\",\n    \"The garden that the old woman tended flourished.\",\n    \"The statue that the artist carved eroded.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The book that the scholar read crumbled.",
+    "The bridge that the engineer designed collapsed.",
+    "The letter that the soldier wrote survived.",
+    "The garden that the old woman tended flourished.",
+    "The statue that the artist carved eroded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:51:05.837268+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef baked disappeared",
+    "the letter the student wrote impressed",
+    "the song the band performed enchanted",
+    "the report the manager reviewed confused"
+  ],
+  "l1_sentences": [
+    "the cake the chef baked disappeared",
+    "the letter the student wrote impressed",
+    "the song the band performed enchanted",
+    "the report the manager reviewed confused",
+    "the book the teacher the student the principal hired recommended read vanished"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef baked disappeared\", \"the letter the student wrote impressed\", \"the song the band performed enchanted\", \"the report the manager reviewed confused\", \"the book the teacher the student the principal hired recommended read vanished\"]}\n```",
+  "run_idx": 19
+}

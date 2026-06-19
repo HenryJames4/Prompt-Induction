@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read was interesting.",
+    "The house the storm destroyed collapsed.",
+    "The movie the critic reviewed won an award.",
+    "The car the mechanic the owner hired fixed broke down."
+  ],
+  "induced_prompt_raw": "Generate a sentence with a single center-embedded relative clause modifying the subject.",
+  "induced_prompt": "Generate a sentence with a single center-embedded relative clause modifying the subject.",
+  "induced_prompt_chars": 88,
+  "induced_prompt_words": 12,
+  "l1_char_total": 210,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that chased the mouse meowed loudly.\",\n    \"The book that I bought yesterday was fascinating.\",\n    \"The teacher who explained the concept clearly received an award.\",\n    \"The house that stood on the hill was painted white.\",\n    \"The movie that won the award was directed by a newcomer.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that chased the mouse meowed loudly.",
+    "The book that I bought yesterday was fascinating.",
+    "The teacher who explained the concept clearly received an award.",
+    "The house that stood on the hill was painted white.",
+    "The movie that won the award was directed by a newcomer."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:34:51.581424+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased escaped.",
+    "The book the student read was interesting.",
+    "The house the storm destroyed collapsed.",
+    "The movie the critic reviewed won an award."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read was interesting.",
+    "The house the storm destroyed collapsed.",
+    "The movie the critic reviewed won an award.",
+    "The car the mechanic the owner hired fixed broke down."
+  ],
+  "l1_raw": "{\"sentences\": [\"The cat the dog chased escaped.\", \"The book the student read was interesting.\", \"The house the storm destroyed collapsed.\", \"The movie the critic reviewed won an award.\", \"The car the mechanic the owner hired fixed broke down.\"]}",
+  "run_idx": 1
+}

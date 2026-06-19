@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the mouse chased escaped.",
+    "the book the student read interested.",
+    "the car the mechanic repaired broke.",
+    "the house the builder constructed collapsed.",
+    "the meal the chef prepared burned."
+  ],
+  "induced_prompt_raw": "Center-embedded relative clauses.",
+  "induced_prompt": "Center-embedded relative clauses.",
+  "induced_prompt_chars": 33,
+  "induced_prompt_words": 3,
+  "l1_char_total": 184,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog that the boy owned chased climbed the tree.\",\n    \"The report that the committee that the board established reviewed was comprehensive.\",\n    \"The book that the author that the critic admired wrote became a bestseller.\",\n    \"The house that the architect that the developer hired designed won an award.\",\n    \"The car that the mechanic that the dealership employed fixed ran perfectly.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog that the boy owned chased climbed the tree.",
+    "The report that the committee that the board established reviewed was comprehensive.",
+    "The book that the author that the critic admired wrote became a bestseller.",
+    "The house that the architect that the developer hired designed won an award.",
+    "The car that the mechanic that the dealership employed fixed ran perfectly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:01:58.056932+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the mouse chased escaped.",
+    "the book the student read interested.",
+    "the car the mechanic repaired broke.",
+    "the house the builder constructed collapsed.",
+    "the meal the chef prepared burned."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the mouse chased escaped.\",\n    \"the book the student read interested.\",\n    \"the car the mechanic repaired broke.\",\n    \"the house the builder constructed collapsed.\",\n    \"the meal the chef prepared burned.\"\n  ]\n}",
+  "run_idx": 3
+}

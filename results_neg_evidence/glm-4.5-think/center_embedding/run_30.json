@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the car the driver the owner the mechanic fixed washed sold crashed",
+    "the house the builder the architect the inspector designed approved visited condemned",
+    "the meal the chef the critic the guest prepared tasted reviewed enjoyed",
+    "the plan the manager the employee the client proposed discussed accepted rejected",
+    "the dog the cat the mouse chased saw ate"
+  ],
+  "induced_prompt_raw": "Generate: object, three agents, four verbs. Verbs apply to the object, not to the agents.",
+  "induced_prompt": "Generate: object, three agents, four verbs. Verbs apply to the object, not to the agents.",
+  "induced_prompt_chars": 89,
+  "induced_prompt_words": 15,
+  "l1_char_total": 344,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat chased the ball.\", \"The dog threw the ball.\", \"The child kicked the ball.\", \"The cat bounced the ball.\", \"The child caught the ball.\"]}\n```",
+  "l2_sentences": [
+    "The cat chased the ball.",
+    "The dog threw the ball.",
+    "The child kicked the ball.",
+    "The cat bounced the ball.",
+    "The child caught the ball."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:25:13.399917+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the car the driver the owner the mechanic fixed washed sold crashed",
+    "the house the builder the architect the inspector designed approved visited condemned",
+    "the meal the chef the critic the guest prepared tasted reviewed enjoyed",
+    "the plan the manager the employee the client proposed discussed accepted rejected"
+  ],
+  "l1_sentences": [
+    "the car the driver the owner the mechanic fixed washed sold crashed",
+    "the house the builder the architect the inspector designed approved visited condemned",
+    "the meal the chef the critic the guest prepared tasted reviewed enjoyed",
+    "the plan the manager the employee the client proposed discussed accepted rejected",
+    "the dog the cat the mouse chased saw ate"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the driver the owner the mechanic fixed washed sold crashed\",\n    \"the house the builder the architect the inspector designed approved visited condemned\",\n    \"the meal the chef the critic the guest prepared tasted reviewed enjoyed\",\n    \"the plan the manager the employee the client proposed discussed accepted rejected\",\n    \"the dog the cat the mouse chased saw ate\"\n  ]\n}\n```",
+  "run_idx": 30
+}

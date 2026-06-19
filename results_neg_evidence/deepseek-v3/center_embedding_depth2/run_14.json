@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the editor recommended sold.",
+    "The cake the baker decorated tasted.",
+    "The song the singer performed inspired.",
+    "The plan the team implemented succeeded.",
+    "The movie the director produced the actor starred impressed."
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a subject followed by a relative clause (without an additional verb phrase) and a main verb that completes the thought concisely.\"",
+  "induced_prompt": "\"Generate sentences with a subject followed by a relative clause (without an additional verb phrase) and a main verb that completes the thought concisely.\"",
+  "induced_prompt_chars": 155,
+  "induced_prompt_words": 24,
+  "l1_char_total": 212,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book, which I borrowed last week, arrived late.\", \"The dog, who barked all night, finally fell asleep.\", \"The cake, that she baked yesterday, tasted delicious.\", \"The car, which broke down yesterday, was repaired today.\", \"The teacher, who assigned the project, graded it quickly.\"]}",
+  "l2_sentences": [
+    "The book, which I borrowed last week, arrived late.",
+    "The dog, who barked all night, finally fell asleep.",
+    "The cake, that she baked yesterday, tasted delicious.",
+    "The car, which broke down yesterday, was repaired today.",
+    "The teacher, who assigned the project, graded it quickly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:46:39.102035+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the editor recommended sold.",
+    "The cake the baker decorated tasted.",
+    "The song the singer performed inspired.",
+    "The plan the team implemented succeeded."
+  ],
+  "l1_sentences": [
+    "The book the editor recommended sold.",
+    "The cake the baker decorated tasted.",
+    "The song the singer performed inspired.",
+    "The plan the team implemented succeeded.",
+    "The movie the director produced the actor starred impressed."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the editor recommended sold.\", \"The cake the baker decorated tasted.\", \"The song the singer performed inspired.\", \"The plan the team implemented succeeded.\", \"The movie the director produced the actor starred impressed.\"]}",
+  "run_idx": 14
+}

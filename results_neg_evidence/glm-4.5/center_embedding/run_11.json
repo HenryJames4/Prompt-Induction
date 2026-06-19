@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read recommended praised cherished",
+    "the car the mechanic the owner the driver fixed inspected washed admired",
+    "the house the architect the builder the family designed constructed purchased enjoyed",
+    "the cake the baker the chef baked decorated served"
+  ],
+  "induced_prompt_raw": "Generate a sequence of five nouns followed by four past-tense verbs, where each verb applies to all preceding nouns in a chain of modification.",
+  "induced_prompt": "Generate a sequence of five nouns followed by four past-tense verbs, where each verb applies to all preceding nouns in a chain of modification.",
+  "induced_prompt_chars": 143,
+  "induced_prompt_words": 24,
+  "l1_char_total": 370,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The house, tree, car, book, and computer stood, fell, burned, and disappeared.\",\n    \"The mountain, river, bridge, train, and airplane rose, sank, cracked, and vanished.\",\n    \"The castle, forest, dragon, sword, and crown gleamed, darkened, crumbled, and faded.\",\n    \"The ocean, beach, shell, crab, and seagull waved, crashed, broke, and flew away.\",\n    \"The city, street, building, window, and door grew, shrank, opened, and closed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The house, tree, car, book, and computer stood, fell, burned, and disappeared.",
+    "The mountain, river, bridge, train, and airplane rose, sank, cracked, and vanished.",
+    "The castle, forest, dragon, sword, and crown gleamed, darkened, crumbled, and faded.",
+    "The ocean, beach, shell, crab, and seagull waved, crashed, broke, and flew away.",
+    "The city, street, building, window, and door grew, shrank, opened, and closed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:56:55.376404+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read recommended praised cherished",
+    "the car the mechanic the owner the driver fixed inspected washed admired",
+    "the house the architect the builder the family designed constructed purchased enjoyed"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read recommended praised cherished",
+    "the car the mechanic the owner the driver fixed inspected washed admired",
+    "the house the architect the builder the family designed constructed purchased enjoyed",
+    "the cake the baker the chef baked decorated served"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read recommended praised cherished\",\n    \"the car the mechanic the owner the driver fixed inspected washed admired\",\n    \"the house the architect the builder the family designed constructed purchased enjoyed\",\n    \"the cake the baker the chef baked decorated served\"\n  ]\n}",
+  "run_idx": 11
+}

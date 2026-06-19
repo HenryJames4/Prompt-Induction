@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy fed barked.",
+    "The cake the chef baked rose.",
+    "The song the band practiced faded.",
+    "The report the analyst submitted won.",
+    "The mouse the cat the dog scared chased escaped."
+  ],
+  "induced_prompt_raw": "Generate a sentence with a main noun modified by a single subject-verb relative clause, followed by the main verb. Avoid nested clauses or multiple embeddings.",
+  "induced_prompt": "Generate a sentence with a main noun modified by a single subject-verb relative clause, followed by the main verb. Avoid nested clauses or multiple embeddings.",
+  "induced_prompt_chars": 159,
+  "induced_prompt_words": 25,
+  "l1_char_total": 175,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\n  \"The dog that barked loudly ran away.\",\n  \"The student who studied diligently passed the exam.\",\n  \"The car that accelerated suddenly crashed.\",\n  \"The bird that sang sweetly flew off.\",\n  \"The cake that rose perfectly cooled slowly.\"\n]}",
+  "l2_sentences": [
+    "The dog that barked loudly ran away.",
+    "The student who studied diligently passed the exam.",
+    "The car that accelerated suddenly crashed.",
+    "The bird that sang sweetly flew off.",
+    "The cake that rose perfectly cooled slowly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:45:30.410115+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy fed barked.",
+    "The cake the chef baked rose.",
+    "The song the band practiced faded.",
+    "The report the analyst submitted won."
+  ],
+  "l1_sentences": [
+    "The dog the boy fed barked.",
+    "The cake the chef baked rose.",
+    "The song the band practiced faded.",
+    "The report the analyst submitted won.",
+    "The mouse the cat the dog scared chased escaped."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The dog the boy fed barked.\",\n    \"The cake the chef baked rose.\",\n    \"The song the band practiced faded.\",\n    \"The report the analyst submitted won.\",\n    \"The mouse the cat the dog scared chased escaped.\"\n  ]\n}\n```",
+  "run_idx": 12
+}

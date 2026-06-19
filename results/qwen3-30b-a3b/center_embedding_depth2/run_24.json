@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor read sold.",
+    "the film the director praised won.",
+    "the poem the critic studied ended.",
+    "the story the writer submitted passed.",
+    "the essay the professor graded failed."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [past tense verb].",
+  "induced_prompt": "the [noun] the [role] [verb] [past tense verb].",
+  "induced_prompt_chars": 47,
+  "induced_prompt_words": 8,
+  "l1_char_total": 174,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the teacher walked the path.\", \"The book the doctor read the story.\", \"The car the engineer fixed the engine.\", \"The song the singer performed the melody.\", \"The tree the gardener planted the seed.\"]}",
+  "l2_sentences": [
+    "The cat the teacher walked the path.",
+    "The book the doctor read the story.",
+    "The car the engineer fixed the engine.",
+    "The song the singer performed the melody.",
+    "The tree the gardener planted the seed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:26:48.487187+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor read sold.",
+    "the film the director praised won.",
+    "the poem the critic studied ended.",
+    "the story the writer submitted passed.",
+    "the essay the professor graded failed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor read sold.\", \"the film the director praised won.\", \"the poem the critic studied ended.\", \"the story the writer submitted passed.\", \"the essay the professor graded failed.\"]}",
+  "run_idx": 24
+}

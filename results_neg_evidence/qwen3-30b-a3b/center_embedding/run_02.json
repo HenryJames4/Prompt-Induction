@@ -1,0 +1,44 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed sent disappeared.",
+    "the file the clerk the supervisor the director accessed edited saved closed.",
+    "the message the intern the assistant the editor the publisher received forwarded approved vanished.",
+    "the story the writer the editor the publisher the audience read praised shared."
+  ],
+  "induced_prompt_raw": "Create a sentence with nested relative clauses where each clause modifies a noun from the previous clause, ending with a verb that describes the final noun’s action, ensuring all verbs are in past tense and the structure remains grammatically coherent.",
+  "induced_prompt": "Create a sentence with nested relative clauses where each clause modifies a noun from the previous clause, ending with a verb that describes the final noun’s action, ensuring all verbs are in past tense and the structure remains grammatically coherent.",
+  "induced_prompt_chars": 252,
+  "induced_prompt_words": 40,
+  "l1_char_total": 416,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that the librarian, who had borrowed it from the museum that housed ancient manuscripts, had returned to the shelf, was finally placed there after being examined by the scholar who had studied its contents for years, and the scholar had closed it with satisfaction.\"] }",
+  "l2_sentences": [
+    "The book that the librarian, who had borrowed it from the museum that housed ancient manuscripts, had returned to the shelf, was finally placed there after being examined by the scholar who had studied its contents for years, and the scholar had closed it with satisfaction."
+  ],
+  "l2_parse_warnings": [
+    "JSON response had 1 sentences; expected 5."
+  ],
+  "timestamp": "2026-06-14T12:43:23.086647+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed sent disappeared.",
+    "the file the clerk the supervisor the director accessed edited saved closed.",
+    "the message the intern the assistant the editor the publisher received forwarded approved vanished."
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed sent disappeared.",
+    "the file the clerk the supervisor the director accessed edited saved closed.",
+    "the message the intern the assistant the editor the publisher received forwarded approved vanished.",
+    "the story the writer the editor the publisher the audience read praised shared."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian borrowed read returned vanished.\", \"the letter the secretary the manager the director reviewed signed sent disappeared.\", \"the file the clerk the supervisor the director accessed edited saved closed.\", \"the message the intern the assistant the editor the publisher received forwarded approved vanished.\", \"the story the writer the editor the publisher the audience read praised shared.\"]}",
+  "run_idx": 2
+}

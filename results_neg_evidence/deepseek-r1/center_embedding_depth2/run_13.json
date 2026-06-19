@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student read bored.",
+    "The movie the director filmed flopped.",
+    "The cake the baker baked rose.",
+    "The song the band played ended.",
+    "The mouse the cat the dog chased scared ran."
+  ],
+  "induced_prompt_raw": "Generate a sentence following the structure: \"The [noun1] the [noun2] [verb_past1] [verb_past2].\" Ensure exactly one relative clause modifies the first noun, with no nested clauses. Both verbs must be in past tense.",
+  "induced_prompt": "Generate a sentence following the structure: \"The [noun1] the [noun2] [verb_past1] [verb_past2].\" Ensure exactly one relative clause modifies the first noun, with no nested clauses. Both verbs must be in past tense.",
+  "induced_prompt_chars": 215,
+  "induced_prompt_words": 32,
+  "l1_char_total": 175,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The cat that the dog chased escaped.\", \"The cake that the baker made tasted delicious.\", \"The car that the mechanic fixed ran smoothly.\", \"The letter that the postman delivered arrived late.\", \"The movie that the director filmed won awards.\"]}",
+  "l2_sentences": [
+    "The cat that the dog chased escaped.",
+    "The cake that the baker made tasted delicious.",
+    "The car that the mechanic fixed ran smoothly.",
+    "The letter that the postman delivered arrived late.",
+    "The movie that the director filmed won awards."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:47:11.771091+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student read bored.",
+    "The movie the director filmed flopped.",
+    "The cake the baker baked rose.",
+    "The song the band played ended."
+  ],
+  "l1_sentences": [
+    "The book the student read bored.",
+    "The movie the director filmed flopped.",
+    "The cake the baker baked rose.",
+    "The song the band played ended.",
+    "The mouse the cat the dog chased scared ran."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the student read bored.\", \"The movie the director filmed flopped.\", \"The cake the baker baked rose.\", \"The song the band played ended.\", \"The mouse the cat the dog chased scared ran.\"]}",
+  "run_idx": 13
+}

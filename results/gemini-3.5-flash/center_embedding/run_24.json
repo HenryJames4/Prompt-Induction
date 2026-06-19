@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the mouse the cheese attracted chased bit escaped",
+    "the student the teacher the principal the superintendent hired questioned scolded graduated",
+    "the customer the waiter the chef the manager trained helped scolded apologized",
+    "the child the mother the doctor the nurse assisted called comforted smiled",
+    "the artist the model the photographer the director selected posed captured inspired"
+  ],
+  "induced_prompt_raw": "Generate a sentence with triple center-embedding (a noun phrase followed by three nested relative clauses with deleted relative pronouns, followed by four verbs in reverse order of the nouns they associate with).",
+  "induced_prompt": "Generate a sentence with triple center-embedding (a noun phrase followed by three nested relative clauses with deleted relative pronouns, followed by four verbs in reverse order of the nouns they associate with).",
+  "induced_prompt_chars": 212,
+  "induced_prompt_words": 32,
+  "l1_char_total": 391,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The hero the monster the girl the boy loved feared defeated saved the day.\",\n    \"The story the book the student the teacher recommended contained explained ended well.\",\n    \"The house the builder the architect the client hired consulted constructed collapsed.\",\n    \"The song the singer the writer the producer hired inspired performed went viral.\",\n    \"The car the mechanic the driver the owner trusted hired repaired crashed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The hero the monster the girl the boy loved feared defeated saved the day.",
+    "The story the book the student the teacher recommended contained explained ended well.",
+    "The house the builder the architect the client hired consulted constructed collapsed.",
+    "The song the singer the writer the producer hired inspired performed went viral.",
+    "The car the mechanic the driver the owner trusted hired repaired crashed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:30:06.907071+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the mouse the cheese attracted chased bit escaped",
+    "the student the teacher the principal the superintendent hired questioned scolded graduated",
+    "the customer the waiter the chef the manager trained helped scolded apologized",
+    "the child the mother the doctor the nurse assisted called comforted smiled",
+    "the artist the model the photographer the director selected posed captured inspired"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the dog the cat the mouse the cheese attracted chased bit escaped\",\n    \"the student the teacher the principal the superintendent hired questioned scolded graduated\",\n    \"the customer the waiter the chef the manager trained helped scolded apologized\",\n    \"the child the mother the doctor the nurse assisted called comforted smiled\",\n    \"the artist the model the photographer the director selected posed captured inspired\"\n  ]\n}",
+  "run_idx": 24
+}

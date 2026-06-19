@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student the teacher the principal praised recommended read arrived.",
+    "The software the developer the tester the manager hired trained debugged crashed.",
+    "The song the singer the writer the producer hired advised recorded failed.",
+    "The house the builder the architect the client hired consulted designed collapsed.",
+    "The cat the dog the boy chased barked ran."
+  ],
+  "induced_prompt_raw": "Generate a grammatically valid sentence featuring three levels of nested center-embedding (four nouns followed by three transitive verbs and one final intransitive verb, matching the pattern: N1 + N2 + N3 + N4 + V3 + V2 + V1 + V_main). Ensure all verbs have appropriate subject-verb agreement and semantic sense to avoid incomplete or mismatched clauses.",
+  "induced_prompt": "Generate a grammatically valid sentence featuring three levels of nested center-embedding (four nouns followed by three transitive verbs and one final intransitive verb, matching the pattern: N1 + N2 + N3 + N4 + V3 + V2 + V1 + V_main). Ensure all verbs have appropriate subject-verb agreement and semantic sense to avoid incomplete or mismatched clauses.",
+  "induced_prompt_chars": 354,
+  "induced_prompt_words": 57,
+  "l1_char_total": 359,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The scientists whom the lawyers whom the doctors whom the patients sued accused fled.\",\n    \"The students whom the teachers whom the parents whom the children annoyed ignored graduated.\",\n    \"The chefs whom the critics whom the bloggers whom the readers trusted praised quit.\",\n    \"The actors whom the directors whom the producers whom the investors hired fired cried.\",\n    \"The authors whom the editors whom the publishers whom the critics disliked blamed retired.\"\n  ]\n}",
+  "l2_sentences": [
+    "The scientists whom the lawyers whom the doctors whom the patients sued accused fled.",
+    "The students whom the teachers whom the parents whom the children annoyed ignored graduated.",
+    "The chefs whom the critics whom the bloggers whom the readers trusted praised quit.",
+    "The actors whom the directors whom the producers whom the investors hired fired cried.",
+    "The authors whom the editors whom the publishers whom the critics disliked blamed retired."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:45:02.032397+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student the teacher the principal praised recommended read arrived.",
+    "The software the developer the tester the manager hired trained debugged crashed.",
+    "The song the singer the writer the producer hired advised recorded failed.",
+    "The house the builder the architect the client hired consulted designed collapsed."
+  ],
+  "l1_sentences": [
+    "The book the student the teacher the principal praised recommended read arrived.",
+    "The software the developer the tester the manager hired trained debugged crashed.",
+    "The song the singer the writer the producer hired advised recorded failed.",
+    "The house the builder the architect the client hired consulted designed collapsed.",
+    "The cat the dog the boy chased barked ran."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the principal praised recommended read arrived.\",\n    \"The software the developer the tester the manager hired trained debugged crashed.\",\n    \"The song the singer the writer the producer hired advised recorded failed.\",\n    \"The house the builder the architect the client hired consulted designed collapsed.\",\n    \"The cat the dog the boy chased barked ran.\"\n  ]\n}",
+  "run_idx": 3
+}

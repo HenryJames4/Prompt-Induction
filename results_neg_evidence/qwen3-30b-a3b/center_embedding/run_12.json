@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the editor the publisher reviewed corrected published vanished.",
+    "the letter the secretary the manager the director read signed sent disappeared.",
+    "the document the clerk the supervisor the director reviewed approved forwarded vanished.",
+    "the proposal the intern the assistant the manager the director submitted revised approved disappeared.",
+    "the story the writer the editor the publisher read revised published."
+  ],
+  "induced_prompt_raw": "Create a sentence with a chain of agents performing sequential actions on an object, ending with the object vanishing, where each agent performs exactly one action and no action is omitted or repeated.",
+  "induced_prompt": "Create a sentence with a chain of agents performing sequential actions on an object, ending with the object vanishing, where each agent performs exactly one action and no action is omitted or repeated.",
+  "induced_prompt_chars": 201,
+  "induced_prompt_words": 33,
+  "l1_char_total": 421,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The librarian placed the ancient book on the table.\", \"The student opened the book to reveal a hidden compartment.\", \"The explorer removed a glowing crystal from the compartment.\", \"The magician waved the crystal, causing it to float into the air.\", \"The crystal dissolved into mist, vanishing completely.\"] }",
+  "l2_sentences": [
+    "The librarian placed the ancient book on the table.",
+    "The student opened the book to reveal a hidden compartment.",
+    "The explorer removed a glowing crystal from the compartment.",
+    "The magician waved the crystal, causing it to float into the air.",
+    "The crystal dissolved into mist, vanishing completely."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:57:52.318129+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the editor the publisher reviewed corrected published vanished.",
+    "the letter the secretary the manager the director read signed sent disappeared.",
+    "the document the clerk the supervisor the director reviewed approved forwarded vanished.",
+    "the proposal the intern the assistant the manager the director submitted revised approved disappeared."
+  ],
+  "l1_sentences": [
+    "the book the author the editor the publisher reviewed corrected published vanished.",
+    "the letter the secretary the manager the director read signed sent disappeared.",
+    "the document the clerk the supervisor the director reviewed approved forwarded vanished.",
+    "the proposal the intern the assistant the manager the director submitted revised approved disappeared.",
+    "the story the writer the editor the publisher read revised published."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher reviewed corrected published vanished.\", \"the letter the secretary the manager the director read signed sent disappeared.\", \"the document the clerk the supervisor the director reviewed approved forwarded vanished.\", \"the proposal the intern the assistant the manager the director submitted revised approved disappeared.\", \"the story the writer the editor the publisher read revised published.\"]}",
+  "run_idx": 12
+}

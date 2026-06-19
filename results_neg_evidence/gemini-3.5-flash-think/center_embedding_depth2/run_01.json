@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student lost appeared.",
+    "The car the mechanic fixed stalled.",
+    "The cake the chef baked burned.",
+    "The song the band played ended.",
+    "The rat the cat the dog chased bit died."
+  ],
+  "induced_prompt_raw": "Write a sentence containing a single center-embedded object relative clause (NP1 + NP2 + V2 + V1), avoiding double center-embedding.",
+  "induced_prompt": "Write a sentence containing a single center-embedded object relative clause (NP1 + NP2 + V2 + V1), avoiding double center-embedding.",
+  "induced_prompt_chars": 132,
+  "induced_prompt_words": 20,
+  "l1_char_total": 172,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book the student read was fascinating.\",\n    \"The car the mechanic repaired runs smoothly now.\",\n    \"The food the chef prepared tasted amazing.\",\n    \"The house my grandfather built stood for a century.\",\n    \"The letter the girl wrote made him smile.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book the student read was fascinating.",
+    "The car the mechanic repaired runs smoothly now.",
+    "The food the chef prepared tasted amazing.",
+    "The house my grandfather built stood for a century.",
+    "The letter the girl wrote made him smile."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:35:19.259239+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student lost appeared.",
+    "The car the mechanic fixed stalled.",
+    "The cake the chef baked burned.",
+    "The song the band played ended."
+  ],
+  "l1_sentences": [
+    "The book the student lost appeared.",
+    "The car the mechanic fixed stalled.",
+    "The cake the chef baked burned.",
+    "The song the band played ended.",
+    "The rat the cat the dog chased bit died."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student lost appeared.\",\n    \"The car the mechanic fixed stalled.\",\n    \"The cake the chef baked burned.\",\n    \"The song the band played ended.\",\n    \"The rat the cat the dog chased bit died.\"\n  ]\n}",
+  "run_idx": 1
+}

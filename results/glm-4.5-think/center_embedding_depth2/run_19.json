@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the car the mechanic fixed started.",
+    "the student the teacher praised smiled.",
+    "the book the author wrote sold.",
+    "the meal the chef prepared tasted.",
+    "the house the builder constructed collapsed."
+  ],
+  "induced_prompt_raw": "Reduced relative clause: noun phrase1 (object) noun phrase2 (subject) verb1 then verb2",
+  "induced_prompt": "Reduced relative clause: noun phrase1 (object) noun phrase2 (subject) verb1 then verb2",
+  "induced_prompt_chars": 86,
+  "induced_prompt_words": 12,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The book read by the student fascinated the professor.\",\n    \"The cake baked by the chef delighted the guests.\",\n    \"The car repaired by the mechanic ran smoothly.\",\n    \"The song written by the artist topped the charts.\",\n    \"The tree planted by the gardener flourished quickly.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The book read by the student fascinated the professor.",
+    "The cake baked by the chef delighted the guests.",
+    "The car repaired by the mechanic ran smoothly.",
+    "The song written by the artist topped the charts.",
+    "The tree planted by the gardener flourished quickly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:20:05.695693+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the mechanic fixed started.",
+    "the student the teacher praised smiled.",
+    "the book the author wrote sold.",
+    "the meal the chef prepared tasted.",
+    "the house the builder constructed collapsed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the mechanic fixed started.\",\n    \"the student the teacher praised smiled.\",\n    \"the book the author wrote sold.\",\n    \"the meal the chef prepared tasted.\",\n    \"the house the builder constructed collapsed.\"\n  ]\n}\n```",
+  "run_idx": 19
+}

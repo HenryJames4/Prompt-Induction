@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the editor the publisher read approved submitted vanished",
+    "the letter the secretary the manager the director wrote signed forwarded disappeared",
+    "the document the clerk the supervisor the director reviewed finalized submitted vanished",
+    "the proposal the intern the assistant the manager drafted approved submitted disappeared",
+    "the article the writer the editor the publisher composed revised published vanished"
+  ],
+  "induced_prompt_raw": "the [noun] the [role] the [role] the [role] [verb1] [verb2] [verb3] [verb4]",
+  "induced_prompt": "the [noun] the [role] the [role] the [role] [verb1] [verb2] [verb3] [verb4]",
+  "induced_prompt_chars": 75,
+  "induced_prompt_words": 12,
+  "l1_char_total": 420,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the hunter the gardener the teacher walked ran jumped danced.\", \"The dog the chef the artist the student painted drew sang played.\", \"The bird the doctor the musician the writer sang composed wrote read.\", \"The tree the engineer the actor the poet built acted wrote performed.\", \"The river the scientist the dancer the poet flowed swam danced wrote.\"]}",
+  "l2_sentences": [
+    "The cat the hunter the gardener the teacher walked ran jumped danced.",
+    "The dog the chef the artist the student painted drew sang played.",
+    "The bird the doctor the musician the writer sang composed wrote read.",
+    "The tree the engineer the actor the poet built acted wrote performed.",
+    "The river the scientist the dancer the poet flowed swam danced wrote."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:23:48.089387+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the editor the publisher read approved submitted vanished",
+    "the letter the secretary the manager the director wrote signed forwarded disappeared",
+    "the document the clerk the supervisor the director reviewed finalized submitted vanished",
+    "the proposal the intern the assistant the manager drafted approved submitted disappeared",
+    "the article the writer the editor the publisher composed revised published vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher read approved submitted vanished\", \"the letter the secretary the manager the director wrote signed forwarded disappeared\", \"the document the clerk the supervisor the director reviewed finalized submitted vanished\", \"the proposal the intern the assistant the manager drafted approved submitted disappeared\", \"the article the writer the editor the publisher composed revised published vanished\"]}",
+  "run_idx": 13
+}

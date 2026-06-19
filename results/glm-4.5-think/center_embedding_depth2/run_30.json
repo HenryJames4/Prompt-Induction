@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the car the mechanic fixed ran.",
+    "the book the student read disappeared.",
+    "the movie the critic praised flopped.",
+    "the house the architect designed collapsed.",
+    "the meal the chef prepared tasted."
+  ],
+  "induced_prompt_raw": "Reduced relative clause: noun noun verb verb.",
+  "induced_prompt": "Reduced relative clause: noun noun verb verb.",
+  "induced_prompt_chars": 45,
+  "induced_prompt_words": 7,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The man the dog chased barked.\",\n    \"The woman the cat saw ran.\",\n    \"The child the ball threw caught.\",\n    \"The bird the worm ate flew.\",\n    \"The car the truck hit parked.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The man the dog chased barked.",
+    "The woman the cat saw ran.",
+    "The child the ball threw caught.",
+    "The bird the worm ate flew.",
+    "The car the truck hit parked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:33:53.915646+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the mechanic fixed ran.",
+    "the book the student read disappeared.",
+    "the movie the critic praised flopped.",
+    "the house the architect designed collapsed.",
+    "the meal the chef prepared tasted."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the mechanic fixed ran.\",\n    \"the book the student read disappeared.\",\n    \"the movie the critic praised flopped.\",\n    \"the house the architect designed collapsed.\",\n    \"the meal the chef prepared tasted.\"\n  ]\n}\n```",
+  "run_idx": 30
+}

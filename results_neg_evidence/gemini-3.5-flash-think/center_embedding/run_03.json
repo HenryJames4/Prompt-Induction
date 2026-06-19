@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The law the politician the lobbyist the citizen phoned influenced passed failed.",
+    "The vehicle the passenger the speeder the cop stopped blamed owned crashed.",
+    "The test the teacher the child the parent scolded feared graded leaked.",
+    "The meal the patron the cook the manager fired annoyed ordered spilled.",
+    "The dog the cat the rat bit chased ran."
+  ],
+  "induced_prompt_raw": "Generate triply center-embedded sentences containing exactly four nouns followed by four verbs (e.g., \"The N1 the N2 the N3 the N4 V4 V3 V2 V1\"). Avoid doubly center-embedded sentences with only three nouns and three verbs.",
+  "induced_prompt": "Generate triply center-embedded sentences containing exactly four nouns followed by four verbs (e.g., \"The N1 the N2 the N3 the N4 V4 V3 V2 V1\"). Avoid doubly center-embedded sentences with only three nouns and three verbs.",
+  "induced_prompt_chars": 223,
+  "induced_prompt_words": 36,
+  "l1_char_total": 336,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The girl the boy the teacher the principal fired ignored liked laughed.\",\n    \"The book the student the author the critic praised inspired read vanished.\",\n    \"The masterpiece the artist the mentor the patron funded trained painted burned.\",\n    \"The patient the nurse the doctor the chief hired assisted treated recovered.\",\n    \"The deer the wolf the hunter the warden tracked shot chased escaped.\"\n  ]\n}",
+  "l2_sentences": [
+    "The girl the boy the teacher the principal fired ignored liked laughed.",
+    "The book the student the author the critic praised inspired read vanished.",
+    "The masterpiece the artist the mentor the patron funded trained painted burned.",
+    "The patient the nurse the doctor the chief hired assisted treated recovered.",
+    "The deer the wolf the hunter the warden tracked shot chased escaped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:45:10.054774+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The law the politician the lobbyist the citizen phoned influenced passed failed.",
+    "The vehicle the passenger the speeder the cop stopped blamed owned crashed.",
+    "The test the teacher the child the parent scolded feared graded leaked.",
+    "The meal the patron the cook the manager fired annoyed ordered spilled."
+  ],
+  "l1_sentences": [
+    "The law the politician the lobbyist the citizen phoned influenced passed failed.",
+    "The vehicle the passenger the speeder the cop stopped blamed owned crashed.",
+    "The test the teacher the child the parent scolded feared graded leaked.",
+    "The meal the patron the cook the manager fired annoyed ordered spilled.",
+    "The dog the cat the rat bit chased ran."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The law the politician the lobbyist the citizen phoned influenced passed failed.\",\n    \"The vehicle the passenger the speeder the cop stopped blamed owned crashed.\",\n    \"The test the teacher the child the parent scolded feared graded leaked.\",\n    \"The meal the patron the cook the manager fired annoyed ordered spilled.\",\n    \"The dog the cat the rat bit chased ran.\"\n  ]\n}",
+  "run_idx": 3
+}

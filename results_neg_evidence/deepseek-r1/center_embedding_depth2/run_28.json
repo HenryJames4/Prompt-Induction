@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the boy chased barked.",
+    "the cake the baker made tasted.",
+    "the book the author wrote sold.",
+    "the house the architect designed stood.",
+    "the professor the student the assignment confused asked explained."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with exactly two nouns and two verbs in the pattern: 'the [Noun1] the [Noun2] [TransitiveVerb] [IntransitiveVerb]', where Noun1 is the object of TransitiveVerb. Avoid nested clauses or additional nouns/verbs.\"",
+  "induced_prompt": "\"Generate a sentence with exactly two nouns and two verbs in the pattern: 'the [Noun1] the [Noun2] [TransitiveVerb] [IntransitiveVerb]', where Noun1 is the object of TransitiveVerb. Avoid nested clauses or additional nouns/verbs.\"",
+  "induced_prompt_chars": 230,
+  "induced_prompt_words": 32,
+  "l1_char_total": 197,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"the ball the child kicks rolls.\", \"the door the man opens creaks.\", \"the cake the baker bakes rises.\", \"the letter the woman writes arrives.\", \"the window the wind slams shatters.\"]}",
+  "l2_sentences": [
+    "the ball the child kicks rolls.",
+    "the door the man opens creaks.",
+    "the cake the baker bakes rises.",
+    "the letter the woman writes arrives.",
+    "the window the wind slams shatters."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:59:05.510306+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the dog the boy chased barked.",
+    "the cake the baker made tasted.",
+    "the book the author wrote sold.",
+    "the house the architect designed stood."
+  ],
+  "l1_sentences": [
+    "the dog the boy chased barked.",
+    "the cake the baker made tasted.",
+    "the book the author wrote sold.",
+    "the house the architect designed stood.",
+    "the professor the student the assignment confused asked explained."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy chased barked.\", \"the cake the baker made tasted.\", \"the book the author wrote sold.\", \"the house the architect designed stood.\", \"the professor the student the assignment confused asked explained.\"]}",
+  "run_idx": 28
+}

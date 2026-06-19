@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the paper the professor the student the dean hired impressed cited circulated.",
+    "the book the author the critic the publisher contacted praised wrote sold.",
+    "the case the lawyer the witness the judge questioned helped won closed.",
+    "the meal the chef the apprentice the owner trained assisted prepared disappeared.",
+    "the project the manager the engineer the client briefed updated supervised succeeded."
+  ],
+  "induced_prompt_raw": "Generate sentences with four consecutive center-embedded relative clauses, where all noun phrases appear before all verbs, using professional roles and contextually related objects and actions.",
+  "induced_prompt": "Generate sentences with four consecutive center-embedded relative clauses, where all noun phrases appear before all verbs, using professional roles and contextually related objects and actions.",
+  "induced_prompt_chars": 193,
+  "induced_prompt_words": 25,
+  "l1_char_total": 389,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The report that the analyst that the manager that the director that the CEO hired supervised promoted reviewed was published.\",\n    \"The contract that the paralegal that the associate that the partner that the senior partner hired supervised mentored reviewed was signed.\",\n    \"The blueprint that the architect that the engineer that the contractor that the inspector certified supervised consulted designed was approved.\",\n    \"The prescription that the intern that the resident that the specialist that the physician hired supervised trained wrote was filled.\",\n    \"The budget that the accountant that the manager that the director that the CFO appointed evaluated supervised prepared was approved.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The report that the analyst that the manager that the director that the CEO hired supervised promoted reviewed was published.",
+    "The contract that the paralegal that the associate that the partner that the senior partner hired supervised mentored reviewed was signed.",
+    "The blueprint that the architect that the engineer that the contractor that the inspector certified supervised consulted designed was approved.",
+    "The prescription that the intern that the resident that the specialist that the physician hired supervised trained wrote was filled.",
+    "The budget that the accountant that the manager that the director that the CFO appointed evaluated supervised prepared was approved."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:27:44.831438+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the paper the professor the student the dean hired impressed cited circulated.",
+    "the book the author the critic the publisher contacted praised wrote sold.",
+    "the case the lawyer the witness the judge questioned helped won closed.",
+    "the meal the chef the apprentice the owner trained assisted prepared disappeared.",
+    "the project the manager the engineer the client briefed updated supervised succeeded."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the paper the professor the student the dean hired impressed cited circulated.\",\n    \"the book the author the critic the publisher contacted praised wrote sold.\",\n    \"the case the lawyer the witness the judge questioned helped won closed.\",\n    \"the meal the chef the apprentice the owner trained assisted prepared disappeared.\",\n    \"the project the manager the engineer the client briefed updated supervised succeeded.\"\n  ]\n}\n```",
+  "run_idx": 19
+}

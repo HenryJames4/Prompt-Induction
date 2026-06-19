@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student read won.",
+    "The cat the dog chased fled.",
+    "The report the manager reviewed passed.",
+    "The letter the editor approved spread.",
+    "The cake the chef the owner hired baked burned melted."
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (subject-object-verb structure), limited to one level of embedding only.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (subject-object-verb structure), limited to one level of embedding only.",
+  "induced_prompt_chars": 134,
+  "induced_prompt_words": 17,
+  "l1_char_total": 189,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that the student borrowed was overdue.\", \"The cat that the dog chased climbed the fence.\", \"The letter that the manager wrote confused everyone.\", \"The song that the choir performed moved the audience.\", \"The painting that the artist created won the prize.\"]}\n```",
+  "l2_sentences": [
+    "The book that the student borrowed was overdue.",
+    "The cat that the dog chased climbed the fence.",
+    "The letter that the manager wrote confused everyone.",
+    "The song that the choir performed moved the audience.",
+    "The painting that the artist created won the prize."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:54:12.902328+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student read won.",
+    "The cat the dog chased fled.",
+    "The report the manager reviewed passed.",
+    "The letter the editor approved spread."
+  ],
+  "l1_sentences": [
+    "The book the student read won.",
+    "The cat the dog chased fled.",
+    "The report the manager reviewed passed.",
+    "The letter the editor approved spread.",
+    "The cake the chef the owner hired baked burned melted."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the student read won.\", \"The cat the dog chased fled.\", \"The report the manager reviewed passed.\", \"The letter the editor approved spread.\", \"The cake the chef the owner hired baked burned melted.\"]}",
+  "run_idx": 22
+}

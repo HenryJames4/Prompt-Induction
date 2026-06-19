@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef the student the teacher trained hired baked vanished.",
+    "The letter the lawyer the clerk the judge appointed hired wrote disappeared.",
+    "The bridge the engineer the firm the mayor funded hired built collapsed.",
+    "The song the singer the coach the producer hired trained recorded sold.",
+    "The book the author the editor the publisher contacted hired wrote succeeded."
+  ],
+  "induced_prompt_raw": "Write sentences with triple center-embedding, where three nested relative clauses modify the subject before the main verb.",
+  "induced_prompt": "Write sentences with triple center-embedding, where three nested relative clauses modify the subject before the main verb.",
+  "induced_prompt_chars": 122,
+  "induced_prompt_words": 17,
+  "l1_char_total": 367,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the boy owned chased fled.\", \"The report that the committee that the director that the board appointed formed reviewed was flawed.\", \"The book that the professor that the student that the dean praised admired wrote won an award.\", \"The proposal that the team that the manager that the CEO hired assembled drafted was rejected.\", \"The cake that the chef that the critic that the journalist interviewed praised baked disappeared quickly.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the boy owned chased fled.",
+    "The report that the committee that the director that the board appointed formed reviewed was flawed.",
+    "The book that the professor that the student that the dean praised admired wrote won an award.",
+    "The proposal that the team that the manager that the CEO hired assembled drafted was rejected.",
+    "The cake that the chef that the critic that the journalist interviewed praised baked disappeared quickly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:19:52.517474+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef the student the teacher trained hired baked vanished.",
+    "The letter the lawyer the clerk the judge appointed hired wrote disappeared.",
+    "The bridge the engineer the firm the mayor funded hired built collapsed.",
+    "The song the singer the coach the producer hired trained recorded sold.",
+    "The book the author the editor the publisher contacted hired wrote succeeded."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cake the chef the student the teacher trained hired baked vanished.\",\n    \"The letter the lawyer the clerk the judge appointed hired wrote disappeared.\",\n    \"The bridge the engineer the firm the mayor funded hired built collapsed.\",\n    \"The song the singer the coach the producer hired trained recorded sold.\",\n    \"The book the author the editor the publisher contacted hired wrote succeeded.\"\n  ]\n}\n```",
+  "run_idx": 8
+}

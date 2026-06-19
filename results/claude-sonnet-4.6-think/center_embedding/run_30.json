@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the malt the rat the cat the dog chased killed ate fermented.",
+    "the cake the chef the critic the owner hired praised baked cooled.",
+    "the letter the manager the clerk the lawyer advised briefed signed arrived.",
+    "the painting the buyer the artist the critic interviewed impressed purchased sold.",
+    "the bill the senator the lobbyist the journalist exposed pressured passed failed."
+  ],
+  "induced_prompt_raw": "Write sentences with four levels of center-embedded relative clauses, listing all noun phrases before all verb phrases.",
+  "induced_prompt": "Write sentences with four levels of center-embedded relative clauses, listing all noun phrases before all verb phrases.",
+  "induced_prompt_chars": 119,
+  "induced_prompt_words": 17,
+  "l1_char_total": 365,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog the cat the rat the mouse the flea bit chased caught killed barked.\",\n    \"The man the woman the child the baby the nurse fed held loved married smiled.\",\n    \"The paper the researcher the professor the committee the board selected appointed supervised wrote won.\",\n    \"The award the athlete the coach the trainer the doctor examined helped trained won inspired.\",\n    \"The song the singer the producer the manager the agent contacted hired coached recorded became a hit.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog the cat the rat the mouse the flea bit chased caught killed barked.",
+    "The man the woman the child the baby the nurse fed held loved married smiled.",
+    "The paper the researcher the professor the committee the board selected appointed supervised wrote won.",
+    "The award the athlete the coach the trainer the doctor examined helped trained won inspired.",
+    "The song the singer the producer the manager the agent contacted hired coached recorded became a hit."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:34:21.308242+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the malt the rat the cat the dog chased killed ate fermented.",
+    "the cake the chef the critic the owner hired praised baked cooled.",
+    "the letter the manager the clerk the lawyer advised briefed signed arrived.",
+    "the painting the buyer the artist the critic interviewed impressed purchased sold.",
+    "the bill the senator the lobbyist the journalist exposed pressured passed failed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the malt the rat the cat the dog chased killed ate fermented.\",\n    \"the cake the chef the critic the owner hired praised baked cooled.\",\n    \"the letter the manager the clerk the lawyer advised briefed signed arrived.\",\n    \"the painting the buyer the artist the critic interviewed impressed purchased sold.\",\n    \"the bill the senator the lobbyist the journalist exposed pressured passed failed.\"\n  ]\n}\n```",
+  "run_idx": 30
+}

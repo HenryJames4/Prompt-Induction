@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read won.",
+    "the car the mechanic fixed raced.",
+    "the tree the storm damaged fell.",
+    "the meal the chef cooked pleased."
+  ],
+  "induced_prompt_raw": "Generate: the N1 the N2 V1 V2",
+  "induced_prompt": "Generate: the N1 the N2 V1 V2",
+  "induced_prompt_chars": 29,
+  "induced_prompt_words": 7,
+  "l1_char_total": 159,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased played.\",\n    \"The sun the moon rises sets.\",\n    \"The boy the girl reads writes.\",\n    \"The car the truck drives parks.\",\n    \"The bird the fish flies swims.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the dog chased played.",
+    "The sun the moon rises sets.",
+    "The boy the girl reads writes.",
+    "The car the truck drives parks.",
+    "The bird the fish flies swims."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:22:41.109468+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read won.",
+    "the car the mechanic fixed raced.",
+    "the tree the storm damaged fell.",
+    "the meal the chef cooked pleased."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read won.\",\n    \"the car the mechanic fixed raced.\",\n    \"the tree the storm damaged fell.\",\n    \"the meal the chef cooked pleased.\"\n  ]\n}\n```",
+  "run_idx": 21
+}

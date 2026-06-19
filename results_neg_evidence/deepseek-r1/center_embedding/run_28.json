@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the house the man the woman the child loved helped built collapsed",
+    "the book the writer the agent the publisher signed represented composed sold",
+    "the cake the patron the server the manager assigned served ordered arrived",
+    "the prize the student the teacher the principal nominated taught won appeared",
+    "the boy the girl the dog chased followed escaped"
+  ],
+  "induced_prompt_raw": "\"Start with four consecutive 'the [noun]' phrases, then use three past-tense transitive verbs, and end with an intransitive verb.\"",
+  "induced_prompt": "\"Start with four consecutive 'the [noun]' phrases, then use three past-tense transitive verbs, and end with an intransitive verb.\"",
+  "induced_prompt_chars": 130,
+  "induced_prompt_words": 19,
+  "l1_char_total": 341,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The mountain, the river, the forest, and the valley witnessed the storm, endured the wind, and absorbed the rain, then slept.\", \"The teacher, the student, the book, and the lesson explained the concept, solved the problem, and clarified the doubt, then concluded.\", \"The cat, the dog, the bird, and the mouse chased the toy, fetched the stick, and ate the cheese, then vanished.\", \"The king, the queen, the knight, and the servant ruled the land, protected the realm, and served the people, then departed.\", \"The sun, the moon, the stars, and the cloud illuminated the sky, decorated the night, and covered the earth, then faded.\"]}",
+  "l2_sentences": [
+    "The mountain, the river, the forest, and the valley witnessed the storm, endured the wind, and absorbed the rain, then slept.",
+    "The teacher, the student, the book, and the lesson explained the concept, solved the problem, and clarified the doubt, then concluded.",
+    "The cat, the dog, the bird, and the mouse chased the toy, fetched the stick, and ate the cheese, then vanished.",
+    "The king, the queen, the knight, and the servant ruled the land, protected the realm, and served the people, then departed.",
+    "The sun, the moon, the stars, and the cloud illuminated the sky, decorated the night, and covered the earth, then faded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:24:44.548289+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the house the man the woman the child loved helped built collapsed",
+    "the book the writer the agent the publisher signed represented composed sold",
+    "the cake the patron the server the manager assigned served ordered arrived",
+    "the prize the student the teacher the principal nominated taught won appeared"
+  ],
+  "l1_sentences": [
+    "the house the man the woman the child loved helped built collapsed",
+    "the book the writer the agent the publisher signed represented composed sold",
+    "the cake the patron the server the manager assigned served ordered arrived",
+    "the prize the student the teacher the principal nominated taught won appeared",
+    "the boy the girl the dog chased followed escaped"
+  ],
+  "l1_raw": "{\"sentences\": [\"the house the man the woman the child loved helped built collapsed\", \"the book the writer the agent the publisher signed represented composed sold\", \"the cake the patron the server the manager assigned served ordered arrived\", \"the prize the student the teacher the principal nominated taught won appeared\", \"the boy the girl the dog chased followed escaped\"]}",
+  "run_idx": 28
+}

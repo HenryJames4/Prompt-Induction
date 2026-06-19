@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the librarian borrowed returned read finished vanished.",
+    "the letter the secretary the manager the director reviewed signed sent disappeared.",
+    "the document the clerk the supervisor the director reviewed approved submitted vanished.",
+    "the email the intern the assistant the manager the editor forwarded replied opened vanished.",
+    "the story the writer the editor the publisher the reader enjoyed accepted published."
+  ],
+  "induced_prompt_raw": "Generate a sentence with a chain of nested clauses where each noun is modified by a relative clause describing an action performed by a preceding noun, ending with a final verb that applies to the first noun, ensuring all actions are completed and the sequence is logically consistent.",
+  "induced_prompt": "Generate a sentence with a chain of nested clauses where each noun is modified by a relative clause describing an action performed by a preceding noun, ending with a final verb that applies to the first noun, ensuring all actions are completed and the sequence is logically consistent.",
+  "induced_prompt_chars": 285,
+  "induced_prompt_words": 48,
+  "l1_char_total": 435,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that the student who had borrowed it from the library that the librarian had checked out for the class finally returned to the shelf was placed back on the shelf.\", \"The letter that the secretary who had typed it on the printer that the technician had fixed after it jammed was delivered to the manager who had requested it was signed by the manager.\", \"The signal that the engineer who had calibrated the device that the technician had repaired after it malfunctioned was sent to the control center was acknowledged by the operator.\", \"The message that the assistant who had composed it in the software that the developer had updated after it crashed was transmitted to the team leader who had authorized it was received by the team leader.\", \"The project that the manager who had approved the budget that the accountant who had reviewed the expenses had submitted was completed by the team who had worked on it was presented to the board.\"] }",
+  "l2_sentences": [
+    "The book that the student who had borrowed it from the library that the librarian had checked out for the class finally returned to the shelf was placed back on the shelf.",
+    "The letter that the secretary who had typed it on the printer that the technician had fixed after it jammed was delivered to the manager who had requested it was signed by the manager.",
+    "The signal that the engineer who had calibrated the device that the technician had repaired after it malfunctioned was sent to the control center was acknowledged by the operator.",
+    "The message that the assistant who had composed it in the software that the developer had updated after it crashed was transmitted to the team leader who had authorized it was received by the team leader.",
+    "The project that the manager who had approved the budget that the accountant who had reviewed the expenses had submitted was completed by the team who had worked on it was presented to the board."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:18:42.349636+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the librarian borrowed returned read finished vanished.",
+    "the letter the secretary the manager the director reviewed signed sent disappeared.",
+    "the document the clerk the supervisor the director reviewed approved submitted vanished.",
+    "the email the intern the assistant the manager the editor forwarded replied opened vanished."
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the librarian borrowed returned read finished vanished.",
+    "the letter the secretary the manager the director reviewed signed sent disappeared.",
+    "the document the clerk the supervisor the director reviewed approved submitted vanished.",
+    "the email the intern the assistant the manager the editor forwarded replied opened vanished.",
+    "the story the writer the editor the publisher the reader enjoyed accepted published."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian borrowed returned read finished vanished.\", \"the letter the secretary the manager the director reviewed signed sent disappeared.\", \"the document the clerk the supervisor the director reviewed approved submitted vanished.\", \"the email the intern the assistant the manager the editor forwarded replied opened vanished.\", \"the story the writer the editor the publisher the reader enjoyed accepted published.\"]}",
+  "run_idx": 25
+}

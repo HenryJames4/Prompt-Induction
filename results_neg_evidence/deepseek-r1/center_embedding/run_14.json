@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the mouse the cat the dog the boy owned fed chased escaped.",
+    "the king the knight the squire the dragon defeated rescued praised celebrated.",
+    "the book the author the editor the publisher hired assisted wrote appeared.",
+    "the cake the baker the chef the apprentice helped thanked baked rose.",
+    "the boy the girl the dog walked ran jumped."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with center-embedded relative clauses: a sequence of 'the' + noun phrases (at least three), followed by a matching sequence of verbs. The first verb must be transitive and apply to the last noun (subject) and the preceding noun (object). Each subsequent verb (except the last) must be transitive, taking the previous verb's object as its new subject and the next leftward noun as object. The final verb must be intransitive with the first noun as subject. Ensure all relative-clause verbs are transitive.\"",
+  "induced_prompt": "\"Generate a sentence with center-embedded relative clauses: a sequence of 'the' + noun phrases (at least three), followed by a matching sequence of verbs. The first verb must be transitive and apply to the last noun (subject) and the preceding noun (object). Each subsequent verb (except the last) must be transitive, taking the previous verb's object as its new subject and the next leftward noun as object. The final verb must be intransitive with the first noun as subject. Ensure all relative-clause verbs are transitive.\"",
+  "induced_prompt_chars": 526,
+  "induced_prompt_words": 85,
+  "l1_char_total": 324,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\n  \"The man that the woman that the child admired trusted left.\",\n  \"The dog that the cat that the mouse scared avoided barked.\",\n  \"The book that the student that the teacher taught read fell.\",\n  \"The car that the mechanic that the owner hired fixed started.\",\n  \"The king that the knight that the dragon attacked rescued died.\"\n]}",
+  "l2_sentences": [
+    "The man that the woman that the child admired trusted left.",
+    "The dog that the cat that the mouse scared avoided barked.",
+    "The book that the student that the teacher taught read fell.",
+    "The car that the mechanic that the owner hired fixed started.",
+    "The king that the knight that the dragon attacked rescued died."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:02:38.535851+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the mouse the cat the dog the boy owned fed chased escaped.",
+    "the king the knight the squire the dragon defeated rescued praised celebrated.",
+    "the book the author the editor the publisher hired assisted wrote appeared.",
+    "the cake the baker the chef the apprentice helped thanked baked rose."
+  ],
+  "l1_sentences": [
+    "the mouse the cat the dog the boy owned fed chased escaped.",
+    "the king the knight the squire the dragon defeated rescued praised celebrated.",
+    "the book the author the editor the publisher hired assisted wrote appeared.",
+    "the cake the baker the chef the apprentice helped thanked baked rose.",
+    "the boy the girl the dog walked ran jumped."
+  ],
+  "l1_raw": "{\"sentences\": [\"the mouse the cat the dog the boy owned fed chased escaped.\", \"the king the knight the squire the dragon defeated rescued praised celebrated.\", \"the book the author the editor the publisher hired assisted wrote appeared.\", \"the cake the baker the chef the apprentice helped thanked baked rose.\", \"the boy the girl the dog walked ran jumped.\"]}",
+  "run_idx": 14
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped",
+    "the student the teacher praised graduated",
+    "the car the mechanic fixed started",
+    "the cake the baker made burned",
+    "the letter the writer mailed arrived"
+  ],
+  "induced_prompt_raw": "Generate sentences with the syntactic structure: \"The [noun] the [noun] [transitive verb] [intransitive verb].\"",
+  "induced_prompt": "Generate sentences with the syntactic structure: \"The [noun] the [noun] [transitive verb] [intransitive verb].\"",
+  "induced_prompt_chars": 111,
+  "induced_prompt_words": 14,
+  "l1_char_total": 171,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the girl helped smiled.\",\n    \"The bird the cat stalked flew.\",\n    \"The guest the host welcomed arrived.\",\n    \"The car the mechanic fixed stalled.\",\n    \"The athlete the coach trained triumphed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the girl helped smiled.",
+    "The bird the cat stalked flew.",
+    "The guest the host welcomed arrived.",
+    "The car the mechanic fixed stalled.",
+    "The athlete the coach trained triumphed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:37:16.999275+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped",
+    "the student the teacher praised graduated",
+    "the car the mechanic fixed started",
+    "the cake the baker made burned",
+    "the letter the writer mailed arrived"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased escaped\",\n    \"the student the teacher praised graduated\",\n    \"the car the mechanic fixed started\",\n    \"the cake the baker made burned\",\n    \"the letter the writer mailed arrived\"\n  ]\n}",
+  "run_idx": 8
+}

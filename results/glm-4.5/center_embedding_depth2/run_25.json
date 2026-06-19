@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the car the mechanic fixed broke.",
+    "the plant the gardener watered grew.",
+    "the house the builder designed collapsed."
+  ],
+  "induced_prompt_raw": "Noun phrase verb noun phrase verb.",
+  "induced_prompt": "Noun phrase verb noun phrase verb.",
+  "induced_prompt_chars": 34,
+  "induced_prompt_words": 6,
+  "l1_char_total": 179,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat chased the mouse.\",\n    \"A student read the book.\",\n    \"My brother fixed the car.\",\n    \"The teacher explained the lesson.\",\n    \"The dog fetched the ball.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat chased the mouse.",
+    "A student read the book.",
+    "My brother fixed the car.",
+    "The teacher explained the lesson.",
+    "The dog fetched the ball."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:28:03.899148+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the car the mechanic fixed broke.",
+    "the plant the gardener watered grew.",
+    "the house the builder designed collapsed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read disappeared.\",\n    \"the car the mechanic fixed broke.\",\n    \"the plant the gardener watered grew.\",\n    \"the house the builder designed collapsed.\"\n  ]\n}",
+  "run_idx": 25
+}

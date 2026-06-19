@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor revised sold",
+    "the car the mechanic fixed ran",
+    "the cake the baker decorated tasted",
+    "the song the musician composed played",
+    "the film the director edited screened"
+  ],
+  "induced_prompt_raw": "Here’s a concise prompt that captures the syntactic structure of these sentences:  \n\n**\"Generate sentences with the pattern: [the noun] [the profession] [verb1] [verb2].\"**  \n\nThis reflects the structure: *\"the [subject] the [modifier] [action1] [action2].\"*",
+  "induced_prompt": "Here’s a concise prompt that captures the syntactic structure of these sentences:  \n\n**\"Generate sentences with the pattern: [the noun] [the profession] [verb1] [verb2].\"**  \n\nThis reflects the structure: *\"the [subject] the [modifier] [action1] [action2].\"*",
+  "induced_prompt_chars": 258,
+  "induced_prompt_words": 33,
+  "l1_char_total": 171,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"the artist the painter creates inspires.\", \"the musician the composer writes performs.\", \"the teacher the educator explains motivates.\", \"the chef the baker kneads bakes.\", \"the engineer the designer drafts builds.\"]}",
+  "l2_sentences": [
+    "the artist the painter creates inspires.",
+    "the musician the composer writes performs.",
+    "the teacher the educator explains motivates.",
+    "the chef the baker kneads bakes.",
+    "the engineer the designer drafts builds."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:05:13.187235+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor revised sold",
+    "the car the mechanic fixed ran",
+    "the cake the baker decorated tasted",
+    "the song the musician composed played",
+    "the film the director edited screened"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor revised sold\", \"the car the mechanic fixed ran\", \"the cake the baker decorated tasted\", \"the song the musician composed played\", \"the film the director edited screened\"]}",
+  "run_idx": 6
+}

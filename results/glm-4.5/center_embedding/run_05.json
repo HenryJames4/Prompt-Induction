@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the boy the woman chased fed petted loved.",
+    "the book the teacher the student the principal read assigned recommended praised.",
+    "the car the mechanic the owner the dealer fixed inspected sold delivered.",
+    "the house the agent the buyer the seller showed negotiated purchased visited.",
+    "the meal the chef the critic the guest prepared tasted reviewed enjoyed."
+  ],
+  "induced_prompt_raw": "A chain of nouns with increasing transitive verbs.",
+  "induced_prompt": "A chain of nouns with increasing transitive verbs.",
+  "induced_prompt_chars": 50,
+  "induced_prompt_words": 8,
+  "l1_char_total": 361,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy throws the ball.\",\n    \"The boy throws the ball which hits the window.\",\n    \"The boy throws the ball which hits the window that breaks the glass.\",\n    \"The boy throws the ball which hits the window that breaks the glass which startles the cat.\",\n    \"The boy throws the ball which hits the window that breaks the glass which startles the cat that wakes the baby.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy throws the ball.",
+    "The boy throws the ball which hits the window.",
+    "The boy throws the ball which hits the window that breaks the glass.",
+    "The boy throws the ball which hits the window that breaks the glass which startles the cat.",
+    "The boy throws the ball which hits the window that breaks the glass which startles the cat that wakes the baby."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:08:54.307634+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the boy the woman chased fed petted loved.",
+    "the book the teacher the student the principal read assigned recommended praised.",
+    "the car the mechanic the owner the dealer fixed inspected sold delivered.",
+    "the house the agent the buyer the seller showed negotiated purchased visited.",
+    "the meal the chef the critic the guest prepared tasted reviewed enjoyed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the boy the woman chased fed petted loved.\",\n    \"the book the teacher the student the principal read assigned recommended praised.\",\n    \"the car the mechanic the owner the dealer fixed inspected sold delivered.\",\n    \"the house the agent the buyer the seller showed negotiated purchased visited.\",\n    \"the meal the chef the critic the guest prepared tasted reviewed enjoyed.\"\n  ]\n}",
+  "run_idx": 5
+}

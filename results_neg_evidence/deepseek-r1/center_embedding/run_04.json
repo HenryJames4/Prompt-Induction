@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the man the woman the child bit kicked chased barked.",
+    "the cake the chef the customer the waiter served criticized returned spoiled.",
+    "the letter the secretary the manager the intern contacted assigned typed disappeared.",
+    "the car the driver the mechanic the owner called consulted fixed stalled.",
+    "the cat the mouse the cheese ate chased slept."
+  ],
+  "induced_prompt_raw": "Generate a sentence following the pattern: \"the [noun1] the [noun2] ... the [nounk] [verb1] [verb2] ... [verbk]\" where:  \n- The rightmost noun (nounk) acts as the subject of verb1, with the noun to its left (nounk-1) as the object.  \n- Then nounk-1 acts as the subject of verb2, with the next left noun (nounk-2) as the object, and so on.  \n- The leftmost noun (noun1) acts as the subject of the final verb (verbk), which must be intransitive.  \nEnsure all actions are plausible and semantically coherent.",
+  "induced_prompt": "Generate a sentence following the pattern: \"the [noun1] the [noun2] ... the [nounk] [verb1] [verb2] ... [verbk]\" where:  \n- The rightmost noun (nounk) acts as the subject of verb1, with the noun to its left (nounk-1) as the object.  \n- Then nounk-1 acts as the subject of verb2, with the next left noun (nounk-2) as the object, and so on.  \n- The leftmost noun (noun1) acts as the subject of the final verb (verbk), which must be intransitive.  \nEnsure all actions are plausible and semantically coherent.",
+  "induced_prompt_chars": 505,
+  "induced_prompt_words": 86,
+  "l1_char_total": 342,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"the dog the stick the man threw hit yelped.\", \"the cheese the mouse the cat chased ate crumbled.\", \"the book the student the teacher assigned read fell.\", \"the ground the leaves the wind blew covered shimmered.\", \"the window the ball the child threw broke shattered.\"]}",
+  "l2_sentences": [
+    "the dog the stick the man threw hit yelped.",
+    "the cheese the mouse the cat chased ate crumbled.",
+    "the book the student the teacher assigned read fell.",
+    "the ground the leaves the wind blew covered shimmered.",
+    "the window the ball the child threw broke shattered."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:47:26.568967+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the dog the man the woman the child bit kicked chased barked.",
+    "the cake the chef the customer the waiter served criticized returned spoiled.",
+    "the letter the secretary the manager the intern contacted assigned typed disappeared.",
+    "the car the driver the mechanic the owner called consulted fixed stalled."
+  ],
+  "l1_sentences": [
+    "the dog the man the woman the child bit kicked chased barked.",
+    "the cake the chef the customer the waiter served criticized returned spoiled.",
+    "the letter the secretary the manager the intern contacted assigned typed disappeared.",
+    "the car the driver the mechanic the owner called consulted fixed stalled.",
+    "the cat the mouse the cheese ate chased slept."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the man the woman the child bit kicked chased barked.\", \"the cake the chef the customer the waiter served criticized returned spoiled.\", \"the letter the secretary the manager the intern contacted assigned typed disappeared.\", \"the car the driver the mechanic the owner called consulted fixed stalled.\", \"the cat the mouse the cheese ate chased slept.\"]}",
+  "run_idx": 4
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef baked vanished.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer built collapsed.",
+    "The song the musician composed spread.",
+    "The book the author signed sold."
+  ],
+  "induced_prompt_raw": "Write sentences where a subject with an embedded relative clause (noun + the + agent + verb) is followed by a simple intransitive verb.",
+  "induced_prompt": "Write sentences where a subject with an embedded relative clause (noun + the + agent + verb) is followed by a simple intransitive verb.",
+  "induced_prompt_chars": 135,
+  "induced_prompt_words": 24,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the neighbor feeds sleeps.\", \"The book the scholar wrote disappeared.\", \"The bridge the engineers built collapsed.\", \"The song the children sang echoed.\", \"The painting the artist created survived.\"]}\n```",
+  "l2_sentences": [
+    "The cat the neighbor feeds sleeps.",
+    "The book the scholar wrote disappeared.",
+    "The bridge the engineers built collapsed.",
+    "The song the children sang echoed.",
+    "The painting the artist created survived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:38:42.881043+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef baked vanished.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer built collapsed.",
+    "The song the musician composed spread.",
+    "The book the author signed sold."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The cake the chef baked vanished.\", \"The letter the student wrote arrived.\", \"The bridge the engineer built collapsed.\", \"The song the musician composed spread.\", \"The book the author signed sold.\"]}\n```",
+  "run_idx": 10
+}

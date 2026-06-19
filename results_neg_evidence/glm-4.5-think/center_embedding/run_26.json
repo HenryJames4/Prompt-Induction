@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the cat the dog the bird the mouse chased hunted saw scared",
+    "the book the teacher the student the principal assigned read recommended returned",
+    "the house the architect the builder the owner designed constructed sold admired",
+    "the car the driver the mechanic repaired washed crashed"
+  ],
+  "induced_prompt_raw": "Generate a sentence with four nouns each starting with 'the' followed by four verbs: the first noun is acted upon by the next three nouns via the first three verbs, and the last verb is an intransitive action of the first noun.",
+  "induced_prompt": "Generate a sentence with four nouns each starting with 'the' followed by four verbs: the first noun is acted upon by the next three nouns via the first three verbs, and the last verb is an intransitive action of the first noun.",
+  "induced_prompt_chars": 227,
+  "induced_prompt_words": 42,
+  "l1_char_total": 359,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The car is washed by the boy, repaired by the mechanic, painted by the artist, and runs.\",\n    \"The book is read by the student, discussed by the teacher, illustrated by the artist, and lies.\",\n    \"The house is built by the builder, decorated by the designer, inspected by the inspector, and stands.\",\n    \"The meal is cooked by the chef, tasted by the critic, photographed by the journalist, and smells.\",\n    \"The song is written by the composer, performed by the singer, recorded by the producer, and plays.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The car is washed by the boy, repaired by the mechanic, painted by the artist, and runs.",
+    "The book is read by the student, discussed by the teacher, illustrated by the artist, and lies.",
+    "The house is built by the builder, decorated by the designer, inspected by the inspector, and stands.",
+    "The meal is cooked by the chef, tasted by the critic, photographed by the journalist, and smells.",
+    "The song is written by the composer, performed by the singer, recorded by the producer, and plays."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:19:37.232429+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the cat the dog the bird the mouse chased hunted saw scared",
+    "the book the teacher the student the principal assigned read recommended returned",
+    "the house the architect the builder the owner designed constructed sold admired"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the cat the dog the bird the mouse chased hunted saw scared",
+    "the book the teacher the student the principal assigned read recommended returned",
+    "the house the architect the builder the owner designed constructed sold admired",
+    "the car the driver the mechanic repaired washed crashed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the cat the dog the bird the mouse chased hunted saw scared\",\n    \"the book the teacher the student the principal assigned read recommended returned\",\n    \"the house the architect the builder the owner designed constructed sold admired\",\n    \"the car the driver the mechanic repaired washed crashed\"\n  ]\n}\n```",
+  "run_idx": 26
+}

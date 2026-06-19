@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed submitted disappeared.",
+    "the file the clerk the supervisor the director accessed edited saved closed.",
+    "the proposal the intern the assistant the manager the executive reviewed approved submitted vanished.",
+    "the story the writer the editor the publisher the audience read revised published."
+  ],
+  "induced_prompt_raw": "Generate a sentence with a chain of nested clauses where each entity performs an action on the object, ending with a final verb that completes the sequence.",
+  "induced_prompt": "Generate a sentence with a chain of nested clauses where each entity performs an action on the object, ending with a final verb that completes the sequence.",
+  "induced_prompt_chars": 156,
+  "induced_prompt_words": 27,
+  "l1_char_total": 426,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The chef, who had prepared the meal that the waiter had delivered to the table where the guest was sitting, finally served the dish that the host had requested.\", \"The student, who had written the essay that the teacher had graded and returned to the class, submitted the revised version that the principal had approved.\", \"The mechanic, who had repaired the car that the driver had brought in for inspection, started the engine that the owner had purchased last year.\", \"The artist, who had painted the mural that the city council had commissioned, unveiled the finished work that the residents had admired for weeks.\", \"The programmer, who had debugged the code that the manager had assigned and tested the application that the user had reported, deployed the update that the company had announced.\"]}",
+  "l2_sentences": [
+    "The chef, who had prepared the meal that the waiter had delivered to the table where the guest was sitting, finally served the dish that the host had requested.",
+    "The student, who had written the essay that the teacher had graded and returned to the class, submitted the revised version that the principal had approved.",
+    "The mechanic, who had repaired the car that the driver had brought in for inspection, started the engine that the owner had purchased last year.",
+    "The artist, who had painted the mural that the city council had commissioned, unveiled the finished work that the residents had admired for weeks.",
+    "The programmer, who had debugged the code that the manager had assigned and tested the application that the user had reported, deployed the update that the company had announced."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:14:31.549475+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed submitted disappeared.",
+    "the file the clerk the supervisor the director accessed edited saved closed.",
+    "the proposal the intern the assistant the manager the executive reviewed approved submitted vanished."
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed submitted disappeared.",
+    "the file the clerk the supervisor the director accessed edited saved closed.",
+    "the proposal the intern the assistant the manager the executive reviewed approved submitted vanished.",
+    "the story the writer the editor the publisher the audience read revised published."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian borrowed read returned vanished.\", \"the letter the secretary the manager the director reviewed signed submitted disappeared.\", \"the file the clerk the supervisor the director accessed edited saved closed.\", \"the proposal the intern the assistant the manager the executive reviewed approved submitted vanished.\", \"the story the writer the editor the publisher the audience read revised published.\"] }",
+  "run_idx": 22
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cheese the rat the cat the dog chased caught ate smelled",
+    "the car the mechanic the owner the thief distracted hired repaired stalled",
+    "the book the student the teacher the principal scolded praised lost vanished",
+    "the house the builder the architect the client sued hired built collapsed",
+    "the cheese the rat the cat chased ate smelled"
+  ],
+  "induced_prompt_raw": "Generate a sentence with triple center-embedding, consisting of exactly four consecutive noun phrases followed by four verbs that resolve them in reverse order (N1 N2 N3 N4 V4 V3 V2 V1). Avoid double center-embedded sentences which only have three nouns and three verbs (N1 N2 N3 V3 V2 V1).",
+  "induced_prompt": "Generate a sentence with triple center-embedding, consisting of exactly four consecutive noun phrases followed by four verbs that resolve them in reverse order (N1 N2 N3 N4 V4 V3 V2 V1). Avoid double center-embedded sentences which only have three nouns and three verbs (N1 N2 N3 V3 V2 V1).",
+  "induced_prompt_chars": 290,
+  "induced_prompt_words": 49,
+  "l1_char_total": 328,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The milk the boy the man the dog bit kicked spilled soured.\",\n    \"The book the student the teacher the principal fired praised lost disappeared.\",\n    \"The car the mechanic the owner the thief threatened paid fixed crashed.\",\n    \"The house the builder the architect the client sued hired built collapsed.\",\n    \"The song the singer the writer the agent avoided inspired performed ended.\"\n  ]\n}",
+  "l2_sentences": [
+    "The milk the boy the man the dog bit kicked spilled soured.",
+    "The book the student the teacher the principal fired praised lost disappeared.",
+    "The car the mechanic the owner the thief threatened paid fixed crashed.",
+    "The house the builder the architect the client sued hired built collapsed.",
+    "The song the singer the writer the agent avoided inspired performed ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:21:55.996907+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cheese the rat the cat the dog chased caught ate smelled",
+    "the car the mechanic the owner the thief distracted hired repaired stalled",
+    "the book the student the teacher the principal scolded praised lost vanished",
+    "the house the builder the architect the client sued hired built collapsed"
+  ],
+  "l1_sentences": [
+    "the cheese the rat the cat the dog chased caught ate smelled",
+    "the car the mechanic the owner the thief distracted hired repaired stalled",
+    "the book the student the teacher the principal scolded praised lost vanished",
+    "the house the builder the architect the client sued hired built collapsed",
+    "the cheese the rat the cat chased ate smelled"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cheese the rat the cat the dog chased caught ate smelled\",\n    \"the car the mechanic the owner the thief distracted hired repaired stalled\",\n    \"the book the student the teacher the principal scolded praised lost vanished\",\n    \"the house the builder the architect the client sued hired built collapsed\",\n    \"the cheese the rat the cat chased ate smelled\"\n  ]\n}",
+  "run_idx": 27
+}

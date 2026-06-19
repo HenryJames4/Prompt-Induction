@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the manuscript the author the editor the proofreader revised corrected submitted vanished",
+    "the data the researcher the team the client analyzed processed presented disappeared",
+    "the proposal the committee the board the sponsor approved finalized presented vanished",
+    "the evidence the detective the lawyer the judge examined analyzed presented disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly four 'the [noun]' phrases followed by four past-tense verbs.",
+  "induced_prompt": "Generate a sentence with exactly four 'the [noun]' phrases followed by four past-tense verbs.",
+  "induced_prompt_chars": 93,
+  "induced_prompt_words": 14,
+  "l1_char_total": 402,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The sky, the river, the tree, the bird flew danced sang slept.\", \"The car, the train, the plane, the ship traveled stopped arrived left.\", \"The teacher, the student, the book, the pen wrote read solved discussed.\", \"The sun, the moon, the stars, the clouds shone twinkled appeared vanished.\", \"The cake, the cookies, the pie, the bread tasted sweet smelled delicious looked perfect.\"]}",
+  "l2_sentences": [
+    "The sky, the river, the tree, the bird flew danced sang slept.",
+    "The car, the train, the plane, the ship traveled stopped arrived left.",
+    "The teacher, the student, the book, the pen wrote read solved discussed.",
+    "The sun, the moon, the stars, the clouds shone twinkled appeared vanished.",
+    "The cake, the cookies, the pie, the bread tasted sweet smelled delicious looked perfect."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:59:44.764298+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the manuscript the author the editor the proofreader revised corrected submitted vanished",
+    "the data the researcher the team the client analyzed processed presented disappeared",
+    "the proposal the committee the board the sponsor approved finalized presented vanished",
+    "the evidence the detective the lawyer the judge examined analyzed presented disappeared"
+  ],
+  "l1_sentences": [
+    "the manuscript the author the editor the proofreader revised corrected submitted vanished",
+    "the data the researcher the team the client analyzed processed presented disappeared",
+    "the proposal the committee the board the sponsor approved finalized presented vanished",
+    "the evidence the detective the lawyer the judge examined analyzed presented disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "l1_raw": "{\"sentences\": [\"the manuscript the author the editor the proofreader revised corrected submitted vanished\", \"the data the researcher the team the client analyzed processed presented disappeared\", \"the proposal the committee the board the sponsor approved finalized presented vanished\", \"the evidence the detective the lawyer the judge examined analyzed presented disappeared\", \"the document the writer the editor sent revised canceled\"]}",
+  "run_idx": 14
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic reviewed sold",
+    "the dog the child petted growled",
+    "the letter the manager signed arrived",
+    "the cake the baker made disappeared",
+    "the report the analyst the editor the boss hired reviewed approved circulated"
+  ],
+  "induced_prompt_raw": "Write a sentence with a single center-embedded relative clause (subject-gap), where the main subject is modified by exactly one relative clause before the main verb. Do not nest multiple relative clauses inside one another.",
+  "induced_prompt": "Write a sentence with a single center-embedded relative clause (subject-gap), where the main subject is modified by exactly one relative clause before the main verb. Do not nest multiple relative clauses inside one another.",
+  "induced_prompt_chars": 223,
+  "induced_prompt_words": 34,
+  "l1_char_total": 214,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The scientist who discovered the new element received a prestigious award.\", \"The dog that chased the squirrel finally collapsed from exhaustion.\", \"The book that she recommended became an instant bestseller.\", \"The engineer who designed the bridge won international recognition.\", \"The child who found the lost kitten brought it home immediately.\"]}\n```",
+  "l2_sentences": [
+    "The scientist who discovered the new element received a prestigious award.",
+    "The dog that chased the squirrel finally collapsed from exhaustion.",
+    "The book that she recommended became an instant bestseller.",
+    "The engineer who designed the bridge won international recognition.",
+    "The child who found the lost kitten brought it home immediately."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:42:43.798784+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic reviewed sold",
+    "the dog the child petted growled",
+    "the letter the manager signed arrived",
+    "the cake the baker made disappeared"
+  ],
+  "l1_sentences": [
+    "the book the critic reviewed sold",
+    "the dog the child petted growled",
+    "the letter the manager signed arrived",
+    "the cake the baker made disappeared",
+    "the report the analyst the editor the boss hired reviewed approved circulated"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the critic reviewed sold\", \"the dog the child petted growled\", \"the letter the manager signed arrived\", \"the cake the baker made disappeared\", \"the report the analyst the editor the boss hired reviewed approved circulated\"]}",
+  "run_idx": 9
+}

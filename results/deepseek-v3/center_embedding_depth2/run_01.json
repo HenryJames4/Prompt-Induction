@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor read impressed",
+    "the song the singer performed delighted",
+    "the film the director created amazed",
+    "the game the player won thrilled",
+    "the cake the baker decorated inspired"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with the structure: 'the [noun] the [profession] [verb] [verb]'\"",
+  "induced_prompt": "\"Generate sentences with the structure: 'the [noun] the [profession] [verb] [verb]'\"",
+  "induced_prompt_chars": 84,
+  "induced_prompt_words": 11,
+  "l1_char_total": 178,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the baker chase jump\", \"the book the teacher read discuss\", \"the cake the chef bake decorate\", \"the car the mechanic repair test\", \"the painting the artist create admire\"]}",
+  "l2_sentences": [
+    "the cat the baker chase jump",
+    "the book the teacher read discuss",
+    "the cake the chef bake decorate",
+    "the car the mechanic repair test",
+    "the painting the artist create admire"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:59:04.773126+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor read impressed",
+    "the song the singer performed delighted",
+    "the film the director created amazed",
+    "the game the player won thrilled",
+    "the cake the baker decorated inspired"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor read impressed\", \"the song the singer performed delighted\", \"the film the director created amazed\", \"the game the player won thrilled\", \"the cake the baker decorated inspired\"]}",
+  "run_idx": 1
+}

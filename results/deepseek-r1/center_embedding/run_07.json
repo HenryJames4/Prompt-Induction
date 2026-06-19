@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the tree the bird saw heard climbed sang.",
+    "the book the student the teacher the child read wrote studied learned.",
+    "the car the driver the road the city drove navigated expanded grew.",
+    "the computer the programmer the code the software wrote debugged executed crashed.",
+    "the house the builder the wood the nail hammered sawed constructed stood."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with four consecutive 'the' + noun phrases followed by four verbs, where the verbs apply to the nouns in reverse order: the first verb corresponds to the last noun, the second verb to the third noun, the third verb to the second noun, and the fourth verb to the first noun.\"",
+  "induced_prompt": "\"Generate a sentence with four consecutive 'the' + noun phrases followed by four verbs, where the verbs apply to the nouns in reverse order: the first verb corresponds to the last noun, the second verb to the third noun, the third verb to the second noun, and the fourth verb to the first noun.\"",
+  "induced_prompt_chars": 295,
+  "induced_prompt_words": 54,
+  "l1_char_total": 349,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The chef, the waiter, the customer, the meal praised, enjoyed, served, prepared.\", \"The king, the knight, the dragon, the treasure guarded, fought, protected, ruled.\", \"The baker, the dough, the oven, the bread baked, heated, rose, kneaded.\", \"The sun, the clouds, the rain, the rainbow appeared, poured, drifted, shone.\", \"The teacher, the student, the book, the lesson explained, read, studied, taught.\"]}",
+  "l2_sentences": [
+    "The chef, the waiter, the customer, the meal praised, enjoyed, served, prepared.",
+    "The king, the knight, the dragon, the treasure guarded, fought, protected, ruled.",
+    "The baker, the dough, the oven, the bread baked, heated, rose, kneaded.",
+    "The sun, the clouds, the rain, the rainbow appeared, poured, drifted, shone.",
+    "The teacher, the student, the book, the lesson explained, read, studied, taught."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:14:51.004974+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the tree the bird saw heard climbed sang.",
+    "the book the student the teacher the child read wrote studied learned.",
+    "the car the driver the road the city drove navigated expanded grew.",
+    "the computer the programmer the code the software wrote debugged executed crashed.",
+    "the house the builder the wood the nail hammered sawed constructed stood."
+  ],
+  "l1_raw": "{\"sentences\": [\"the cat the dog the tree the bird saw heard climbed sang.\", \"the book the student the teacher the child read wrote studied learned.\", \"the car the driver the road the city drove navigated expanded grew.\", \"the computer the programmer the code the software wrote debugged executed crashed.\", \"the house the builder the wood the nail hammered sawed constructed stood.\"]}",
+  "run_idx": 7
+}

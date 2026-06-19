@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the editor the publisher reviewed corrected published vanished.",
+    "the letter the secretary the manager the director read signed sent disappeared.",
+    "the proposal the student the professor the committee submitted approved rejected vanished.",
+    "the data the analyst the scientist the researcher collected analyzed reported disappeared.",
+    "the story the writer the editor the publisher told revised published."
+  ],
+  "induced_prompt_raw": "Generate a sentence where a noun is modified by a chain of three nested clauses, each involving a person performing an action on the noun, followed by a final verb indicating disappearance or loss.",
+  "induced_prompt": "Generate a sentence where a noun is modified by a chain of three nested clauses, each involving a person performing an action on the noun, followed by a final verb indicating disappearance or loss.",
+  "induced_prompt_chars": 197,
+  "induced_prompt_words": 34,
+  "l1_char_total": 411,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that the scholar who the librarian who the student had borrowed from had misplaced was never found again.\", \"The letter that the secretary who the manager who the employee had entrusted with had lost was never delivered.\", \"The key that the locksmith who the homeowner who the guest had handed over had misplaced was never recovered.\", \"The document that the clerk who the director who the intern had submitted to had discarded was never retrieved.\", \"The photograph that the photographer who the guest who the family had asked to take had forgotten was never seen again.\"]}",
+  "l2_sentences": [
+    "The book that the scholar who the librarian who the student had borrowed from had misplaced was never found again.",
+    "The letter that the secretary who the manager who the employee had entrusted with had lost was never delivered.",
+    "The key that the locksmith who the homeowner who the guest had handed over had misplaced was never recovered.",
+    "The document that the clerk who the director who the intern had submitted to had discarded was never retrieved.",
+    "The photograph that the photographer who the guest who the family had asked to take had forgotten was never seen again."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:52:20.898876+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the editor the publisher reviewed corrected published vanished.",
+    "the letter the secretary the manager the director read signed sent disappeared.",
+    "the proposal the student the professor the committee submitted approved rejected vanished.",
+    "the data the analyst the scientist the researcher collected analyzed reported disappeared."
+  ],
+  "l1_sentences": [
+    "the book the author the editor the publisher reviewed corrected published vanished.",
+    "the letter the secretary the manager the director read signed sent disappeared.",
+    "the proposal the student the professor the committee submitted approved rejected vanished.",
+    "the data the analyst the scientist the researcher collected analyzed reported disappeared.",
+    "the story the writer the editor the publisher told revised published."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher reviewed corrected published vanished.\", \"the letter the secretary the manager the director read signed sent disappeared.\", \"the proposal the student the professor the committee submitted approved rejected vanished.\", \"the data the analyst the scientist the researcher collected analyzed reported disappeared.\", \"the story the writer the editor the publisher told revised published.\"] }",
+  "run_idx": 8
+}

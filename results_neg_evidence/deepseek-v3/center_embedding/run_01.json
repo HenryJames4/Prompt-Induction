@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the professor the student the librarian recommended discussed analyzed vanished.",
+    "The car the mechanic the driver the owner hired inspected repaired malfunctioned.",
+    "The painting the curator the artist the collector commissioned reviewed exhibited faded.",
+    "The contract the lawyer the client the CEO consulted drafted signed expired.",
+    "The cake the baker the chef decorated served disappeared."
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring grammatical correctness and avoiding ambiguity or illogical structure.\"",
+  "induced_prompt": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring grammatical correctness and avoiding ambiguity or illogical structure.\"",
+  "induced_prompt_chars": 176,
+  "induced_prompt_words": 22,
+  "l1_char_total": 391,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book, which was written by the author, who had traveled extensively, inspired many readers.\", \"The painting, which was created by the artist, who lived in the 19th century, remains highly valued.\", \"The dog, which belonged to the neighbor, who moved last month, barked loudly at night.\", \"The car, which was designed by the engineer, who specialized in electric vehicles, won several awards.\", \"The dish, which was prepared by the chef, who trained in France, received rave reviews.\"]}",
+  "l2_sentences": [
+    "The book, which was written by the author, who had traveled extensively, inspired many readers.",
+    "The painting, which was created by the artist, who lived in the 19th century, remains highly valued.",
+    "The dog, which belonged to the neighbor, who moved last month, barked loudly at night.",
+    "The car, which was designed by the engineer, who specialized in electric vehicles, won several awards.",
+    "The dish, which was prepared by the chef, who trained in France, received rave reviews."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:42:17.719947+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the professor the student the librarian recommended discussed analyzed vanished.",
+    "The car the mechanic the driver the owner hired inspected repaired malfunctioned.",
+    "The painting the curator the artist the collector commissioned reviewed exhibited faded.",
+    "The contract the lawyer the client the CEO consulted drafted signed expired."
+  ],
+  "l1_sentences": [
+    "The book the professor the student the librarian recommended discussed analyzed vanished.",
+    "The car the mechanic the driver the owner hired inspected repaired malfunctioned.",
+    "The painting the curator the artist the collector commissioned reviewed exhibited faded.",
+    "The contract the lawyer the client the CEO consulted drafted signed expired.",
+    "The cake the baker the chef decorated served disappeared."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the professor the student the librarian recommended discussed analyzed vanished.\", \"The car the mechanic the driver the owner hired inspected repaired malfunctioned.\", \"The painting the curator the artist the collector commissioned reviewed exhibited faded.\", \"The contract the lawyer the client the CEO consulted drafted signed expired.\", \"The cake the baker the chef decorated served disappeared.\"]}",
+  "run_idx": 1
+}

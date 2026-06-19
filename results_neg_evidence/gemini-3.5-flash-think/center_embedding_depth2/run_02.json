@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the boy baked fell",
+    "the letter the girl wrote arrived",
+    "the car the man drove crashed",
+    "the movie the audience watched ended",
+    "the dog the cat the mouse chased bit ran"
+  ],
+  "induced_prompt_raw": "Generate sentences with exactly one level of center-embedding using the structure \"the [noun 1] the [noun 2] [verb 1] [verb 2]\". Avoid double center-embedding or nesting more than one relative clause.",
+  "induced_prompt": "Generate sentences with exactly one level of center-embedding using the structure \"the [noun 1] the [noun 2] [verb 1] [verb 2]\". Avoid double center-embedding or nesting more than one relative clause.",
+  "induced_prompt_chars": 200,
+  "induced_prompt_words": 31,
+  "l1_char_total": 165,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the girl helped smiled.\",\n    \"The cake the chef baked fell.\",\n    \"The car the man bought broke.\",\n    \"The book the student read vanished.\",\n    \"The phone the woman dropped cracked.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the girl helped smiled.",
+    "The cake the chef baked fell.",
+    "The car the man bought broke.",
+    "The book the student read vanished.",
+    "The phone the woman dropped cracked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:35:38.646316+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the boy baked fell",
+    "the letter the girl wrote arrived",
+    "the car the man drove crashed",
+    "the movie the audience watched ended"
+  ],
+  "l1_sentences": [
+    "the cake the boy baked fell",
+    "the letter the girl wrote arrived",
+    "the car the man drove crashed",
+    "the movie the audience watched ended",
+    "the dog the cat the mouse chased bit ran"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the boy baked fell\",\n    \"the letter the girl wrote arrived\",\n    \"the car the man drove crashed\",\n    \"the movie the audience watched ended\",\n    \"the dog the cat the mouse chased bit ran\"\n  ]\n}\n```",
+  "run_idx": 2
+}

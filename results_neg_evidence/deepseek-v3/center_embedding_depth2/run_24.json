@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the editor recommended sold",
+    "the film the critic praised won",
+    "the plan the committee accepted worked",
+    "the cake the baker decorated impressed",
+    "the song the artist the audience praised performed"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a nested relative clause modifying the first noun, ensuring only one level of embedding (avoid multiple nested clauses). Example structure: 'the [noun1] the [noun2] [verb2] [verb1].'\"",
+  "induced_prompt": "\"Generate sentences with a nested relative clause modifying the first noun, ensuring only one level of embedding (avoid multiple nested clauses). Example structure: 'the [noun1] the [noun2] [verb2] [verb1].'\"",
+  "induced_prompt_chars": 208,
+  "induced_prompt_words": 29,
+  "l1_char_total": 193,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The book the librarian recommended arrived.\", \"The cake the chef prepared tasted amazing.\", \"The car the mechanic fixed runs smoothly.\", \"The movie the director filmed won awards.\", \"The dog the trainer taught performed tricks.\"]}",
+  "l2_sentences": [
+    "The book the librarian recommended arrived.",
+    "The cake the chef prepared tasted amazing.",
+    "The car the mechanic fixed runs smoothly.",
+    "The movie the director filmed won awards.",
+    "The dog the trainer taught performed tricks."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:55:51.292585+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the editor recommended sold",
+    "the film the critic praised won",
+    "the plan the committee accepted worked",
+    "the cake the baker decorated impressed"
+  ],
+  "l1_sentences": [
+    "the book the editor recommended sold",
+    "the film the critic praised won",
+    "the plan the committee accepted worked",
+    "the cake the baker decorated impressed",
+    "the song the artist the audience praised performed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor recommended sold\", \"the film the critic praised won\", \"the plan the committee accepted worked\", \"the cake the baker decorated impressed\", \"the song the artist the audience praised performed\"]}",
+  "run_idx": 24
+}

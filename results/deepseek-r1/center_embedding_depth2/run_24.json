@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the boy fed slept.",
+    "the letter the woman wrote arrived.",
+    "the cake the chef baked rose.",
+    "the computer the technician repaired crashed.",
+    "the bird the cat chased flew."
+  ],
+  "induced_prompt_raw": "the [noun1] the [noun2] [verb_past1] [verb_past2].",
+  "induced_prompt": "the [noun1] the [noun2] [verb_past1] [verb_past2].",
+  "induced_prompt_chars": 50,
+  "induced_prompt_words": 6,
+  "l1_char_total": 164,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the mouse chased pounced.\", \"The storm the ship capsized sank.\", \"The chef the cake baked frosted.\", \"The wind the leaves scattered piled.\", \"The king the decree announced enforced.\"]}",
+  "l2_sentences": [
+    "The cat the mouse chased pounced.",
+    "The storm the ship capsized sank.",
+    "The chef the cake baked frosted.",
+    "The wind the leaves scattered piled.",
+    "The king the decree announced enforced."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:26:16.749437+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the boy fed slept.",
+    "the letter the woman wrote arrived.",
+    "the cake the chef baked rose.",
+    "the computer the technician repaired crashed.",
+    "the bird the cat chased flew."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy fed slept.\", \"the letter the woman wrote arrived.\", \"the cake the chef baked rose.\", \"the computer the technician repaired crashed.\", \"the bird the cat chased flew.\"]}",
+  "run_idx": 24
+}

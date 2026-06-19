@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor read sold.",
+    "the plan the manager approved failed.",
+    "the idea the scientist tested worked.",
+    "the report the analyst wrote changed.",
+    "the project the leader launched succeeded."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [past participle].",
+  "induced_prompt": "the [noun] the [role] [verb] [past participle].",
+  "induced_prompt_chars": 47,
+  "induced_prompt_words": 7,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the veterinarian examined was very sick.\", \"The book the professor assigned was extremely difficult.\", \"The car the mechanic repaired ran perfectly.\", \"The song the singer performed was breathtaking.\", \"The project the manager approved was highly innovative.\"]}",
+  "l2_sentences": [
+    "The cat the veterinarian examined was very sick.",
+    "The book the professor assigned was extremely difficult.",
+    "The car the mechanic repaired ran perfectly.",
+    "The song the singer performed was breathtaking.",
+    "The project the manager approved was highly innovative."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:14:28.589062+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor read sold.",
+    "the plan the manager approved failed.",
+    "the idea the scientist tested worked.",
+    "the report the analyst wrote changed.",
+    "the project the leader launched succeeded."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor read sold.\", \"the plan the manager approved failed.\", \"the idea the scientist tested worked.\", \"the report the analyst wrote changed.\", \"the project the leader launched succeeded.\"]}",
+  "run_idx": 14
+}

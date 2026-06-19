@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The client the designer called called",
+    "The letter the mailman delivered arrived",
+    "The student the teacher praised graduated",
+    "The car the mechanic repaired ran",
+    "The recipe the chef the assistant helped prepared failed"
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly one object-relative clause (Noun + Noun + Verb + Verb), ensuring it contains only two nouns and two verbs in total, avoiding any further nested clauses.",
+  "induced_prompt": "Generate a sentence with exactly one object-relative clause (Noun + Noun + Verb + Verb), ensuring it contains only two nouns and two verbs in total, avoiding any further nested clauses.",
+  "induced_prompt_chars": 185,
+  "induced_prompt_words": 31,
+  "l1_char_total": 207,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The food dogs eat vanishes.\",\n    \"The songs kids sing inspire.\",\n    \"The books girls read remain.\",\n    \"The path deer take winds.\",\n    \"The games boys play entertain.\"\n  ]\n}",
+  "l2_sentences": [
+    "The food dogs eat vanishes.",
+    "The songs kids sing inspire.",
+    "The books girls read remain.",
+    "The path deer take winds.",
+    "The games boys play entertain."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:55:08.403019+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The client the designer called called",
+    "The letter the mailman delivered arrived",
+    "The student the teacher praised graduated",
+    "The car the mechanic repaired ran"
+  ],
+  "l1_sentences": [
+    "The client the designer called called",
+    "The letter the mailman delivered arrived",
+    "The student the teacher praised graduated",
+    "The car the mechanic repaired ran",
+    "The recipe the chef the assistant helped prepared failed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The client the designer called called\",\n    \"The letter the mailman delivered arrived\",\n    \"The student the teacher praised graduated\",\n    \"The car the mechanic repaired ran\",\n    \"The recipe the chef the assistant helped prepared failed\"\n  ]\n}",
+  "run_idx": 23
+}

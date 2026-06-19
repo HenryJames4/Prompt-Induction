@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the mouse the cheese chased ate saw vanished",
+    "the book the teacher the student the principal read recommended borrowed returned",
+    "the car the mechanic the owner the insurance fixed inspected sold claimed",
+    "the letter the manager the secretary the courier delivered signed sent received",
+    "the house the agent the buyer sold visited purchased"
+  ],
+  "induced_prompt_raw": "Generate a chain of events with four nouns and four verbs: \"the [noun1] the [noun2] the [noun3] the [noun4] [verb1] [verb2] [verb3] [verb4]\". The first three verbs are transitive, forming logical actions between consecutive nouns (verb1: noun1 to noun2, verb2: noun2 to noun3, verb3: noun3 to noun4), and the last verb is intransitive for noun4. Ensure exactly four nouns and verbs.",
+  "induced_prompt": "Generate a chain of events with four nouns and four verbs: \"the [noun1] the [noun2] the [noun3] the [noun4] [verb1] [verb2] [verb3] [verb4]\". The first three verbs are transitive, forming logical actions between consecutive nouns (verb1: noun1 to noun2, verb2: noun2 to noun3, verb3: noun3 to noun4), and the last verb is intransitive for noun4. Ensure exactly four nouns and verbs.",
+  "induced_prompt_chars": 382,
+  "induced_prompt_words": 61,
+  "l1_char_total": 345,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The storm hit the tree.\",\n    \"The tree crushed the house.\",\n    \"The house damaged the roof.\",\n    \"The roof collapsed.\",\n    \"The destruction was complete.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The storm hit the tree.",
+    "The tree crushed the house.",
+    "The house damaged the roof.",
+    "The roof collapsed.",
+    "The destruction was complete."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:18:28.538008+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the mouse the cheese chased ate saw vanished",
+    "the book the teacher the student the principal read recommended borrowed returned",
+    "the car the mechanic the owner the insurance fixed inspected sold claimed",
+    "the letter the manager the secretary the courier delivered signed sent received"
+  ],
+  "l1_sentences": [
+    "the cat the dog the mouse the cheese chased ate saw vanished",
+    "the book the teacher the student the principal read recommended borrowed returned",
+    "the car the mechanic the owner the insurance fixed inspected sold claimed",
+    "the letter the manager the secretary the courier delivered signed sent received",
+    "the house the agent the buyer sold visited purchased"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog the mouse the cheese chased ate saw vanished\",\n    \"the book the teacher the student the principal read recommended borrowed returned\",\n    \"the car the mechanic the owner the insurance fixed inspected sold claimed\",\n    \"the letter the manager the secretary the courier delivered signed sent received\",\n    \"the house the agent the buyer sold visited purchased\"\n  ]\n}\n```",
+  "run_idx": 25
+}

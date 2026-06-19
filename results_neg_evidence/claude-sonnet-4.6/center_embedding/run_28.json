@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the document the lawyer the clerk the judge summoned filed reviewed vanished",
+    "the cake the chef the apprentice the critic tasted baked prepared disappeared",
+    "the letter the professor the student the dean wrote submitted approved circulated",
+    "the project the manager the engineer the intern designed built reviewed launched",
+    "the book the author the editor published celebrated sold"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly 4 nested noun phrases followed by exactly 4 verbs, where each verb corresponds to its noun phrase in reverse order. Do not use fewer than 4 levels of embedding.",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly 4 nested noun phrases followed by exactly 4 verbs, where each verb corresponds to its noun phrase in reverse order. Do not use fewer than 4 levels of embedding.",
+  "induced_prompt_chars": 222,
+  "induced_prompt_words": 37,
+  "l1_char_total": 370,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the mouse that the fish chased bit scratched fled.\", \"The book that the student that the teacher that the principal hired taught read won.\", \"The cake that the chef that the critic that the editor praised reviewed baked melted.\", \"The letter that the clerk that the lawyer that the judge appointed hired wrote arrived.\", \"The song that the child that the mother that the father loved raised sang ended.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the mouse that the fish chased bit scratched fled.",
+    "The book that the student that the teacher that the principal hired taught read won.",
+    "The cake that the chef that the critic that the editor praised reviewed baked melted.",
+    "The letter that the clerk that the lawyer that the judge appointed hired wrote arrived.",
+    "The song that the child that the mother that the father loved raised sang ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:23:27.957451+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the document the lawyer the clerk the judge summoned filed reviewed vanished",
+    "the cake the chef the apprentice the critic tasted baked prepared disappeared",
+    "the letter the professor the student the dean wrote submitted approved circulated",
+    "the project the manager the engineer the intern designed built reviewed launched"
+  ],
+  "l1_sentences": [
+    "the document the lawyer the clerk the judge summoned filed reviewed vanished",
+    "the cake the chef the apprentice the critic tasted baked prepared disappeared",
+    "the letter the professor the student the dean wrote submitted approved circulated",
+    "the project the manager the engineer the intern designed built reviewed launched",
+    "the book the author the editor published celebrated sold"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the document the lawyer the clerk the judge summoned filed reviewed vanished\",\n    \"the cake the chef the apprentice the critic tasted baked prepared disappeared\",\n    \"the letter the professor the student the dean wrote submitted approved circulated\",\n    \"the project the manager the engineer the intern designed built reviewed launched\",\n    \"the book the author the editor published celebrated sold\"\n  ]\n}\n```",
+  "run_idx": 28
+}

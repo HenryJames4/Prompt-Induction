@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the reviewer read wrote printed sold",
+    "the city the mayor the council the resident built voted approved moved",
+    "the tree the gardener the neighbor the child planted watered pruned admired",
+    "the car the mechanic the owner the customer fixed tested delivered paid",
+    "the song the singer the producer the fan composed recorded released enjoyed"
+  ],
+  "induced_prompt_raw": "four entities followed by four actions",
+  "induced_prompt": "four entities followed by four actions",
+  "induced_prompt_chars": 38,
+  "induced_prompt_words": 6,
+  "l1_char_total": 361,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"Alice ran.\", \"Bob jumped.\", \"Charlie sang.\", \"Diana danced.\", \"They all celebrated together.\"]}",
+  "l2_sentences": [
+    "Alice ran.",
+    "Bob jumped.",
+    "Charlie sang.",
+    "Diana danced.",
+    "They all celebrated together."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:31:48.385691+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the reviewer read wrote printed sold",
+    "the city the mayor the council the resident built voted approved moved",
+    "the tree the gardener the neighbor the child planted watered pruned admired",
+    "the car the mechanic the owner the customer fixed tested delivered paid",
+    "the song the singer the producer the fan composed recorded released enjoyed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the reviewer read wrote printed sold\", \"the city the mayor the council the resident built voted approved moved\", \"the tree the gardener the neighbor the child planted watered pruned admired\", \"the car the mechanic the owner the customer fixed tested delivered paid\", \"the song the singer the producer the fan composed recorded released enjoyed\"]}",
+  "run_idx": 17
+}

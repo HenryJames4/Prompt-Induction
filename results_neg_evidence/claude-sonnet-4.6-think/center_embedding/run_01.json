@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the professor the student the librarian helped impressed recommended sold",
+    "the contract the director the lawyer the client hired advised drafted expired",
+    "the plan the director the manager the employee approached persuaded approved succeeded",
+    "the bill the senator the lobbyist the aide contacted influenced drafted passed",
+    "the proposal the manager the employee impressed approved succeeded"
+  ],
+  "induced_prompt_raw": "Generate triply center-embedded relative clause sentences following the pattern: **the [N1] the [N2] the [N3] the [N4] [V4] [V3] [V2] [V1]**, with exactly 4 nouns and 4 verbs nested successively. Do not use only 3 nouns and 3 verbs (double center-embedding).",
+  "induced_prompt": "Generate triply center-embedded relative clause sentences following the pattern: **the [N1] the [N2] the [N3] the [N4] [V4] [V3] [V2] [V1]**, with exactly 4 nouns and 4 verbs nested successively. Do not use only 3 nouns and 3 verbs (double center-embedding).",
+  "induced_prompt_chars": 258,
+  "induced_prompt_words": 41,
+  "l1_char_total": 389,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The rat the cat the dog the man owned chased caught died.\", \"The book the student the teacher the professor hired assigned read vanished.\", \"The cake the guest the host the chef employed invited tasted disappeared.\", \"The letter the clerk the manager the director promoted supervised wrote arrived.\", \"The trophy the athlete the coach the sponsor funded trained won gleamed.\"]}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man owned chased caught died.",
+    "The book the student the teacher the professor hired assigned read vanished.",
+    "The cake the guest the host the chef employed invited tasted disappeared.",
+    "The letter the clerk the manager the director promoted supervised wrote arrived.",
+    "The trophy the athlete the coach the sponsor funded trained won gleamed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:43:48.666316+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the professor the student the librarian helped impressed recommended sold",
+    "the contract the director the lawyer the client hired advised drafted expired",
+    "the plan the director the manager the employee approached persuaded approved succeeded",
+    "the bill the senator the lobbyist the aide contacted influenced drafted passed"
+  ],
+  "l1_sentences": [
+    "the book the professor the student the librarian helped impressed recommended sold",
+    "the contract the director the lawyer the client hired advised drafted expired",
+    "the plan the director the manager the employee approached persuaded approved succeeded",
+    "the bill the senator the lobbyist the aide contacted influenced drafted passed",
+    "the proposal the manager the employee impressed approved succeeded"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the professor the student the librarian helped impressed recommended sold\",\n    \"the contract the director the lawyer the client hired advised drafted expired\",\n    \"the plan the director the manager the employee approached persuaded approved succeeded\",\n    \"the bill the senator the lobbyist the aide contacted influenced drafted passed\",\n    \"the proposal the manager the employee impressed approved succeeded\"\n  ]\n}\n```",
+  "run_idx": 1
+}

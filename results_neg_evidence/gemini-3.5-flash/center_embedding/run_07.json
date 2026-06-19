@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The chef the waiter the host the guest welcomed introduced tipped resigned.",
+    "The book the student the teacher the principal praised recommended assigned burned.",
+    "The code the developer the manager the director hired reviewed deployed broke.",
+    "The song the singer the producer the listener annoyed inspired mixed faded.",
+    "The dog the cat the mouse chased scratched barked."
+  ],
+  "induced_prompt_raw": "Generate a sentence containing exactly four nested (center-embedded) relative clauses with four subject nouns followed by four corresponding verbs in reverse order (e.g., N1 N2 N3 N4 V4 V3 V2 V1). Avoid shorter three-noun structures like \"N1 N2 N3 V3 V2 V1\".",
+  "induced_prompt": "Generate a sentence containing exactly four nested (center-embedded) relative clauses with four subject nouns followed by four corresponding verbs in reverse order (e.g., N1 N2 N3 N4 V4 V3 V2 V1). Avoid shorter three-noun structures like \"N1 N2 N3 V3 V2 V1\".",
+  "induced_prompt_chars": 258,
+  "induced_prompt_words": 42,
+  "l1_char_total": 361,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef the critic the patron the waiter insulted praised avoided retired.\",\n    \"The dog the cat the rat the mouse bit chased scratched bit.\",\n    \"The student the teacher the principal the superintendent fired suspended scolded thanked.\",\n    \"The author the editor the publisher the lawyer sued dropped questioned praised.\",\n    \"The artist the model the photographer the agent hired noticed disliked admired.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef the critic the patron the waiter insulted praised avoided retired.",
+    "The dog the cat the rat the mouse bit chased scratched bit.",
+    "The student the teacher the principal the superintendent fired suspended scolded thanked.",
+    "The author the editor the publisher the lawyer sued dropped questioned praised.",
+    "The artist the model the photographer the agent hired noticed disliked admired."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:50:56.074475+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The chef the waiter the host the guest welcomed introduced tipped resigned.",
+    "The book the student the teacher the principal praised recommended assigned burned.",
+    "The code the developer the manager the director hired reviewed deployed broke.",
+    "The song the singer the producer the listener annoyed inspired mixed faded."
+  ],
+  "l1_sentences": [
+    "The chef the waiter the host the guest welcomed introduced tipped resigned.",
+    "The book the student the teacher the principal praised recommended assigned burned.",
+    "The code the developer the manager the director hired reviewed deployed broke.",
+    "The song the singer the producer the listener annoyed inspired mixed faded.",
+    "The dog the cat the mouse chased scratched barked."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The chef the waiter the host the guest welcomed introduced tipped resigned.\",\n    \"The book the student the teacher the principal praised recommended assigned burned.\",\n    \"The code the developer the manager the director hired reviewed deployed broke.\",\n    \"The song the singer the producer the listener annoyed inspired mixed faded.\",\n    \"The dog the cat the mouse chased scratched barked.\"\n  ]\n}",
+  "run_idx": 7
+}

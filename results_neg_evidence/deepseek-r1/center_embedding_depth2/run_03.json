@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy chased barked.",
+    "The cake the baker made tasted delicious.",
+    "The book the author wrote sold well.",
+    "The song the band played became popular.",
+    "The car the mechanic the owner hired fixed started."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence: The [N1] the [N2] [V_trans] [V_main ...]. Here, N1 is the object of V_trans and subject of V_main. Use only one relative clause without 'that' or 'which', and no nested clauses.\"",
+  "induced_prompt": "\"Generate a sentence: The [N1] the [N2] [V_trans] [V_main ...]. Here, N1 is the object of V_trans and subject of V_main. Use only one relative clause without 'that' or 'which', and no nested clauses.\"",
+  "induced_prompt_chars": 200,
+  "induced_prompt_words": 34,
+  "l1_char_total": 198,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The letter the postman delivered contained important news.\", \"The car the mechanic fixed broke down again.\", \"The painting the artist created won an award.\", \"The report the committee reviewed recommended changes.\", \"The dog the child walked barked loudly.\"]}",
+  "l2_sentences": [
+    "The letter the postman delivered contained important news.",
+    "The car the mechanic fixed broke down again.",
+    "The painting the artist created won an award.",
+    "The report the committee reviewed recommended changes.",
+    "The dog the child walked barked loudly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:37:18.982321+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy chased barked.",
+    "The cake the baker made tasted delicious.",
+    "The book the author wrote sold well.",
+    "The song the band played became popular."
+  ],
+  "l1_sentences": [
+    "The dog the boy chased barked.",
+    "The cake the baker made tasted delicious.",
+    "The book the author wrote sold well.",
+    "The song the band played became popular.",
+    "The car the mechanic the owner hired fixed started."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the boy chased barked.\", \"The cake the baker made tasted delicious.\", \"The book the author wrote sold well.\", \"The song the band played became popular.\", \"The car the mechanic the owner hired fixed started.\"]}",
+  "run_idx": 3
+}

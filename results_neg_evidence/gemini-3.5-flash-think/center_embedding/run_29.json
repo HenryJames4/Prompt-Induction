@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cheese the rat the cat the dog chased ate liked smelled",
+    "the car the mechanic the apprentice the master trained assisted fixed broke",
+    "the law the politician the lobbyist the citizen interviewed influenced drafted failed",
+    "the song the singer the coach the fan congratulated selected performed ended",
+    "the book the student the teacher praised read vanished"
+  ],
+  "induced_prompt_raw": "Generate a quadruple center-embedded sentence containing exactly four nouns followed by exactly four verbs in a nested (Noun1 Noun2 Noun3 Noun4 Verb4 Verb3 Verb2 Verb1) structure. Do not write a triple center-embedded sentence containing only three nouns and three verbs.",
+  "induced_prompt": "Generate a quadruple center-embedded sentence containing exactly four nouns followed by exactly four verbs in a nested (Noun1 Noun2 Noun3 Noun4 Verb4 Verb3 Verb2 Verb1) structure. Do not write a triple center-embedded sentence containing only three nouns and three verbs.",
+  "induced_prompt_chars": 271,
+  "induced_prompt_words": 40,
+  "l1_char_total": 349,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"John Mary Bill Tom helped saw heard left.\",\n    \"Ann Bob Cal Dan called met liked died.\",\n    \"Susan Peter Alice James knew found loved cried.\",\n    \"Paul Lucy Mark Jane saved chose missed fell.\",\n    \"Emma Ryan Lily Jack chased caught kissed smiled.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "John Mary Bill Tom helped saw heard left.",
+    "Ann Bob Cal Dan called met liked died.",
+    "Susan Peter Alice James knew found loved cried.",
+    "Paul Lucy Mark Jane saved chose missed fell.",
+    "Emma Ryan Lily Jack chased caught kissed smiled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:24:08.746273+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cheese the rat the cat the dog chased ate liked smelled",
+    "the car the mechanic the apprentice the master trained assisted fixed broke",
+    "the law the politician the lobbyist the citizen interviewed influenced drafted failed",
+    "the song the singer the coach the fan congratulated selected performed ended"
+  ],
+  "l1_sentences": [
+    "the cheese the rat the cat the dog chased ate liked smelled",
+    "the car the mechanic the apprentice the master trained assisted fixed broke",
+    "the law the politician the lobbyist the citizen interviewed influenced drafted failed",
+    "the song the singer the coach the fan congratulated selected performed ended",
+    "the book the student the teacher praised read vanished"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cheese the rat the cat the dog chased ate liked smelled\",\n    \"the car the mechanic the apprentice the master trained assisted fixed broke\",\n    \"the law the politician the lobbyist the citizen interviewed influenced drafted failed\",\n    \"the song the singer the coach the fan congratulated selected performed ended\",\n    \"the book the student the teacher praised read vanished\"\n  ]\n}\n```",
+  "run_idx": 29
+}

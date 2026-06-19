@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the scientist the assistant helped smiled",
+    "the player the coach selected cheered",
+    "the student the teacher helped failed",
+    "the actor the director praised bowed",
+    "the child the mother hugged laughed"
+  ],
+  "induced_prompt_raw": "\"the [noun] the [noun] [transitive verb in past tense] [intransitive verb in past tense]\"",
+  "induced_prompt": "\"the [noun] the [noun] [transitive verb in past tense] [intransitive verb in past tense]\"",
+  "induced_prompt_chars": 89,
+  "induced_prompt_words": 14,
+  "l1_char_total": 186,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased fled\",\n    \"the man the police caught smiled\",\n    \"the student the teacher helped triumphed\",\n    \"the boy the girl kicked cried\",\n    \"the horse the jockey rode collapsed\"\n  ]\n}",
+  "l2_sentences": [
+    "the cat the dog chased fled",
+    "the man the police caught smiled",
+    "the student the teacher helped triumphed",
+    "the boy the girl kicked cried",
+    "the horse the jockey rode collapsed"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:35:34.045753+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the scientist the assistant helped smiled",
+    "the player the coach selected cheered",
+    "the student the teacher helped failed",
+    "the actor the director praised bowed",
+    "the child the mother hugged laughed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the scientist the assistant helped smiled\",\n    \"the player the coach selected cheered\",\n    \"the student the teacher helped failed\",\n    \"the actor the director praised bowed\",\n    \"the child the mother hugged laughed\"\n  ]\n}",
+  "run_idx": 1
+}

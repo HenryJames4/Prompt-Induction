@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef the student the teacher trained hired baked vanished.",
+    "The letter the clerk the boy the woman scolded hired wrote disappeared.",
+    "The bridge the crew the man the boss hired supervised built collapsed.",
+    "The book the author the agent the publisher contacted hired wrote sold.",
+    "The dog the vet the owner the neighbor called hired treated recovered."
+  ],
+  "induced_prompt_raw": "Write sentences with 4-level center-embedded relative clauses, each ending with 4 stacked verbs.",
+  "induced_prompt": "Write sentences with 4-level center-embedded relative clauses, each ending with 4 stacked verbs.",
+  "induced_prompt_chars": 96,
+  "induced_prompt_words": 13,
+  "l1_char_total": 353,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the boy that the girl loved owned chased ran away.\", \"The book that the professor that the student that the dean hired taught assigned confused everyone.\", \"The car that the man that the woman that the child saw knew drove crashed yesterday.\", \"The song that the band that the label that the investor funded signed recorded played beautifully.\", \"The letter that the lawyer that the firm that the client retained hired wrote arrived today.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the boy that the girl loved owned chased ran away.",
+    "The book that the professor that the student that the dean hired taught assigned confused everyone.",
+    "The car that the man that the woman that the child saw knew drove crashed yesterday.",
+    "The song that the band that the label that the investor funded signed recorded played beautifully.",
+    "The letter that the lawyer that the firm that the client retained hired wrote arrived today."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:26:17.229543+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef the student the teacher trained hired baked vanished.",
+    "The letter the clerk the boy the woman scolded hired wrote disappeared.",
+    "The bridge the crew the man the boss hired supervised built collapsed.",
+    "The book the author the agent the publisher contacted hired wrote sold.",
+    "The dog the vet the owner the neighbor called hired treated recovered."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cake the chef the student the teacher trained hired baked vanished.\",\n    \"The letter the clerk the boy the woman scolded hired wrote disappeared.\",\n    \"The bridge the crew the man the boss hired supervised built collapsed.\",\n    \"The book the author the agent the publisher contacted hired wrote sold.\",\n    \"The dog the vet the owner the neighbor called hired treated recovered.\"\n  ]\n}\n```",
+  "run_idx": 18
+}

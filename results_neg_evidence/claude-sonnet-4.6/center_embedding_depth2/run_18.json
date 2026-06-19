@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef baked disappeared",
+    "the letter the lawyer drafted arrived",
+    "the report the manager reviewed confused",
+    "the song the musician composed moved",
+    "the book the editor the publisher hired reviewed sold"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (subject-object-verb structure), where the main clause contains a transitive or intransitive verb. Avoid multiple levels of embedding (no nested relative clauses).",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (subject-object-verb structure), where the main clause contains a transitive or intransitive verb. Avoid multiple levels of embedding (no nested relative clauses).",
+  "induced_prompt_chars": 225,
+  "induced_prompt_words": 29,
+  "l1_char_total": 201,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The book that the professor recommended became a bestseller.\",\n    \"The cat that the children chased disappeared into the alley.\",\n    \"The letter that the lawyer drafted confused everyone in the room.\",\n    \"The painting that the curator selected attracted large crowds.\",\n    \"The speech that the senator delivered inspired many young voters.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The book that the professor recommended became a bestseller.",
+    "The cat that the children chased disappeared into the alley.",
+    "The letter that the lawyer drafted confused everyone in the room.",
+    "The painting that the curator selected attracted large crowds.",
+    "The speech that the senator delivered inspired many young voters."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:50:14.150172+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef baked disappeared",
+    "the letter the lawyer drafted arrived",
+    "the report the manager reviewed confused",
+    "the song the musician composed moved"
+  ],
+  "l1_sentences": [
+    "the cake the chef baked disappeared",
+    "the letter the lawyer drafted arrived",
+    "the report the manager reviewed confused",
+    "the song the musician composed moved",
+    "the book the editor the publisher hired reviewed sold"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the chef baked disappeared\", \"the letter the lawyer drafted arrived\", \"the report the manager reviewed confused\", \"the song the musician composed moved\", \"the book the editor the publisher hired reviewed sold\"]}",
+  "run_idx": 18
+}

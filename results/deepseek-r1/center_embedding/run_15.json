@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the king the knight the squire the page followed assisted served ruled.",
+    "the cake the baker the customer the child watched paid decorated cooled.",
+    "the computer the programmer the intern the manager hired annoyed fixed crashed.",
+    "the flower the gardener the assistant the student admired helped planted bloomed.",
+    "the letter the secretary the executive the CEO promoted instructed typed arrived."
+  ],
+  "induced_prompt_raw": "the N1 the N2 the N3 the N4 V1 V2 V3 V4 (V1 by N4, V2 by N3, V3 by N2, V4 by N1)",
+  "induced_prompt": "the N1 the N2 the N3 the N4 V1 V2 V3 V4 (V1 by N4, V2 by N3, V3 by N2, V4 by N1)",
+  "induced_prompt_chars": 80,
+  "induced_prompt_words": 24,
+  "l1_char_total": 384,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The teacher instructed the student completed the principal approved the janitor repaired.\", \"The chef prepared the waiter served the manager scheduled the supplier delivered.\", \"The author wrote the editor reviewed the publisher approved the printer published.\", \"The captain commanded the crew navigated the officer organized the mechanic fixed.\", \"The director filmed the actor performed the producer funded the designer created.\"]}",
+  "l2_sentences": [
+    "The teacher instructed the student completed the principal approved the janitor repaired.",
+    "The chef prepared the waiter served the manager scheduled the supplier delivered.",
+    "The author wrote the editor reviewed the publisher approved the printer published.",
+    "The captain commanded the crew navigated the officer organized the mechanic fixed.",
+    "The director filmed the actor performed the producer funded the designer created."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:29:07.732977+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the king the knight the squire the page followed assisted served ruled.",
+    "the cake the baker the customer the child watched paid decorated cooled.",
+    "the computer the programmer the intern the manager hired annoyed fixed crashed.",
+    "the flower the gardener the assistant the student admired helped planted bloomed.",
+    "the letter the secretary the executive the CEO promoted instructed typed arrived."
+  ],
+  "l1_raw": "{\"sentences\": [\"the king the knight the squire the page followed assisted served ruled.\", \"the cake the baker the customer the child watched paid decorated cooled.\", \"the computer the programmer the intern the manager hired annoyed fixed crashed.\", \"the flower the gardener the assistant the student admired helped planted bloomed.\", \"the letter the secretary the executive the CEO promoted instructed typed arrived.\"]}",
+  "run_idx": 15
+}

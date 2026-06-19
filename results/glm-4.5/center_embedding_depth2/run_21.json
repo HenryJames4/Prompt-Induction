@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read fascinated.",
+    "the car the mechanic fixed broke.",
+    "the movie the critic reviewed flopped.",
+    "the house the owner built sold."
+  ],
+  "induced_prompt_raw": "Relative clauses with center-embedded structure.",
+  "induced_prompt": "Relative clauses with center-embedded structure.",
+  "induced_prompt_chars": 48,
+  "induced_prompt_words": 5,
+  "l1_char_total": 170,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog that the boy chased barked at meowed loudly.\",\n    \"The book that the professor who the students respected assigned was difficult.\",\n    \"The house that the builder that the architect hired constructed was impressive.\",\n    \"The car that the mechanic that the owner trusted repaired broke down again.\",\n    \"The idea that the researcher that the committee selected proposed was innovative.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog that the boy chased barked at meowed loudly.",
+    "The book that the professor who the students respected assigned was difficult.",
+    "The house that the builder that the architect hired constructed was impressive.",
+    "The car that the mechanic that the owner trusted repaired broke down again.",
+    "The idea that the researcher that the committee selected proposed was innovative."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:22:42.753168+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read fascinated.",
+    "the car the mechanic fixed broke.",
+    "the movie the critic reviewed flopped.",
+    "the house the owner built sold."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read fascinated.\",\n    \"the car the mechanic fixed broke.\",\n    \"the movie the critic reviewed flopped.\",\n    \"the house the owner built sold.\"\n  ]\n}",
+  "run_idx": 21
+}

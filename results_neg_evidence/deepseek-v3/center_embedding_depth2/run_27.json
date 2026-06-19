@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the project the manager supported succeeded",
+    "the plan the committee reviewed failed",
+    "the idea the student proposed won",
+    "the book the editor published sold",
+    "the movie the director the actor starred in produced bombed"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a nested relative clause modifying the subject, using simple noun-verb pairs and avoiding multiple embeddings.\"",
+  "induced_prompt": "\"Generate sentences with a nested relative clause modifying the subject, using simple noun-verb pairs and avoiding multiple embeddings.\"",
+  "induced_prompt_chars": 136,
+  "induced_prompt_words": 18,
+  "l1_char_total": 207,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat, which purred softly, slept on the couch.\", \"The book, which lay on the table, belonged to Sarah.\", \"The car, which sped down the road, caught everyone's attention.\", \"The child, who laughed loudly, ran across the yard.\", \"The dog, which wagged its tail, greeted its owner.\"]}",
+  "l2_sentences": [
+    "The cat, which purred softly, slept on the couch.",
+    "The book, which lay on the table, belonged to Sarah.",
+    "The car, which sped down the road, caught everyone's attention.",
+    "The child, who laughed loudly, ran across the yard.",
+    "The dog, which wagged its tail, greeted its owner."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:57:52.595266+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the project the manager supported succeeded",
+    "the plan the committee reviewed failed",
+    "the idea the student proposed won",
+    "the book the editor published sold"
+  ],
+  "l1_sentences": [
+    "the project the manager supported succeeded",
+    "the plan the committee reviewed failed",
+    "the idea the student proposed won",
+    "the book the editor published sold",
+    "the movie the director the actor starred in produced bombed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the project the manager supported succeeded\", \"the plan the committee reviewed failed\", \"the idea the student proposed won\", \"the book the editor published sold\", \"the movie the director the actor starred in produced bombed\"]}",
+  "run_idx": 27
+}

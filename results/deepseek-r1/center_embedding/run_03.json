@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the result the analyst the manager the intern supported directed compiled improved.",
+    "the cake the baker the customer the child annoyed called decorated cooled.",
+    "the document the lawyer the clerk the intern fetched assisted signed vanished.",
+    "the car the driver the mechanic the owner hired helped fixed started.",
+    "the painting the artist the patron the model inspired commissioned created sold."
+  ],
+  "induced_prompt_raw": "Generate a sentence with four consecutive noun phrases each beginning with 'the', followed by four past-tense verbs.",
+  "induced_prompt": "Generate a sentence with four consecutive noun phrases each beginning with 'the', followed by four past-tense verbs.",
+  "induced_prompt_chars": 116,
+  "induced_prompt_words": 17,
+  "l1_char_total": 384,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The mountain the valley the river the forest towered sprawled flowed flourished.\", \"The teacher the student the book the lesson explained listened read learned.\", \"The chef the knife the ingredients the meal chopped stirred cooked served.\", \"The wind the leaves the branches the trees rustled swayed creaked bent.\", \"The conductor the orchestra the audience the symphony directed played applauded ended.\"]}",
+  "l2_sentences": [
+    "The mountain the valley the river the forest towered sprawled flowed flourished.",
+    "The teacher the student the book the lesson explained listened read learned.",
+    "The chef the knife the ingredients the meal chopped stirred cooked served.",
+    "The wind the leaves the branches the trees rustled swayed creaked bent.",
+    "The conductor the orchestra the audience the symphony directed played applauded ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:03:55.442977+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the result the analyst the manager the intern supported directed compiled improved.",
+    "the cake the baker the customer the child annoyed called decorated cooled.",
+    "the document the lawyer the clerk the intern fetched assisted signed vanished.",
+    "the car the driver the mechanic the owner hired helped fixed started.",
+    "the painting the artist the patron the model inspired commissioned created sold."
+  ],
+  "l1_raw": "{\"sentences\": [\"the result the analyst the manager the intern supported directed compiled improved.\", \"the cake the baker the customer the child annoyed called decorated cooled.\", \"the document the lawyer the clerk the intern fetched assisted signed vanished.\", \"the car the driver the mechanic the owner hired helped fixed started.\", \"the painting the artist the patron the model inspired commissioned created sold.\"]}",
+  "run_idx": 3
+}

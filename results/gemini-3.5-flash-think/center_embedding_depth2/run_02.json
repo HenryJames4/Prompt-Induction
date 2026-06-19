@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the student the teacher praised graduated",
+    "the car the mechanic repaired crashed",
+    "the book the author wrote sold",
+    "the dog the boy adopted barked",
+    "the food the chef cooked spoiled"
+  ],
+  "induced_prompt_raw": "Generate sentences with the structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\" using past tense verbs.",
+  "induced_prompt": "Generate sentences with the structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\" using past tense verbs.",
+  "induced_prompt_chars": 124,
+  "induced_prompt_words": 17,
+  "l1_char_total": 170,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the girl saw waved.\",\n    \"The car the man bought vanished.\",\n    \"The book the teacher read fell.\",\n    \"The letter the woman wrote arrived.\",\n    \"The child the mother hugged smiled.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the girl saw waved.",
+    "The car the man bought vanished.",
+    "The book the teacher read fell.",
+    "The letter the woman wrote arrived.",
+    "The child the mother hugged smiled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:35:58.771451+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the student the teacher praised graduated",
+    "the car the mechanic repaired crashed",
+    "the book the author wrote sold",
+    "the dog the boy adopted barked",
+    "the food the chef cooked spoiled"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the student the teacher praised graduated\",\n    \"the car the mechanic repaired crashed\",\n    \"the book the author wrote sold\",\n    \"the dog the boy adopted barked\",\n    \"the food the chef cooked spoiled\"\n  ]\n}\n```",
+  "run_idx": 2
+}

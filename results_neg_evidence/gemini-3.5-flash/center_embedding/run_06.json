@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the principal recommended praised assigned lost",
+    "the design the client the architect the engineer hired consulted approved rejected",
+    "the painting the curator the artist the apprentice mentored inspired bought vanished",
+    "the software the developer the tester the manager hired trained used failed",
+    "the dog the cat the mouse chased caught died"
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly four nested noun phrases and four matching transitive verbs in a strictly center-embedded structure (NP1 NP2 NP3 NP4 V4 V3 V2 V1), ensuring no verbs or nouns are omitted.",
+  "induced_prompt": "Generate a sentence with exactly four nested noun phrases and four matching transitive verbs in a strictly center-embedded structure (NP1 NP2 NP3 NP4 V4 V3 V2 V1), ensuring no verbs or nouns are omitted.",
+  "induced_prompt_chars": 203,
+  "induced_prompt_words": 34,
+  "l1_char_total": 365,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The mouse the cat the dog the boy chased bit scratched fled.\",\n    \"The book the student the teacher the principal praised questioned read lost.\",\n    \"The cheese the rat the cat the dog chased caught ate smelled.\",\n    \"The report the intern the manager the director hired supervised wrote reviewed.\",\n    \"The song the child the mother the father called heard sang liked.\"\n  ]\n}",
+  "l2_sentences": [
+    "The mouse the cat the dog the boy chased bit scratched fled.",
+    "The book the student the teacher the principal praised questioned read lost.",
+    "The cheese the rat the cat the dog chased caught ate smelled.",
+    "The report the intern the manager the director hired supervised wrote reviewed.",
+    "The song the child the mother the father called heard sang liked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:49:25.131293+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the principal recommended praised assigned lost",
+    "the design the client the architect the engineer hired consulted approved rejected",
+    "the painting the curator the artist the apprentice mentored inspired bought vanished",
+    "the software the developer the tester the manager hired trained used failed"
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the principal recommended praised assigned lost",
+    "the design the client the architect the engineer hired consulted approved rejected",
+    "the painting the curator the artist the apprentice mentored inspired bought vanished",
+    "the software the developer the tester the manager hired trained used failed",
+    "the dog the cat the mouse chased caught died"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the student the teacher the principal recommended praised assigned lost\",\n    \"the design the client the architect the engineer hired consulted approved rejected\",\n    \"the painting the curator the artist the apprentice mentored inspired bought vanished\",\n    \"the software the developer the tester the manager hired trained used failed\",\n    \"the dog the cat the mouse chased caught died\"\n  ]\n}",
+  "run_idx": 6
+}

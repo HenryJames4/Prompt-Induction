@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student read fascinated",
+    "the movie the director filmed entertained",
+    "the plan the team devised succeeded",
+    "the song the singer performed captivated",
+    "the cake the baker the customer ordered delivered"
+  ],
+  "induced_prompt_raw": "\"Create sentences following the structure 'the [noun] the [agent] [past-tense verb] [resulting action]', ensuring each clause is complete and avoids nested agents or verbs.\"",
+  "induced_prompt": "\"Create sentences following the structure 'the [noun] the [agent] [past-tense verb] [resulting action]', ensuring each clause is complete and avoids nested agents or verbs.\"",
+  "induced_prompt_chars": 173,
+  "induced_prompt_words": 24,
+  "l1_char_total": 201,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cake the baker baked delighted everyone.\", \"the message the courier delivered arrived promptly.\", \"the painting the artist created inspired many.\", \"the song the musician performed moved the audience.\", \"the flowers the gardener planted bloomed beautifully.\"]}",
+  "l2_sentences": [
+    "the cake the baker baked delighted everyone.",
+    "the message the courier delivered arrived promptly.",
+    "the painting the artist created inspired many.",
+    "the song the musician performed moved the audience.",
+    "the flowers the gardener planted bloomed beautifully."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:59:03.406246+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student read fascinated",
+    "the movie the director filmed entertained",
+    "the plan the team devised succeeded",
+    "the song the singer performed captivated"
+  ],
+  "l1_sentences": [
+    "the book the student read fascinated",
+    "the movie the director filmed entertained",
+    "the plan the team devised succeeded",
+    "the song the singer performed captivated",
+    "the cake the baker the customer ordered delivered"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student read fascinated\", \"the movie the director filmed entertained\", \"the plan the team devised succeeded\", \"the song the singer performed captivated\", \"the cake the baker the customer ordered delivered\"]}",
+  "run_idx": 28
+}

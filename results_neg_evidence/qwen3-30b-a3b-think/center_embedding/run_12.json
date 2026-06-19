@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "induced_prompt_raw": "the X the Y the Z the W A B C disappeared",
+  "induced_prompt": "the X the Y the Z the W A B C disappeared",
+  "induced_prompt_chars": 41,
+  "induced_prompt_words": 12,
+  "l1_char_total": 418,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The more heat, the more droughts, the more wildfires, the more crops A, B, and C disappeared.\", \"The more debt, the more stress, the more bankruptcies, the more businesses A, B, and C disappeared.\", \"The more traffic, the more accidents, the more congestion, the more commuters A, B, and C disappeared.\", \"The more spam, the more scams, the more frauds, the more victims A, B, and C disappeared.\", \"The more noise, the more headaches, the more sleeplessness, the more peace A, B, and C disappeared.\"]}",
+  "l2_sentences": [
+    "The more heat, the more droughts, the more wildfires, the more crops A, B, and C disappeared.",
+    "The more debt, the more stress, the more bankruptcies, the more businesses A, B, and C disappeared.",
+    "The more traffic, the more accidents, the more congestion, the more commuters A, B, and C disappeared.",
+    "The more spam, the more scams, the more frauds, the more victims A, B, and C disappeared.",
+    "The more noise, the more headaches, the more sleeplessness, the more peace A, B, and C disappeared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:57:15.718225+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared"
+  ],
+  "l1_sentences": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "l1_raw": "{\"sentences\": [\"the manuscript the author the editor the proofreader revised corrected approved disappeared\", \"the data the researcher the statistician the computer analyzed processed visualized vanished\", \"the proposal the committee the chairman the secretary reviewed amended finalized vanished\", \"the evidence the detective the witness the lawyer examined questioned verified disappeared\", \"the document the writer the editor sent revised canceled\"]}",
+  "run_idx": 12
+}

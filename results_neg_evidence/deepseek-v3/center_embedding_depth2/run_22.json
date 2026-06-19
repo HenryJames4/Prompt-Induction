@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the editor praised sold",
+    "the plan the committee endorsed failed",
+    "the movie the director filmed premiered",
+    "the idea the scientist proposed succeeded",
+    "the project the manager the team supported launched completed"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, using only one level of nesting (avoid multiple embeddings). Example: 'the [noun1] the [noun2] [verb1] [verb2]'.\"",
+  "induced_prompt": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, using only one level of nesting (avoid multiple embeddings). Example: 'the [noun1] the [noun2] [verb1] [verb2]'.\"",
+  "induced_prompt_chars": 209,
+  "induced_prompt_words": 29,
+  "l1_char_total": 211,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book the student read fascinated everyone.\", \"The dog the child petted wagged its tail.\", \"The car the mechanic fixed runs smoothly.\", \"The cake the baker decorated tasted delicious.\", \"The painting the artist created won an award.\"]}",
+  "l2_sentences": [
+    "The book the student read fascinated everyone.",
+    "The dog the child petted wagged its tail.",
+    "The car the mechanic fixed runs smoothly.",
+    "The cake the baker decorated tasted delicious.",
+    "The painting the artist created won an award."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:54:01.656217+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the editor praised sold",
+    "the plan the committee endorsed failed",
+    "the movie the director filmed premiered",
+    "the idea the scientist proposed succeeded"
+  ],
+  "l1_sentences": [
+    "the book the editor praised sold",
+    "the plan the committee endorsed failed",
+    "the movie the director filmed premiered",
+    "the idea the scientist proposed succeeded",
+    "the project the manager the team supported launched completed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor praised sold\", \"the plan the committee endorsed failed\", \"the movie the director filmed premiered\", \"the idea the scientist proposed succeeded\", \"the project the manager the team supported launched completed\"]}",
+  "run_idx": 22
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended purchased",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver repaired washed drove"
+  ],
+  "induced_prompt_raw": "Generate a sentence with a noun followed by three noun phrases and four verbs, each verb applying to all preceding nouns.",
+  "induced_prompt": "Generate a sentence with a noun followed by three noun phrases and four verbs, each verb applying to all preceding nouns.",
+  "induced_prompt_chars": 121,
+  "induced_prompt_words": 21,
+  "l1_char_total": 379,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat, the dog, the bird, and the fish ran, jumped, swam, and flew.\",\n    \"The teacher, the student, the book, and the pen read, wrote, learned, and taught.\",\n    \"The car, the bike, the train, and the plane drove, sped, moved, and traveled.\",\n    \"The chef, the waiter, the food, and the table cooked, served, prepared, and presented.\",\n    \"The computer, the phone, the tablet, and the watch processed, displayed, connected, and computed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat, the dog, the bird, and the fish ran, jumped, swam, and flew.",
+    "The teacher, the student, the book, and the pen read, wrote, learned, and taught.",
+    "The car, the bike, the train, and the plane drove, sped, moved, and traveled.",
+    "The chef, the waiter, the food, and the table cooked, served, prepared, and presented.",
+    "The computer, the phone, the tablet, and the watch processed, displayed, connected, and computed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:42:17.673531+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended purchased",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended purchased",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver repaired washed drove"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read reviewed recommended purchased\",\n    \"the plan the manager the team the client developed presented accepted implemented\",\n    \"the house the architect the builder the owner designed constructed inspected sold\",\n    \"the car the mechanic the driver repaired washed drove\"\n  ]\n}",
+  "run_idx": 1
+}

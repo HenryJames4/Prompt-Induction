@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the chef the critic praised smiled",
+    "the driver the pedestrian noticed stopped",
+    "the student the teacher helped passed",
+    "the dog the boy chased barked",
+    "the child the doctor cured laughed"
+  ],
+  "induced_prompt_raw": "Generate five sentences with the syntactic structure: [Subject noun phrase] + [Object relative clause without a relative pronoun] + [Intransitive verb in the past tense].",
+  "induced_prompt": "Generate five sentences with the syntactic structure: [Subject noun phrase] + [Object relative clause without a relative pronoun] + [Intransitive verb in the past tense].",
+  "induced_prompt_chars": 170,
+  "induced_prompt_words": 25,
+  "l1_char_total": 175,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cake my mother baked collapsed.\",\n    \"The book I read yesterday vanished.\",\n    \"The letter you sent arrived.\",\n    \"The dog the boy adopted escaped.\",\n    \"The project we started failed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cake my mother baked collapsed.",
+    "The book I read yesterday vanished.",
+    "The letter you sent arrived.",
+    "The dog the boy adopted escaped.",
+    "The project we started failed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:38:49.739703+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the critic praised smiled",
+    "the driver the pedestrian noticed stopped",
+    "the student the teacher helped passed",
+    "the dog the boy chased barked",
+    "the child the doctor cured laughed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the critic praised smiled\",\n    \"the driver the pedestrian noticed stopped\",\n    \"the student the teacher helped passed\",\n    \"the dog the boy chased barked\",\n    \"the child the doctor cured laughed\"\n  ]\n}",
+  "run_idx": 10
+}

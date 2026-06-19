@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the car the mechanic repaired broke",
+    "the song the artist sang ended",
+    "the letter the writer mailed arrived",
+    "the meal the chef cooked burned",
+    "the boy the girl helped smiled"
+  ],
+  "induced_prompt_raw": "Generate five sentences with the syntactic structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\" in the past tense.",
+  "induced_prompt": "Generate five sentences with the syntactic structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\" in the past tense.",
+  "induced_prompt_chars": 134,
+  "induced_prompt_words": 19,
+  "l1_char_total": 162,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the cat chased ran.\",\n    \"The bird the cat caught escaped.\",\n    \"The actor the director hired bowed.\",\n    \"The letter the man wrote arrived.\",\n    \"The guest the host welcomed smiled.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the cat chased ran.",
+    "The bird the cat caught escaped.",
+    "The actor the director hired bowed.",
+    "The letter the man wrote arrived.",
+    "The guest the host welcomed smiled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:44:31.341057+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the mechanic repaired broke",
+    "the song the artist sang ended",
+    "the letter the writer mailed arrived",
+    "the meal the chef cooked burned",
+    "the boy the girl helped smiled"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the car the mechanic repaired broke\",\n    \"the song the artist sang ended\",\n    \"the letter the writer mailed arrived\",\n    \"the meal the chef cooked burned\",\n    \"the boy the girl helped smiled\"\n  ]\n}",
+  "run_idx": 29
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the baker the customer the child greeted called baked burned",
+    "the letter the manager the secretary the intern helped assisted signed arrived",
+    "the car the mechanic the manager the owner called assigned fixed started",
+    "the painting the artist the dealer the collector contacted commissioned created hung",
+    "the book the author the editor the critic praised assisted wrote sold"
+  ],
+  "induced_prompt_raw": "Based on the given sentences, the syntactic structure consistently follows a pattern of four noun phrases followed by four verbs, arranged to form nested relative clauses. The noun phrases represent an object and three subjects in descending order of embedding, while the verbs correspond to actions from the innermost clause to the main clause. \n\nThe inferred prompt capturing this structure is:\n\n**Generate a sentence with structure: object, subject1, subject2, subject3, verb3, verb2, verb1, verb0**",
+  "induced_prompt": "Based on the given sentences, the syntactic structure consistently follows a pattern of four noun phrases followed by four verbs, arranged to form nested relative clauses. The noun phrases represent an object and three subjects in descending order of embedding, while the verbs correspond to actions from the innermost clause to the main clause. \n\nThe inferred prompt capturing this structure is:\n\n**Generate a sentence with structure: object, subject1, subject2, subject3, verb3, verb2, verb1, verb0**",
+  "induced_prompt_chars": 502,
+  "induced_prompt_words": 74,
+  "l1_char_total": 372,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The cake that the child that the baker that the customer praised instructed sampled tasted delicious.\", \"The report that the manager that the analyst that the intern assisted trained wrote impressed everyone.\", \"The painting that the curator that the artist that the gallery sponsored admired purchased became famous.\", \"The software that the developer that the company that the investor funded hired designed transformed the industry.\", \"The theorem that the professor that the student that the university recruited mentored proved revolutionized mathematics.\"]}",
+  "l2_sentences": [
+    "The cake that the child that the baker that the customer praised instructed sampled tasted delicious.",
+    "The report that the manager that the analyst that the intern assisted trained wrote impressed everyone.",
+    "The painting that the curator that the artist that the gallery sponsored admired purchased became famous.",
+    "The software that the developer that the company that the investor funded hired designed transformed the industry.",
+    "The theorem that the professor that the student that the university recruited mentored proved revolutionized mathematics."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:21:05.848115+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the baker the customer the child greeted called baked burned",
+    "the letter the manager the secretary the intern helped assisted signed arrived",
+    "the car the mechanic the manager the owner called assigned fixed started",
+    "the painting the artist the dealer the collector contacted commissioned created hung",
+    "the book the author the editor the critic praised assisted wrote sold"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cake the baker the customer the child greeted called baked burned\",\n    \"the letter the manager the secretary the intern helped assisted signed arrived\",\n    \"the car the mechanic the manager the owner called assigned fixed started\",\n    \"the painting the artist the dealer the collector contacted commissioned created hung\",\n    \"the book the author the editor the critic praised assisted wrote sold\"\n  ]\n}",
+  "run_idx": 10
+}

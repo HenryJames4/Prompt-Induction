@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the client the lawyer the clerk the typist assisted hired defended won",
+    "the patient the doctor the nurse the student observed assisted treated recovered",
+    "the student the teacher the principal the supervisor questioned evaluated supported graduated",
+    "the chef the cook the baker the apprentice helped trained supervised succeeded",
+    "the actor the director the producer the writer inspired hired cast performed"
+  ],
+  "induced_prompt_raw": "Write a sentence using a quadruple nested object relative clause structure, where four nouns acting as subjects are followed by four transitive verbs in reverse order of their subjects, ending with an intransitive verb.",
+  "induced_prompt": "Write a sentence using a quadruple nested object relative clause structure, where four nouns acting as subjects are followed by four transitive verbs in reverse order of their subjects, ending with an intransitive verb.",
+  "induced_prompt_chars": 219,
+  "induced_prompt_words": 34,
+  "l1_char_total": 397,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The mouse the cat the dog the boy chased bit scratched died.\",\n    \"The cheese the rat the cat the dog chased caught ate smelled.\",\n    \"The book the student the teacher the principal praised questioned read lost.\",\n    \"The song the girl the boy the mother heard hummed sang faded.\",\n    \"The toy the baby the puppy the kitten nudged chewed broke vanished.\"\n  ]\n}",
+  "l2_sentences": [
+    "The mouse the cat the dog the boy chased bit scratched died.",
+    "The cheese the rat the cat the dog chased caught ate smelled.",
+    "The book the student the teacher the principal praised questioned read lost.",
+    "The song the girl the boy the mother heard hummed sang faded.",
+    "The toy the baby the puppy the kitten nudged chewed broke vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:23:24.830596+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the client the lawyer the clerk the typist assisted hired defended won",
+    "the patient the doctor the nurse the student observed assisted treated recovered",
+    "the student the teacher the principal the supervisor questioned evaluated supported graduated",
+    "the chef the cook the baker the apprentice helped trained supervised succeeded",
+    "the actor the director the producer the writer inspired hired cast performed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the client the lawyer the clerk the typist assisted hired defended won\",\n    \"the patient the doctor the nurse the student observed assisted treated recovered\",\n    \"the student the teacher the principal the supervisor questioned evaluated supported graduated\",\n    \"the chef the cook the baker the apprentice helped trained supervised succeeded\",\n    \"the actor the director the producer the writer inspired hired cast performed\"\n  ]\n}",
+  "run_idx": 13
+}

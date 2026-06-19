@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the mouse the cheese the thief chased ate stole vanished.",
+    "the book the student the teacher the principal read recommended approved banned.",
+    "the car the driver the officer the judge stopped ticketed fined dismissed.",
+    "the house the owner the agent the buyer sold listed visited purchased.",
+    "the computer the user the technician the engineer fixed repaired upgraded replaced."
+  ],
+  "induced_prompt_raw": "A sequence of nouns followed by a sequence of verbs.",
+  "induced_prompt": "A sequence of nouns followed by a sequence of verbs.",
+  "induced_prompt_chars": 52,
+  "induced_prompt_words": 10,
+  "l1_char_total": 372,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"Cats dogs birds ran jumped flew.\",\n    \"Books pens papers wrote read folded.\",\n    \"Cars trains planes drove sped soared.\",\n    \"Apples oranges bananas grew ripened fell.\",\n    \"Water fire ice flowed burned froze.\"\n  ]\n}",
+  "l2_sentences": [
+    "Cats dogs birds ran jumped flew.",
+    "Books pens papers wrote read folded.",
+    "Cars trains planes drove sped soared.",
+    "Apples oranges bananas grew ripened fell.",
+    "Water fire ice flowed burned froze."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:55:16.878295+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the mouse the cheese the thief chased ate stole vanished.",
+    "the book the student the teacher the principal read recommended approved banned.",
+    "the car the driver the officer the judge stopped ticketed fined dismissed.",
+    "the house the owner the agent the buyer sold listed visited purchased.",
+    "the computer the user the technician the engineer fixed repaired upgraded replaced."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the mouse the cheese the thief chased ate stole vanished.\",\n    \"the book the student the teacher the principal read recommended approved banned.\",\n    \"the car the driver the officer the judge stopped ticketed fined dismissed.\",\n    \"the house the owner the agent the buyer sold listed visited purchased.\",\n    \"the computer the user the technician the engineer fixed repaired upgraded replaced.\"\n  ]\n}",
+  "run_idx": 30
+}

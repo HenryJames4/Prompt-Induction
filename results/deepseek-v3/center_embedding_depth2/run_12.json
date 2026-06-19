@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the librarian recommended sold",
+    "the cake the baker decorated tasted",
+    "the movie the critic praised flopped",
+    "the song the singer performed impressed",
+    "the painting the artist created inspired"
+  ],
+  "induced_prompt_raw": "**Prompt:**  \n*\"Generate sentences with the structure: [noun1] [noun2] [verb1] [verb2].\"*  \n\n(Alternatively, a more concise version: *\"Write sentences following: the [noun1] the [noun2] [verb1] [verb2].\"*)",
+  "induced_prompt": "**Prompt:**  \n*\"Generate sentences with the structure: [noun1] [noun2] [verb1] [verb2].\"*  \n\n(Alternatively, a more concise version: *\"Write sentences following: the [noun1] the [noun2] [verb1] [verb2].\"*)",
+  "induced_prompt_chars": 205,
+  "induced_prompt_words": 24,
+  "l1_char_total": 189,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The cat the mouse chased ran.\", \"The chef the cake baked decorated.\", \"The dog the ball fetched returned.\", \"The teacher the lesson taught explained.\", \"The wind the leaves blew scattered.\"]}",
+  "l2_sentences": [
+    "The cat the mouse chased ran.",
+    "The chef the cake baked decorated.",
+    "The dog the ball fetched returned.",
+    "The teacher the lesson taught explained.",
+    "The wind the leaves blew scattered."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:12:15.830799+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the librarian recommended sold",
+    "the cake the baker decorated tasted",
+    "the movie the critic praised flopped",
+    "the song the singer performed impressed",
+    "the painting the artist created inspired"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the librarian recommended sold\", \"the cake the baker decorated tasted\", \"the movie the critic praised flopped\", \"the song the singer performed impressed\", \"the painting the artist created inspired\"]}",
+  "run_idx": 12
+}

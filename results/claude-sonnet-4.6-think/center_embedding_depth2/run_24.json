@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed failed.",
+    "The cake the chef baked burned.",
+    "The bridge the engineer designed collapsed.",
+    "The bill the senator proposed passed.",
+    "The book the editor rejected sold."
+  ],
+  "induced_prompt_raw": "Write sentences using center-embedded relative clauses: \"The [noun] the [noun] [verb] [verb].\"",
+  "induced_prompt": "Write sentences using center-embedded relative clauses: \"The [noun] the [noun] [verb] [verb].\"",
+  "induced_prompt_chars": 94,
+  "induced_prompt_words": 12,
+  "l1_char_total": 184,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog chased fled.\", \"The book the student read won.\", \"The man the woman saw left.\", \"The cake the chef baked disappeared.\", \"The letter the boy wrote arrived.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog chased fled.",
+    "The book the student read won.",
+    "The man the woman saw left.",
+    "The cake the chef baked disappeared.",
+    "The letter the boy wrote arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:43:04.543087+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed failed.",
+    "The cake the chef baked burned.",
+    "The bridge the engineer designed collapsed.",
+    "The bill the senator proposed passed.",
+    "The book the editor rejected sold."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed failed.\", \"The cake the chef baked burned.\", \"The bridge the engineer designed collapsed.\", \"The bill the senator proposed passed.\", \"The book the editor rejected sold.\"]}\n```",
+  "run_idx": 24
+}

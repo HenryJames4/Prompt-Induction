@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the boy the woman chased petted fed loved",
+    "the book the teacher the student the principal assigned read graded praised",
+    "the car the mechanic the owner the dealer fixed inspected sold delivered",
+    "the house the architect the builder the family designed constructed admired purchased",
+    "the cake the baker the chef decorated baked served"
+  ],
+  "induced_prompt_raw": "Generate a four-verb dependency chain where each noun phrase is acted upon by the next, in a fixed order.",
+  "induced_prompt": "Generate a four-verb dependency chain where each noun phrase is acted upon by the next, in a fixed order.",
+  "induced_prompt_chars": 105,
+  "induced_prompt_words": 19,
+  "l1_char_total": 339,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat chased the mouse that startled the bird which woke the sleeping gardener.\",\n    \"The storm destroyed the house that sheltered the family which raised the children who won the competition.\",\n    \"The teacher graded the exam that tested the student who wrote the essay which impressed the professor.\",\n    \"The chef prepared the meal that satisfied the customer who left the tip which pleased the waiter.\",\n    \"The author wrote the book that inspired the movie which starred the actor who won the award.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat chased the mouse that startled the bird which woke the sleeping gardener.",
+    "The storm destroyed the house that sheltered the family which raised the children who won the competition.",
+    "The teacher graded the exam that tested the student who wrote the essay which impressed the professor.",
+    "The chef prepared the meal that satisfied the customer who left the tip which pleased the waiter.",
+    "The author wrote the book that inspired the movie which starred the actor who won the award."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:00:59.749952+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the boy the woman chased petted fed loved",
+    "the book the teacher the student the principal assigned read graded praised",
+    "the car the mechanic the owner the dealer fixed inspected sold delivered",
+    "the house the architect the builder the family designed constructed admired purchased"
+  ],
+  "l1_sentences": [
+    "the cat the dog the boy the woman chased petted fed loved",
+    "the book the teacher the student the principal assigned read graded praised",
+    "the car the mechanic the owner the dealer fixed inspected sold delivered",
+    "the house the architect the builder the family designed constructed admired purchased",
+    "the cake the baker the chef decorated baked served"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the boy the woman chased petted fed loved\",\n    \"the book the teacher the student the principal assigned read graded praised\",\n    \"the car the mechanic the owner the dealer fixed inspected sold delivered\",\n    \"the house the architect the builder the family designed constructed admired purchased\",\n    \"the cake the baker the chef decorated baked served\"\n  ]\n}",
+  "run_idx": 14
+}

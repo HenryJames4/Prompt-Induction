@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the teacher the student the parent read wrote signed disappeared",
+    "the car the mechanic the driver the passenger fixed tested drove vanished",
+    "the email the manager the secretary the colleague sent received forwarded deleted",
+    "the cake the baker the chef the customer baked decorated tasted vanished",
+    "the dog the vet the owner the neighbor examined treated adopted disappeared"
+  ],
+  "induced_prompt_raw": "the [noun] the [noun] the [noun] the [noun] [verb] [verb] [verb] [verb]",
+  "induced_prompt": "the [noun] the [noun] the [noun] the [noun] [verb] [verb] [verb] [verb]",
+  "induced_prompt_chars": 71,
+  "induced_prompt_words": 12,
+  "l1_char_total": 374,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the dog the cat the bird the fish ran ran jumped jumped.\", \"the sun the moon the star the planet rose rose shone shone.\", \"the river the mountain the forest the lake flowed flowed grew grew.\", \"the book the pen the paper the desk wrote wrote read read.\", \"the car the train the plane the boat moved moved flew flew.\"]}",
+  "l2_sentences": [
+    "the dog the cat the bird the fish ran ran jumped jumped.",
+    "the sun the moon the star the planet rose rose shone shone.",
+    "the river the mountain the forest the lake flowed flowed grew grew.",
+    "the book the pen the paper the desk wrote wrote read read.",
+    "the car the train the plane the boat moved moved flew flew."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:53:49.378293+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the teacher the student the parent read wrote signed disappeared",
+    "the car the mechanic the driver the passenger fixed tested drove vanished",
+    "the email the manager the secretary the colleague sent received forwarded deleted",
+    "the cake the baker the chef the customer baked decorated tasted vanished",
+    "the dog the vet the owner the neighbor examined treated adopted disappeared"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the teacher the student the parent read wrote signed disappeared\", \"the car the mechanic the driver the passenger fixed tested drove vanished\", \"the email the manager the secretary the colleague sent received forwarded deleted\", \"the cake the baker the chef the customer baked decorated tasted vanished\", \"the dog the vet the owner the neighbor examined treated adopted disappeared\"]}",
+  "run_idx": 30
+}

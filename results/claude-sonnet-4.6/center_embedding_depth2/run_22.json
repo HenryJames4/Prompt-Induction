@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked vanished.",
+    "The bridge the engineer designed collapsed.",
+    "The letter the student wrote disappeared.",
+    "The plant the gardener watered thrived."
+  ],
+  "induced_prompt_raw": "Write sentences with a double subject structure where a noun is modified by a relative clause before taking a final verb.",
+  "induced_prompt": "Write sentences with a double subject structure where a noun is modified by a relative clause before taking a final verb.",
+  "induced_prompt_chars": 121,
+  "induced_prompt_words": 21,
+  "l1_char_total": 195,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The scientist who discovered the new element won the Nobel Prize.\", \"The children who played in the park came home covered in mud.\", \"The old bridge that crossed the river finally collapsed last winter.\", \"The musician who performed last night received a standing ovation from the crowd.\", \"The letter that arrived this morning contained surprising news from abroad.\"]}\n```",
+  "l2_sentences": [
+    "The scientist who discovered the new element won the Nobel Prize.",
+    "The children who played in the park came home covered in mud.",
+    "The old bridge that crossed the river finally collapsed last winter.",
+    "The musician who performed last night received a standing ovation from the crowd.",
+    "The letter that arrived this morning contained surprising news from abroad."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:42:17.204354+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked vanished.",
+    "The bridge the engineer designed collapsed.",
+    "The letter the student wrote disappeared.",
+    "The plant the gardener watered thrived."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed passed.\", \"The cake the chef baked vanished.\", \"The bridge the engineer designed collapsed.\", \"The letter the student wrote disappeared.\", \"The plant the gardener watered thrived.\"]}\n```",
+  "run_idx": 22
+}

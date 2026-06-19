@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the film the director filmed won.",
+    "the idea the scientist proposed failed.",
+    "the plan the committee designed succeeded.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "induced_prompt_raw": "Create a sentence with a noun phrase followed by a relative clause modifying it, where the main clause contains a simple verb and no additional objects or complements beyond the subject and verb.",
+  "induced_prompt": "Create a sentence with a noun phrase followed by a relative clause modifying it, where the main clause contains a simple verb and no additional objects or complements beyond the subject and verb.",
+  "induced_prompt_chars": 195,
+  "induced_prompt_words": 33,
+  "l1_char_total": 211,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed is on the table.\", \"The dog that barks loudly is mine.\", \"The car that broke down is parked outside.\", \"The tree that lost its leaves is in the yard.\", \"The window that was open is now closed.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed is on the table.",
+    "The dog that barks loudly is mine.",
+    "The car that broke down is parked outside.",
+    "The tree that lost its leaves is in the yard.",
+    "The window that was open is now closed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:49:11.171553+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the film the director filmed won.",
+    "the idea the scientist proposed failed.",
+    "the plan the committee designed succeeded."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the film the director filmed won.",
+    "the idea the scientist proposed failed.",
+    "the plan the committee designed succeeded.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the film the director filmed won.\", \"the idea the scientist proposed failed.\", \"the plan the committee designed succeeded.\", \"the story the writer told the audience moved the listeners deeply.\"]}",
+  "run_idx": 17
+}

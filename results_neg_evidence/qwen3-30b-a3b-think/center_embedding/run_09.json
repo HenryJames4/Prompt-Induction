@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the manuscript the author the editor the proofreader revised corrected submitted vanished",
+    "the data the researcher the team the client analyzed processed presented disappeared",
+    "the proposal the committee the board the sponsor approved finalized presented vanished",
+    "the evidence the detective the lawyer the judge examined analyzed presented disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "induced_prompt_raw": "Generate four 'the' noun phrases followed by four past tense verbs.",
+  "induced_prompt": "Generate four 'the' noun phrases followed by four past tense verbs.",
+  "induced_prompt_chars": 67,
+  "induced_prompt_words": 11,
+  "l1_char_total": 402,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat jumped.\", \"The book opened.\", \"The car drove.\", \"The sky shone.\", \"The cat jumped.\"]}",
+  "l2_sentences": [
+    "The cat jumped.",
+    "The book opened.",
+    "The car drove.",
+    "The sky shone.",
+    "The cat jumped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:52:35.474655+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the manuscript the author the editor the proofreader revised corrected submitted vanished",
+    "the data the researcher the team the client analyzed processed presented disappeared",
+    "the proposal the committee the board the sponsor approved finalized presented vanished",
+    "the evidence the detective the lawyer the judge examined analyzed presented disappeared"
+  ],
+  "l1_sentences": [
+    "the manuscript the author the editor the proofreader revised corrected submitted vanished",
+    "the data the researcher the team the client analyzed processed presented disappeared",
+    "the proposal the committee the board the sponsor approved finalized presented vanished",
+    "the evidence the detective the lawyer the judge examined analyzed presented disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "l1_raw": "{\"sentences\": [\"the manuscript the author the editor the proofreader revised corrected submitted vanished\", \"the data the researcher the team the client analyzed processed presented disappeared\", \"the proposal the committee the board the sponsor approved finalized presented vanished\", \"the evidence the detective the lawyer the judge examined analyzed presented disappeared\", \"the document the writer the editor sent revised canceled\"]}",
+  "run_idx": 9
+}

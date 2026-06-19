@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The client the designer called answered.",
+    "The letter the mailman delivered arrived.",
+    "The song the musician played ended.",
+    "The food the chef prepared spoiled.",
+    "The house the family the architect designed built collapsed."
+  ],
+  "induced_prompt_raw": "Generate simple, natural sentences containing a single object relative clause (e.g., \"The [noun] the [noun] [verb] [verb]\"). Avoid nested or multiple relative clauses (center embedding) that lead to confusion.",
+  "induced_prompt": "Generate simple, natural sentences containing a single object relative clause (e.g., \"The [noun] the [noun] [verb] [verb]\"). Avoid nested or multiple relative clauses (center embedding) that lead to confusion.",
+  "induced_prompt_chars": 209,
+  "induced_prompt_words": 29,
+  "l1_char_total": 211,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book the student read was fascinating.\",\n    \"The cake the baker decorated looked delicious.\",\n    \"The car the mechanic repaired runs perfectly.\",\n    \"The letter the girl wrote made him smile.\",\n    \"The movie the family watched was very funny.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book the student read was fascinating.",
+    "The cake the baker decorated looked delicious.",
+    "The car the mechanic repaired runs perfectly.",
+    "The letter the girl wrote made him smile.",
+    "The movie the family watched was very funny."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T14:00:01.658274+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The client the designer called answered.",
+    "The letter the mailman delivered arrived.",
+    "The song the musician played ended.",
+    "The food the chef prepared spoiled."
+  ],
+  "l1_sentences": [
+    "The client the designer called answered.",
+    "The letter the mailman delivered arrived.",
+    "The song the musician played ended.",
+    "The food the chef prepared spoiled.",
+    "The house the family the architect designed built collapsed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The client the designer called answered.\",\n    \"The letter the mailman delivered arrived.\",\n    \"The song the musician played ended.\",\n    \"The food the chef prepared spoiled.\",\n    \"The house the family the architect designed built collapsed.\"\n  ]\n}",
+  "run_idx": 29
+}

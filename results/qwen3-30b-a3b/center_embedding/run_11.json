@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the student the teacher read wrote finished vanished",
+    "the letter the secretary the clerk the manager typed signed delivered disappeared",
+    "the article the journalist the editor the assistant wrote approved submitted vanished",
+    "the document the lawyer the clerk the partner reviewed signed submitted disappeared",
+    "the message the courier the agent the spy sent delivered received vanished"
+  ],
+  "induced_prompt_raw": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt_chars": 71,
+  "induced_prompt_words": 12,
+  "l1_char_total": 395,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the student the teacher the doctor ran ran ran ran.\", \"The book the writer the editor the publisher wrote wrote wrote wrote.\", \"The car the mechanic the driver the passenger fixed fixed fixed fixed.\", \"The song the singer the producer the band performed performed performed performed.\", \"The plan the manager the employee the leader executed executed executed executed.\"]}",
+  "l2_sentences": [
+    "The cat the student the teacher the doctor ran ran ran ran.",
+    "The book the writer the editor the publisher wrote wrote wrote wrote.",
+    "The car the mechanic the driver the passenger fixed fixed fixed fixed.",
+    "The song the singer the producer the band performed performed performed performed.",
+    "The plan the manager the employee the leader executed executed executed executed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:19:59.091191+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the student the teacher read wrote finished vanished",
+    "the letter the secretary the clerk the manager typed signed delivered disappeared",
+    "the article the journalist the editor the assistant wrote approved submitted vanished",
+    "the document the lawyer the clerk the partner reviewed signed submitted disappeared",
+    "the message the courier the agent the spy sent delivered received vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the student the teacher read wrote finished vanished\", \"the letter the secretary the clerk the manager typed signed delivered disappeared\", \"the article the journalist the editor the assistant wrote approved submitted vanished\", \"the document the lawyer the clerk the partner reviewed signed submitted disappeared\", \"the message the courier the agent the spy sent delivered received vanished\"]}",
+  "run_idx": 11
+}

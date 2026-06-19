@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the candidate the voters supported won",
+    "the contract the lawyer drafted expired",
+    "the project the team started failed",
+    "the book the student read disappeared",
+    "the artist the museum the critic praised hired painting"
+  ],
+  "induced_prompt_raw": "Generate a simple sentence where the subject is modified by a single relative clause containing a transitive verb, avoiding double center-embedding or multiple nested relative clauses.",
+  "induced_prompt": "Generate a simple sentence where the subject is modified by a single relative clause containing a transitive verb, avoiding double center-embedding or multiple nested relative clauses.",
+  "induced_prompt_chars": 184,
+  "induced_prompt_words": 26,
+  "l1_char_total": 204,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog that chased the ball barked loudly.\",\n    \"The chef who baked the cake won an award.\",\n    \"The student who wrote the essay received an A.\",\n    \"The firemen who rescued the cat became local heroes.\",\n    \"The artist who painted the mural lives down the street.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog that chased the ball barked loudly.",
+    "The chef who baked the cake won an award.",
+    "The student who wrote the essay received an A.",
+    "The firemen who rescued the cat became local heroes.",
+    "The artist who painted the mural lives down the street."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:43:37.784815+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the candidate the voters supported won",
+    "the contract the lawyer drafted expired",
+    "the project the team started failed",
+    "the book the student read disappeared"
+  ],
+  "l1_sentences": [
+    "the candidate the voters supported won",
+    "the contract the lawyer drafted expired",
+    "the project the team started failed",
+    "the book the student read disappeared",
+    "the artist the museum the critic praised hired painting"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the candidate the voters supported won\",\n    \"the contract the lawyer drafted expired\",\n    \"the project the team started failed\",\n    \"the book the student read disappeared\",\n    \"the artist the museum the critic praised hired painting\"\n  ]\n}",
+  "run_idx": 10
+}

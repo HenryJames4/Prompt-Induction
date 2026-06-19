@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The book the author the critic the fan watched annoyed wrote burned.",
+    "The painting the artist the patron the mayor praised hired created faded.",
+    "The law the lawyer the judge the clerk helped challenged drafted failed.",
+    "The song the singer the agent the guard stopped avoided performed ended.",
+    "The car the driver the officer the witness filmed chased crashed exploded."
+  ],
+  "induced_prompt_raw": "Generate sentences with a triple center-embedded relative clause structure following the pattern: Noun1 Noun2 Noun3 Noun4 Verb4 Verb3 Verb2 Verb1.",
+  "induced_prompt": "Generate sentences with a triple center-embedded relative clause structure following the pattern: Noun1 Noun2 Noun3 Noun4 Verb4 Verb3 Verb2 Verb1.",
+  "induced_prompt_chars": 146,
+  "induced_prompt_words": 20,
+  "l1_char_total": 359,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The man the chef the critic the waiter served despised hired resigned.\",\n    \"The student the teacher the principal the parent angered fired helped graduated.\",\n    \"The patient the doctor the nurse the intern assisted blamed treated recovered.\",\n    \"The book the author the editor the publisher hired advised wrote vanished.\",\n    \"The car the mechanic the driver the officer stopped paid repaired stalled.\"\n  ]\n}",
+  "l2_sentences": [
+    "The man the chef the critic the waiter served despised hired resigned.",
+    "The student the teacher the principal the parent angered fired helped graduated.",
+    "The patient the doctor the nurse the intern assisted blamed treated recovered.",
+    "The book the author the editor the publisher hired advised wrote vanished.",
+    "The car the mechanic the driver the officer stopped paid repaired stalled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:20:36.812132+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The book the author the critic the fan watched annoyed wrote burned.",
+    "The painting the artist the patron the mayor praised hired created faded.",
+    "The law the lawyer the judge the clerk helped challenged drafted failed.",
+    "The song the singer the agent the guard stopped avoided performed ended.",
+    "The car the driver the officer the witness filmed chased crashed exploded."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the author the critic the fan watched annoyed wrote burned.\",\n    \"The painting the artist the patron the mayor praised hired created faded.\",\n    \"The law the lawyer the judge the clerk helped challenged drafted failed.\",\n    \"The song the singer the agent the guard stopped avoided performed ended.\",\n    \"The car the driver the officer the witness filmed chased crashed exploded.\"\n  ]\n}",
+  "run_idx": 8
+}

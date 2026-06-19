@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the reader recommended reviewed published sold",
+    "the car the driver the mechanic the owner repaired inspected fixed drove",
+    "the cake the baker the chef the guest decorated tasted served enjoyed",
+    "the movie the director the actor the critic filmed acted reviewed praised",
+    "the project the manager the developer the client designed implemented tested approved"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a chain of nouns where each subsequent noun relates to the previous one through an action.\"",
+  "induced_prompt": "\"Generate sentences with a chain of nouns where each subsequent noun relates to the previous one through an action.\"",
+  "induced_prompt_chars": 116,
+  "induced_prompt_words": 19,
+  "l1_char_total": 379,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The chef prepared a meal.\", \"The meal delighted the guest.\", \"The guest complimented the host.\", \"The host organized a party.\", \"The party entertained the neighbors.\"]}",
+  "l2_sentences": [
+    "The chef prepared a meal.",
+    "The meal delighted the guest.",
+    "The guest complimented the host.",
+    "The host organized a party.",
+    "The party entertained the neighbors."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:42:28.779528+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the reader recommended reviewed published sold",
+    "the car the driver the mechanic the owner repaired inspected fixed drove",
+    "the cake the baker the chef the guest decorated tasted served enjoyed",
+    "the movie the director the actor the critic filmed acted reviewed praised",
+    "the project the manager the developer the client designed implemented tested approved"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the reader recommended reviewed published sold\", \"the car the driver the mechanic the owner repaired inspected fixed drove\", \"the cake the baker the chef the guest decorated tasted served enjoyed\", \"the movie the director the actor the critic filmed acted reviewed praised\", \"the project the manager the developer the client designed implemented tested approved\"]}",
+  "run_idx": 23
+}

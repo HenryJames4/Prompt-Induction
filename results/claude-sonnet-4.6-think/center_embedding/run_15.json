@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the critic the student the teacher praised recommended reviewed sold.",
+    "the car the mechanic the owner the dealer contacted hired fixed ran.",
+    "the letter the secretary the manager the client approached instructed drafted arrived.",
+    "the song the producer the singer the fan inspired hired recorded played.",
+    "the house the architect the contractor the client briefed consulted designed stood."
+  ],
+  "induced_prompt_raw": "Write sentences with triply center-embedded object relative clauses (no relative pronoun), where four noun phrases are followed by four verbs in reverse dependency order.",
+  "induced_prompt": "Write sentences with triply center-embedded object relative clauses (no relative pronoun), where four noun phrases are followed by four verbs in reverse dependency order.",
+  "induced_prompt_chars": 170,
+  "induced_prompt_words": 24,
+  "l1_char_total": 387,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cheese the rat the cat the dog bit chased ate was moldy.\",\n    \"The report the analyst the manager the CEO hired supervised reviewed contained errors.\",\n    \"The book the student the professor the dean appointed assigned read was fascinating.\",\n    \"The letter the secretary the boss the director promoted hired typed was long.\",\n    \"The film the critic the editor the publisher praised employed reviewed won awards.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cheese the rat the cat the dog bit chased ate was moldy.",
+    "The report the analyst the manager the CEO hired supervised reviewed contained errors.",
+    "The book the student the professor the dean appointed assigned read was fascinating.",
+    "The letter the secretary the boss the director promoted hired typed was long.",
+    "The film the critic the editor the publisher praised employed reviewed won awards."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:25:04.186450+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the critic the student the teacher praised recommended reviewed sold.",
+    "the car the mechanic the owner the dealer contacted hired fixed ran.",
+    "the letter the secretary the manager the client approached instructed drafted arrived.",
+    "the song the producer the singer the fan inspired hired recorded played.",
+    "the house the architect the contractor the client briefed consulted designed stood."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the critic the student the teacher praised recommended reviewed sold.\",\n    \"the car the mechanic the owner the dealer contacted hired fixed ran.\",\n    \"the letter the secretary the manager the client approached instructed drafted arrived.\",\n    \"the song the producer the singer the fan inspired hired recorded played.\",\n    \"the house the architect the contractor the client briefed consulted designed stood.\"\n  ]\n}\n```",
+  "run_idx": 15
+}

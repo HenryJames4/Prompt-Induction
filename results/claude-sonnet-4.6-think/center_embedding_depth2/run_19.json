@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef baked burned.",
+    "The bill the senator proposed failed.",
+    "The bridge the engineer designed collapsed.",
+    "The dog the trainer taught performed.",
+    "The song the artist wrote sold."
+  ],
+  "induced_prompt_raw": "Write sentences using a reduced relative clause structure: \"The [noun] the [agent] [verb] [verb]ed,\" where a professional acts on an object that then undergoes an outcome.",
+  "induced_prompt": "Write sentences using a reduced relative clause structure: \"The [noun] the [agent] [verb] [verb]ed,\" where a professional acts on an object that then undergoes an outcome.",
+  "induced_prompt_chars": 171,
+  "induced_prompt_words": 26,
+  "l1_char_total": 179,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The bread the baker baked burned.\", \"The bridge the engineer designed collapsed.\", \"The patient the doctor treated recovered.\", \"The painting the artist restored faded.\", \"The crop the farmer planted flourished.\"]}\n```",
+  "l2_sentences": [
+    "The bread the baker baked burned.",
+    "The bridge the engineer designed collapsed.",
+    "The patient the doctor treated recovered.",
+    "The painting the artist restored faded.",
+    "The crop the farmer planted flourished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:41:42.053817+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef baked burned.",
+    "The bill the senator proposed failed.",
+    "The bridge the engineer designed collapsed.",
+    "The dog the trainer taught performed.",
+    "The song the artist wrote sold."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The cake the chef baked burned.\", \"The bill the senator proposed failed.\", \"The bridge the engineer designed collapsed.\", \"The dog the trainer taught performed.\", \"The song the artist wrote sold.\"]}\n```",
+  "run_idx": 19
+}

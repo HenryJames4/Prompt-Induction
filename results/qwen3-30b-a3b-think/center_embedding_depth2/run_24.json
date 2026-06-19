@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased ran.",
+    "the book the author wrote sold.",
+    "the car the driver fixed broke.",
+    "the house the painter decorated cost.",
+    "the story the writer told ended."
+  ],
+  "induced_prompt_raw": "the [noun] the [noun] [verb] [verb]",
+  "induced_prompt": "the [noun] the [noun] [verb] [verb]",
+  "induced_prompt_chars": 35,
+  "induced_prompt_words": 6,
+  "l1_char_total": 158,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the hat saw ate\", \"the dog the ball chased jumped\", \"the bird the worm ate flew\", \"the car the road drove sped\", \"the book the page read flipped\"]}",
+  "l2_sentences": [
+    "the cat the hat saw ate",
+    "the dog the ball chased jumped",
+    "the bird the worm ate flew",
+    "the car the road drove sped",
+    "the book the page read flipped"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:25:35.219170+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased ran.",
+    "the book the author wrote sold.",
+    "the car the driver fixed broke.",
+    "the house the painter decorated cost.",
+    "the story the writer told ended."
+  ],
+  "l1_raw": "{\"sentences\": [\"the cat the dog chased ran.\", \"the book the author wrote sold.\", \"the car the driver fixed broke.\", \"the house the painter decorated cost.\", \"the story the writer told ended.\"]}",
+  "run_idx": 24
+}

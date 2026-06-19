@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the editor the publisher wrote published sold vanished",
+    "the article the journalist the proofreader the magazine submitted corrected printed distributed",
+    "the document the clerk the manager the client prepared reviewed signed delivered",
+    "the letter the secretary the director the company typed checked approved sent",
+    "the proposal the consultant the team the stakeholder drafted evaluated accepted implemented"
+  ],
+  "induced_prompt_raw": "the [item] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt": "the [item] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt_chars": 71,
+  "induced_prompt_words": 12,
+  "l1_char_total": 417,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the knight the knight the knight swords dances sings dances\", \"the cat the knight the knight the knight fights jumps laughs shouts\", \"the cat the knight the knight the knight flies glides chirps tweets\", \"the cat the knight the knight the knight scurries hides squeaks eats\", \"the cat the knight the knight the knight swims dives glides sings\"]}",
+  "l2_sentences": [
+    "the cat the knight the knight the knight swords dances sings dances",
+    "the cat the knight the knight the knight fights jumps laughs shouts",
+    "the cat the knight the knight the knight flies glides chirps tweets",
+    "the cat the knight the knight the knight scurries hides squeaks eats",
+    "the cat the knight the knight the knight swims dives glides sings"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:44:17.094635+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the editor the publisher wrote published sold vanished",
+    "the article the journalist the proofreader the magazine submitted corrected printed distributed",
+    "the document the clerk the manager the client prepared reviewed signed delivered",
+    "the letter the secretary the director the company typed checked approved sent",
+    "the proposal the consultant the team the stakeholder drafted evaluated accepted implemented"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher wrote published sold vanished\", \"the article the journalist the proofreader the magazine submitted corrected printed distributed\", \"the document the clerk the manager the client prepared reviewed signed delivered\", \"the letter the secretary the director the company typed checked approved sent\", \"the proposal the consultant the team the stakeholder drafted evaluated accepted implemented\"]}",
+  "run_idx": 25
+}

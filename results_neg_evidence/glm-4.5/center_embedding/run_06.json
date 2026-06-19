@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the boy the woman chased fed petted loved",
+    "the book the teacher the student the principal assigned read graded praised",
+    "the car the mechanic the owner the dealer repaired sold drove admired",
+    "the house the architect the builder the family designed constructed moved into enjoyed",
+    "the cake the baker the friend baked decorated served"
+  ],
+  "induced_prompt_raw": "Generate a nested sentence structure where the first noun is successively acted upon by the next three agents, each with a distinct transitive verb.",
+  "induced_prompt": "Generate a nested sentence structure where the first noun is successively acted upon by the next three agents, each with a distinct transitive verb.",
+  "induced_prompt_chars": 148,
+  "induced_prompt_words": 24,
+  "l1_char_total": 339,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The ball kicked the boy who threw the dog that chased the cat.\",\n    \"The book read the teacher who taught the student that wrote the essay.\",\n    \"The car drove the mechanic who fixed the engine that powered the machine.\",\n    \"The flower watered the gardener who planted the seeds that grew the trees.\",\n    \"The computer programmed the developer who created the software that solved the problem.\"\n  ]\n}",
+  "l2_sentences": [
+    "The ball kicked the boy who threw the dog that chased the cat.",
+    "The book read the teacher who taught the student that wrote the essay.",
+    "The car drove the mechanic who fixed the engine that powered the machine.",
+    "The flower watered the gardener who planted the seeds that grew the trees.",
+    "The computer programmed the developer who created the software that solved the problem."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:49:25.901109+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the boy the woman chased fed petted loved",
+    "the book the teacher the student the principal assigned read graded praised",
+    "the car the mechanic the owner the dealer repaired sold drove admired",
+    "the house the architect the builder the family designed constructed moved into enjoyed"
+  ],
+  "l1_sentences": [
+    "the cat the dog the boy the woman chased fed petted loved",
+    "the book the teacher the student the principal assigned read graded praised",
+    "the car the mechanic the owner the dealer repaired sold drove admired",
+    "the house the architect the builder the family designed constructed moved into enjoyed",
+    "the cake the baker the friend baked decorated served"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the boy the woman chased fed petted loved\",\n    \"the book the teacher the student the principal assigned read graded praised\",\n    \"the car the mechanic the owner the dealer repaired sold drove admired\",\n    \"the house the architect the builder the family designed constructed moved into enjoyed\",\n    \"the cake the baker the friend baked decorated served\"\n  ]\n}",
+  "run_idx": 6
+}

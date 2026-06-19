@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the rat the flea bit feared annoyed slept",
+    "the child the mother the doctor the nurse assisted helped carried cried",
+    "the masterpiece the artist the critic the rival challenged praised painted vanished",
+    "the software the coder the manager the director hired blamed wrote crashed",
+    "the house the builder the architect the client sued hired constructed collapsed"
+  ],
+  "induced_prompt_raw": "Generate sentences with triple center-embedded object relative clauses, following the syntactic template: \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\".",
+  "induced_prompt": "Generate sentences with triple center-embedded object relative clauses, following the syntactic template: \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\".",
+  "induced_prompt_chars": 148,
+  "induced_prompt_words": 24,
+  "l1_char_total": 364,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cheese the mouse the cat the dog chased bit ate spoiled.\",\n    \"The book the student the teacher the principal fired praised read vanished.\",\n    \"The car the man the woman the child distracted helped drove crashed.\",\n    \"The house the family the builder the banker sued helped bought burned.\",\n    \"The song the singer the writer the critic loathed inspired sang played.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cheese the mouse the cat the dog chased bit ate spoiled.",
+    "The book the student the teacher the principal fired praised read vanished.",
+    "The car the man the woman the child distracted helped drove crashed.",
+    "The house the family the builder the banker sued helped bought burned.",
+    "The song the singer the writer the critic loathed inspired sang played."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:32:12.189635+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the rat the flea bit feared annoyed slept",
+    "the child the mother the doctor the nurse assisted helped carried cried",
+    "the masterpiece the artist the critic the rival challenged praised painted vanished",
+    "the software the coder the manager the director hired blamed wrote crashed",
+    "the house the builder the architect the client sued hired constructed collapsed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the rat the flea bit feared annoyed slept\",\n    \"the child the mother the doctor the nurse assisted helped carried cried\",\n    \"the masterpiece the artist the critic the rival challenged praised painted vanished\",\n    \"the software the coder the manager the director hired blamed wrote crashed\",\n    \"the house the builder the architect the client sued hired constructed collapsed\"\n  ]\n}",
+  "run_idx": 27
+}

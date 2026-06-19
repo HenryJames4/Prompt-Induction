@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat scratched barked",
+    "the chef the guest thanked smiled",
+    "the artist the crowd cheered painted",
+    "the student the teacher helped failed",
+    "the driver the pedestrian waved stopped"
+  ],
+  "induced_prompt_raw": "\"Write a sentence with the structure: [the + noun1] + [the + noun2] + [transitive verb] + [intransitive verb].\"",
+  "induced_prompt": "\"Write a sentence with the structure: [the + noun1] + [the + noun2] + [transitive verb] + [intransitive verb].\"",
+  "induced_prompt_chars": 111,
+  "induced_prompt_words": 19,
+  "l1_char_total": 177,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the cat chased ran.\",\n    \"The boy the girl helped smiled.\",\n    \"The man the woman called waved.\",\n    \"The bird the cat stalked flew.\",\n    \"The child the teacher praised blushed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the cat chased ran.",
+    "The boy the girl helped smiled.",
+    "The man the woman called waved.",
+    "The bird the cat stalked flew.",
+    "The child the teacher praised blushed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:39:33.484602+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat scratched barked",
+    "the chef the guest thanked smiled",
+    "the artist the crowd cheered painted",
+    "the student the teacher helped failed",
+    "the driver the pedestrian waved stopped"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the dog the cat scratched barked\",\n    \"the chef the guest thanked smiled\",\n    \"the artist the crowd cheered painted\",\n    \"the student the teacher helped failed\",\n    \"the driver the pedestrian waved stopped\"\n  ]\n}",
+  "run_idx": 13
+}

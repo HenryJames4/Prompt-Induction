@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef the critic the journalist interviewed praised baked vanished",
+    "the letter the lawyer the judge the clerk questioned reviewed signed disappeared",
+    "the poem the student the teacher the professor admired corrected published forgot",
+    "the bill the senator the lobbyist the aide briefed supported drafted passed",
+    "the book the author the editor consulted revised published"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly **4 levels of embedding** (four noun phrases each modified by a relative clause), using simple transitive verbs, where the main noun phrase's verb appears last. Avoid sentences with only 3 levels of embedding.",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly **4 levels of embedding** (four noun phrases each modified by a relative clause), using simple transitive verbs, where the main noun phrase's verb appears last. Avoid sentences with only 3 levels of embedding.",
+  "induced_prompt_chars": 271,
+  "induced_prompt_words": 41,
+  "l1_char_total": 372,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that the dog that the rat that the girl chased bit scratched meowed.\",\n    \"The man that the woman that the child that the teacher scolded hugged loved smiled.\",\n    \"The mouse that the cat that the dog that the boy kicked chased caught squeaked.\",\n    \"The fish that the shark that the whale that the diver saw followed ate swam.\",\n    \"The book that the student that the professor that the dean hired taught read disappeared.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the rat that the girl chased bit scratched meowed.",
+    "The man that the woman that the child that the teacher scolded hugged loved smiled.",
+    "The mouse that the cat that the dog that the boy kicked chased caught squeaked.",
+    "The fish that the shark that the whale that the diver saw followed ate swam.",
+    "The book that the student that the professor that the dean hired taught read disappeared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:16:21.261980+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef the critic the journalist interviewed praised baked vanished",
+    "the letter the lawyer the judge the clerk questioned reviewed signed disappeared",
+    "the poem the student the teacher the professor admired corrected published forgot",
+    "the bill the senator the lobbyist the aide briefed supported drafted passed"
+  ],
+  "l1_sentences": [
+    "the cake the chef the critic the journalist interviewed praised baked vanished",
+    "the letter the lawyer the judge the clerk questioned reviewed signed disappeared",
+    "the poem the student the teacher the professor admired corrected published forgot",
+    "the bill the senator the lobbyist the aide briefed supported drafted passed",
+    "the book the author the editor consulted revised published"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the critic the journalist interviewed praised baked vanished\", \"the letter the lawyer the judge the clerk questioned reviewed signed disappeared\", \"the poem the student the teacher the professor admired corrected published forgot\", \"the bill the senator the lobbyist the aide briefed supported drafted passed\", \"the book the author the editor consulted revised published\"]}\n```",
+  "run_idx": 23
+}

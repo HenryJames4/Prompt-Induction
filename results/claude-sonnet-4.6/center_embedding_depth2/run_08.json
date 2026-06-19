@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef baked crumbled.",
+    "The letter the student wrote vanished.",
+    "The bridge the engineer built collapsed.",
+    "The song the artist recorded played.",
+    "The report the manager reviewed circulated."
+  ],
+  "induced_prompt_raw": "Write sentences where a noun is followed by a relative clause (without a relative pronoun) and a final intransitive verb.",
+  "induced_prompt": "Write sentences where a noun is followed by a relative clause (without a relative pronoun) and a final intransitive verb.",
+  "induced_prompt_chars": 121,
+  "induced_prompt_words": 20,
+  "l1_char_total": 190,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The dog my neighbor rescued yesterday barked.\", \"The students the professor challenged daily succeeded.\", \"The bridge engineers inspected last week collapsed.\", \"The singer the crowd adored endlessly disappeared.\", \"The plan the committee discussed thoroughly failed.\"]}\n```",
+  "l2_sentences": [
+    "The dog my neighbor rescued yesterday barked.",
+    "The students the professor challenged daily succeeded.",
+    "The bridge engineers inspected last week collapsed.",
+    "The singer the crowd adored endlessly disappeared.",
+    "The plan the committee discussed thoroughly failed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:38:24.925253+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef baked crumbled.",
+    "The letter the student wrote vanished.",
+    "The bridge the engineer built collapsed.",
+    "The song the artist recorded played.",
+    "The report the manager reviewed circulated."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The cake the chef baked crumbled.\", \"The letter the student wrote vanished.\", \"The bridge the engineer built collapsed.\", \"The song the artist recorded played.\", \"The report the manager reviewed circulated.\"]}\n```",
+  "run_idx": 8
+}

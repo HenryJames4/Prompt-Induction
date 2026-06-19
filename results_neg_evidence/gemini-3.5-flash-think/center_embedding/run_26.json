@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the cat the mouse the flea bit chased scratched barked",
+    "the painting the artist the critic the patron hired praised created vanished",
+    "the program the coder the manager the director blamed supervised wrote crashed",
+    "the car the mechanic the apprentice the instructor trained assisted repaired stalled",
+    "the food the chef the critic disliked prepared spoiled"
+  ],
+  "induced_prompt_raw": "Generate a quadruple center-embedded sentence with exactly four nouns and four verbs following the pattern: \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\". Do not use a triple center-embedded structure (which only has three nouns and three verbs).",
+  "induced_prompt": "Generate a quadruple center-embedded sentence with exactly four nouns and four verbs following the pattern: \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\". Do not use a triple center-embedded structure (which only has three nouns and three verbs).",
+  "induced_prompt_chars": 242,
+  "induced_prompt_words": 42,
+  "l1_char_total": 354,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the cat the rat the mouse bit chased scratched barked.\",\n    \"The student the teacher the principal the superintendent fired suspended scolded cried.\",\n    \"The child the mother the father the doctor called helped hugged smiled.\",\n    \"The car the mechanic the manager the owner hired instructed repaired crashed.\",\n    \"The masterpiece the artist the patron the critic insulted ignored painted vanished.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the cat the rat the mouse bit chased scratched barked.",
+    "The student the teacher the principal the superintendent fired suspended scolded cried.",
+    "The child the mother the father the doctor called helped hugged smiled.",
+    "The car the mechanic the manager the owner hired instructed repaired crashed.",
+    "The masterpiece the artist the patron the critic insulted ignored painted vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:20:20.241017+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the dog the cat the mouse the flea bit chased scratched barked",
+    "the painting the artist the critic the patron hired praised created vanished",
+    "the program the coder the manager the director blamed supervised wrote crashed",
+    "the car the mechanic the apprentice the instructor trained assisted repaired stalled"
+  ],
+  "l1_sentences": [
+    "the dog the cat the mouse the flea bit chased scratched barked",
+    "the painting the artist the critic the patron hired praised created vanished",
+    "the program the coder the manager the director blamed supervised wrote crashed",
+    "the car the mechanic the apprentice the instructor trained assisted repaired stalled",
+    "the food the chef the critic disliked prepared spoiled"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the dog the cat the mouse the flea bit chased scratched barked\",\n    \"the painting the artist the critic the patron hired praised created vanished\",\n    \"the program the coder the manager the director blamed supervised wrote crashed\",\n    \"the car the mechanic the apprentice the instructor trained assisted repaired stalled\",\n    \"the food the chef the critic disliked prepared spoiled\"\n  ]\n}",
+  "run_idx": 26
+}

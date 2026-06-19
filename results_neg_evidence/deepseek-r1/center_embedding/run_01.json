@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the editor hired praised published became popular",
+    "the movie the director the producer the studio hired admired premiered won awards",
+    "the cake the baker the customer the waiter introduced recommended ordered tasted delicious",
+    "the house the architect the builder the carpenter hired consulted designed collapsed",
+    "the man the woman the child saw left cried"
+  ],
+  "induced_prompt_raw": "Generate a sentence starting with four consecutive \"the\" noun phrases, followed by three past-tense transitive verbs where each verb's subject is the immediately preceding noun and its object is the next noun to the left, and conclude with an intransitive verb for the first noun.",
+  "induced_prompt": "Generate a sentence starting with four consecutive \"the\" noun phrases, followed by three past-tense transitive verbs where each verb's subject is the immediately preceding noun and its object is the next noun to the left, and conclude with an intransitive verb for the first noun.",
+  "induced_prompt_chars": 280,
+  "induced_prompt_words": 45,
+  "l1_char_total": 380,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\n  \"The river, the bridge, the truck, the driver: the driver passed the truck, the truck crossed the bridge, the bridge spanned the river, the river flowed.\",\n  \"The child, the book, the librarian, the assistant: the assistant helped the librarian, the librarian recommended the book, the book fascinated the child, the child slept.\",\n  \"The mountain, the fog, the hiker, the guide: the guide led the hiker, the hiker navigated the fog, the fog enveloped the mountain, the mountain loomed.\",\n  \"The cake, the baker, the apprentice, the customer: the customer watched the apprentice, the apprentice assisted the baker, the baker decorated the cake, the cake cooled.\",\n  \"The forest, the storm, the cabin, the hermit: the hermit maintained the cabin, the cabin withstood the storm, the storm ravaged the forest, the forest recovered.\"\n]}",
+  "l2_sentences": [
+    "The river, the bridge, the truck, the driver: the driver passed the truck, the truck crossed the bridge, the bridge spanned the river, the river flowed.",
+    "The child, the book, the librarian, the assistant: the assistant helped the librarian, the librarian recommended the book, the book fascinated the child, the child slept.",
+    "The mountain, the fog, the hiker, the guide: the guide led the hiker, the hiker navigated the fog, the fog enveloped the mountain, the mountain loomed.",
+    "The cake, the baker, the apprentice, the customer: the customer watched the apprentice, the apprentice assisted the baker, the baker decorated the cake, the cake cooled.",
+    "The forest, the storm, the cabin, the hermit: the hermit maintained the cabin, the cabin withstood the storm, the storm ravaged the forest, the forest recovered."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:43:43.816260+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the editor hired praised published became popular",
+    "the movie the director the producer the studio hired admired premiered won awards",
+    "the cake the baker the customer the waiter introduced recommended ordered tasted delicious",
+    "the house the architect the builder the carpenter hired consulted designed collapsed"
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the editor hired praised published became popular",
+    "the movie the director the producer the studio hired admired premiered won awards",
+    "the cake the baker the customer the waiter introduced recommended ordered tasted delicious",
+    "the house the architect the builder the carpenter hired consulted designed collapsed",
+    "the man the woman the child saw left cried"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the editor hired praised published became popular\", \"the movie the director the producer the studio hired admired premiered won awards\", \"the cake the baker the customer the waiter introduced recommended ordered tasted delicious\", \"the house the architect the builder the carpenter hired consulted designed collapsed\", \"the man the woman the child saw left cried\"]}",
+  "run_idx": 1
+}

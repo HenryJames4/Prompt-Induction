@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the man fed barked.",
+    "the cake the baker made sold.",
+    "the book the author wrote published.",
+    "the car the mechanic fixed started.",
+    "the song the singer performed ended."
+  ],
+  "induced_prompt_raw": "Based on the given sentences, the common syntactic structure is a nested relative clause pattern where the main subject is modified by a reduced relative clause (omitting \"that\" or \"who\"), followed by the main verb. The prompt capturing this structure with placeholders is:\n\n**Prompt:**  \n`the [noun1] the [noun2] [verb_past] [verb_past].`  \n\n### Explanation:\n- `[noun1]`: Object of the relative clause and subject of the main clause (e.g., \"dog\", \"cake\").  \n- `[noun2]`: Subject of the relative clause (e.g., \"man\", \"baker\").  \n- `[verb_past]`: Past-tense verb in the relative clause (transitive, e.g., \"fed\", \"made\").  \n- `[verb_past]`: Past-tense verb in the main clause (intransitive, e.g., \"barked\", \"sold\").  \n\nThis prompt is **shorter** than the original list (5 words vs. 30 words total in the input) and avoids copying any original sentences.",
+  "induced_prompt": "Based on the given sentences, the common syntactic structure is a nested relative clause pattern where the main subject is modified by a reduced relative clause (omitting \"that\" or \"who\"), followed by the main verb. The prompt capturing this structure with placeholders is:\n\n**Prompt:**  \n`the [noun1] the [noun2] [verb_past] [verb_past].`  \n\n### Explanation:\n- `[noun1]`: Object of the relative clause and subject of the main clause (e.g., \"dog\", \"cake\").  \n- `[noun2]`: Subject of the relative clause (e.g., \"man\", \"baker\").  \n- `[verb_past]`: Past-tense verb in the relative clause (transitive, e.g., \"fed\", \"made\").  \n- `[verb_past]`: Past-tense verb in the main clause (intransitive, e.g., \"barked\", \"sold\").  \n\nThis prompt is **shorter** than the original list (5 words vs. 30 words total in the input) and avoids copying any original sentences.",
+  "induced_prompt_chars": 851,
+  "induced_prompt_words": 125,
+  "l1_char_total": 163,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The dog the man fed barked.\", \"The cake the baker made sold.\", \"The car the mechanic fixed started.\", \"The book the child read fell.\", \"The cat the woman petted purred.\"]}",
+  "l2_sentences": [
+    "The dog the man fed barked.",
+    "The cake the baker made sold.",
+    "The car the mechanic fixed started.",
+    "The book the child read fell.",
+    "The cat the woman petted purred."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:18:54.895290+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the man fed barked.",
+    "the cake the baker made sold.",
+    "the book the author wrote published.",
+    "the car the mechanic fixed started.",
+    "the song the singer performed ended."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the man fed barked.\", \"the cake the baker made sold.\", \"the book the author wrote published.\", \"the car the mechanic fixed started.\", \"the song the singer performed ended.\"]}",
+  "run_idx": 18
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student the professor the dean praised recommended read burned",
+    "The car the mechanic the apprentice the client hired supervised fixed stalled",
+    "The song the singer the producer the label signed hired performed succeeded",
+    "The law the lobbyist the senator the voter challenged supported drafted failed",
+    "The dog the boy the neighbor saw barked whimpered"
+  ],
+  "induced_prompt_raw": "Generate a grammatical triply center-embedded relative clause sentence using the template: \"The [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb1] [Verb2] [Verb3] [Verb4]\" (e.g., \"The book the student the professor the dean praised recommended read burned\"). Ensure every noun has its corresponding verb to avoid incomplete, dangling clauses.",
+  "induced_prompt": "Generate a grammatical triply center-embedded relative clause sentence using the template: \"The [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb1] [Verb2] [Verb3] [Verb4]\" (e.g., \"The book the student the professor the dean praised recommended read burned\"). Ensure every noun has its corresponding verb to avoid incomplete, dangling clauses.",
+  "induced_prompt_chars": 343,
+  "induced_prompt_words": 48,
+  "l1_char_total": 354,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The report the analyst the manager the director hired supervised revised leaked.\",\n    \"The software the programmer the architect the executive consulted designed deployed crashed.\",\n    \"The poem the student the teacher the principal selected praised memorized lost.\",\n    \"The song the band the producer the label signed guided recorded released.\",\n    \"The car the mechanic the driver the owner paid trusted repaired sold.\"\n  ]\n}",
+  "l2_sentences": [
+    "The report the analyst the manager the director hired supervised revised leaked.",
+    "The software the programmer the architect the executive consulted designed deployed crashed.",
+    "The poem the student the teacher the principal selected praised memorized lost.",
+    "The song the band the producer the label signed guided recorded released.",
+    "The car the mechanic the driver the owner paid trusted repaired sold."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:43:41.185712+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student the professor the dean praised recommended read burned",
+    "The car the mechanic the apprentice the client hired supervised fixed stalled",
+    "The song the singer the producer the label signed hired performed succeeded",
+    "The law the lobbyist the senator the voter challenged supported drafted failed"
+  ],
+  "l1_sentences": [
+    "The book the student the professor the dean praised recommended read burned",
+    "The car the mechanic the apprentice the client hired supervised fixed stalled",
+    "The song the singer the producer the label signed hired performed succeeded",
+    "The law the lobbyist the senator the voter challenged supported drafted failed",
+    "The dog the boy the neighbor saw barked whimpered"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the professor the dean praised recommended read burned\",\n    \"The car the mechanic the apprentice the client hired supervised fixed stalled\",\n    \"The song the singer the producer the label signed hired performed succeeded\",\n    \"The law the lobbyist the senator the voter challenged supported drafted failed\",\n    \"The dog the boy the neighbor saw barked whimpered\"\n  ]\n}",
+  "run_idx": 2
+}

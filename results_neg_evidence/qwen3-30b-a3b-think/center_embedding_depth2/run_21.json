@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the committee approved failed",
+    "the movie the director made won",
+    "the book the author wrote the editor read sold"
+  ],
+  "induced_prompt_raw": "Noun, bare relative clause, main verb",
+  "induced_prompt": "Noun, bare relative clause, main verb",
+  "induced_prompt_chars": 37,
+  "induced_prompt_words": 6,
+  "l1_char_total": 186,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dress I wore arrived late.\", \"The song they performed sold out.\", \"The car he fixed started.\", \"The gift my sister chose arrived.\", \"The project we completed succeeded.\"]}",
+  "l2_sentences": [
+    "The dress I wore arrived late.",
+    "The song they performed sold out.",
+    "The car he fixed started.",
+    "The gift my sister chose arrived.",
+    "The project we completed succeeded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:52:56.720964+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the committee approved failed",
+    "the movie the director made won"
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the committee approved failed",
+    "the movie the director made won",
+    "the book the author wrote the editor read sold"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold\", \"the idea the scientist presented vanished\", \"the plan the committee approved failed\", \"the movie the director made won\", \"the book the author wrote the editor read sold\"]}",
+  "run_idx": 21
+}

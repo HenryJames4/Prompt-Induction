@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the editor hired printed sold vanished.",
+    "The song the artist the producer the engineer recorded mixed released faded.",
+    "The cake the baker the chef the assistant prepared decorated served melted.",
+    "The car the driver the mechanic the technician repaired inspected drove broke.",
+    "The film the director the actor the producer praised filmed edited."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with nested relative clauses where each noun is modified by the subsequent verb in a chain, ensuring all verbs are transitive and correctly ordered (e.g., 'The N1 the N2 the N3 V3 V2 V1'). Avoid leaving any verb without its required object or misordering the verb sequence.\"",
+  "induced_prompt": "\"Generate a sentence with nested relative clauses where each noun is modified by the subsequent verb in a chain, ensuring all verbs are transitive and correctly ordered (e.g., 'The N1 the N2 the N3 V3 V2 V1'). Avoid leaving any verb without its required object or misordering the verb sequence.\"",
+  "induced_prompt_chars": 295,
+  "induced_prompt_words": 50,
+  "l1_char_total": 369,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book the author the publisher approved printed read.\", \"The cake the baker the oven heated baked decorated.\", \"The letter the writer the editor revised sent published.\", \"The car the mechanic the factory assembled repaired drove.\", \"The painting the artist the gallery displayed sold admired.\"]}",
+  "l2_sentences": [
+    "The book the author the publisher approved printed read.",
+    "The cake the baker the oven heated baked decorated.",
+    "The letter the writer the editor revised sent published.",
+    "The car the mechanic the factory assembled repaired drove.",
+    "The painting the artist the gallery displayed sold admired."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:07:54.373248+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the editor hired printed sold vanished.",
+    "The song the artist the producer the engineer recorded mixed released faded.",
+    "The cake the baker the chef the assistant prepared decorated served melted.",
+    "The car the driver the mechanic the technician repaired inspected drove broke."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the editor hired printed sold vanished.",
+    "The song the artist the producer the engineer recorded mixed released faded.",
+    "The cake the baker the chef the assistant prepared decorated served melted.",
+    "The car the driver the mechanic the technician repaired inspected drove broke.",
+    "The film the director the actor the producer praised filmed edited."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the editor hired printed sold vanished.\", \"The song the artist the producer the engineer recorded mixed released faded.\", \"The cake the baker the chef the assistant prepared decorated served melted.\", \"The car the driver the mechanic the technician repaired inspected drove broke.\", \"The film the director the actor the producer praised filmed edited.\"]}",
+  "run_idx": 18
+}

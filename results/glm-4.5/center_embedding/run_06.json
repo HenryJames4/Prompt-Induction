@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the boy the woman chased fed petted loved.",
+    "the book the teacher the student the principal read assigned graded praised.",
+    "the car the mechanic the owner the driver repaired sold washed admired.",
+    "the house the agent the buyer the owner inspected listed purchased decorated.",
+    "the meal the chef the critic the guest prepared tasted enjoyed ordered."
+  ],
+  "induced_prompt_raw": "Agent-action-object with multiple embedded subjects.",
+  "induced_prompt": "Agent-action-object with multiple embedded subjects.",
+  "induced_prompt_chars": 52,
+  "induced_prompt_words": 5,
+  "l1_char_total": 353,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The teacher instructed the students, who were eagerly listening, to complete their assignments before the deadline.\",\n    \"The police officer directed the pedestrians, some of whom were tourists, to clear the intersection immediately.\",\n    \"The manager asked the employees, including those from the remote team, to submit their reports by Friday.\",\n    \"The doctor advised the patients, particularly those with chronic conditions, to monitor their symptoms closely.\",\n    \"The captain warned the passengers, many of whom were first-time flyers, to remain seated during the turbulence.\"\n  ]\n}",
+  "l2_sentences": [
+    "The teacher instructed the students, who were eagerly listening, to complete their assignments before the deadline.",
+    "The police officer directed the pedestrians, some of whom were tourists, to clear the intersection immediately.",
+    "The manager asked the employees, including those from the remote team, to submit their reports by Friday.",
+    "The doctor advised the patients, particularly those with chronic conditions, to monitor their symptoms closely.",
+    "The captain warned the passengers, many of whom were first-time flyers, to remain seated during the turbulence."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:11:02.022097+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the boy the woman chased fed petted loved.",
+    "the book the teacher the student the principal read assigned graded praised.",
+    "the car the mechanic the owner the driver repaired sold washed admired.",
+    "the house the agent the buyer the owner inspected listed purchased decorated.",
+    "the meal the chef the critic the guest prepared tasted enjoyed ordered."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the boy the woman chased fed petted loved.\",\n    \"the book the teacher the student the principal read assigned graded praised.\",\n    \"the car the mechanic the owner the driver repaired sold washed admired.\",\n    \"the house the agent the buyer the owner inspected listed purchased decorated.\",\n    \"the meal the chef the critic the guest prepared tasted enjoyed ordered.\"\n  ]\n}",
+  "run_idx": 6
+}

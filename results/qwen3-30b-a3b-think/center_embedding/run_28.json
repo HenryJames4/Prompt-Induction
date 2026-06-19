@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the reviewer read revised approved published.",
+    "the letter the secretary the manager the client wrote signed approved delivered.",
+    "the document the clerk the supervisor the employee reviewed corrected approved submitted.",
+    "the email the intern the assistant the editor read revised approved sent.",
+    "the plan the director the team the member proposed discussed approved finalized."
+  ],
+  "induced_prompt_raw": "the [object] the [role] the [role] the [role] [verb] [verb] [verb] [verb].",
+  "induced_prompt": "the [object] the [role] the [role] the [role] [verb] [verb] [verb] [verb].",
+  "induced_prompt_chars": 74,
+  "induced_prompt_words": 12,
+  "l1_char_total": 401,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the doctor the teacher the engineer runs jumps sings dances.\", \"the book the chef the artist the writer flips turns reads writes.\", \"the car the pilot the nurse the plumber drives fixes starts stops.\", \"the tree the gardener the scientist the photographer grows shades blooms sways.\", \"the dog the actor the singer the dancer barks howls twirls leaps.\"]}",
+  "l2_sentences": [
+    "the cat the doctor the teacher the engineer runs jumps sings dances.",
+    "the book the chef the artist the writer flips turns reads writes.",
+    "the car the pilot the nurse the plumber drives fixes starts stops.",
+    "the tree the gardener the scientist the photographer grows shades blooms sways.",
+    "the dog the actor the singer the dancer barks howls twirls leaps."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:50:31.667244+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the reviewer read revised approved published.",
+    "the letter the secretary the manager the client wrote signed approved delivered.",
+    "the document the clerk the supervisor the employee reviewed corrected approved submitted.",
+    "the email the intern the assistant the editor read revised approved sent.",
+    "the plan the director the team the member proposed discussed approved finalized."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the reviewer read revised approved published.\", \"the letter the secretary the manager the client wrote signed approved delivered.\", \"the document the clerk the supervisor the employee reviewed corrected approved submitted.\", \"the email the intern the assistant the editor read revised approved sent.\", \"the plan the director the team the member proposed discussed approved finalized.\"]}",
+  "run_idx": 28
+}

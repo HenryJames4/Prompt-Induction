@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed failed.",
+    "The cake the chef baked vanished.",
+    "The bridge the engineer designed collapsed.",
+    "The song the artist recorded charted.",
+    "The letter the clerk filed disappeared."
+  ],
+  "induced_prompt_raw": "Write sentences where a noun is modified by a relative clause containing a transitive verb, followed by a simple intransitive predicate.",
+  "induced_prompt": "Write sentences where a noun is modified by a relative clause containing a transitive verb, followed by a simple intransitive predicate.",
+  "induced_prompt_chars": 136,
+  "induced_prompt_words": 21,
+  "l1_char_total": 191,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that she borrowed disappeared.\", \"The dog that the boy found barked.\", \"The letter that he wrote arrived.\", \"The cake that they baked vanished.\", \"The car that she bought broke down.\"]}\n```",
+  "l2_sentences": [
+    "The book that she borrowed disappeared.",
+    "The dog that the boy found barked.",
+    "The letter that he wrote arrived.",
+    "The cake that they baked vanished.",
+    "The car that she bought broke down."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:35:40.481151+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed failed.",
+    "The cake the chef baked vanished.",
+    "The bridge the engineer designed collapsed.",
+    "The song the artist recorded charted.",
+    "The letter the clerk filed disappeared."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed failed.\", \"The cake the chef baked vanished.\", \"The bridge the engineer designed collapsed.\", \"The song the artist recorded charted.\", \"The letter the clerk filed disappeared.\"]}\n```",
+  "run_idx": 2
+}

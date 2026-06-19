@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the project the leader the member the supervisor initiated monitored completed submitted",
+    "the car the driver the mechanic repaired washed parked"
+  ],
+  "induced_prompt_raw": "Generate a sentence with four nouns and four verbs, where each noun acts as the subject of the subsequent verb, forming a chain of actions.",
+  "induced_prompt": "Generate a sentence with four nouns and four verbs, where each noun acts as the subject of the subsequent verb, forming a chain of actions.",
+  "induced_prompt_chars": 139,
+  "induced_prompt_words": 25,
+  "l1_char_total": 386,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The teacher writes a book that inspires students who create art.\",\n    \"The dog chases the cat that climbs the tree that drops leaves.\",\n    \"The chef cooks the meal that feeds the guests who praise the service.\",\n    \"The rain waters the plants that grow flowers that attract bees.\",\n    \"The child reads the story that sparks imagination that builds worlds.\"\n  ]\n}",
+  "l2_sentences": [
+    "The teacher writes a book that inspires students who create art.",
+    "The dog chases the cat that climbs the tree that drops leaves.",
+    "The chef cooks the meal that feeds the guests who praise the service.",
+    "The rain waters the plants that grow flowers that attract bees.",
+    "The child reads the story that sparks imagination that builds worlds."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:16:08.895183+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the project the leader the member the supervisor initiated monitored completed submitted"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the project the leader the member the supervisor initiated monitored completed submitted",
+    "the car the driver the mechanic repaired washed parked"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read reviewed recommended returned\",\n    \"the plan the manager the team the client developed presented accepted implemented\",\n    \"the project the leader the member the supervisor initiated monitored completed submitted\",\n    \"the car the driver the mechanic repaired washed parked\"\n  ]\n}",
+  "run_idx": 23
+}

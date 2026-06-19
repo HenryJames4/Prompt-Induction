@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student read vanished",
+    "the car the mechanic repaired broke",
+    "the cake the baker decorated dropped",
+    "the song the artist sang ended",
+    "the mouse the cat the dog chased bit died"
+  ],
+  "induced_prompt_raw": "Generate sentences with exactly one nested relative clause (structure: \"The [noun] the [noun] [verb] [verb]\"). Avoid double center-embedding (multiple nested relative clauses).",
+  "induced_prompt": "Generate sentences with exactly one nested relative clause (structure: \"The [noun] the [noun] [verb] [verb]\"). Avoid double center-embedding (multiple nested relative clauses).",
+  "induced_prompt_chars": 176,
+  "induced_prompt_words": 22,
+  "l1_char_total": 176,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the cat chased ran.\",\n    \"The boy the girl liked smiled.\",\n    \"The car the man bought broke.\",\n    \"The cake the baker baked fell.\",\n    \"The letter the writer mailed arrived.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the cat chased ran.",
+    "The boy the girl liked smiled.",
+    "The car the man bought broke.",
+    "The cake the baker baked fell.",
+    "The letter the writer mailed arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:50:48.214468+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student read vanished",
+    "the car the mechanic repaired broke",
+    "the cake the baker decorated dropped",
+    "the song the artist sang ended"
+  ],
+  "l1_sentences": [
+    "the book the student read vanished",
+    "the car the mechanic repaired broke",
+    "the cake the baker decorated dropped",
+    "the song the artist sang ended",
+    "the mouse the cat the dog chased bit died"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the student read vanished\",\n    \"the car the mechanic repaired broke\",\n    \"the cake the baker decorated dropped\",\n    \"the song the artist sang ended\",\n    \"the mouse the cat the dog chased bit died\"\n  ]\n}",
+  "run_idx": 19
+}

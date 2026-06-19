@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The book the student the teacher the parent phoned helped read vanished.",
+    "The song the singer the coach the doctor cured trained performed ended.",
+    "The meal the guest the chef the owner hired served ate cooled.",
+    "The painting the artist the agent the lawyer sued represented created faded.",
+    "The house the buyer the broker the banker trusted advised bought collapsed."
+  ],
+  "induced_prompt_raw": "Generate a sentence with a triple center-embedded relative clause following the pattern: Noun 1 + Noun 2 + Noun 3 + Noun 4 + Verb 4 + Verb 3 + Verb 2 + Verb 1.",
+  "induced_prompt": "Generate a sentence with a triple center-embedded relative clause following the pattern: Noun 1 + Noun 2 + Noun 3 + Noun 4 + Verb 4 + Verb 3 + Verb 2 + Verb 1.",
+  "induced_prompt_chars": 159,
+  "induced_prompt_words": 35,
+  "l1_char_total": 356,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The report the intern the manager the executive fired blamed wrote vanished.\",\n    \"The cheese the mouse the cat the dog chased caught ate smelled.\",\n    \"The car the mechanic the owner the thief threatened hired fixed broke.\",\n    \"The book the student the teacher the principal praised helped read fell.\",\n    \"The house the builder the client the banker avoided sued designed collapsed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The report the intern the manager the executive fired blamed wrote vanished.",
+    "The cheese the mouse the cat the dog chased caught ate smelled.",
+    "The car the mechanic the owner the thief threatened hired fixed broke.",
+    "The book the student the teacher the principal praised helped read fell.",
+    "The house the builder the client the banker avoided sued designed collapsed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:29:40.415914+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The book the student the teacher the parent phoned helped read vanished.",
+    "The song the singer the coach the doctor cured trained performed ended.",
+    "The meal the guest the chef the owner hired served ate cooled.",
+    "The painting the artist the agent the lawyer sued represented created faded.",
+    "The house the buyer the broker the banker trusted advised bought collapsed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the parent phoned helped read vanished.\",\n    \"The song the singer the coach the doctor cured trained performed ended.\",\n    \"The meal the guest the chef the owner hired served ate cooled.\",\n    \"The painting the artist the agent the lawyer sued represented created faded.\",\n    \"The house the buyer the broker the banker trusted advised bought collapsed.\"\n  ]\n}",
+  "run_idx": 23
+}

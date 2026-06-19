@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the idea the scientist tested worked.",
+    "the plan the manager revised succeeded.",
+    "the story the author wrote ended.",
+    "the product the engineer designed sold.",
+    "the solution the chemist found resolved."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb]ed [result]",
+  "induced_prompt": "the [noun] the [role] [verb]ed [result]",
+  "induced_prompt_chars": 39,
+  "induced_prompt_words": 6,
+  "l1_char_total": 188,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the engineer fixed the bridge\", \"the car the teacher repaired the engine\", \"the book the scientist explained the concept\", \"the house the architect designed the layout\", \"the code the developer debugged the error\"]}",
+  "l2_sentences": [
+    "the cat the engineer fixed the bridge",
+    "the car the teacher repaired the engine",
+    "the book the scientist explained the concept",
+    "the house the architect designed the layout",
+    "the code the developer debugged the error"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:59:34.072091+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the idea the scientist tested worked.",
+    "the plan the manager revised succeeded.",
+    "the story the author wrote ended.",
+    "the product the engineer designed sold.",
+    "the solution the chemist found resolved."
+  ],
+  "l1_raw": "{\"sentences\": [\"the idea the scientist tested worked.\", \"the plan the manager revised succeeded.\", \"the story the author wrote ended.\", \"the product the engineer designed sold.\", \"the solution the chemist found resolved.\"]}",
+  "run_idx": 2
+}

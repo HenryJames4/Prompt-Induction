@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat chased ran.",
+    "the student the teacher praised excelled.",
+    "the cake the baker baked rose.",
+    "the book the author wrote sold.",
+    "the song the composer played resonated."
+  ],
+  "induced_prompt_raw": "Generate a sentence with the structure: the [noun1] the [noun2] [transitive_verb_past] [intransitive_verb_past]",
+  "induced_prompt": "Generate a sentence with the structure: the [noun1] the [noun2] [transitive_verb_past] [intransitive_verb_past]",
+  "induced_prompt_chars": 111,
+  "induced_prompt_words": 12,
+  "l1_char_total": 168,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The ball the child kicked bounced.\", \"The door the wind slammed creaked.\", \"The cake the baker baked cooled.\", \"The letter the secretary typed disappeared.\", \"The bird the cat chased flew.\"]}",
+  "l2_sentences": [
+    "The ball the child kicked bounced.",
+    "The door the wind slammed creaked.",
+    "The cake the baker baked cooled.",
+    "The letter the secretary typed disappeared.",
+    "The bird the cat chased flew."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:59:25.173315+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat chased ran.",
+    "the student the teacher praised excelled.",
+    "the cake the baker baked rose.",
+    "the book the author wrote sold.",
+    "the song the composer played resonated."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the cat chased ran.\", \"the student the teacher praised excelled.\", \"the cake the baker baked rose.\", \"the book the author wrote sold.\", \"the song the composer played resonated.\"]}",
+  "run_idx": 2
+}

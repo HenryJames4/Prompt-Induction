@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor read sold.",
+    "the poem the critic praised won.",
+    "the essay the teacher graded passed.",
+    "the article the journalist wrote appeared.",
+    "the story the judge heard ended."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [past tense verb].",
+  "induced_prompt": "the [noun] the [role] [verb] [past tense verb].",
+  "induced_prompt_chars": 47,
+  "induced_prompt_words": 8,
+  "l1_char_total": 172,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the teacher walked the past tense verb.\", \"The book the student read the past tense verb.\", \"The car the driver fixed the past tense verb.\", \"The song the singer performed the past tense verb.\", \"The project the team completed the past tense verb.\"]}",
+  "l2_sentences": [
+    "The cat the teacher walked the past tense verb.",
+    "The book the student read the past tense verb.",
+    "The car the driver fixed the past tense verb.",
+    "The song the singer performed the past tense verb.",
+    "The project the team completed the past tense verb."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:02:40.215323+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor read sold.",
+    "the poem the critic praised won.",
+    "the essay the teacher graded passed.",
+    "the article the journalist wrote appeared.",
+    "the story the judge heard ended."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor read sold.\", \"the poem the critic praised won.\", \"the essay the teacher graded passed.\", \"the article the journalist wrote appeared.\", \"the story the judge heard ended.\"]}",
+  "run_idx": 4
+}

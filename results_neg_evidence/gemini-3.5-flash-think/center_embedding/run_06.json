@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the patient the nurse the doctor the clinic hired supervised treated recovered",
+    "the car the mechanic the owner the manager blamed hired repaired stalled",
+    "the law the politician the lobbyist the public distrusted influenced proposed passed",
+    "the painting the artist the patron the critic annoyed funded painted vanished",
+    "the food the dog the cat bit ate spoiled"
+  ],
+  "induced_prompt_raw": "Generate a triple center-embedded sentence consisting of exactly four noun phrases followed by four verbs (NP1 NP2 NP3 NP4 V4 V3 V2 V1). Do not generate double center-embedded sentences containing only three nouns and three verbs.",
+  "induced_prompt": "Generate a triple center-embedded sentence consisting of exactly four noun phrases followed by four verbs (NP1 NP2 NP3 NP4 V4 V3 V2 V1). Do not generate double center-embedded sentences containing only three nouns and three verbs.",
+  "induced_prompt_chars": 230,
+  "induced_prompt_words": 36,
+  "l1_char_total": 351,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The report the intern the manager the director hired supervised wrote leaked.\",\n    \"The car the mechanic the apprentice the owner scolded assisted repaired crashed.\",\n    \"The book the student the teacher the principal praised helped read burned.\",\n    \"The program the coder the tester the client annoyed blamed wrote failed.\",\n    \"The patient the nurse the doctor the hospital employed advised treated died.\"\n  ]\n}",
+  "l2_sentences": [
+    "The report the intern the manager the director hired supervised wrote leaked.",
+    "The car the mechanic the apprentice the owner scolded assisted repaired crashed.",
+    "The book the student the teacher the principal praised helped read burned.",
+    "The program the coder the tester the client annoyed blamed wrote failed.",
+    "The patient the nurse the doctor the hospital employed advised treated died."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:48:54.123956+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the patient the nurse the doctor the clinic hired supervised treated recovered",
+    "the car the mechanic the owner the manager blamed hired repaired stalled",
+    "the law the politician the lobbyist the public distrusted influenced proposed passed",
+    "the painting the artist the patron the critic annoyed funded painted vanished"
+  ],
+  "l1_sentences": [
+    "the patient the nurse the doctor the clinic hired supervised treated recovered",
+    "the car the mechanic the owner the manager blamed hired repaired stalled",
+    "the law the politician the lobbyist the public distrusted influenced proposed passed",
+    "the painting the artist the patron the critic annoyed funded painted vanished",
+    "the food the dog the cat bit ate spoiled"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the patient the nurse the doctor the clinic hired supervised treated recovered\",\n    \"the car the mechanic the owner the manager blamed hired repaired stalled\",\n    \"the law the politician the lobbyist the public distrusted influenced proposed passed\",\n    \"the painting the artist the patron the critic annoyed funded painted vanished\",\n    \"the food the dog the cat bit ate spoiled\"\n  ]\n}\n```",
+  "run_idx": 6
+}

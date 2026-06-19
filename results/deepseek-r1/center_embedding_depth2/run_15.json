@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat chased barked.",
+    "the book the student read fell.",
+    "the cake the baker decorated rose.",
+    "the car the mechanic repaired started.",
+    "the song the singer performed ended."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with the structure: the [Noun1] the [Noun2] [PastVerb2] [PastVerb1].\"",
+  "induced_prompt": "\"Generate a sentence with the structure: the [Noun1] the [Noun2] [PastVerb2] [PastVerb1].\"",
+  "induced_prompt_chars": 90,
+  "induced_prompt_words": 12,
+  "l1_char_total": 169,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The storm the ship tossed sank.\", \"The chef the cake baked decorated.\", \"The teacher the students taught inspired.\", \"The dog the ball fetched returned.\", \"The sun the ice melted dripped.\"]}",
+  "l2_sentences": [
+    "The storm the ship tossed sank.",
+    "The chef the cake baked decorated.",
+    "The teacher the students taught inspired.",
+    "The dog the ball fetched returned.",
+    "The sun the ice melted dripped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:15:57.871757+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat chased barked.",
+    "the book the student read fell.",
+    "the cake the baker decorated rose.",
+    "the car the mechanic repaired started.",
+    "the song the singer performed ended."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the cat chased barked.\", \"the book the student read fell.\", \"the cake the baker decorated rose.\", \"the car the mechanic repaired started.\", \"the song the singer performed ended.\"]}",
+  "run_idx": 15
+}

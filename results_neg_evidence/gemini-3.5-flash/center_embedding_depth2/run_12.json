@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the manager draft-approved failed",
+    "the student the teacher praised graduated",
+    "the dog the boy chased barked",
+    "the car the mechanic repaired crashed",
+    "the patient the doctor the nurse assisted cured died"
+  ],
+  "induced_prompt_raw": "Generate sentences with exactly one level of center-embedding (a subject noun phrase modified by a single object relative clause containing a subject and a transitive verb, followed by the main verb). Avoid nesting multiple relative clauses.",
+  "induced_prompt": "Generate sentences with exactly one level of center-embedding (a subject noun phrase modified by a single object relative clause containing a subject and a transitive verb, followed by the main verb). Avoid nesting multiple relative clauses.",
+  "induced_prompt_chars": 241,
+  "induced_prompt_words": 36,
+  "l1_char_total": 203,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef that the critic praised prepared a flawless soufflé.\",\n    \"The student whom the teacher helped passed the difficult exam.\",\n    \"The dog that the boy chased barked at the mailman.\",\n    \"The song that the band played topped the music charts.\",\n    \"The car that the mechanic repaired runs much smoother now.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef that the critic praised prepared a flawless soufflé.",
+    "The student whom the teacher helped passed the difficult exam.",
+    "The dog that the boy chased barked at the mailman.",
+    "The song that the band played topped the music charts.",
+    "The car that the mechanic repaired runs much smoother now."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:45:22.879902+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the manager draft-approved failed",
+    "the student the teacher praised graduated",
+    "the dog the boy chased barked",
+    "the car the mechanic repaired crashed"
+  ],
+  "l1_sentences": [
+    "the report the manager draft-approved failed",
+    "the student the teacher praised graduated",
+    "the dog the boy chased barked",
+    "the car the mechanic repaired crashed",
+    "the patient the doctor the nurse assisted cured died"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the manager draft-approved failed\",\n    \"the student the teacher praised graduated\",\n    \"the dog the boy chased barked\",\n    \"the car the mechanic repaired crashed\",\n    \"the patient the doctor the nurse assisted cured died\"\n  ]\n}",
+  "run_idx": 12
+}

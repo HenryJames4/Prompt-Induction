@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the professor the student the librarian found borrowed reviewed disappeared",
+    "The car the mechanic the owner the dealer contacted hired fixed crashed",
+    "The letter the lawyer the secretary the client trusted hired drafted arrived",
+    "The cake the chef the baker the customer praised hired made disappeared",
+    "The paper the professor the student praised wrote disappeared"
+  ],
+  "induced_prompt_raw": "**Prompt:**\n\nWrite sentences with triply center-embedded relative clauses, using exactly 4 noun phrases followed by 4 verbs in sequence (structure: NP NP NP NP V V V V). Each noun phrase is the subject of a successively deeper embedded clause, with the verbs appearing in reverse order of embedding. Do not use doubly center-embedded structures with only 3 noun phrases and 3 verbs.",
+  "induced_prompt": "**Prompt:**\n\nWrite sentences with triply center-embedded relative clauses, using exactly 4 noun phrases followed by 4 verbs in sequence (structure: NP NP NP NP V V V V). Each noun phrase is the subject of a successively deeper embedded clause, with the verbs appearing in reverse order of embedding. Do not use doubly center-embedded structures with only 3 noun phrases and 3 verbs.",
+  "induced_prompt_chars": 382,
+  "induced_prompt_words": 63,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog the man the woman the child loved admired owned barked.\",\n    \"The cat the dog the rat the man kept chased bit fled.\",\n    \"The book the author the editor the publisher funded hired wrote sold.\",\n    \"The bridge the architect the engineer the mayor commissioned hired designed collapsed.\",\n    \"The symphony the composer the patron the conductor admired sponsored wrote premiered.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog the man the woman the child loved admired owned barked.",
+    "The cat the dog the rat the man kept chased bit fled.",
+    "The book the author the editor the publisher funded hired wrote sold.",
+    "The bridge the architect the engineer the mayor commissioned hired designed collapsed.",
+    "The symphony the composer the patron the conductor admired sponsored wrote premiered."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:49:07.795767+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the professor the student the librarian found borrowed reviewed disappeared",
+    "The car the mechanic the owner the dealer contacted hired fixed crashed",
+    "The letter the lawyer the secretary the client trusted hired drafted arrived",
+    "The cake the chef the baker the customer praised hired made disappeared"
+  ],
+  "l1_sentences": [
+    "The book the professor the student the librarian found borrowed reviewed disappeared",
+    "The car the mechanic the owner the dealer contacted hired fixed crashed",
+    "The letter the lawyer the secretary the client trusted hired drafted arrived",
+    "The cake the chef the baker the customer praised hired made disappeared",
+    "The paper the professor the student praised wrote disappeared"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The book the professor the student the librarian found borrowed reviewed disappeared\",\n    \"The car the mechanic the owner the dealer contacted hired fixed crashed\",\n    \"The letter the lawyer the secretary the client trusted hired drafted arrived\",\n    \"The cake the chef the baker the customer praised hired made disappeared\",\n    \"The paper the professor the student praised wrote disappeared\"\n  ]\n}\n```",
+  "run_idx": 6
+}

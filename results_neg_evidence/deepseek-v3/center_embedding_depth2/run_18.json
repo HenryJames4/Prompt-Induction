@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cake the baker decorated sold.",
+    "The movie the director filmed premiered.",
+    "The book the author wrote published.",
+    "The house the contractor built sold.",
+    "The painting the artist created the gallery displayed impressed."
+  ],
+  "induced_prompt_raw": "\"Generate sentences where a noun phrase is modified by a relative clause, followed by a main verb, without embedding additional clauses. Avoid nested relative clauses.\"",
+  "induced_prompt": "\"Generate sentences where a noun phrase is modified by a relative clause, followed by a main verb, without embedding additional clauses. Avoid nested relative clauses.\"",
+  "induced_prompt_chars": 168,
+  "induced_prompt_words": 25,
+  "l1_char_total": 210,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed last week is overdue.\", \"The man who lives next door waves every morning.\", \"The cake that she baked smells delicious.\", \"The dog that barks loudly frightens the children.\", \"The car that he drives is electric.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed last week is overdue.",
+    "The man who lives next door waves every morning.",
+    "The cake that she baked smells delicious.",
+    "The dog that barks loudly frightens the children.",
+    "The car that he drives is electric."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:50:02.619144+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cake the baker decorated sold.",
+    "The movie the director filmed premiered.",
+    "The book the author wrote published.",
+    "The house the contractor built sold."
+  ],
+  "l1_sentences": [
+    "The cake the baker decorated sold.",
+    "The movie the director filmed premiered.",
+    "The book the author wrote published.",
+    "The house the contractor built sold.",
+    "The painting the artist created the gallery displayed impressed."
+  ],
+  "l1_raw": "{\"sentences\": [\"The cake the baker decorated sold.\", \"The movie the director filmed premiered.\", \"The book the author wrote published.\", \"The house the contractor built sold.\", \"The painting the artist created the gallery displayed impressed.\"]}",
+  "run_idx": 18
+}

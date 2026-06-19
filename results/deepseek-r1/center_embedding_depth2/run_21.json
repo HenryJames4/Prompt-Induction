@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the boy fed barked.",
+    "the cake the baker made rose.",
+    "the book the student read fell.",
+    "the song the artist sang ended.",
+    "the car the driver fixed started."
+  ],
+  "induced_prompt_raw": "Create sentences where a subject-relative clause modifies a noun before the main verb.",
+  "induced_prompt": "Create sentences where a subject-relative clause modifies a noun before the main verb.",
+  "induced_prompt_chars": 86,
+  "induced_prompt_words": 13,
+  "l1_char_total": 151,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The chef who prepared the meal received applause.\", \"The musician that wrote the song performed it live.\", \"The book that captivated readers became a bestseller.\", \"The scientist who discovered the element won a prize.\", \"The gardener who planted the roses tends them daily.\"]}",
+  "l2_sentences": [
+    "The chef who prepared the meal received applause.",
+    "The musician that wrote the song performed it live.",
+    "The book that captivated readers became a bestseller.",
+    "The scientist who discovered the element won a prize.",
+    "The gardener who planted the roses tends them daily."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:22:25.060557+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the boy fed barked.",
+    "the cake the baker made rose.",
+    "the book the student read fell.",
+    "the song the artist sang ended.",
+    "the car the driver fixed started."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy fed barked.\", \"the cake the baker made rose.\", \"the book the student read fell.\", \"the song the artist sang ended.\", \"the car the driver fixed started.\"]}",
+  "run_idx": 21
+}

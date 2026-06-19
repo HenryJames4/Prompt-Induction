@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the owner trained obeyed.",
+    "The film the director edited premiered.",
+    "The code the programmer debugged worked.",
+    "The meal the chef prepared delighted.",
+    "The book the author the editor praised finished wrote."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence: The [noun1] the [noun2] [verb1] [verb2], meaning [noun2] performs [verb1] on [noun1] and [noun1] performs [verb2]. Use exactly two nouns and two verbs; avoid nested clauses or extra elements.\"",
+  "induced_prompt": "\"Generate a sentence: The [noun1] the [noun2] [verb1] [verb2], meaning [noun2] performs [verb1] on [noun1] and [noun1] performs [verb2]. Use exactly two nouns and two verbs; avoid nested clauses or extra elements.\"",
+  "induced_prompt_chars": 214,
+  "induced_prompt_words": 32,
+  "l1_char_total": 203,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The ball the child throws bounces.\", \"The door the wind opens slams.\", \"The cake the baker decorates cools.\", \"The letter the secretary types sends.\", \"The fish the cat chases swims.\"]}",
+  "l2_sentences": [
+    "The ball the child throws bounces.",
+    "The door the wind opens slams.",
+    "The cake the baker decorates cools.",
+    "The letter the secretary types sends.",
+    "The fish the cat chases swims."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T14:01:22.035330+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the owner trained obeyed.",
+    "The film the director edited premiered.",
+    "The code the programmer debugged worked.",
+    "The meal the chef prepared delighted."
+  ],
+  "l1_sentences": [
+    "The dog the owner trained obeyed.",
+    "The film the director edited premiered.",
+    "The code the programmer debugged worked.",
+    "The meal the chef prepared delighted.",
+    "The book the author the editor praised finished wrote."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the owner trained obeyed.\", \"The film the director edited premiered.\", \"The code the programmer debugged worked.\", \"The meal the chef prepared delighted.\", \"The book the author the editor praised finished wrote.\"]}",
+  "run_idx": 30
+}

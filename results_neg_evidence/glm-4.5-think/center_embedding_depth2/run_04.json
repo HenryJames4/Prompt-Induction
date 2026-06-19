@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased ran.",
+    "The book the student read was interesting.",
+    "The man the woman called arrived.",
+    "The house the architect designed won an award.",
+    "The car the mechanic fixed the owner drove crashed."
+  ],
+  "induced_prompt_raw": "Generate a sentence: The [noun] the [noun] [verb] [verb].",
+  "induced_prompt": "Generate a sentence: The [noun] the [noun] [verb] [verb].",
+  "induced_prompt_chars": 57,
+  "induced_prompt_words": 9,
+  "l1_char_total": 199,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the mouse chases runs.\",\n    \"The sun the moon rises sets.\",\n    \"The wind the rain howls pours.\",\n    \"The king the queen rules reigns.\",\n    \"The fire the ice melts burns.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the mouse chases runs.",
+    "The sun the moon rises sets.",
+    "The wind the rain howls pours.",
+    "The king the queen rules reigns.",
+    "The fire the ice melts burns."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:36:52.010233+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased ran.",
+    "The book the student read was interesting.",
+    "The man the woman called arrived.",
+    "The house the architect designed won an award."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased ran.",
+    "The book the student read was interesting.",
+    "The man the woman called arrived.",
+    "The house the architect designed won an award.",
+    "The car the mechanic fixed the owner drove crashed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased ran.\",\n    \"The book the student read was interesting.\",\n    \"The man the woman called arrived.\",\n    \"The house the architect designed won an award.\",\n    \"The car the mechanic fixed the owner drove crashed.\"\n  ]\n}\n```",
+  "run_idx": 4
+}

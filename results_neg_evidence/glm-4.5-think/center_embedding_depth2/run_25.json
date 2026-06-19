@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read vanished.",
+    "The man the woman loved married.",
+    "The house the builder designed collapsed.",
+    "The cat the dog the mouse saw chased escaped."
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly one center-embedded relative clause and exactly two verbs.",
+  "induced_prompt": "Generate a sentence with exactly one center-embedded relative clause and exactly two verbs.",
+  "induced_prompt_chars": 91,
+  "induced_prompt_words": 13,
+  "l1_char_total": 184,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that chased the mouse slept.\",\n    \"The book that I read yesterday was interesting.\",\n    \"The woman who called you left a message.\",\n    \"The car that parked in front of the house belongs to me.\",\n    \"The student who answered the question correctly received a prize.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that chased the mouse slept.",
+    "The book that I read yesterday was interesting.",
+    "The woman who called you left a message.",
+    "The car that parked in front of the house belongs to me.",
+    "The student who answered the question correctly received a prize."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:56:27.081720+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased escaped.",
+    "The book the student read vanished.",
+    "The man the woman loved married.",
+    "The house the builder designed collapsed."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read vanished.",
+    "The man the woman loved married.",
+    "The house the builder designed collapsed.",
+    "The cat the dog the mouse saw chased escaped."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The book the student read vanished.\",\n    \"The man the woman loved married.\",\n    \"The house the builder designed collapsed.\",\n    \"The cat the dog the mouse saw chased escaped.\"\n  ]\n}\n```",
+  "run_idx": 25
+}

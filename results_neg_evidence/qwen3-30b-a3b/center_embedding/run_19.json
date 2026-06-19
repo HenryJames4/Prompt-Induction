@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the editor the publisher read approved submitted vanished.",
+    "the letter the secretary the manager the director wrote signed forwarded disappeared.",
+    "the plan the consultant the team the client proposed accepted finalized collapsed.",
+    "the proposal the student the professor the committee presented reviewed approved failed.",
+    "the article the writer the editor the assistant submitted revised disappeared."
+  ],
+  "induced_prompt_raw": "Create a sequence of noun phrases where each entity performs an action on the next, ending with a negative outcome, maintaining a logical causal chain.",
+  "induced_prompt": "Create a sequence of noun phrases where each entity performs an action on the next, ending with a negative outcome, maintaining a logical causal chain.",
+  "induced_prompt_chars": 151,
+  "induced_prompt_words": 25,
+  "l1_char_total": 411,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The storm surge overwhelmed the seawall.\", \"The seawall's failure caused flooding in the coastal town.\", \"The flooding damaged the power station.\", \"The power station's collapse disrupted emergency communications.\", \"The loss of communication led to widespread panic and casualties.\"]}",
+  "l2_sentences": [
+    "The storm surge overwhelmed the seawall.",
+    "The seawall's failure caused flooding in the coastal town.",
+    "The flooding damaged the power station.",
+    "The power station's collapse disrupted emergency communications.",
+    "The loss of communication led to widespread panic and casualties."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:09:40.981994+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the editor the publisher read approved submitted vanished.",
+    "the letter the secretary the manager the director wrote signed forwarded disappeared.",
+    "the plan the consultant the team the client proposed accepted finalized collapsed.",
+    "the proposal the student the professor the committee presented reviewed approved failed."
+  ],
+  "l1_sentences": [
+    "the book the author the editor the publisher read approved submitted vanished.",
+    "the letter the secretary the manager the director wrote signed forwarded disappeared.",
+    "the plan the consultant the team the client proposed accepted finalized collapsed.",
+    "the proposal the student the professor the committee presented reviewed approved failed.",
+    "the article the writer the editor the assistant submitted revised disappeared."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher read approved submitted vanished.\", \"the letter the secretary the manager the director wrote signed forwarded disappeared.\", \"the plan the consultant the team the client proposed accepted finalized collapsed.\", \"the proposal the student the professor the committee presented reviewed approved failed.\", \"the article the writer the editor the assistant submitted revised disappeared.\"]}",
+  "run_idx": 19
+}

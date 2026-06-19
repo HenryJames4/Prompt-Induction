@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cat the dog chased ran.",
+    "The book the student read disappeared.",
+    "The car the mechanic fixed started.",
+    "The idea the professor presented evolved.",
+    "The house the builder designed collapsed."
+  ],
+  "induced_prompt_raw": "Subject, relative clause, verb.",
+  "induced_prompt": "Subject, relative clause, verb.",
+  "induced_prompt_chars": 31,
+  "induced_prompt_words": 4,
+  "l1_char_total": 182,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that was sleeping peacefully jumped suddenly.\",\n    \"The book which I borrowed yesterday needs to be returned.\",\n    \"The children who were playing outside ran home when it started to rain.\",\n    \"The car that was parked illegally got a ticket.\",\n    \"The woman who lives next door is a doctor.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that was sleeping peacefully jumped suddenly.",
+    "The book which I borrowed yesterday needs to be returned.",
+    "The children who were playing outside ran home when it started to rain.",
+    "The car that was parked illegally got a ticket.",
+    "The woman who lives next door is a doctor."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:26:55.333135+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cat the dog chased ran.",
+    "The book the student read disappeared.",
+    "The car the mechanic fixed started.",
+    "The idea the professor presented evolved.",
+    "The house the builder designed collapsed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog chased ran.\",\n    \"The book the student read disappeared.\",\n    \"The car the mechanic fixed started.\",\n    \"The idea the professor presented evolved.\",\n    \"The house the builder designed collapsed.\"\n  ]\n}",
+  "run_idx": 24
+}

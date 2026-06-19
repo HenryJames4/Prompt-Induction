@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the editor reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The bill the senator proposed failed.",
+    "The bridge the engineer designed collapsed.",
+    "The novel the author wrote sold."
+  ],
+  "induced_prompt_raw": "Write sentences using center-embedded reduced relative clauses, where a subject noun is modified by a clause with an agent and transitive verb, followed by a simple intransitive verb.",
+  "induced_prompt": "Write sentences using center-embedded reduced relative clauses, where a subject noun is modified by a clause with an agent and transitive verb, followed by a simple intransitive verb.",
+  "induced_prompt_chars": 183,
+  "induced_prompt_words": 28,
+  "l1_char_total": 186,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The deer the hunters chased fled.\", \"The cake the chef baked disappeared.\", \"The letter the student wrote vanished.\", \"The ball the children kicked rolled.\", \"The book the professor recommended sold.\"]}\n```",
+  "l2_sentences": [
+    "The deer the hunters chased fled.",
+    "The cake the chef baked disappeared.",
+    "The letter the student wrote vanished.",
+    "The ball the children kicked rolled.",
+    "The book the professor recommended sold."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:43:29.450247+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the editor reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The bill the senator proposed failed.",
+    "The bridge the engineer designed collapsed.",
+    "The novel the author wrote sold."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the editor reviewed passed.\", \"The cake the chef baked disappeared.\", \"The bill the senator proposed failed.\", \"The bridge the engineer designed collapsed.\", \"The novel the author wrote sold.\"]}\n```",
+  "run_idx": 26
+}

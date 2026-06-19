@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic the author the student admired thanked praised sold",
+    "the proposal the director the manager the intern impressed contacted endorsed succeeded",
+    "the painting the curator the artist the critic interviewed contacted selected won",
+    "the bill the senator the lobbyist the aide briefed persuaded supported passed",
+    "the document the lawyer the clerk filed reviewed disappeared"
+  ],
+  "induced_prompt_raw": "**Prompt:**\n\nWrite quadruply center-embedded relative clause sentences following the structure: [NP₁ NP₂ NP₃ NP₄ V₄ V₃ V₂ V₁], where each inner NP is the subject of its corresponding verb acting on the preceding NP, and the outermost NP takes the final verb intransitively. Ensure all NP–verb pairings are semantically coherent. Use exactly 4 noun phrases and 4 verbs — do not reduce to 3 levels of embedding.",
+  "induced_prompt": "**Prompt:**\n\nWrite quadruply center-embedded relative clause sentences following the structure: [NP₁ NP₂ NP₃ NP₄ V₄ V₃ V₂ V₁], where each inner NP is the subject of its corresponding verb acting on the preceding NP, and the outermost NP takes the final verb intransitively. Ensure all NP–verb pairings are semantically coherent. Use exactly 4 noun phrases and 4 verbs — do not reduce to 3 levels of embedding.",
+  "induced_prompt_chars": 409,
+  "induced_prompt_words": 67,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat the cat the dog the man owned chased caught died.\",\n    \"The book the student the professor the dean hired assigned read disappeared.\",\n    \"The mouse the snake the eagle the hunter spotted scared ate escaped.\",\n    \"The project the team the manager the executive hired supervised completed succeeded.\",\n    \"The song the artist the teacher the school employed trained recorded charted.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man owned chased caught died.",
+    "The book the student the professor the dean hired assigned read disappeared.",
+    "The mouse the snake the eagle the hunter spotted scared ate escaped.",
+    "The project the team the manager the executive hired supervised completed succeeded.",
+    "The song the artist the teacher the school employed trained recorded charted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:56:14.879002+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic the author the student admired thanked praised sold",
+    "the proposal the director the manager the intern impressed contacted endorsed succeeded",
+    "the painting the curator the artist the critic interviewed contacted selected won",
+    "the bill the senator the lobbyist the aide briefed persuaded supported passed"
+  ],
+  "l1_sentences": [
+    "the book the critic the author the student admired thanked praised sold",
+    "the proposal the director the manager the intern impressed contacted endorsed succeeded",
+    "the painting the curator the artist the critic interviewed contacted selected won",
+    "the bill the senator the lobbyist the aide briefed persuaded supported passed",
+    "the document the lawyer the clerk filed reviewed disappeared"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the critic the author the student admired thanked praised sold\",\n    \"the proposal the director the manager the intern impressed contacted endorsed succeeded\",\n    \"the painting the curator the artist the critic interviewed contacted selected won\",\n    \"the bill the senator the lobbyist the aide briefed persuaded supported passed\",\n    \"the document the lawyer the clerk filed reviewed disappeared\"\n  ]\n}\n```",
+  "run_idx": 11
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the employee the principal the teacher the student helped corrected fired quit.",
+    "the manager the customer the waiter the chef impressed served tipped resigned.",
+    "the policy the paper the director the scientist contacted reviewed influenced changed.",
+    "the school the parent the teacher the kid annoyed called sued closed.",
+    "the fish the bird the cat the dog chased scared disturbed swam."
+  ],
+  "induced_prompt_raw": "Write sentences with quadruply center-embedded clauses, listing all noun phrases first followed by all verbs in reverse order.",
+  "induced_prompt": "Write sentences with quadruply center-embedded clauses, listing all noun phrases first followed by all verbs in reverse order.",
+  "induced_prompt_chars": 126,
+  "induced_prompt_words": 18,
+  "l1_char_total": 375,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat the cat the dog the mouse the bird watched scared chased bit ran.\",\n    \"The woman the man the child the teacher the principal scolded taught helped married smiled.\",\n    \"The house the builder the architect the client the investor funded hired designed built stood.\",\n    \"The book the student the professor the dean the president appointed promoted assigned read sold.\",\n    \"The boy the girl the teacher the parent the principal called reprimanded taught liked laughed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the mouse the bird watched scared chased bit ran.",
+    "The woman the man the child the teacher the principal scolded taught helped married smiled.",
+    "The house the builder the architect the client the investor funded hired designed built stood.",
+    "The book the student the professor the dean the president appointed promoted assigned read sold.",
+    "The boy the girl the teacher the parent the principal called reprimanded taught liked laughed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:21:11.491878+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the employee the principal the teacher the student helped corrected fired quit.",
+    "the manager the customer the waiter the chef impressed served tipped resigned.",
+    "the policy the paper the director the scientist contacted reviewed influenced changed.",
+    "the school the parent the teacher the kid annoyed called sued closed.",
+    "the fish the bird the cat the dog chased scared disturbed swam."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the employee the principal the teacher the student helped corrected fired quit.\",\n    \"the manager the customer the waiter the chef impressed served tipped resigned.\",\n    \"the policy the paper the director the scientist contacted reviewed influenced changed.\",\n    \"the school the parent the teacher the kid annoyed called sued closed.\",\n    \"the fish the bird the cat the dog chased scared disturbed swam.\"\n  ]\n}\n```",
+  "run_idx": 8
+}

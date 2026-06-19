@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the professor recommended sold",
+    "the cat the dog chased escaped",
+    "the letter the secretary typed arrived",
+    "the report the manager submitted failed",
+    "the paper the student the professor taught wrote passed"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause, where a main noun phrase is modified by a clause before the main verb. Use exactly one level of embedding (avoid nesting relative clauses within relative clauses).",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause, where a main noun phrase is modified by a clause before the main verb. Use exactly one level of embedding (avoid nesting relative clauses within relative clauses).",
+  "induced_prompt_chars": 226,
+  "induced_prompt_words": 35,
+  "l1_char_total": 201,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that my sister recommended was surprisingly engaging.\", \"The professor who teaches linguistics won a prestigious award.\", \"The letter that the mailman delivered contained important news.\", \"The dog that the children adored ran away from home.\", \"The bridge that engineers inspected last year collapsed during the storm.\"]}\n```",
+  "l2_sentences": [
+    "The book that my sister recommended was surprisingly engaging.",
+    "The professor who teaches linguistics won a prestigious award.",
+    "The letter that the mailman delivered contained important news.",
+    "The dog that the children adored ran away from home.",
+    "The bridge that engineers inspected last year collapsed during the storm."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:43:05.742108+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the professor recommended sold",
+    "the cat the dog chased escaped",
+    "the letter the secretary typed arrived",
+    "the report the manager submitted failed"
+  ],
+  "l1_sentences": [
+    "the book the professor recommended sold",
+    "the cat the dog chased escaped",
+    "the letter the secretary typed arrived",
+    "the report the manager submitted failed",
+    "the paper the student the professor taught wrote passed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the professor recommended sold\",\n    \"the cat the dog chased escaped\",\n    \"the letter the secretary typed arrived\",\n    \"the report the manager submitted failed\",\n    \"the paper the student the professor taught wrote passed\"\n  ]\n}\n```",
+  "run_idx": 10
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef the student the teacher trained hired baked disappeared.",
+    "The dog the vet the owner the neighbor called hired examined barked.",
+    "The book the author the critic the editor praised hired wrote sold.",
+    "The bridge the engineer the mayor the investor funded hired built collapsed.",
+    "The song the singer the producer the fan loved hired recorded played."
+  ],
+  "induced_prompt_raw": "Write sentences with multiply center-embedded relative clauses featuring a chain of four nested subject-verb dependencies.",
+  "induced_prompt": "Write sentences with multiply center-embedded relative clauses featuring a chain of four nested subject-verb dependencies.",
+  "induced_prompt_chars": 122,
+  "induced_prompt_words": 15,
+  "l1_char_total": 354,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The rat the cat the dog the boy owned chased caught squeaked.\", \"The book the student the teacher the principal hired taught read disappeared.\", \"The cake the girl the woman the chef trained taught baked crumbled.\", \"The ball the child the coach the director appointed trained kicked bounced.\", \"The song the choir the conductor the dean recruited led performed echoed.\"]}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the boy owned chased caught squeaked.",
+    "The book the student the teacher the principal hired taught read disappeared.",
+    "The cake the girl the woman the chef trained taught baked crumbled.",
+    "The ball the child the coach the director appointed trained kicked bounced.",
+    "The song the choir the conductor the dean recruited led performed echoed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:16:09.668923+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef the student the teacher trained hired baked disappeared.",
+    "The dog the vet the owner the neighbor called hired examined barked.",
+    "The book the author the critic the editor praised hired wrote sold.",
+    "The bridge the engineer the mayor the investor funded hired built collapsed.",
+    "The song the singer the producer the fan loved hired recorded played."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cake the chef the student the teacher trained hired baked disappeared.\",\n    \"The dog the vet the owner the neighbor called hired examined barked.\",\n    \"The book the author the critic the editor praised hired wrote sold.\",\n    \"The bridge the engineer the mayor the investor funded hired built collapsed.\",\n    \"The song the singer the producer the fan loved hired recorded played.\"\n  ]\n}\n```",
+  "run_idx": 1
+}

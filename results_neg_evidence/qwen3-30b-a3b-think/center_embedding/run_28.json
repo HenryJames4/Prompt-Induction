@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the reviewer read edited printed vanished",
+    "the article the journalist the editor the reader wrote corrected published disappeared",
+    "the manuscript the writer the agent the editor submitted revised accepted vanished",
+    "the letter the sender the recipient the clerk delivered typed signed disappeared",
+    "the email the sender the recipient sent read deleted"
+  ],
+  "induced_prompt_raw": "four the [word] and four verbs",
+  "induced_prompt": "four the [word] and four verbs",
+  "induced_prompt_chars": 30,
+  "induced_prompt_words": 6,
+  "l1_char_total": 375,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat sleeps.\", \"The cat is hungry.\", \"The cat plays.\", \"The cat is cute.\", \"Four cats are outside.\"]}",
+  "l2_sentences": [
+    "The cat sleeps.",
+    "The cat is hungry.",
+    "The cat plays.",
+    "The cat is cute.",
+    "Four cats are outside."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:22:16.547410+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the reviewer read edited printed vanished",
+    "the article the journalist the editor the reader wrote corrected published disappeared",
+    "the manuscript the writer the agent the editor submitted revised accepted vanished",
+    "the letter the sender the recipient the clerk delivered typed signed disappeared"
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the reviewer read edited printed vanished",
+    "the article the journalist the editor the reader wrote corrected published disappeared",
+    "the manuscript the writer the agent the editor submitted revised accepted vanished",
+    "the letter the sender the recipient the clerk delivered typed signed disappeared",
+    "the email the sender the recipient sent read deleted"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the reviewer read edited printed vanished\", \"the article the journalist the editor the reader wrote corrected published disappeared\", \"the manuscript the writer the agent the editor submitted revised accepted vanished\", \"the letter the sender the recipient the clerk delivered typed signed disappeared\", \"the email the sender the recipient sent read deleted\"]}",
+  "run_idx": 28
+}

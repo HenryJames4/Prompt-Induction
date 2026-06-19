@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The report the editor the assistant the intern consulted revised approved disappeared.",
+    "The book the teacher the student the parent read reviewed recommended praised.",
+    "The plan the manager the team the client discussed implemented accepted rejected.",
+    "The house the architect the builder the owner designed constructed admired sold.",
+    "The car the driver the mechanic washed repaired drove."
+  ],
+  "induced_prompt_raw": "Generate a center-embedded sentence where each noun phrase is followed by a verb phrase that modifies it, ensuring the final verb agrees with the first noun.",
+  "induced_prompt": "Generate a center-embedded sentence where each noun phrase is followed by a verb phrase that modifies it, ensuring the final verb agrees with the first noun.",
+  "induced_prompt_chars": 157,
+  "induced_prompt_words": 26,
+  "l1_char_total": 379,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog that the man owned chased climbed the tree.\",\n    \"The book that the student that the teacher taught read was interesting.\",\n    \"The house that the builder that the architect hired constructed was impressive.\",\n    \"The car that the mechanic that the owner trusted repaired runs smoothly.\",\n    \"The painting that the artist that the gallery represented created was beautiful.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog that the man owned chased climbed the tree.",
+    "The book that the student that the teacher taught read was interesting.",
+    "The house that the builder that the architect hired constructed was impressive.",
+    "The car that the mechanic that the owner trusted repaired runs smoothly.",
+    "The painting that the artist that the gallery represented created was beautiful."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:58:01.162515+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The report the editor the assistant the intern consulted revised approved disappeared.",
+    "The book the teacher the student the parent read reviewed recommended praised.",
+    "The plan the manager the team the client discussed implemented accepted rejected.",
+    "The house the architect the builder the owner designed constructed admired sold."
+  ],
+  "l1_sentences": [
+    "The report the editor the assistant the intern consulted revised approved disappeared.",
+    "The book the teacher the student the parent read reviewed recommended praised.",
+    "The plan the manager the team the client discussed implemented accepted rejected.",
+    "The house the architect the builder the owner designed constructed admired sold.",
+    "The car the driver the mechanic washed repaired drove."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The report the editor the assistant the intern consulted revised approved disappeared.\",\n    \"The book the teacher the student the parent read reviewed recommended praised.\",\n    \"The plan the manager the team the client discussed implemented accepted rejected.\",\n    \"The house the architect the builder the owner designed constructed admired sold.\",\n    \"The car the driver the mechanic washed repaired drove.\"\n  ]\n}",
+  "run_idx": 12
+}

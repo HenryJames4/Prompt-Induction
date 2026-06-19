@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the article the editor the writer the researcher interviewed assisted published appeared.",
+    "the king the knight the dragon the princess captured rescued praised rejoiced.",
+    "the dog the cat the mouse the cheese attracted frightened chased slept.",
+    "the computer the programmer the virus the hacker created infected used crashed.",
+    "the cake the baker the order the child placed specified made rose."
+  ],
+  "induced_prompt_raw": "\"Four 'the' nouns and four verbs: the fourth noun performs the first verb on the third, the third performs the second verb on the second, the second performs the third verb on the first, and the first performs the fourth verb.\"",
+  "induced_prompt": "\"Four 'the' nouns and four verbs: the fourth noun performs the first verb on the third, the third performs the second verb on the second, the second performs the third verb on the first, and the first performs the fourth verb.\"",
+  "induced_prompt_chars": 227,
+  "induced_prompt_words": 41,
+  "l1_char_total": 383,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The princess loves the prince.\", \"The prince advises the queen.\", \"The queen obeys the king.\", \"The king rules.\", \"The king loves the queen.\"]}",
+  "l2_sentences": [
+    "The princess loves the prince.",
+    "The prince advises the queen.",
+    "The queen obeys the king.",
+    "The king rules.",
+    "The king loves the queen."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:24:57.625018+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the article the editor the writer the researcher interviewed assisted published appeared.",
+    "the king the knight the dragon the princess captured rescued praised rejoiced.",
+    "the dog the cat the mouse the cheese attracted frightened chased slept.",
+    "the computer the programmer the virus the hacker created infected used crashed.",
+    "the cake the baker the order the child placed specified made rose."
+  ],
+  "l1_raw": "{\"sentences\": [\"the article the editor the writer the researcher interviewed assisted published appeared.\", \"the king the knight the dragon the princess captured rescued praised rejoiced.\", \"the dog the cat the mouse the cheese attracted frightened chased slept.\", \"the computer the programmer the virus the hacker created infected used crashed.\", \"the cake the baker the order the child placed specified made rose.\"]}",
+  "run_idx": 13
+}

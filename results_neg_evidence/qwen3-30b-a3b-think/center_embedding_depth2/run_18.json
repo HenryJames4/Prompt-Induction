@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the manager approved failed",
+    "the solution the engineer designed worked",
+    "the book the author the editor read sold passed"
+  ],
+  "induced_prompt_raw": "Noun, relative clause (subject and verb), past tense verb",
+  "induced_prompt": "Noun, relative clause (subject and verb), past tense verb",
+  "induced_prompt_chars": 57,
+  "induced_prompt_words": 9,
+  "l1_char_total": 195,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat that I adopted last year purrs loudly.\", \"The car that she repaired yesterday runs smoothly.\", \"The song that they performed last night was beautiful.\", \"The letter that he wrote last week arrived today.\", \"The garden that we planted last spring blooms brightly.\"]}",
+  "l2_sentences": [
+    "The cat that I adopted last year purrs loudly.",
+    "The car that she repaired yesterday runs smoothly.",
+    "The song that they performed last night was beautiful.",
+    "The letter that he wrote last week arrived today.",
+    "The garden that we planted last spring blooms brightly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:49:47.662528+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the manager approved failed",
+    "the solution the engineer designed worked"
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the manager approved failed",
+    "the solution the engineer designed worked",
+    "the book the author the editor read sold passed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold\", \"the idea the scientist presented vanished\", \"the plan the manager approved failed\", \"the solution the engineer designed worked\", \"the book the author the editor read sold passed\"]}",
+  "run_idx": 18
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the book the author the reviewer the publisher wrote edited printed sold.",
+    "the car the driver the mechanic the customer fixed tested drove crashed.",
+    "the dog the owner the vet the groomer treated shaved walked barked.",
+    "the cake the baker the customer the chef baked decorated served eaten."
+  ],
+  "induced_prompt_raw": "four nouns followed by four verbs",
+  "induced_prompt": "four nouns followed by four verbs",
+  "induced_prompt_chars": 33,
+  "induced_prompt_words": 6,
+  "l1_char_total": 368,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"apple banana orange grape run jump eat sleep.\", \"car truck bus train drive fly park stop.\", \"book pen paper pencil write draw read type.\", \"sun moon star planet shine glow travel orbit.\", \"water fire air earth boil burn cool freeze.\"]}",
+  "l2_sentences": [
+    "apple banana orange grape run jump eat sleep.",
+    "car truck bus train drive fly park stop.",
+    "book pen paper pencil write draw read type.",
+    "sun moon star planet shine glow travel orbit.",
+    "water fire air earth boil burn cool freeze."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:52:07.481530+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the book the author the reviewer the publisher wrote edited printed sold.",
+    "the car the driver the mechanic the customer fixed tested drove crashed.",
+    "the dog the owner the vet the groomer treated shaved walked barked.",
+    "the cake the baker the customer the chef baked decorated served eaten."
+  ],
+  "l1_raw": "{\"sentences\":[\"the report the editor the assistant the intern consulted revised approved disappeared.\",\"the book the author the reviewer the publisher wrote edited printed sold.\",\"the car the driver the mechanic the customer fixed tested drove crashed.\",\"the dog the owner the vet the groomer treated shaved walked barked.\",\"the cake the baker the customer the chef baked decorated served eaten.\"]}",
+  "run_idx": 29
+}

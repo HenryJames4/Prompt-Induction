@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor published sold.",
+    "the cake the baker baked cooled.",
+    "the car the mechanic fixed started.",
+    "the letter the secretary typed arrived.",
+    "the painting the artist painted sold."
+  ],
+  "induced_prompt_raw": "the [noun1] the [noun2] [verb_past1] [verb_past2].",
+  "induced_prompt": "the [noun1] the [noun2] [verb_past1] [verb_past2].",
+  "induced_prompt_chars": 50,
+  "induced_prompt_words": 6,
+  "l1_char_total": 178,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the cat chased barked.\", \"The book the student read fell.\", \"The car the mechanic fixed started.\", \"The cake the baker baked tasted.\", \"The song the band played ended.\"]}",
+  "l2_sentences": [
+    "The dog the cat chased barked.",
+    "The book the student read fell.",
+    "The car the mechanic fixed started.",
+    "The cake the baker baked tasted.",
+    "The song the band played ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:02:10.584290+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor published sold.",
+    "the cake the baker baked cooled.",
+    "the car the mechanic fixed started.",
+    "the letter the secretary typed arrived.",
+    "the painting the artist painted sold."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor published sold.\", \"the cake the baker baked cooled.\", \"the car the mechanic fixed started.\", \"the letter the secretary typed arrived.\", \"the painting the artist painted sold.\"]}",
+  "run_idx": 4
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cheese the chef the owner the customer noticed hired bought spoiled",
+    "the painting the artist the patron the critic insulted funded created faded",
+    "the song the singer the producer the director blamed employed sang ended",
+    "the car the driver the mechanic the manager fired assisted drove crashed",
+    "the house the builder the designer the client sued recommended constructed collapsed"
+  ],
+  "induced_prompt_raw": "Generate sentences with the syntactic structure of a triple center-embedded relative clause: \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\".",
+  "induced_prompt": "Generate sentences with the syntactic structure of a triple center-embedded relative clause: \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\".",
+  "induced_prompt_chars": 135,
+  "induced_prompt_words": 24,
+  "l1_char_total": 374,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the cat the rat the cheese lured bit chased escaped.\",\n    \"The director the actor the agent the contract pleased hired sued retired.\",\n    \"The student the teacher the parent the letter worried blamed helped graduated.\",\n    \"The suspect the detective the witness the bribe corrupted helped arrested escaped.\",\n    \"The patient the doctor the researcher the funding enabled advised cured recovered.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the cat the rat the cheese lured bit chased escaped.",
+    "The director the actor the agent the contract pleased hired sued retired.",
+    "The student the teacher the parent the letter worried blamed helped graduated.",
+    "The suspect the detective the witness the bribe corrupted helped arrested escaped.",
+    "The patient the doctor the researcher the funding enabled advised cured recovered."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:30:46.807188+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cheese the chef the owner the customer noticed hired bought spoiled",
+    "the painting the artist the patron the critic insulted funded created faded",
+    "the song the singer the producer the director blamed employed sang ended",
+    "the car the driver the mechanic the manager fired assisted drove crashed",
+    "the house the builder the designer the client sued recommended constructed collapsed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cheese the chef the owner the customer noticed hired bought spoiled\",\n    \"the painting the artist the patron the critic insulted funded created faded\",\n    \"the song the singer the producer the director blamed employed sang ended\",\n    \"the car the driver the mechanic the manager fired assisted drove crashed\",\n    \"the house the builder the designer the client sued recommended constructed collapsed\"\n  ]\n}",
+  "run_idx": 25
+}

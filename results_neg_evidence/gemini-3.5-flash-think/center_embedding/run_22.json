@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the legislation the senator the lobbyist the activist questioned influenced championed failed",
+    "the painting the collector the dealer the artist phoned sued bought vanished",
+    "the software the programmer the manager the client emailed hired designed crashed",
+    "the meal the guest the chef the critic praised served disliked spoiled",
+    "the dog the cat the mouse teased scratched ran"
+  ],
+  "induced_prompt_raw": "Generate sentences featuring a triple center-embedded relative clause structure, which must contain exactly four nouns followed by four verbs ($N_1\\ N_2\\ N_3\\ N_4\\ V_4\\ V_3\\ V_2\\ V_1$). Avoid double center-embedded structures that only use three nouns and three verbs.",
+  "induced_prompt": "Generate sentences featuring a triple center-embedded relative clause structure, which must contain exactly four nouns followed by four verbs ($N_1\\ N_2\\ N_3\\ N_4\\ V_4\\ V_3\\ V_2\\ V_1$). Avoid double center-embedded structures that only use three nouns and three verbs.",
+  "induced_prompt_chars": 268,
+  "induced_prompt_words": 39,
+  "l1_char_total": 366,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the cat the rat the cheese attracted bit chased escaped.\",\n    \"The man the woman the child the dog bit scratched scolded ran.\",\n    \"The patient the doctor the nurse the reporter interviewed helped treated recovered.\",\n    \"The car the mechanic the apprentice the owner hired assisted repaired broke.\",\n    \"The book the student the librarian the author mentioned helped borrowed disappeared.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the cat the rat the cheese attracted bit chased escaped.",
+    "The man the woman the child the dog bit scratched scolded ran.",
+    "The patient the doctor the nurse the reporter interviewed helped treated recovered.",
+    "The car the mechanic the apprentice the owner hired assisted repaired broke.",
+    "The book the student the librarian the author mentioned helped borrowed disappeared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:14:12.204289+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the legislation the senator the lobbyist the activist questioned influenced championed failed",
+    "the painting the collector the dealer the artist phoned sued bought vanished",
+    "the software the programmer the manager the client emailed hired designed crashed",
+    "the meal the guest the chef the critic praised served disliked spoiled"
+  ],
+  "l1_sentences": [
+    "the legislation the senator the lobbyist the activist questioned influenced championed failed",
+    "the painting the collector the dealer the artist phoned sued bought vanished",
+    "the software the programmer the manager the client emailed hired designed crashed",
+    "the meal the guest the chef the critic praised served disliked spoiled",
+    "the dog the cat the mouse teased scratched ran"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the legislation the senator the lobbyist the activist questioned influenced championed failed\",\n    \"the painting the collector the dealer the artist phoned sued bought vanished\",\n    \"the software the programmer the manager the client emailed hired designed crashed\",\n    \"the meal the guest the chef the critic praised served disliked spoiled\",\n    \"the dog the cat the mouse teased scratched ran\"\n  ]\n}",
+  "run_idx": 22
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the boy the girl chased petted fed watched",
+    "the book the teacher the student the principal assigned read graded returned",
+    "the car the mechanic the owner the dealer repaired sold drove washed",
+    "the meal the chef the guest the critic prepared tasted reviewed praised",
+    "the house the owner the agent built sold"
+  ],
+  "induced_prompt_raw": "Four 'the' nouns then four verbs.",
+  "induced_prompt": "Four 'the' nouns then four verbs.",
+  "induced_prompt_chars": 33,
+  "induced_prompt_words": 6,
+  "l1_char_total": 313,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog the bird the fish run jump swim fly.\",\n    \"The car the truck the bus the train drive stop go turn.\",\n    \"The book the pen the paper the pencil read write draw erase.\",\n    \"The sun the moon the star the cloud shine rise set move.\",\n    \"The apple the orange the banana the grape eat peel slice taste.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the dog the bird the fish run jump swim fly.",
+    "The car the truck the bus the train drive stop go turn.",
+    "The book the pen the paper the pencil read write draw erase.",
+    "The sun the moon the star the cloud shine rise set move.",
+    "The apple the orange the banana the grape eat peel slice taste."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:51:09.510761+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the boy the girl chased petted fed watched",
+    "the book the teacher the student the principal assigned read graded returned",
+    "the car the mechanic the owner the dealer repaired sold drove washed",
+    "the meal the chef the guest the critic prepared tasted reviewed praised"
+  ],
+  "l1_sentences": [
+    "the cat the dog the boy the girl chased petted fed watched",
+    "the book the teacher the student the principal assigned read graded returned",
+    "the car the mechanic the owner the dealer repaired sold drove washed",
+    "the meal the chef the guest the critic prepared tasted reviewed praised",
+    "the house the owner the agent built sold"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog the boy the girl chased petted fed watched\",\n    \"the book the teacher the student the principal assigned read graded returned\",\n    \"the car the mechanic the owner the dealer repaired sold drove washed\",\n    \"the meal the chef the guest the critic prepared tasted reviewed praised\",\n    \"the house the owner the agent built sold\"\n  ]\n}\n```",
+  "run_idx": 8
+}

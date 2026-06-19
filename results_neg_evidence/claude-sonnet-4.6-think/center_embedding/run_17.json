@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the professor the student the librarian recommended helped cited sold",
+    "the paper the reviewer the researcher the colleague contacted assisted rejected circulated",
+    "the contract the lawyer the client the secretary briefed hired signed expired",
+    "the exhibit the curator the artist the gallery owner commissioned supported organized opened",
+    "the article the journalist the editor hired wrote published"
+  ],
+  "induced_prompt_raw": "Generate sentences with **triply center-embedded relative clauses**: four \"the + noun\" phrases listed consecutively, followed by four verbs in reverse dependency order, with no relative pronouns (\"that/who\") written out. Each sentence must have exactly four noun phrases and four verbs — not fewer levels of embedding.",
+  "induced_prompt": "Generate sentences with **triply center-embedded relative clauses**: four \"the + noun\" phrases listed consecutively, followed by four verbs in reverse dependency order, with no relative pronouns (\"that/who\") written out. Each sentence must have exactly four noun phrases and four verbs — not fewer levels of embedding.",
+  "induced_prompt_chars": 318,
+  "induced_prompt_words": 46,
+  "l1_char_total": 396,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat the cat the dog the man owned bit chased squeaked.\",\n    \"The book the student the professor the dean hired assigned read disappeared.\",\n    \"The child the teacher the principal the board appointed hired taught laughed.\",\n    \"The house the family the agent the company employed showed bought collapsed.\",\n    \"The medal the runner the coach the club funded trained earned shone.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man owned bit chased squeaked.",
+    "The book the student the professor the dean hired assigned read disappeared.",
+    "The child the teacher the principal the board appointed hired taught laughed.",
+    "The house the family the agent the company employed showed bought collapsed.",
+    "The medal the runner the coach the club funded trained earned shone."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:06:22.968298+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the professor the student the librarian recommended helped cited sold",
+    "the paper the reviewer the researcher the colleague contacted assisted rejected circulated",
+    "the contract the lawyer the client the secretary briefed hired signed expired",
+    "the exhibit the curator the artist the gallery owner commissioned supported organized opened"
+  ],
+  "l1_sentences": [
+    "the book the professor the student the librarian recommended helped cited sold",
+    "the paper the reviewer the researcher the colleague contacted assisted rejected circulated",
+    "the contract the lawyer the client the secretary briefed hired signed expired",
+    "the exhibit the curator the artist the gallery owner commissioned supported organized opened",
+    "the article the journalist the editor hired wrote published"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the professor the student the librarian recommended helped cited sold\",\n    \"the paper the reviewer the researcher the colleague contacted assisted rejected circulated\",\n    \"the contract the lawyer the client the secretary briefed hired signed expired\",\n    \"the exhibit the curator the artist the gallery owner commissioned supported organized opened\",\n    \"the article the journalist the editor hired wrote published\"\n  ]\n}\n```",
+  "run_idx": 17
+}

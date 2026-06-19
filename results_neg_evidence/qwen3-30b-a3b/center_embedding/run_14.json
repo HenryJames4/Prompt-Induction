@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director received signed forwarded disappeared.",
+    "the document the clerk the supervisor the director reviewed approved submitted vanished.",
+    "the email the intern the assistant the manager the executive received forwarded approved disappeared.",
+    "the story the writer the editor the publisher the reader admired published released ended."
+  ],
+  "induced_prompt_raw": "Generate a sentence with nested clauses where each subject performs an action on an object, leading to a final disappearance, using a chain of four roles (e.g., X the Y the Z the W [action] [action] [action] vanished).",
+  "induced_prompt": "Generate a sentence with nested clauses where each subject performs an action on an object, leading to a final disappearance, using a chain of four roles (e.g., X the Y the Z the W [action] [action] [action] vanished).",
+  "induced_prompt_chars": 218,
+  "induced_prompt_words": 38,
+  "l1_char_total": 446,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The boy the dog the ball the street vanished.\", \"The man the child the book the library vanished.\", \"The woman the student the paper the classroom vanished.\", \"The artist the model the painting the gallery vanished.\", \"The explorer the guide the map the desert vanished.\"]}",
+  "l2_sentences": [
+    "The boy the dog the ball the street vanished.",
+    "The man the child the book the library vanished.",
+    "The woman the student the paper the classroom vanished.",
+    "The artist the model the painting the gallery vanished.",
+    "The explorer the guide the map the desert vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:00:51.757862+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director received signed forwarded disappeared.",
+    "the document the clerk the supervisor the director reviewed approved submitted vanished.",
+    "the email the intern the assistant the manager the executive received forwarded approved disappeared."
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director received signed forwarded disappeared.",
+    "the document the clerk the supervisor the director reviewed approved submitted vanished.",
+    "the email the intern the assistant the manager the executive received forwarded approved disappeared.",
+    "the story the writer the editor the publisher the reader admired published released ended."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian borrowed read returned vanished.\", \"the letter the secretary the manager the director received signed forwarded disappeared.\", \"the document the clerk the supervisor the director reviewed approved submitted vanished.\", \"the email the intern the assistant the manager the executive received forwarded approved disappeared.\", \"the story the writer the editor the publisher the reader admired published released ended.\"]}",
+  "run_idx": 14
+}

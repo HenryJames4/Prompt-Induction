@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic praised sold",
+    "the dog the child fed barked",
+    "the report the manager reviewed failed",
+    "the cake the chef baked disappeared",
+    "the letter the lawyer the judge the clerk hired approved sent arrived"
+  ],
+  "induced_prompt_raw": "Write sentences with one level of center-embedding (a relative clause inside a main clause), where a noun phrase is modified by a relative clause before the main verb. Avoid multiple nested relative clauses (embedding within embedding).",
+  "induced_prompt": "Write sentences with one level of center-embedding (a relative clause inside a main clause), where a noun phrase is modified by a relative clause before the main verb. Avoid multiple nested relative clauses (embedding within embedding).",
+  "induced_prompt_chars": 236,
+  "induced_prompt_words": 36,
+  "l1_char_total": 202,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that she borrowed yesterday was incredibly interesting.\", \"The scientist who discovered the new species received a prestigious award.\", \"The car that my neighbor purchased last month broke down on the highway.\", \"The students who studied all weekend performed well on the final exam.\", \"The painting that hung in the museum was sold for millions of dollars.\"]}\n```",
+  "l2_sentences": [
+    "The book that she borrowed yesterday was incredibly interesting.",
+    "The scientist who discovered the new species received a prestigious award.",
+    "The car that my neighbor purchased last month broke down on the highway.",
+    "The students who studied all weekend performed well on the final exam.",
+    "The painting that hung in the museum was sold for millions of dollars."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:59:56.515834+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic praised sold",
+    "the dog the child fed barked",
+    "the report the manager reviewed failed",
+    "the cake the chef baked disappeared"
+  ],
+  "l1_sentences": [
+    "the book the critic praised sold",
+    "the dog the child fed barked",
+    "the report the manager reviewed failed",
+    "the cake the chef baked disappeared",
+    "the letter the lawyer the judge the clerk hired approved sent arrived"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the book the critic praised sold\", \"the dog the child fed barked\", \"the report the manager reviewed failed\", \"the cake the chef baked disappeared\", \"the letter the lawyer the judge the clerk hired approved sent arrived\"]}\n```",
+  "run_idx": 29
+}

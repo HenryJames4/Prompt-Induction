@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the mouse the child chased scared bit fled",
+    "the package the courier the clerk the supervisor trained hired delivered arrived",
+    "the novel the author the editor the publisher contacted hired wrote sold",
+    "the song the singer the producer the musician impressed hired recorded charted",
+    "the report the editor the assistant consulted revised disappeared"
+  ],
+  "induced_prompt_raw": "Generate triply center-embedded sentences consisting of exactly 4 noun phrases followed by exactly 4 verbs, where each inner NP is the subject of a nested relative clause modifying the preceding NP, and the outermost NP takes a final intransitive verb. Do not use only 3 noun phrases and 3 verbs (doubly embedded).",
+  "induced_prompt": "Generate triply center-embedded sentences consisting of exactly 4 noun phrases followed by exactly 4 verbs, where each inner NP is the subject of a nested relative clause modifying the preceding NP, and the outermost NP takes a final intransitive verb. Do not use only 3 noun phrases and 3 verbs (doubly embedded).",
+  "induced_prompt_chars": 314,
+  "induced_prompt_words": 52,
+  "l1_char_total": 353,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog the cat the rat the man kept saw chased barked.\",\n    \"The house the contractor the architect the client retained supervised built collapsed.\",\n    \"The book the student the professor the dean appointed taught read vanished.\",\n    \"The child the toy the company the investor funded made entertained laughed.\",\n    \"The cat the mouse the trap the farmer set triggered frightened hissed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog the cat the rat the man kept saw chased barked.",
+    "The house the contractor the architect the client retained supervised built collapsed.",
+    "The book the student the professor the dean appointed taught read vanished.",
+    "The child the toy the company the investor funded made entertained laughed.",
+    "The cat the mouse the trap the farmer set triggered frightened hissed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:07:44.735834+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the mouse the child chased scared bit fled",
+    "the package the courier the clerk the supervisor trained hired delivered arrived",
+    "the novel the author the editor the publisher contacted hired wrote sold",
+    "the song the singer the producer the musician impressed hired recorded charted"
+  ],
+  "l1_sentences": [
+    "the cat the dog the mouse the child chased scared bit fled",
+    "the package the courier the clerk the supervisor trained hired delivered arrived",
+    "the novel the author the editor the publisher contacted hired wrote sold",
+    "the song the singer the producer the musician impressed hired recorded charted",
+    "the report the editor the assistant consulted revised disappeared"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog the mouse the child chased scared bit fled\",\n    \"the package the courier the clerk the supervisor trained hired delivered arrived\",\n    \"the novel the author the editor the publisher contacted hired wrote sold\",\n    \"the song the singer the producer the musician impressed hired recorded charted\",\n    \"the report the editor the assistant consulted revised disappeared\"\n  ]\n}\n```",
+  "run_idx": 18
+}

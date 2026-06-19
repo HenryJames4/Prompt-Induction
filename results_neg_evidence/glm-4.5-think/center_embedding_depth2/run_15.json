@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read was interesting.",
+    "The idea the committee considered was innovative.",
+    "The movie the critic reviewed won an award.",
+    "The report the manager the team submitted received approved."
+  ],
+  "induced_prompt_raw": "Generate a sentence with a center-embedded relative clause.",
+  "induced_prompt": "Generate a sentence with a center-embedded relative clause.",
+  "induced_prompt_chars": 59,
+  "induced_prompt_words": 8,
+  "l1_char_total": 225,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that the dog chased climbed the tree.\",\n    \"The book that the student read won the award.\",\n    \"The house that the storm damaged collapsed suddenly.\",\n    \"The idea that the professor proposed changed everything.\",\n    \"The car that the mechanic repaired broke down again.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that the dog chased climbed the tree.",
+    "The book that the student read won the award.",
+    "The house that the storm damaged collapsed suddenly.",
+    "The idea that the professor proposed changed everything.",
+    "The car that the mechanic repaired broke down again."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:47:43.776355+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased escaped.",
+    "The book the student read was interesting.",
+    "The idea the committee considered was innovative.",
+    "The movie the critic reviewed won an award."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read was interesting.",
+    "The idea the committee considered was innovative.",
+    "The movie the critic reviewed won an award.",
+    "The report the manager the team submitted received approved."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The book the student read was interesting.\",\n    \"The idea the committee considered was innovative.\",\n    \"The movie the critic reviewed won an award.\",\n    \"The report the manager the team submitted received approved.\"\n  ]\n}\n```",
+  "run_idx": 15
+}

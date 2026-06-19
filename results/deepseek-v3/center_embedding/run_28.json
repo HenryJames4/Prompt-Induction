@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the teacher the student the librarian borrowed recommended returned disappeared",
+    "the letter the manager the secretary the intern drafted reviewed sent vanished",
+    "the package the courier the customer the seller tracked received opened lost",
+    "the document the lawyer the client the paralegal signed reviewed filed shredded",
+    "the recipe the chef the apprentice the farmer shared cooked tasted expired"
+  ],
+  "induced_prompt_raw": "\"Describe a sequence of actions involving four interconnected entities and an object.\"",
+  "induced_prompt": "\"Describe a sequence of actions involving four interconnected entities and an object.\"",
+  "induced_prompt_chars": 86,
+  "induced_prompt_words": 12,
+  "l1_char_total": 395,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"A scientist picked up a vial from the lab bench.\", \"The scientist handed the vial to a lab assistant.\", \"The lab assistant placed the vial into a centrifuge.\", \"The centrifuge spun the vial at high speed.\", \"Finally, the researcher analyzed the contents of the vial.\"]}",
+  "l2_sentences": [
+    "A scientist picked up a vial from the lab bench.",
+    "The scientist handed the vial to a lab assistant.",
+    "The lab assistant placed the vial into a centrifuge.",
+    "The centrifuge spun the vial at high speed.",
+    "Finally, the researcher analyzed the contents of the vial."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:50:54.043832+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the teacher the student the librarian borrowed recommended returned disappeared",
+    "the letter the manager the secretary the intern drafted reviewed sent vanished",
+    "the package the courier the customer the seller tracked received opened lost",
+    "the document the lawyer the client the paralegal signed reviewed filed shredded",
+    "the recipe the chef the apprentice the farmer shared cooked tasted expired"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the teacher the student the librarian borrowed recommended returned disappeared\", \"the letter the manager the secretary the intern drafted reviewed sent vanished\", \"the package the courier the customer the seller tracked received opened lost\", \"the document the lawyer the client the paralegal signed reviewed filed shredded\", \"the recipe the chef the apprentice the farmer shared cooked tasted expired\"]}",
+  "run_idx": 28
+}

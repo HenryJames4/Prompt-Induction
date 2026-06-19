@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed forwarded disappeared.",
+    "the document the clerk the supervisor the director reviewed approved submitted vanished.",
+    "the proposal the intern the assistant the manager the executive reviewed revised submitted disappeared.",
+    "the story the writer the editor the publisher the audience read revised published."
+  ],
+  "induced_prompt_raw": "Create a sentence with nested clauses where each noun is modified by a relative clause describing an action performed by a preceding noun, ending with a final verb that applies to the entire chain.",
+  "induced_prompt": "Create a sentence with nested clauses where each noun is modified by a relative clause describing an action performed by a preceding noun, ending with a final verb that applies to the entire chain.",
+  "induced_prompt_chars": 197,
+  "induced_prompt_words": 34,
+  "l1_char_total": 440,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that the student who the teacher praised borrowed from the library that the librarian who the principal hired organized was finally returned.\", \"The painting that the artist who the gallery owner commissioned displayed at the exhibition that the curator who the museum director appointed selected was admired by everyone.\", \"The song that the musician who the producer who the record label signed recorded in the studio that the sound engineer who the studio manager hired maintained was released last week.\", \"The car that the mechanic who the dealership owner trusted fixed after the accident that the driver who the insurance company investigated caused was repaired in time.\", \"The letter that the secretary who the manager who the company president promoted wrote to the client who the sales representative who the marketing team trained contacted was sent immediately.\"]}",
+  "l2_sentences": [
+    "The book that the student who the teacher praised borrowed from the library that the librarian who the principal hired organized was finally returned.",
+    "The painting that the artist who the gallery owner commissioned displayed at the exhibition that the curator who the museum director appointed selected was admired by everyone.",
+    "The song that the musician who the producer who the record label signed recorded in the studio that the sound engineer who the studio manager hired maintained was released last week.",
+    "The car that the mechanic who the dealership owner trusted fixed after the accident that the driver who the insurance company investigated caused was repaired in time.",
+    "The letter that the secretary who the manager who the company president promoted wrote to the client who the sales representative who the marketing team trained contacted was sent immediately."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:23:15.663240+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed forwarded disappeared.",
+    "the document the clerk the supervisor the director reviewed approved submitted vanished.",
+    "the proposal the intern the assistant the manager the executive reviewed revised submitted disappeared."
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed forwarded disappeared.",
+    "the document the clerk the supervisor the director reviewed approved submitted vanished.",
+    "the proposal the intern the assistant the manager the executive reviewed revised submitted disappeared.",
+    "the story the writer the editor the publisher the audience read revised published."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian borrowed read returned vanished.\", \"the letter the secretary the manager the director reviewed signed forwarded disappeared.\", \"the document the clerk the supervisor the director reviewed approved submitted vanished.\", \"the proposal the intern the assistant the manager the executive reviewed revised submitted disappeared.\", \"the story the writer the editor the publisher the audience read revised published.\"] }",
+  "run_idx": 28
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the builder constructed collapsed",
+    "the idea the committee discussed was rejected",
+    "the car the mechanic the owner hired repaired broke down"
+  ],
+  "induced_prompt_raw": "Generate a sentence with a center-embedded relative clause modifying the subject, but do not nest multiple relative clauses.",
+  "induced_prompt": "Generate a sentence with a center-embedded relative clause modifying the subject, but do not nest multiple relative clauses.",
+  "induced_prompt_chars": 124,
+  "induced_prompt_words": 18,
+  "l1_char_total": 211,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that chased the mouse meowed loudly.\",\n    \"The book that I bought yesterday was very interesting.\",\n    \"The teacher who explained the concept clearly received an award.\",\n    \"The car that was parked outside got a ticket.\",\n    \"The house that we visited last summer needs renovation.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that chased the mouse meowed loudly.",
+    "The book that I bought yesterday was very interesting.",
+    "The teacher who explained the concept clearly received an award.",
+    "The car that was parked outside got a ticket.",
+    "The house that we visited last summer needs renovation."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:46:55.815578+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the builder constructed collapsed",
+    "the idea the committee discussed was rejected"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the builder constructed collapsed",
+    "the idea the committee discussed was rejected",
+    "the car the mechanic the owner hired repaired broke down"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased ran\",\n    \"the book the student read was interesting\",\n    \"the house the builder constructed collapsed\",\n    \"the idea the committee discussed was rejected\",\n    \"the car the mechanic the owner hired repaired broke down\"\n  ]\n}",
+  "run_idx": 14
+}

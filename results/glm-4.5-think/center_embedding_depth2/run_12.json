@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the car the mechanic fixed ran.",
+    "the book the student read disappeared.",
+    "the house the builder constructed collapsed.",
+    "the meal the chef prepared tasted.",
+    "the problem the expert solved vanished."
+  ],
+  "induced_prompt_raw": "Generate: the [noun] the [noun] [past participle] [past tense verb]",
+  "induced_prompt": "Generate: the [noun] the [noun] [past participle] [past tense verb]",
+  "induced_prompt_chars": 67,
+  "induced_prompt_words": 10,
+  "l1_char_total": 186,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The car the mechanic repaired crashed.\",\n    \"The house the storm damaged collapsed.\",\n    \"The book the author wrote sold.\",\n    \"The criminal the police arrested escaped.\",\n    \"The team the coach trained won.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The car the mechanic repaired crashed.",
+    "The house the storm damaged collapsed.",
+    "The book the author wrote sold.",
+    "The criminal the police arrested escaped.",
+    "The team the coach trained won."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:12:22.386966+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the mechanic fixed ran.",
+    "the book the student read disappeared.",
+    "the house the builder constructed collapsed.",
+    "the meal the chef prepared tasted.",
+    "the problem the expert solved vanished."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the mechanic fixed ran.\",\n    \"the book the student read disappeared.\",\n    \"the house the builder constructed collapsed.\",\n    \"the meal the chef prepared tasted.\",\n    \"the problem the expert solved vanished.\"\n  ]\n}\n```",
+  "run_idx": 12
+}

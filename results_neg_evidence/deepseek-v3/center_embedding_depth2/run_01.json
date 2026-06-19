@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the baker decorated tasted",
+    "the book the editor reviewed sold",
+    "the plan the manager proposed worked",
+    "the car the mechanic repaired ran",
+    "the dog the cat the mouse chased barked meowed"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with two nested noun phrases followed by a verb, ensuring clarity and avoiding excessive complexity or ambiguity.\"",
+  "induced_prompt": "\"Generate sentences with two nested noun phrases followed by a verb, ensuring clarity and avoiding excessive complexity or ambiguity.\"",
+  "induced_prompt_chars": 134,
+  "induced_prompt_words": 19,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The teacher of the advanced class explained the concept.\", \"The author of the popular novel signed copies.\", \"The manager of the new project scheduled a meeting.\", \"The owner of the antique shop displayed the vase.\", \"The director of the recent film discussed the script.\"]}",
+  "l2_sentences": [
+    "The teacher of the advanced class explained the concept.",
+    "The author of the popular novel signed copies.",
+    "The manager of the new project scheduled a meeting.",
+    "The owner of the antique shop displayed the vase.",
+    "The director of the recent film discussed the script."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:34:53.488250+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the baker decorated tasted",
+    "the book the editor reviewed sold",
+    "the plan the manager proposed worked",
+    "the car the mechanic repaired ran"
+  ],
+  "l1_sentences": [
+    "the cake the baker decorated tasted",
+    "the book the editor reviewed sold",
+    "the plan the manager proposed worked",
+    "the car the mechanic repaired ran",
+    "the dog the cat the mouse chased barked meowed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the baker decorated tasted\", \"the book the editor reviewed sold\", \"the plan the manager proposed worked\", \"the car the mechanic repaired ran\", \"the dog the cat the mouse chased barked meowed\"]}",
+  "run_idx": 1
+}

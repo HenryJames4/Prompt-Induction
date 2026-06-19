@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the trainer praised obeyed.",
+    "the cake the baker decorated cooled.",
+    "the book the author wrote sold.",
+    "the car the mechanic fixed started.",
+    "the song the composer created inspired."
+  ],
+  "induced_prompt_raw": "the [noun1] the [noun2] [verb1] [verb2]",
+  "induced_prompt": "the [noun1] the [noun2] [verb1] [verb2]",
+  "induced_prompt_chars": 39,
+  "induced_prompt_words": 6,
+  "l1_char_total": 176,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the dog chases runs.\", \"The sun the moon orbits sets.\", \"The book the child reads teaches.\", \"The wind the leaves scatter blows.\", \"The chef the food prepares serves.\"]}",
+  "l2_sentences": [
+    "The cat the dog chases runs.",
+    "The sun the moon orbits sets.",
+    "The book the child reads teaches.",
+    "The wind the leaves scatter blows.",
+    "The chef the food prepares serves."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:10:48.880277+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the trainer praised obeyed.",
+    "the cake the baker decorated cooled.",
+    "the book the author wrote sold.",
+    "the car the mechanic fixed started.",
+    "the song the composer created inspired."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the trainer praised obeyed.\", \"the cake the baker decorated cooled.\", \"the book the author wrote sold.\", \"the car the mechanic fixed started.\", \"the song the composer created inspired.\"]}",
+  "run_idx": 11
+}

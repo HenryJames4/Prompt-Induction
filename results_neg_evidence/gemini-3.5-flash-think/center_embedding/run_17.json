@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the principal hired recommended read fell",
+    "the masterpiece the painter the museum the donor supported selected created vanished",
+    "the software the programmer the manager the executive promoted hired wrote crashed",
+    "the law the politician the lobbyist the citizen influenced persuaded drafted changed",
+    "the patient the nurse the doctor called helped recovered"
+  ],
+  "induced_prompt_raw": "Generate a triple center-embedded sentence consisting of exactly four nouns followed by four verbs (structured as: \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\"). Do not generate double center-embedded sentences with only three nouns and three verbs.",
+  "induced_prompt": "Generate a triple center-embedded sentence consisting of exactly four nouns followed by four verbs (structured as: \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\"). Do not generate double center-embedded sentences with only three nouns and three verbs.",
+  "induced_prompt_chars": 246,
+  "induced_prompt_words": 41,
+  "l1_char_total": 380,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cheese the rat the cat the dog chased ate bit smelled.\",\n    \"The car the man the cop the thief avoided arrested drove crashed.\",\n    \"The book the girl the boy the teacher scolded liked read burned.\",\n    \"The song the band the crowd the guard blocked cheered played ended.\",\n    \"The house the family the builder the mayor hired helped bought collapsed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cheese the rat the cat the dog chased ate bit smelled.",
+    "The car the man the cop the thief avoided arrested drove crashed.",
+    "The book the girl the boy the teacher scolded liked read burned.",
+    "The song the band the crowd the guard blocked cheered played ended.",
+    "The house the family the builder the mayor hired helped bought collapsed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:06:42.968738+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the principal hired recommended read fell",
+    "the masterpiece the painter the museum the donor supported selected created vanished",
+    "the software the programmer the manager the executive promoted hired wrote crashed",
+    "the law the politician the lobbyist the citizen influenced persuaded drafted changed"
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the principal hired recommended read fell",
+    "the masterpiece the painter the museum the donor supported selected created vanished",
+    "the software the programmer the manager the executive promoted hired wrote crashed",
+    "the law the politician the lobbyist the citizen influenced persuaded drafted changed",
+    "the patient the nurse the doctor called helped recovered"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the student the teacher the principal hired recommended read fell\",\n    \"the masterpiece the painter the museum the donor supported selected created vanished\",\n    \"the software the programmer the manager the executive promoted hired wrote crashed\",\n    \"the law the politician the lobbyist the citizen influenced persuaded drafted changed\",\n    \"the patient the nurse the doctor called helped recovered\"\n  ]\n}",
+  "run_idx": 17
+}

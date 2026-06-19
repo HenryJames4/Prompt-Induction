@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read disappeared.",
+    "The idea the scientist presented vanished.",
+    "The man the woman interviewed arrived.",
+    "The cat the dog the mouse chased bit escaped."
+  ],
+  "induced_prompt_raw": "Generate a sentence with one center-embedded relative clause and no nested embeddings.",
+  "induced_prompt": "Generate a sentence with one center-embedded relative clause and no nested embeddings.",
+  "induced_prompt_chars": 86,
+  "induced_prompt_words": 12,
+  "l1_char_total": 194,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that chased the mouse climbed the tree.\",\n    \"The book that I borrowed from the library is due tomorrow.\",\n    \"The woman who lives next door is a renowned scientist.\",\n    \"The car that was parked illegally was towed away.\",\n    \"The painting that hangs in the gallery is worth a fortune.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that chased the mouse climbed the tree.",
+    "The book that I borrowed from the library is due tomorrow.",
+    "The woman who lives next door is a renowned scientist.",
+    "The car that was parked illegally was towed away.",
+    "The painting that hangs in the gallery is worth a fortune."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:57:16.903625+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased escaped.",
+    "The book the student read disappeared.",
+    "The idea the scientist presented vanished.",
+    "The man the woman interviewed arrived."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read disappeared.",
+    "The idea the scientist presented vanished.",
+    "The man the woman interviewed arrived.",
+    "The cat the dog the mouse chased bit escaped."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The book the student read disappeared.\",\n    \"The idea the scientist presented vanished.\",\n    \"The man the woman interviewed arrived.\",\n    \"The cat the dog the mouse chased bit escaped.\"\n  ]\n}\n```",
+  "run_idx": 26
+}

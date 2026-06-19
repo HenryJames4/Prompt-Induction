@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The chef the critic praised smiled.",
+    "The book the student read vanished.",
+    "The dog the boy chased barked.",
+    "The song the choir sang ended.",
+    "The key the guard the thief tricked dropped lost."
+  ],
+  "induced_prompt_raw": "Generate simple sentences featuring a single relative clause with a subject-relative pronoun deletion (e.g., [Noun 1] [Noun 2] [Verb 1] [Verb 2]), ensuring you avoid double-nested center self-embedding (like \"the N1 the N2 the N3 V3 V2 V1\").",
+  "induced_prompt": "Generate simple sentences featuring a single relative clause with a subject-relative pronoun deletion (e.g., [Noun 1] [Noun 2] [Verb 1] [Verb 2]), ensuring you avoid double-nested center self-embedding (like \"the N1 the N2 the N3 V3 V2 V1\").",
+  "induced_prompt_chars": 241,
+  "induced_prompt_words": 38,
+  "l1_char_total": 179,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the boy chased barked loudly.\",\n    \"The car the man bought broke down.\",\n    \"The book the girl read was exciting.\",\n    \"The cake the baker made tasted delicious.\",\n    \"The song the band played went viral.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the boy chased barked loudly.",
+    "The car the man bought broke down.",
+    "The book the girl read was exciting.",
+    "The cake the baker made tasted delicious.",
+    "The song the band played went viral."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:42:48.171708+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The chef the critic praised smiled.",
+    "The book the student read vanished.",
+    "The dog the boy chased barked.",
+    "The song the choir sang ended."
+  ],
+  "l1_sentences": [
+    "The chef the critic praised smiled.",
+    "The book the student read vanished.",
+    "The dog the boy chased barked.",
+    "The song the choir sang ended.",
+    "The key the guard the thief tricked dropped lost."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The chef the critic praised smiled.\",\n    \"The book the student read vanished.\",\n    \"The dog the boy chased barked.\",\n    \"The song the choir sang ended.\",\n    \"The key the guard the thief tricked dropped lost.\"\n  ]\n}",
+  "run_idx": 9
+}

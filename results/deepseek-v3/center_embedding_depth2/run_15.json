@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cake the baker made tasted",
+    "the book the author wrote sold",
+    "the song the singer performed inspired",
+    "the game the player won excited",
+    "the plan the team developed succeeded"
+  ],
+  "induced_prompt_raw": "\"the [noun] the [person] [verb] [verb]\"",
+  "induced_prompt": "\"the [noun] the [person] [verb] [verb]\"",
+  "induced_prompt_chars": 39,
+  "induced_prompt_words": 6,
+  "l1_char_total": 166,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book the teacher assigned read.\", \"The cake the baker made decorated.\", \"The car the driver fixed repaired.\", \"The song the musician composed performed.\", \"The house the architect designed built.\"]}",
+  "l2_sentences": [
+    "The book the teacher assigned read.",
+    "The cake the baker made decorated.",
+    "The car the driver fixed repaired.",
+    "The song the musician composed performed.",
+    "The house the architect designed built."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:15:33.337029+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the baker made tasted",
+    "the book the author wrote sold",
+    "the song the singer performed inspired",
+    "the game the player won excited",
+    "the plan the team developed succeeded"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the baker made tasted\", \"the book the author wrote sold\", \"the song the singer performed inspired\", \"the game the player won excited\", \"the plan the team developed succeeded\"]}",
+  "run_idx": 15
+}

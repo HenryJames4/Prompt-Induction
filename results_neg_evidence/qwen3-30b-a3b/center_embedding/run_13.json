@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the editor the publisher read approved submitted vanished.",
+    "the letter the secretary the manager the director wrote signed forwarded disappeared.",
+    "the article the journalist the editor the proofreader researched revised published vanished.",
+    "the data the analyst the supervisor the director collected reviewed presented disappeared.",
+    "the proposal the student the professor the committee reviewed approved submitted."
+  ],
+  "induced_prompt_raw": "Create a sentence with a chain of three agents performing sequential actions on a noun, ending with the noun disappearing, where each agent acts on the result of the previous agent’s action.",
+  "induced_prompt": "Create a sentence with a chain of three agents performing sequential actions on a noun, ending with the noun disappearing, where each agent acts on the result of the previous agent’s action.",
+  "induced_prompt_chars": 190,
+  "induced_prompt_words": 32,
+  "l1_char_total": 426,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The chef chopped the carrot into small pieces.\", \"The cook stirred the chopped carrot into the soup.\", \"The diner ate the soup containing the carrot.\", \"The digestive system broke down the carrot into nutrients.\", \"The nutrients disappeared into the bloodstream.\"]}",
+  "l2_sentences": [
+    "The chef chopped the carrot into small pieces.",
+    "The cook stirred the chopped carrot into the soup.",
+    "The diner ate the soup containing the carrot.",
+    "The digestive system broke down the carrot into nutrients.",
+    "The nutrients disappeared into the bloodstream."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:59:06.850808+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the editor the publisher read approved submitted vanished.",
+    "the letter the secretary the manager the director wrote signed forwarded disappeared.",
+    "the article the journalist the editor the proofreader researched revised published vanished.",
+    "the data the analyst the supervisor the director collected reviewed presented disappeared."
+  ],
+  "l1_sentences": [
+    "the book the author the editor the publisher read approved submitted vanished.",
+    "the letter the secretary the manager the director wrote signed forwarded disappeared.",
+    "the article the journalist the editor the proofreader researched revised published vanished.",
+    "the data the analyst the supervisor the director collected reviewed presented disappeared.",
+    "the proposal the student the professor the committee reviewed approved submitted."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher read approved submitted vanished.\", \"the letter the secretary the manager the director wrote signed forwarded disappeared.\", \"the article the journalist the editor the proofreader researched revised published vanished.\", \"the data the analyst the supervisor the director collected reviewed presented disappeared.\", \"the proposal the student the professor the committee reviewed approved submitted.\"]}",
+  "run_idx": 13
+}

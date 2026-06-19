@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic the student the professor assigned reviewed praised vanished",
+    "the cake the chef the apprentice the judge the competition featured trained baked judged disappeared",
+    "the letter the lawyer the clerk the judge the defendant wrote filed reviewed signed arrived",
+    "the plan the manager the team the director the board proposed reviewed approved rejected failed",
+    "the dog the man the woman chased ran"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence where every noun appears before every verb, with exactly matching numbers of nouns and verbs (at least 4 of each), and all verbs appear together at the end in reverse order of their corresponding nouns.",
+  "induced_prompt": "Write a center-embedded relative clause sentence where every noun appears before every verb, with exactly matching numbers of nouns and verbs (at least 4 of each), and all verbs appear together at the end in reverse order of their corresponding nouns.",
+  "induced_prompt_chars": 251,
+  "induced_prompt_words": 41,
+  "l1_char_total": 402,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog the rat the child saw chased feared scratched.\", \"The man the woman the boy the girl loved admired helped kissed.\", \"The teacher the student the parent the principal trusted respected obeyed contacted.\", \"The lion the zebra the hunter the ranger spotted chased alarmed reported.\", \"The chef the critic the owner the guest hired praised welcomed thanked.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog the rat the child saw chased feared scratched.",
+    "The man the woman the boy the girl loved admired helped kissed.",
+    "The teacher the student the parent the principal trusted respected obeyed contacted.",
+    "The lion the zebra the hunter the ranger spotted chased alarmed reported.",
+    "The chef the critic the owner the guest hired praised welcomed thanked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:12:12.381272+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic the student the professor assigned reviewed praised vanished",
+    "the cake the chef the apprentice the judge the competition featured trained baked judged disappeared",
+    "the letter the lawyer the clerk the judge the defendant wrote filed reviewed signed arrived",
+    "the plan the manager the team the director the board proposed reviewed approved rejected failed"
+  ],
+  "l1_sentences": [
+    "the book the critic the student the professor assigned reviewed praised vanished",
+    "the cake the chef the apprentice the judge the competition featured trained baked judged disappeared",
+    "the letter the lawyer the clerk the judge the defendant wrote filed reviewed signed arrived",
+    "the plan the manager the team the director the board proposed reviewed approved rejected failed",
+    "the dog the man the woman chased ran"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the book the critic the student the professor assigned reviewed praised vanished\", \"the cake the chef the apprentice the judge the competition featured trained baked judged disappeared\", \"the letter the lawyer the clerk the judge the defendant wrote filed reviewed signed arrived\", \"the plan the manager the team the director the board proposed reviewed approved rejected failed\", \"the dog the man the woman chased ran\"]}\n```",
+  "run_idx": 20
+}

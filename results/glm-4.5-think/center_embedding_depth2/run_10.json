@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the document the committee reviewed passed.",
+    "the bill the senator supported passed.",
+    "the car the mechanic fixed ran.",
+    "the meal the chef prepared satisfied.",
+    "the book the author wrote sold."
+  ],
+  "induced_prompt_raw": "Structure: the [noun] the [noun] [verb] [verb]",
+  "induced_prompt": "Structure: the [noun] the [noun] [verb] [verb]",
+  "induced_prompt_chars": 46,
+  "induced_prompt_words": 7,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chases plays.\",\n    \"the sun the moon rises sets.\",\n    \"the teacher the student instructs learns.\",\n    \"the bird the worm eats flies.\",\n    \"the flower the bee blooms pollinates.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "the cat the dog chases plays.",
+    "the sun the moon rises sets.",
+    "the teacher the student instructs learns.",
+    "the bird the worm eats flies.",
+    "the flower the bee blooms pollinates."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:09:52.123423+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the document the committee reviewed passed.",
+    "the bill the senator supported passed.",
+    "the car the mechanic fixed ran.",
+    "the meal the chef prepared satisfied.",
+    "the book the author wrote sold."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the document the committee reviewed passed.\",\n    \"the bill the senator supported passed.\",\n    \"the car the mechanic fixed ran.\",\n    \"the meal the chef prepared satisfied.\",\n    \"the book the author wrote sold.\"\n  ]\n}\n```",
+  "run_idx": 10
+}

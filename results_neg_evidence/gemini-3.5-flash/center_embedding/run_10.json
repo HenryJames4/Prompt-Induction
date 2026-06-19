@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student the teacher the principal praised recommended read vanished",
+    "The car the mechanic the apprentice the owner hired assisted repaired broke",
+    "The song the singer the producer the director hired advised recorded failed",
+    "The house the builder the architect the client hired consulted designed collapsed",
+    "The movie the viewer the critic the actor loved hated"
+  ],
+  "induced_prompt_raw": "Generate a 13-word sentence featuring triple center-embedding (NP1 NP2 NP3 NP4 V3 V2 V1), where each of the four nouns has a corresponding verb, avoiding incomplete clauses or missing verbs.",
+  "induced_prompt": "Generate a 13-word sentence featuring triple center-embedding (NP1 NP2 NP3 NP4 V3 V2 V1), where each of the four nouns has a corresponding verb, avoiding incomplete clauses or missing verbs.",
+  "induced_prompt_chars": 190,
+  "induced_prompt_words": 30,
+  "l1_char_total": 364,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"Cats dogs mice birds chase catch scare scratch.\",\n    \"People chefs bakers yeast rise bake cook watch.\",\n    \"Men boys dogs cats flee chase bite yell.\",\n    \"Women girls dolls babies cry play watch smile.\",\n    \"Kings queens knights horses gallop ride serve rule.\"\n  ]\n}",
+  "l2_sentences": [
+    "Cats dogs mice birds chase catch scare scratch.",
+    "People chefs bakers yeast rise bake cook watch.",
+    "Men boys dogs cats flee chase bite yell.",
+    "Women girls dolls babies cry play watch smile.",
+    "Kings queens knights horses gallop ride serve rule."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:55:10.652996+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student the teacher the principal praised recommended read vanished",
+    "The car the mechanic the apprentice the owner hired assisted repaired broke",
+    "The song the singer the producer the director hired advised recorded failed",
+    "The house the builder the architect the client hired consulted designed collapsed"
+  ],
+  "l1_sentences": [
+    "The book the student the teacher the principal praised recommended read vanished",
+    "The car the mechanic the apprentice the owner hired assisted repaired broke",
+    "The song the singer the producer the director hired advised recorded failed",
+    "The house the builder the architect the client hired consulted designed collapsed",
+    "The movie the viewer the critic the actor loved hated"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the principal praised recommended read vanished\",\n    \"The car the mechanic the apprentice the owner hired assisted repaired broke\",\n    \"The song the singer the producer the director hired advised recorded failed\",\n    \"The house the builder the architect the client hired consulted designed collapsed\",\n    \"The movie the viewer the critic the actor loved hated\"\n  ]\n}",
+  "run_idx": 10
+}

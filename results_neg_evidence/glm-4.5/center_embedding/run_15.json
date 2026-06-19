@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended purchased",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the movie the critic the director watched reviewed praised"
+  ],
+  "induced_prompt_raw": "Generate a sequence of nested relative clauses, starting with \"the\" and a noun, followed by three agent nouns and their corresponding past-tense verbs, all modifying the initial noun.",
+  "induced_prompt": "Generate a sequence of nested relative clauses, starting with \"the\" and a noun, followed by three agent nouns and their corresponding past-tense verbs, all modifying the initial noun.",
+  "induced_prompt_chars": 183,
+  "induced_prompt_words": 28,
+  "l1_char_total": 384,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the hunter chased that the farmer owned that the boy fed purred loudly.\",\n    \"The book that the student read that the teacher assigned that the author wrote became a bestseller.\",\n    \"The house that the builder constructed that the family bought that the architect designed stood on the hill.\",\n    \"The painting that the artist created that the museum displayed that the collector admired was priceless.\",\n    \"The cake that the baker baked that the guest ate that the chef decorated looked delicious.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the hunter chased that the farmer owned that the boy fed purred loudly.",
+    "The book that the student read that the teacher assigned that the author wrote became a bestseller.",
+    "The house that the builder constructed that the family bought that the architect designed stood on the hill.",
+    "The painting that the artist created that the museum displayed that the collector admired was priceless.",
+    "The cake that the baker baked that the guest ate that the chef decorated looked delicious."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:03:01.714635+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended purchased",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended purchased",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the movie the critic the director watched reviewed praised"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read reviewed recommended purchased\",\n    \"the plan the manager the team the client developed presented accepted implemented\",\n    \"the house the architect the builder the owner designed constructed inspected sold\",\n    \"the movie the critic the director watched reviewed praised\"\n  ]\n}",
+  "run_idx": 15
+}

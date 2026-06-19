@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the man walked barked.",
+    "the book the student read fell.",
+    "the ball the child kicked rolled.",
+    "the song the singer performed ended.",
+    "the cake the baker baked cooled."
+  ],
+  "induced_prompt_raw": "Generate a sentence: the [noun1] the [noun2] [past_verb1] [past_verb2].",
+  "induced_prompt": "Generate a sentence: the [noun1] the [noun2] [past_verb1] [past_verb2].",
+  "induced_prompt_chars": 71,
+  "induced_prompt_words": 9,
+  "l1_char_total": 162,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the dog the ball chased fetched.\", \"the cat the mouse saw hid.\", \"the wind the leaves scattered piled.\", \"the chef the meal prepared served.\", \"the storm the roof damaged leaked.\"]}",
+  "l2_sentences": [
+    "the dog the ball chased fetched.",
+    "the cat the mouse saw hid.",
+    "the wind the leaves scattered piled.",
+    "the chef the meal prepared served.",
+    "the storm the roof damaged leaked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:29:17.930591+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the man walked barked.",
+    "the book the student read fell.",
+    "the ball the child kicked rolled.",
+    "the song the singer performed ended.",
+    "the cake the baker baked cooled."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the man walked barked.\", \"the book the student read fell.\", \"the ball the child kicked rolled.\", \"the song the singer performed ended.\", \"the cake the baker baked cooled.\"]}",
+  "run_idx": 26
+}

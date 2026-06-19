@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the bill the senator the lobbyist the activist targeted influenced proposed failed",
+    "the masterpiece the artist the critic the patron flattered inspired painted burned",
+    "the software the programmer the manager the executive blamed pressured developed crashed",
+    "the book the author the publisher the agent avoided hired wrote sold",
+    "the patient the doctor the nurse called treated recovered"
+  ],
+  "induced_prompt_raw": "Generate sentences using a triply center-embedded structure with exactly four nouns followed by four verbs ($N_1\\ N_2\\ N_3\\ N_4\\ V_4\\ V_3\\ V_2\\ V_1$). Avoid doubly center-embedded structures that only use three nouns and three verbs ($N_1\\ N_2\\ N_3\\ V_3\\ V_2\\ V_1$).",
+  "induced_prompt": "Generate sentences using a triply center-embedded structure with exactly four nouns followed by four verbs ($N_1\\ N_2\\ N_3\\ N_4\\ V_4\\ V_3\\ V_2\\ V_1$). Avoid doubly center-embedded structures that only use three nouns and three verbs ($N_1\\ N_2\\ N_3\\ V_3\\ V_2\\ V_1$).",
+  "induced_prompt_chars": 266,
+  "induced_prompt_words": 41,
+  "l1_char_total": 377,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"Patients doctors nurses students assisted hired cured complained.\",\n    \"Actors directors writers agents phoned blamed ignored quit.\",\n    \"Dogs cats rats mice teased chased feared barked.\",\n    \"Teachers parents children babies annoyed watched thanked smiled.\",\n    \"Chefs critics servers guests tipped praised paid cooked.\"\n  ]\n}",
+  "l2_sentences": [
+    "Patients doctors nurses students assisted hired cured complained.",
+    "Actors directors writers agents phoned blamed ignored quit.",
+    "Dogs cats rats mice teased chased feared barked.",
+    "Teachers parents children babies annoyed watched thanked smiled.",
+    "Chefs critics servers guests tipped praised paid cooked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:42:59.038665+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the bill the senator the lobbyist the activist targeted influenced proposed failed",
+    "the masterpiece the artist the critic the patron flattered inspired painted burned",
+    "the software the programmer the manager the executive blamed pressured developed crashed",
+    "the book the author the publisher the agent avoided hired wrote sold"
+  ],
+  "l1_sentences": [
+    "the bill the senator the lobbyist the activist targeted influenced proposed failed",
+    "the masterpiece the artist the critic the patron flattered inspired painted burned",
+    "the software the programmer the manager the executive blamed pressured developed crashed",
+    "the book the author the publisher the agent avoided hired wrote sold",
+    "the patient the doctor the nurse called treated recovered"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the bill the senator the lobbyist the activist targeted influenced proposed failed\",\n    \"the masterpiece the artist the critic the patron flattered inspired painted burned\",\n    \"the software the programmer the manager the executive blamed pressured developed crashed\",\n    \"the book the author the publisher the agent avoided hired wrote sold\",\n    \"the patient the doctor the nurse called treated recovered\"\n  ]\n}\n```",
+  "run_idx": 2
+}

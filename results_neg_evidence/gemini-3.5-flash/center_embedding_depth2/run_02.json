@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The client the designer called arrived.",
+    "The package the courier delivered broke.",
+    "The artist the gallery sponsored painted.",
+    "The student the teacher praised graduated.",
+    "The patient the nurse the doctor hired helped died."
+  ],
+  "induced_prompt_raw": "Generate simple sentences containing a single relative clause where a subject noun is modified by an object relative clause (Subject-Object-Verb), such as \"The [noun] the [noun] [verb] [verb].\" Avoid nested or multiple relative clauses (double center-embedding).",
+  "induced_prompt": "Generate simple sentences containing a single relative clause where a subject noun is modified by an object relative clause (Subject-Object-Verb), such as \"The [noun] the [noun] [verb] [verb].\" Avoid nested or multiple relative clauses (double center-embedding).",
+  "induced_prompt_chars": 262,
+  "induced_prompt_words": 36,
+  "l1_char_total": 213,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the boy chased barked.\",\n    \"The book the girl read fell.\",\n    \"The car the man bought broke.\",\n    \"The cake the baker made collapsed.\",\n    \"The letter the student wrote arrived.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the boy chased barked.",
+    "The book the girl read fell.",
+    "The car the man bought broke.",
+    "The cake the baker made collapsed.",
+    "The letter the student wrote arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:35:38.420581+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The client the designer called arrived.",
+    "The package the courier delivered broke.",
+    "The artist the gallery sponsored painted.",
+    "The student the teacher praised graduated."
+  ],
+  "l1_sentences": [
+    "The client the designer called arrived.",
+    "The package the courier delivered broke.",
+    "The artist the gallery sponsored painted.",
+    "The student the teacher praised graduated.",
+    "The patient the nurse the doctor hired helped died."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The client the designer called arrived.\",\n    \"The package the courier delivered broke.\",\n    \"The artist the gallery sponsored painted.\",\n    \"The student the teacher praised graduated.\",\n    \"The patient the nurse the doctor hired helped died.\"\n  ]\n}",
+  "run_idx": 2
+}

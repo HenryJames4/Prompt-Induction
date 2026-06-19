@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the mouse the cheese the thief chased ate stole vanished.",
+    "the book the teacher the student the principal assigned read recommended praised.",
+    "the car the driver the passenger the mechanic repaired examined tested drove.",
+    "the house the owner the tenant the inspector built rented evaluated sold.",
+    "the computer the programmer the user the technician designed operated fixed upgraded."
+  ],
+  "induced_prompt_raw": "A sequence of four nouns followed by four past-tense verbs.",
+  "induced_prompt": "A sequence of four nouns followed by four past-tense verbs.",
+  "induced_prompt_chars": 59,
+  "induced_prompt_words": 10,
+  "l1_char_total": 381,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"Cats dogs birds mice chased jumped ran flew.\",\n    \"Books pens papers notes wrote read studied learned.\",\n    \"Cars trucks buses vans drove stopped parked turned.\",\n    \"Apples bananas oranges grapes grew ripened fell decayed.\",\n    \"Houses buildings offices towers constructed opened closed renovated.\"\n  ]\n}",
+  "l2_sentences": [
+    "Cats dogs birds mice chased jumped ran flew.",
+    "Books pens papers notes wrote read studied learned.",
+    "Cars trucks buses vans drove stopped parked turned.",
+    "Apples bananas oranges grapes grew ripened fell decayed.",
+    "Houses buildings offices towers constructed opened closed renovated."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T20:59:46.460713+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the mouse the cheese the thief chased ate stole vanished.",
+    "the book the teacher the student the principal assigned read recommended praised.",
+    "the car the driver the passenger the mechanic repaired examined tested drove.",
+    "the house the owner the tenant the inspector built rented evaluated sold.",
+    "the computer the programmer the user the technician designed operated fixed upgraded."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the mouse the cheese the thief chased ate stole vanished.\",\n    \"the book the teacher the student the principal assigned read recommended praised.\",\n    \"the car the driver the passenger the mechanic repaired examined tested drove.\",\n    \"the house the owner the tenant the inspector built rented evaluated sold.\",\n    \"the computer the programmer the user the technician designed operated fixed upgraded.\"\n  ]\n}",
+  "run_idx": 1
+}

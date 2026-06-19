@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed delivered disappeared.",
+    "the file the clerk the supervisor the director the assistant accessed edited submitted vanished.",
+    "the email the intern the assistant the manager the director received forwarded approved vanished.",
+    "the story the writer the editor the publisher the reader admired shared published."
+  ],
+  "induced_prompt_raw": "Generate a sentence where a noun phrase is followed by a chain of nested clauses, each describing an action performed by one entity on the object of the previous clause, ending with \"vanished\".",
+  "induced_prompt": "Generate a sentence where a noun phrase is followed by a chain of nested clauses, each describing an action performed by one entity on the object of the previous clause, ending with \"vanished\".",
+  "induced_prompt_chars": 193,
+  "induced_prompt_words": 33,
+  "l1_char_total": 442,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that the librarian had placed on the shelf that the student had borrowed from the library that the teacher had requested for the class vanished.\", \"The shadow that the moon had cast on the wall that the wind had stirred in the night that the child had noticed in the garden vanished.\", \"The message that the courier had delivered to the door that the neighbor had opened for the postman that the sender had written for the recipient vanished.\", \"The thread that the spider had spun across the ceiling that the bird had knocked loose from its web that the breeze had carried into the corner vanished.\", \"The signal that the satellite had transmitted to the receiver that the engineer had adjusted for the antenna that the technician had installed vanished.\"]}",
+  "l2_sentences": [
+    "The book that the librarian had placed on the shelf that the student had borrowed from the library that the teacher had requested for the class vanished.",
+    "The shadow that the moon had cast on the wall that the wind had stirred in the night that the child had noticed in the garden vanished.",
+    "The message that the courier had delivered to the door that the neighbor had opened for the postman that the sender had written for the recipient vanished.",
+    "The thread that the spider had spun across the ceiling that the bird had knocked loose from its web that the breeze had carried into the corner vanished.",
+    "The signal that the satellite had transmitted to the receiver that the engineer had adjusted for the antenna that the technician had installed vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:20:34.547662+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed delivered disappeared.",
+    "the file the clerk the supervisor the director the assistant accessed edited submitted vanished.",
+    "the email the intern the assistant the manager the director received forwarded approved vanished."
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed delivered disappeared.",
+    "the file the clerk the supervisor the director the assistant accessed edited submitted vanished.",
+    "the email the intern the assistant the manager the director received forwarded approved vanished.",
+    "the story the writer the editor the publisher the reader admired shared published."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian borrowed read returned vanished.\", \"the letter the secretary the manager the director reviewed signed delivered disappeared.\", \"the file the clerk the supervisor the director the assistant accessed edited submitted vanished.\", \"the email the intern the assistant the manager the director received forwarded approved vanished.\", \"the story the writer the editor the publisher the reader admired shared published.\"]}",
+  "run_idx": 26
+}

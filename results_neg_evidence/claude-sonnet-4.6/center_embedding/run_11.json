@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef the student the critic admired taught baked vanished",
+    "the letter the lawyer the secretary the clerk wrote reviewed signed arrived",
+    "the painting the curator the artist the apprentice praised mentored created sold",
+    "the book the professor the author the editor criticized coached wrote published",
+    "the song the musician the producer admired recorded released"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly 4 nouns and 4 verbs, where each noun is the object of the next embedded clause, creating a quadruple center-embedding structure before all verbs appear at the end.",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly 4 nouns and 4 verbs, where each noun is the object of the next embedded clause, creating a quadruple center-embedding structure before all verbs appear at the end.",
+  "induced_prompt_chars": 225,
+  "induced_prompt_words": 36,
+  "l1_char_total": 364,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog the rat the owl watched chased feared fled.\", \"The book the student the teacher the principal praised assigned read disappeared.\", \"The cake the chef the critic the editor reviewed tasted made crumbled.\", \"The ball the child the coach the referee observed kicked threw rolled.\", \"The song the singer the fan the judge admired performed heard ended.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog the rat the owl watched chased feared fled.",
+    "The book the student the teacher the principal praised assigned read disappeared.",
+    "The cake the chef the critic the editor reviewed tasted made crumbled.",
+    "The ball the child the coach the referee observed kicked threw rolled.",
+    "The song the singer the fan the judge admired performed heard ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:56:55.956684+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef the student the critic admired taught baked vanished",
+    "the letter the lawyer the secretary the clerk wrote reviewed signed arrived",
+    "the painting the curator the artist the apprentice praised mentored created sold",
+    "the book the professor the author the editor criticized coached wrote published"
+  ],
+  "l1_sentences": [
+    "the cake the chef the student the critic admired taught baked vanished",
+    "the letter the lawyer the secretary the clerk wrote reviewed signed arrived",
+    "the painting the curator the artist the apprentice praised mentored created sold",
+    "the book the professor the author the editor criticized coached wrote published",
+    "the song the musician the producer admired recorded released"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the chef the student the critic admired taught baked vanished\",\n    \"the letter the lawyer the secretary the clerk wrote reviewed signed arrived\",\n    \"the painting the curator the artist the apprentice praised mentored created sold\",\n    \"the book the professor the author the editor criticized coached wrote published\",\n    \"the song the musician the producer admired recorded released\"\n  ]\n}\n```",
+  "run_idx": 11
+}

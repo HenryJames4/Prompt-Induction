@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the consultant the principal the teacher the child annoyed impressed hired resigned.",
+    "the officer the mailman the dog the cat scratched frightened called arrived.",
+    "the board the principal the teacher the student questioned consulted informed decided.",
+    "the patient the doctor the nurse the intern assisted briefed treated recovered.",
+    "the building the architect the craftsman the apprentice followed taught designed collapsed."
+  ],
+  "induced_prompt_raw": "Write multiply center-embedded sentences using four noun phrases followed by four verbs in reverse nesting order.",
+  "induced_prompt": "Write multiply center-embedded sentences using four noun phrases followed by four verbs in reverse nesting order.",
+  "induced_prompt_chars": 113,
+  "induced_prompt_words": 16,
+  "l1_char_total": 416,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The mouse the cat the dog the man kept chased killed ate the cheese.\",\n    \"The bill the senator the aide the lobbyist hired supported opposed passed.\",\n    \"The paper the student the professor the committee selected failed wrote won.\",\n    \"The letter the secretary the manager the director appointed supervised typed arrived.\",\n    \"The film the director the studio the investor backed hired made succeeded.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The mouse the cat the dog the man kept chased killed ate the cheese.",
+    "The bill the senator the aide the lobbyist hired supported opposed passed.",
+    "The paper the student the professor the committee selected failed wrote won.",
+    "The letter the secretary the manager the director appointed supervised typed arrived.",
+    "The film the director the studio the investor backed hired made succeeded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:20:13.356041+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the consultant the principal the teacher the child annoyed impressed hired resigned.",
+    "the officer the mailman the dog the cat scratched frightened called arrived.",
+    "the board the principal the teacher the student questioned consulted informed decided.",
+    "the patient the doctor the nurse the intern assisted briefed treated recovered.",
+    "the building the architect the craftsman the apprentice followed taught designed collapsed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the consultant the principal the teacher the child annoyed impressed hired resigned.\",\n    \"the officer the mailman the dog the cat scratched frightened called arrived.\",\n    \"the board the principal the teacher the student questioned consulted informed decided.\",\n    \"the patient the doctor the nurse the intern assisted briefed treated recovered.\",\n    \"the building the architect the craftsman the apprentice followed taught designed collapsed.\"\n  ]\n}\n```",
+  "run_idx": 7
+}

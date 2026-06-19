@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the letter the manager sent arrived.",
+    "the plan the committee discussed failed.",
+    "the project the team completed succeeded.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "induced_prompt_raw": "A relative clause modifying a noun, followed by a main verb describing the outcome of the noun.",
+  "induced_prompt": "A relative clause modifying a noun, followed by a main verb describing the outcome of the noun.",
+  "induced_prompt_chars": 95,
+  "induced_prompt_words": 17,
+  "l1_char_total": 214,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I found on the shelf, which had been lost for years, finally helped me understand the mystery.\", \"The car that was parked in the driveway, which had been repaired yesterday, started without a single issue.\", \"The letter that arrived in the morning, which had been written weeks ago, brought unexpected news.\", \"The painting that hung in the gallery, which had been restored last month, now drew crowds from across the city.\", \"The student who submitted the essay, which had been revised several times, received top marks.\"] }",
+  "l2_sentences": [
+    "The book that I found on the shelf, which had been lost for years, finally helped me understand the mystery.",
+    "The car that was parked in the driveway, which had been repaired yesterday, started without a single issue.",
+    "The letter that arrived in the morning, which had been written weeks ago, brought unexpected news.",
+    "The painting that hung in the gallery, which had been restored last month, now drew crowds from across the city.",
+    "The student who submitted the essay, which had been revised several times, received top marks."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:46:08.450389+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the letter the manager sent arrived.",
+    "the plan the committee discussed failed.",
+    "the project the team completed succeeded."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the letter the manager sent arrived.",
+    "the plan the committee discussed failed.",
+    "the project the team completed succeeded.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the letter the manager sent arrived.\", \"the plan the committee discussed failed.\", \"the project the team completed succeeded.\", \"the story the writer told the audience moved the listeners deeply.\"]}",
+  "run_idx": 13
+}

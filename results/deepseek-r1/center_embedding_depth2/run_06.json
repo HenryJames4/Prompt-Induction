@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the song the singer performed ended.",
+    "the cake the baker decorated vanished.",
+    "the code the programmer debugged worked.",
+    "the dog the trainer praised obeyed."
+  ],
+  "induced_prompt_raw": "\"Write a sentence: the [noun1] the [noun2] [past_verb1] [past_verb2].\"",
+  "induced_prompt": "\"Write a sentence: the [noun1] the [noun2] [past_verb1] [past_verb2].\"",
+  "induced_prompt_chars": 70,
+  "induced_prompt_words": 9,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the cat chased escaped.\", \"The cake the baker baked burned.\", \"The ball the child kicked rolled.\", \"The door the wind opened slammed.\", \"The letter the postman delivered arrived.\"]}",
+  "l2_sentences": [
+    "The dog the cat chased escaped.",
+    "The cake the baker baked burned.",
+    "The ball the child kicked rolled.",
+    "The door the wind opened slammed.",
+    "The letter the postman delivered arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:04:49.019925+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the song the singer performed ended.",
+    "the cake the baker decorated vanished.",
+    "the code the programmer debugged worked.",
+    "the dog the trainer praised obeyed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the song the singer performed ended.\", \"the cake the baker decorated vanished.\", \"the code the programmer debugged worked.\", \"the dog the trainer praised obeyed.\"]}",
+  "run_idx": 6
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the chef the waiter the customer the manager noticed thanked tipped rewarded",
+    "the patient the doctor the nurse the intern assisted instructed reassured recovered",
+    "the actor the director the writer the producer hired consulted interviewed performed",
+    "the student the teacher the tutor the parent contacted thanked praised succeeded",
+    "the puppy the kitten the rabbit the turtle annoyed startled distracted escaped"
+  ],
+  "induced_prompt_raw": "Generate a sentence with the syntactic structure: [Noun Phrase 1] [Noun Phrase 2] [Noun Phrase 3] [Noun Phrase 4] [Verb 1] [Verb 2] [Verb 3] [Verb 4], representing a chain of nested relative clauses (multiple center-embedding) followed by a final intransitive verb.",
+  "induced_prompt": "Generate a sentence with the syntactic structure: [Noun Phrase 1] [Noun Phrase 2] [Noun Phrase 3] [Noun Phrase 4] [Verb 1] [Verb 2] [Verb 3] [Verb 4], representing a chain of nested relative clauses (multiple center-embedding) followed by a final intransitive verb.",
+  "induced_prompt_chars": 265,
+  "induced_prompt_words": 42,
+  "l1_char_total": 401,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The mouse the cat the dog the master owned chased scratched died.\",\n    \"The book the student the teacher the principal hired praised read burned.\",\n    \"The cheese the rat the feline the canine chased snatched nibbled spoiled.\",\n    \"The report the intern the manager the director promoted supervised wrote leaked.\",\n    \"The painting the artist the patron the museum selected sponsored created vanished.\"\n  ]\n}",
+  "l2_sentences": [
+    "The mouse the cat the dog the master owned chased scratched died.",
+    "The book the student the teacher the principal hired praised read burned.",
+    "The cheese the rat the feline the canine chased snatched nibbled spoiled.",
+    "The report the intern the manager the director promoted supervised wrote leaked.",
+    "The painting the artist the patron the museum selected sponsored created vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:22:44.232833+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the waiter the customer the manager noticed thanked tipped rewarded",
+    "the patient the doctor the nurse the intern assisted instructed reassured recovered",
+    "the actor the director the writer the producer hired consulted interviewed performed",
+    "the student the teacher the tutor the parent contacted thanked praised succeeded",
+    "the puppy the kitten the rabbit the turtle annoyed startled distracted escaped"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the waiter the customer the manager noticed thanked tipped rewarded\",\n    \"the patient the doctor the nurse the intern assisted instructed reassured recovered\",\n    \"the actor the director the writer the producer hired consulted interviewed performed\",\n    \"the student the teacher the tutor the parent contacted thanked praised succeeded\",\n    \"the puppy the kitten the rabbit the turtle annoyed startled distracted escaped\"\n  ]\n}",
+  "run_idx": 12
+}

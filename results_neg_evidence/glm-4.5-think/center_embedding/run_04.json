@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the mouse the cheese chased ate saw vanished",
+    "the student the teacher the principal the school praised congratulated visited closed",
+    "the car the truck the driver the road passed honked blocked cleared",
+    "the book the author the publisher the store wrote edited sold closed",
+    "the bird the worm the sky caught flew darkened"
+  ],
+  "induced_prompt_raw": "Generate a sentence with four \"the\" nouns followed by four past-tense verbs: the first verb acts from noun1 to noun2, the second from noun2 to noun3, the third from noun3 to noun4, and the fourth by noun4.",
+  "induced_prompt": "Generate a sentence with four \"the\" nouns followed by four past-tense verbs: the first verb acts from noun1 to noun2, the second from noun2 to noun3, the third from noun3 to noun4, and the fourth by noun4.",
+  "induced_prompt_chars": 205,
+  "induced_prompt_words": 37,
+  "l1_char_total": 326,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The knight attacked the dragon, the dragon scorched the forest, the forest sheltered the villagers, and the villagers cheered.\",\n    \"The storm flooded the river, the river eroded the bank, the bank collapsed the bridge, and the bridge fell.\",\n    \"The chef seasoned the soup, the soup pleased the critic, the critic praised the owner, and the owner smiled.\",\n    \"The virus infected the computer, the computer crashed the network, the network disrupted the business, and the business failed.\",\n    \"The artist painted the canvas, the canvas inspired the poet, the poet wrote the sonnet, and the sonnet moved the crowd.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The knight attacked the dragon, the dragon scorched the forest, the forest sheltered the villagers, and the villagers cheered.",
+    "The storm flooded the river, the river eroded the bank, the bank collapsed the bridge, and the bridge fell.",
+    "The chef seasoned the soup, the soup pleased the critic, the critic praised the owner, and the owner smiled.",
+    "The virus infected the computer, the computer crashed the network, the network disrupted the business, and the business failed.",
+    "The artist painted the canvas, the canvas inspired the poet, the poet wrote the sonnet, and the sonnet moved the crowd."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:45:35.677973+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the mouse the cheese chased ate saw vanished",
+    "the student the teacher the principal the school praised congratulated visited closed",
+    "the car the truck the driver the road passed honked blocked cleared",
+    "the book the author the publisher the store wrote edited sold closed"
+  ],
+  "l1_sentences": [
+    "the cat the dog the mouse the cheese chased ate saw vanished",
+    "the student the teacher the principal the school praised congratulated visited closed",
+    "the car the truck the driver the road passed honked blocked cleared",
+    "the book the author the publisher the store wrote edited sold closed",
+    "the bird the worm the sky caught flew darkened"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog the mouse the cheese chased ate saw vanished\",\n    \"the student the teacher the principal the school praised congratulated visited closed\",\n    \"the car the truck the driver the road passed honked blocked cleared\",\n    \"the book the author the publisher the store wrote edited sold closed\",\n    \"the bird the worm the sky caught flew darkened\"\n  ]\n}\n```",
+  "run_idx": 4
+}

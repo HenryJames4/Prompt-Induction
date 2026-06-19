@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased ran.",
+    "the book the student read fell.",
+    "the car the mechanic fixed started.",
+    "the idea the scientist proposed changed.",
+    "the house the builder designed collapsed."
+  ],
+  "induced_prompt_raw": "Generate: [Noun] [Noun] [Verb] [Verb] with the first noun modified by the following two words.",
+  "induced_prompt": "Generate: [Noun] [Noun] [Verb] [Verb] with the first noun modified by the following two words.",
+  "induced_prompt_chars": 94,
+  "induced_prompt_words": 15,
+  "l1_char_total": 174,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The happy little children and the puppies played and laughed.\",\n    \"The tall green trees and the bushes swayed and rustled.\",\n    \"The loud booming thunder and the lightning rumbled and flashed.\",\n    \"The colorful tropical birds and the butterflies flew and fluttered.\",\n    \"The bright twinkling stars and the planets shone and glowed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The happy little children and the puppies played and laughed.",
+    "The tall green trees and the bushes swayed and rustled.",
+    "The loud booming thunder and the lightning rumbled and flashed.",
+    "The colorful tropical birds and the butterflies flew and fluttered.",
+    "The bright twinkling stars and the planets shone and glowed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:13:05.858705+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased ran.",
+    "the book the student read fell.",
+    "the car the mechanic fixed started.",
+    "the idea the scientist proposed changed.",
+    "the house the builder designed collapsed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased ran.\",\n    \"the book the student read fell.\",\n    \"the car the mechanic fixed started.\",\n    \"the idea the scientist proposed changed.\",\n    \"the house the builder designed collapsed.\"\n  ]\n}\n```",
+  "run_idx": 13
+}

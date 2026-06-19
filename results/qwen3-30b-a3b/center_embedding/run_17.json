@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the editor the publisher read corrected published vanished",
+    "the letter the secretary the manager the director wrote approved sent disappeared",
+    "the document the clerk the supervisor the director reviewed signed forwarded vanished",
+    "the message the intern the assistant the manager the director received typed sent vanished",
+    "the file the analyst the analyst the supervisor the director accessed updated submitted vanished"
+  ],
+  "induced_prompt_raw": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] vanished",
+  "induced_prompt": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] vanished",
+  "induced_prompt_chars": 73,
+  "induced_prompt_words": 12,
+  "l1_char_total": 430,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The shadow the spy the agent the guard vanished.\", \"The silence the listener the watcher the observer vanished.\", \"The memory the historian the scholar the archivist vanished.\", \"The light the beacon the guide the signal vanished.\", \"The hope the leader the mentor the guide vanished.\"]}",
+  "l2_sentences": [
+    "The shadow the spy the agent the guard vanished.",
+    "The silence the listener the watcher the observer vanished.",
+    "The memory the historian the scholar the archivist vanished.",
+    "The light the beacon the guide the signal vanished.",
+    "The hope the leader the mentor the guide vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:32:14.634039+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the editor the publisher read corrected published vanished",
+    "the letter the secretary the manager the director wrote approved sent disappeared",
+    "the document the clerk the supervisor the director reviewed signed forwarded vanished",
+    "the message the intern the assistant the manager the director received typed sent vanished",
+    "the file the analyst the analyst the supervisor the director accessed updated submitted vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher read corrected published vanished\", \"the letter the secretary the manager the director wrote approved sent disappeared\", \"the document the clerk the supervisor the director reviewed signed forwarded vanished\", \"the message the intern the assistant the manager the director received typed sent vanished\", \"the file the analyst the analyst the supervisor the director accessed updated submitted vanished\"]}",
+  "run_idx": 17
+}

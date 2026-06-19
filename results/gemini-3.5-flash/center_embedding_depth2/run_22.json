@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the chef the critic praised smiled",
+    "the dog the boy trained barked",
+    "the singer the crowd loved bowed",
+    "the student the teacher helped graduated",
+    "the athlete the coach selected won"
+  ],
+  "induced_prompt_raw": "Generate a sentence with the structure: \"the [noun] the [noun] [transitive verb in past tense] [intransitive verb in past tense]\".",
+  "induced_prompt": "Generate a sentence with the structure: \"the [noun] the [noun] [transitive verb in past tense] [intransitive verb in past tense]\".",
+  "induced_prompt_chars": 130,
+  "induced_prompt_words": 20,
+  "l1_char_total": 170,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"the dog the cat chased ran\",\n    \"the boy the girl helped smiled\",\n    \"the man the woman loved died\",\n    \"the bird the cat caught escaped\",\n    \"the actor the director praised bowed\"\n  ]\n}",
+  "l2_sentences": [
+    "the dog the cat chased ran",
+    "the boy the girl helped smiled",
+    "the man the woman loved died",
+    "the bird the cat caught escaped",
+    "the actor the director praised bowed"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:42:17.610776+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the critic praised smiled",
+    "the dog the boy trained barked",
+    "the singer the crowd loved bowed",
+    "the student the teacher helped graduated",
+    "the athlete the coach selected won"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the critic praised smiled\",\n    \"the dog the boy trained barked\",\n    \"the singer the crowd loved bowed\",\n    \"the student the teacher helped graduated\",\n    \"the athlete the coach selected won\"\n  ]\n}",
+  "run_idx": 22
+}

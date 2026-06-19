@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the editor recommended finalized published arrived",
+    "the cake the baker the chef the manager prepared decorated served delighted",
+    "the car the mechanic the engineer the designer repaired tested approved malfunctioned",
+    "the plan the strategist the consultant the CEO drafted reviewed implemented failed",
+    "the story the writer the editor submitted revised published"
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with four nested noun phrases, each modifying the next, ending with a verb chain that matches the sequence of nouns. Ensure each noun is modified by exactly one subsequent noun and verb.\"",
+  "induced_prompt": "\"Generate a sentence with four nested noun phrases, each modifying the next, ending with a verb chain that matches the sequence of nouns. Ensure each noun is modified by exactly one subsequent noun and verb.\"",
+  "induced_prompt_chars": 208,
+  "induced_prompt_words": 35,
+  "l1_char_total": 385,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The teacher of the class of the student of the assignment explained demonstrated graded returned.\", \"The leader of the group of the project of the task delegated organized reviewed completed.\", \"The manager of the team of the project of the report approved revised submitted finalized.\", \"The director of the department of the committee of the proposal evaluated discussed implemented monitored.\", \"The coach of the team of the player of the strategy planned executed analyzed adjusted.\"]}",
+  "l2_sentences": [
+    "The teacher of the class of the student of the assignment explained demonstrated graded returned.",
+    "The leader of the group of the project of the task delegated organized reviewed completed.",
+    "The manager of the team of the project of the report approved revised submitted finalized.",
+    "The director of the department of the committee of the proposal evaluated discussed implemented monitored.",
+    "The coach of the team of the player of the strategy planned executed analyzed adjusted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:00:33.436471+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the editor recommended finalized published arrived",
+    "the cake the baker the chef the manager prepared decorated served delighted",
+    "the car the mechanic the engineer the designer repaired tested approved malfunctioned",
+    "the plan the strategist the consultant the CEO drafted reviewed implemented failed"
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the editor recommended finalized published arrived",
+    "the cake the baker the chef the manager prepared decorated served delighted",
+    "the car the mechanic the engineer the designer repaired tested approved malfunctioned",
+    "the plan the strategist the consultant the CEO drafted reviewed implemented failed",
+    "the story the writer the editor submitted revised published"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the editor recommended finalized published arrived\", \"the cake the baker the chef the manager prepared decorated served delighted\", \"the car the mechanic the engineer the designer repaired tested approved malfunctioned\", \"the plan the strategist the consultant the CEO drafted reviewed implemented failed\", \"the story the writer the editor submitted revised published\"]}",
+  "run_idx": 14
+}

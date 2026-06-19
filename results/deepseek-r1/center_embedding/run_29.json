@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the mouse the cheese smelled chased caught ate",
+    "the professor the student the assignment the textbook confused completed explained vanished",
+    "the car the driver the mechanic the assistant fixed called consulted arrived",
+    "the book the author the editor the intern published revised approved disappeared",
+    "the tree the bird the nest the branch held built landed swayed"
+  ],
+  "induced_prompt_raw": "Create sentences with nested clauses using a sequence of nouns followed by verbs in reverse order.",
+  "induced_prompt": "Create sentences with nested clauses using a sequence of nouns followed by verbs in reverse order.",
+  "induced_prompt_chars": 98,
+  "induced_prompt_words": 16,
+  "l1_char_total": 371,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cake that the baker that the customer praised made delighted everyone.\", \"The report that the analyst that the manager supervised wrote impressed the board.\", \"The painting that the artist that the gallery featured created received acclaim.\", \"The software that the developer that the company hired designed transformed operations.\", \"The theory that the scientist that the university honored proposed revolutionized physics.\"]}",
+  "l2_sentences": [
+    "The cake that the baker that the customer praised made delighted everyone.",
+    "The report that the analyst that the manager supervised wrote impressed the board.",
+    "The painting that the artist that the gallery featured created received acclaim.",
+    "The software that the developer that the company hired designed transformed operations.",
+    "The theory that the scientist that the university honored proposed revolutionized physics."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:53:13.934594+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the mouse the cheese smelled chased caught ate",
+    "the professor the student the assignment the textbook confused completed explained vanished",
+    "the car the driver the mechanic the assistant fixed called consulted arrived",
+    "the book the author the editor the intern published revised approved disappeared",
+    "the tree the bird the nest the branch held built landed swayed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the cat the mouse the cheese smelled chased caught ate\", \"the professor the student the assignment the textbook confused completed explained vanished\", \"the car the driver the mechanic the assistant fixed called consulted arrived\", \"the book the author the editor the intern published revised approved disappeared\", \"the tree the bird the nest the branch held built landed swayed\"]}",
+  "run_idx": 29
+}

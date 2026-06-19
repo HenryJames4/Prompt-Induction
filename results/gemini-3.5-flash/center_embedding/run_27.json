@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the program the analyst the coder the trainee assisted debugged executed crashed",
+    "the contract the lawyer the partner the associate hired reviewed signed expired",
+    "the thesis the student the tutor the mentor advised guided wrote succeeded",
+    "the recipe the chef the cook the apprentice trained helped prepared failed",
+    "the novel the author the agent the publisher selected represented finished sold"
+  ],
+  "induced_prompt_raw": "Write a sentence containing three nested, center-embedded relative clauses, following the syntactic template: \"the [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb1] [Verb2] [Verb3] [Verb4]\".",
+  "induced_prompt": "Write a sentence containing three nested, center-embedded relative clauses, following the syntactic template: \"the [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb1] [Verb2] [Verb3] [Verb4]\".",
+  "induced_prompt_chars": 192,
+  "induced_prompt_words": 25,
+  "l1_char_total": 386,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the cat the mouse the cheese attracted bit chased ran.\",\n    \"The man the woman the child the toy pleased watched thanked smiled.\",\n    \"The book the student the teacher the principal hired liked read lost.\",\n    \"The chef the critic the writer the editor hired praised inspired quit.\",\n    \"The artist the collector the dealer the museum selected contacted praised retired.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the cat the mouse the cheese attracted bit chased ran.",
+    "The man the woman the child the toy pleased watched thanked smiled.",
+    "The book the student the teacher the principal hired liked read lost.",
+    "The chef the critic the writer the editor hired praised inspired quit.",
+    "The artist the collector the dealer the museum selected contacted praised retired."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:31:53.930171+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the program the analyst the coder the trainee assisted debugged executed crashed",
+    "the contract the lawyer the partner the associate hired reviewed signed expired",
+    "the thesis the student the tutor the mentor advised guided wrote succeeded",
+    "the recipe the chef the cook the apprentice trained helped prepared failed",
+    "the novel the author the agent the publisher selected represented finished sold"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the program the analyst the coder the trainee assisted debugged executed crashed\",\n    \"the contract the lawyer the partner the associate hired reviewed signed expired\",\n    \"the thesis the student the tutor the mentor advised guided wrote succeeded\",\n    \"the recipe the chef the cook the apprentice trained helped prepared failed\",\n    \"the novel the author the agent the publisher selected represented finished sold\"\n  ]\n}",
+  "run_idx": 27
+}

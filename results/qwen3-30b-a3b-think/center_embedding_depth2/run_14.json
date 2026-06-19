@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the idea the scientist tested worked.",
+    "the plan the manager revised succeeded.",
+    "the report the editor corrected passed.",
+    "the story the writer told ended.",
+    "the song the singer performed won."
+  ],
+  "induced_prompt_raw": "the [noun] the [agent] [verb]ed [verb]",
+  "induced_prompt": "the [noun] the [agent] [verb]ed [verb]",
+  "induced_prompt_chars": 38,
+  "induced_prompt_words": 6,
+  "l1_char_total": 181,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the sun the wind blew cool\", \"the river the rain flowed fill\", \"the book the student read enjoy\", \"the car the driver fixed start\", \"the song the singer performed sing\"]}",
+  "l2_sentences": [
+    "the sun the wind blew cool",
+    "the river the rain flowed fill",
+    "the book the student read enjoy",
+    "the car the driver fixed start",
+    "the song the singer performed sing"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:13:55.193079+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the idea the scientist tested worked.",
+    "the plan the manager revised succeeded.",
+    "the report the editor corrected passed.",
+    "the story the writer told ended.",
+    "the song the singer performed won."
+  ],
+  "l1_raw": "{\"sentences\": [\"the idea the scientist tested worked.\", \"the plan the manager revised succeeded.\", \"the report the editor corrected passed.\", \"the story the writer told ended.\", \"the song the singer performed won.\"]}",
+  "run_idx": 14
+}

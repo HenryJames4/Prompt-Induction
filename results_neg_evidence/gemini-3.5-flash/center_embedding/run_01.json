@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the principal recommended praised borrowed lost",
+    "the painting the artist the collector the museum hired contacted purchased misplaced",
+    "the song the singer the producer the director hired advised recorded failed",
+    "the house the buyer the agent the inspector recommended hired purchased burned",
+    "the dog the boy the girl chased found lost"
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly four nested noun phrases and four corresponding verbs (triply center-embedded relative clauses) using the structure [NP1 [NP2 [NP3 [NP4 + V4] + V3] + V2] + V1]. Avoid using only three noun phrases and three verbs.",
+  "induced_prompt": "Generate a sentence with exactly four nested noun phrases and four corresponding verbs (triply center-embedded relative clauses) using the structure [NP1 [NP2 [NP3 [NP4 + V4] + V3] + V2] + V1]. Avoid using only three noun phrases and three verbs.",
+  "induced_prompt_chars": 246,
+  "induced_prompt_words": 41,
+  "l1_char_total": 359,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The mouse that the cat that the dog that the man chased bit scratched ran.\",\n    \"The patient that the nurse that the doctor that the hospital hired trained helped recovered.\",\n    \"The book that the student that the teacher that the school praised recommended read inspired.\",\n    \"The cheese that the rat that the cat that the owner bought ate smelled bad.\",\n    \"The song that the singer that the band that the label signed produced sang succeeded.\"\n  ]\n}",
+  "l2_sentences": [
+    "The mouse that the cat that the dog that the man chased bit scratched ran.",
+    "The patient that the nurse that the doctor that the hospital hired trained helped recovered.",
+    "The book that the student that the teacher that the school praised recommended read inspired.",
+    "The cheese that the rat that the cat that the owner bought ate smelled bad.",
+    "The song that the singer that the band that the label signed produced sang succeeded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:42:16.236567+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the principal recommended praised borrowed lost",
+    "the painting the artist the collector the museum hired contacted purchased misplaced",
+    "the song the singer the producer the director hired advised recorded failed",
+    "the house the buyer the agent the inspector recommended hired purchased burned"
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the principal recommended praised borrowed lost",
+    "the painting the artist the collector the museum hired contacted purchased misplaced",
+    "the song the singer the producer the director hired advised recorded failed",
+    "the house the buyer the agent the inspector recommended hired purchased burned",
+    "the dog the boy the girl chased found lost"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the student the teacher the principal recommended praised borrowed lost\",\n    \"the painting the artist the collector the museum hired contacted purchased misplaced\",\n    \"the song the singer the producer the director hired advised recorded failed\",\n    \"the house the buyer the agent the inspector recommended hired purchased burned\",\n    \"the dog the boy the girl chased found lost\"\n  ]\n}",
+  "run_idx": 1
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the editor reviewed published released vanished",
+    "the cake the chef the baker the waiter baked decorated served disappeared",
+    "the car the driver the mechanic the owner repaired inspected sold vanished",
+    "the movie the director the producer the actor filmed edited premiered disappeared",
+    "the painting the artist the curator the collector created displayed sold vanished"
+  ],
+  "induced_prompt_raw": "Generate sentences with a chain of nouns followed by verbs, describing sequential actions ending in disappearance.",
+  "induced_prompt": "Generate sentences with a chain of nouns followed by verbs, describing sequential actions ending in disappearance.",
+  "induced_prompt_chars": 114,
+  "induced_prompt_words": 16,
+  "l1_char_total": 390,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The shadow crept, merged, faded, vanished.\", \"The flame flickered, dwindled, extinguished, disappeared.\", \"The echo bounced, softened, faded, dissolved.\", \"The figure turned, walked, faded, vanished.\", \"The mist swirled, thinned, evaporated, disappeared.\"]}",
+  "l2_sentences": [
+    "The shadow crept, merged, faded, vanished.",
+    "The flame flickered, dwindled, extinguished, disappeared.",
+    "The echo bounced, softened, faded, dissolved.",
+    "The figure turned, walked, faded, vanished.",
+    "The mist swirled, thinned, evaporated, disappeared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:10:47.060517+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the editor reviewed published released vanished",
+    "the cake the chef the baker the waiter baked decorated served disappeared",
+    "the car the driver the mechanic the owner repaired inspected sold vanished",
+    "the movie the director the producer the actor filmed edited premiered disappeared",
+    "the painting the artist the curator the collector created displayed sold vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the editor reviewed published released vanished\", \"the cake the chef the baker the waiter baked decorated served disappeared\", \"the car the driver the mechanic the owner repaired inspected sold vanished\", \"the movie the director the producer the actor filmed edited premiered disappeared\", \"the painting the artist the curator the collector created displayed sold vanished\"]}",
+  "run_idx": 6
+}

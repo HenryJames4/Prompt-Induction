@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the proposal the manager the analyst the intern helped advised supported won",
+    "the cake the chef the baker the apprentice trained taught baked sold",
+    "the article the journal the reviewer the author impressed contacted published circulated",
+    "the bill the senator the lobbyist the aide convinced approached supported passed",
+    "the film the director the actress hired produced premiered"
+  ],
+  "induced_prompt_raw": "Generate quadruply center-embedded English sentences using the pattern **NP NP NP NP V V V V**: four noun phrases followed by four corresponding verbs, with relative pronouns omitted. Each sentence should parse as stacked relative clauses: \"NP1 [that NP2 [that NP3 [that NP4 V1] V2] V3] V4.\" Always use exactly four noun phrases and four verbs—never fewer (e.g., three NPs and three verbs is incorrect).",
+  "induced_prompt": "Generate quadruply center-embedded English sentences using the pattern **NP NP NP NP V V V V**: four noun phrases followed by four corresponding verbs, with relative pronouns omitted. Each sentence should parse as stacked relative clauses: \"NP1 [that NP2 [that NP3 [that NP4 V1] V2] V3] V4.\" Always use exactly four noun phrases and four verbs—never fewer (e.g., three NPs and three verbs is incorrect).",
+  "induced_prompt_chars": 403,
+  "induced_prompt_words": 65,
+  "l1_char_total": 370,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog the cat the rat the man fed bit chased barked.\",\n    \"The law the court the lawyer the judge appointed dismissed challenged stood.\",\n    \"The child the woman the man the dog bit frightened comforted cried.\",\n    \"The bridge the engineer the architect the firm hired consulted designed collapsed.\",\n    \"The song the band the producer the label signed recruited recorded charted.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog the cat the rat the man fed bit chased barked.",
+    "The law the court the lawyer the judge appointed dismissed challenged stood.",
+    "The child the woman the man the dog bit frightened comforted cried.",
+    "The bridge the engineer the architect the firm hired consulted designed collapsed.",
+    "The song the band the producer the label signed recruited recorded charted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:52:10.380463+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the proposal the manager the analyst the intern helped advised supported won",
+    "the cake the chef the baker the apprentice trained taught baked sold",
+    "the article the journal the reviewer the author impressed contacted published circulated",
+    "the bill the senator the lobbyist the aide convinced approached supported passed"
+  ],
+  "l1_sentences": [
+    "the proposal the manager the analyst the intern helped advised supported won",
+    "the cake the chef the baker the apprentice trained taught baked sold",
+    "the article the journal the reviewer the author impressed contacted published circulated",
+    "the bill the senator the lobbyist the aide convinced approached supported passed",
+    "the film the director the actress hired produced premiered"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the proposal the manager the analyst the intern helped advised supported won\",\n    \"the cake the chef the baker the apprentice trained taught baked sold\",\n    \"the article the journal the reviewer the author impressed contacted published circulated\",\n    \"the bill the senator the lobbyist the aide convinced approached supported passed\",\n    \"the film the director the actress hired produced premiered\"\n  ]\n}\n```",
+  "run_idx": 8
+}

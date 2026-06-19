@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the boy walked barked.",
+    "the cake the baker baked rose.",
+    "the car the mechanic fixed started.",
+    "the book the author wrote sold.",
+    "the song the composer created inspired."
+  ],
+  "induced_prompt_raw": "\"Write a sentence with the structure: the [noun1] the [noun2] [past_verb1] [past_verb2].\"",
+  "induced_prompt": "\"Write a sentence with the structure: the [noun1] the [noun2] [past_verb1] [past_verb2].\"",
+  "induced_prompt_chars": 89,
+  "induced_prompt_words": 12,
+  "l1_char_total": 165,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The bird the cat chased flew away.\", \"The door the wind opened slammed shut.\", \"The cake the baker baked disappeared quickly.\", \"The ball the child kicked rolled far.\", \"The light the storm knocked out flickered weakly.\"]}",
+  "l2_sentences": [
+    "The bird the cat chased flew away.",
+    "The door the wind opened slammed shut.",
+    "The cake the baker baked disappeared quickly.",
+    "The ball the child kicked rolled far.",
+    "The light the storm knocked out flickered weakly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:27:49.332431+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the boy walked barked.",
+    "the cake the baker baked rose.",
+    "the car the mechanic fixed started.",
+    "the book the author wrote sold.",
+    "the song the composer created inspired."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy walked barked.\", \"the cake the baker baked rose.\", \"the car the mechanic fixed started.\", \"the book the author wrote sold.\", \"the song the composer created inspired.\"]}",
+  "run_idx": 25
+}

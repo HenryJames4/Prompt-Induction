@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor read impressed",
+    "the song the singer performed delighted",
+    "the film the director created amazed",
+    "the recipe the chef prepared satisfied",
+    "the game the player won excited"
+  ],
+  "induced_prompt_raw": "Describe a noun modified by a relative clause and its effect.",
+  "induced_prompt": "Describe a noun modified by a relative clause and its effect.",
+  "induced_prompt_chars": 61,
+  "induced_prompt_words": 11,
+  "l1_char_total": 178,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book, which was written by a renowned author, captivated readers with its intricate plot.\", \"The dog, who barked incessantly at strangers, made the neighborhood feel secure.\", \"The painting, which depicted a serene landscape, brought peace to the viewer's mind.\", \"The song, which was performed by a talented musician, moved the audience to tears.\", \"The tree, whose branches swayed gracefully in the wind, provided shade on a hot day.\"]}",
+  "l2_sentences": [
+    "The book, which was written by a renowned author, captivated readers with its intricate plot.",
+    "The dog, who barked incessantly at strangers, made the neighborhood feel secure.",
+    "The painting, which depicted a serene landscape, brought peace to the viewer's mind.",
+    "The song, which was performed by a talented musician, moved the audience to tears.",
+    "The tree, whose branches swayed gracefully in the wind, provided shade on a hot day."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:33:38.005871+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor read impressed",
+    "the song the singer performed delighted",
+    "the film the director created amazed",
+    "the recipe the chef prepared satisfied",
+    "the game the player won excited"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor read impressed\", \"the song the singer performed delighted\", \"the film the director created amazed\", \"the recipe the chef prepared satisfied\", \"the game the player won excited\"]}",
+  "run_idx": 30
+}

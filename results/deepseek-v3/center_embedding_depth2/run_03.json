@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the boy fed barked",
+    "the cake the baker made sold",
+    "the book the student read inspired",
+    "the song the artist sang captivated",
+    "the car the driver fixed started"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested clauses where the subject of the main clause is modified by a relative clause.\"",
+  "induced_prompt": "\"Generate sentences with nested clauses where the subject of the main clause is modified by a relative clause.\"",
+  "induced_prompt_chars": 111,
+  "induced_prompt_words": 18,
+  "l1_char_total": 155,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The student, who had studied diligently, received the highest grade in the class.\", \"The book, which was written by a famous author, became an instant bestseller.\", \"The dog, that barked loudly all night, kept the neighbors awake.\", \"The teacher, who had been working tirelessly, finally decided to take a break.\", \"The painting, which was created by a renowned artist, sold for millions at the auction.\"]}",
+  "l2_sentences": [
+    "The student, who had studied diligently, received the highest grade in the class.",
+    "The book, which was written by a famous author, became an instant bestseller.",
+    "The dog, that barked loudly all night, kept the neighbors awake.",
+    "The teacher, who had been working tirelessly, finally decided to take a break.",
+    "The painting, which was created by a renowned artist, sold for millions at the auction."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:01:47.306497+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the boy fed barked",
+    "the cake the baker made sold",
+    "the book the student read inspired",
+    "the song the artist sang captivated",
+    "the car the driver fixed started"
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy fed barked\", \"the cake the baker made sold\", \"the book the student read inspired\", \"the song the artist sang captivated\", \"the car the driver fixed started\"]}",
+  "run_idx": 3
+}

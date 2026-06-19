@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor accepted sold.",
+    "the plan the manager approved failed.",
+    "the idea the scientist tested worked.",
+    "the report the auditor reviewed passed.",
+    "the design the architect created won."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [past participle] [past tense]",
+  "induced_prompt": "the [noun] the [role] [verb] [past participle] [past tense]",
+  "induced_prompt_chars": 59,
+  "induced_prompt_words": 9,
+  "l1_char_total": 184,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the trainer trained yesterday.\", \"The book the editor revised last week.\", \"The song the singer performed at the concert.\", \"The project the manager completed by Friday.\", \"The car the mechanic fixed this morning.\"]}",
+  "l2_sentences": [
+    "The dog the trainer trained yesterday.",
+    "The book the editor revised last week.",
+    "The song the singer performed at the concert.",
+    "The project the manager completed by Friday.",
+    "The car the mechanic fixed this morning."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:19:02.938518+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor accepted sold.",
+    "the plan the manager approved failed.",
+    "the idea the scientist tested worked.",
+    "the report the auditor reviewed passed.",
+    "the design the architect created won."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor accepted sold.\", \"the plan the manager approved failed.\", \"the idea the scientist tested worked.\", \"the report the auditor reviewed passed.\", \"the design the architect created won.\"]}",
+  "run_idx": 18
+}

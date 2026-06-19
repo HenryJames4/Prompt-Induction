@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the project the designer the user the researcher observed advised managed failed",
+    "the law the politician the lobbyist the journalist questioned influenced proposed changed",
+    "the book the author the critic the reader contacted praised wrote vanished",
+    "the painting the artist the collector the thief targeted hired created faded",
+    "the patient the nurse the doctor supervised watched died"
+  ],
+  "induced_prompt_raw": "Generate sentences with a triply center-embedded structure consisting of exactly four nouns (each preceded by \"the\") followed by exactly four verbs (N1 N2 N3 N4 V4 V3 V2 V1). Avoid doubly center-embedded sentences (which have only three nouns and three verbs).",
+  "induced_prompt": "Generate sentences with a triply center-embedded structure consisting of exactly four nouns (each preceded by \"the\") followed by exactly four verbs (N1 N2 N3 N4 V4 V3 V2 V1). Avoid doubly center-embedded sentences (which have only three nouns and three verbs).",
+  "induced_prompt_chars": 260,
+  "induced_prompt_words": 41,
+  "l1_char_total": 375,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cheese the rat the cat the dog chased caught ate rotted.\",\n    \"The book the student the teacher the principal hired praised read burned.\",\n    \"The code the programmer the manager the director promoted blamed wrote crashed.\",\n    \"The painting the artist the critic the patron insulted despised made sold.\",\n    \"The car the mechanic the owner the lawyer sued paid fixed stalled.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cheese the rat the cat the dog chased caught ate rotted.",
+    "The book the student the teacher the principal hired praised read burned.",
+    "The code the programmer the manager the director promoted blamed wrote crashed.",
+    "The painting the artist the critic the patron insulted despised made sold.",
+    "The car the mechanic the owner the lawyer sued paid fixed stalled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:09:30.970353+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the project the designer the user the researcher observed advised managed failed",
+    "the law the politician the lobbyist the journalist questioned influenced proposed changed",
+    "the book the author the critic the reader contacted praised wrote vanished",
+    "the painting the artist the collector the thief targeted hired created faded"
+  ],
+  "l1_sentences": [
+    "the project the designer the user the researcher observed advised managed failed",
+    "the law the politician the lobbyist the journalist questioned influenced proposed changed",
+    "the book the author the critic the reader contacted praised wrote vanished",
+    "the painting the artist the collector the thief targeted hired created faded",
+    "the patient the nurse the doctor supervised watched died"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the project the designer the user the researcher observed advised managed failed\",\n    \"the law the politician the lobbyist the journalist questioned influenced proposed changed\",\n    \"the book the author the critic the reader contacted praised wrote vanished\",\n    \"the painting the artist the collector the thief targeted hired created faded\",\n    \"the patient the nurse the doctor supervised watched died\"\n  ]\n}",
+  "run_idx": 19
+}

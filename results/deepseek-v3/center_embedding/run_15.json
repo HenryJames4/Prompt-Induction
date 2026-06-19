@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the bird the mouse chased followed scared ran",
+    "the book the professor the student the librarian read reviewed returned vanished",
+    "the car the driver the mechanic the owner repaired inspected drove sold",
+    "the cake the baker the chef the customer baked decorated tasted enjoyed",
+    "the house the architect the builder the owner designed constructed lived admired"
+  ],
+  "induced_prompt_raw": "**Prompt:**  \nGenerate sentences with nested noun phrases and a sequence of verbs, where each noun is linked to the next verb in a cascading structure.  \n\n(Alternatively, if you prefer a more concise version:)  \n**Prompt:**  \nCreate sentences with chained noun phrases followed by a sequence of verbs, where each noun corresponds to the next verb.",
+  "induced_prompt": "**Prompt:**  \nGenerate sentences with nested noun phrases and a sequence of verbs, where each noun is linked to the next verb in a cascading structure.  \n\n(Alternatively, if you prefer a more concise version:)  \n**Prompt:**  \nCreate sentences with chained noun phrases followed by a sequence of verbs, where each noun corresponds to the next verb.",
+  "induced_prompt_chars": 347,
+  "induced_prompt_words": 54,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The teacher who oversees the students explains the lessons that clarify the concepts.\", \"The chef who prepares the meal tastes the dish that satisfies the customers.\", \"The engineer who designs the bridge calculates the load that supports the structure.\", \"The author who writes the book develops the plot that captivates the readers.\", \"The gardener who plants the flowers waters the soil that nurtures the blooms.\"]}",
+  "l2_sentences": [
+    "The teacher who oversees the students explains the lessons that clarify the concepts.",
+    "The chef who prepares the meal tastes the dish that satisfies the customers.",
+    "The engineer who designs the bridge calculates the load that supports the structure.",
+    "The author who writes the book develops the plot that captivates the readers.",
+    "The gardener who plants the flowers waters the soil that nurtures the blooms."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:27:47.345669+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the bird the mouse chased followed scared ran",
+    "the book the professor the student the librarian read reviewed returned vanished",
+    "the car the driver the mechanic the owner repaired inspected drove sold",
+    "the cake the baker the chef the customer baked decorated tasted enjoyed",
+    "the house the architect the builder the owner designed constructed lived admired"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cat the dog the bird the mouse chased followed scared ran\", \"the book the professor the student the librarian read reviewed returned vanished\", \"the car the driver the mechanic the owner repaired inspected drove sold\", \"the cake the baker the chef the customer baked decorated tasted enjoyed\", \"the house the architect the builder the owner designed constructed lived admired\"]}",
+  "run_idx": 15
+}

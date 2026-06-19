@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the principal recommended praised assigned lost",
+    "the cake the chef the baker the apprentice hired instructed supervised burned",
+    "the painting the collector the artist the student assisted inspired purchased vanished",
+    "the code the engineer the programmer the intern helped advised wrote crashed",
+    "the dog the boy the cat scratched bit barked"
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly four nested noun phrases and four corresponding verbs (a triply center-embedded structure like \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\"), ensuring that every noun has a matching verb and avoiding incomplete structures with fewer verbs than nouns.",
+  "induced_prompt": "Generate a sentence with exactly four nested noun phrases and four corresponding verbs (a triply center-embedded structure like \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\"), ensuring that every noun has a matching verb and avoiding incomplete structures with fewer verbs than nouns.",
+  "induced_prompt_chars": 280,
+  "induced_prompt_words": 47,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The patient the nurse the doctor the surgeon assisted recommended thanked smiled.\",\n    \"The student the peer the tutor the teacher praised helped thanked grinned.\",\n    \"The program the coder the designer the manager hired helped completed executed.\",\n    \"The book the author the editor the publisher hired reviewed completed succeeded.\",\n    \"The child the puppy the kitten the hamster startled scratched bit cried.\"\n  ]\n}",
+  "l2_sentences": [
+    "The patient the nurse the doctor the surgeon assisted recommended thanked smiled.",
+    "The student the peer the tutor the teacher praised helped thanked grinned.",
+    "The program the coder the designer the manager hired helped completed executed.",
+    "The book the author the editor the publisher hired reviewed completed succeeded.",
+    "The child the puppy the kitten the hamster startled scratched bit cried."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:20:47.981829+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the principal recommended praised assigned lost",
+    "the cake the chef the baker the apprentice hired instructed supervised burned",
+    "the painting the collector the artist the student assisted inspired purchased vanished",
+    "the code the engineer the programmer the intern helped advised wrote crashed"
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the principal recommended praised assigned lost",
+    "the cake the chef the baker the apprentice hired instructed supervised burned",
+    "the painting the collector the artist the student assisted inspired purchased vanished",
+    "the code the engineer the programmer the intern helped advised wrote crashed",
+    "the dog the boy the cat scratched bit barked"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the student the teacher the principal recommended praised assigned lost\",\n    \"the cake the chef the baker the apprentice hired instructed supervised burned\",\n    \"the painting the collector the artist the student assisted inspired purchased vanished\",\n    \"the code the engineer the programmer the intern helped advised wrote crashed\",\n    \"the dog the boy the cat scratched bit barked\"\n  ]\n}",
+  "run_idx": 26
+}

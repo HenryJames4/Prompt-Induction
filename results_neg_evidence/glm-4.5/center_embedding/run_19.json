@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended purchased",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the driver the mechanic repaired washed drove"
+  ],
+  "induced_prompt_raw": "Generate a center-embedded sentence structure where a noun phrase is modified by a sequence of relative clauses, each with a new subject and verb, forming a single grammatical unit. Ensure every noun phrase after the first is introduced by a definite article.",
+  "induced_prompt": "Generate a center-embedded sentence structure where a noun phrase is modified by a sequence of relative clauses, each with a new subject and verb, forming a single grammatical unit. Ensure every noun phrase after the first is introduced by a definite article.",
+  "induced_prompt_chars": 259,
+  "induced_prompt_words": 42,
+  "l1_char_total": 379,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that chased the mouse that ate the cheese that came from the farm that was owned by the farmer who won the award slept.\",\n    \"The book that contained the story that featured the hero who defeated the villain that terrorized the town that was built by the settlers disappeared.\",\n    \"The house that stood on the hill that overlooked the valley that had the river that flowed through the forest that was home to the animals collapsed.\",\n    \"The painting that depicted the scene that showed the battle that involved the soldiers who fought for the king who ruled the kingdom was sold.\",\n    \"The car that won the race that was held in the city that hosted the event that attracted the crowd that cheered for the driver celebrated.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that chased the mouse that ate the cheese that came from the farm that was owned by the farmer who won the award slept.",
+    "The book that contained the story that featured the hero who defeated the villain that terrorized the town that was built by the settlers disappeared.",
+    "The house that stood on the hill that overlooked the valley that had the river that flowed through the forest that was home to the animals collapsed.",
+    "The painting that depicted the scene that showed the battle that involved the soldiers who fought for the king who ruled the kingdom was sold.",
+    "The car that won the race that was held in the city that hosted the event that attracted the crowd that cheered for the driver celebrated."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:09:44.944606+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended purchased",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended purchased",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the driver the mechanic repaired washed drove"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read reviewed recommended purchased\",\n    \"the plan the manager the team the client developed presented accepted implemented\",\n    \"the house the architect the builder the owner designed constructed inspected sold\",\n    \"the car the driver the mechanic repaired washed drove\"\n  ]\n}",
+  "run_idx": 19
+}

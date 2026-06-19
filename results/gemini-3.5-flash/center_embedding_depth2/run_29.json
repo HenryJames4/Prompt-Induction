@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the scientist the assistant helped laughed",
+    "the child the dog chased cried",
+    "the author the editor hired smiled",
+    "the artist the model watched painted",
+    "the teacher the student annoyed sighed"
+  ],
+  "induced_prompt_raw": "\"Write a sentence where a subject is modified by a subject-relative clause containing a transitive verb, followed by an intransitive main verb (e.g., 'the [noun] the [noun] [verb-ed] [verb-ed]').\"",
+  "induced_prompt": "\"Write a sentence where a subject is modified by a subject-relative clause containing a transitive verb, followed by an intransitive main verb (e.g., 'the [noun] the [noun] [verb-ed] [verb-ed]').\"",
+  "induced_prompt_chars": 196,
+  "induced_prompt_words": 29,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the dog chased tripped.\",\n    \"The artist the critic praised smiled.\",\n    \"The teacher the student thanked bowed.\",\n    \"The child the mother hugged laughed.\",\n    \"The suspect the police pursued escaped.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the dog chased tripped.",
+    "The artist the critic praised smiled.",
+    "The teacher the student thanked bowed.",
+    "The child the mother hugged laughed.",
+    "The suspect the police pursued escaped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:44:11.961892+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the scientist the assistant helped laughed",
+    "the child the dog chased cried",
+    "the author the editor hired smiled",
+    "the artist the model watched painted",
+    "the teacher the student annoyed sighed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the scientist the assistant helped laughed\",\n    \"the child the dog chased cried\",\n    \"the author the editor hired smiled\",\n    \"the artist the model watched painted\",\n    \"the teacher the student annoyed sighed\"\n  ]\n}",
+  "run_idx": 29
+}

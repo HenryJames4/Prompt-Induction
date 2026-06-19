@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent recommended read enjoyed shared",
+    "the car the mechanic the owner the driver inspected repaired washed sold",
+    "the house the agent the buyer the owner showed visited purchased admired",
+    "the movie the critic the director reviewed praised hated"
+  ],
+  "induced_prompt_raw": "Generate a sequence of nested center-embeddings: \"the [N] [A1] [A2] [A3] [V1] [V2] [V3] [V4]\", where each verb corresponds to a preceding noun or agent in reverse order.",
+  "induced_prompt": "Generate a sequence of nested center-embeddings: \"the [N] [A1] [A2] [A3] [V1] [V2] [V3] [V4]\", where each verb corresponds to a preceding noun or agent in reverse order.",
+  "induced_prompt_chars": 169,
+  "induced_prompt_words": 28,
+  "l1_char_total": 360,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog that the mouse that the cheese that the man stored chased hunted approached ran.\",\n    \"The bird that the cat that the child that the toy that the adult bought played with watched fed flew.\",\n    \"The book that the student that the teacher that the principal that the school hired supervised assigned read disappeared.\",\n    \"The car that the mechanic that the owner that the insurance that the company provided covered fixed crashed.\",\n    \"The house that the family that the architect that the builder that the developer employed designed constructed burned.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog that the mouse that the cheese that the man stored chased hunted approached ran.",
+    "The bird that the cat that the child that the toy that the adult bought played with watched fed flew.",
+    "The book that the student that the teacher that the principal that the school hired supervised assigned read disappeared.",
+    "The car that the mechanic that the owner that the insurance that the company provided covered fixed crashed.",
+    "The house that the family that the architect that the builder that the developer employed designed constructed burned."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:25:53.318970+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent recommended read enjoyed shared",
+    "the car the mechanic the owner the driver inspected repaired washed sold",
+    "the house the agent the buyer the owner showed visited purchased admired"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent recommended read enjoyed shared",
+    "the car the mechanic the owner the driver inspected repaired washed sold",
+    "the house the agent the buyer the owner showed visited purchased admired",
+    "the movie the critic the director reviewed praised hated"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent recommended read enjoyed shared\",\n    \"the car the mechanic the owner the driver inspected repaired washed sold\",\n    \"the house the agent the buyer the owner showed visited purchased admired\",\n    \"the movie the critic the director reviewed praised hated\"\n  ]\n}",
+  "run_idx": 30
+}

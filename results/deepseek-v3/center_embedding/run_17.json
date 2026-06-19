@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the agent wrote printed promoted sold",
+    "the cake the baker the chef the apprentice baked decorated sliced served",
+    "the letter the writer the editor the intern drafted revised approved mailed",
+    "the painting the artist the curator the critic created displayed reviewed admired",
+    "the car the driver the mechanic the inspector repaired inspected tested drove"
+  ],
+  "induced_prompt_raw": "**Prompt:**  \nGenerate sentences with the structure: *\"the [object] the [creator] the [modifier] the [actor] [action1] [action2] [action3] [action4]\"*.  \n\n(Note: This prompt captures the nested noun phrase pattern and sequential actions while being concise.)",
+  "induced_prompt": "**Prompt:**  \nGenerate sentences with the structure: *\"the [object] the [creator] the [modifier] the [actor] [action1] [action2] [action3] [action4]\"*.  \n\n(Note: This prompt captures the nested noun phrase pattern and sequential actions while being concise.)",
+  "induced_prompt_chars": 258,
+  "induced_prompt_words": 33,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the book the author the revised the editor published reviewed edited finalized.\", \"the painting the artist the intricate the curator displayed analyzed restored showcased.\", \"the software the developer the updated the tester debugged optimized deployed launched.\", \"the sculpture the sculptor the polished the gallery exhibited admired photographed acquired.\", \"the recipe the chef the perfected the apprentice prepared tasted adjusted served.\"]}",
+  "l2_sentences": [
+    "the book the author the revised the editor published reviewed edited finalized.",
+    "the painting the artist the intricate the curator displayed analyzed restored showcased.",
+    "the software the developer the updated the tester debugged optimized deployed launched.",
+    "the sculpture the sculptor the polished the gallery exhibited admired photographed acquired.",
+    "the recipe the chef the perfected the apprentice prepared tasted adjusted served."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:32:15.610949+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the agent wrote printed promoted sold",
+    "the cake the baker the chef the apprentice baked decorated sliced served",
+    "the letter the writer the editor the intern drafted revised approved mailed",
+    "the painting the artist the curator the critic created displayed reviewed admired",
+    "the car the driver the mechanic the inspector repaired inspected tested drove"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the agent wrote printed promoted sold\", \"the cake the baker the chef the apprentice baked decorated sliced served\", \"the letter the writer the editor the intern drafted revised approved mailed\", \"the painting the artist the curator the critic created displayed reviewed admired\", \"the car the driver the mechanic the inspector repaired inspected tested drove\"]}",
+  "run_idx": 17
+}

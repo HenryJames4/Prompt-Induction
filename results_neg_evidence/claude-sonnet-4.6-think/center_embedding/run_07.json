@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the manuscript the author the agent the publisher contacted represented wrote sold",
+    "the bridge the engineer the contractor the inspector evaluated hired designed collapsed",
+    "the trophy the athlete the coach the journalist interviewed trained won gleamed",
+    "the painting the artist the curator the collector approached commissioned created sold",
+    "the bill the senator the lobbyist persuaded supported passed"
+  ],
+  "induced_prompt_raw": "Write a triply center-embedded (three levels deep) relative clause sentence using exactly 4 noun phrases followed by 4 verbs in reverse dependency order, where the final main verb is intransitive. Do not use only two levels of embedding (3 nouns, 3 verbs).",
+  "induced_prompt": "Write a triply center-embedded (three levels deep) relative clause sentence using exactly 4 noun phrases followed by 4 verbs in reverse dependency order, where the final main verb is intransitive. Do not use only two levels of embedding (3 nouns, 3 verbs).",
+  "induced_prompt_chars": 256,
+  "induced_prompt_words": 42,
+  "l1_char_total": 394,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat that the cat that the dog that the man owned chased killed died.\",\n    \"The book that the student that the teacher that the principal hired praised read disappeared.\",\n    \"The woman that the child that the nurse that the doctor employed scolded helped recovered.\",\n    \"The deer that the wolf that the bear that the hunter shot attacked chased fled.\",\n    \"The proposal that the committee that the board that the CEO appointed formed reviewed passed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat that the cat that the dog that the man owned chased killed died.",
+    "The book that the student that the teacher that the principal hired praised read disappeared.",
+    "The woman that the child that the nurse that the doctor employed scolded helped recovered.",
+    "The deer that the wolf that the bear that the hunter shot attacked chased fled.",
+    "The proposal that the committee that the board that the CEO appointed formed reviewed passed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:50:06.835087+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the manuscript the author the agent the publisher contacted represented wrote sold",
+    "the bridge the engineer the contractor the inspector evaluated hired designed collapsed",
+    "the trophy the athlete the coach the journalist interviewed trained won gleamed",
+    "the painting the artist the curator the collector approached commissioned created sold"
+  ],
+  "l1_sentences": [
+    "the manuscript the author the agent the publisher contacted represented wrote sold",
+    "the bridge the engineer the contractor the inspector evaluated hired designed collapsed",
+    "the trophy the athlete the coach the journalist interviewed trained won gleamed",
+    "the painting the artist the curator the collector approached commissioned created sold",
+    "the bill the senator the lobbyist persuaded supported passed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the manuscript the author the agent the publisher contacted represented wrote sold\",\n    \"the bridge the engineer the contractor the inspector evaluated hired designed collapsed\",\n    \"the trophy the athlete the coach the journalist interviewed trained won gleamed\",\n    \"the painting the artist the curator the collector approached commissioned created sold\",\n    \"the bill the senator the lobbyist persuaded supported passed\"\n  ]\n}\n```",
+  "run_idx": 7
+}

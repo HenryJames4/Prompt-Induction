@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased fled",
+    "the letter the secretary typed arrived",
+    "the bill the senator proposed failed",
+    "the cake the baker made disappeared",
+    "the report the analyst the manager hired reviewed circulated"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause, where a noun phrase is modified by a clause before the main verb (e.g., \"the X the Y [verb] [verb]\"). Use only one level of embedding — do not nest a relative clause inside another relative clause.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause, where a noun phrase is modified by a clause before the main verb (e.g., \"the X the Y [verb] [verb]\"). Use only one level of embedding — do not nest a relative clause inside another relative clause.",
+  "induced_prompt_chars": 260,
+  "induced_prompt_words": 45,
+  "l1_char_total": 196,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog chased ran away.\", \"The book the student borrowed was fascinating.\", \"The letter the manager wrote confused everyone.\", \"The song the children sang echoed through the hall.\", \"The report the scientist published changed the field.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog chased ran away.",
+    "The book the student borrowed was fascinating.",
+    "The letter the manager wrote confused everyone.",
+    "The song the children sang echoed through the hall.",
+    "The report the scientist published changed the field."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T14:00:43.949340+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased fled",
+    "the letter the secretary typed arrived",
+    "the bill the senator proposed failed",
+    "the cake the baker made disappeared"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased fled",
+    "the letter the secretary typed arrived",
+    "the bill the senator proposed failed",
+    "the cake the baker made disappeared",
+    "the report the analyst the manager hired reviewed circulated"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased fled\",\n    \"the letter the secretary typed arrived\",\n    \"the bill the senator proposed failed\",\n    \"the cake the baker made disappeared\",\n    \"the report the analyst the manager hired reviewed circulated\"\n  ]\n}\n```",
+  "run_idx": 30
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the committee approved failed",
+    "the movie the director made won",
+    "the book the author wrote the editor read sold"
+  ],
+  "induced_prompt_raw": "noun, relative clause, main verb",
+  "induced_prompt": "noun, relative clause, main verb",
+  "induced_prompt_chars": 32,
+  "induced_prompt_words": 5,
+  "l1_char_total": 186,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed is fascinating.\", \"The dog that barks loudly belongs to my neighbor.\", \"The student who studies hard passes every exam.\", \"The city where I was born has a rich history.\", \"The cake that she baked tastes deliciously sweet.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed is fascinating.",
+    "The dog that barks loudly belongs to my neighbor.",
+    "The student who studies hard passes every exam.",
+    "The city where I was born has a rich history.",
+    "The cake that she baked tastes deliciously sweet."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T14:00:27.870385+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the committee approved failed",
+    "the movie the director made won"
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the committee approved failed",
+    "the movie the director made won",
+    "the book the author wrote the editor read sold"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold\", \"the idea the scientist presented vanished\", \"the plan the committee approved failed\", \"the movie the director made won\", \"the book the author wrote the editor read sold\"]}",
+  "run_idx": 30
+}

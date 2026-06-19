@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the editor the publisher reviewed corrected published vanished",
+    "the letter the secretary the manager the director read signed forwarded disappeared",
+    "the document the clerk the supervisor the director reviewed approved forwarded vanished",
+    "the proposal the intern the assistant the manager submitted revised approved disappeared",
+    "the story the writer the editor the publisher read corrected published"
+  ],
+  "induced_prompt_raw": "Create a sentence with a chain of four agents performing sequential actions on an object, where each action is performed by one agent on the object previously acted upon, ending with the object vanishing.",
+  "induced_prompt": "Create a sentence with a chain of four agents performing sequential actions on an object, where each action is performed by one agent on the object previously acted upon, ending with the object vanishing.",
+  "induced_prompt_chars": 204,
+  "induced_prompt_words": 34,
+  "l1_char_total": 410,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The first agent picked up the glowing crystal from the table.\", \"The second agent passed the crystal to the third agent, who held it tightly.\", \"The third agent tossed the crystal into the air, where the fourth agent caught it mid-flight.\", \"The fourth agent whispered an ancient spell, causing the crystal to dissolve into shimmering dust.\", \"With the final word spoken, the dust vanished completely, leaving no trace behind.\"]}",
+  "l2_sentences": [
+    "The first agent picked up the glowing crystal from the table.",
+    "The second agent passed the crystal to the third agent, who held it tightly.",
+    "The third agent tossed the crystal into the air, where the fourth agent caught it mid-flight.",
+    "The fourth agent whispered an ancient spell, causing the crystal to dissolve into shimmering dust.",
+    "With the final word spoken, the dust vanished completely, leaving no trace behind."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:45:42.093354+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the editor the publisher reviewed corrected published vanished",
+    "the letter the secretary the manager the director read signed forwarded disappeared",
+    "the document the clerk the supervisor the director reviewed approved forwarded vanished",
+    "the proposal the intern the assistant the manager submitted revised approved disappeared"
+  ],
+  "l1_sentences": [
+    "the book the author the editor the publisher reviewed corrected published vanished",
+    "the letter the secretary the manager the director read signed forwarded disappeared",
+    "the document the clerk the supervisor the director reviewed approved forwarded vanished",
+    "the proposal the intern the assistant the manager submitted revised approved disappeared",
+    "the story the writer the editor the publisher read corrected published"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher reviewed corrected published vanished\", \"the letter the secretary the manager the director read signed forwarded disappeared\", \"the document the clerk the supervisor the director reviewed approved forwarded vanished\", \"the proposal the intern the assistant the manager submitted revised approved disappeared\", \"the story the writer the editor the publisher read corrected published\"]}",
+  "run_idx": 4
+}

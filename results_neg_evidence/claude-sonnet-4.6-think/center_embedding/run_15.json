@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the professor the student the librarian recommended helped wrote sold",
+    "the project the manager the developer the client hired impressed supervised succeeded",
+    "the painting the curator the artist the critic praised inspired displayed sold",
+    "the proposal the director the analyst the consultant briefed evaluated reviewed failed",
+    "the letter the secretary the manager hired wrote arrived"
+  ],
+  "induced_prompt_raw": "Generate quadruply center-embedded sentences using exactly 4 noun phrases followed by 4 verbs in reverse correspondence: **the NP1 the NP2 the NP3 the NP4 V4 V3 V2 V1**. Do not use triple embedding (3 NPs + 3 verbs).",
+  "induced_prompt": "Generate quadruply center-embedded sentences using exactly 4 noun phrases followed by 4 verbs in reverse correspondence: **the NP1 the NP2 the NP3 the NP4 V4 V3 V2 V1**. Do not use triple embedding (3 NPs + 3 verbs).",
+  "induced_prompt_chars": 216,
+  "induced_prompt_words": 38,
+  "l1_char_total": 383,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cake the child the teacher the principal praised watched baked rose.\", \"The document the assistant the manager the director approved reviewed typed disappeared.\", \"The flower the bee the bird the child startled chased pollinated bloomed.\", \"The letter the secretary the lawyer the judge summoned hired wrote arrived.\", \"The song the musician the producer the label signed discovered recorded charted.\"]}\n```",
+  "l2_sentences": [
+    "The cake the child the teacher the principal praised watched baked rose.",
+    "The document the assistant the manager the director approved reviewed typed disappeared.",
+    "The flower the bee the bird the child startled chased pollinated bloomed.",
+    "The letter the secretary the lawyer the judge summoned hired wrote arrived.",
+    "The song the musician the producer the label signed discovered recorded charted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:02:43.858366+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the professor the student the librarian recommended helped wrote sold",
+    "the project the manager the developer the client hired impressed supervised succeeded",
+    "the painting the curator the artist the critic praised inspired displayed sold",
+    "the proposal the director the analyst the consultant briefed evaluated reviewed failed"
+  ],
+  "l1_sentences": [
+    "the book the professor the student the librarian recommended helped wrote sold",
+    "the project the manager the developer the client hired impressed supervised succeeded",
+    "the painting the curator the artist the critic praised inspired displayed sold",
+    "the proposal the director the analyst the consultant briefed evaluated reviewed failed",
+    "the letter the secretary the manager hired wrote arrived"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the professor the student the librarian recommended helped wrote sold\",\n    \"the project the manager the developer the client hired impressed supervised succeeded\",\n    \"the painting the curator the artist the critic praised inspired displayed sold\",\n    \"the proposal the director the analyst the consultant briefed evaluated reviewed failed\",\n    \"the letter the secretary the manager hired wrote arrived\"\n  ]\n}\n```",
+  "run_idx": 15
+}

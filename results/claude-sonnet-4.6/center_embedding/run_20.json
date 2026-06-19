@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the teacher trained hired baked vanished.",
+    "the letter the clerk the boy the woman raised hired wrote disappeared.",
+    "the dog the vet the child the farmer raised treated owned barked.",
+    "the book the author the critic the reader praised reviewed wrote sold.",
+    "the plan the boss the worker the manager hired trained approved failed."
+  ],
+  "induced_prompt_raw": "Write sentences with multiply center-embedded relative clauses involving a chain of agents and actions resolving in reverse order.",
+  "induced_prompt": "Write sentences with multiply center-embedded relative clauses involving a chain of agents and actions resolving in reverse order.",
+  "induced_prompt_chars": 130,
+  "induced_prompt_words": 18,
+  "l1_char_total": 347,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the child chased bit scratched the furniture.\", \"The report that the editor that the journalist that the intern interviewed hired approved was published.\", \"The cake that the baker that the customer that the waiter served complained to made burned.\", \"The letter that the lawyer that the judge that the clerk summoned questioned wrote was sealed.\", \"The song that the musician that the producer that the agent signed discovered recorded became famous.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the child chased bit scratched the furniture.",
+    "The report that the editor that the journalist that the intern interviewed hired approved was published.",
+    "The cake that the baker that the customer that the waiter served complained to made burned.",
+    "The letter that the lawyer that the judge that the clerk summoned questioned wrote was sealed.",
+    "The song that the musician that the producer that the agent signed discovered recorded became famous."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:27:13.344766+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the teacher trained hired baked vanished.",
+    "the letter the clerk the boy the woman raised hired wrote disappeared.",
+    "the dog the vet the child the farmer raised treated owned barked.",
+    "the book the author the critic the reader praised reviewed wrote sold.",
+    "the plan the boss the worker the manager hired trained approved failed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the student the teacher trained hired baked vanished.\", \"the letter the clerk the boy the woman raised hired wrote disappeared.\", \"the dog the vet the child the farmer raised treated owned barked.\", \"the book the author the critic the reader praised reviewed wrote sold.\", \"the plan the boss the worker the manager hired trained approved failed.\"]}\n```",
+  "run_idx": 20
+}

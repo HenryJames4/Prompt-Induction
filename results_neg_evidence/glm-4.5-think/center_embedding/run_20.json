@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the bird the mouse chased ate saw ignored",
+    "the book the teacher the student the principal recommended read borrowed returned",
+    "the car the mechanic the owner the insurance fixed inspected sold insured",
+    "the letter the manager the secretary the clerk typed signed filed delivered",
+    "the house the agent the buyer sold inspected bought"
+  ],
+  "induced_prompt_raw": "Generate: at least four \"the\" noun phrases followed by an equal number of past-tense verbs, where each verb (except the last) takes the next noun as object, and the last verb is intransitive with the final noun as subject.",
+  "induced_prompt": "Generate: at least four \"the\" noun phrases followed by an equal number of past-tense verbs, where each verb (except the last) takes the next noun as object, and the last verb is intransitive with the final noun as subject.",
+  "induced_prompt_chars": 222,
+  "induced_prompt_words": 39,
+  "l1_char_total": 337,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The boy kicked the ball, threw the stone, broke the window, and the window shattered.\",\n    \"The chef sliced the onion, chopped the carrot, added the spices, and the spices sizzled.\",\n    \"The hunter shot the deer, skinned the animal, tanned the hide, and the hide dried.\",\n    \"The writer wrote the book, published the novel, won the award, and the award gleamed.\",\n    \"The storm blew the roof, damaged the house, flooded the basement, and the basement overflowed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The boy kicked the ball, threw the stone, broke the window, and the window shattered.",
+    "The chef sliced the onion, chopped the carrot, added the spices, and the spices sizzled.",
+    "The hunter shot the deer, skinned the animal, tanned the hide, and the hide dried.",
+    "The writer wrote the book, published the novel, won the award, and the award gleamed.",
+    "The storm blew the roof, damaged the house, flooded the basement, and the basement overflowed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:10:14.364938+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the bird the mouse chased ate saw ignored",
+    "the book the teacher the student the principal recommended read borrowed returned",
+    "the car the mechanic the owner the insurance fixed inspected sold insured",
+    "the letter the manager the secretary the clerk typed signed filed delivered"
+  ],
+  "l1_sentences": [
+    "the cat the dog the bird the mouse chased ate saw ignored",
+    "the book the teacher the student the principal recommended read borrowed returned",
+    "the car the mechanic the owner the insurance fixed inspected sold insured",
+    "the letter the manager the secretary the clerk typed signed filed delivered",
+    "the house the agent the buyer sold inspected bought"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog the bird the mouse chased ate saw ignored\",\n    \"the book the teacher the student the principal recommended read borrowed returned\",\n    \"the car the mechanic the owner the insurance fixed inspected sold insured\",\n    \"the letter the manager the secretary the clerk typed signed filed delivered\",\n    \"the house the agent the buyer sold inspected bought\"\n  ]\n}\n```",
+  "run_idx": 20
+}

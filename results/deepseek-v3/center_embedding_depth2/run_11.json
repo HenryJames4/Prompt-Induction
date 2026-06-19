@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor recommended sold",
+    "the car the mechanic fixed ran",
+    "the cake the baker prepared tasted",
+    "the song the artist composed played",
+    "the plan the architect designed worked"
+  ],
+  "induced_prompt_raw": "\"the [object] the [profession] [past tense verb] [past tense verb]\"",
+  "induced_prompt": "\"the [object] the [profession] [past tense verb] [past tense verb]\"",
+  "induced_prompt_chars": 67,
+  "induced_prompt_words": 10,
+  "l1_char_total": 173,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The hammer the carpenter gripped tightened.\", \"The brush the painter applied smoothed.\", \"The scalpel the surgeon held sliced.\", \"The wrench the mechanic twisted loosened.\", \"The pen the writer dipped scribbled.\"]}",
+  "l2_sentences": [
+    "The hammer the carpenter gripped tightened.",
+    "The brush the painter applied smoothed.",
+    "The scalpel the surgeon held sliced.",
+    "The wrench the mechanic twisted loosened.",
+    "The pen the writer dipped scribbled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:11:17.650438+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor recommended sold",
+    "the car the mechanic fixed ran",
+    "the cake the baker prepared tasted",
+    "the song the artist composed played",
+    "the plan the architect designed worked"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor recommended sold\", \"the car the mechanic fixed ran\", \"the cake the baker prepared tasted\", \"the song the artist composed played\", \"the plan the architect designed worked\"]}",
+  "run_idx": 11
+}

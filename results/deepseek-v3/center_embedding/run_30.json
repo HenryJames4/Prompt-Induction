@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the baker the chef the apprentice prepared decorated served disappeared",
+    "the book the author the editor the publisher wrote revised printed sold",
+    "the letter the writer the manager the assistant drafted reviewed signed delivered",
+    "the painting the artist the curator the museum created exhibited admired vanished",
+    "the car the driver the mechanic the owner repaired maintained drove crashed"
+  ],
+  "induced_prompt_raw": "Generate sentences where a series of nouns sequentially modify a main verb, creating a chain of actions or events.",
+  "induced_prompt": "Generate sentences where a series of nouns sequentially modify a main verb, creating a chain of actions or events.",
+  "induced_prompt_chars": 114,
+  "induced_prompt_words": 19,
+  "l1_char_total": 388,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The chef knife tomatoes slice salad.\", \"The wind leaves trees sway dance.\", \"The hammer nail board build fence.\", \"The rain roof gutter flow drain.\", \"The teacher chalkboard lesson inspire students.\"]}",
+  "l2_sentences": [
+    "The chef knife tomatoes slice salad.",
+    "The wind leaves trees sway dance.",
+    "The hammer nail board build fence.",
+    "The rain roof gutter flow drain.",
+    "The teacher chalkboard lesson inspire students."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:54:53.115829+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the baker the chef the apprentice prepared decorated served disappeared",
+    "the book the author the editor the publisher wrote revised printed sold",
+    "the letter the writer the manager the assistant drafted reviewed signed delivered",
+    "the painting the artist the curator the museum created exhibited admired vanished",
+    "the car the driver the mechanic the owner repaired maintained drove crashed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the baker the chef the apprentice prepared decorated served disappeared\", \"the book the author the editor the publisher wrote revised printed sold\", \"the letter the writer the manager the assistant drafted reviewed signed delivered\", \"the painting the artist the curator the museum created exhibited admired vanished\", \"the car the driver the mechanic the owner repaired maintained drove crashed\"]}",
+  "run_idx": 30
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the student the librarian recommended published borrowed vanished",
+    "the cake the chef the baker the customer prepared decorated served disappeared",
+    "the letter the writer the secretary the manager drafted signed mailed lost",
+    "the car the driver the mechanic the owner repaired cleaned sold crashed",
+    "the painting the artist the curator the viewer created displayed admired faded"
+  ],
+  "induced_prompt_raw": "\"Generate sentences where each noun phrase is followed by a verb, describing a sequence of actions involving interconnected entities.\"",
+  "induced_prompt": "\"Generate sentences where each noun phrase is followed by a verb, describing a sequence of actions involving interconnected entities.\"",
+  "induced_prompt_chars": 134,
+  "induced_prompt_words": 19,
+  "l1_char_total": 386,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog barked, alerting the cat.\", \"The cat hissed, startling the bird.\", \"The bird flew, escaping the danger.\", \"The wind blew, shaking the tree.\", \"The tree swayed, dropping its leaves.\"]}",
+  "l2_sentences": [
+    "The dog barked, alerting the cat.",
+    "The cat hissed, startling the bird.",
+    "The bird flew, escaping the danger.",
+    "The wind blew, shaking the tree.",
+    "The tree swayed, dropping its leaves."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T20:59:46.599853+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the student the librarian recommended published borrowed vanished",
+    "the cake the chef the baker the customer prepared decorated served disappeared",
+    "the letter the writer the secretary the manager drafted signed mailed lost",
+    "the car the driver the mechanic the owner repaired cleaned sold crashed",
+    "the painting the artist the curator the viewer created displayed admired faded"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the student the librarian recommended published borrowed vanished\", \"the cake the chef the baker the customer prepared decorated served disappeared\", \"the letter the writer the secretary the manager drafted signed mailed lost\", \"the car the driver the mechanic the owner repaired cleaned sold crashed\", \"the painting the artist the curator the viewer created displayed admired faded\"]}",
+  "run_idx": 1
+}

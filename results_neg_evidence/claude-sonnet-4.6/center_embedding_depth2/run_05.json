@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the letter the clerk typed arrived",
+    "the book the student borrowed disappeared",
+    "the report the manager reviewed circulated",
+    "the song the choir rehearsed impressed",
+    "the memo the assistant the director hired typed circulated quickly"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (subject + object relative clause + main verb), avoiding double or nested embeddings.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (subject + object relative clause + main verb), avoiding double or nested embeddings.",
+  "induced_prompt_chars": 147,
+  "induced_prompt_words": 21,
+  "l1_char_total": 221,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that the professor recommended was fascinating.\", \"The cat that the children found was injured.\", \"The letter that my mother wrote arrived yesterday.\", \"The movie that the critics praised won several awards.\", \"The cake that our neighbor baked tasted delicious.\"]}\n```",
+  "l2_sentences": [
+    "The book that the professor recommended was fascinating.",
+    "The cat that the children found was injured.",
+    "The letter that my mother wrote arrived yesterday.",
+    "The movie that the critics praised won several awards.",
+    "The cake that our neighbor baked tasted delicious."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:38:32.490907+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the letter the clerk typed arrived",
+    "the book the student borrowed disappeared",
+    "the report the manager reviewed circulated",
+    "the song the choir rehearsed impressed"
+  ],
+  "l1_sentences": [
+    "the letter the clerk typed arrived",
+    "the book the student borrowed disappeared",
+    "the report the manager reviewed circulated",
+    "the song the choir rehearsed impressed",
+    "the memo the assistant the director hired typed circulated quickly"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the letter the clerk typed arrived\", \"the book the student borrowed disappeared\", \"the report the manager reviewed circulated\", \"the song the choir rehearsed impressed\", \"the memo the assistant the director hired typed circulated quickly\"]}\n```",
+  "run_idx": 5
+}

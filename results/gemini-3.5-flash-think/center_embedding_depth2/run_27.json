@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the song the singer sang ended",
+    "the book the author wrote disappeared",
+    "the food the chef cooked spoiled",
+    "the car the mechanic fixed started",
+    "the letter the boy mailed arrived"
+  ],
+  "induced_prompt_raw": "Generate five sentences with the pattern: \"the [noun] the [noun] [past-tense verb] [past-tense verb]\".",
+  "induced_prompt": "Generate five sentences with the pattern: \"the [noun] the [noun] [past-tense verb] [past-tense verb]\".",
+  "induced_prompt_chars": 102,
+  "induced_prompt_words": 14,
+  "l1_char_total": 166,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"the mouse the cat chased escaped\",\n    \"the ball the boy kicked popped\",\n    \"the actor the crowd cheered bowed\",\n    \"the letter the girl wrote arrived\",\n    \"the car the man bought stalled\"\n  ]\n}",
+  "l2_sentences": [
+    "the mouse the cat chased escaped",
+    "the ball the boy kicked popped",
+    "the actor the crowd cheered bowed",
+    "the letter the girl wrote arrived",
+    "the car the man bought stalled"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:43:56.493798+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the song the singer sang ended",
+    "the book the author wrote disappeared",
+    "the food the chef cooked spoiled",
+    "the car the mechanic fixed started",
+    "the letter the boy mailed arrived"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the song the singer sang ended\",\n    \"the book the author wrote disappeared\",\n    \"the food the chef cooked spoiled\",\n    \"the car the mechanic fixed started\",\n    \"the letter the boy mailed arrived\"\n  ]\n}",
+  "run_idx": 27
+}

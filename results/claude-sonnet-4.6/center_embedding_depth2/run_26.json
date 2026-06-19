@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the editor reviewed published.",
+    "The cake the chef baked vanished.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed spread."
+  ],
+  "induced_prompt_raw": "Write sentences with center-embedded relative clauses where a subject undergoes a simple intransitive action after being modified by an agent who performed a transitive action on it.",
+  "induced_prompt": "Write sentences with center-embedded relative clauses where a subject undergoes a simple intransitive action after being modified by an agent who performed a transitive action on it.",
+  "induced_prompt_chars": 182,
+  "induced_prompt_words": 27,
+  "l1_char_total": 192,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog that the boy chased barked.\",\n    \"The cake that the chef baked rose.\",\n    \"The letter that the secretary typed arrived.\",\n    \"The flower that the gardener planted bloomed.\",\n    \"The horse that the trainer brushed galloped.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog that the boy chased barked.",
+    "The cake that the chef baked rose.",
+    "The letter that the secretary typed arrived.",
+    "The flower that the gardener planted bloomed.",
+    "The horse that the trainer brushed galloped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:43:22.223692+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the editor reviewed published.",
+    "The cake the chef baked vanished.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed spread."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The report the editor reviewed published.\",\n    \"The cake the chef baked vanished.\",\n    \"The letter the student wrote arrived.\",\n    \"The bridge the engineer designed collapsed.\",\n    \"The song the musician composed spread.\"\n  ]\n}\n```",
+  "run_idx": 26
+}

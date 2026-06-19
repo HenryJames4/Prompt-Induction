@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the client the lawyer the clerk the paralegal assisted instructed defended won",
+    "the patient the doctor the nurse the student helped directed treated survived",
+    "the chef the cook the baker the apprentice trained assisted supervised resigned",
+    "the actor the director the agent the assistant hired managed guided triumphed",
+    "the student the teacher the principal the superintendent questioned advised supported graduated"
+  ],
+  "induced_prompt_raw": "Generate a sentence with four nested relative clauses using the syntactic pattern: `[Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb A] [Verb B] [Verb C] [Verb D]`, where the verbs are resolved in reverse order (Noun 4 did Verb A to Noun 3, who did Verb B to Noun 2, who did Verb C to Noun 1, who did Verb D).",
+  "induced_prompt": "Generate a sentence with four nested relative clauses using the syntactic pattern: `[Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb A] [Verb B] [Verb C] [Verb D]`, where the verbs are resolved in reverse order (Noun 4 did Verb A to Noun 3, who did Verb B to Noun 2, who did Verb C to Noun 1, who did Verb D).",
+  "induced_prompt_chars": 302,
+  "induced_prompt_words": 62,
+  "l1_char_total": 406,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef the critic the writer the editor praised questioned congratulated retired.\",\n    \"The dog the cat the rat the beetle bit chased scratched escaped.\",\n    \"The child the mother the doctor the nurse scolded consulted thanked smiled.\",\n    \"The student the teacher the principal the superintendent disliked suspended reprimanded resigned.\",\n    \"The artist the collector the dealer the curator discovered hired trusted triumphed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef the critic the writer the editor praised questioned congratulated retired.",
+    "The dog the cat the rat the beetle bit chased scratched escaped.",
+    "The child the mother the doctor the nurse scolded consulted thanked smiled.",
+    "The student the teacher the principal the superintendent disliked suspended reprimanded resigned.",
+    "The artist the collector the dealer the curator discovered hired trusted triumphed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:27:33.702254+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the client the lawyer the clerk the paralegal assisted instructed defended won",
+    "the patient the doctor the nurse the student helped directed treated survived",
+    "the chef the cook the baker the apprentice trained assisted supervised resigned",
+    "the actor the director the agent the assistant hired managed guided triumphed",
+    "the student the teacher the principal the superintendent questioned advised supported graduated"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the client the lawyer the clerk the paralegal assisted instructed defended won\",\n    \"the patient the doctor the nurse the student helped directed treated survived\",\n    \"the chef the cook the baker the apprentice trained assisted supervised resigned\",\n    \"the actor the director the agent the assistant hired managed guided triumphed\",\n    \"the student the teacher the principal the superintendent questioned advised supported graduated\"\n  ]\n}",
+  "run_idx": 20
+}

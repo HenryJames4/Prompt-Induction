@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the boy the woman chased chased petted adopted",
+    "the book the teacher the student the principal assigned read discussed rejected",
+    "the car the mechanic the owner the driver repaired examined washed sold",
+    "the house the agent the buyer the owner showed inspected purchased renovated",
+    "the cake the baker the friend decorated baked served"
+  ],
+  "induced_prompt_raw": "Generate a sentence of four nouns and four verbs in a fixed order: noun-verb-noun-verb-noun-verb-noun-verb, where each verb applies to the preceding noun and all subsequent nouns.",
+  "induced_prompt": "Generate a sentence of four nouns and four verbs in a fixed order: noun-verb-noun-verb-noun-verb-noun-verb, where each verb applies to the preceding noun and all subsequent nouns.",
+  "induced_prompt_chars": 179,
+  "induced_prompt_words": 26,
+  "l1_char_total": 340,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"Dogs chase cats catch mice eat cheese.\",\n    \"Rain falls flowers grow trees bloom birds sing.\",\n    \"Students read books write essays earn degrees get jobs.\",\n    \"Waves crash rocks erode mountains form valleys.\",\n    \"Chefs cook meals serve customers earn tips open restaurants.\"\n  ]\n}",
+  "l2_sentences": [
+    "Dogs chase cats catch mice eat cheese.",
+    "Rain falls flowers grow trees bloom birds sing.",
+    "Students read books write essays earn degrees get jobs.",
+    "Waves crash rocks erode mountains form valleys.",
+    "Chefs cook meals serve customers earn tips open restaurants."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:14:36.026397+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the boy the woman chased chased petted adopted",
+    "the book the teacher the student the principal assigned read discussed rejected",
+    "the car the mechanic the owner the driver repaired examined washed sold",
+    "the house the agent the buyer the owner showed inspected purchased renovated"
+  ],
+  "l1_sentences": [
+    "the cat the dog the boy the woman chased chased petted adopted",
+    "the book the teacher the student the principal assigned read discussed rejected",
+    "the car the mechanic the owner the driver repaired examined washed sold",
+    "the house the agent the buyer the owner showed inspected purchased renovated",
+    "the cake the baker the friend decorated baked served"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the boy the woman chased chased petted adopted\",\n    \"the book the teacher the student the principal assigned read discussed rejected\",\n    \"the car the mechanic the owner the driver repaired examined washed sold\",\n    \"the house the agent the buyer the owner showed inspected purchased renovated\",\n    \"the cake the baker the friend decorated baked served\"\n  ]\n}",
+  "run_idx": 22
+}

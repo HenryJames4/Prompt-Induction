@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the chef the waiter the customer the manager resigned complained served cooked.",
+    "the artist the curator the patron the critic praised purchased displayed painted.",
+    "the farmer the goat the dog the sheep bleated barked ate planted.",
+    "the child the toy the robot the remote activated moved broke cried.",
+    "the teacher the student the book the librarian found returned read shelved."
+  ],
+  "induced_prompt_raw": "Write four definite noun phrases followed by four past-tense verbs, with the verbs corresponding to the nouns in reverse order.",
+  "induced_prompt": "Write four definite noun phrases followed by four past-tense verbs, with the verbs corresponding to the nouns in reverse order.",
+  "induced_prompt_chars": 127,
+  "induced_prompt_words": 20,
+  "l1_char_total": 367,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The mountain, the river, the forest, and the valley echoed, flowed, rustled, and towered.\", \"The chef, the gardener, the painter, and the musician composed, planted, brushed, and stirred.\", \"The clock, the book, the lamp, and the chair ticked, opened, glowed, and stood.\", \"The eagle, the dolphin, the lion, and the antelope soared, swam, roared, and grazed.\", \"The storm, the rainbow, the dew, and the frost raged, arched, glistened, and melted.\"]}",
+  "l2_sentences": [
+    "The mountain, the river, the forest, and the valley echoed, flowed, rustled, and towered.",
+    "The chef, the gardener, the painter, and the musician composed, planted, brushed, and stirred.",
+    "The clock, the book, the lamp, and the chair ticked, opened, glowed, and stood.",
+    "The eagle, the dolphin, the lion, and the antelope soared, swam, roared, and grazed.",
+    "The storm, the rainbow, the dew, and the frost raged, arched, glistened, and melted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:20:42.874279+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the waiter the customer the manager resigned complained served cooked.",
+    "the artist the curator the patron the critic praised purchased displayed painted.",
+    "the farmer the goat the dog the sheep bleated barked ate planted.",
+    "the child the toy the robot the remote activated moved broke cried.",
+    "the teacher the student the book the librarian found returned read shelved."
+  ],
+  "l1_raw": "{\"sentences\": [\"the chef the waiter the customer the manager resigned complained served cooked.\", \"the artist the curator the patron the critic praised purchased displayed painted.\", \"the farmer the goat the dog the sheep bleated barked ate planted.\", \"the child the toy the robot the remote activated moved broke cried.\", \"the teacher the student the book the librarian found returned read shelved.\"]}",
+  "run_idx": 12
+}

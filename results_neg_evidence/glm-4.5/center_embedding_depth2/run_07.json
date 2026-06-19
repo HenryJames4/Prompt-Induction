@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased climbed the tree.",
+    "The book the student read won the award.",
+    "The house the builder constructed sold quickly.",
+    "The movie the critic reviewed received praise.",
+    "The car the mechanic fixed the owner drove was expensive."
+  ],
+  "induced_prompt_raw": "Generate a sentence with one center-embedded relative clause modifying the subject.",
+  "induced_prompt": "Generate a sentence with one center-embedded relative clause modifying the subject.",
+  "induced_prompt_chars": 83,
+  "induced_prompt_words": 11,
+  "l1_char_total": 230,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that chased the mouse that ate the cheese slept on the couch.\",\n    \"The student who studied the book that explained the theory passed the exam.\",\n    \"The house that stood on the hill that overlooked the town was painted white.\",\n    \"The teacher who taught the class that won the competition received an award.\",\n    \"The bird that built the nest that held the eggs sang beautifully.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that chased the mouse that ate the cheese slept on the couch.",
+    "The student who studied the book that explained the theory passed the exam.",
+    "The house that stood on the hill that overlooked the town was painted white.",
+    "The teacher who taught the class that won the competition received an award.",
+    "The bird that built the nest that held the eggs sang beautifully."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:40:33.430568+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased climbed the tree.",
+    "The book the student read won the award.",
+    "The house the builder constructed sold quickly.",
+    "The movie the critic reviewed received praise."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased climbed the tree.",
+    "The book the student read won the award.",
+    "The house the builder constructed sold quickly.",
+    "The movie the critic reviewed received praise.",
+    "The car the mechanic fixed the owner drove was expensive."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog chased climbed the tree.\",\n    \"The book the student read won the award.\",\n    \"The house the builder constructed sold quickly.\",\n    \"The movie the critic reviewed received praise.\",\n    \"The car the mechanic fixed the owner drove was expensive.\"\n  ]\n}",
+  "run_idx": 7
+}

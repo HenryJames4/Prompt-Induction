@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the chef the critic praised smiled",
+    "the student the teacher helped graduated",
+    "the patient the doctor treated recovered",
+    "the dog the boy chased barked",
+    "the actor the director hired bowed"
+  ],
+  "induced_prompt_raw": "Write five sentences following the syntactic structure: \"The [noun1] the [noun2] [transitive verb] [intransitive verb].\"",
+  "induced_prompt": "Write five sentences following the syntactic structure: \"The [noun1] the [noun2] [transitive verb] [intransitive verb].\"",
+  "induced_prompt_chars": 120,
+  "induced_prompt_words": 15,
+  "l1_char_total": 177,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The mouse the cat chased ran.\",\n    \"The book the student read fell.\",\n    \"The ball the boy kicked rolled.\",\n    \"The man the dog bit cried.\",\n    \"The car the mechanic fixed broke.\"\n  ]\n}",
+  "l2_sentences": [
+    "The mouse the cat chased ran.",
+    "The book the student read fell.",
+    "The ball the boy kicked rolled.",
+    "The man the dog bit cried.",
+    "The car the mechanic fixed broke."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:41:04.527620+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the critic praised smiled",
+    "the student the teacher helped graduated",
+    "the patient the doctor treated recovered",
+    "the dog the boy chased barked",
+    "the actor the director hired bowed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the critic praised smiled\",\n    \"the student the teacher helped graduated\",\n    \"the patient the doctor treated recovered\",\n    \"the dog the boy chased barked\",\n    \"the actor the director hired bowed\"\n  ]\n}",
+  "run_idx": 18
+}

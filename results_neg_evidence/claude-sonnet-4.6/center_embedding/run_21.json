@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef the critic the blogger praised reviewed baked vanished",
+    "the letter the lawyer the clerk the judge signed filed drafted arrived",
+    "the song the musician the producer the fan loved mixed recorded faded",
+    "the book the author the editor the reader enjoyed revised wrote disappeared",
+    "the film the director the actor praised directed released"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly 4 levels of embedding, where 4 nouns are followed by 4 verbs in matching order, and the final verb describes the main subject acting alone (e.g., vanished/arrived). Do not use only 3 levels of embedding.",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly 4 levels of embedding, where 4 nouns are followed by 4 verbs in matching order, and the final verb describes the main subject acting alone (e.g., vanished/arrived). Do not use only 3 levels of embedding.",
+  "induced_prompt_chars": 265,
+  "induced_prompt_words": 43,
+  "l1_char_total": 343,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that the dog that the child that the woman saw raised chased vanished.\",\n    \"The ship that the crew that the captain that the admiral trusted commanded sailed disappeared.\",\n    \"The wolf that the hunter that the ranger that the warden hired trained pursued fled.\",\n    \"The letter that the clerk that the manager that the director appointed supervised mailed arrived.\",\n    \"The bird that the hawk that the eagle that the storm startled frightened caught escaped.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the child that the woman saw raised chased vanished.",
+    "The ship that the crew that the captain that the admiral trusted commanded sailed disappeared.",
+    "The wolf that the hunter that the ranger that the warden hired trained pursued fled.",
+    "The letter that the clerk that the manager that the director appointed supervised mailed arrived.",
+    "The bird that the hawk that the eagle that the storm startled frightened caught escaped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:13:18.103754+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef the critic the blogger praised reviewed baked vanished",
+    "the letter the lawyer the clerk the judge signed filed drafted arrived",
+    "the song the musician the producer the fan loved mixed recorded faded",
+    "the book the author the editor the reader enjoyed revised wrote disappeared"
+  ],
+  "l1_sentences": [
+    "the cake the chef the critic the blogger praised reviewed baked vanished",
+    "the letter the lawyer the clerk the judge signed filed drafted arrived",
+    "the song the musician the producer the fan loved mixed recorded faded",
+    "the book the author the editor the reader enjoyed revised wrote disappeared",
+    "the film the director the actor praised directed released"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the critic the blogger praised reviewed baked vanished\", \"the letter the lawyer the clerk the judge signed filed drafted arrived\", \"the song the musician the producer the fan loved mixed recorded faded\", \"the book the author the editor the reader enjoyed revised wrote disappeared\", \"the film the director the actor praised directed released\"]}\n```",
+  "run_idx": 21
+}

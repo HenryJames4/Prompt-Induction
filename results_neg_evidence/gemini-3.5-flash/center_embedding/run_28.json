@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student the tutor the professor recommended hired read lost.",
+    "The software the developer the client the manager selected hired used failed.",
+    "The letter the secretary the clerk the intern drafted copied mailed vanished.",
+    "The song the singer the producer the director hired advised recorded debuted.",
+    "The car the driver the mechanic fixed sold crashed."
+  ],
+  "induced_prompt_raw": "Generate a sentence featuring quadruple-embedded relative clauses with four nouns followed by four verbs (e.g., \"The [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\"). Avoid triple embedding (three nouns and three verbs) or any fewer levels of nesting.",
+  "induced_prompt": "Generate a sentence featuring quadruple-embedded relative clauses with four nouns followed by four verbs (e.g., \"The [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\"). Avoid triple embedding (three nouns and three verbs) or any fewer levels of nesting.",
+  "induced_prompt_chars": 280,
+  "induced_prompt_words": 41,
+  "l1_char_total": 355,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The reporter the politician the lobbyist the activist challenged bribed interviewed questioned resigned.\",\n    \"The cheese the rat the cat the dog chased caught ate smelled spoiled.\",\n    \"The painting the artist the critic the collector disliked praised created sold vanished.\",\n    \"The book the student the teacher the principal criticized questioned read recommended burned.\",\n    \"The car the mechanic the driver the owner blamed sued repaired crashed exploded.\"\n  ]\n}",
+  "l2_sentences": [
+    "The reporter the politician the lobbyist the activist challenged bribed interviewed questioned resigned.",
+    "The cheese the rat the cat the dog chased caught ate smelled spoiled.",
+    "The painting the artist the critic the collector disliked praised created sold vanished.",
+    "The book the student the teacher the principal criticized questioned read recommended burned.",
+    "The car the mechanic the driver the owner blamed sued repaired crashed exploded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:23:30.155894+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student the tutor the professor recommended hired read lost.",
+    "The software the developer the client the manager selected hired used failed.",
+    "The letter the secretary the clerk the intern drafted copied mailed vanished.",
+    "The song the singer the producer the director hired advised recorded debuted."
+  ],
+  "l1_sentences": [
+    "The book the student the tutor the professor recommended hired read lost.",
+    "The software the developer the client the manager selected hired used failed.",
+    "The letter the secretary the clerk the intern drafted copied mailed vanished.",
+    "The song the singer the producer the director hired advised recorded debuted.",
+    "The car the driver the mechanic fixed sold crashed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the tutor the professor recommended hired read lost.\",\n    \"The software the developer the client the manager selected hired used failed.\",\n    \"The letter the secretary the clerk the intern drafted copied mailed vanished.\",\n    \"The song the singer the producer the director hired advised recorded debuted.\",\n    \"The car the driver the mechanic fixed sold crashed.\"\n  ]\n}",
+  "run_idx": 28
+}

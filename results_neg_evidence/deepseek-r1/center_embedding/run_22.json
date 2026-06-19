@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the cat the mouse the flea bit chased scared ran.",
+    "The book the author the publisher the editor contacted hired praised sold.",
+    "The house the architect the builder the carpenter designed built constructed collapsed.",
+    "The cake the baker the customer the waiter served recommended enjoyed melted.",
+    "The teacher the student the homework completed graded smiled."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with exactly four nouns followed by four verbs, omitting relative pronouns, where the verbs progress from innermost clause to main clause: each verb logically links its subject (from later nouns) to the prior noun as object, ending with the main subject's intransitive verb.\"",
+  "induced_prompt": "\"Generate a sentence with exactly four nouns followed by four verbs, omitting relative pronouns, where the verbs progress from innermost clause to main clause: each verb logically links its subject (from later nouns) to the prior noun as object, ending with the main subject's intransitive verb.\"",
+  "induced_prompt_chars": 296,
+  "induced_prompt_words": 46,
+  "l1_char_total": 356,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The child, the toy, the box, the key opened, contained, fascinated, played.\", \"The tree, the leaves, the wind, the storm stirred, rustled, shaded, grew.\", \"The artist, the painting, the brush, the hand held, stroked, inspired, worked.\", \"The city, the lights, the electricity, the generator produced, powered, illuminated, thrived.\", \"The farmer, the crops, the rain, the clouds released, nourished, fed, rested.\"]}",
+  "l2_sentences": [
+    "The child, the toy, the box, the key opened, contained, fascinated, played.",
+    "The tree, the leaves, the wind, the storm stirred, rustled, shaded, grew.",
+    "The artist, the painting, the brush, the hand held, stroked, inspired, worked.",
+    "The city, the lights, the electricity, the generator produced, powered, illuminated, thrived.",
+    "The farmer, the crops, the rain, the clouds released, nourished, fed, rested."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:14:47.947354+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the cat the mouse the flea bit chased scared ran.",
+    "The book the author the publisher the editor contacted hired praised sold.",
+    "The house the architect the builder the carpenter designed built constructed collapsed.",
+    "The cake the baker the customer the waiter served recommended enjoyed melted."
+  ],
+  "l1_sentences": [
+    "The dog the cat the mouse the flea bit chased scared ran.",
+    "The book the author the publisher the editor contacted hired praised sold.",
+    "The house the architect the builder the carpenter designed built constructed collapsed.",
+    "The cake the baker the customer the waiter served recommended enjoyed melted.",
+    "The teacher the student the homework completed graded smiled."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the cat the mouse the flea bit chased scared ran.\", \"The book the author the publisher the editor contacted hired praised sold.\", \"The house the architect the builder the carpenter designed built constructed collapsed.\", \"The cake the baker the customer the waiter served recommended enjoyed melted.\", \"The teacher the student the homework completed graded smiled.\"]}",
+  "run_idx": 22
+}

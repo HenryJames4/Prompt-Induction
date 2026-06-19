@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student read won",
+    "the cake the chef baked melted",
+    "the letter the manager signed arrived",
+    "the song the band recorded charted",
+    "the report the clerk the boss hired filed disappeared quickly"
+  ],
+  "induced_prompt_raw": "Write sentences with a single level of center-embedding (a relative clause modifying the subject noun), using simple transitive verbs, avoiding multiple nested relative clauses.",
+  "induced_prompt": "Write sentences with a single level of center-embedding (a relative clause modifying the subject noun), using simple transitive verbs, avoiding multiple nested relative clauses.",
+  "induced_prompt_chars": 177,
+  "induced_prompt_words": 24,
+  "l1_char_total": 191,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the boy found slept peacefully.\", \"The book that Maria borrowed inspired her deeply.\", \"The scientist that the university hired discovered a new protein.\", \"The letter that James wrote changed everything.\", \"The dog that our neighbor owns chased the squirrel.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the boy found slept peacefully.",
+    "The book that Maria borrowed inspired her deeply.",
+    "The scientist that the university hired discovered a new protein.",
+    "The letter that James wrote changed everything.",
+    "The dog that our neighbor owns chased the squirrel."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:58:13.550303+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student read won",
+    "the cake the chef baked melted",
+    "the letter the manager signed arrived",
+    "the song the band recorded charted"
+  ],
+  "l1_sentences": [
+    "the book the student read won",
+    "the cake the chef baked melted",
+    "the letter the manager signed arrived",
+    "the song the band recorded charted",
+    "the report the clerk the boss hired filed disappeared quickly"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student read won\", \"the cake the chef baked melted\", \"the letter the manager signed arrived\", \"the song the band recorded charted\", \"the report the clerk the boss hired filed disappeared quickly\"]}",
+  "run_idx": 27
+}

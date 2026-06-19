@@ -1,0 +1,34 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The bill the senator proposed failed.",
+    "The dog the child fed barked.",
+    "The letter the clerk typed arrived."
+  ],
+  "induced_prompt_raw": null,
+  "induced_prompt": null,
+  "induced_prompt_chars": null,
+  "induced_prompt_words": null,
+  "l1_char_total": null,
+  "prompt_shorter_than_l1": null,
+  "l2_raw": null,
+  "l2_sentences": [],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:36:57.749380+00:00",
+  "error": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 60697. To increase, visit https://openrouter.ai/settings/credits and add more credits', 'code': 402, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 60697. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 60697. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 60697. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 60697. To increase, visit https://openrouter.ai/settings/credits and add more credits'}, {'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 60697. To increase, visit https://openrouter.ai/settings/credits and add more credits'}]}}, 'user_id': 'user_3D5jt7uWqldfsYvXwdM6ww3AoH5'}",
+  "l1_sentences": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The bill the senator proposed failed.",
+    "The dog the child fed barked.",
+    "The letter the clerk typed arrived."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed passed.\", \"The cake the chef baked disappeared.\", \"The bill the senator proposed failed.\", \"The dog the child fed barked.\", \"The letter the clerk typed arrived.\"]}\n```",
+  "run_idx": 6
+}

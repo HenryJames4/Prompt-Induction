@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student read won.",
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The letter the lawyer drafted arrived.",
+    "The song the musician the producer the label signed recorded performed won."
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (subject + object relative clause + main verb), avoiding multiple levels of nested embedding.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (subject + object relative clause + main verb), avoiding multiple levels of nested embedding.",
+  "induced_prompt_chars": 155,
+  "induced_prompt_words": 22,
+  "l1_char_total": 218,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that the student borrowed was overdue.\", \"The cat that the children adopted slept all day.\", \"The letter that my mother wrote arrived yesterday.\", \"The proposal that the committee reviewed needed revisions.\", \"The song that the musician composed became very popular.\"]}\n```",
+  "l2_sentences": [
+    "The book that the student borrowed was overdue.",
+    "The cat that the children adopted slept all day.",
+    "The letter that my mother wrote arrived yesterday.",
+    "The proposal that the committee reviewed needed revisions.",
+    "The song that the musician composed became very popular."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T14:01:10.812363+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student read won.",
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The letter the lawyer drafted arrived."
+  ],
+  "l1_sentences": [
+    "The book the student read won.",
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The letter the lawyer drafted arrived.",
+    "The song the musician the producer the label signed recorded performed won."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The book the student read won.\", \"The report the manager reviewed passed.\", \"The cake the chef baked disappeared.\", \"The letter the lawyer drafted arrived.\", \"The song the musician the producer the label signed recorded performed won.\"]}\n```",
+  "run_idx": 30
+}

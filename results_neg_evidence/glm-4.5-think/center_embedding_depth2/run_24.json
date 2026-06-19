@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read won.",
+    "the idea the committee rejected failed.",
+    "the car the mechanic fixed sold.",
+    "the man the woman the child saw greeted left."
+  ],
+  "induced_prompt_raw": "Generate: [the X] [the Y] [verb1] [verb2]. Structure: Y verb1 X (relative clause), then X verb2 (main clause). Avoid nested clauses.",
+  "induced_prompt": "Generate: [the X] [the Y] [verb1] [verb2]. Structure: Y verb1 X (relative clause), then X verb2 (main clause). Avoid nested clauses.",
+  "induced_prompt_chars": 132,
+  "induced_prompt_words": 21,
+  "l1_char_total": 177,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat chased the mouse, then the mouse escaped.\",\n    \"The storm destroyed the house, then the house collapsed.\",\n    \"The teacher praised the student, then the student beamed.\",\n    \"The lion hunted the antelope, then the antelope fled.\",\n    \"The chef prepared the meal, then the meal delighted.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat chased the mouse, then the mouse escaped.",
+    "The storm destroyed the house, then the house collapsed.",
+    "The teacher praised the student, then the student beamed.",
+    "The lion hunted the antelope, then the antelope fled.",
+    "The chef prepared the meal, then the meal delighted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:55:26.938581+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased escaped.",
+    "the book the student read won.",
+    "the idea the committee rejected failed.",
+    "the car the mechanic fixed sold."
+  ],
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read won.",
+    "the idea the committee rejected failed.",
+    "the car the mechanic fixed sold.",
+    "the man the woman the child saw greeted left."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read won.\",\n    \"the idea the committee rejected failed.\",\n    \"the car the mechanic fixed sold.\",\n    \"the man the woman the child saw greeted left.\"\n  ]\n}\n```",
+  "run_idx": 24
+}

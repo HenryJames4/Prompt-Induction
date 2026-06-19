@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the car the driver the owner the company bought sold registered recalled.",
+    "the book the author the publisher the reader wrote edited printed read.",
+    "the house the builder the owner the family designed constructed purchased moved.",
+    "the plan the manager the team the leader proposed discussed approved implemented."
+  ],
+  "induced_prompt_raw": "Four nouns and four verbs: last acts on third, third on second, second on first, first acts alone.",
+  "induced_prompt": "Four nouns and four verbs: last acts on third, third on second, second on first, first acts alone.",
+  "induced_prompt_chars": 98,
+  "induced_prompt_words": 18,
+  "l1_char_total": 391,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The king reigns.\",\n    \"The duke advises the king.\",\n    \"The knight protects the duke.\",\n    \"The squire serves the knight.\",\n    \"The king reigns alone.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The king reigns.",
+    "The duke advises the king.",
+    "The knight protects the duke.",
+    "The squire serves the knight.",
+    "The king reigns alone."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:15:51.801420+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the car the driver the owner the company bought sold registered recalled.",
+    "the book the author the publisher the reader wrote edited printed read.",
+    "the house the builder the owner the family designed constructed purchased moved.",
+    "the plan the manager the team the leader proposed discussed approved implemented."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared.\",\n    \"the car the driver the owner the company bought sold registered recalled.\",\n    \"the book the author the publisher the reader wrote edited printed read.\",\n    \"the house the builder the owner the family designed constructed purchased moved.\",\n    \"the plan the manager the team the leader proposed discussed approved implemented.\"\n  ]\n}\n```",
+  "run_idx": 8
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the boy chased barked.",
+    "the book the student read closed.",
+    "the song the band played ended.",
+    "the cake the baker baked cooled.",
+    "the man the woman the child saw greeted left."
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly two nouns and two past-tense verbs in the structure: \"the [noun1] the [noun2] [verb1] [verb2]\", where \"the [noun2] [verb1]\" is a single relative clause modifying [noun1], and [verb2] is the main verb. Avoid multiple embeddings or nested clauses.",
+  "induced_prompt": "Generate a sentence with exactly two nouns and two past-tense verbs in the structure: \"the [noun1] the [noun2] [verb1] [verb2]\", where \"the [noun2] [verb1]\" is a single relative clause modifying [noun1], and [verb2] is the main verb. Avoid multiple embeddings or nested clauses.",
+  "induced_prompt_chars": 278,
+  "induced_prompt_words": 43,
+  "l1_char_total": 171,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\n    \"The cake the baker baked tasted delicious.\",\n    \"The letter the secretary typed contained errors.\",\n    \"The car the mechanic fixed ran smoothly.\",\n    \"The song the band played ended abruptly.\",\n    \"The report the auditor reviewed revealed fraud.\"\n]}",
+  "l2_sentences": [
+    "The cake the baker baked tasted delicious.",
+    "The letter the secretary typed contained errors.",
+    "The car the mechanic fixed ran smoothly.",
+    "The song the band played ended abruptly.",
+    "The report the auditor reviewed revealed fraud."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:49:50.045795+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the dog the boy chased barked.",
+    "the book the student read closed.",
+    "the song the band played ended.",
+    "the cake the baker baked cooled."
+  ],
+  "l1_sentences": [
+    "the dog the boy chased barked.",
+    "the book the student read closed.",
+    "the song the band played ended.",
+    "the cake the baker baked cooled.",
+    "the man the woman the child saw greeted left."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy chased barked.\", \"the book the student read closed.\", \"the song the band played ended.\", \"the cake the baker baked cooled.\", \"the man the woman the child saw greeted left.\"]}",
+  "run_idx": 18
+}

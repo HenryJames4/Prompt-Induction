@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the editor contacted printed published arrived.",
+    "the cake the baker the customer the waiter recommended ordered delivered tasted.",
+    "the letter the manager the secretary the intern drafted reviewed signed disappeared.",
+    "the car the driver the mechanic the owner called repaired drove stalled.",
+    "the teacher the student the assignment completed explained submitted."
+  ],
+  "induced_prompt_raw": "Generate a sentence with nested relative clauses: start with a chain of at least three nouns each preceded by 'the', where each subsequent noun begins a clause modifying the previous one, and end with corresponding verbs in reverse noun order (innermost noun's verb first, outermost last). Ensure every noun has exactly one verb and avoid ambiguous clause boundaries.",
+  "induced_prompt": "Generate a sentence with nested relative clauses: start with a chain of at least three nouns each preceded by 'the', where each subsequent noun begins a clause modifying the previous one, and end with corresponding verbs in reverse noun order (innermost noun's verb first, outermost last). Ensure every noun has exactly one verb and avoid ambiguous clause boundaries.",
+  "induced_prompt_chars": 367,
+  "induced_prompt_words": 58,
+  "l1_char_total": 386,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": null,
+  "l2_sentences": [],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:16:49.370236+00:00",
+  "error": "Model deepseek/deepseek-r1 returned an empty response.",
+  "induction_input_correct": [
+    "the book the author the publisher the editor contacted printed published arrived.",
+    "the cake the baker the customer the waiter recommended ordered delivered tasted.",
+    "the letter the manager the secretary the intern drafted reviewed signed disappeared.",
+    "the car the driver the mechanic the owner called repaired drove stalled."
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the editor contacted printed published arrived.",
+    "the cake the baker the customer the waiter recommended ordered delivered tasted.",
+    "the letter the manager the secretary the intern drafted reviewed signed disappeared.",
+    "the car the driver the mechanic the owner called repaired drove stalled.",
+    "the teacher the student the assignment completed explained submitted."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the editor contacted printed published arrived.\", \"the cake the baker the customer the waiter recommended ordered delivered tasted.\", \"the letter the manager the secretary the intern drafted reviewed signed disappeared.\", \"the car the driver the mechanic the owner called repaired drove stalled.\", \"the teacher the student the assignment completed explained submitted.\"]}",
+  "run_idx": 24
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased escaped",
+    "the book the student read was interesting",
+    "the house the builder constructed collapsed",
+    "the idea the professor presented was innovative",
+    "the car the mechanic the owner hired repaired broke down"
+  ],
+  "induced_prompt_raw": "Generate a sentence with a center-embedded relative clause, but avoid multiple embeddings.",
+  "induced_prompt": "Generate a sentence with a center-embedded relative clause, but avoid multiple embeddings.",
+  "induced_prompt_chars": 90,
+  "induced_prompt_words": 12,
+  "l1_char_total": 217,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that chased the mouse ran up the tree.\",\n    \"The book that I read yesterday was very interesting.\",\n    \"The man who lives next door is a doctor.\",\n    \"The car that parked in front of our house is red.\",\n    \"The restaurant that we visited last week serves delicious food.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that chased the mouse ran up the tree.",
+    "The book that I read yesterday was very interesting.",
+    "The man who lives next door is a doctor.",
+    "The car that parked in front of our house is red.",
+    "The restaurant that we visited last week serves delicious food."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:42:42.510429+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased escaped",
+    "the book the student read was interesting",
+    "the house the builder constructed collapsed",
+    "the idea the professor presented was innovative"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased escaped",
+    "the book the student read was interesting",
+    "the house the builder constructed collapsed",
+    "the idea the professor presented was innovative",
+    "the car the mechanic the owner hired repaired broke down"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased escaped\",\n    \"the book the student read was interesting\",\n    \"the house the builder constructed collapsed\",\n    \"the idea the professor presented was innovative\",\n    \"the car the mechanic the owner hired repaired broke down\"\n  ]\n}",
+  "run_idx": 9
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the book the manager the student the teacher read corrected submitted vanished.",
+    "the computer the programmer the code the bug fixed tested debugged crashed.",
+    "the document the clerk the supervisor the client reviewed signed sent lost.",
+    "the plan the director the team the member devised implemented executed failed."
+  ],
+  "induced_prompt_raw": "noun three agents four verbs",
+  "induced_prompt": "noun three agents four verbs",
+  "induced_prompt_chars": 28,
+  "induced_prompt_words": 5,
+  "l1_char_total": 393,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat jumped over the fence.\", \"The book opened by itself.\", \"The car rolled down the hill.\", \"The cat sang a cheerful tune.\", \"The book jumped onto the table.\"]}",
+  "l2_sentences": [
+    "The cat jumped over the fence.",
+    "The book opened by itself.",
+    "The car rolled down the hill.",
+    "The cat sang a cheerful tune.",
+    "The book jumped onto the table."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:42:59.885231+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the book the manager the student the teacher read corrected submitted vanished.",
+    "the computer the programmer the code the bug fixed tested debugged crashed.",
+    "the document the clerk the supervisor the client reviewed signed sent lost.",
+    "the plan the director the team the member devised implemented executed failed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the report the editor the assistant the intern consulted revised approved disappeared.\", \"the book the manager the student the teacher read corrected submitted vanished.\", \"the computer the programmer the code the bug fixed tested debugged crashed.\", \"the document the clerk the supervisor the client reviewed signed sent lost.\", \"the plan the director the team the member devised implemented executed failed.\"]}",
+  "run_idx": 24
+}

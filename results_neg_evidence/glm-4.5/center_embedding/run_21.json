@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read recommended praised enjoyed",
+    "the plan the manager the team the client presented discussed accepted implemented",
+    "the house the owner the architect the builder designed constructed inspected sold",
+    "the car the driver the mechanic repaired washed polished"
+  ],
+  "induced_prompt_raw": "Generate a sentence with a noun followed by three nested relative clauses, each modifying the previous noun, and ending with a verb.",
+  "induced_prompt": "Generate a sentence with a noun followed by three nested relative clauses, each modifying the previous noun, and ending with a verb.",
+  "induced_prompt_chars": 132,
+  "induced_prompt_words": 22,
+  "l1_char_total": 379,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The house that stood on the hill that overlooked the valley that was covered in flowers collapsed.\",\n    \"The book that was written by the author who won the prize that was established last year sold out.\",\n    \"The car that was driven by the man who lived in the city that was built recently broke down.\",\n    \"The tree that grew in the garden that was tended by the woman who had green fingers blossomed.\",\n    \"The painting that was created by the artist who was inspired by the landscape that was beautiful amazed everyone.\"\n  ]\n}",
+  "l2_sentences": [
+    "The house that stood on the hill that overlooked the valley that was covered in flowers collapsed.",
+    "The book that was written by the author who won the prize that was established last year sold out.",
+    "The car that was driven by the man who lived in the city that was built recently broke down.",
+    "The tree that grew in the garden that was tended by the woman who had green fingers blossomed.",
+    "The painting that was created by the artist who was inspired by the landscape that was beautiful amazed everyone."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:13:16.819835+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read recommended praised enjoyed",
+    "the plan the manager the team the client presented discussed accepted implemented",
+    "the house the owner the architect the builder designed constructed inspected sold"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read recommended praised enjoyed",
+    "the plan the manager the team the client presented discussed accepted implemented",
+    "the house the owner the architect the builder designed constructed inspected sold",
+    "the car the driver the mechanic repaired washed polished"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read recommended praised enjoyed\",\n    \"the plan the manager the team the client presented discussed accepted implemented\",\n    \"the house the owner the architect the builder designed constructed inspected sold\",\n    \"the car the driver the mechanic repaired washed polished\"\n  ]\n}",
+  "run_idx": 21
+}

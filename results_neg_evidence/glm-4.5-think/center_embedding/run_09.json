@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the bird the mouse chased caught ate slept",
+    "the book the student the teacher the principal assigned read recommended praised",
+    "the car the driver the owner the mechanic repaired sold bought washed",
+    "the house the agent the buyer the seller showed visited negotiated sold",
+    "the man the woman the boy saw hit ran"
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly four noun phrases starting with 'the' followed by four verbs.",
+  "induced_prompt": "Generate a sentence with exactly four noun phrases starting with 'the' followed by four verbs.",
+  "induced_prompt_chars": 94,
+  "induced_prompt_words": 15,
+  "l1_char_total": 315,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog the mouse the bird chased jumped ran flew.\",\n    \"The teacher the student the book the desk read wrote studied learned.\",\n    \"The sun the moon the star the planet shone glowed burned rotated.\",\n    \"The car the truck the bus the train drove stopped started moved.\",\n    \"The chef the recipe the oven the timer cooked baked boiled checked.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the dog the mouse the bird chased jumped ran flew.",
+    "The teacher the student the book the desk read wrote studied learned.",
+    "The sun the moon the star the planet shone glowed burned rotated.",
+    "The car the truck the bus the train drove stopped started moved.",
+    "The chef the recipe the oven the timer cooked baked boiled checked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:52:40.482725+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the bird the mouse chased caught ate slept",
+    "the book the student the teacher the principal assigned read recommended praised",
+    "the car the driver the owner the mechanic repaired sold bought washed",
+    "the house the agent the buyer the seller showed visited negotiated sold"
+  ],
+  "l1_sentences": [
+    "the cat the dog the bird the mouse chased caught ate slept",
+    "the book the student the teacher the principal assigned read recommended praised",
+    "the car the driver the owner the mechanic repaired sold bought washed",
+    "the house the agent the buyer the seller showed visited negotiated sold",
+    "the man the woman the boy saw hit ran"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog the bird the mouse chased caught ate slept\",\n    \"the book the student the teacher the principal assigned read recommended praised\",\n    \"the car the driver the owner the mechanic repaired sold bought washed\",\n    \"the house the agent the buyer the seller showed visited negotiated sold\",\n    \"the man the woman the boy saw hit ran\"\n  ]\n}\n```",
+  "run_idx": 9
+}

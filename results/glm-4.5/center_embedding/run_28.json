@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the mouse the elephant chased hunted saw escaped.",
+    "the book the teacher the student the principal read recommended borrowed returned.",
+    "the car the mechanic the owner the police repaired drove inspected impounded.",
+    "the house the agent the buyer the seller listed showed purchased moved.",
+    "the computer the programmer the company the client designed tested delivered accepted."
+  ],
+  "induced_prompt_raw": "A sequence of nouns followed by a sequence of verbs.",
+  "induced_prompt": "A sequence of nouns followed by a sequence of verbs.",
+  "induced_prompt_chars": 52,
+  "induced_prompt_words": 10,
+  "l1_char_total": 381,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"Cats dogs birds ran jumped flew.\",\n    \"Books pens papers wrote read stacked.\",\n    \"Cars buses trains drove stopped accelerated.\",\n    \"Water fire ice flowed burned froze.\",\n    \"Children adults played learned laughed.\"\n  ]\n}",
+  "l2_sentences": [
+    "Cats dogs birds ran jumped flew.",
+    "Books pens papers wrote read stacked.",
+    "Cars buses trains drove stopped accelerated.",
+    "Water fire ice flowed burned froze.",
+    "Children adults played learned laughed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:51:15.193999+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the mouse the elephant chased hunted saw escaped.",
+    "the book the teacher the student the principal read recommended borrowed returned.",
+    "the car the mechanic the owner the police repaired drove inspected impounded.",
+    "the house the agent the buyer the seller listed showed purchased moved.",
+    "the computer the programmer the company the client designed tested delivered accepted."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the mouse the elephant chased hunted saw escaped.\",\n    \"the book the teacher the student the principal read recommended borrowed returned.\",\n    \"the car the mechanic the owner the police repaired drove inspected impounded.\",\n    \"the house the agent the buyer the seller listed showed purchased moved.\",\n    \"the computer the programmer the company the client designed tested delivered accepted.\"\n  ]\n}",
+  "run_idx": 28
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the client the lawyer the clerk the typist assisted hired defended won",
+    "the patient the doctor the nurse the student helped trained treated survived",
+    "the student the teacher the principal the superintendent suspended blamed warned graduated",
+    "the actor the director the writer the agent hired inspired criticized succeeded",
+    "the dog the cat the rat the flea bit chased scratched escaped"
+  ],
+  "induced_prompt_raw": "Write a sentence with a quadruple center-embedded relative clause structure, following the syntactic template: \"the [Noun 1] the [Noun 2] the [Noun 3] the [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1]\".",
+  "induced_prompt": "Write a sentence with a quadruple center-embedded relative clause structure, following the syntactic template: \"the [Noun 1] the [Noun 2] the [Noun 3] the [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1]\".",
+  "induced_prompt_chars": 201,
+  "induced_prompt_words": 34,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The report the assistant the clerk the intern filed drafted typed revealed a major error.\",\n    \"The mouse the cat the dog the boy chased bit scratched escaped through the fence.\",\n    \"The car the mechanic the apprentice the helper hired trained supervised repaired ran perfectly.\",\n    \"The song the singer the writer the producer hired inspired advised sang topped the charts.\",\n    \"The code the developer the manager the director hired questioned promoted compiled without issues.\"\n  ]\n}",
+  "l2_sentences": [
+    "The report the assistant the clerk the intern filed drafted typed revealed a major error.",
+    "The mouse the cat the dog the boy chased bit scratched escaped through the fence.",
+    "The car the mechanic the apprentice the helper hired trained supervised repaired ran perfectly.",
+    "The song the singer the writer the producer hired inspired advised sang topped the charts.",
+    "The code the developer the manager the director hired questioned promoted compiled without issues."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:29:00.909251+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the client the lawyer the clerk the typist assisted hired defended won",
+    "the patient the doctor the nurse the student helped trained treated survived",
+    "the student the teacher the principal the superintendent suspended blamed warned graduated",
+    "the actor the director the writer the agent hired inspired criticized succeeded",
+    "the dog the cat the rat the flea bit chased scratched escaped"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the client the lawyer the clerk the typist assisted hired defended won\",\n    \"the patient the doctor the nurse the student helped trained treated survived\",\n    \"the student the teacher the principal the superintendent suspended blamed warned graduated\",\n    \"the actor the director the writer the agent hired inspired criticized succeeded\",\n    \"the dog the cat the rat the flea bit chased scratched escaped\"\n  ]\n}",
+  "run_idx": 22
+}

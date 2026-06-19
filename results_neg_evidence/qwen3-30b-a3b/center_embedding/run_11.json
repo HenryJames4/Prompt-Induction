@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the reviewer read edited approved vanished.",
+    "the letter the secretary the manager the director received signed forwarded disappeared.",
+    "the document the clerk the supervisor the director reviewed corrected submitted vanished.",
+    "the proposal the intern the assistant the manager the executive drafted revised approved disappeared.",
+    "the note the student the teacher the principal the janitor found handed reviewed remained."
+  ],
+  "induced_prompt_raw": "Create a sentence with a chain of agents performing sequential actions on an object, ending with \"vanished\" or \"disappeared,\" where each agent acts on the object passed to them, and no agent performs an action that contradicts the object's state (e.g., reviewing something that hasn't been received).",
+  "induced_prompt": "Create a sentence with a chain of agents performing sequential actions on an object, ending with \"vanished\" or \"disappeared,\" where each agent acts on the object passed to them, and no agent performs an action that contradicts the object's state (e.g., reviewing something that hasn't been received).",
+  "induced_prompt_chars": 300,
+  "induced_prompt_words": 47,
+  "l1_char_total": 445,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The librarian placed the ancient manuscript on the table, where it remained untouched.\", \"The archivist carefully examined the manuscript, noting its fragile condition.\", \"The historian transcribed the text into a digital archive, preserving its contents.\", \"The curator displayed the digital copy in the museum, where it was widely viewed.\", \"The original manuscript vanished after the display ended, leaving only the digital record.\"] }",
+  "l2_sentences": [
+    "The librarian placed the ancient manuscript on the table, where it remained untouched.",
+    "The archivist carefully examined the manuscript, noting its fragile condition.",
+    "The historian transcribed the text into a digital archive, preserving its contents.",
+    "The curator displayed the digital copy in the museum, where it was widely viewed.",
+    "The original manuscript vanished after the display ended, leaving only the digital record."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:56:47.931309+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the reviewer read edited approved vanished.",
+    "the letter the secretary the manager the director received signed forwarded disappeared.",
+    "the document the clerk the supervisor the director reviewed corrected submitted vanished.",
+    "the proposal the intern the assistant the manager the executive drafted revised approved disappeared."
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the reviewer read edited approved vanished.",
+    "the letter the secretary the manager the director received signed forwarded disappeared.",
+    "the document the clerk the supervisor the director reviewed corrected submitted vanished.",
+    "the proposal the intern the assistant the manager the executive drafted revised approved disappeared.",
+    "the note the student the teacher the principal the janitor found handed reviewed remained."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the reviewer read edited approved vanished.\", \"the letter the secretary the manager the director received signed forwarded disappeared.\", \"the document the clerk the supervisor the director reviewed corrected submitted vanished.\", \"the proposal the intern the assistant the manager the executive drafted revised approved disappeared.\", \"the note the student the teacher the principal the janitor found handed reviewed remained.\"]}",
+  "run_idx": 11
+}

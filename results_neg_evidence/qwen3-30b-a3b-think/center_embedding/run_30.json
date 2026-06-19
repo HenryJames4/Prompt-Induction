@@ -1,0 +1,42 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "induced_prompt_raw": "three agents three actions disappear",
+  "induced_prompt": "three agents three actions disappear",
+  "induced_prompt_chars": 36,
+  "induced_prompt_words": 5,
+  "l1_char_total": 418,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"Three agents performed three distinct actions before they disappear.\", \"The three agents executed their three planned actions and then disappear without a trace.\", \"After three agents completed three critical actions, they suddenly disappear from the scene.\", \"Three agents carried out three necessary actions, causing them to disappear entirely.\", \"The three agents' three coordinated actions resulted in their immediate disappearance.\"]",
+  "l2_sentences": [],
+  "l2_parse_warnings": [
+    "Model returned only 0 valid lines; expected 5."
+  ],
+  "timestamp": "2026-06-14T13:24:48.804320+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared"
+  ],
+  "l1_sentences": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "l1_raw": "{\"sentences\": [\"the manuscript the author the editor the proofreader revised corrected approved disappeared\", \"the data the researcher the statistician the computer analyzed processed visualized vanished\", \"the proposal the committee the chairman the secretary reviewed amended finalized vanished\", \"the evidence the detective the witness the lawyer examined questioned verified disappeared\", \"the document the writer the editor sent revised canceled\"]}",
+  "run_idx": 30
+}

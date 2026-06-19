@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the mouse the cheese chased caught ate vanished",
+    "the student the teacher the principal the school taught praised hired built",
+    "the book the author the publisher the library wrote edited printed donated",
+    "the car the driver the owner the mechanic drove owned repaired washed",
+    "the tree the wind the storm shook blew destroyed"
+  ],
+  "induced_prompt_raw": "Generate a 4-noun 4-verb chain: n1 v1 n2, n2 v2 n3, n3 v3 n4, n4 v4.",
+  "induced_prompt": "Generate a 4-noun 4-verb chain: n1 v1 n2, n2 v2 n3, n3 v3 n4, n4 v4.",
+  "induced_prompt_chars": 68,
+  "induced_prompt_words": 16,
+  "l1_char_total": 329,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The artist painted a picture.\",\n    \"The picture adorned the gallery.\",\n    \"The gallery attracted visitors.\",\n    \"The visitors marveled.\",\n    \"The artist's work was a success.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The artist painted a picture.",
+    "The picture adorned the gallery.",
+    "The gallery attracted visitors.",
+    "The visitors marveled.",
+    "The artist's work was a success."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:54:06.464378+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the mouse the cheese chased caught ate vanished",
+    "the student the teacher the principal the school taught praised hired built",
+    "the book the author the publisher the library wrote edited printed donated",
+    "the car the driver the owner the mechanic drove owned repaired washed"
+  ],
+  "l1_sentences": [
+    "the cat the dog the mouse the cheese chased caught ate vanished",
+    "the student the teacher the principal the school taught praised hired built",
+    "the book the author the publisher the library wrote edited printed donated",
+    "the car the driver the owner the mechanic drove owned repaired washed",
+    "the tree the wind the storm shook blew destroyed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog the mouse the cheese chased caught ate vanished\",\n    \"the student the teacher the principal the school taught praised hired built\",\n    \"the book the author the publisher the library wrote edited printed donated\",\n    \"the car the driver the owner the mechanic drove owned repaired washed\",\n    \"the tree the wind the storm shook blew destroyed\"\n  ]\n}\n```",
+  "run_idx": 10
+}

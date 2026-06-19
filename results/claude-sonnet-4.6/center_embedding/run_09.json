@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef the student the teacher trained hired baked vanished.",
+    "The book the author the critic the publisher praised hired wrote sold.",
+    "The dog the owner the trainer the vet examined hired trained escaped.",
+    "The bridge the engineer the mayor the contractor hired approved built collapsed.",
+    "The song the singer the producer the label signed hired recorded charted."
+  ],
+  "induced_prompt_raw": "Write sentences with four-level center-embedded relative clauses, each containing a chain of agents and actions that resolves at the end.",
+  "induced_prompt": "Write sentences with four-level center-embedded relative clauses, each containing a chain of agents and actions that resolves at the end.",
+  "induced_prompt_chars": 137,
+  "induced_prompt_words": 20,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that the dog that the child that the woman raised trained chased fled.\",\n    \"The report that the editor that the journalist that the source that the whistleblower contacted trusted wrote reviewed leaked.\",\n    \"The bone that the dog that the boy that the girl that the teacher taught liked owned buried crumbled.\",\n    \"The song that the band that the producer that the label that the investor funded signed discovered recorded topped the charts.\",\n    \"The letter that the lawyer that the client that the judge that the jury trusted appointed hired wrote arrived late.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the child that the woman raised trained chased fled.",
+    "The report that the editor that the journalist that the source that the whistleblower contacted trusted wrote reviewed leaked.",
+    "The bone that the dog that the boy that the girl that the teacher taught liked owned buried crumbled.",
+    "The song that the band that the producer that the label that the investor funded signed discovered recorded topped the charts.",
+    "The letter that the lawyer that the client that the judge that the jury trusted appointed hired wrote arrived late."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:20:37.171077+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef the student the teacher trained hired baked vanished.",
+    "The book the author the critic the publisher praised hired wrote sold.",
+    "The dog the owner the trainer the vet examined hired trained escaped.",
+    "The bridge the engineer the mayor the contractor hired approved built collapsed.",
+    "The song the singer the producer the label signed hired recorded charted."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cake the chef the student the teacher trained hired baked vanished.\",\n    \"The book the author the critic the publisher praised hired wrote sold.\",\n    \"The dog the owner the trainer the vet examined hired trained escaped.\",\n    \"The bridge the engineer the mayor the contractor hired approved built collapsed.\",\n    \"The song the singer the producer the label signed hired recorded charted.\"\n  ]\n}\n```",
+  "run_idx": 9
+}

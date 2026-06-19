@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the editor reviewed sold",
+    "the plan the committee endorsed succeeded",
+    "the movie the director filmed premiered",
+    "the cake the baker decorated disappeared",
+    "the report the manager discussed the assistant wrote"
+  ],
+  "induced_prompt_raw": "\"Generate sentences where a noun phrase is modified by a relative clause, followed by a main verb, ensuring the relative clause directly describes the noun and avoids nested clauses or additional dependencies.\"",
+  "induced_prompt": "\"Generate sentences where a noun phrase is modified by a relative clause, followed by a main verb, ensuring the relative clause directly describes the noun and avoids nested clauses or additional dependencies.\"",
+  "induced_prompt_chars": 210,
+  "induced_prompt_words": 32,
+  "l1_char_total": 205,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library is overdue.\", \"The cake that she baked for the party was delicious.\", \"The dog that barks loudly next door woke me up.\", \"The car that he bought last week broke down.\", \"The painting that hangs in the living room was done by my grandmother.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library is overdue.",
+    "The cake that she baked for the party was delicious.",
+    "The dog that barks loudly next door woke me up.",
+    "The car that he bought last week broke down.",
+    "The painting that hangs in the living room was done by my grandmother."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:48:10.645829+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the editor reviewed sold",
+    "the plan the committee endorsed succeeded",
+    "the movie the director filmed premiered",
+    "the cake the baker decorated disappeared"
+  ],
+  "l1_sentences": [
+    "the book the editor reviewed sold",
+    "the plan the committee endorsed succeeded",
+    "the movie the director filmed premiered",
+    "the cake the baker decorated disappeared",
+    "the report the manager discussed the assistant wrote"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor reviewed sold\", \"the plan the committee endorsed succeeded\", \"the movie the director filmed premiered\", \"the cake the baker decorated disappeared\", \"the report the manager discussed the assistant wrote\"]}",
+  "run_idx": 16
+}

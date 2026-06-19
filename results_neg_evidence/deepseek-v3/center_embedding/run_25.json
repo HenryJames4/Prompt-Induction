@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the editor hired promoted published arrived.",
+    "The car the driver the mechanic the owner called repaired inspected crashed.",
+    "The letter the writer the secretary the manager contacted drafted mailed disappeared.",
+    "The cake the baker the chef the apprentice taught prepared decorated tasted.",
+    "The movie the director the producer edited released."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with nested relative clauses, each modifying the preceding noun, ensuring each noun has exactly one relative clause and the chain ends with a main verb. Avoid incomplete chains or missing clauses.\"",
+  "induced_prompt": "\"Generate a sentence with nested relative clauses, each modifying the preceding noun, ensuring each noun has exactly one relative clause and the chain ends with a main verb. Avoid incomplete chains or missing clauses.\"",
+  "induced_prompt_chars": 218,
+  "induced_prompt_words": 34,
+  "l1_char_total": 367,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that the author who the publisher admired wrote sold quickly.\", \"The car that the mechanic who the owner trusted repaired broke down.\", \"The painting that the artist who the gallery showcased created received praise.\", \"The dog that the trainer who the owner hired taught performed tricks.\", \"The song that the musician who the audience cheered for composed became popular.\"]}",
+  "l2_sentences": [
+    "The book that the author who the publisher admired wrote sold quickly.",
+    "The car that the mechanic who the owner trusted repaired broke down.",
+    "The painting that the artist who the gallery showcased created received praise.",
+    "The dog that the trainer who the owner hired taught performed tricks.",
+    "The song that the musician who the audience cheered for composed became popular."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:18:39.983764+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the editor hired promoted published arrived.",
+    "The car the driver the mechanic the owner called repaired inspected crashed.",
+    "The letter the writer the secretary the manager contacted drafted mailed disappeared.",
+    "The cake the baker the chef the apprentice taught prepared decorated tasted."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the editor hired promoted published arrived.",
+    "The car the driver the mechanic the owner called repaired inspected crashed.",
+    "The letter the writer the secretary the manager contacted drafted mailed disappeared.",
+    "The cake the baker the chef the apprentice taught prepared decorated tasted.",
+    "The movie the director the producer edited released."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the editor hired promoted published arrived.\", \"The car the driver the mechanic the owner called repaired inspected crashed.\", \"The letter the writer the secretary the manager contacted drafted mailed disappeared.\", \"The cake the baker the chef the apprentice taught prepared decorated tasted.\", \"The movie the director the producer edited released.\"]}",
+  "run_idx": 25
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the mouse the cheese chased ate saw vanished.",
+    "the house the room the window the curtain built painted cleaned fell.",
+    "the car the engine the piston the gear started accelerated overheated stopped.",
+    "the book the chapter the page the line wrote read corrected printed.",
+    "the tree the branch the leaf the bird grew shook sang flew."
+  ],
+  "induced_prompt_raw": "Chain: four nouns, four verbs, last verb intransitive.",
+  "induced_prompt": "Chain: four nouns, four verbs, last verb intransitive.",
+  "induced_prompt_chars": 54,
+  "induced_prompt_words": 8,
+  "l1_char_total": 335,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"Cats, dogs, birds, and fish run, jump, swim, and sleep.\",\n    \"Students, teachers, parents, and principals read, write, discuss, and listen.\",\n    \"Cars, buses, trains, and planes drive, move, travel, and fly.\",\n    \"Apples, oranges, bananas, and grapes grow, ripen, fall, and rot.\",\n    \"Children, adults, men, and women play, work, rest, and dream.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "Cats, dogs, birds, and fish run, jump, swim, and sleep.",
+    "Students, teachers, parents, and principals read, write, discuss, and listen.",
+    "Cars, buses, trains, and planes drive, move, travel, and fly.",
+    "Apples, oranges, bananas, and grapes grow, ripen, fall, and rot.",
+    "Children, adults, men, and women play, work, rest, and dream."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:49:42.963736+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the mouse the cheese chased ate saw vanished.",
+    "the house the room the window the curtain built painted cleaned fell.",
+    "the car the engine the piston the gear started accelerated overheated stopped.",
+    "the book the chapter the page the line wrote read corrected printed.",
+    "the tree the branch the leaf the bird grew shook sang flew."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the dog the cat the mouse the cheese chased ate saw vanished.\",\n    \"the house the room the window the curtain built painted cleaned fell.\",\n    \"the car the engine the piston the gear started accelerated overheated stopped.\",\n    \"the book the chapter the page the line wrote read corrected printed.\",\n    \"the tree the branch the leaf the bird grew shook sang flew.\"\n  ]\n}\n```",
+  "run_idx": 27
+}

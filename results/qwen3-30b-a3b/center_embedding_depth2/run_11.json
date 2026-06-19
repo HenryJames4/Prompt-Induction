@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor accepted sold.",
+    "the film the director filmed won.",
+    "the poem the critic read impressed.",
+    "the idea the scientist proposed succeeded.",
+    "the plan the manager designed worked."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [past participle] [past tense]",
+  "induced_prompt": "the [noun] the [role] [verb] [past participle] [past tense]",
+  "induced_prompt_chars": 59,
+  "induced_prompt_words": 9,
+  "l1_char_total": 181,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the teacher chased caught the mouse.\", \"The book the editor revised sold quickly.\", \"The song the singer performed won the award.\", \"The project the manager completed impressed the team.\", \"The car the mechanic fixed started smoothly.\"]}",
+  "l2_sentences": [
+    "The cat the teacher chased caught the mouse.",
+    "The book the editor revised sold quickly.",
+    "The song the singer performed won the award.",
+    "The project the manager completed impressed the team.",
+    "The car the mechanic fixed started smoothly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:11:21.273112+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor accepted sold.",
+    "the film the director filmed won.",
+    "the poem the critic read impressed.",
+    "the idea the scientist proposed succeeded.",
+    "the plan the manager designed worked."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor accepted sold.\", \"the film the director filmed won.\", \"the poem the critic read impressed.\", \"the idea the scientist proposed succeeded.\", \"the plan the manager designed worked.\"]}",
+  "run_idx": 11
+}

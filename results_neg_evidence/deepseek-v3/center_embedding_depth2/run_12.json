@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor read published",
+    "the book the author wrote sold",
+    "the plan the team designed worked",
+    "the movie the director filmed released",
+    "the article the writer the editor reviewed published edited"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun directly, avoiding multiple embeddings that create confusion.\"",
+  "induced_prompt": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun directly, avoiding multiple embeddings that create confusion.\"",
+  "induced_prompt_chars": 157,
+  "induced_prompt_words": 20,
+  "l1_char_total": 196,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library, which was recommended by my professor, is due tomorrow.\", \"The artist who painted the mural, which adorns the city hall, visited our school.\", \"The dog that barked at the stranger, who was walking by our house, belongs to my neighbor.\", \"The cake that my sister baked, which won first prize at the fair, tasted delicious.\", \"The car that my father bought, which has a sunroof, is parked in the driveway.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library, which was recommended by my professor, is due tomorrow.",
+    "The artist who painted the mural, which adorns the city hall, visited our school.",
+    "The dog that barked at the stranger, who was walking by our house, belongs to my neighbor.",
+    "The cake that my sister baked, which won first prize at the fair, tasted delicious.",
+    "The car that my father bought, which has a sunroof, is parked in the driveway."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:45:09.871444+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor read published",
+    "the book the author wrote sold",
+    "the plan the team designed worked",
+    "the movie the director filmed released"
+  ],
+  "l1_sentences": [
+    "the report the editor read published",
+    "the book the author wrote sold",
+    "the plan the team designed worked",
+    "the movie the director filmed released",
+    "the article the writer the editor reviewed published edited"
+  ],
+  "l1_raw": "{\"sentences\": [\"the report the editor read published\", \"the book the author wrote sold\", \"the plan the team designed worked\", \"the movie the director filmed released\", \"the article the writer the editor reviewed published edited\"]}",
+  "run_idx": 12
+}

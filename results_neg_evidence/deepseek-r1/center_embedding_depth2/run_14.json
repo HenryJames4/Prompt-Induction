@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy chased barked.",
+    "The book the student read fascinated.",
+    "The cake the baker decorated collapsed.",
+    "The song the band played ended.",
+    "The mouse the cat the dog chased scared ran."
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly two nouns and two past-tense verbs in the structure: \"The [noun1] the [noun2] [verb1] [verb2].\" Ensure only one relative clause modifies the first noun.",
+  "induced_prompt": "Generate a sentence with exactly two nouns and two past-tense verbs in the structure: \"The [noun1] the [noun2] [verb1] [verb2].\" Ensure only one relative clause modifies the first noun.",
+  "induced_prompt_chars": 185,
+  "induced_prompt_words": 29,
+  "l1_char_total": 181,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The dog that barked the mailman chased escaped.\", \"The cake that burned the baker discarded removed.\", \"The book that sold the author signed autographed.\", \"The car that crashed the driver abandoned fled.\", \"The painting that faded the curator stored preserved.\"]}",
+  "l2_sentences": [
+    "The dog that barked the mailman chased escaped.",
+    "The cake that burned the baker discarded removed.",
+    "The book that sold the author signed autographed.",
+    "The car that crashed the driver abandoned fled.",
+    "The painting that faded the curator stored preserved."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:47:18.326772+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy chased barked.",
+    "The book the student read fascinated.",
+    "The cake the baker decorated collapsed.",
+    "The song the band played ended."
+  ],
+  "l1_sentences": [
+    "The dog the boy chased barked.",
+    "The book the student read fascinated.",
+    "The cake the baker decorated collapsed.",
+    "The song the band played ended.",
+    "The mouse the cat the dog chased scared ran."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the boy chased barked.\", \"The book the student read fascinated.\", \"The cake the baker decorated collapsed.\", \"The song the band played ended.\", \"The mouse the cat the dog chased scared ran.\"]}",
+  "run_idx": 14
+}

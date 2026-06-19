@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "induced_prompt_raw": "the [noun] the [noun] the [noun] the [noun] [verb] [verb] [verb] disappeared",
+  "induced_prompt": "the [noun] the [noun] the [noun] the [noun] [verb] [verb] [verb] disappeared",
+  "induced_prompt_chars": 76,
+  "induced_prompt_words": 12,
+  "l1_char_total": 418,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the dog the house the book ran jumped screamed disappeared\", \"the bird the tree the river the sky flew danced shone disappeared\", \"the car the street the light the shadow zoomed glowed vanished disappeared\", \"the child the toy the park the friend played sang danced disappeared\", \"the ship the ocean the storm the wave sailed roared sank disappeared\"]}",
+  "l2_sentences": [
+    "the cat the dog the house the book ran jumped screamed disappeared",
+    "the bird the tree the river the sky flew danced shone disappeared",
+    "the car the street the light the shadow zoomed glowed vanished disappeared",
+    "the child the toy the park the friend played sang danced disappeared",
+    "the ship the ocean the storm the wave sailed roared sank disappeared"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:51:10.658108+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared"
+  ],
+  "l1_sentences": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "l1_raw": "{\"sentences\": [\"the manuscript the author the editor the proofreader revised corrected approved disappeared\", \"the data the researcher the statistician the computer analyzed processed visualized vanished\", \"the proposal the committee the chairman the secretary reviewed amended finalized vanished\", \"the evidence the detective the witness the lawyer examined questioned verified disappeared\", \"the document the writer the editor sent revised canceled\"]}",
+  "run_idx": 8
+}

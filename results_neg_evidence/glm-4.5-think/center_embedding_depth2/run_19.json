@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased ran.",
+    "The book the student read sold.",
+    "The man the woman called arrived.",
+    "The idea the professor suggested evolved.",
+    "The cat the dog the owner fed chased ran."
+  ],
+  "induced_prompt_raw": "Generate a sentence with one center-embedded relative clause: structure \"The [N1] the [N2] [transitive verb] [intransitive verb].\" Avoid multiple embeddings.",
+  "induced_prompt": "Generate a sentence with one center-embedded relative clause: structure \"The [N1] the [N2] [transitive verb] [intransitive verb].\" Avoid multiple embeddings.",
+  "induced_prompt_chars": 157,
+  "induced_prompt_words": 20,
+  "l1_char_total": 173,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The book the student read disappeared.\",\n    \"The car the mechanic fixed stalled.\",\n    \"The man the police arrested escaped.\",\n    \"The tree the wind shook fell.\",\n    \"The letter the secretary sent arrived.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The book the student read disappeared.",
+    "The car the mechanic fixed stalled.",
+    "The man the police arrested escaped.",
+    "The tree the wind shook fell.",
+    "The letter the secretary sent arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:50:50.599316+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased ran.",
+    "The book the student read sold.",
+    "The man the woman called arrived.",
+    "The idea the professor suggested evolved."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased ran.",
+    "The book the student read sold.",
+    "The man the woman called arrived.",
+    "The idea the professor suggested evolved.",
+    "The cat the dog the owner fed chased ran."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased ran.\",\n    \"The book the student read sold.\",\n    \"The man the woman called arrived.\",\n    \"The idea the professor suggested evolved.\",\n    \"The cat the dog the owner fed chased ran.\"\n  ]\n}\n```",
+  "run_idx": 19
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the law the senator the lobbyist the activist challenged influenced proposed failed",
+    "the house the architect the builder the client hired advised designed collapsed",
+    "the painting the artist the collector the dealer avoided befriended created burned",
+    "the software the programmer the manager the director supervised instructed wrote crashed",
+    "the patient the doctor the nurse assisted treated recovered"
+  ],
+  "induced_prompt_raw": "Generate a triple center-embedded sentence containing exactly four noun phrases followed by four verbs (structured as NP1 NP2 NP3 NP4 V1 V2 V3 V4). Avoid double center-embedded sentences which only contain three noun phrases and three verbs.",
+  "induced_prompt": "Generate a triple center-embedded sentence containing exactly four noun phrases followed by four verbs (structured as NP1 NP2 NP3 NP4 V1 V2 V3 V4). Avoid double center-embedded sentences which only contain three noun phrases and three verbs.",
+  "induced_prompt_chars": 241,
+  "induced_prompt_words": 37,
+  "l1_char_total": 391,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The girl the boy the teacher the principal praised scolded kicked died.\",\n    \"The criminal the cop the witness the lawyer questioned helped arrested escaped.\",\n    \"The student the teacher the parent the principal advised thanked praised graduated.\",\n    \"The dog the cat the rat the boy chased bit scratched barked.\",\n    \"The actor the director the writer the agent avoided inspired cast cheered.\"\n  ]\n}",
+  "l2_sentences": [
+    "The girl the boy the teacher the principal praised scolded kicked died.",
+    "The criminal the cop the witness the lawyer questioned helped arrested escaped.",
+    "The student the teacher the parent the principal advised thanked praised graduated.",
+    "The dog the cat the rat the boy chased bit scratched barked.",
+    "The actor the director the writer the agent avoided inspired cast cheered."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:03:08.503093+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the law the senator the lobbyist the activist challenged influenced proposed failed",
+    "the house the architect the builder the client hired advised designed collapsed",
+    "the painting the artist the collector the dealer avoided befriended created burned",
+    "the software the programmer the manager the director supervised instructed wrote crashed"
+  ],
+  "l1_sentences": [
+    "the law the senator the lobbyist the activist challenged influenced proposed failed",
+    "the house the architect the builder the client hired advised designed collapsed",
+    "the painting the artist the collector the dealer avoided befriended created burned",
+    "the software the programmer the manager the director supervised instructed wrote crashed",
+    "the patient the doctor the nurse assisted treated recovered"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the law the senator the lobbyist the activist challenged influenced proposed failed\",\n    \"the house the architect the builder the client hired advised designed collapsed\",\n    \"the painting the artist the collector the dealer avoided befriended created burned\",\n    \"the software the programmer the manager the director supervised instructed wrote crashed\",\n    \"the patient the doctor the nurse assisted treated recovered\"\n  ]\n}",
+  "run_idx": 15
+}

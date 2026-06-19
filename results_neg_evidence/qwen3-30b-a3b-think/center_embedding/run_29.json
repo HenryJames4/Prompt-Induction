@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the editor the proofreader wrote corrected checked submitted",
+    "the article the journalist the photographer the designer wrote photographed edited published",
+    "the document the clerk the manager the director the secretary filed reviewed signed submitted",
+    "the email the sender the recipient the assistant the supervisor sent read replied forwarded",
+    "the letter the writer the editor the proofreader wrote corrected submitted"
+  ],
+  "induced_prompt_raw": "the [noun] the [role] ... verb verb verb verb",
+  "induced_prompt": "the [noun] the [role] ... verb verb verb verb",
+  "induced_prompt_chars": 45,
+  "induced_prompt_words": 9,
+  "l1_char_total": 430,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the teacher jumped ran sang danced.\", \"the car the driver fixed drove washed painted.\", \"the book the writer wrote read enjoyed shared.\", \"the house the architect built designed decorated sold.\", \"the song the composer created performed enjoyed shared.\"]}",
+  "l2_sentences": [
+    "the cat the teacher jumped ran sang danced.",
+    "the car the driver fixed drove washed painted.",
+    "the book the writer wrote read enjoyed shared.",
+    "the house the architect built designed decorated sold.",
+    "the song the composer created performed enjoyed shared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:23:38.438066+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the editor the proofreader wrote corrected checked submitted",
+    "the article the journalist the photographer the designer wrote photographed edited published",
+    "the document the clerk the manager the director the secretary filed reviewed signed submitted",
+    "the email the sender the recipient the assistant the supervisor sent read replied forwarded"
+  ],
+  "l1_sentences": [
+    "the book the author the editor the proofreader wrote corrected checked submitted",
+    "the article the journalist the photographer the designer wrote photographed edited published",
+    "the document the clerk the manager the director the secretary filed reviewed signed submitted",
+    "the email the sender the recipient the assistant the supervisor sent read replied forwarded",
+    "the letter the writer the editor the proofreader wrote corrected submitted"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the proofreader wrote corrected checked submitted\", \"the article the journalist the photographer the designer wrote photographed edited published\", \"the document the clerk the manager the director the secretary filed reviewed signed submitted\", \"the email the sender the recipient the assistant the supervisor sent read replied forwarded\", \"the letter the writer the editor the proofreader wrote corrected submitted\"]}",
+  "run_idx": 29
+}

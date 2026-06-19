@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the rat the cat the dog the man chased killed ate died",
+    "the fish the shark the diver the boat saw attacked caught sank",
+    "the mouse the snake the hawk the farmer caught killed ate escaped",
+    "the ant the lion the zookeeper the tourist photographed fed stepped escaped",
+    "the car the man the woman drove stopped crashed"
+  ],
+  "induced_prompt_raw": "Generate a sentence with four nouns and four verbs: Noun1 Noun2 Noun3 Noun4 Verb1 Verb2 Verb3 Verb4. Meaning: Noun4 Verb1 Noun3, Noun3 Verb2 Noun2, Noun2 Verb3 Noun1, Noun1 Verb4. Verbs past tense, last verb intransitive.",
+  "induced_prompt": "Generate a sentence with four nouns and four verbs: Noun1 Noun2 Noun3 Noun4 Verb1 Verb2 Verb3 Verb4. Meaning: Noun4 Verb1 Noun3, Noun3 Verb2 Noun2, Noun2 Verb3 Noun1, Noun1 Verb4. Verbs past tense, last verb intransitive.",
+  "induced_prompt_chars": 221,
+  "induced_prompt_words": 35,
+  "l1_char_total": 303,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"car tree rock wind pushed hit damaged stopped.\",\n    \"student exam teacher praise received graded tested celebrated.\",\n    \"flower rain cloud sun melted released watered bloomed.\",\n    \"canyon river glacier mountain hosted fed formed remained.\",\n    \"hero dragon princess king summoned pleaded rescued reigned.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "car tree rock wind pushed hit damaged stopped.",
+    "student exam teacher praise received graded tested celebrated.",
+    "flower rain cloud sun melted released watered bloomed.",
+    "canyon river glacier mountain hosted fed formed remained.",
+    "hero dragon princess king summoned pleaded rescued reigned."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:00:17.578270+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the rat the cat the dog the man chased killed ate died",
+    "the fish the shark the diver the boat saw attacked caught sank",
+    "the mouse the snake the hawk the farmer caught killed ate escaped",
+    "the ant the lion the zookeeper the tourist photographed fed stepped escaped"
+  ],
+  "l1_sentences": [
+    "the rat the cat the dog the man chased killed ate died",
+    "the fish the shark the diver the boat saw attacked caught sank",
+    "the mouse the snake the hawk the farmer caught killed ate escaped",
+    "the ant the lion the zookeeper the tourist photographed fed stepped escaped",
+    "the car the man the woman drove stopped crashed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the rat the cat the dog the man chased killed ate died\",\n    \"the fish the shark the diver the boat saw attacked caught sank\",\n    \"the mouse the snake the hawk the farmer caught killed ate escaped\",\n    \"the ant the lion the zookeeper the tourist photographed fed stepped escaped\",\n    \"the car the man the woman drove stopped crashed\"\n  ]\n}\n```",
+  "run_idx": 13
+}

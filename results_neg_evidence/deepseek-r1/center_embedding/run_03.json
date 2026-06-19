@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the house the architect the builder the worker hired hired designed collapsed",
+    "the cake the baker the customer the child annoyed asked made burned",
+    "the letter the secretary the manager the intern disturbed scolded typed disappeared",
+    "the car the driver the mechanic the owner called instructed drove stopped",
+    "the boy the girl the dog loved chased smiled"
+  ],
+  "induced_prompt_raw": "**Prompt:**  \nCompose a sentence with four noun phrases (each starting with \"the\") followed by four verbs.  \n- First verb: fourth noun as subject, third noun as object.  \n- Second verb: third noun as subject, second noun as object.  \n- Third verb: second noun as subject, first noun as object.  \n- Fourth verb: intransitive, first noun as subject.  \nAvoid ambiguous structures with fewer nouns or verbs.  \n\n---  \n**Rationale:**  \n- **Structure:** Matches the nested object-relative clauses in the correct examples (e.g., \"the worker hired the builder\" → \"the builder hired the architect\" → \"the architect designed the house\" → \"the house collapsed\"). Verbs appear in reverse order of nouns (innermost to outermost).  \n- **Error Avoidance:** Explicitly requires four nouns/verbs, preventing incorrect patterns like the three-noun example (\"the boy the girl the dog loved chased smiled\"), which lacks sufficient depth and clarity.  \n- **Conciseness:** At 58 words, it is shorter than the original examples (71 words total).  \n- **Key Specifications:**  \n  - Ensures transitive verbs for nested clauses (objects correctly assigned).  \n  - Mandates an intransitive main verb (e.g., \"collapsed\").  \n  - Prevents missing/extra elements that cause ambiguity.",
+  "induced_prompt": "**Prompt:**  \nCompose a sentence with four noun phrases (each starting with \"the\") followed by four verbs.  \n- First verb: fourth noun as subject, third noun as object.  \n- Second verb: third noun as subject, second noun as object.  \n- Third verb: second noun as subject, first noun as object.  \n- Fourth verb: intransitive, first noun as subject.  \nAvoid ambiguous structures with fewer nouns or verbs.  \n\n---  \n**Rationale:**  \n- **Structure:** Matches the nested object-relative clauses in the correct examples (e.g., \"the worker hired the builder\" → \"the builder hired the architect\" → \"the architect designed the house\" → \"the house collapsed\"). Verbs appear in reverse order of nouns (innermost to outermost).  \n- **Error Avoidance:** Explicitly requires four nouns/verbs, preventing incorrect patterns like the three-noun example (\"the boy the girl the dog loved chased smiled\"), which lacks sufficient depth and clarity.  \n- **Conciseness:** At 58 words, it is shorter than the original examples (71 words total).  \n- **Key Specifications:**  \n  - Ensures transitive verbs for nested clauses (objects correctly assigned).  \n  - Mandates an intransitive main verb (e.g., \"collapsed\").  \n  - Prevents missing/extra elements that cause ambiguity.",
+  "induced_prompt_chars": 1251,
+  "induced_prompt_words": 182,
+  "l1_char_total": 344,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The house the architect the builder the worker employed hired designed collapsed.\", \"The king the knight the dragon the princess charmed attacked protected rejoiced.\", \"The cake the baker the assistant the customer requested assisted baked rose.\", \"The trophy the athlete the coach the sponsor funded trained won gleamed.\", \"The letter the secretary the manager the executive instructed supervised typed vanished.\"]}",
+  "l2_sentences": [
+    "The house the architect the builder the worker employed hired designed collapsed.",
+    "The king the knight the dragon the princess charmed attacked protected rejoiced.",
+    "The cake the baker the assistant the customer requested assisted baked rose.",
+    "The trophy the athlete the coach the sponsor funded trained won gleamed.",
+    "The letter the secretary the manager the executive instructed supervised typed vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:47:08.509008+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the house the architect the builder the worker hired hired designed collapsed",
+    "the cake the baker the customer the child annoyed asked made burned",
+    "the letter the secretary the manager the intern disturbed scolded typed disappeared",
+    "the car the driver the mechanic the owner called instructed drove stopped"
+  ],
+  "l1_sentences": [
+    "the house the architect the builder the worker hired hired designed collapsed",
+    "the cake the baker the customer the child annoyed asked made burned",
+    "the letter the secretary the manager the intern disturbed scolded typed disappeared",
+    "the car the driver the mechanic the owner called instructed drove stopped",
+    "the boy the girl the dog loved chased smiled"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the house the architect the builder the worker hired hired designed collapsed\",\n    \"the cake the baker the customer the child annoyed asked made burned\",\n    \"the letter the secretary the manager the intern disturbed scolded typed disappeared\",\n    \"the car the driver the mechanic the owner called instructed drove stopped\",\n    \"the boy the girl the dog loved chased smiled\"\n  ]\n}",
+  "run_idx": 3
+}

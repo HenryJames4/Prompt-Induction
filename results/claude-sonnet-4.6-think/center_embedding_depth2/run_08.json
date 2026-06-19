@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cat the dog chased fled.",
+    "The book the student read helped.",
+    "The letter the secretary typed arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The law the judge upheld stood."
+  ],
+  "induced_prompt_raw": "Write sentences using center-embedded relative clauses following the pattern: \"The [noun] the [noun] [verb] [verb].\"",
+  "induced_prompt": "Write sentences using center-embedded relative clauses following the pattern: \"The [noun] the [noun] [verb] [verb].\"",
+  "induced_prompt_chars": 116,
+  "induced_prompt_words": 15,
+  "l1_char_total": 174,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog chased fled.\", \"The book the student read disappeared.\", \"The car the mechanic fixed broke down.\", \"The letter the secretary typed arrived.\", \"The fish the cat caught escaped.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog chased fled.",
+    "The book the student read disappeared.",
+    "The car the mechanic fixed broke down.",
+    "The letter the secretary typed arrived.",
+    "The fish the cat caught escaped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:38:30.690830+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cat the dog chased fled.",
+    "The book the student read helped.",
+    "The letter the secretary typed arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The law the judge upheld stood."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased fled.\",\n    \"The book the student read helped.\",\n    \"The letter the secretary typed arrived.\",\n    \"The bridge the engineer designed collapsed.\",\n    \"The law the judge upheld stood.\"\n  ]\n}\n```",
+  "run_idx": 8
+}

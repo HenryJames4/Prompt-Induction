@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor read sold.",
+    "the poem the critic praised won.",
+    "the story the judge heard ended.",
+    "the plan the manager approved failed.",
+    "the idea the scientist tested succeeded."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [past tense outcome]",
+  "induced_prompt": "the [noun] the [role] [verb] [past tense outcome]",
+  "induced_prompt_chars": 49,
+  "induced_prompt_words": 8,
+  "l1_char_total": 171,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the trainer trained successfully completed the course.\", \"The student the teacher guided passed the final exam with flying colors.\", \"The employee the manager mentored received a promotion within a year.\", \"The athlete the coach prepared won the championship last season.\", \"The child the parent encouraged achieved academic excellence this year.\"]}",
+  "l2_sentences": [
+    "The dog the trainer trained successfully completed the course.",
+    "The student the teacher guided passed the final exam with flying colors.",
+    "The employee the manager mentored received a promotion within a year.",
+    "The athlete the coach prepared won the championship last season.",
+    "The child the parent encouraged achieved academic excellence this year."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:17:47.973443+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor read sold.",
+    "the poem the critic praised won.",
+    "the story the judge heard ended.",
+    "the plan the manager approved failed.",
+    "the idea the scientist tested succeeded."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor read sold.\", \"the poem the critic praised won.\", \"the story the judge heard ended.\", \"the plan the manager approved failed.\", \"the idea the scientist tested succeeded.\"]}",
+  "run_idx": 17
+}

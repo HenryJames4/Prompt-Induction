@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the story the author wrote ended.",
+    "the cake the baker made vanished.",
+    "the car the driver repaired started.",
+    "the letter the secretary typed arrived.",
+    "the dog the owner trained barked."
+  ],
+  "induced_prompt_raw": "the [noun] the [agent] [verb] [verb]",
+  "induced_prompt": "the [noun] the [agent] [verb] [verb]",
+  "induced_prompt_chars": 36,
+  "induced_prompt_words": 6,
+  "l1_char_total": 174,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the dog chased barked\", \"the book the student read wrote\", \"the car the mechanic fixed repaired\", \"the song the musician sang composed\", \"the cake the baker baked decorated\"]}",
+  "l2_sentences": [
+    "the cat the dog chased barked",
+    "the book the student read wrote",
+    "the car the mechanic fixed repaired",
+    "the song the musician sang composed",
+    "the cake the baker baked decorated"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:24:32.761519+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the story the author wrote ended.",
+    "the cake the baker made vanished.",
+    "the car the driver repaired started.",
+    "the letter the secretary typed arrived.",
+    "the dog the owner trained barked."
+  ],
+  "l1_raw": "{\"sentences\": [\"the story the author wrote ended.\", \"the cake the baker made vanished.\", \"the car the driver repaired started.\", \"the letter the secretary typed arrived.\", \"the dog the owner trained barked.\"]}",
+  "run_idx": 23
+}

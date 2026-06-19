@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the proposal the reviewer approved passed",
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the builder constructed collapsed",
+    "the car the mechanic the owner hired repaired broke down"
+  ],
+  "induced_prompt_raw": "Generate a sentence with a nested relative clause modifying the subject. Ensure only one level of embedding.",
+  "induced_prompt": "Generate a sentence with a nested relative clause modifying the subject. Ensure only one level of embedding.",
+  "induced_prompt_chars": 108,
+  "induced_prompt_words": 17,
+  "l1_char_total": 207,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book that sits on the table belongs to me.\",\n    \"The woman who lives next door is a doctor.\",\n    \"The car that is parked outside needs to be moved.\",\n    \"The dog that barks loudly keeps me awake at night.\",\n    \"The house that stands on the hill was built in 1920.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book that sits on the table belongs to me.",
+    "The woman who lives next door is a doctor.",
+    "The car that is parked outside needs to be moved.",
+    "The dog that barks loudly keeps me awake at night.",
+    "The house that stands on the hill was built in 1920."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:38:33.524782+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the proposal the reviewer approved passed",
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the builder constructed collapsed"
+  ],
+  "l1_sentences": [
+    "the proposal the reviewer approved passed",
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the builder constructed collapsed",
+    "the car the mechanic the owner hired repaired broke down"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the proposal the reviewer approved passed\",\n    \"the cat the dog chased ran\",\n    \"the book the student read was interesting\",\n    \"the house the builder constructed collapsed\",\n    \"the car the mechanic the owner hired repaired broke down\"\n  ]\n}",
+  "run_idx": 5
+}

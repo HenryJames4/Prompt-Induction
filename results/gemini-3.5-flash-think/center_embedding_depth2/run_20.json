@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat chased ran",
+    "the child the teacher helped smiled",
+    "the book the student read disappeared",
+    "the car the mechanic fixed broke",
+    "the cake the baker baked fell"
+  ],
+  "induced_prompt_raw": "Generate five sentences following the syntactic pattern: \"The [noun] the [noun] [transitive verb] [intransitive verb].\"",
+  "induced_prompt": "Generate five sentences following the syntactic pattern: \"The [noun] the [noun] [transitive verb] [intransitive verb].\"",
+  "induced_prompt_chars": 119,
+  "induced_prompt_words": 15,
+  "l1_char_total": 159,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the girl helped smiled.\",\n    \"The dog the cat scratched barked.\",\n    \"The toy the baby dropped fell.\",\n    \"The man the car hit died.\",\n    \"The bird the cat chased escaped.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the girl helped smiled.",
+    "The dog the cat scratched barked.",
+    "The toy the baby dropped fell.",
+    "The man the car hit died.",
+    "The bird the cat chased escaped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:41:59.143420+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat chased ran",
+    "the child the teacher helped smiled",
+    "the book the student read disappeared",
+    "the car the mechanic fixed broke",
+    "the cake the baker baked fell"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the dog the cat chased ran\",\n    \"the child the teacher helped smiled\",\n    \"the book the student read disappeared\",\n    \"the car the mechanic fixed broke\",\n    \"the cake the baker baked fell\"\n  ]\n}",
+  "run_idx": 20
+}

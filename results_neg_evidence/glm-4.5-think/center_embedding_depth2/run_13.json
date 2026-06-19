@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read sold.",
+    "The idea the committee discussed failed.",
+    "The car the mechanic fixed started.",
+    "The man the woman the child saw greeted laughed."
+  ],
+  "induced_prompt_raw": "Generate a sentence: \"The [A] the [B] [verb1] [verb2].\" with exactly two nouns and two verbs.",
+  "induced_prompt": "Generate a sentence: \"The [A] the [B] [verb1] [verb2].\" with exactly two nouns and two verbs.",
+  "induced_prompt_chars": 93,
+  "induced_prompt_words": 16,
+  "l1_char_total": 185,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the mouse chased ran.\",\n    \"The teacher the student taught learned.\",\n    \"The lion the zebra hunted escaped.\",\n    \"The car the truck overtook sped.\",\n    \"The bird the worm caught ate.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the mouse chased ran.",
+    "The teacher the student taught learned.",
+    "The lion the zebra hunted escaped.",
+    "The car the truck overtook sped.",
+    "The bird the worm caught ate."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:45:58.506963+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased escaped.",
+    "The book the student read sold.",
+    "The idea the committee discussed failed.",
+    "The car the mechanic fixed started."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read sold.",
+    "The idea the committee discussed failed.",
+    "The car the mechanic fixed started.",
+    "The man the woman the child saw greeted laughed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The book the student read sold.\",\n    \"The idea the committee discussed failed.\",\n    \"The car the mechanic fixed started.\",\n    \"The man the woman the child saw greeted laughed.\"\n  ]\n}\n```",
+  "run_idx": 13
+}

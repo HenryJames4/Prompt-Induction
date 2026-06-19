@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked vanished.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the artist recorded charted."
+  ],
+  "induced_prompt_raw": "Write sentences with a double-subject relative clause structure where an object undergoes an intransitive action.",
+  "induced_prompt": "Write sentences with a double-subject relative clause structure where an object undergoes an intransitive action.",
+  "induced_prompt_chars": 113,
+  "induced_prompt_words": 15,
+  "l1_char_total": 189,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the child owned chased ran away.\", \"The bird that the hawk that the farmer raised hunted disappeared.\", \"The leaf that the wind that the storm created blew fell down.\", \"The fish that the current that the rain caused moved swam upstream.\", \"The balloon that the gust that the fan produced pushed floated upward.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the child owned chased ran away.",
+    "The bird that the hawk that the farmer raised hunted disappeared.",
+    "The leaf that the wind that the storm created blew fell down.",
+    "The fish that the current that the rain caused moved swam upstream.",
+    "The balloon that the gust that the fan produced pushed floated upward."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:42:01.365010+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked vanished.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the artist recorded charted."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed passed.\", \"The cake the chef baked vanished.\", \"The letter the student wrote arrived.\", \"The bridge the engineer designed collapsed.\", \"The song the artist recorded charted.\"]}\n```",
+  "run_idx": 21
+}

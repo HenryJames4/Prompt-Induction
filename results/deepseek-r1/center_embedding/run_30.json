@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the professor the teacher the student tutored instructed admired vanished",
+    "the show the man the dog the child fed followed watched ended",
+    "the poem the poet the picture the artist painted inspired wrote circulated",
+    "the image the computer the code the programmer debugged powered displayed faded"
+  ],
+  "induced_prompt_raw": "Create sentences with four nouns followed by four verbs in nested clauses, ending with a final action.",
+  "induced_prompt": "Create sentences with four nouns followed by four verbs in nested clauses, ending with a final action.",
+  "induced_prompt_chars": 102,
+  "induced_prompt_words": 17,
+  "l1_char_total": 381,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The king that commanded the general that led the army that defeated the enemy that surrendered celebrated victory.\",\n    \"The girl that walked the dog that chased the ball that broke the window that shattered cried loudly.\",\n    \"The scientist that designed the experiment that used the equipment that collected the data that verified published the findings.\",\n    \"The artist that held the brush that stroked the canvas that created the painting that inspired received acclaim.\",\n    \"The farmer that drove the tractor that plowed the field that planted the seeds that grew harvested the crops.\"\n  ]\n}",
+  "l2_sentences": [
+    "The king that commanded the general that led the army that defeated the enemy that surrendered celebrated victory.",
+    "The girl that walked the dog that chased the ball that broke the window that shattered cried loudly.",
+    "The scientist that designed the experiment that used the equipment that collected the data that verified published the findings.",
+    "The artist that held the brush that stroked the canvas that created the painting that inspired received acclaim.",
+    "The farmer that drove the tractor that plowed the field that planted the seeds that grew harvested the crops."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:55:47.281968+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the professor the teacher the student tutored instructed admired vanished",
+    "the show the man the dog the child fed followed watched ended",
+    "the poem the poet the picture the artist painted inspired wrote circulated",
+    "the image the computer the code the programmer debugged powered displayed faded"
+  ],
+  "l1_raw": "{\"sentences\": [\"the report the editor the assistant the intern consulted revised approved disappeared\", \"the book the professor the teacher the student tutored instructed admired vanished\", \"the show the man the dog the child fed followed watched ended\", \"the poem the poet the picture the artist painted inspired wrote circulated\", \"the image the computer the code the programmer debugged powered displayed faded\"]}",
+  "run_idx": 30
+}

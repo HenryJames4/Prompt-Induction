@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client presented discussed accepted rejected",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the dealer the buyer drove inspected purchased"
+  ],
+  "induced_prompt_raw": "Generate a sentence with one noun and four verbs, where each verb is preceded by an article and a noun, forming a chain of nested dependencies.",
+  "induced_prompt": "Generate a sentence with one noun and four verbs, where each verb is preceded by an article and a noun, forming a chain of nested dependencies.",
+  "induced_prompt_chars": 143,
+  "induced_prompt_words": 26,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog that the boy that the girl that the man saw chased caught jumped.\",\n    \"The book that the student that the teacher that the principal that the board hired taught read fascinated.\",\n    \"The car that the mechanic that the owner that the dealer that the company sold employed fixed raced.\",\n    \"The house that the agent that the buyer that the bank that the government approved contacted inspected sold.\",\n    \"The painting that the museum that the curator that the artist that the gallery represented acquired displayed amazed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog that the boy that the girl that the man saw chased caught jumped.",
+    "The book that the student that the teacher that the principal that the board hired taught read fascinated.",
+    "The car that the mechanic that the owner that the dealer that the company sold employed fixed raced.",
+    "The house that the agent that the buyer that the bank that the government approved contacted inspected sold.",
+    "The painting that the museum that the curator that the artist that the gallery represented acquired displayed amazed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:08:07.545724+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client presented discussed accepted rejected",
+    "the house the architect the builder the owner designed constructed inspected sold"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client presented discussed accepted rejected",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the dealer the buyer drove inspected purchased"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read reviewed recommended returned\",\n    \"the plan the manager the team the client presented discussed accepted rejected\",\n    \"the house the architect the builder the owner designed constructed inspected sold\",\n    \"the car the dealer the buyer drove inspected purchased\"\n  ]\n}",
+  "run_idx": 18
+}

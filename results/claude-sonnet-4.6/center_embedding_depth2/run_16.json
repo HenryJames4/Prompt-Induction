@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed spread."
+  ],
+  "induced_prompt_raw": "Write sentences with center-embedded relative clauses where a subject is modified by a \"the [noun] the [agent] [verb]\" clause, followed by a simple intransitive verb.",
+  "induced_prompt": "Write sentences with center-embedded relative clauses where a subject is modified by a \"the [noun] the [agent] [verb]\" clause, followed by a simple intransitive verb.",
+  "induced_prompt_chars": 166,
+  "induced_prompt_words": 25,
+  "l1_char_total": 193,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The book the scholar read crumbled.\",\n    \"The cake the baker made disappeared.\",\n    \"The bridge the engineer built collapsed.\",\n    \"The song the musician wrote resonated.\",\n    \"The garden the gardener planted flourished.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The book the scholar read crumbled.",
+    "The cake the baker made disappeared.",
+    "The bridge the engineer built collapsed.",
+    "The song the musician wrote resonated.",
+    "The garden the gardener planted flourished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:40:19.841021+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed spread."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed passed.\", \"The cake the chef baked disappeared.\", \"The letter the student wrote arrived.\", \"The bridge the engineer designed collapsed.\", \"The song the musician composed spread.\"]}\n```",
+  "run_idx": 16
+}

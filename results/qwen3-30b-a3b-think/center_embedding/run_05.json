@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the reviewer wrote edited printed sold",
+    "the car the mechanic the dealer the customer bought repaired sold drove",
+    "the cake the baker the customer the chef decorated baked served ate",
+    "the song the singer the producer the band recorded mixed performed played",
+    "the house the architect the builder the homeowner designed constructed sold moved"
+  ],
+  "induced_prompt_raw": "the [noun] the [person] the [person] the [person] [verb] [verb] [verb] [verb]",
+  "induced_prompt": "the [noun] the [person] the [person] the [person] [verb] [verb] [verb] [verb]",
+  "induced_prompt_chars": 77,
+  "induced_prompt_words": 12,
+  "l1_char_total": 364,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the mother the father the sister ran jumped laughed danced\", \"the dog the brother the aunt the uncle sang danced skipped cried\", \"the bird the grandmother the grandfather the cousin walked talked smiled shouted\", \"the car the driver the passenger the conductor swam flew yelled whispered\", \"the book the teacher the student the librarian cooked baked shared sighed\"]}",
+  "l2_sentences": [
+    "the cat the mother the father the sister ran jumped laughed danced",
+    "the dog the brother the aunt the uncle sang danced skipped cried",
+    "the bird the grandmother the grandfather the cousin walked talked smiled shouted",
+    "the car the driver the passenger the conductor swam flew yelled whispered",
+    "the book the teacher the student the librarian cooked baked shared sighed"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:07:20.034151+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the reviewer wrote edited printed sold",
+    "the car the mechanic the dealer the customer bought repaired sold drove",
+    "the cake the baker the customer the chef decorated baked served ate",
+    "the song the singer the producer the band recorded mixed performed played",
+    "the house the architect the builder the homeowner designed constructed sold moved"
+  ],
+  "l1_raw": "{\"sentences\":[\"the book the author the publisher the reviewer wrote edited printed sold\",\"the car the mechanic the dealer the customer bought repaired sold drove\",\"the cake the baker the customer the chef decorated baked served ate\",\"the song the singer the producer the band recorded mixed performed played\",\"the house the architect the builder the homeowner designed constructed sold moved\"]}",
+  "run_idx": 5
+}

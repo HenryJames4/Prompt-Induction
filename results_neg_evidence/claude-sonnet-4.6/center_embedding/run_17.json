@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic the publisher the author signed approved reviewed vanished",
+    "the cake the guest the host the chef prepared served tasted finished",
+    "the letter the judge the lawyer the clerk drafted reviewed signed delivered",
+    "the film the audience the director the actor performed filmed edited watched",
+    "the dog the boy the man chased found left"
+  ],
+  "induced_prompt_raw": "Generate center-embedded relative clause sentences with exactly 4 nouns followed by exactly 4 verbs, where each verb corresponds to its respective noun in reverse order.",
+  "induced_prompt": "Generate center-embedded relative clause sentences with exactly 4 nouns followed by exactly 4 verbs, where each verb corresponds to its respective noun in reverse order.",
+  "induced_prompt_chars": 169,
+  "induced_prompt_words": 25,
+  "l1_char_total": 338,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the mouse that the elephant chased scared bit ran.\", \"The lawyer that the judge that the witness that the jury questioned surprised hired left.\", \"The book that the student that the teacher that the principal observed evaluated read disappeared.\", \"The deer that the wolf that the fox that the hunter tracked followed chased fled.\", \"The cake that the child that the woman that the man married loved baked vanished.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the mouse that the elephant chased scared bit ran.",
+    "The lawyer that the judge that the witness that the jury questioned surprised hired left.",
+    "The book that the student that the teacher that the principal observed evaluated read disappeared.",
+    "The deer that the wolf that the fox that the hunter tracked followed chased fled.",
+    "The cake that the child that the woman that the man married loved baked vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:06:59.660921+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic the publisher the author signed approved reviewed vanished",
+    "the cake the guest the host the chef prepared served tasted finished",
+    "the letter the judge the lawyer the clerk drafted reviewed signed delivered",
+    "the film the audience the director the actor performed filmed edited watched"
+  ],
+  "l1_sentences": [
+    "the book the critic the publisher the author signed approved reviewed vanished",
+    "the cake the guest the host the chef prepared served tasted finished",
+    "the letter the judge the lawyer the clerk drafted reviewed signed delivered",
+    "the film the audience the director the actor performed filmed edited watched",
+    "the dog the boy the man chased found left"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the book the critic the publisher the author signed approved reviewed vanished\", \"the cake the guest the host the chef prepared served tasted finished\", \"the letter the judge the lawyer the clerk drafted reviewed signed delivered\", \"the film the audience the director the actor performed filmed edited watched\", \"the dog the boy the man chased found left\"]}\n```",
+  "run_idx": 17
+}

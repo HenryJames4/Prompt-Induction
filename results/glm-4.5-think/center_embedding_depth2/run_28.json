@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read won.",
+    "the car the mechanic repaired crashed.",
+    "the house the builder constructed burned.",
+    "the letter the secretary wrote disappeared."
+  ],
+  "induced_prompt_raw": "Center-embedded object relative clause without relative pronoun",
+  "induced_prompt": "Center-embedded object relative clause without relative pronoun",
+  "induced_prompt_chars": 63,
+  "induced_prompt_words": 7,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The professor graded the paper the student submitted yesterday.\",\n    \"She admired the painting the artist donated to the gallery.\",\n    \"We repaired the computer the technician damaged accidentally.\",\n    \"He recognized the song the band performed at the concert.\",\n    \"They discussed the theory the researcher proposed recently.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The professor graded the paper the student submitted yesterday.",
+    "She admired the painting the artist donated to the gallery.",
+    "We repaired the computer the technician damaged accidentally.",
+    "He recognized the song the band performed at the concert.",
+    "They discussed the theory the researcher proposed recently."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:30:40.223239+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read won.",
+    "the car the mechanic repaired crashed.",
+    "the house the builder constructed burned.",
+    "the letter the secretary wrote disappeared."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read won.\",\n    \"the car the mechanic repaired crashed.\",\n    \"the house the builder constructed burned.\",\n    \"the letter the secretary wrote disappeared.\"\n  ]\n}\n```",
+  "run_idx": 28
+}

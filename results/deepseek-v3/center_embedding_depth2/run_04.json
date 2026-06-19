@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the author wrote sold",
+    "the song the singer performed hit",
+    "the cake the baker made tasted",
+    "the car the mechanic fixed ran",
+    "the letter the writer sent arrived"
+  ],
+  "induced_prompt_raw": "\"Generate sentences in the structure: [noun1] [noun2] [verb1] [verb2].\"  \n\n(Alternatively, a more concise version: \"Write sentences with the pattern: [noun1] [noun2] [verb1] [verb2].\")  \n\nBoth prompts capture the syntactic structure (NP NP V V) while being shorter than the original list.",
+  "induced_prompt": "\"Generate sentences in the structure: [noun1] [noun2] [verb1] [verb2].\"  \n\n(Alternatively, a more concise version: \"Write sentences with the pattern: [noun1] [noun2] [verb1] [verb2].\")  \n\nBoth prompts capture the syntactic structure (NP NP V V) while being shorter than the original list.",
+  "induced_prompt_chars": 288,
+  "induced_prompt_words": 40,
+  "l1_char_total": 157,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The dog leash tangles twists.\", \"The cake frosting drips slides.\", \"The book pages flutter fall.\", \"The car engine sputters stalls.\", \"The tree leaves rustle sway.\"]}",
+  "l2_sentences": [
+    "The dog leash tangles twists.",
+    "The cake frosting drips slides.",
+    "The book pages flutter fall.",
+    "The car engine sputters stalls.",
+    "The tree leaves rustle sway."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:02:28.764246+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author wrote sold",
+    "the song the singer performed hit",
+    "the cake the baker made tasted",
+    "the car the mechanic fixed ran",
+    "the letter the writer sent arrived"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold\", \"the song the singer performed hit\", \"the cake the baker made tasted\", \"the car the mechanic fixed ran\", \"the letter the writer sent arrived\"]}",
+  "run_idx": 4
+}

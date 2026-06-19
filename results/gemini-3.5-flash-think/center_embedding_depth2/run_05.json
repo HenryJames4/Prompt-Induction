@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The book the student read disappeared.",
+    "The mouse the cat chased escaped.",
+    "The cake the child baked burned.",
+    "The car the man bought crashed.",
+    "The letter the girl wrote arrived."
+  ],
+  "induced_prompt_raw": "Write five sentences following the pattern: \"The [noun] the [noun] [transitive verb] [intransitive verb].\"",
+  "induced_prompt": "Write five sentences following the pattern: \"The [noun] the [noun] [transitive verb] [intransitive verb].\"",
+  "induced_prompt_chars": 106,
+  "induced_prompt_words": 14,
+  "l1_char_total": 168,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat the dog chased ran.\",\n    \"The toy the child broke fell.\",\n    \"The man the officer arrested escaped.\",\n    \"The bird the cat watched flew.\",\n    \"The glass the waiter dropped shattered.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat the dog chased ran.",
+    "The toy the child broke fell.",
+    "The man the officer arrested escaped.",
+    "The bird the cat watched flew.",
+    "The glass the waiter dropped shattered."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:36:49.869668+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The book the student read disappeared.",
+    "The mouse the cat chased escaped.",
+    "The cake the child baked burned.",
+    "The car the man bought crashed.",
+    "The letter the girl wrote arrived."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student read disappeared.\",\n    \"The mouse the cat chased escaped.\",\n    \"The cake the child baked burned.\",\n    \"The car the man bought crashed.\",\n    \"The letter the girl wrote arrived.\"\n  ]\n}",
+  "run_idx": 5
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the mouse the elephant chased hunted caught escaped.",
+    "the book the teacher the student the principal assigned read graded praised.",
+    "the car the mechanic the owner the driver repaired washed started crashed.",
+    "the house the contractor the family the inspector built designed approved sold.",
+    "the computer the programmer the company the client created tested debugged crashed."
+  ],
+  "induced_prompt_raw": "A sequence of nouns followed by a sequence of verbs in the same order.",
+  "induced_prompt": "A sequence of nouns followed by a sequence of verbs in the same order.",
+  "induced_prompt_chars": 70,
+  "induced_prompt_words": 14,
+  "l1_char_total": 380,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"Cats, dogs, and birds ran, jumped, and flew.\",\n    \"Books, pens, and papers opened, wrote, and folded.\",\n    \"Cars, buses, and trains started, moved, and stopped.\",\n    \"Water, fire, and earth flowed, burned, and grew.\",\n    \"Children, teachers, and parents learned, taught, and helped.\"\n  ]\n}",
+  "l2_sentences": [
+    "Cats, dogs, and birds ran, jumped, and flew.",
+    "Books, pens, and papers opened, wrote, and folded.",
+    "Cars, buses, and trains started, moved, and stopped.",
+    "Water, fire, and earth flowed, burned, and grew.",
+    "Children, teachers, and parents learned, taught, and helped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:24:00.268985+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the mouse the elephant chased hunted caught escaped.",
+    "the book the teacher the student the principal assigned read graded praised.",
+    "the car the mechanic the owner the driver repaired washed started crashed.",
+    "the house the contractor the family the inspector built designed approved sold.",
+    "the computer the programmer the company the client created tested debugged crashed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the mouse the elephant chased hunted caught escaped.\",\n    \"the book the teacher the student the principal assigned read graded praised.\",\n    \"the car the mechanic the owner the driver repaired washed started crashed.\",\n    \"the house the contractor the family the inspector built designed approved sold.\",\n    \"the computer the programmer the company the client created tested debugged crashed.\"\n  ]\n}",
+  "run_idx": 13
+}

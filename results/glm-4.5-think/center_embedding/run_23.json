@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the critic the flaw found pointed praised sold.",
+    "the house the builder the inspector the code violated enforced checked collapsed.",
+    "the student the teacher the principal the rule broke enforced reported graduated.",
+    "the team the coach the referee the foul called protested argued won.",
+    "the cake the baker the customer the taste loved praised ordered disappeared."
+  ],
+  "induced_prompt_raw": "Four nouns followed by four verbs in reverse order of application.",
+  "induced_prompt": "Four nouns followed by four verbs in reverse order of application.",
+  "induced_prompt_chars": 66,
+  "induced_prompt_words": 11,
+  "l1_char_total": 373,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The sun, moon, stars, planets radiate, glow, twinkle, shine.\",\n    \"Waves, wind, rain, thunder crash, blow, fall, roar.\",\n    \"Flowers, trees, grass, leaves bloom, grow, sway, rustle.\",\n    \"Cars, buses, trucks, bikes move, stop, turn, park.\",\n    \"Chefs, waiters, managers, hosts cook, serve, manage, greet.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The sun, moon, stars, planets radiate, glow, twinkle, shine.",
+    "Waves, wind, rain, thunder crash, blow, fall, roar.",
+    "Flowers, trees, grass, leaves bloom, grow, sway, rustle.",
+    "Cars, buses, trucks, bikes move, stop, turn, park.",
+    "Chefs, waiters, managers, hosts cook, serve, manage, greet."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:42:11.083240+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the critic the flaw found pointed praised sold.",
+    "the house the builder the inspector the code violated enforced checked collapsed.",
+    "the student the teacher the principal the rule broke enforced reported graduated.",
+    "the team the coach the referee the foul called protested argued won.",
+    "the cake the baker the customer the taste loved praised ordered disappeared."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the author the critic the flaw found pointed praised sold.\",\n    \"the house the builder the inspector the code violated enforced checked collapsed.\",\n    \"the student the teacher the principal the rule broke enforced reported graduated.\",\n    \"the team the coach the referee the foul called protested argued won.\",\n    \"the cake the baker the customer the taste loved praised ordered disappeared.\"\n  ]\n}\n```",
+  "run_idx": 23
+}

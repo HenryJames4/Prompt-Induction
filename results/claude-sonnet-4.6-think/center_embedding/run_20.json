@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the contract the lawyer the clerk the judge summoned briefed signed expired.",
+    "the letter the manager the secretary the courier contacted notified mailed arrived.",
+    "the book the publisher the author the critic praised impressed printed sold.",
+    "the project the director the engineer the intern assisted briefed approved succeeded.",
+    "the cake the baker the chef the student impressed trained baked disappeared."
+  ],
+  "induced_prompt_raw": "Write sentences with triply center-embedded relative clauses, listing four noun phrases consecutively before their four corresponding verb phrases in reverse order.",
+  "induced_prompt": "Write sentences with triply center-embedded relative clauses, listing four noun phrases consecutively before their four corresponding verb phrases in reverse order.",
+  "induced_prompt_chars": 164,
+  "induced_prompt_words": 21,
+  "l1_char_total": 396,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The rat the cat the dog the boy owned chased killed ate the malt.\", \"The book the professor the student the librarian helped taught wrote won the award.\", \"The cake the chef the apprentice the farmer trained hired baked pleased the judges.\", \"The paper the scientist the student the dean supervised mentored published changed the field.\", \"The film the director the actor the agent represented cast made won the Oscar.\"]}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the boy owned chased killed ate the malt.",
+    "The book the professor the student the librarian helped taught wrote won the award.",
+    "The cake the chef the apprentice the farmer trained hired baked pleased the judges.",
+    "The paper the scientist the student the dean supervised mentored published changed the field.",
+    "The film the director the actor the agent represented cast made won the Oscar."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:28:17.848815+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the contract the lawyer the clerk the judge summoned briefed signed expired.",
+    "the letter the manager the secretary the courier contacted notified mailed arrived.",
+    "the book the publisher the author the critic praised impressed printed sold.",
+    "the project the director the engineer the intern assisted briefed approved succeeded.",
+    "the cake the baker the chef the student impressed trained baked disappeared."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the contract the lawyer the clerk the judge summoned briefed signed expired.\",\n    \"the letter the manager the secretary the courier contacted notified mailed arrived.\",\n    \"the book the publisher the author the critic praised impressed printed sold.\",\n    \"the project the director the engineer the intern assisted briefed approved succeeded.\",\n    \"the cake the baker the chef the student impressed trained baked disappeared.\"\n  ]\n}\n```",
+  "run_idx": 20
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the mouse the elephant chased hunted captured escaped.",
+    "the book the teacher the student the principal recommended read borrowed returned.",
+    "the car the mechanic the owner the driver repaired fixed washed crashed.",
+    "the house the architect the builder the family designed constructed painted sold.",
+    "the meal the chef the critic the customer prepared tasted enjoyed hated."
+  ],
+  "induced_prompt_raw": "Agent-action-recipient sequence.",
+  "induced_prompt": "Agent-action-recipient sequence.",
+  "induced_prompt_chars": 32,
+  "induced_prompt_words": 2,
+  "l1_char_total": 377,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The teacher handed the assignment to the student.\",\n    \"The doctor prescribed medication to the patient.\",\n    \"The chef prepared a delicious meal for the customers.\",\n    \"The mail carrier delivered the package to the recipient.\",\n    \"The police officer issued a ticket to the driver.\"\n  ]\n}",
+  "l2_sentences": [
+    "The teacher handed the assignment to the student.",
+    "The doctor prescribed medication to the patient.",
+    "The chef prepared a delicious meal for the customers.",
+    "The mail carrier delivered the package to the recipient.",
+    "The police officer issued a ticket to the driver."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:36:40.181163+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the mouse the elephant chased hunted captured escaped.",
+    "the book the teacher the student the principal recommended read borrowed returned.",
+    "the car the mechanic the owner the driver repaired fixed washed crashed.",
+    "the house the architect the builder the family designed constructed painted sold.",
+    "the meal the chef the critic the customer prepared tasted enjoyed hated."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the mouse the elephant chased hunted captured escaped.\",\n    \"the book the teacher the student the principal recommended read borrowed returned.\",\n    \"the car the mechanic the owner the driver repaired fixed washed crashed.\",\n    \"the house the architect the builder the family designed constructed painted sold.\",\n    \"the meal the chef the critic the customer prepared tasted enjoyed hated.\"\n  ]\n}",
+  "run_idx": 20
+}

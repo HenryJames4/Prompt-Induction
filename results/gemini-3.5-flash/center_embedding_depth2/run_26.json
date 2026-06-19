@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat chased ran",
+    "the chef the customer thanked smiled",
+    "the student the teacher helped passed",
+    "the artist the crowd cheered bowed",
+    "the child the mother hugged laughed"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with the syntactic structure: [Noun Phrase 1] [Noun Phrase 2] [Transitive Verb] [Intransitive Verb].\"",
+  "induced_prompt": "\"Generate sentences with the syntactic structure: [Noun Phrase 1] [Noun Phrase 2] [Transitive Verb] [Intransitive Verb].\"",
+  "induced_prompt_chars": 121,
+  "induced_prompt_words": 16,
+  "l1_char_total": 168,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The young boy his sister saw run.\",\n    \"The hungry dog the bone wanted chew.\",\n    \"Our friendly neighbors the car watched leave.\",\n    \"That brave firefighter the child helped escape.\",\n    \"The excited crowd the singer heard perform.\"\n  ]\n}",
+  "l2_sentences": [
+    "The young boy his sister saw run.",
+    "The hungry dog the bone wanted chew.",
+    "Our friendly neighbors the car watched leave.",
+    "That brave firefighter the child helped escape.",
+    "The excited crowd the singer heard perform."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:43:20.665754+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat chased ran",
+    "the chef the customer thanked smiled",
+    "the student the teacher helped passed",
+    "the artist the crowd cheered bowed",
+    "the child the mother hugged laughed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the dog the cat chased ran\",\n    \"the chef the customer thanked smiled\",\n    \"the student the teacher helped passed\",\n    \"the artist the crowd cheered bowed\",\n    \"the child the mother hugged laughed\"\n  ]\n}",
+  "run_idx": 26
+}

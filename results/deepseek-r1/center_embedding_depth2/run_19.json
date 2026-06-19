@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The dog the child chased barked.",
+    "The cake the baker baked cooled.",
+    "The letter the secretary typed arrived.",
+    "The car the mechanic fixed started.",
+    "The code the developer wrote compiled."
+  ],
+  "induced_prompt_raw": "\"Write a sentence: The [noun1] the [noun2] [past_verb] [past_verb].\"",
+  "induced_prompt": "\"Write a sentence: The [noun1] the [noun2] [past_verb] [past_verb].\"",
+  "induced_prompt_chars": 68,
+  "induced_prompt_words": 9,
+  "l1_char_total": 176,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the ball chased fetched.\", \"The wind the leaves scattered piled.\", \"The chef the meal prepared served.\", \"The storm the roof damaged leaked.\", \"The child the toy dropped cried.\"]}",
+  "l2_sentences": [
+    "The dog the ball chased fetched.",
+    "The wind the leaves scattered piled.",
+    "The chef the meal prepared served.",
+    "The storm the roof damaged leaked.",
+    "The child the toy dropped cried."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:19:17.464639+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The dog the child chased barked.",
+    "The cake the baker baked cooled.",
+    "The letter the secretary typed arrived.",
+    "The car the mechanic fixed started.",
+    "The code the developer wrote compiled."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the child chased barked.\", \"The cake the baker baked cooled.\", \"The letter the secretary typed arrived.\", \"The car the mechanic fixed started.\", \"The code the developer wrote compiled.\"]}",
+  "run_idx": 19
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the student the teacher read wrote finished vanished",
+    "the letter the secretary the clerk the manager typed signed delivered disappeared",
+    "the document the lawyer the client the witness reviewed agreed submitted vanished",
+    "the article the journalist the editor the reporter wrote approved published disappeared",
+    "the plan the architect the builder the engineer designed approved completed vanished"
+  ],
+  "induced_prompt_raw": "A sequence of actions involving nested roles leading to disappearance",
+  "induced_prompt": "A sequence of actions involving nested roles leading to disappearance",
+  "induced_prompt_chars": 69,
+  "induced_prompt_words": 10,
+  "l1_char_total": 405,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The detective entered the abandoned mansion, assuming the role of a curious historian.\", \"Inside, she discovered a hidden chamber where a librarian was cataloging ancient texts, pretending to be a ghost.\", \"The librarian, in turn, revealed a mirror that reflected not the room, but a different world where a traveler was waiting to be summoned.\", \"The traveler stepped through the mirror, erasing the librarian from existence as they merged into a single entity.\", \"With the traveler now fully present, the detective vanished, absorbed into the narrative of the world beyond the mirror.\"]}",
+  "l2_sentences": [
+    "The detective entered the abandoned mansion, assuming the role of a curious historian.",
+    "Inside, she discovered a hidden chamber where a librarian was cataloging ancient texts, pretending to be a ghost.",
+    "The librarian, in turn, revealed a mirror that reflected not the room, but a different world where a traveler was waiting to be summoned.",
+    "The traveler stepped through the mirror, erasing the librarian from existence as they merged into a single entity.",
+    "With the traveler now fully present, the detective vanished, absorbed into the narrative of the world beyond the mirror."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:34:49.298719+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the student the teacher read wrote finished vanished",
+    "the letter the secretary the clerk the manager typed signed delivered disappeared",
+    "the document the lawyer the client the witness reviewed agreed submitted vanished",
+    "the article the journalist the editor the reporter wrote approved published disappeared",
+    "the plan the architect the builder the engineer designed approved completed vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the student the teacher read wrote finished vanished\", \"the letter the secretary the clerk the manager typed signed delivered disappeared\", \"the document the lawyer the client the witness reviewed agreed submitted vanished\", \"the article the journalist the editor the reporter wrote approved published disappeared\", \"the plan the architect the builder the engineer designed approved completed vanished\"]}",
+  "run_idx": 19
+}

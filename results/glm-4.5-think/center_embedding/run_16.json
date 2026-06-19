@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the car the driver the owner the company bought washed repaired sold.",
+    "the book the author the publisher the reader wrote edited printed read.",
+    "the dog the owner the vet the clinic adopted trained treated released.",
+    "the cake the baker the customer the party baked decorated delivered eaten."
+  ],
+  "induced_prompt_raw": "Object, then agents in reverse order, then verbs: first verb by last agent, second by middle agent, third by first agent, fourth by object.",
+  "induced_prompt": "Object, then agents in reverse order, then verbs: first verb by last agent, second by middle agent, third by first agent, fourth by object.",
+  "induced_prompt_chars": 139,
+  "induced_prompt_words": 24,
+  "l1_char_total": 370,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The ball, Charlie, Bob, Alice, was kicked by Charlie, thrown by Bob, hit by Alice, and rolled by the ball.\",\n    \"The book, Peter, Mary, John, was read by Peter, written by Mary, published by John, and closed by the book.\",\n    \"The car, Owner, Mechanic, Driver, was driven by Owner, repaired by Mechanic, washed by Driver, and parked by the car.\",\n    \"The meal, Customer, Waiter, Chef, was eaten by Customer, served by Waiter, cooked by Chef, and finished by the meal.\",\n    \"The project, Tester, Developer, Manager, was tested by Tester, developed by Developer, managed by Manager, and completed by the project.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The ball, Charlie, Bob, Alice, was kicked by Charlie, thrown by Bob, hit by Alice, and rolled by the ball.",
+    "The book, Peter, Mary, John, was read by Peter, written by Mary, published by John, and closed by the book.",
+    "The car, Owner, Mechanic, Driver, was driven by Owner, repaired by Mechanic, washed by Driver, and parked by the car.",
+    "The meal, Customer, Waiter, Chef, was eaten by Customer, served by Waiter, cooked by Chef, and finished by the meal.",
+    "The project, Tester, Developer, Manager, was tested by Tester, developed by Developer, managed by Manager, and completed by the project."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:29:49.924501+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the car the driver the owner the company bought washed repaired sold.",
+    "the book the author the publisher the reader wrote edited printed read.",
+    "the dog the owner the vet the clinic adopted trained treated released.",
+    "the cake the baker the customer the party baked decorated delivered eaten."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared.\",\n    \"the car the driver the owner the company bought washed repaired sold.\",\n    \"the book the author the publisher the reader wrote edited printed read.\",\n    \"the dog the owner the vet the clinic adopted trained treated released.\",\n    \"the cake the baker the customer the party baked decorated delivered eaten.\"\n  ]\n}\n```",
+  "run_idx": 16
+}

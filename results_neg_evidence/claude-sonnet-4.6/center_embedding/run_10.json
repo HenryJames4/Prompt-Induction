@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic the student the professor assigned read reviewed vanished",
+    "the cake the chef the apprentice the judge trained evaluated baked disappeared",
+    "the letter the lawyer the clerk the manager hired trained wrote arrived",
+    "the film the director the actor the producer signed hired filmed premiered",
+    "the dog the trainer the owner hired taught ran"
+  ],
+  "induced_prompt_raw": "Write a sentence with 4 levels of center-embedding, where four nested relative clauses each introduce a new agent, followed by all four verbs in reverse order. Ensure there are exactly 4 embedded noun phrases and 4 corresponding verbs at the end.",
+  "induced_prompt": "Write a sentence with 4 levels of center-embedding, where four nested relative clauses each introduce a new agent, followed by all four verbs in reverse order. Ensure there are exactly 4 embedded noun phrases and 4 corresponding verbs at the end.",
+  "induced_prompt_chars": 246,
+  "induced_prompt_words": 41,
+  "l1_char_total": 346,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the child that the teacher taught trained chased slept.\", \"The book that the scholar that the student that the professor mentored advised reviewed vanished.\", \"The bird that the hawk that the fox that the hunter tracked stalked frightened sang.\", \"The letter that the lawyer that the clerk that the judge appointed hired wrote arrived.\", \"The cake that the guest that the chef that the host invited praised baked disappeared.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the child that the teacher taught trained chased slept.",
+    "The book that the scholar that the student that the professor mentored advised reviewed vanished.",
+    "The bird that the hawk that the fox that the hunter tracked stalked frightened sang.",
+    "The letter that the lawyer that the clerk that the judge appointed hired wrote arrived.",
+    "The cake that the guest that the chef that the host invited praised baked disappeared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:55:04.046447+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic the student the professor assigned read reviewed vanished",
+    "the cake the chef the apprentice the judge trained evaluated baked disappeared",
+    "the letter the lawyer the clerk the manager hired trained wrote arrived",
+    "the film the director the actor the producer signed hired filmed premiered"
+  ],
+  "l1_sentences": [
+    "the book the critic the student the professor assigned read reviewed vanished",
+    "the cake the chef the apprentice the judge trained evaluated baked disappeared",
+    "the letter the lawyer the clerk the manager hired trained wrote arrived",
+    "the film the director the actor the producer signed hired filmed premiered",
+    "the dog the trainer the owner hired taught ran"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the book the critic the student the professor assigned read reviewed vanished\", \"the cake the chef the apprentice the judge trained evaluated baked disappeared\", \"the letter the lawyer the clerk the manager hired trained wrote arrived\", \"the film the director the actor the producer signed hired filmed premiered\", \"the dog the trainer the owner hired taught ran\"]}\n```",
+  "run_idx": 10
+}

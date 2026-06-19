@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the trainer trained won.",
+    "the book the author wrote sold.",
+    "the house the builder built collapsed.",
+    "the student the teacher taught graduated.",
+    "the meal the chef prepared tasted."
+  ],
+  "induced_prompt_raw": "Reduced relative subject and verb.",
+  "induced_prompt": "Reduced relative subject and verb.",
+  "induced_prompt_chars": 34,
+  "induced_prompt_words": 5,
+  "l1_char_total": 176,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The woman wearing the blue coat won the award.\",\n    \"The car parked illegally was towed away.\",\n    \"The children playing in the park need supervision.\",\n    \"The book written by Hemingway sold millions.\",\n    \"The man arrested last week confessed to the crime.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The woman wearing the blue coat won the award.",
+    "The car parked illegally was towed away.",
+    "The children playing in the park need supervision.",
+    "The book written by Hemingway sold millions.",
+    "The man arrested last week confessed to the crime."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:11:19.992918+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the trainer trained won.",
+    "the book the author wrote sold.",
+    "the house the builder built collapsed.",
+    "the student the teacher taught graduated.",
+    "the meal the chef prepared tasted."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the dog the trainer trained won.\",\n    \"the book the author wrote sold.\",\n    \"the house the builder built collapsed.\",\n    \"the student the teacher taught graduated.\",\n    \"the meal the chef prepared tasted.\"\n  ]\n}\n```",
+  "run_idx": 11
+}

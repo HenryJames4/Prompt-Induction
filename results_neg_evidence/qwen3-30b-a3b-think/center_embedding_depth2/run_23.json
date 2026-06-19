@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold",
+    "the story the editor read ended",
+    "the idea the scientist proposed succeeded",
+    "the plan the manager approved worked",
+    "the book the author the editor wrote sold passed"
+  ],
+  "induced_prompt_raw": "the noun the agent verb main verb",
+  "induced_prompt": "the noun the agent verb main verb",
+  "induced_prompt_chars": 33,
+  "induced_prompt_words": 7,
+  "l1_char_total": 186,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the apple the boy ate was sweet\", \"the car the driver fixed runs well\", \"the song the singer performed was beautiful\", \"the cake the baker made tasted delicious\", \"the story the writer told was engaging\"]}",
+  "l2_sentences": [
+    "the apple the boy ate was sweet",
+    "the car the driver fixed runs well",
+    "the song the singer performed was beautiful",
+    "the cake the baker made tasted delicious",
+    "the story the writer told was engaging"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:54:39.978412+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold",
+    "the story the editor read ended",
+    "the idea the scientist proposed succeeded",
+    "the plan the manager approved worked"
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold",
+    "the story the editor read ended",
+    "the idea the scientist proposed succeeded",
+    "the plan the manager approved worked",
+    "the book the author the editor wrote sold passed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold\", \"the story the editor read ended\", \"the idea the scientist proposed succeeded\", \"the plan the manager approved worked\", \"the book the author the editor wrote sold passed\"]}",
+  "run_idx": 23
+}

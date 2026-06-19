@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student the teacher the principal praised recommended read lost",
+    "The car the mechanic the apprentice the owner hired supervised repaired crashed",
+    "The bill the senator the lobbyist the activist challenged persuaded drafted passed",
+    "The song the singer the producer the director hired managed performed succeeded",
+    "The dog the boy the girl liked chased barked"
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly four nested relative clauses (triply center-embedded), consisting of four nouns followed by four verbs in a strict subject-object matching order (Noun1 Noun2 Noun3 Noun4 Verb4 Verb3 Verb2 Verb1). Avoid using only three nouns and three verbs (doubly center-embedded structures).",
+  "induced_prompt": "Generate a sentence with exactly four nested relative clauses (triply center-embedded), consisting of four nouns followed by four verbs in a strict subject-object matching order (Noun1 Noun2 Noun3 Noun4 Verb4 Verb3 Verb2 Verb1). Avoid using only three nouns and three verbs (doubly center-embedded structures).",
+  "induced_prompt_chars": 310,
+  "induced_prompt_words": 44,
+  "l1_char_total": 360,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The surgeon the patient the nurse the doctor called saw thanked healed.\",\n    \"The cheese the rat the cat the dog chased caught ate smelled.\",\n    \"The report the intern the analyst the manager hired trained reviewed filed.\",\n    \"The song the child the mother the father loved sang heard remembered.\",\n    \"The car the mechanic the driver the owner paid hired blamed crashed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The surgeon the patient the nurse the doctor called saw thanked healed.",
+    "The cheese the rat the cat the dog chased caught ate smelled.",
+    "The report the intern the analyst the manager hired trained reviewed filed.",
+    "The song the child the mother the father loved sang heard remembered.",
+    "The car the mechanic the driver the owner paid hired blamed crashed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:12:10.437701+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student the teacher the principal praised recommended read lost",
+    "The car the mechanic the apprentice the owner hired supervised repaired crashed",
+    "The bill the senator the lobbyist the activist challenged persuaded drafted passed",
+    "The song the singer the producer the director hired managed performed succeeded"
+  ],
+  "l1_sentences": [
+    "The book the student the teacher the principal praised recommended read lost",
+    "The car the mechanic the apprentice the owner hired supervised repaired crashed",
+    "The bill the senator the lobbyist the activist challenged persuaded drafted passed",
+    "The song the singer the producer the director hired managed performed succeeded",
+    "The dog the boy the girl liked chased barked"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the principal praised recommended read lost\",\n    \"The car the mechanic the apprentice the owner hired supervised repaired crashed\",\n    \"The bill the senator the lobbyist the activist challenged persuaded drafted passed\",\n    \"The song the singer the producer the director hired managed performed succeeded\",\n    \"The dog the boy the girl liked chased barked\"\n  ]\n}",
+  "run_idx": 20
+}

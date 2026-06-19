@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the editor the publisher wrote published sold vanished.",
+    "the letter the sender the receiver the postman delivered read mailed lost.",
+    "the car the driver the mechanic the owner fixed drove crashed repaired.",
+    "the dog the owner the vet the trainer trained walked barked adopted.",
+    "the song the singer the producer the fan recorded performed released loved."
+  ],
+  "induced_prompt_raw": "the [entity] the [role1] the [role2] the [role3] [verb1] [verb2] [verb3] [verb4]",
+  "induced_prompt": "the [entity] the [role1] the [role2] the [role3] [verb1] [verb2] [verb3] [verb4]",
+  "induced_prompt_chars": 80,
+  "induced_prompt_words": 12,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the startup the CEO the CTO the CFO launched innovated expanded secured.\", \"the corporation the founder the engineer the designer developed collaborated implemented optimized.\", \"the firm the director the strategist the analyst launched grew achieved expanded.\", \"the enterprise the head the manager the HR secured innovated implemented grew.\", \"the organization the leader the executive the operations achieved launched collaborated optimized.\"]}",
+  "l2_sentences": [
+    "the startup the CEO the CTO the CFO launched innovated expanded secured.",
+    "the corporation the founder the engineer the designer developed collaborated implemented optimized.",
+    "the firm the director the strategist the analyst launched grew achieved expanded.",
+    "the enterprise the head the manager the HR secured innovated implemented grew.",
+    "the organization the leader the executive the operations achieved launched collaborated optimized."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:47:03.395744+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the editor the publisher wrote published sold vanished.",
+    "the letter the sender the receiver the postman delivered read mailed lost.",
+    "the car the driver the mechanic the owner fixed drove crashed repaired.",
+    "the dog the owner the vet the trainer trained walked barked adopted.",
+    "the song the singer the producer the fan recorded performed released loved."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher wrote published sold vanished.\", \"the letter the sender the receiver the postman delivered read mailed lost.\", \"the car the driver the mechanic the owner fixed drove crashed repaired.\", \"the dog the owner the vet the trainer trained walked barked adopted.\", \"the song the singer the producer the fan recorded performed released loved.\"]}",
+  "run_idx": 26
+}

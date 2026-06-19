@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the mouse the cheese chased ate saw vanished",
+    "the house the owner the builder the architect designed built sold collapsed",
+    "the book the author the publisher the critic wrote reviewed praised ignored",
+    "the car the driver the mechanic the engineer repaired drove tested crashed",
+    "the tree the bird the nest built sang fell"
+  ],
+  "induced_prompt_raw": "Generate 4 nouns (each \"the ...\") then 4 verbs: chain noun1 verb1 noun2, noun2 verb2 noun3, noun3 verb3 noun4, noun4 verb4. Verbs 1-3 transitive, verb4 intransitive. Plausible actions.",
+  "induced_prompt": "Generate 4 nouns (each \"the ...\") then 4 verbs: chain noun1 verb1 noun2, noun2 verb2 noun3, noun3 verb3 noun4, noun4 verb4. Verbs 1-3 transitive, verb4 intransitive. Plausible actions.",
+  "induced_prompt_chars": 184,
+  "induced_prompt_words": 28,
+  "l1_char_total": 326,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The sun warmed the rock.\",\n    \"The rock cracked the seed.\",\n    \"The seed nourished the plant.\",\n    \"The plant bloomed.\",\n    \"The garden flourished.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The sun warmed the rock.",
+    "The rock cracked the seed.",
+    "The seed nourished the plant.",
+    "The plant bloomed.",
+    "The garden flourished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:42:27.939975+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the mouse the cheese chased ate saw vanished",
+    "the house the owner the builder the architect designed built sold collapsed",
+    "the book the author the publisher the critic wrote reviewed praised ignored",
+    "the car the driver the mechanic the engineer repaired drove tested crashed"
+  ],
+  "l1_sentences": [
+    "the cat the dog the mouse the cheese chased ate saw vanished",
+    "the house the owner the builder the architect designed built sold collapsed",
+    "the book the author the publisher the critic wrote reviewed praised ignored",
+    "the car the driver the mechanic the engineer repaired drove tested crashed",
+    "the tree the bird the nest built sang fell"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog the mouse the cheese chased ate saw vanished\",\n    \"the house the owner the builder the architect designed built sold collapsed\",\n    \"the book the author the publisher the critic wrote reviewed praised ignored\",\n    \"the car the driver the mechanic the engineer repaired drove tested crashed\",\n    \"the tree the bird the nest built sang fell\"\n  ]\n}\n```",
+  "run_idx": 1
+}

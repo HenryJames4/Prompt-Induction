@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student the teacher the principal praised recommended borrowed lost",
+    "The data the analyst the manager the director hired reviewed prepared vanished",
+    "The song the singer the producer the writer hired recorded completed failed",
+    "The car the mechanic the client the driver recommended repaired purchased broke",
+    "The meal the chef the waiter served prepared burned"
+  ],
+  "induced_prompt_raw": "Generate a grammatically correct triple center-embedded sentence (three nested relative clauses) using the template: [Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1]. Ensure all four nouns have corresponding verbs so the sentence is complete, avoiding dangling nouns or incomplete verb sequences.",
+  "induced_prompt": "Generate a grammatically correct triple center-embedded sentence (three nested relative clauses) using the template: [Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1]. Ensure all four nouns have corresponding verbs so the sentence is complete, avoiding dangling nouns or incomplete verb sequences.",
+  "induced_prompt_chars": 319,
+  "induced_prompt_words": 49,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The patient the nurse the doctor the surgeon assisted recommended thanked smiled.\",\n    \"The mouse the cat the dog the boy chased scratched bit escaped.\",\n    \"The book the student the teacher the principal praised read lost found.\",\n    \"The car the mechanic the driver the owner hired questioned repaired crashed.\",\n    \"The song the singer the writer the producer hired composed sang failed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The patient the nurse the doctor the surgeon assisted recommended thanked smiled.",
+    "The mouse the cat the dog the boy chased scratched bit escaped.",
+    "The book the student the teacher the principal praised read lost found.",
+    "The car the mechanic the driver the owner hired questioned repaired crashed.",
+    "The song the singer the writer the producer hired composed sang failed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:14:43.753653+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student the teacher the principal praised recommended borrowed lost",
+    "The data the analyst the manager the director hired reviewed prepared vanished",
+    "The song the singer the producer the writer hired recorded completed failed",
+    "The car the mechanic the client the driver recommended repaired purchased broke"
+  ],
+  "l1_sentences": [
+    "The book the student the teacher the principal praised recommended borrowed lost",
+    "The data the analyst the manager the director hired reviewed prepared vanished",
+    "The song the singer the producer the writer hired recorded completed failed",
+    "The car the mechanic the client the driver recommended repaired purchased broke",
+    "The meal the chef the waiter served prepared burned"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the principal praised recommended borrowed lost\",\n    \"The data the analyst the manager the director hired reviewed prepared vanished\",\n    \"The song the singer the producer the writer hired recorded completed failed\",\n    \"The car the mechanic the client the driver recommended repaired purchased broke\",\n    \"The meal the chef the waiter served prepared burned\"\n  ]\n}",
+  "run_idx": 22
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic the author the fan emailed praised reviewed burned",
+    "the cheese the chef the supplier the farmer called recommended selected melted",
+    "the car the mechanic the driver the officer questioned hired repaired crashed",
+    "the portrait the artist the patron the agent contacted commissioned painted faded",
+    "the dog the cat the mouse avoided bit escaped"
+  ],
+  "induced_prompt_raw": "Generate sentences with a quadruple center-embedded relative clause structure, containing exactly four noun phrases followed by four verbs in reverse order (NP1 NP2 NP3 NP4 V4 V3 V2 V1). Do not generate triple center-embedded sentences containing only three nouns and three verbs.",
+  "induced_prompt": "Generate sentences with a quadruple center-embedded relative clause structure, containing exactly four noun phrases followed by four verbs in reverse order (NP1 NP2 NP3 NP4 V4 V3 V2 V1). Do not generate triple center-embedded sentences containing only three nouns and three verbs.",
+  "induced_prompt_chars": 280,
+  "induced_prompt_words": 42,
+  "l1_char_total": 351,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The man the dog the cat the mouse bit scratched chased escaped.\",\n    \"The teacher the student the parent the principal called warned questioned resigned.\",\n    \"The chef the critic the waiter the customer tipped insulted praised smiled.\",\n    \"The artist the patron the dealer the collector contacted hired admired painted.\",\n    \"The executive the manager the assistant the intern helped notified annoyed apologized.\"\n  ]\n}",
+  "l2_sentences": [
+    "The man the dog the cat the mouse bit scratched chased escaped.",
+    "The teacher the student the parent the principal called warned questioned resigned.",
+    "The chef the critic the waiter the customer tipped insulted praised smiled.",
+    "The artist the patron the dealer the collector contacted hired admired painted.",
+    "The executive the manager the assistant the intern helped notified annoyed apologized."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:50:57.594778+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic the author the fan emailed praised reviewed burned",
+    "the cheese the chef the supplier the farmer called recommended selected melted",
+    "the car the mechanic the driver the officer questioned hired repaired crashed",
+    "the portrait the artist the patron the agent contacted commissioned painted faded"
+  ],
+  "l1_sentences": [
+    "the book the critic the author the fan emailed praised reviewed burned",
+    "the cheese the chef the supplier the farmer called recommended selected melted",
+    "the car the mechanic the driver the officer questioned hired repaired crashed",
+    "the portrait the artist the patron the agent contacted commissioned painted faded",
+    "the dog the cat the mouse avoided bit escaped"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the critic the author the fan emailed praised reviewed burned\",\n    \"the cheese the chef the supplier the farmer called recommended selected melted\",\n    \"the car the mechanic the driver the officer questioned hired repaired crashed\",\n    \"the portrait the artist the patron the agent contacted commissioned painted faded\",\n    \"the dog the cat the mouse avoided bit escaped\"\n  ]\n}",
+  "run_idx": 7
+}

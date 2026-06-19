@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked vanished.",
+    "The bridge the engineer designed collapsed.",
+    "The book the student borrowed disappeared.",
+    "The letter the clerk typed arrived."
+  ],
+  "induced_prompt_raw": "Write sentences using a double-subject relative clause structure, where an object is modified by a clause describing who acted on it, followed by a simple intransitive verb.",
+  "induced_prompt": "Write sentences using a double-subject relative clause structure, where an object is modified by a clause describing who acted on it, followed by a simple intransitive verb.",
+  "induced_prompt_chars": 173,
+  "induced_prompt_words": 27,
+  "l1_char_total": 192,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The letter that the soldier wrote trembled.\",\n    \"The cake that the children baked disappeared.\",\n    \"The bridge that the engineers designed collapsed.\",\n    \"The song that the choir performed echoed.\",\n    \"The painting that the artist created survived.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The letter that the soldier wrote trembled.",
+    "The cake that the children baked disappeared.",
+    "The bridge that the engineers designed collapsed.",
+    "The song that the choir performed echoed.",
+    "The painting that the artist created survived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:44:11.611398+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked vanished.",
+    "The bridge the engineer designed collapsed.",
+    "The book the student borrowed disappeared.",
+    "The letter the clerk typed arrived."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed passed.\", \"The cake the chef baked vanished.\", \"The bridge the engineer designed collapsed.\", \"The book the student borrowed disappeared.\", \"The letter the clerk typed arrived.\"]}\n```",
+  "run_idx": 29
+}

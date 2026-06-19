@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the boy the woman chased followed caught petted.",
+    "the book the teacher the student the principal assigned read reviewed praised.",
+    "the car the mechanic the owner the driver repaired washed inspected drove.",
+    "the meal the chef the critic the customer prepared tasted ordered enjoyed.",
+    "the house the agent the buyer the owner listed showed inspected purchased."
+  ],
+  "induced_prompt_raw": "A sequence of nouns and transitive verbs.",
+  "induced_prompt": "A sequence of nouns and transitive verbs.",
+  "induced_prompt_chars": 41,
+  "induced_prompt_words": 7,
+  "l1_char_total": 364,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat chased the mouse.\",\n    \"The boy kicked the ball.\",\n    \"The teacher graded the papers.\",\n    \"The chef prepared the meal.\",\n    \"The artist painted the canvas.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat chased the mouse.",
+    "The boy kicked the ball.",
+    "The teacher graded the papers.",
+    "The chef prepared the meal.",
+    "The artist painted the canvas."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:34:58.313294+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the boy the woman chased followed caught petted.",
+    "the book the teacher the student the principal assigned read reviewed praised.",
+    "the car the mechanic the owner the driver repaired washed inspected drove.",
+    "the meal the chef the critic the customer prepared tasted ordered enjoyed.",
+    "the house the agent the buyer the owner listed showed inspected purchased."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the boy the woman chased followed caught petted.\",\n    \"the book the teacher the student the principal assigned read reviewed praised.\",\n    \"the car the mechanic the owner the driver repaired washed inspected drove.\",\n    \"the meal the chef the critic the customer prepared tasted ordered enjoyed.\",\n    \"the house the agent the buyer the owner listed showed inspected purchased.\"\n  ]\n}",
+  "run_idx": 19
+}

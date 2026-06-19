@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the mouse the cheese chased caught ate disappeared",
+    "the book the author the publisher the editor wrote revised published vanished",
+    "the car the driver the mechanic the engineer repaired tested designed broke",
+    "the cake the baker the chef the customer baked decorated served enjoyed",
+    "the song the singer the composer the producer performed recorded released faded"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested noun phrases where each subsequent noun is the object of the previous verb, ending with a final verb.\"",
+  "induced_prompt": "\"Generate sentences with nested noun phrases where each subsequent noun is the object of the previous verb, ending with a final verb.\"",
+  "induced_prompt_chars": 134,
+  "induced_prompt_words": 22,
+  "l1_char_total": 368,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The chef prepared the meal that delighted the guests who praised the host who organized the event.\", \"The teacher assigned the project that challenged the students who completed the tasks that impressed the principal.\", \"The artist painted the mural that attracted the tourists who photographed the scene that captured the beauty.\", \"The writer crafted the story that inspired the readers who shared the tale that entertained the audience.\", \"The scientist developed the theory that intrigued the colleagues who conducted the experiments that confirmed the hypothesis.\"]}",
+  "l2_sentences": [
+    "The chef prepared the meal that delighted the guests who praised the host who organized the event.",
+    "The teacher assigned the project that challenged the students who completed the tasks that impressed the principal.",
+    "The artist painted the mural that attracted the tourists who photographed the scene that captured the beauty.",
+    "The writer crafted the story that inspired the readers who shared the tale that entertained the audience.",
+    "The scientist developed the theory that intrigued the colleagues who conducted the experiments that confirmed the hypothesis."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:19:47.087008+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the mouse the cheese chased caught ate disappeared",
+    "the book the author the publisher the editor wrote revised published vanished",
+    "the car the driver the mechanic the engineer repaired tested designed broke",
+    "the cake the baker the chef the customer baked decorated served enjoyed",
+    "the song the singer the composer the producer performed recorded released faded"
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the cat the mouse the cheese chased caught ate disappeared\", \"the book the author the publisher the editor wrote revised published vanished\", \"the car the driver the mechanic the engineer repaired tested designed broke\", \"the cake the baker the chef the customer baked decorated served enjoyed\", \"the song the singer the composer the producer performed recorded released faded\"]}",
+  "run_idx": 11
+}

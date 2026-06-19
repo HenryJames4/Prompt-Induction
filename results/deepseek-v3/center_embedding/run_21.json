@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the student the professor recommended borrowed published disappeared",
+    "the cake the baker the chef the assistant prepared decorated served vanished",
+    "the car the mechanic the driver the owner inspected repaired sold vanished",
+    "the letter the writer the editor the intern reviewed edited mailed disappeared",
+    "the painting the artist the curator the collector admired purchased displayed vanished"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested noun phrases following the pattern: 'the [object] the [person1] the [person2] the [person3] [verb1] [verb2] [verb3] [vanished/disappeared]'.\"",
+  "induced_prompt": "\"Generate sentences with nested noun phrases following the pattern: 'the [object] the [person1] the [person2] the [person3] [verb1] [verb2] [verb3] [vanished/disappeared]'.\"",
+  "induced_prompt_chars": 173,
+  "induced_prompt_words": 21,
+  "l1_char_total": 402,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book the teacher the student the librarian read discussed analyzed vanished.\", \"The painting the curator the artist the critic admired studied interpreted disappeared.\", \"The sculpture the historian the sculptor the collector examined praised debated vanished.\", \"The manuscript the author the editor the publisher wrote revised edited disappeared.\", \"The artifact the archaeologist the historian the researcher discovered studied documented vanished.\"]}",
+  "l2_sentences": [
+    "The book the teacher the student the librarian read discussed analyzed vanished.",
+    "The painting the curator the artist the critic admired studied interpreted disappeared.",
+    "The sculpture the historian the sculptor the collector examined praised debated vanished.",
+    "The manuscript the author the editor the publisher wrote revised edited disappeared.",
+    "The artifact the archaeologist the historian the researcher discovered studied documented vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:39:47.472085+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the student the professor recommended borrowed published disappeared",
+    "the cake the baker the chef the assistant prepared decorated served vanished",
+    "the car the mechanic the driver the owner inspected repaired sold vanished",
+    "the letter the writer the editor the intern reviewed edited mailed disappeared",
+    "the painting the artist the curator the collector admired purchased displayed vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the student the professor recommended borrowed published disappeared\", \"the cake the baker the chef the assistant prepared decorated served vanished\", \"the car the mechanic the driver the owner inspected repaired sold vanished\", \"the letter the writer the editor the intern reviewed edited mailed disappeared\", \"the painting the artist the curator the collector admired purchased displayed vanished\"]}",
+  "run_idx": 21
+}

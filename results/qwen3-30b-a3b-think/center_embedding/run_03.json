@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the book the author the publisher the reviewer wrote edited published vanished.",
+    "the car the driver the mechanic the customer drove fixed tested disappeared.",
+    "the letter the secretary the manager the client wrote sent read vanished.",
+    "the cake the baker the chef the customer baked decorated served disappeared."
+  ],
+  "induced_prompt_raw": "the [N] the [R] the [R] the [R] [V] [V] [V] [V]",
+  "induced_prompt": "the [N] the [R] the [R] the [R] [V] [V] [V] [V]",
+  "induced_prompt_chars": 47,
+  "induced_prompt_words": 12,
+  "l1_char_total": 390,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the sun the bright the bright the bright shine glow warm radiate.\", \"the cat the fluffy the fluffy the fluffy purr nap sleep dream.\", \"the car the fast the fast the fast zoom race speed fly.\", \"the book the interesting the interesting the interesting read learn study explore.\", \"the music the loud the loud the loud play dance sing move.\"]}",
+  "l2_sentences": [
+    "the sun the bright the bright the bright shine glow warm radiate.",
+    "the cat the fluffy the fluffy the fluffy purr nap sleep dream.",
+    "the car the fast the fast the fast zoom race speed fly.",
+    "the book the interesting the interesting the interesting read learn study explore.",
+    "the music the loud the loud the loud play dance sing move."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:01:20.650756+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the book the author the publisher the reviewer wrote edited published vanished.",
+    "the car the driver the mechanic the customer drove fixed tested disappeared.",
+    "the letter the secretary the manager the client wrote sent read vanished.",
+    "the cake the baker the chef the customer baked decorated served disappeared."
+  ],
+  "l1_raw": "{\"sentences\": [\"the report the editor the assistant the intern consulted revised approved disappeared.\", \"the book the author the publisher the reviewer wrote edited published vanished.\", \"the car the driver the mechanic the customer drove fixed tested disappeared.\", \"the letter the secretary the manager the client wrote sent read vanished.\", \"the cake the baker the chef the customer baked decorated served disappeared.\"]}",
+  "run_idx": 3
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the car the mechanic fixed broke down",
+    "the house the builder constructed sold quickly",
+    "the man the woman the child saw spoke to greeted"
+  ],
+  "induced_prompt_raw": "Generate a single sentence with two relative clauses, where the second clause modifies the noun of the first. Do not nest a third clause.",
+  "induced_prompt": "Generate a single sentence with two relative clauses, where the second clause modifies the noun of the first. Do not nest a third clause.",
+  "induced_prompt_chars": 137,
+  "induced_prompt_words": 24,
+  "l1_char_total": 198,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book that I bought yesterday, which was written by my favorite author, is on the table.\",\n    \"The car that my father drives, which is a vintage model, needs repairs.\",\n    \"The house that they built last year, which has a beautiful garden, is for sale.\",\n    \"The movie that we watched last night, which won several awards, was quite boring.\",\n    \"The restaurant that we visited last week, which serves Italian cuisine, has closed down.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book that I bought yesterday, which was written by my favorite author, is on the table.",
+    "The car that my father drives, which is a vintage model, needs repairs.",
+    "The house that they built last year, which has a beautiful garden, is for sale.",
+    "The movie that we watched last night, which won several awards, was quite boring.",
+    "The restaurant that we visited last week, which serves Italian cuisine, has closed down."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:35:37.644698+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the car the mechanic fixed broke down",
+    "the house the builder constructed sold quickly"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the car the mechanic fixed broke down",
+    "the house the builder constructed sold quickly",
+    "the man the woman the child saw spoke to greeted"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased ran\",\n    \"the book the student read was interesting\",\n    \"the car the mechanic fixed broke down\",\n    \"the house the builder constructed sold quickly\",\n    \"the man the woman the child saw spoke to greeted\"\n  ]\n}",
+  "run_idx": 2
+}

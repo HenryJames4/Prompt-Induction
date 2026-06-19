@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the professor the student the librarian found borrowed reviewed vanished",
+    "the proposal the director the manager the analyst prepared submitted rejected failed",
+    "the cake the chef the baker the apprentice mixed baked tasted disappeared",
+    "the document the lawyer the clerk the secretary typed filed signed expired",
+    "the letter the supervisor the worker wrote sent arrived"
+  ],
+  "induced_prompt_raw": "Write quadruply center-embedded relative clause sentences in the format: **[the N] [the N] [the N] [the N] [V] [V] [V] [V]** — exactly four noun phrases followed by exactly four verbs. Do not use only three noun phrases and three verbs.",
+  "induced_prompt": "Write quadruply center-embedded relative clause sentences in the format: **[the N] [the N] [the N] [the N] [V] [V] [V] [V]** — exactly four noun phrases followed by exactly four verbs. Do not use only three noun phrases and three verbs.",
+  "induced_prompt_chars": 236,
+  "induced_prompt_words": 41,
+  "l1_char_total": 367,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The rat the cat the dog the man owned chased bit died.\", \"The book the student the teacher the professor trained taught read disappeared.\", \"The cake the child the woman the baker hired raised ate vanished.\", \"The house the family the realtor the investor funded helped bought burned.\", \"The letter the secretary the boss the client hired fired wrote arrived.\"]}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man owned chased bit died.",
+    "The book the student the teacher the professor trained taught read disappeared.",
+    "The cake the child the woman the baker hired raised ate vanished.",
+    "The house the family the realtor the investor funded helped bought burned.",
+    "The letter the secretary the boss the client hired fired wrote arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:21:16.816491+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the professor the student the librarian found borrowed reviewed vanished",
+    "the proposal the director the manager the analyst prepared submitted rejected failed",
+    "the cake the chef the baker the apprentice mixed baked tasted disappeared",
+    "the document the lawyer the clerk the secretary typed filed signed expired"
+  ],
+  "l1_sentences": [
+    "the book the professor the student the librarian found borrowed reviewed vanished",
+    "the proposal the director the manager the analyst prepared submitted rejected failed",
+    "the cake the chef the baker the apprentice mixed baked tasted disappeared",
+    "the document the lawyer the clerk the secretary typed filed signed expired",
+    "the letter the supervisor the worker wrote sent arrived"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the professor the student the librarian found borrowed reviewed vanished\",\n    \"the proposal the director the manager the analyst prepared submitted rejected failed\",\n    \"the cake the chef the baker the apprentice mixed baked tasted disappeared\",\n    \"the document the lawyer the clerk the secretary typed filed signed expired\",\n    \"the letter the supervisor the worker wrote sent arrived\"\n  ]\n}\n```",
+  "run_idx": 27
+}

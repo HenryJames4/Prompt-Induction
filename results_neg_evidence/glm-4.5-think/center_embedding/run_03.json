@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the editor wrote edited printed distributed",
+    "the car the driver the mechanic the owner drove repaired washed sold",
+    "the meal the chef the critic the guest cooked tasted reviewed enjoyed",
+    "the house the architect the builder the family designed constructed moved admired",
+    "the student the teacher the principal taught graded praised"
+  ],
+  "induced_prompt_raw": "Four 'the' nouns then four verbs.",
+  "induced_prompt": "Four 'the' nouns then four verbs.",
+  "induced_prompt_chars": 33,
+  "induced_prompt_words": 6,
+  "l1_char_total": 354,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog the bird the fish ran jumped swam flew.\",\n    \"The sun the moon the star the planet shone glowed twinkled sparkled.\",\n    \"The book the pen the paper the desk wrote read studied learned.\",\n    \"The car the bus the train the plane drove flew moved traveled.\",\n    \"The boy the girl the man the woman walked talked laughed played.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the dog the bird the fish ran jumped swam flew.",
+    "The sun the moon the star the planet shone glowed twinkled sparkled.",
+    "The book the pen the paper the desk wrote read studied learned.",
+    "The car the bus the train the plane drove flew moved traveled.",
+    "The boy the girl the man the woman walked talked laughed played."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:43:56.987730+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the editor wrote edited printed distributed",
+    "the car the driver the mechanic the owner drove repaired washed sold",
+    "the meal the chef the critic the guest cooked tasted reviewed enjoyed",
+    "the house the architect the builder the family designed constructed moved admired"
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the editor wrote edited printed distributed",
+    "the car the driver the mechanic the owner drove repaired washed sold",
+    "the meal the chef the critic the guest cooked tasted reviewed enjoyed",
+    "the house the architect the builder the family designed constructed moved admired",
+    "the student the teacher the principal taught graded praised"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the author the publisher the editor wrote edited printed distributed\",\n    \"the car the driver the mechanic the owner drove repaired washed sold\",\n    \"the meal the chef the critic the guest cooked tasted reviewed enjoyed\",\n    \"the house the architect the builder the family designed constructed moved admired\",\n    \"the student the teacher the principal taught graded praised\"\n  ]\n}\n```",
+  "run_idx": 3
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the critic the reader admired reviewed recommended appeared.",
+    "the letter the secretary the manager the director read signed forwarded arrived.",
+    "the proposal the intern the assistant the manager submitted approved revised presented.",
+    "the data the analyst the scientist the researcher collected analyzed interpreted shared.",
+    "the article the editor the assistant the intern consulted revised approved."
+  ],
+  "induced_prompt_raw": "Create a sentence with a chain of nested clauses where each subject performs an action on the object introduced by the previous clause, maintaining a consistent grammatical structure and avoiding redundant or illogical verb sequences.",
+  "induced_prompt": "Create a sentence with a chain of nested clauses where each subject performs an action on the object introduced by the previous clause, maintaining a consistent grammatical structure and avoiding redundant or illogical verb sequences.",
+  "induced_prompt_chars": 234,
+  "induced_prompt_words": 35,
+  "l1_char_total": 410,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The boy who found the book that had been hidden in the drawer opened it to reveal a letter that was addressed to his father.\", \"The father who received the letter that had been written by his sister read it to discover a message that described a map hidden in the attic.\", \"The sister who had drawn the map that was tucked inside the letter showed it to her brother to explain the location of a box buried beneath the old oak tree.\", \"The brother who dug at the spot where the map indicated found the box that contained a key to a chest stored in the basement.\", \"The caretaker who unlocked the chest that had been sealed for decades retrieved the document that confirmed the inheritance of the estate.\"]}",
+  "l2_sentences": [
+    "The boy who found the book that had been hidden in the drawer opened it to reveal a letter that was addressed to his father.",
+    "The father who received the letter that had been written by his sister read it to discover a message that described a map hidden in the attic.",
+    "The sister who had drawn the map that was tucked inside the letter showed it to her brother to explain the location of a box buried beneath the old oak tree.",
+    "The brother who dug at the spot where the map indicated found the box that contained a key to a chest stored in the basement.",
+    "The caretaker who unlocked the chest that had been sealed for decades retrieved the document that confirmed the inheritance of the estate."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:15:57.881781+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the critic the reader admired reviewed recommended appeared.",
+    "the letter the secretary the manager the director read signed forwarded arrived.",
+    "the proposal the intern the assistant the manager submitted approved revised presented.",
+    "the data the analyst the scientist the researcher collected analyzed interpreted shared."
+  ],
+  "l1_sentences": [
+    "the book the author the critic the reader admired reviewed recommended appeared.",
+    "the letter the secretary the manager the director read signed forwarded arrived.",
+    "the proposal the intern the assistant the manager submitted approved revised presented.",
+    "the data the analyst the scientist the researcher collected analyzed interpreted shared.",
+    "the article the editor the assistant the intern consulted revised approved."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the critic the reader admired reviewed recommended appeared.\", \"the letter the secretary the manager the director read signed forwarded arrived.\", \"the proposal the intern the assistant the manager submitted approved revised presented.\", \"the data the analyst the scientist the researcher collected analyzed interpreted shared.\", \"the article the editor the assistant the intern consulted revised approved.\"]}",
+  "run_idx": 23
+}

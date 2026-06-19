@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the chef the critic praised smiled",
+    "the child the dog chased cried",
+    "the student the teacher helped graduated",
+    "the artist the crowd admired bowed",
+    "the actor the director selected celebrated"
+  ],
+  "induced_prompt_raw": "Generate five sentences where a singular subject is modified by a relative clause (containing a subject and a transitive past-tense verb, with the relative pronoun \"whom\" or \"that\" omitted) and followed by an intransitive past-tense main verb.",
+  "induced_prompt": "Generate five sentences where a singular subject is modified by a relative clause (containing a subject and a transitive past-tense verb, with the relative pronoun \"whom\" or \"that\" omitted) and followed by an intransitive past-tense main verb.",
+  "induced_prompt_chars": 243,
+  "induced_prompt_words": 37,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The actor the director cast blushed.\",\n    \"The package the mailman delivered arrived.\",\n    \"The student the teacher praised smiled.\",\n    \"The runner the coach trained collapsed.\",\n    \"The bird the cat chased vanished.\"\n  ]\n}",
+  "l2_sentences": [
+    "The actor the director cast blushed.",
+    "The package the mailman delivered arrived.",
+    "The student the teacher praised smiled.",
+    "The runner the coach trained collapsed.",
+    "The bird the cat chased vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:43:43.104496+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the critic praised smiled",
+    "the child the dog chased cried",
+    "the student the teacher helped graduated",
+    "the artist the crowd admired bowed",
+    "the actor the director selected celebrated"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the critic praised smiled\",\n    \"the child the dog chased cried\",\n    \"the student the teacher helped graduated\",\n    \"the artist the crowd admired bowed\",\n    \"the actor the director selected celebrated\"\n  ]\n}",
+  "run_idx": 27
+}

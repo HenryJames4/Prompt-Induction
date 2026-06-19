@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted notified approved disappeared.",
+    "the cake the chef the baker the apprentice helped instructed decorated cooled.",
+    "the car the driver the mechanic the owner hired assisted drove broke.",
+    "the painting the artist the student the teacher taught inspired created hung.",
+    "the building the architect the engineer the intern shadowed advised designed collapsed."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with a sequence of nouns followed by a sequence of verbs, both of equal length. The verbs, in order, describe actions where: the last noun acts on the preceding noun using the first verb, that preceding noun then acts on the noun before it with the second verb, and so on, until the first noun performs the final verb intransitively.\"",
+  "induced_prompt": "\"Generate a sentence with a sequence of nouns followed by a sequence of verbs, both of equal length. The verbs, in order, describe actions where: the last noun acts on the preceding noun using the first verb, that preceding noun then acts on the noun before it with the second verb, and so on, until the first noun performs the final verb intransitively.\"",
+  "induced_prompt_chars": 355,
+  "induced_prompt_words": 63,
+  "l1_char_total": 398,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog chases the ball and the ball rolls.\",\n    \"The wind shakes the leaves and the leaves fall.\",\n    \"The chef stirs the pot and the pot bubbles.\",\n    \"The child waters the plant and the plant grows.\",\n    \"The artist paints the canvas and the canvas dries.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog chases the ball and the ball rolls.",
+    "The wind shakes the leaves and the leaves fall.",
+    "The chef stirs the pot and the pot bubbles.",
+    "The child waters the plant and the plant grows.",
+    "The artist paints the canvas and the canvas dries."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:21:36.509184+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted notified approved disappeared.",
+    "the cake the chef the baker the apprentice helped instructed decorated cooled.",
+    "the car the driver the mechanic the owner hired assisted drove broke.",
+    "the painting the artist the student the teacher taught inspired created hung.",
+    "the building the architect the engineer the intern shadowed advised designed collapsed."
+  ],
+  "l1_raw": "{\"sentences\": [\n  \"the report the editor the assistant the intern consulted notified approved disappeared.\",\n  \"the cake the chef the baker the apprentice helped instructed decorated cooled.\",\n  \"the car the driver the mechanic the owner hired assisted drove broke.\",\n  \"the painting the artist the student the teacher taught inspired created hung.\",\n  \"the building the architect the engineer the intern shadowed advised designed collapsed.\"\n]}",
+  "run_idx": 11
+}

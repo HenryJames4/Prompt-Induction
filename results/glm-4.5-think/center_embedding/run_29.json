@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the house the builder the architect the owner designed built sold moved.",
+    "the car the mechanic the driver the owner repaired drove crashed totaled.",
+    "the painting the artist the critic the collector created reviewed bought displayed.",
+    "the meal the chef the critic the diner cooked tasted enjoyed paid.",
+    "the tree the logger the environmentalist the activist cut protested arrested fined."
+  ],
+  "induced_prompt_raw": "Object, three agents, four verbs: agent0 verb1, agent1 verb2, agent2 verb3, agent2 verb4.",
+  "induced_prompt": "Object, three agents, four verbs: agent0 verb1, agent1 verb2, agent2 verb3, agent2 verb4.",
+  "induced_prompt_chars": 89,
+  "induced_prompt_words": 13,
+  "l1_char_total": 377,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The book was on the table.\",\n    \"The teacher opened the book.\",\n    \"The student read the book.\",\n    \"The librarian closed the book.\",\n    \"The librarian shelved the book.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The book was on the table.",
+    "The teacher opened the book.",
+    "The student read the book.",
+    "The librarian closed the book.",
+    "The librarian shelved the book."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:53:40.699846+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the house the builder the architect the owner designed built sold moved.",
+    "the car the mechanic the driver the owner repaired drove crashed totaled.",
+    "the painting the artist the critic the collector created reviewed bought displayed.",
+    "the meal the chef the critic the diner cooked tasted enjoyed paid.",
+    "the tree the logger the environmentalist the activist cut protested arrested fined."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the house the builder the architect the owner designed built sold moved.\",\n    \"the car the mechanic the driver the owner repaired drove crashed totaled.\",\n    \"the painting the artist the critic the collector created reviewed bought displayed.\",\n    \"the meal the chef the critic the diner cooked tasted enjoyed paid.\",\n    \"the tree the logger the environmentalist the activist cut protested arrested fined.\"\n  ]\n}\n```",
+  "run_idx": 29
+}

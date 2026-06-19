@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the critic the student praised interviewed wrote sold",
+    "the proposal the manager the analyst the clerk hired briefed submitted failed",
+    "the letter the lawyer the secretary the client contacted assisted drafted arrived",
+    "the article the journalist the professor the researcher approached guided published circulated",
+    "the project the director the supervisor the worker impressed recommended funded succeeded"
+  ],
+  "induced_prompt_raw": "Generate sentences with quadruply center-embedded relative clauses, using four noun phrases followed by four verbs in reverse dependency order.",
+  "induced_prompt": "Generate sentences with quadruply center-embedded relative clauses, using four noun phrases followed by four verbs in reverse dependency order.",
+  "induced_prompt_chars": 143,
+  "induced_prompt_words": 19,
+  "l1_char_total": 414,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The dog the cat the rat the mouse bit chased killed ate the cheese.\", \"The book the student the teacher the principal praised hired read won an award.\", \"The man the woman the child the dog frightened loved met left.\", \"The letter the secretary the boss the client contacted hired wrote arrived.\", \"The song the musician the producer the label signed discovered performed became famous.\"]}\n```",
+  "l2_sentences": [
+    "The dog the cat the rat the mouse bit chased killed ate the cheese.",
+    "The book the student the teacher the principal praised hired read won an award.",
+    "The man the woman the child the dog frightened loved met left.",
+    "The letter the secretary the boss the client contacted hired wrote arrived.",
+    "The song the musician the producer the label signed discovered performed became famous."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:29:24.093629+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the critic the student praised interviewed wrote sold",
+    "the proposal the manager the analyst the clerk hired briefed submitted failed",
+    "the letter the lawyer the secretary the client contacted assisted drafted arrived",
+    "the article the journalist the professor the researcher approached guided published circulated",
+    "the project the director the supervisor the worker impressed recommended funded succeeded"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the author the critic the student praised interviewed wrote sold\",\n    \"the proposal the manager the analyst the clerk hired briefed submitted failed\",\n    \"the letter the lawyer the secretary the client contacted assisted drafted arrived\",\n    \"the article the journalist the professor the researcher approached guided published circulated\",\n    \"the project the director the supervisor the worker impressed recommended funded succeeded\"\n  ]\n}\n```",
+  "run_idx": 23
+}

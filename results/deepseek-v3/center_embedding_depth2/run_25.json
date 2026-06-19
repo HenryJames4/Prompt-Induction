@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the student read intrigued",
+    "the cake the baker made delighted",
+    "the film the critic reviewed impressed",
+    "the song the singer performed captivated",
+    "the game the player won excited"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a [noun] [relative clause] [verb] structure, where the relative clause modifies the initial noun and the final verb describes the effect.\"",
+  "induced_prompt": "\"Generate sentences with a [noun] [relative clause] [verb] structure, where the relative clause modifies the initial noun and the final verb describes the effect.\"",
+  "induced_prompt_chars": 163,
+  "induced_prompt_words": 24,
+  "l1_char_total": 177,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that she recommended captivated the readers.\", \"The dog that barked loudly startled the neighbors.\", \"The cake that he baked delighted everyone at the party.\", \"The painting that they admired inspired awe in the viewers.\", \"The song that played on the radio lifted their spirits.\"]}",
+  "l2_sentences": [
+    "The book that she recommended captivated the readers.",
+    "The dog that barked loudly startled the neighbors.",
+    "The cake that he baked delighted everyone at the party.",
+    "The painting that they admired inspired awe in the viewers.",
+    "The song that played on the radio lifted their spirits."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:28:01.339122+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the student read intrigued",
+    "the cake the baker made delighted",
+    "the film the critic reviewed impressed",
+    "the song the singer performed captivated",
+    "the game the player won excited"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student read intrigued\", \"the cake the baker made delighted\", \"the film the critic reviewed impressed\", \"the song the singer performed captivated\", \"the game the player won excited\"]}",
+  "run_idx": 25
+}

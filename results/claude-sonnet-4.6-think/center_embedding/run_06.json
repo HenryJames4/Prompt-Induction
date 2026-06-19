@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the contract the lawyer the paralegal the clerk helped assisted signed expired.",
+    "the proposal the director the analyst the intern assisted briefed approved succeeded.",
+    "the award the judge the critic the writer impressed convinced presented arrived.",
+    "the bill the senator the lobbyist the aide briefed persuaded passed failed.",
+    "the book the publisher the editor the author contacted convinced printed sold."
+  ],
+  "induced_prompt_raw": "Generate multiply center-embedded sentences with a professional hierarchy of three people acting on an object, ending with the object's final outcome.",
+  "induced_prompt": "Generate multiply center-embedded sentences with a professional hierarchy of three people acting on an object, ending with the object's final outcome.",
+  "induced_prompt_chars": 150,
+  "induced_prompt_words": 21,
+  "l1_char_total": 397,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The proposal that the analyst that the manager that the director hired supervised reviewed was approved.\", \"The contract that the associate that the partner that the CEO recruited mentored drafted was signed.\", \"The report that the consultant that the executive that the board appointed oversaw compiled was published.\", \"The budget that the accountant that the CFO that the president promoted supervised prepared was accepted.\", \"The presentation that the intern that the supervisor that the VP selected trained delivered was praised.\"]}\n```",
+  "l2_sentences": [
+    "The proposal that the analyst that the manager that the director hired supervised reviewed was approved.",
+    "The contract that the associate that the partner that the CEO recruited mentored drafted was signed.",
+    "The report that the consultant that the executive that the board appointed oversaw compiled was published.",
+    "The budget that the accountant that the CFO that the president promoted supervised prepared was accepted.",
+    "The presentation that the intern that the supervisor that the VP selected trained delivered was praised."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:19:33.653476+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the contract the lawyer the paralegal the clerk helped assisted signed expired.",
+    "the proposal the director the analyst the intern assisted briefed approved succeeded.",
+    "the award the judge the critic the writer impressed convinced presented arrived.",
+    "the bill the senator the lobbyist the aide briefed persuaded passed failed.",
+    "the book the publisher the editor the author contacted convinced printed sold."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the contract the lawyer the paralegal the clerk helped assisted signed expired.\",\n    \"the proposal the director the analyst the intern assisted briefed approved succeeded.\",\n    \"the award the judge the critic the writer impressed convinced presented arrived.\",\n    \"the bill the senator the lobbyist the aide briefed persuaded passed failed.\",\n    \"the book the publisher the editor the author contacted convinced printed sold.\"\n  ]\n}\n```",
+  "run_idx": 6
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the author the editor hired wrote",
+    "the student the teacher praised graduated",
+    "the dog the cat scratched barked",
+    "the car the mechanic fixed stalled",
+    "the chef the manager the owner fired hired quit"
+  ],
+  "induced_prompt_raw": "Generate simple sentences containing exactly one nested relative clause (object relative) with the structure: \"the [Noun1] the [Noun2] [Verb1] [Verb2]\". Avoid double-nesting or using more than two nouns and two verbs.",
+  "induced_prompt": "Generate simple sentences containing exactly one nested relative clause (object relative) with the structure: \"the [Noun1] the [Noun2] [Verb1] [Verb2]\". Avoid double-nesting or using more than two nouns and two verbs.",
+  "induced_prompt_chars": 217,
+  "induced_prompt_words": 31,
+  "l1_char_total": 187,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book the student read fell.\",\n    \"The cake the baker made collapsed.\",\n    \"The car the mechanic fixed broke.\",\n    \"The song the band played ended.\",\n    \"The letter the girl wrote arrived.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book the student read fell.",
+    "The cake the baker made collapsed.",
+    "The car the mechanic fixed broke.",
+    "The song the band played ended.",
+    "The letter the girl wrote arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:36:28.746060+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the author the editor hired wrote",
+    "the student the teacher praised graduated",
+    "the dog the cat scratched barked",
+    "the car the mechanic fixed stalled"
+  ],
+  "l1_sentences": [
+    "the author the editor hired wrote",
+    "the student the teacher praised graduated",
+    "the dog the cat scratched barked",
+    "the car the mechanic fixed stalled",
+    "the chef the manager the owner fired hired quit"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the author the editor hired wrote\",\n    \"the student the teacher praised graduated\",\n    \"the dog the cat scratched barked\",\n    \"the car the mechanic fixed stalled\",\n    \"the chef the manager the owner fired hired quit\"\n  ]\n}",
+  "run_idx": 3
+}

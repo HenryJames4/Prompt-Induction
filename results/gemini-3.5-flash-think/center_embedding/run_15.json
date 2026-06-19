@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cheese the mouse the cat the dog chased caught ate vanished",
+    "the book the student the teacher the principal warned helped read burned",
+    "the car the driver the officer the chief scolded stopped drove exploded",
+    "the letter the boy the girl the mother called visited wrote arrived",
+    "the painting the artist the critic the patron hired insulted sold faded"
+  ],
+  "induced_prompt_raw": "Write five sentences with triple center-embedded relative clauses following the structure: [Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1].",
+  "induced_prompt": "Write five sentences with triple center-embedded relative clauses following the structure: [Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1].",
+  "induced_prompt_chars": 163,
+  "induced_prompt_words": 27,
+  "l1_char_total": 344,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the principal hired praised read disappeared.\",\n    \"The car the mechanic the owner the driver blamed paid repaired broke.\",\n    \"The painting the artist the critic the public ignored admired created burned.\",\n    \"The mouse the cat the dog the man kicked chased caught escaped.\",\n    \"The report the executive the manager the assistant helped promoted wrote leaked.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book the student the teacher the principal hired praised read disappeared.",
+    "The car the mechanic the owner the driver blamed paid repaired broke.",
+    "The painting the artist the critic the public ignored admired created burned.",
+    "The mouse the cat the dog the man kicked chased caught escaped.",
+    "The report the executive the manager the assistant helped promoted wrote leaked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:25:01.748490+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cheese the mouse the cat the dog chased caught ate vanished",
+    "the book the student the teacher the principal warned helped read burned",
+    "the car the driver the officer the chief scolded stopped drove exploded",
+    "the letter the boy the girl the mother called visited wrote arrived",
+    "the painting the artist the critic the patron hired insulted sold faded"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cheese the mouse the cat the dog chased caught ate vanished\",\n    \"the book the student the teacher the principal warned helped read burned\",\n    \"the car the driver the officer the chief scolded stopped drove exploded\",\n    \"the letter the boy the girl the mother called visited wrote arrived\",\n    \"the painting the artist the critic the patron hired insulted sold faded\"\n  ]\n}",
+  "run_idx": 15
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef baked vanished.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed spread.",
+    "The report the analyst prepared convinced."
+  ],
+  "induced_prompt_raw": "Write sentences where a noun is followed by a relative clause (without a relative pronoun) and ends with a single intransitive verb.",
+  "induced_prompt": "Write sentences where a noun is followed by a relative clause (without a relative pronoun) and ends with a single intransitive verb.",
+  "induced_prompt_chars": 132,
+  "induced_prompt_words": 22,
+  "l1_char_total": 193,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The dog my neighbor adopted yesterday barked.\", \"A book she found on the shelf disappeared.\", \"The car he bought last summer rusted.\", \"The woman we met at the party laughed.\", \"A flower the gardener planted overnight bloomed.\"]}\n```",
+  "l2_sentences": [
+    "The dog my neighbor adopted yesterday barked.",
+    "A book she found on the shelf disappeared.",
+    "The car he bought last summer rusted.",
+    "The woman we met at the party laughed.",
+    "A flower the gardener planted overnight bloomed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:36:12.846148+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef baked vanished.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed spread.",
+    "The report the analyst prepared convinced."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The cake the chef baked vanished.\", \"The letter the student wrote arrived.\", \"The bridge the engineer designed collapsed.\", \"The song the musician composed spread.\", \"The report the analyst prepared convinced.\"]}\n```",
+  "run_idx": 4
+}

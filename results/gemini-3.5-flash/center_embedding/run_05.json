@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the client the lawyer the clerk the typist assisted hired defended won",
+    "the patient the doctor the nurse the student helped trained treated recovered",
+    "the student the teacher the principal the counselor advised supported guided graduated",
+    "the customer the chef the manager the owner hired supervised pleased paid",
+    "the actor the director the writer the producer assisted inspired cast celebrated"
+  ],
+  "induced_prompt_raw": "Generate a sentence with a quadruple nested object relative clause (center embedding) using four nouns as subjects/objects and four transitive verbs, followed by a final intransitive verb, following the pattern: \"the N1 [the N2 [the N3 [the N4 V4] V3] V2] V1\".",
+  "induced_prompt": "Generate a sentence with a quadruple nested object relative clause (center embedding) using four nouns as subjects/objects and four transitive verbs, followed by a final intransitive verb, following the pattern: \"the N1 [the N2 [the N3 [the N4 V4] V3] V2] V1\".",
+  "induced_prompt_chars": 260,
+  "induced_prompt_words": 42,
+  "l1_char_total": 386,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the cat the mouse the cheese attracted bit chased barked.\",\n    \"The reporter the senator the lobbyist the citizen bribed influenced questioned resigned.\",\n    \"The patient the doctor the nurse the patient's family requested assigned treated recovered.\",\n    \"The criminal the detective the cop the witness identified assisted captured confessed.\",\n    \"The child the teacher the principal the superintendent hired blamed disciplined cried.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the cat the mouse the cheese attracted bit chased barked.",
+    "The reporter the senator the lobbyist the citizen bribed influenced questioned resigned.",
+    "The patient the doctor the nurse the patient's family requested assigned treated recovered.",
+    "The criminal the detective the cop the witness identified assisted captured confessed.",
+    "The child the teacher the principal the superintendent hired blamed disciplined cried."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:18:36.702423+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the client the lawyer the clerk the typist assisted hired defended won",
+    "the patient the doctor the nurse the student helped trained treated recovered",
+    "the student the teacher the principal the counselor advised supported guided graduated",
+    "the customer the chef the manager the owner hired supervised pleased paid",
+    "the actor the director the writer the producer assisted inspired cast celebrated"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the client the lawyer the clerk the typist assisted hired defended won\",\n    \"the patient the doctor the nurse the student helped trained treated recovered\",\n    \"the student the teacher the principal the counselor advised supported guided graduated\",\n    \"the customer the chef the manager the owner hired supervised pleased paid\",\n    \"the actor the director the writer the producer assisted inspired cast celebrated\"\n  ]\n}",
+  "run_idx": 5
+}

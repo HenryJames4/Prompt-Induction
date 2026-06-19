@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the mouse the elephant chased hunted captured escaped",
+    "the book the teacher the student the principal assigned read graded returned",
+    "the car the driver the passenger the police officer stopped ticketed fined released",
+    "the house the owner the tenant the inspector built rented examined condemned",
+    "the computer the programmer the user the technician designed tested repaired upgraded"
+  ],
+  "induced_prompt_raw": "Agent-action chain with multiple objects.",
+  "induced_prompt": "Agent-action chain with multiple objects.",
+  "induced_prompt_chars": 41,
+  "induced_prompt_words": 5,
+  "l1_char_total": 389,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The detective carefully examined the crime scene, collecting fingerprints from multiple surfaces.\",\n    \"She then photographed each piece of evidence before placing it in separate evidence bags.\",\n    \"The forensic team analyzed the blood samples, DNA traces, and fiber fragments found at the location.\",\n    \"After processing all the objects, they created a detailed report of their findings.\",\n    \"Finally, the agents submitted the collected evidence chain to the prosecutor for further investigation.\"\n  ]\n}",
+  "l2_sentences": [
+    "The detective carefully examined the crime scene, collecting fingerprints from multiple surfaces.",
+    "She then photographed each piece of evidence before placing it in separate evidence bags.",
+    "The forensic team analyzed the blood samples, DNA traces, and fiber fragments found at the location.",
+    "After processing all the objects, they created a detailed report of their findings.",
+    "Finally, the agents submitted the collected evidence chain to the prosecutor for further investigation."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:06:20.335464+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the mouse the elephant chased hunted captured escaped",
+    "the book the teacher the student the principal assigned read graded returned",
+    "the car the driver the passenger the police officer stopped ticketed fined released",
+    "the house the owner the tenant the inspector built rented examined condemned",
+    "the computer the programmer the user the technician designed tested repaired upgraded"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the mouse the elephant chased hunted captured escaped\",\n    \"the book the teacher the student the principal assigned read graded returned\",\n    \"the car the driver the passenger the police officer stopped ticketed fined released\",\n    \"the house the owner the tenant the inspector built rented examined condemned\",\n    \"the computer the programmer the user the technician designed tested repaired upgraded\"\n  ]\n}",
+  "run_idx": 4
+}

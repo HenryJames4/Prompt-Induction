@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the dog the neighbor adopted barked.",
+    "the song the singer composed won.",
+    "the plan the manager devised succeeded.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "induced_prompt_raw": "Create a sentence with a relative clause modifying a noun, followed by a main verb that agrees with the subject, avoiding additional clauses or embedded structures.",
+  "induced_prompt": "Create a sentence with a relative clause modifying a noun, followed by a main verb that agrees with the subject, avoiding additional clauses or embedded structures.",
+  "induced_prompt_chars": 164,
+  "induced_prompt_words": 26,
+  "l1_char_total": 205,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed is overdue.\", \"The car that she bought runs efficiently.\", \"The student who passed the test is proud.\", \"The dog that barks loudly belongs to us.\", \"The woman who works here is friendly.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed is overdue.",
+    "The car that she bought runs efficiently.",
+    "The student who passed the test is proud.",
+    "The dog that barks loudly belongs to us.",
+    "The woman who works here is friendly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:37:12.282980+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the dog the neighbor adopted barked.",
+    "the song the singer composed won.",
+    "the plan the manager devised succeeded."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the dog the neighbor adopted barked.",
+    "the song the singer composed won.",
+    "the plan the manager devised succeeded.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the dog the neighbor adopted barked.\", \"the song the singer composed won.\", \"the plan the manager devised succeeded.\", \"the story the writer told the audience moved the listeners deeply.\"]}",
+  "run_idx": 4
+}

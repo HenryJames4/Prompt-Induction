@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic the editor the intern praised reviewed published sold",
+    "the cat the dog the child the teacher frightened chased taught loved",
+    "the letter the manager the clerk the assistant wrote typed sent filed",
+    "the film the director the producer the actor admired funded cast released",
+    "the song the band the label recorded signed"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly 4 nouns followed by exactly 4 verbs, where each verb corresponds to its noun in reverse order.",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly 4 nouns followed by exactly 4 verbs, where each verb corresponds to its noun in reverse order.",
+  "induced_prompt_chars": 156,
+  "induced_prompt_words": 25,
+  "l1_char_total": 326,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog the rat the mouse chased bit scratched fled.\", \"The man the woman the child the baby saw held fed cried.\", \"The bird the cat the dog the boy chased caught walked laughed.\", \"The fish the shark the whale the diver saw chased feared dove.\", \"The flower the bee the bird the wind touched found sang blew.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog the rat the mouse chased bit scratched fled.",
+    "The man the woman the child the baby saw held fed cried.",
+    "The bird the cat the dog the boy chased caught walked laughed.",
+    "The fish the shark the whale the diver saw chased feared dove.",
+    "The flower the bee the bird the wind touched found sang blew."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:14:41.292733+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic the editor the intern praised reviewed published sold",
+    "the cat the dog the child the teacher frightened chased taught loved",
+    "the letter the manager the clerk the assistant wrote typed sent filed",
+    "the film the director the producer the actor admired funded cast released"
+  ],
+  "l1_sentences": [
+    "the book the critic the editor the intern praised reviewed published sold",
+    "the cat the dog the child the teacher frightened chased taught loved",
+    "the letter the manager the clerk the assistant wrote typed sent filed",
+    "the film the director the producer the actor admired funded cast released",
+    "the song the band the label recorded signed"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the book the critic the editor the intern praised reviewed published sold\", \"the cat the dog the child the teacher frightened chased taught loved\", \"the letter the manager the clerk the assistant wrote typed sent filed\", \"the film the director the producer the actor admired funded cast released\", \"the song the band the label recorded signed\"]}\n```",
+  "run_idx": 22
+}

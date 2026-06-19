@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the film the director filmed won.",
+    "the idea the scientist proposed succeeded.",
+    "the plan the committee accepted worked.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "induced_prompt_raw": "Create a sentence with a relative clause modifying a noun, where the main clause uses the same noun as subject and the verb agrees with it, avoiding additional clauses or embedded structures.",
+  "induced_prompt": "Create a sentence with a relative clause modifying a noun, where the main clause uses the same noun as subject and the verb agrees with it, avoiding additional clauses or embedded structures.",
+  "induced_prompt_chars": 191,
+  "induced_prompt_words": 32,
+  "l1_char_total": 211,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed is on the table.\", \"The car that she bought runs efficiently.\", \"The dog that barks loudly belongs to my neighbor.\", \"The student who studies hard passes the exam.\", \"The tree that stands near the fence is old.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed is on the table.",
+    "The car that she bought runs efficiently.",
+    "The dog that barks loudly belongs to my neighbor.",
+    "The student who studies hard passes the exam.",
+    "The tree that stands near the fence is old."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:46:53.036071+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the film the director filmed won.",
+    "the idea the scientist proposed succeeded.",
+    "the plan the committee accepted worked."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the film the director filmed won.",
+    "the idea the scientist proposed succeeded.",
+    "the plan the committee accepted worked.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the film the director filmed won.\", \"the idea the scientist proposed succeeded.\", \"the plan the committee accepted worked.\", \"the story the writer told the audience moved the listeners deeply.\"]}",
+  "run_idx": 14
+}

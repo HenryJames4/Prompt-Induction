@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent recommended read enjoyed borrowed",
+    "the plan the manager the team the client proposed developed implemented rejected",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver repaired washed drove"
+  ],
+  "induced_prompt_raw": "Generate a nested noun phrase structure: \"the [N1] the [N2] the [N3] the [N4] [V1] [V2] [V3] [V4]\". Each verb must apply to the entire preceding noun phrase.",
+  "induced_prompt": "Generate a nested noun phrase structure: \"the [N1] the [N2] the [N3] the [N4] [V1] [V2] [V3] [V4]\". Each verb must apply to the entire preceding noun phrase.",
+  "induced_prompt_chars": 157,
+  "induced_prompt_words": 28,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat the dog the mouse the cheese chased ate saw smelled.\",\n    \"The teacher the student the book the page read wrote opened studied.\",\n    \"The bird the worm the apple the seed found ate picked planted.\",\n    \"The knight the dragon the treasure the gold sought guarded found claimed.\",\n    \"The sun the moon the star the sky illuminated followed observed decorated.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat the dog the mouse the cheese chased ate saw smelled.",
+    "The teacher the student the book the page read wrote opened studied.",
+    "The bird the worm the apple the seed found ate picked planted.",
+    "The knight the dragon the treasure the gold sought guarded found claimed.",
+    "The sun the moon the star the sky illuminated followed observed decorated."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:55:01.886061+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent recommended read enjoyed borrowed",
+    "the plan the manager the team the client proposed developed implemented rejected",
+    "the house the architect the builder the owner designed constructed inspected sold"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent recommended read enjoyed borrowed",
+    "the plan the manager the team the client proposed developed implemented rejected",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver repaired washed drove"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent recommended read enjoyed borrowed\",\n    \"the plan the manager the team the client proposed developed implemented rejected\",\n    \"the house the architect the builder the owner designed constructed inspected sold\",\n    \"the car the mechanic the driver repaired washed drove\"\n  ]\n}",
+  "run_idx": 10
+}

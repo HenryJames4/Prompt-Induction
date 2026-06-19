@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the teacher the student the child found helped read vanished.",
+    "the letter the manager the clerk the courier delayed interrupted signed arrived.",
+    "the plan the director the analyst the intern impressed briefed endorsed succeeded.",
+    "the contract the lawyer the associate the client hired contacted reviewed expired.",
+    "the proposal the professor the researcher the student recruited advised accepted failed."
+  ],
+  "induced_prompt_raw": "Write multiply center-embedded sentences using four chained nouns followed by four verbs, where each noun is the implicit object of a nested relative clause acting on the next.",
+  "induced_prompt": "Write multiply center-embedded sentences using four chained nouns followed by four verbs, where each noun is the implicit object of a nested relative clause acting on the next.",
+  "induced_prompt_chars": 176,
+  "induced_prompt_words": 28,
+  "l1_char_total": 402,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat the cat the dog the man kept chased caught died.\",\n    \"The report the analyst the manager the CEO hired supervised wrote circulated.\",\n    \"The song the child the teacher the school employed trained sang echoed.\",\n    \"The letter the secretary the lawyer the firm retained hired typed vanished.\",\n    \"The flower the bee the bird the gardener loved watched followed bloomed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man kept chased caught died.",
+    "The report the analyst the manager the CEO hired supervised wrote circulated.",
+    "The song the child the teacher the school employed trained sang echoed.",
+    "The letter the secretary the lawyer the firm retained hired typed vanished.",
+    "The flower the bee the bird the gardener loved watched followed bloomed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:31:52.551187+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the teacher the student the child found helped read vanished.",
+    "the letter the manager the clerk the courier delayed interrupted signed arrived.",
+    "the plan the director the analyst the intern impressed briefed endorsed succeeded.",
+    "the contract the lawyer the associate the client hired contacted reviewed expired.",
+    "the proposal the professor the researcher the student recruited advised accepted failed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the teacher the student the child found helped read vanished.\",\n    \"the letter the manager the clerk the courier delayed interrupted signed arrived.\",\n    \"the plan the director the analyst the intern impressed briefed endorsed succeeded.\",\n    \"the contract the lawyer the associate the client hired contacted reviewed expired.\",\n    \"the proposal the professor the researcher the student recruited advised accepted failed.\"\n  ]\n}\n```",
+  "run_idx": 26
+}

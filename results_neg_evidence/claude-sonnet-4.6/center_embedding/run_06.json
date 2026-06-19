@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic the student the professor assigned praised reviewed sold",
+    "the letter the manager the clerk the director hired wrote signed delivered",
+    "the proposal the board the analyst the CEO appointed reviewed rejected presented",
+    "the painting the curator the artist the collector admired displayed restored sold",
+    "the film the director the actor hired praised released"
+  ],
+  "induced_prompt_raw": "Generate a center-embedded relative clause sentence with exactly 4 nested noun phrases followed by exactly 4 verbs in sequence, where each verb corresponds to its noun phrase in reverse order.",
+  "induced_prompt": "Generate a center-embedded relative clause sentence with exactly 4 nested noun phrases followed by exactly 4 verbs in sequence, where each verb corresponds to its noun phrase in reverse order.",
+  "induced_prompt_chars": 192,
+  "induced_prompt_words": 30,
+  "l1_char_total": 365,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the mouse that the child chased caught bit ran away.\", \"The book that the teacher that the student that the principal praised taught read won an award.\", \"The cake that the chef that the judge that the critic admired scored baked melted quickly.\", \"The song that the singer that the band that the producer signed formed performed became famous.\", \"The letter that the lawyer that the clerk that the judge appointed hired wrote was sealed.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the mouse that the child chased caught bit ran away.",
+    "The book that the teacher that the student that the principal praised taught read won an award.",
+    "The cake that the chef that the judge that the critic admired scored baked melted quickly.",
+    "The song that the singer that the band that the producer signed formed performed became famous.",
+    "The letter that the lawyer that the clerk that the judge appointed hired wrote was sealed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:49:24.810928+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic the student the professor assigned praised reviewed sold",
+    "the letter the manager the clerk the director hired wrote signed delivered",
+    "the proposal the board the analyst the CEO appointed reviewed rejected presented",
+    "the painting the curator the artist the collector admired displayed restored sold"
+  ],
+  "l1_sentences": [
+    "the book the critic the student the professor assigned praised reviewed sold",
+    "the letter the manager the clerk the director hired wrote signed delivered",
+    "the proposal the board the analyst the CEO appointed reviewed rejected presented",
+    "the painting the curator the artist the collector admired displayed restored sold",
+    "the film the director the actor hired praised released"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the critic the student the professor assigned praised reviewed sold\",\n    \"the letter the manager the clerk the director hired wrote signed delivered\",\n    \"the proposal the board the analyst the CEO appointed reviewed rejected presented\",\n    \"the painting the curator the artist the collector admired displayed restored sold\",\n    \"the film the director the actor hired praised released\"\n  ]\n}\n```",
+  "run_idx": 6
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The dog the cat chased escaped.",
+    "The student the teacher praised smiled.",
+    "The car the mechanic repaired started.",
+    "The child the mother hugged cried.",
+    "The book the author wrote disappeared."
+  ],
+  "induced_prompt_raw": "Generate sentences with the syntactic pattern: \"The [noun 1] the [noun 2] [transitive verb] [intransitive verb].\"",
+  "induced_prompt": "Generate sentences with the syntactic pattern: \"The [noun 1] the [noun 2] [transitive verb] [intransitive verb].\"",
+  "induced_prompt_chars": 113,
+  "induced_prompt_words": 16,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the girl helped smiled.\",\n    \"The car the man bought crashed.\",\n    \"The bird the cat watched flew.\",\n    \"The student the teacher praised laughed.\",\n    \"The toy the child dropped fell.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the girl helped smiled.",
+    "The car the man bought crashed.",
+    "The bird the cat watched flew.",
+    "The student the teacher praised laughed.",
+    "The toy the child dropped fell."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:35:43.390186+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The dog the cat chased escaped.",
+    "The student the teacher praised smiled.",
+    "The car the mechanic repaired started.",
+    "The child the mother hugged cried.",
+    "The book the author wrote disappeared."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The dog the cat chased escaped.\",\n    \"The student the teacher praised smiled.\",\n    \"The car the mechanic repaired started.\",\n    \"The child the mother hugged cried.\",\n    \"The book the author wrote disappeared.\"\n  ]\n}",
+  "run_idx": 1
+}

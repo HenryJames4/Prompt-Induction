@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the editor the publisher reviewed corrected published vanished.",
+    "the letter the secretary the manager the director read signed forwarded disappeared.",
+    "the data the analyst the scientist the researcher analyzed verified reported vanished.",
+    "the proposal the intern the assistant the manager the director submitted approved reviewed disappeared.",
+    "the plan the team the leader the committee the board discussed approved implemented."
+  ],
+  "induced_prompt_raw": "Generate a sentence with a chain of agents performing actions on a noun, ending with \"vanished\" or \"disappeared\", where each agent acts on the result of the previous agent's action.",
+  "induced_prompt": "Generate a sentence with a chain of agents performing actions on a noun, ending with \"vanished\" or \"disappeared\", where each agent acts on the result of the previous agent's action.",
+  "induced_prompt_chars": 181,
+  "induced_prompt_words": 30,
+  "l1_char_total": 440,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The thief stole the necklace, which the detective traced to a hidden vault.\", \"The vault's guardian locked the necklace inside a steel box, which the engineer dismantled with a laser cutter.\", \"The engineer's tool sliced through the box, exposing the necklace, which the jeweler cleaned with a chemical solution.\", \"The jeweler's polish revealed the gem's true brilliance, which the artist captured in a detailed sketch.\", \"The artist's drawing, once completed, vanished into the digital archive, never to be seen again.\"]}",
+  "l2_sentences": [
+    "The thief stole the necklace, which the detective traced to a hidden vault.",
+    "The vault's guardian locked the necklace inside a steel box, which the engineer dismantled with a laser cutter.",
+    "The engineer's tool sliced through the box, exposing the necklace, which the jeweler cleaned with a chemical solution.",
+    "The jeweler's polish revealed the gem's true brilliance, which the artist captured in a detailed sketch.",
+    "The artist's drawing, once completed, vanished into the digital archive, never to be seen again."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:08:07.673841+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the editor the publisher reviewed corrected published vanished.",
+    "the letter the secretary the manager the director read signed forwarded disappeared.",
+    "the data the analyst the scientist the researcher analyzed verified reported vanished.",
+    "the proposal the intern the assistant the manager the director submitted approved reviewed disappeared."
+  ],
+  "l1_sentences": [
+    "the book the author the editor the publisher reviewed corrected published vanished.",
+    "the letter the secretary the manager the director read signed forwarded disappeared.",
+    "the data the analyst the scientist the researcher analyzed verified reported vanished.",
+    "the proposal the intern the assistant the manager the director submitted approved reviewed disappeared.",
+    "the plan the team the leader the committee the board discussed approved implemented."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher reviewed corrected published vanished.\", \"the letter the secretary the manager the director read signed forwarded disappeared.\", \"the data the analyst the scientist the researcher analyzed verified reported vanished.\", \"the proposal the intern the assistant the manager the director submitted approved reviewed disappeared.\", \"the plan the team the leader the committee the board discussed approved implemented.\"]}",
+  "run_idx": 18
+}

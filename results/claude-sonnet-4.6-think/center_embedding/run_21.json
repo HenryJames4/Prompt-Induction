@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the critic praised contacted wrote sold.",
+    "the cat the dog the child the teacher scolded chased bit fled.",
+    "the cake the chef the customer the waiter served impressed baked vanished.",
+    "the letter the lawyer the client the judge questioned hired drafted arrived.",
+    "the film the director the producer the investor funded hired made premiered."
+  ],
+  "induced_prompt_raw": "Write sentences with quadruply center-embedded relative clauses, where four noun phrases are followed by four verbs in reverse order.",
+  "induced_prompt": "Write sentences with quadruply center-embedded relative clauses, where four noun phrases are followed by four verbs in reverse order.",
+  "induced_prompt_chars": 133,
+  "induced_prompt_words": 19,
+  "l1_char_total": 362,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog the cat the mouse the rat chased bit attacked ran.\",\n    \"The paper the student the professor the dean praised supervised wrote was published.\",\n    \"The house the family the realtor the architect hired showed bought was renovated.\",\n    \"The award the athlete the coach the committee nominated trained received was prestigious.\",\n    \"The song the musician the label the critic praised signed recorded became famous.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog the cat the mouse the rat chased bit attacked ran.",
+    "The paper the student the professor the dean praised supervised wrote was published.",
+    "The house the family the realtor the architect hired showed bought was renovated.",
+    "The award the athlete the coach the committee nominated trained received was prestigious.",
+    "The song the musician the label the critic praised signed recorded became famous."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:28:05.236707+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the critic praised contacted wrote sold.",
+    "the cat the dog the child the teacher scolded chased bit fled.",
+    "the cake the chef the customer the waiter served impressed baked vanished.",
+    "the letter the lawyer the client the judge questioned hired drafted arrived.",
+    "the film the director the producer the investor funded hired made premiered."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the author the publisher the critic praised contacted wrote sold.\",\n    \"the cat the dog the child the teacher scolded chased bit fled.\",\n    \"the cake the chef the customer the waiter served impressed baked vanished.\",\n    \"the letter the lawyer the client the judge questioned hired drafted arrived.\",\n    \"the film the director the producer the investor funded hired made premiered.\"\n  ]\n}\n```",
+  "run_idx": 21
+}

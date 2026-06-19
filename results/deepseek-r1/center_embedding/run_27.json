@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the teacher the student the book the librarian borrowed read returned left.",
+    "the dog the cat the mouse the cheese rotted found chased ate.",
+    "the car the driver the mechanic the owner fixed inspected drove crashed.",
+    "the cake the baker the customer the child dropped ordered decorated melted."
+  ],
+  "induced_prompt_raw": "Based on the given sentences, the syntactic structure consistently follows a specific chain of dependencies: four noun phrases are followed by four past-tense verbs, where each verb links the nouns in a descending relational chain. The fourth noun performs the first verb on the third noun, the third noun performs the second verb on the second noun, the second noun performs the third verb on the first noun, and the first noun performs the fourth verb. \n\n**Prompt:**  \n\"Four nouns then four past-tense verbs: fourth does first verb to third, third does second verb to second, second does third verb to first, first does fourth verb.\"  \n\nThis prompt is short (16 words), avoids copying any original sentences, and captures the core syntactic pattern observed.",
+  "induced_prompt": "Based on the given sentences, the syntactic structure consistently follows a specific chain of dependencies: four noun phrases are followed by four past-tense verbs, where each verb links the nouns in a descending relational chain. The fourth noun performs the first verb on the third noun, the third noun performs the second verb on the second noun, the second noun performs the third verb on the first noun, and the first noun performs the fourth verb. \n\n**Prompt:**  \n\"Four nouns then four past-tense verbs: fourth does first verb to third, third does second verb to second, second does third verb to first, first does fourth verb.\"  \n\nThis prompt is short (16 words), avoids copying any original sentences, and captures the core syntactic pattern observed.",
+  "induced_prompt_chars": 760,
+  "induced_prompt_words": 123,
+  "l1_char_total": 369,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The squire commanded the knight, the knight advised the queen, the queen warned the king, and the king rested.\", \"The parent called the principal, the principal emailed the student, the student met the teacher, and the teacher left.\", \"The wind blew the leaves, the leaves rustled the branches, the branches shook the tree, and the tree fell.\", \"The customer called the waiter, the waiter greeted the assistant, the assistant notified the chef, and the chef departed.\", \"The lion chased the tiger, the tiger scared the wolf, the wolf cornered the rabbit, and the rabbit escaped.\"]}",
+  "l2_sentences": [
+    "The squire commanded the knight, the knight advised the queen, the queen warned the king, and the king rested.",
+    "The parent called the principal, the principal emailed the student, the student met the teacher, and the teacher left.",
+    "The wind blew the leaves, the leaves rustled the branches, the branches shook the tree, and the tree fell.",
+    "The customer called the waiter, the waiter greeted the assistant, the assistant notified the chef, and the chef departed.",
+    "The lion chased the tiger, the tiger scared the wolf, the wolf cornered the rabbit, and the rabbit escaped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:48:42.944390+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the teacher the student the book the librarian borrowed read returned left.",
+    "the dog the cat the mouse the cheese rotted found chased ate.",
+    "the car the driver the mechanic the owner fixed inspected drove crashed.",
+    "the cake the baker the customer the child dropped ordered decorated melted."
+  ],
+  "l1_raw": "{\"sentences\": [\"the report the editor the assistant the intern consulted revised approved disappeared.\", \"the teacher the student the book the librarian borrowed read returned left.\", \"the dog the cat the mouse the cheese rotted found chased ate.\", \"the car the driver the mechanic the owner fixed inspected drove crashed.\", \"the cake the baker the customer the child dropped ordered decorated melted.\"]}",
+  "run_idx": 27
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "induced_prompt_raw": "Generate a sentence with three agents, four verbs, last verb meaning disappearance.",
+  "induced_prompt": "Generate a sentence with three agents, four verbs, last verb meaning disappearance.",
+  "induced_prompt_chars": 83,
+  "induced_prompt_words": 12,
+  "l1_char_total": 418,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The boy ran, the girl skipped, the dog barked, and the boy vanished.\", \"The teacher wrote, the student listened, the clock ticked, and the teacher disappeared.\", \"The ship sailed, the crew rowed, the waves crashed, and the ship vanished.\", \"The detective followed, the suspect ran, the police arrived, and the suspect vanished.\", \"The flower bloomed, the bee buzzed, the sun shone, and the flower vanished.\"]}",
+  "l2_sentences": [
+    "The boy ran, the girl skipped, the dog barked, and the boy vanished.",
+    "The teacher wrote, the student listened, the clock ticked, and the teacher disappeared.",
+    "The ship sailed, the crew rowed, the waves crashed, and the ship vanished.",
+    "The detective followed, the suspect ran, the police arrived, and the suspect vanished.",
+    "The flower bloomed, the bee buzzed, the sun shone, and the flower vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:03:28.776081+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared"
+  ],
+  "l1_sentences": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "l1_raw": "{\"sentences\": [\"the manuscript the author the editor the proofreader revised corrected approved disappeared\", \"the data the researcher the statistician the computer analyzed processed visualized vanished\", \"the proposal the committee the chairman the secretary reviewed amended finalized vanished\", \"the evidence the detective the witness the lawyer examined questioned verified disappeared\", \"the document the writer the editor sent revised canceled\"]}",
+  "run_idx": 16
+}

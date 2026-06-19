@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student read won",
+    "the cat the dog chased ran",
+    "the report the manager reviewed passed",
+    "the law the senator proposed failed",
+    "the paper the student the professor taught wrote failed"
+  ],
+  "induced_prompt_raw": "Write sentences with exactly one center-embedded relative clause, following the pattern \"the [noun] the [noun] [verb] [verb].\" Do not nest multiple relative clauses inside one another.",
+  "induced_prompt": "Write sentences with exactly one center-embedded relative clause, following the pattern \"the [noun] the [noun] [verb] [verb].\" Do not nest multiple relative clauses inside one another.",
+  "induced_prompt_chars": 184,
+  "induced_prompt_words": 26,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The book the student read was fascinating.\", \"The cake the chef baked disappeared quickly.\", \"The bridge the engineers built collapsed suddenly.\", \"The letter the secretary typed arrived late.\", \"The dog the neighbor owned barked all night.\"]}\n```",
+  "l2_sentences": [
+    "The book the student read was fascinating.",
+    "The cake the chef baked disappeared quickly.",
+    "The bridge the engineers built collapsed suddenly.",
+    "The letter the secretary typed arrived late.",
+    "The dog the neighbor owned barked all night."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:44:40.389957+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student read won",
+    "the cat the dog chased ran",
+    "the report the manager reviewed passed",
+    "the law the senator proposed failed"
+  ],
+  "l1_sentences": [
+    "the book the student read won",
+    "the cat the dog chased ran",
+    "the report the manager reviewed passed",
+    "the law the senator proposed failed",
+    "the paper the student the professor taught wrote failed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the student read won\",\n    \"the cat the dog chased ran\",\n    \"the report the manager reviewed passed\",\n    \"the law the senator proposed failed\",\n    \"the paper the student the professor taught wrote failed\"\n  ]\n}\n```",
+  "run_idx": 12
+}

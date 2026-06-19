@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the chef the critic praised smiled",
+    "the dog the boy chased barked",
+    "the student the teacher helped passed",
+    "the actor the director chose bowed",
+    "the singer the crowd cheered cried"
+  ],
+  "induced_prompt_raw": "\"Write five sentences using the grammatical structure: [Subject noun phrase] + [Relative clause with subject-verb transitive construction and omitted relative pronoun] + [Intransitive verb in past tense].\"",
+  "induced_prompt": "\"Write five sentences using the grammatical structure: [Subject noun phrase] + [Relative clause with subject-verb transitive construction and omitted relative pronoun] + [Intransitive verb in past tense].\"",
+  "induced_prompt_chars": 205,
+  "induced_prompt_words": 27,
+  "l1_char_total": 168,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book I bought fell.\",\n    \"The target the archer missed vanished.\",\n    \"The song the choir sang resonated.\",\n    \"The letter she wrote arrived.\",\n    \"The car we leased broke.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book I bought fell.",
+    "The target the archer missed vanished.",
+    "The song the choir sang resonated.",
+    "The letter she wrote arrived.",
+    "The car we leased broke."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:39:19.152613+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the critic praised smiled",
+    "the dog the boy chased barked",
+    "the student the teacher helped passed",
+    "the actor the director chose bowed",
+    "the singer the crowd cheered cried"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the critic praised smiled\",\n    \"the dog the boy chased barked\",\n    \"the student the teacher helped passed\",\n    \"the actor the director chose bowed\",\n    \"the singer the crowd cheered cried\"\n  ]\n}",
+  "run_idx": 12
+}

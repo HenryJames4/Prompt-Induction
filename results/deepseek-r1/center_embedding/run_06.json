@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the mouse the cheese ate chased pounced slept.",
+    "the king the knight the squire the page served obeyed commanded ruled.",
+    "the tree the branch the leaf the wind blew rustled shook swayed.",
+    "the teacher the student the book the page read summarized discussed learned.",
+    "the chef the assistant the meal the ingredients prepared cooked served enjoyed."
+  ],
+  "induced_prompt_raw": "Based on the provided sentences, the syntactic structure consistently follows a pattern of four consecutive noun phrases (each starting with \"the\" followed by a noun) and then four verbs. The prompt to generate this structure is:\n\n**Prompt:**  \n`Write a sentence with four consecutive \"the [noun]\" phrases followed by four verbs.`  \n\n**Explanation:**  \n- This prompt captures the core syntax: a sequence of four noun phrases (`the [noun]`), immediately followed by four verbs.  \n- It is concise (10 words), avoids copying any original sentences, and is shorter than the original list (which contains 5 sentences).  \n- Example application: Inputting this prompt into a language model would yield outputs like the given sentences, adhering to the structure.",
+  "induced_prompt": "Based on the provided sentences, the syntactic structure consistently follows a pattern of four consecutive noun phrases (each starting with \"the\" followed by a noun) and then four verbs. The prompt to generate this structure is:\n\n**Prompt:**  \n`Write a sentence with four consecutive \"the [noun]\" phrases followed by four verbs.`  \n\n**Explanation:**  \n- This prompt captures the core syntax: a sequence of four noun phrases (`the [noun]`), immediately followed by four verbs.  \n- It is concise (10 words), avoids copying any original sentences, and is shorter than the original list (which contains 5 sentences).  \n- Example application: Inputting this prompt into a language model would yield outputs like the given sentences, adhering to the structure.",
+  "induced_prompt_chars": 755,
+  "induced_prompt_words": 114,
+  "l1_char_total": 351,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The wind the leaves the trees the branches rustles shakes bends sways.\", \"The sun the sea the waves the sand shines sparkles crashes spreads.\", \"The chef the knife the onion the pan chops dices sizzles fries.\", \"The cat the mouse the hole the cheese chases scurries hides nibbles.\", \"The clock the hour the minute the second ticks tocks moves advances.\"]}",
+  "l2_sentences": [
+    "The wind the leaves the trees the branches rustles shakes bends sways.",
+    "The sun the sea the waves the sand shines sparkles crashes spreads.",
+    "The chef the knife the onion the pan chops dices sizzles fries.",
+    "The cat the mouse the hole the cheese chases scurries hides nibbles.",
+    "The clock the hour the minute the second ticks tocks moves advances."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:11:01.471320+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the mouse the cheese ate chased pounced slept.",
+    "the king the knight the squire the page served obeyed commanded ruled.",
+    "the tree the branch the leaf the wind blew rustled shook swayed.",
+    "the teacher the student the book the page read summarized discussed learned.",
+    "the chef the assistant the meal the ingredients prepared cooked served enjoyed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the cat the mouse the cheese ate chased pounced slept.\", \"the king the knight the squire the page served obeyed commanded ruled.\", \"the tree the branch the leaf the wind blew rustled shook swayed.\", \"the teacher the student the book the page read summarized discussed learned.\", \"the chef the assistant the meal the ingredients prepared cooked served enjoyed.\"]}",
+  "run_idx": 6
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student read vanished.",
+    "The chef the critic praised smiled.",
+    "The song the crowd loved ended.",
+    "The dog the boy chased barked.",
+    "The mouse the cat the dog chased caught escaped."
+  ],
+  "induced_prompt_raw": "Generate a sentence containing exactly one center-embedded relative clause (e.g., \"[Subject 1] [Subject 2] [Verb 2] [Verb 1]\"). Do not stack more than one relative clause; avoid double center-embedding like \"[Subject 1] [Subject 2] [Subject 3] [Verb 3] [Verb 2] [Verb 1]\".",
+  "induced_prompt": "Generate a sentence containing exactly one center-embedded relative clause (e.g., \"[Subject 1] [Subject 2] [Verb 2] [Verb 1]\"). Do not stack more than one relative clause; avoid double center-embedding like \"[Subject 1] [Subject 2] [Subject 3] [Verb 3] [Verb 2] [Verb 1]\".",
+  "induced_prompt_chars": 272,
+  "induced_prompt_words": 42,
+  "l1_char_total": 179,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef that the critic praised received a Michelin star.\",\n    \"The dog that the boy chased barked loudly at the fence.\",\n    \"The book that the student read inspired her to study history.\",\n    \"The car that the mechanic repaired ran smoothly on the highway.\",\n    \"The artist whom the gallery represented painted a new masterpiece.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef that the critic praised received a Michelin star.",
+    "The dog that the boy chased barked loudly at the fence.",
+    "The book that the student read inspired her to study history.",
+    "The car that the mechanic repaired ran smoothly on the highway.",
+    "The artist whom the gallery represented painted a new masterpiece."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:54:12.848518+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student read vanished.",
+    "The chef the critic praised smiled.",
+    "The song the crowd loved ended.",
+    "The dog the boy chased barked."
+  ],
+  "l1_sentences": [
+    "The book the student read vanished.",
+    "The chef the critic praised smiled.",
+    "The song the crowd loved ended.",
+    "The dog the boy chased barked.",
+    "The mouse the cat the dog chased caught escaped."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student read vanished.\",\n    \"The chef the critic praised smiled.\",\n    \"The song the crowd loved ended.\",\n    \"The dog the boy chased barked.\",\n    \"The mouse the cat the dog chased caught escaped.\"\n  ]\n}",
+  "run_idx": 22
+}

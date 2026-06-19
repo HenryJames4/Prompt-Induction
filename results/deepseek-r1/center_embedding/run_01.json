@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the mouse the bird chased caught escaped barked.",
+    "the book the author the editor the student consulted revised published appeared.",
+    "the car the driver the mechanic the owner hired fixed drove accelerated.",
+    "the house the architect the builder the worker assisted designed constructed collapsed.",
+    "the cake the baker the child the parent watched helped made rose."
+  ],
+  "induced_prompt_raw": "Form a sentence with the structure: 'the N1 the N2 the N3 the N4 V1 V2 V3 V4', where V1 is performed by N4 on N3, V2 by N3 on N2, V3 by N2 on N1, and V4 by N1 alone.",
+  "induced_prompt": "Form a sentence with the structure: 'the N1 the N2 the N3 the N4 V1 V2 V3 V4', where V1 is performed by N4 on N3, V2 by N3 on N2, V3 by N2 on N1, and V4 by N1 alone.",
+  "induced_prompt_chars": 165,
+  "induced_prompt_words": 41,
+  "l1_char_total": 368,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The king the knight the squire the page praised advised protected ruled.\", \"The plankton the fish the seal the bear consumed swallowed hunted drifted.\", \"The student the teacher the principal the superintendent evaluated directed instructed studied.\", \"The child the mother the father the boss fired scolded comforted played.\", \"The seed the soil the rain the cloud nourished soaked softened sprouted.\"]}",
+  "l2_sentences": [
+    "The king the knight the squire the page praised advised protected ruled.",
+    "The plankton the fish the seal the bear consumed swallowed hunted drifted.",
+    "The student the teacher the principal the superintendent evaluated directed instructed studied.",
+    "The child the mother the father the boss fired scolded comforted played.",
+    "The seed the soil the rain the cloud nourished soaked softened sprouted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:02:20.482790+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the mouse the bird chased caught escaped barked.",
+    "the book the author the editor the student consulted revised published appeared.",
+    "the car the driver the mechanic the owner hired fixed drove accelerated.",
+    "the house the architect the builder the worker assisted designed constructed collapsed.",
+    "the cake the baker the child the parent watched helped made rose."
+  ],
+  "l1_raw": "{\"sentences\": [\n  \"the dog the cat the mouse the bird chased caught escaped barked.\",\n  \"the book the author the editor the student consulted revised published appeared.\",\n  \"the car the driver the mechanic the owner hired fixed drove accelerated.\",\n  \"the house the architect the builder the worker assisted designed constructed collapsed.\",\n  \"the cake the baker the child the parent watched helped made rose.\"\n]}",
+  "run_idx": 1
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the paper the committee the researcher the graduate student helped impressed evaluated won",
+    "the cake the judge the baker the apprentice trained impressed tasted won",
+    "the building the architect the engineer the contractor hired assisted designed collapsed",
+    "the manuscript the publisher the editor the author contacted impressed accepted sold",
+    "the report the editor the journalist impressed reviewed disappeared"
+  ],
+  "induced_prompt_raw": "**Prompt:**\n\nGenerate quadruply center-embedded (garden-path) sentences with exactly four noun phrases followed by exactly four verbs, where the verbs pair in reverse order with the noun phrases (NP1 NP2 NP3 NP4 V4 V3 V2 V1). Do not use only three noun phrases and three verbs.",
+  "induced_prompt": "**Prompt:**\n\nGenerate quadruply center-embedded (garden-path) sentences with exactly four noun phrases followed by exactly four verbs, where the verbs pair in reverse order with the noun phrases (NP1 NP2 NP3 NP4 V4 V3 V2 V1). Do not use only three noun phrases and three verbs.",
+  "induced_prompt_chars": 277,
+  "induced_prompt_words": 45,
+  "l1_char_total": 401,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat the cat the dog the man owned chased killed ate the malt.\",\n    \"The bill the senator the lobbyist the corporation funded hired introduced passed.\",\n    \"The article the journalist the editor the publisher employed hired wrote appeared.\",\n    \"The proposal the committee the professor the student impressed advised submitted failed.\",\n    \"The dog the wolf the hunter the ranger trained tracked frightened fled.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man owned chased killed ate the malt.",
+    "The bill the senator the lobbyist the corporation funded hired introduced passed.",
+    "The article the journalist the editor the publisher employed hired wrote appeared.",
+    "The proposal the committee the professor the student impressed advised submitted failed.",
+    "The dog the wolf the hunter the ranger trained tracked frightened fled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:53:11.018823+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the paper the committee the researcher the graduate student helped impressed evaluated won",
+    "the cake the judge the baker the apprentice trained impressed tasted won",
+    "the building the architect the engineer the contractor hired assisted designed collapsed",
+    "the manuscript the publisher the editor the author contacted impressed accepted sold"
+  ],
+  "l1_sentences": [
+    "the paper the committee the researcher the graduate student helped impressed evaluated won",
+    "the cake the judge the baker the apprentice trained impressed tasted won",
+    "the building the architect the engineer the contractor hired assisted designed collapsed",
+    "the manuscript the publisher the editor the author contacted impressed accepted sold",
+    "the report the editor the journalist impressed reviewed disappeared"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the paper the committee the researcher the graduate student helped impressed evaluated won\",\n    \"the cake the judge the baker the apprentice trained impressed tasted won\",\n    \"the building the architect the engineer the contractor hired assisted designed collapsed\",\n    \"the manuscript the publisher the editor the author contacted impressed accepted sold\",\n    \"the report the editor the journalist impressed reviewed disappeared\"\n  ]\n}\n```",
+  "run_idx": 9
+}

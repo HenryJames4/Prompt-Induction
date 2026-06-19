@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the car the driver the instructor the student crashed trained failed cried",
+    "the book the author the publisher the reader read edited printed sold",
+    "the house the owner the agent the buyer inspected listed sold collapsed",
+    "the dog the trainer the owner the child petted taught loved barked",
+    "the computer the technician the company the user fixed hired upgraded crashed"
+  ],
+  "induced_prompt_raw": "Four the noun phrases and four verbs.",
+  "induced_prompt": "Four the noun phrases and four verbs.",
+  "induced_prompt_chars": 37,
+  "induced_prompt_words": 7,
+  "l1_char_total": 357,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"Four noun phrases and four verbs form the basis of language.\", \"The noun phrases describe subjects and objects clearly.\", \"Four verbs express actions and states dynamically.\", \"The verbs connect the noun phrases meaningfully.\", \"Four noun phrases and four verbs create complete thoughts.\"]}\n```",
+  "l2_sentences": [
+    "Four noun phrases and four verbs form the basis of language.",
+    "The noun phrases describe subjects and objects clearly.",
+    "Four verbs express actions and states dynamically.",
+    "The verbs connect the noun phrases meaningfully.",
+    "Four noun phrases and four verbs create complete thoughts."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:17:45.335588+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the driver the instructor the student crashed trained failed cried",
+    "the book the author the publisher the reader read edited printed sold",
+    "the house the owner the agent the buyer inspected listed sold collapsed",
+    "the dog the trainer the owner the child petted taught loved barked",
+    "the computer the technician the company the user fixed hired upgraded crashed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the driver the instructor the student crashed trained failed cried\",\n    \"the book the author the publisher the reader read edited printed sold\",\n    \"the house the owner the agent the buyer inspected listed sold collapsed\",\n    \"the dog the trainer the owner the child petted taught loved barked\",\n    \"the computer the technician the company the user fixed hired upgraded crashed\"\n  ]\n}\n```",
+  "run_idx": 9
+}

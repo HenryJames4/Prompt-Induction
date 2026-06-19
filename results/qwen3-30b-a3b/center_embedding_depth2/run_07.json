@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor accepted sold.",
+    "the plan the manager rejected failed.",
+    "the idea the scientist tested worked.",
+    "the design the architect created impressed.",
+    "the method the teacher used succeeded."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [past participle] [past tense]",
+  "induced_prompt": "the [noun] the [role] [verb] [past participle] [past tense]",
+  "induced_prompt_chars": 59,
+  "induced_prompt_words": 9,
+  "l1_char_total": 189,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the veterinarian treated was finally cured.\", \"The book the editor revised was published last week.\", \"The project the manager completed was praised by the board.\", \"The song the singer recorded went viral overnight.\", \"The house the contractor built was sold within days.\"]}",
+  "l2_sentences": [
+    "The cat the veterinarian treated was finally cured.",
+    "The book the editor revised was published last week.",
+    "The project the manager completed was praised by the board.",
+    "The song the singer recorded went viral overnight.",
+    "The house the contractor built was sold within days."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:06:25.700928+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor accepted sold.",
+    "the plan the manager rejected failed.",
+    "the idea the scientist tested worked.",
+    "the design the architect created impressed.",
+    "the method the teacher used succeeded."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor accepted sold.\", \"the plan the manager rejected failed.\", \"the idea the scientist tested worked.\", \"the design the architect created impressed.\", \"the method the teacher used succeeded.\"]}",
+  "run_idx": 7
+}

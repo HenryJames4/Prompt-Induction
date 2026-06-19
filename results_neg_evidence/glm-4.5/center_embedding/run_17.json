@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client presented discussed accepted implemented",
+    "the movie the critic the audience the producer watched praised reviewed promoted",
+    "the car the driver the mechanic washed repaired sold"
+  ],
+  "induced_prompt_raw": "Generate a sequence of nouns and verbs where each verb applies to the entire preceding phrase, with four nouns and three verbs.",
+  "induced_prompt": "Generate a sequence of nouns and verbs where each verb applies to the entire preceding phrase, with four nouns and three verbs.",
+  "induced_prompt_chars": 127,
+  "induced_prompt_words": 22,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The house cat sleeps.\",\n    \"The house cat sleeps dreams.\",\n    \"The house cat sleeps dreams wanders.\",\n    \"The house cat sleeps dreams wanders disappears.\",\n    \"The house cat sleeps dreams wanders disappears reappears.\"\n  ]\n}",
+  "l2_sentences": [
+    "The house cat sleeps.",
+    "The house cat sleeps dreams.",
+    "The house cat sleeps dreams wanders.",
+    "The house cat sleeps dreams wanders disappears.",
+    "The house cat sleeps dreams wanders disappears reappears."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:06:54.565909+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client presented discussed accepted implemented",
+    "the movie the critic the audience the producer watched praised reviewed promoted"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client presented discussed accepted implemented",
+    "the movie the critic the audience the producer watched praised reviewed promoted",
+    "the car the driver the mechanic washed repaired sold"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read reviewed recommended returned\",\n    \"the plan the manager the team the client presented discussed accepted implemented\",\n    \"the movie the critic the audience the producer watched praised reviewed promoted\",\n    \"the car the driver the mechanic washed repaired sold\"\n  ]\n}",
+  "run_idx": 17
+}

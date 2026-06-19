@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased fled",
+    "the letter the secretary typed arrived",
+    "the film the critic praised won",
+    "the report the manager submitted failed",
+    "the proposal the reviewer the editor hired approved passed"
+  ],
+  "induced_prompt_raw": "Generate sentences with a single center-embedded relative clause (no relative pronoun), where a noun phrase is modified by an embedded subject-verb pair before the main verb. Use only one level of embedding — do not nest a second relative clause inside the first.",
+  "induced_prompt": "Generate sentences with a single center-embedded relative clause (no relative pronoun), where a noun phrase is modified by an embedded subject-verb pair before the main verb. Use only one level of embedding — do not nest a second relative clause inside the first.",
+  "induced_prompt_chars": 263,
+  "induced_prompt_words": 43,
+  "l1_char_total": 193,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cake the children baked disappeared before dinner.\",\n    \"The letter the professor wrote surprised the entire committee.\",\n    \"The dog the neighbors adopted barked throughout the night.\",\n    \"The report the intern submitted contained several critical errors.\",\n    \"The painting the artist completed sold for an unexpected price.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cake the children baked disappeared before dinner.",
+    "The letter the professor wrote surprised the entire committee.",
+    "The dog the neighbors adopted barked throughout the night.",
+    "The report the intern submitted contained several critical errors.",
+    "The painting the artist completed sold for an unexpected price."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:38:26.528665+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased fled",
+    "the letter the secretary typed arrived",
+    "the film the critic praised won",
+    "the report the manager submitted failed"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased fled",
+    "the letter the secretary typed arrived",
+    "the film the critic praised won",
+    "the report the manager submitted failed",
+    "the proposal the reviewer the editor hired approved passed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased fled\",\n    \"the letter the secretary typed arrived\",\n    \"the film the critic praised won\",\n    \"the report the manager submitted failed\",\n    \"the proposal the reviewer the editor hired approved passed\"\n  ]\n}\n```",
+  "run_idx": 5
+}

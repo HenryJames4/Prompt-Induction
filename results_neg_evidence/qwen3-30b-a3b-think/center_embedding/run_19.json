@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the reviewer read edited printed vanished",
+    "the article the journalist the editor the reader submitted reviewed published disappeared",
+    "the painting the artist the curator the collector bought displayed sold vanished",
+    "the song the composer the band the producer wrote performed released disappeared",
+    "the story the writer the editor told revised published"
+  ],
+  "induced_prompt_raw": "Noun, 3 roles, 4 verbs ending with vanished/disappeared",
+  "induced_prompt": "Noun, 3 roles, 4 verbs ending with vanished/disappeared",
+  "induced_prompt_chars": 55,
+  "induced_prompt_words": 8,
+  "l1_char_total": 378,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The detective's shadow vanished when the lights went out.\", \"The witness's shadow disappeared during the storm.\", \"The victim's shadow vanished without a trace.\", \"The suspect's shadow disappeared from the alley.\", \"The city's shadow vanished as dawn approached.\"]}",
+  "l2_sentences": [
+    "The detective's shadow vanished when the lights went out.",
+    "The witness's shadow disappeared during the storm.",
+    "The victim's shadow vanished without a trace.",
+    "The suspect's shadow disappeared from the alley.",
+    "The city's shadow vanished as dawn approached."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:08:32.862773+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the reviewer read edited printed vanished",
+    "the article the journalist the editor the reader submitted reviewed published disappeared",
+    "the painting the artist the curator the collector bought displayed sold vanished",
+    "the song the composer the band the producer wrote performed released disappeared"
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the reviewer read edited printed vanished",
+    "the article the journalist the editor the reader submitted reviewed published disappeared",
+    "the painting the artist the curator the collector bought displayed sold vanished",
+    "the song the composer the band the producer wrote performed released disappeared",
+    "the story the writer the editor told revised published"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the reviewer read edited printed vanished\", \"the article the journalist the editor the reader submitted reviewed published disappeared\", \"the painting the artist the curator the collector bought displayed sold vanished\", \"the song the composer the band the producer wrote performed released disappeared\", \"the story the writer the editor told revised published\"]}",
+  "run_idx": 19
+}

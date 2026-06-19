@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the car the mechanic fixed broke.",
+    "the movie the critic watched failed.",
+    "the plant the gardener watered grew."
+  ],
+  "induced_prompt_raw": "Noun phrase containing a relative clause, where the main noun is modified by a second noun phrase.",
+  "induced_prompt": "Noun phrase containing a relative clause, where the main noun is modified by a second noun phrase.",
+  "induced_prompt_chars": 98,
+  "induced_prompt_words": 17,
+  "l1_char_total": 174,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book that I bought yesterday has a beautiful cover with intricate designs.\",\n    \"The woman who lives next door has a garden filled with colorful flowers.\",\n    \"The car that parked in front of our house has a dent on its passenger side door.\",\n    \"The restaurant that just opened downtown serves a delicious pasta with homemade sauce.\",\n    \"The teacher who won the award received a certificate with a golden seal.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book that I bought yesterday has a beautiful cover with intricate designs.",
+    "The woman who lives next door has a garden filled with colorful flowers.",
+    "The car that parked in front of our house has a dent on its passenger side door.",
+    "The restaurant that just opened downtown serves a delicious pasta with homemade sauce.",
+    "The teacher who won the award received a certificate with a golden seal."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:06:27.315638+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the car the mechanic fixed broke.",
+    "the movie the critic watched failed.",
+    "the plant the gardener watered grew."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read disappeared.\",\n    \"the car the mechanic fixed broke.\",\n    \"the movie the critic watched failed.\",\n    \"the plant the gardener watered grew.\"\n  ]\n}",
+  "run_idx": 7
+}

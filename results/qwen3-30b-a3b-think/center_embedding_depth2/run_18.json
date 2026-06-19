@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the idea the scientist proposed changed.",
+    "the paper the editor accepted improved.",
+    "the manuscript the publisher printed expanded.",
+    "the plan the manager implemented succeeded."
+  ],
+  "induced_prompt_raw": "the [noun] the [person] [verb]ed [verb]",
+  "induced_prompt": "the [noun] the [person] [verb]ed [verb]",
+  "induced_prompt_chars": 39,
+  "induced_prompt_words": 6,
+  "l1_char_total": 199,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the dog the teacher chased smiled\", \"the bird the child fed sang\", \"the car the driver fixed started\", \"the book the student read finished\", \"the cake the baker made tasted\"]}",
+  "l2_sentences": [
+    "the dog the teacher chased smiled",
+    "the bird the child fed sang",
+    "the car the driver fixed started",
+    "the book the student read finished",
+    "the cake the baker made tasted"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:18:21.804361+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the idea the scientist proposed changed.",
+    "the paper the editor accepted improved.",
+    "the manuscript the publisher printed expanded.",
+    "the plan the manager implemented succeeded."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the idea the scientist proposed changed.\", \"the paper the editor accepted improved.\", \"the manuscript the publisher printed expanded.\", \"the plan the manager implemented succeeded.\"]}",
+  "run_idx": 18
+}

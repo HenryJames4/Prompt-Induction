@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The book the student the teacher the doctor questioned helped read fell.",
+    "The car the mechanic the driver the officer stopped hired fixed crashed.",
+    "The song the singer the writer the critic annoyed inspired performed ended.",
+    "The meal the chef the manager the owner blamed employed cooked spoiled.",
+    "The house the builder the architect the client phoned hired built burned."
+  ],
+  "induced_prompt_raw": "Generate sentences with a triple center-embedded relative clause structure: NP1 NP2 NP3 NP4 V4 V3 V2 V1.",
+  "induced_prompt": "Generate sentences with a triple center-embedded relative clause structure: NP1 NP2 NP3 NP4 V4 V3 V2 V1.",
+  "induced_prompt_chars": 104,
+  "induced_prompt_words": 17,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the principal fired praised read disappeared.\",\n    \"The car the mechanic the owner the police arrested hired fixed broke down.\",\n    \"The song the singer the producer the label sued discovered performed trended.\",\n    \"The painting the artist the collector the thief robbed commissioned created burned.\",\n    \"The house the architect the client the bank bankrupted employed designed collapsed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book the student the teacher the principal fired praised read disappeared.",
+    "The car the mechanic the owner the police arrested hired fixed broke down.",
+    "The song the singer the producer the label sued discovered performed trended.",
+    "The painting the artist the collector the thief robbed commissioned created burned.",
+    "The house the architect the client the bank bankrupted employed designed collapsed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:24:13.666527+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The book the student the teacher the doctor questioned helped read fell.",
+    "The car the mechanic the driver the officer stopped hired fixed crashed.",
+    "The song the singer the writer the critic annoyed inspired performed ended.",
+    "The meal the chef the manager the owner blamed employed cooked spoiled.",
+    "The house the builder the architect the client phoned hired built burned."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the doctor questioned helped read fell.\",\n    \"The car the mechanic the driver the officer stopped hired fixed crashed.\",\n    \"The song the singer the writer the critic annoyed inspired performed ended.\",\n    \"The meal the chef the manager the owner blamed employed cooked spoiled.\",\n    \"The house the builder the architect the client phoned hired built burned.\"\n  ]\n}",
+  "run_idx": 14
+}

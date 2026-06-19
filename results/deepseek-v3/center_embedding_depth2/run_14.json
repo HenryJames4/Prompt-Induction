@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the student read intrigued",
+    "the film the critic praised captivated",
+    "the song the artist performed impressed",
+    "the game the player won excited",
+    "the meal the chef cooked delighted"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with the structure: 'the [noun1] the [noun2] [verb1] [verb2]'\"",
+  "induced_prompt": "\"Generate sentences with the structure: 'the [noun1] the [noun2] [verb1] [verb2]'\"",
+  "induced_prompt_chars": 82,
+  "induced_prompt_words": 11,
+  "l1_char_total": 177,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the dog chase bark\", \"the teacher the student teach learn\", \"the chef the meal prepare serve\", \"the wind the leaves rustle fall\", \"the sun the flowers bloom wilt\"]}",
+  "l2_sentences": [
+    "the cat the dog chase bark",
+    "the teacher the student teach learn",
+    "the chef the meal prepare serve",
+    "the wind the leaves rustle fall",
+    "the sun the flowers bloom wilt"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:14:21.303423+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the student read intrigued",
+    "the film the critic praised captivated",
+    "the song the artist performed impressed",
+    "the game the player won excited",
+    "the meal the chef cooked delighted"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student read intrigued\", \"the film the critic praised captivated\", \"the song the artist performed impressed\", \"the game the player won excited\", \"the meal the chef cooked delighted\"]}",
+  "run_idx": 14
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the car the mechanic fixed broke.",
+    "the plant the waterer watered grew.",
+    "the house the builder constructed collapsed."
+  ],
+  "induced_prompt_raw": "Subject, object, and verb of a sentence with a relative clause.",
+  "induced_prompt": "Subject, object, and verb of a sentence with a relative clause.",
+  "induced_prompt_chars": 63,
+  "induced_prompt_words": 11,
+  "l1_char_total": 181,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The teacher who explained the lesson graded the papers that were submitted late.\",\n    \"The car that was parked illegally received a ticket which caused the owner to complain.\",\n    \"The children who played in the park built a sandcastle that impressed their parents.\",\n    \"The book that I borrowed from the library contains information which helped me with my project.\",\n    \"The restaurant where we had dinner last night serves food that is made from locally sourced ingredients.\"\n  ]\n}",
+  "l2_sentences": [
+    "The teacher who explained the lesson graded the papers that were submitted late.",
+    "The car that was parked illegally received a ticket which caused the owner to complain.",
+    "The children who played in the park built a sandcastle that impressed their parents.",
+    "The book that I borrowed from the library contains information which helped me with my project.",
+    "The restaurant where we had dinner last night serves food that is made from locally sourced ingredients."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:07:59.662116+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the car the mechanic fixed broke.",
+    "the plant the waterer watered grew.",
+    "the house the builder constructed collapsed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read disappeared.\",\n    \"the car the mechanic fixed broke.\",\n    \"the plant the waterer watered grew.\",\n    \"the house the builder constructed collapsed.\"\n  ]\n}",
+  "run_idx": 8
+}

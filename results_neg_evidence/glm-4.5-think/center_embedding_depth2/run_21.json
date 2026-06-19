@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read disappeared.",
+    "The man the woman interviewed succeeded.",
+    "The house the builder built collapsed.",
+    "The man the woman the child met greeted smiled."
+  ],
+  "induced_prompt_raw": "Generate a two-clause center-embedded sentence: \"The [noun1] the [noun2] [verb2] [verb1]\".",
+  "induced_prompt": "Generate a two-clause center-embedded sentence: \"The [noun1] the [noun2] [verb2] [verb1]\".",
+  "induced_prompt_chars": 90,
+  "induced_prompt_words": 11,
+  "l1_char_total": 194,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased ran away.\",\n    \"The book the student read was interesting.\",\n    \"The car the mechanic repaired broke down.\",\n    \"The house the builder constructed sold quickly.\",\n    \"The song the singer composed became popular.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the dog chased ran away.",
+    "The book the student read was interesting.",
+    "The car the mechanic repaired broke down.",
+    "The house the builder constructed sold quickly.",
+    "The song the singer composed became popular."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:53:19.495944+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased escaped.",
+    "The book the student read disappeared.",
+    "The man the woman interviewed succeeded.",
+    "The house the builder built collapsed."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read disappeared.",
+    "The man the woman interviewed succeeded.",
+    "The house the builder built collapsed.",
+    "The man the woman the child met greeted smiled."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The book the student read disappeared.\",\n    \"The man the woman interviewed succeeded.\",\n    \"The house the builder built collapsed.\",\n    \"The man the woman the child met greeted smiled.\"\n  ]\n}\n```",
+  "run_idx": 21
+}

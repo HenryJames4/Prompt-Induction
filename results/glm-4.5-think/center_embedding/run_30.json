@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the car the driver the owner the company washed repaired sold crashed.",
+    "the book the student the teacher the school published assigned read appeared.",
+    "the house the buyer the agent the bank inspected appraised financed burned.",
+    "the dog the owner the vet the clinic treated examined vaccinated barked.",
+    "the painting the collector the dealer the gallery bought met displayed faded."
+  ],
+  "induced_prompt_raw": "Four nouns, four verbs: actions on the first.",
+  "induced_prompt": "Four nouns, four verbs: actions on the first.",
+  "induced_prompt_chars": 45,
+  "induced_prompt_words": 8,
+  "l1_char_total": 371,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"Run jump swim fly the dog cat bird fish.\",\n    \"Eat drink sleep play the apple banana orange grape.\",\n    \"Read write speak listen the book magazine newspaper letter.\",\n    \"Walk run jog sprint the street park garden path.\",\n    \"Cook bake fry boil the chicken rice vegetable soup.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "Run jump swim fly the dog cat bird fish.",
+    "Eat drink sleep play the apple banana orange grape.",
+    "Read write speak listen the book magazine newspaper letter.",
+    "Walk run jog sprint the street park garden path.",
+    "Cook bake fry boil the chicken rice vegetable soup."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:55:27.605974+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the driver the owner the company washed repaired sold crashed.",
+    "the book the student the teacher the school published assigned read appeared.",
+    "the house the buyer the agent the bank inspected appraised financed burned.",
+    "the dog the owner the vet the clinic treated examined vaccinated barked.",
+    "the painting the collector the dealer the gallery bought met displayed faded."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the driver the owner the company washed repaired sold crashed.\",\n    \"the book the student the teacher the school published assigned read appeared.\",\n    \"the house the buyer the agent the bank inspected appraised financed burned.\",\n    \"the dog the owner the vet the clinic treated examined vaccinated barked.\",\n    \"the painting the collector the dealer the gallery bought met displayed faded.\"\n  ]\n}\n```",
+  "run_idx": 30
+}

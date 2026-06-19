@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the candidate the voter supported won",
+    "the dog the cat chased ran",
+    "the student the teacher praised smiled",
+    "the child the mother hugged laughed",
+    "the cake the baker decorated dropped"
+  ],
+  "induced_prompt_raw": "\"Write five sentences using the grammatical structure: [Subject Noun Phrase] + [Object Relative Clause with relative pronoun omitted] + [Intransitive Verb].\"",
+  "induced_prompt": "\"Write five sentences using the grammatical structure: [Subject Noun Phrase] + [Object Relative Clause with relative pronoun omitted] + [Intransitive Verb].\"",
+  "induced_prompt_chars": 157,
+  "induced_prompt_words": 21,
+  "l1_char_total": 172,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cake I baked fell.\",\n    \"The car they bought stalled.\",\n    \"The program she wrote failed.\",\n    \"The package we sent arrived.\",\n    \"The athlete you mentioned tripped.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cake I baked fell.",
+    "The car they bought stalled.",
+    "The program she wrote failed.",
+    "The package we sent arrived.",
+    "The athlete you mentioned tripped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:37:03.471851+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the candidate the voter supported won",
+    "the dog the cat chased ran",
+    "the student the teacher praised smiled",
+    "the child the mother hugged laughed",
+    "the cake the baker decorated dropped"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the candidate the voter supported won\",\n    \"the dog the cat chased ran\",\n    \"the student the teacher praised smiled\",\n    \"the child the mother hugged laughed\",\n    \"the cake the baker decorated dropped\"\n  ]\n}",
+  "run_idx": 7
+}

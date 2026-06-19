@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased ran.",
+    "the book the student read fell.",
+    "the car the mechanic repaired started.",
+    "the tree the wind shook fell.",
+    "the man the officer arrested escaped."
+  ],
+  "induced_prompt_raw": "Generate: [NP1] [NP2] [V1] [V2] where NP2 does V1 to NP1 and NP1 does V2.",
+  "induced_prompt": "Generate: [NP1] [NP2] [V1] [V2] where NP2 does V1 to NP1 and NP1 does V2.",
+  "induced_prompt_chars": 73,
+  "induced_prompt_words": 15,
+  "l1_char_total": 162,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The student the teacher corrected thanked.\",\n    \"The ball the boy threw bounced.\",\n    \"The window the bird hit broke.\",\n    \"The car the driver crashed exploded.\",\n    \"The plant the gardener watered grew.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The student the teacher corrected thanked.",
+    "The ball the boy threw bounced.",
+    "The window the bird hit broke.",
+    "The car the driver crashed exploded.",
+    "The plant the gardener watered grew."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:25:42.987999+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased ran.",
+    "the book the student read fell.",
+    "the car the mechanic repaired started.",
+    "the tree the wind shook fell.",
+    "the man the officer arrested escaped."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased ran.\",\n    \"the book the student read fell.\",\n    \"the car the mechanic repaired started.\",\n    \"the tree the wind shook fell.\",\n    \"the man the officer arrested escaped.\"\n  ]\n}\n```",
+  "run_idx": 23
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor read sold.",
+    "the film the director praised won.",
+    "the poem the critic admired grew.",
+    "the story the judge accepted passed.",
+    "the article the writer submitted succeeded."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [past tense verb]",
+  "induced_prompt": "the [noun] the [role] [verb] [past tense verb]",
+  "induced_prompt_chars": 46,
+  "induced_prompt_words": 8,
+  "l1_char_total": 176,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the trainer trained barked loudly.\", \"The book the author wrote sold quickly.\", \"The song the musician composed became famous.\", \"The project the manager led succeeded unexpectedly.\", \"The plan the strategist designed failed completely.\"]}",
+  "l2_sentences": [
+    "The dog the trainer trained barked loudly.",
+    "The book the author wrote sold quickly.",
+    "The song the musician composed became famous.",
+    "The project the manager led succeeded unexpectedly.",
+    "The plan the strategist designed failed completely."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:31:23.095985+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor read sold.",
+    "the film the director praised won.",
+    "the poem the critic admired grew.",
+    "the story the judge accepted passed.",
+    "the article the writer submitted succeeded."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor read sold.\", \"the film the director praised won.\", \"the poem the critic admired grew.\", \"the story the judge accepted passed.\", \"the article the writer submitted succeeded.\"]}",
+  "run_idx": 28
+}

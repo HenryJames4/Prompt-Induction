@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the reviewer wrote edited printed sold",
+    "the car the mechanic the dealer the customer bought repaired sold drove",
+    "the cake the baker the customer the chef decorated baked served ate",
+    "the song the singer the producer the band recorded mixed performed played",
+    "the house the architect the builder the homeowner designed constructed sold moved"
+  ],
+  "induced_prompt_raw": "the [item] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt": "the [item] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt_chars": 71,
+  "induced_prompt_words": 12,
+  "l1_char_total": 364,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the knight the knight the knight swords dances sings dances\", \"the cat the knight the knight the knight fights jumps laughs shouts\", \"the cat the knight the knight the knight flies glides chirps tweets\", \"the cat the knight the knight the knight scurries hides squeaks eats\", \"the cat the knight the knight the knight swims dives glides sings\"]}",
+  "l2_sentences": [
+    "the cat the knight the knight the knight swords dances sings dances",
+    "the cat the knight the knight the knight fights jumps laughs shouts",
+    "the cat the knight the knight the knight flies glides chirps tweets",
+    "the cat the knight the knight the knight scurries hides squeaks eats",
+    "the cat the knight the knight the knight swims dives glides sings"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:32:56.720960+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the reviewer wrote edited printed sold",
+    "the car the mechanic the dealer the customer bought repaired sold drove",
+    "the cake the baker the customer the chef decorated baked served ate",
+    "the song the singer the producer the band recorded mixed performed played",
+    "the house the architect the builder the homeowner designed constructed sold moved"
+  ],
+  "l1_raw": "{\"sentences\":[\"the book the author the publisher the reviewer wrote edited printed sold\",\"the car the mechanic the dealer the customer bought repaired sold drove\",\"the cake the baker the customer the chef decorated baked served ate\",\"the song the singer the producer the band recorded mixed performed played\",\"the house the architect the builder the homeowner designed constructed sold moved\"]}",
+  "run_idx": 18
+}

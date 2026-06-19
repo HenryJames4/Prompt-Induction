@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the teacher admired taught baked vanished.",
+    "the letter the lawyer the clerk the judge reviewed hired wrote arrived.",
+    "the map the guide the scout the captain trusted trained drew faded.",
+    "the song the singer the coach the fan loved hired practiced echoed.",
+    "the bridge the engineer the worker the boss supervised hired built collapsed."
+  ],
+  "induced_prompt_raw": "Write sentences with multiply center-embedded relative clauses, where four nested agents and actions resolve in sequence before a final intransitive verb.",
+  "induced_prompt": "Write sentences with multiply center-embedded relative clauses, where four nested agents and actions resolve in sequence before a final intransitive verb.",
+  "induced_prompt_chars": 154,
+  "induced_prompt_words": 21,
+  "l1_char_total": 354,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the fox that the wolf chased bit scratched fled.\", \"The child that the teacher that the principal that the board hired appointed praised succeeded.\", \"The fish that the shark that the whale that the diver spotted followed hunted escaped.\", \"The soldier that the general that the king that the council crowned commanded deployed retreated.\", \"The bird that the hawk that the snake that the mongoose cornered threatened pursued soared.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the fox that the wolf chased bit scratched fled.",
+    "The child that the teacher that the principal that the board hired appointed praised succeeded.",
+    "The fish that the shark that the whale that the diver spotted followed hunted escaped.",
+    "The soldier that the general that the king that the council crowned commanded deployed retreated.",
+    "The bird that the hawk that the snake that the mongoose cornered threatened pursued soared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:31:25.483586+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the teacher admired taught baked vanished.",
+    "the letter the lawyer the clerk the judge reviewed hired wrote arrived.",
+    "the map the guide the scout the captain trusted trained drew faded.",
+    "the song the singer the coach the fan loved hired practiced echoed.",
+    "the bridge the engineer the worker the boss supervised hired built collapsed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the student the teacher admired taught baked vanished.\", \"the letter the lawyer the clerk the judge reviewed hired wrote arrived.\", \"the map the guide the scout the captain trusted trained drew faded.\", \"the song the singer the coach the fan loved hired practiced echoed.\", \"the bridge the engineer the worker the boss supervised hired built collapsed.\"]}\n```",
+  "run_idx": 27
+}

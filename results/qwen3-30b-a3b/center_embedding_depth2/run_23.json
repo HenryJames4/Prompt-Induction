@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor read sold.",
+    "the poem the poet wrote won.",
+    "the plan the manager made failed.",
+    "the story the writer told shocked.",
+    "the idea the scientist proposed worked."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [past participle].",
+  "induced_prompt": "the [noun] the [role] [verb] [past participle].",
+  "induced_prompt_chars": 47,
+  "induced_prompt_words": 7,
+  "l1_char_total": 164,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the veterinarian examined was sick.\", \"The book the editor reviewed was published.\", \"The student the teacher praised received a reward.\", \"The car the mechanic fixed was drivable.\", \"The song the singer performed was popular.\"]}",
+  "l2_sentences": [
+    "The cat the veterinarian examined was sick.",
+    "The book the editor reviewed was published.",
+    "The student the teacher praised received a reward.",
+    "The car the mechanic fixed was drivable.",
+    "The song the singer performed was popular."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:25:00.508189+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor read sold.",
+    "the poem the poet wrote won.",
+    "the plan the manager made failed.",
+    "the story the writer told shocked.",
+    "the idea the scientist proposed worked."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor read sold.\", \"the poem the poet wrote won.\", \"the plan the manager made failed.\", \"the story the writer told shocked.\", \"the idea the scientist proposed worked.\"]}",
+  "run_idx": 23
+}

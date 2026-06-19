@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The software the developer wrote crashed.",
+    "The musician the crowd cheered bowed.",
+    "The book the student read inspired.",
+    "The message the runner carried arrived.",
+    "The painting the artist the gallery hired created failed."
+  ],
+  "induced_prompt_raw": "Generate simple sentences featuring exactly one embedded relative clause with a single level of center-embedding (Noun + Noun + Verb + Verb), avoiding any double center-embedding or multiple nested clauses.",
+  "induced_prompt": "Generate simple sentences featuring exactly one embedded relative clause with a single level of center-embedding (Noun + Noun + Verb + Verb), avoiding any double center-embedding or multiple nested clauses.",
+  "induced_prompt_chars": 206,
+  "induced_prompt_words": 30,
+  "l1_char_total": 209,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the dog bit cried.\",\n    \"The book the student read disappeared.\",\n    \"The car the mechanic fixed broke.\",\n    \"The cake the baker made collapsed.\",\n    \"The letter the girl wrote arrived.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the dog bit cried.",
+    "The book the student read disappeared.",
+    "The car the mechanic fixed broke.",
+    "The cake the baker made collapsed.",
+    "The letter the girl wrote arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:41:37.768106+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The software the developer wrote crashed.",
+    "The musician the crowd cheered bowed.",
+    "The book the student read inspired.",
+    "The message the runner carried arrived."
+  ],
+  "l1_sentences": [
+    "The software the developer wrote crashed.",
+    "The musician the crowd cheered bowed.",
+    "The book the student read inspired.",
+    "The message the runner carried arrived.",
+    "The painting the artist the gallery hired created failed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The software the developer wrote crashed.\",\n    \"The musician the crowd cheered bowed.\",\n    \"The book the student read inspired.\",\n    \"The message the runner carried arrived.\",\n    \"The painting the artist the gallery hired created failed.\"\n  ]\n}",
+  "run_idx": 8
+}

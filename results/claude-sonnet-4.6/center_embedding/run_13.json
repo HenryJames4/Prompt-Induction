@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the critic the guest savored praised baked vanished.",
+    "the letter the lawyer the clerk the judge reviewed signed drafted arrived.",
+    "the song the singer the producer the fan adored recorded performed faded.",
+    "the plan the boss the worker the client rejected executed approved collapsed.",
+    "the book the author the editor the reader enjoyed revised published sold."
+  ],
+  "induced_prompt_raw": "Write sentences with a center-embedded relative clause structure where four nested agents and four stacked verbs appear at the end in reverse order.",
+  "induced_prompt": "Write sentences with a center-embedded relative clause structure where four nested agents and four stacked verbs appear at the end in reverse order.",
+  "induced_prompt_chars": 148,
+  "induced_prompt_words": 23,
+  "l1_char_total": 367,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The dog the cat the rat the elephant chased caught bit barked.\", \"The book the student the teacher the principal admired assigned read disappeared.\", \"The cake the child the parent the baker the judge praised hired made ate crumbled.\", \"The letter the spy the general the president the council trusted appointed sent received burned.\", \"The song the fan the singer the producer the label the executive signed approved recorded performed loved faded.\"]}\n```",
+  "l2_sentences": [
+    "The dog the cat the rat the elephant chased caught bit barked.",
+    "The book the student the teacher the principal admired assigned read disappeared.",
+    "The cake the child the parent the baker the judge praised hired made ate crumbled.",
+    "The letter the spy the general the president the council trusted appointed sent received burned.",
+    "The song the fan the singer the producer the label the executive signed approved recorded performed loved faded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:23:15.516392+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the critic the guest savored praised baked vanished.",
+    "the letter the lawyer the clerk the judge reviewed signed drafted arrived.",
+    "the song the singer the producer the fan adored recorded performed faded.",
+    "the plan the boss the worker the client rejected executed approved collapsed.",
+    "the book the author the editor the reader enjoyed revised published sold."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the critic the guest savored praised baked vanished.\", \"the letter the lawyer the clerk the judge reviewed signed drafted arrived.\", \"the song the singer the producer the fan adored recorded performed faded.\", \"the plan the boss the worker the client rejected executed approved collapsed.\", \"the book the author the editor the reader enjoyed revised published sold.\"]}\n```",
+  "run_idx": 13
+}

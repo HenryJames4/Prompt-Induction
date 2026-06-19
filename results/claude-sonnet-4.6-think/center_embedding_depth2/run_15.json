@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the editor reviewed improved.",
+    "The cake the chef baked vanished.",
+    "The bill the senator proposed failed.",
+    "The bridge the engineer designed collapsed.",
+    "The manuscript the author submitted disappeared."
+  ],
+  "induced_prompt_raw": "Write sentences using center-embedded object relative clauses, following the pattern: \"The [noun] the [noun] [past verb] [past verb].\"",
+  "induced_prompt": "Write sentences using center-embedded object relative clauses, following the pattern: \"The [noun] the [noun] [past verb] [past verb].\"",
+  "induced_prompt_chars": 134,
+  "induced_prompt_words": 18,
+  "l1_char_total": 201,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cake the chef baked disappeared.\", \"The book the student read vanished.\", \"The car the mechanic fixed crashed.\", \"The letter the secretary typed arrived.\", \"The report the manager approved circulated.\"]}\n```",
+  "l2_sentences": [
+    "The cake the chef baked disappeared.",
+    "The book the student read vanished.",
+    "The car the mechanic fixed crashed.",
+    "The letter the secretary typed arrived.",
+    "The report the manager approved circulated."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:40:51.944763+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the editor reviewed improved.",
+    "The cake the chef baked vanished.",
+    "The bill the senator proposed failed.",
+    "The bridge the engineer designed collapsed.",
+    "The manuscript the author submitted disappeared."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the editor reviewed improved.\", \"The cake the chef baked vanished.\", \"The bill the senator proposed failed.\", \"The bridge the engineer designed collapsed.\", \"The manuscript the author submitted disappeared.\"]}\n```",
+  "run_idx": 15
+}

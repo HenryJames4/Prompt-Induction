@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the critic the fan praised ignored wrote vanished",
+    "the cheese the rat the cat the dog chased caught ate spoiled",
+    "the painting the artist the patron the mayor insulted hired painted faded",
+    "the law the senator the lobbyist the citizen phoned influenced drafted failed",
+    "the software the programmer the manager the director fired blamed developed crashed"
+  ],
+  "induced_prompt_raw": "Generate sentences with triple center-embedded relative clauses following the template: \"the [noun1] the [noun2] the [noun3] the [noun4] [verb4] [verb3] [verb2] [verb1]\"",
+  "induced_prompt": "Generate sentences with triple center-embedded relative clauses following the template: \"the [noun1] the [noun2] the [noun3] the [noun4] [verb4] [verb3] [verb2] [verb1]\"",
+  "induced_prompt_chars": 169,
+  "induced_prompt_words": 22,
+  "l1_char_total": 362,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the cat the rat the man saw bit chased barked.\",\n    \"The cheese the mouse the cat the dog chased caught ate smelled.\",\n    \"The car the mechanic the owner the lawyer sued paid fixed stalled.\",\n    \"The book the student the teacher the principal fired praised read vanished.\",\n    \"The patient the doctor the nurse the director hired assisted treated recovered.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the cat the rat the man saw bit chased barked.",
+    "The cheese the mouse the cat the dog chased caught ate smelled.",
+    "The car the mechanic the owner the lawyer sued paid fixed stalled.",
+    "The book the student the teacher the principal fired praised read vanished.",
+    "The patient the doctor the nurse the director hired assisted treated recovered."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:31:41.141875+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the critic the fan praised ignored wrote vanished",
+    "the cheese the rat the cat the dog chased caught ate spoiled",
+    "the painting the artist the patron the mayor insulted hired painted faded",
+    "the law the senator the lobbyist the citizen phoned influenced drafted failed",
+    "the software the programmer the manager the director fired blamed developed crashed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the author the critic the fan praised ignored wrote vanished\",\n    \"the cheese the rat the cat the dog chased caught ate spoiled\",\n    \"the painting the artist the patron the mayor insulted hired painted faded\",\n    \"the law the senator the lobbyist the citizen phoned influenced drafted failed\",\n    \"the software the programmer the manager the director fired blamed developed crashed\"\n  ]\n}",
+  "run_idx": 26
+}

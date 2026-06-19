@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the intern wrote leaked",
+    "the song the band played charted",
+    "the dog the boy adopted barked",
+    "the car the mechanic fixed broke",
+    "the chef the waiter the customer praised tipped cooked"
+  ],
+  "induced_prompt_raw": "Generate a sentence containing a single subject relative clause with a transitive verb, structured as: [Subject 1] + [Subject 2] + [Transitive Verb] + [Intransitive/Main Verb] (e.g., \"the [noun] the [noun] [verb] [verb]\"). Avoid nesting multiple relative clauses.",
+  "induced_prompt": "Generate a sentence containing a single subject relative clause with a transitive verb, structured as: [Subject 1] + [Subject 2] + [Transitive Verb] + [Intransitive/Main Verb] (e.g., \"the [noun] the [noun] [verb] [verb]\"). Avoid nesting multiple relative clauses.",
+  "induced_prompt_chars": 263,
+  "induced_prompt_words": 38,
+  "l1_char_total": 182,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the dog chased ran.\",\n    \"The book the student read disappeared.\",\n    \"The song the musician played ended.\",\n    \"The letter the postman delivered arrived.\",\n    \"The car the mechanic fixed broke.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the dog chased ran.",
+    "The book the student read disappeared.",
+    "The song the musician played ended.",
+    "The letter the postman delivered arrived.",
+    "The car the mechanic fixed broke."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:48:28.913438+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the intern wrote leaked",
+    "the song the band played charted",
+    "the dog the boy adopted barked",
+    "the car the mechanic fixed broke"
+  ],
+  "l1_sentences": [
+    "the report the intern wrote leaked",
+    "the song the band played charted",
+    "the dog the boy adopted barked",
+    "the car the mechanic fixed broke",
+    "the chef the waiter the customer praised tipped cooked"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the intern wrote leaked\",\n    \"the song the band played charted\",\n    \"the dog the boy adopted barked\",\n    \"the car the mechanic fixed broke\",\n    \"the chef the waiter the customer praised tipped cooked\"\n  ]\n}",
+  "run_idx": 16
+}

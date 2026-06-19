@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the editor the publisher read approved submitted vanished",
+    "the letter the secretary the manager the director wrote signed forwarded disappeared",
+    "the document the clerk the supervisor the director reviewed endorsed submitted vanished",
+    "the application the candidate the advisor the committee submitted reviewed approved disappeared",
+    "the proposal the student the professor the dean presented evaluated approved vanished"
+  ],
+  "induced_prompt_raw": "A sequence of actions involving multiple agents and documents through stages of processing and disappearance",
+  "induced_prompt": "A sequence of actions involving multiple agents and documents through stages of processing and disappearance",
+  "induced_prompt_chars": 108,
+  "induced_prompt_words": 15,
+  "l1_char_total": 428,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"A document is drafted by Agent A and passed to Agent B for review.\", \"Agent B annotates the document with corrections and forwards it to Agent C for approval.\", \"Agent C verifies the changes, signs the document digitally, and sends it to a secure server.\", \"The original draft disappears from the shared drive after the signed version is archived.\", \"All agents receive a notification confirming the document's final status and removal from circulation.\"]}",
+  "l2_sentences": [
+    "A document is drafted by Agent A and passed to Agent B for review.",
+    "Agent B annotates the document with corrections and forwards it to Agent C for approval.",
+    "Agent C verifies the changes, signs the document digitally, and sends it to a secure server.",
+    "The original draft disappears from the shared drive after the signed version is archived.",
+    "All agents receive a notification confirming the document's final status and removal from circulation."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:08:47.806931+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the editor the publisher read approved submitted vanished",
+    "the letter the secretary the manager the director wrote signed forwarded disappeared",
+    "the document the clerk the supervisor the director reviewed endorsed submitted vanished",
+    "the application the candidate the advisor the committee submitted reviewed approved disappeared",
+    "the proposal the student the professor the dean presented evaluated approved vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher read approved submitted vanished\", \"the letter the secretary the manager the director wrote signed forwarded disappeared\", \"the document the clerk the supervisor the director reviewed endorsed submitted vanished\", \"the application the candidate the advisor the committee submitted reviewed approved disappeared\", \"the proposal the student the professor the dean presented evaluated approved vanished\"]}",
+  "run_idx": 5
+}

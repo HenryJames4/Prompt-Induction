@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the mouse the cheese the trap chased ate avoided disappeared.",
+    "the boy the girl the book the teacher gave read understood forgot.",
+    "the car the truck the road the driver followed crossed blocked stopped.",
+    "the tree the bird the nest the egg shook fell cracked hatched.",
+    "the water the boat the fish the angler rocked hooked caught released."
+  ],
+  "induced_prompt_raw": "A sequence of nouns followed by a sequence of verbs.",
+  "induced_prompt": "A sequence of nouns followed by a sequence of verbs.",
+  "induced_prompt_chars": 52,
+  "induced_prompt_words": 10,
+  "l1_char_total": 337,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"Cats dogs birds ran jumped flew.\",\n    \"Books papers pens read wrote drew.\",\n    \"Cars trains planes drove sped soared.\",\n    \"Water juice coffee drank poured sipped.\",\n    \"Sun moon stars shone glowed twinkled.\"\n  ]\n}",
+  "l2_sentences": [
+    "Cats dogs birds ran jumped flew.",
+    "Books papers pens read wrote drew.",
+    "Cars trains planes drove sped soared.",
+    "Water juice coffee drank poured sipped.",
+    "Sun moon stars shone glowed twinkled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:33:32.975073+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the mouse the cheese the trap chased ate avoided disappeared.",
+    "the boy the girl the book the teacher gave read understood forgot.",
+    "the car the truck the road the driver followed crossed blocked stopped.",
+    "the tree the bird the nest the egg shook fell cracked hatched.",
+    "the water the boat the fish the angler rocked hooked caught released."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the mouse the cheese the trap chased ate avoided disappeared.\",\n    \"the boy the girl the book the teacher gave read understood forgot.\",\n    \"the car the truck the road the driver followed crossed blocked stopped.\",\n    \"the tree the bird the nest the egg shook fell cracked hatched.\",\n    \"the water the boat the fish the angler rocked hooked caught released.\"\n  ]\n}",
+  "run_idx": 18
+}

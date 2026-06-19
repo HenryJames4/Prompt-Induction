@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the baker the customer the child admired ordered baked disappeared.",
+    "the car the mechanic the driver the owner called hired fixed broke.",
+    "the novel the writer the agent the fan met represented wrote sold.",
+    "the tree the gardener the owner the visitor observed instructed planted grew.",
+    "the painting the museum the curator the tourist admired selected displayed deteriorated."
+  ],
+  "induced_prompt_raw": "Center-embedded: four NPs, four verbs.",
+  "induced_prompt": "Center-embedded: four NPs, four verbs.",
+  "induced_prompt_chars": 38,
+  "induced_prompt_words": 5,
+  "l1_char_total": 374,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The student that the teacher that the principal that the school hired recommended praised graduated.\",\n    \"The car that the mechanic that the owner that the dealer employed hired maintained drove.\",\n    \"The letter that the secretary that the manager that the director signed wrote typed sent.\",\n    \"The cake that the baker that the customer that the shop paid ordered baked ate.\",\n    \"The movie that the director that the producer that the studio hired funded directed released.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The student that the teacher that the principal that the school hired recommended praised graduated.",
+    "The car that the mechanic that the owner that the dealer employed hired maintained drove.",
+    "The letter that the secretary that the manager that the director signed wrote typed sent.",
+    "The cake that the baker that the customer that the shop paid ordered baked ate.",
+    "The movie that the director that the producer that the studio hired funded directed released."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:12:14.297561+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the baker the customer the child admired ordered baked disappeared.",
+    "the car the mechanic the driver the owner called hired fixed broke.",
+    "the novel the writer the agent the fan met represented wrote sold.",
+    "the tree the gardener the owner the visitor observed instructed planted grew.",
+    "the painting the museum the curator the tourist admired selected displayed deteriorated."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the baker the customer the child admired ordered baked disappeared.\",\n    \"the car the mechanic the driver the owner called hired fixed broke.\",\n    \"the novel the writer the agent the fan met represented wrote sold.\",\n    \"the tree the gardener the owner the visitor observed instructed planted grew.\",\n    \"the painting the museum the curator the tourist admired selected displayed deteriorated.\"\n  ]\n}\n```",
+  "run_idx": 6
+}

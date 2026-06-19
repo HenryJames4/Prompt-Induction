@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the editor recommended sold.",
+    "The song the musician composed played.",
+    "The game the team practiced won.",
+    "The painting the artist created exhibited.",
+    "The teacher the student the principal praised congratulated thanked."
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a subject-relative clause structure where the main clause follows the relative clause, using only one level of embedding (no nested relative clauses).\"",
+  "induced_prompt": "\"Generate sentences with a subject-relative clause structure where the main clause follows the relative clause, using only one level of embedding (no nested relative clauses).\"",
+  "induced_prompt_chars": 176,
+  "induced_prompt_words": 25,
+  "l1_char_total": 217,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book, which was written by a famous author, became a bestseller.\", \"The dog, which barked loudly all night, kept the neighbors awake.\", \"The cake, which was baked by my grandmother, tasted delicious.\", \"The car, which had been parked in the garage, was covered in dust.\", \"The painting, which was created by a local artist, sold for a high price.\"]}",
+  "l2_sentences": [
+    "The book, which was written by a famous author, became a bestseller.",
+    "The dog, which barked loudly all night, kept the neighbors awake.",
+    "The cake, which was baked by my grandmother, tasted delicious.",
+    "The car, which had been parked in the garage, was covered in dust.",
+    "The painting, which was created by a local artist, sold for a high price."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:36:55.309205+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the editor recommended sold.",
+    "The song the musician composed played.",
+    "The game the team practiced won.",
+    "The painting the artist created exhibited."
+  ],
+  "l1_sentences": [
+    "The book the editor recommended sold.",
+    "The song the musician composed played.",
+    "The game the team practiced won.",
+    "The painting the artist created exhibited.",
+    "The teacher the student the principal praised congratulated thanked."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the editor recommended sold.\", \"The song the musician composed played.\", \"The game the team practiced won.\", \"The painting the artist created exhibited.\", \"The teacher the student the principal praised congratulated thanked.\"]}",
+  "run_idx": 4
+}

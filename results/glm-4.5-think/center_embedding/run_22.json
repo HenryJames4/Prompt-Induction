@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the book the author the student the teacher read wrote corrected appeared.",
+    "the car the driver the owner the mechanic repaired drove washed vanished.",
+    "the house the builder the inspector the buyer inspected built approved stood.",
+    "the cake the baker the decorator the child decorated baked tasted disappeared."
+  ],
+  "induced_prompt_raw": "Patient, three agents, four verbs: first three transitive (agents on patient), last intransitive (patient).",
+  "induced_prompt": "Patient, three agents, four verbs: first three transitive (agents on patient), last intransitive (patient).",
+  "induced_prompt_chars": 107,
+  "induced_prompt_words": 14,
+  "l1_char_total": 388,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The chef prepared the meal, the waiter served the meal, the critic tasted the meal, and the meal cooled.\",\n    \"The teacher graded the exam, the student took the exam, the proctor monitored the exam, and the exam vanished.\",\n    \"The artist painted the mural, the vandal defaced the mural, the photographer captured the mural, and the mural faded.\",\n    \"The gardener watered the plants, the deer ate the plants, the child picked the plants, and the plants wilted.\",\n    \"The mechanic repaired the engine, the driver tested the engine, the inspector examined the engine, and the engine rumbled.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The chef prepared the meal, the waiter served the meal, the critic tasted the meal, and the meal cooled.",
+    "The teacher graded the exam, the student took the exam, the proctor monitored the exam, and the exam vanished.",
+    "The artist painted the mural, the vandal defaced the mural, the photographer captured the mural, and the mural faded.",
+    "The gardener watered the plants, the deer ate the plants, the child picked the plants, and the plants wilted.",
+    "The mechanic repaired the engine, the driver tested the engine, the inspector examined the engine, and the engine rumbled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:41:24.145931+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the book the author the student the teacher read wrote corrected appeared.",
+    "the car the driver the owner the mechanic repaired drove washed vanished.",
+    "the house the builder the inspector the buyer inspected built approved stood.",
+    "the cake the baker the decorator the child decorated baked tasted disappeared."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared.\",\n    \"the book the author the student the teacher read wrote corrected appeared.\",\n    \"the car the driver the owner the mechanic repaired drove washed vanished.\",\n    \"the house the builder the inspector the buyer inspected built approved stood.\",\n    \"the cake the baker the decorator the child decorated baked tasted disappeared.\"\n  ]\n}\n```",
+  "run_idx": 22
+}

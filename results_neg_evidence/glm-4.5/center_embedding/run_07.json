@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client discussed presented accepted implemented",
+    "the movie the critic the audience the producer watched reviewed praised nominated",
+    "the house the owner the agent sold renovated listed"
+  ],
+  "induced_prompt_raw": "Generate a sentence with a noun followed by three agents and four verbs in sequence.",
+  "induced_prompt": "Generate a sentence with a noun followed by three agents and four verbs in sequence.",
+  "induced_prompt_chars": 84,
+  "induced_prompt_words": 15,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog, cat, bird, and fish ran, jumped, swam, and flew.\",\n    \"The teacher, student, principal, and parent wrote, read, graded, and discussed.\",\n    \"The car, truck, bus, and bike drove, parked, turned, and stopped.\",\n    \"The chef, waiter, manager, and customer cooked, served, cleaned, and ate.\",\n    \"The computer, phone, tablet, and watch processed, displayed, connected, and notified.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog, cat, bird, and fish ran, jumped, swam, and flew.",
+    "The teacher, student, principal, and parent wrote, read, graded, and discussed.",
+    "The car, truck, bus, and bike drove, parked, turned, and stopped.",
+    "The chef, waiter, manager, and customer cooked, served, cleaned, and ate.",
+    "The computer, phone, tablet, and watch processed, displayed, connected, and notified."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:50:48.514792+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client discussed presented accepted implemented",
+    "the movie the critic the audience the producer watched reviewed praised nominated"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client discussed presented accepted implemented",
+    "the movie the critic the audience the producer watched reviewed praised nominated",
+    "the house the owner the agent sold renovated listed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read reviewed recommended returned\",\n    \"the plan the manager the team the client discussed presented accepted implemented\",\n    \"the movie the critic the audience the producer watched reviewed praised nominated\",\n    \"the house the owner the agent sold renovated listed\"\n  ]\n}",
+  "run_idx": 7
+}

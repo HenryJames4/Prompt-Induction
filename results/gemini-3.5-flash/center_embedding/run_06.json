@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the chef the waiter the customer the manager noticed thanked tipped rewarded",
+    "the book the student the tutor the professor recommended borrowed reviewed graded",
+    "the dog the cat the mouse the child chased frightened scratched bit",
+    "the song the singer the producer the listener disliked changed recorded loved",
+    "the car the driver the mechanic the officer stopped hired questioned blamed"
+  ],
+  "induced_prompt_raw": "Write a sentence with triple nested relative clauses (multiply center-embedded clauses) following the syntactic template: \"the [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb1] [Verb2] [Verb3] [Verb4]\".",
+  "induced_prompt": "Write a sentence with triple nested relative clauses (multiply center-embedded clauses) following the syntactic template: \"the [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb1] [Verb2] [Verb3] [Verb4]\".",
+  "induced_prompt_chars": 204,
+  "induced_prompt_words": 27,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The patient the nurse the doctor the intern assisted supervised monitored recovered.\",\n    \"The report the intern the analyst the manager hired wrote reviewed submitted.\",\n    \"The song the child the student the teacher mentored sang liked remembered.\",\n    \"The painting the guest the artist the museum invited praised admired purchased.\",\n    \"The car the driver the mechanic the inspector warned fixed crashed stopped.\"\n  ]\n}",
+  "l2_sentences": [
+    "The patient the nurse the doctor the intern assisted supervised monitored recovered.",
+    "The report the intern the analyst the manager hired wrote reviewed submitted.",
+    "The song the child the student the teacher mentored sang liked remembered.",
+    "The painting the guest the artist the museum invited praised admired purchased.",
+    "The car the driver the mechanic the inspector warned fixed crashed stopped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:19:03.498010+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the waiter the customer the manager noticed thanked tipped rewarded",
+    "the book the student the tutor the professor recommended borrowed reviewed graded",
+    "the dog the cat the mouse the child chased frightened scratched bit",
+    "the song the singer the producer the listener disliked changed recorded loved",
+    "the car the driver the mechanic the officer stopped hired questioned blamed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the waiter the customer the manager noticed thanked tipped rewarded\",\n    \"the book the student the tutor the professor recommended borrowed reviewed graded\",\n    \"the dog the cat the mouse the child chased frightened scratched bit\",\n    \"the song the singer the producer the listener disliked changed recorded loved\",\n    \"the car the driver the mechanic the officer stopped hired questioned blamed\"\n  ]\n}",
+  "run_idx": 6
+}

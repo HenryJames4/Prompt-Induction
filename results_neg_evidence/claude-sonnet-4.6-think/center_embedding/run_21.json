@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the manuscript the publisher the editor the writer hired impressed rejected vanished",
+    "the proposal the director the manager the employee informed convinced accepted succeeded",
+    "the project the CEO the supervisor the analyst briefed persuaded funded launched",
+    "the article the professor the researcher the student assisted advised published circulated",
+    "the case the judge the attorney persuaded dismissed closed"
+  ],
+  "induced_prompt_raw": "Write triply center-embedded English sentences using exactly 4 noun phrases followed by exactly 4 verbs. Structure: [Object] [Senior Agent] [Mid Agent] [Junior Agent] [V1: Junior acts on Mid] [V2: Mid acts on Senior] [V3: Senior acts on Object] [V4: intransitive for Object]. The three agents should form a clear hierarchy. Always use 4 NPs and 4 verbs—never fewer (avoid double-embedding with only 3 NPs and 3 verbs).",
+  "induced_prompt": "Write triply center-embedded English sentences using exactly 4 noun phrases followed by exactly 4 verbs. Structure: [Object] [Senior Agent] [Mid Agent] [Junior Agent] [V1: Junior acts on Mid] [V2: Mid acts on Senior] [V3: Senior acts on Object] [V4: intransitive for Object]. The three agents should form a clear hierarchy. Always use 4 NPs and 4 verbs—never fewer (avoid double-embedding with only 3 NPs and 3 verbs).",
+  "induced_prompt_chars": 418,
+  "induced_prompt_words": 67,
+  "l1_char_total": 400,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The malt the rat the cat the dog chased killed ate fermented.\",\n    \"The legislation the senator the lobbyist the activist pressured convinced passed expired.\",\n    \"The bone the wolf the fox the rabbit startled distracted buried decomposed.\",\n    \"The treaty the king the duke the knight impressed convinced signed expired.\",\n    \"The book the professor the student the child confused inspired wrote sold.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The malt the rat the cat the dog chased killed ate fermented.",
+    "The legislation the senator the lobbyist the activist pressured convinced passed expired.",
+    "The bone the wolf the fox the rabbit startled distracted buried decomposed.",
+    "The treaty the king the duke the knight impressed convinced signed expired.",
+    "The book the professor the student the child confused inspired wrote sold."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:13:15.305592+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the manuscript the publisher the editor the writer hired impressed rejected vanished",
+    "the proposal the director the manager the employee informed convinced accepted succeeded",
+    "the project the CEO the supervisor the analyst briefed persuaded funded launched",
+    "the article the professor the researcher the student assisted advised published circulated"
+  ],
+  "l1_sentences": [
+    "the manuscript the publisher the editor the writer hired impressed rejected vanished",
+    "the proposal the director the manager the employee informed convinced accepted succeeded",
+    "the project the CEO the supervisor the analyst briefed persuaded funded launched",
+    "the article the professor the researcher the student assisted advised published circulated",
+    "the case the judge the attorney persuaded dismissed closed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the manuscript the publisher the editor the writer hired impressed rejected vanished\",\n    \"the proposal the director the manager the employee informed convinced accepted succeeded\",\n    \"the project the CEO the supervisor the analyst briefed persuaded funded launched\",\n    \"the article the professor the researcher the student assisted advised published circulated\",\n    \"the case the judge the attorney persuaded dismissed closed\"\n  ]\n}\n```",
+  "run_idx": 21
+}

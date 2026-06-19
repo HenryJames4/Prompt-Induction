@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the reviewer wrote edited printed sold",
+    "the car the mechanic the dealer the customer bought repaired sold drove",
+    "the cake the baker the customer the chef decorated baked served ate",
+    "the song the singer the producer the band recorded mixed performed played",
+    "the house the architect the builder the homeowner designed constructed sold moved"
+  ],
+  "induced_prompt_raw": "NOUN the ROLE the ROLE the ROLE VERB VERB VERB VERB",
+  "induced_prompt": "NOUN the ROLE the ROLE the ROLE VERB VERB VERB VERB",
+  "induced_prompt_chars": 51,
+  "induced_prompt_words": 11,
+  "l1_char_total": 364,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The architect the designer the designer the designer creates creates creates creates\", \"The engineer the builder the builder the builder constructs constructs constructs constructs\", \"The teacher the mentor the mentor the mentor guides guides guides guides\", \"The scientist the researcher the researcher the researcher discovers discovers discovers discovers\", \"The writer the author the author the author writes writes writes writes\"]}",
+  "l2_sentences": [
+    "The architect the designer the designer the designer creates creates creates creates",
+    "The engineer the builder the builder the builder constructs constructs constructs constructs",
+    "The teacher the mentor the mentor the mentor guides guides guides guides",
+    "The scientist the researcher the researcher the researcher discovers discovers discovers discovers",
+    "The writer the author the author the author writes writes writes writes"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:23:06.353005+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the reviewer wrote edited printed sold",
+    "the car the mechanic the dealer the customer bought repaired sold drove",
+    "the cake the baker the customer the chef decorated baked served ate",
+    "the song the singer the producer the band recorded mixed performed played",
+    "the house the architect the builder the homeowner designed constructed sold moved"
+  ],
+  "l1_raw": "{\"sentences\":[\"the book the author the publisher the reviewer wrote edited printed sold\",\"the car the mechanic the dealer the customer bought repaired sold drove\",\"the cake the baker the customer the chef decorated baked served ate\",\"the song the singer the producer the band recorded mixed performed played\",\"the house the architect the builder the homeowner designed constructed sold moved\"]}",
+  "run_idx": 13
+}

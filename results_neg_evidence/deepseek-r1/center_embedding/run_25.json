@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the agent represented reviewed published sold",
+    "the cake the baker the chef the apprentice made decorated presented tasted",
+    "the house the architect the builder the worker constructed designed inspected collapsed",
+    "the software the developer the manager the tester tested coded approved crashed",
+    "the dog the owner the trainer trained walked barked"
+  ],
+  "induced_prompt_raw": "Compose a sentence with four noun phrases, each starting with \"the\", followed by four verbs. The verbs must sequentially represent: an action by the fourth noun on the third noun, then by the third noun on the second noun, then by the second noun on the first noun, and finally an action by the first noun alone.",
+  "induced_prompt": "Compose a sentence with four noun phrases, each starting with \"the\", followed by four verbs. The verbs must sequentially represent: an action by the fourth noun on the third noun, then by the third noun on the second noun, then by the second noun on the first noun, and finally an action by the first noun alone.",
+  "induced_prompt_chars": 312,
+  "induced_prompt_words": 57,
+  "l1_char_total": 370,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The bat swung the ball, the ball struck the glove, the glove protected the hand, and the hand clenched.\", \"The storm shook the tree, the tree dropped the apple, the apple bruised the ground, and the ground softened.\", \"The king ordered the knight, the knight challenged the dragon, the dragon scorched the castle, and the castle crumbled.\", \"The river eroded the rock, the rock diverted the stream, the stream nourished the field, and the field bloomed.\", \"The chef seasoned the dish, the dish delighted the guest, the guest praised the host, and the host smiled.\"]}",
+  "l2_sentences": [
+    "The bat swung the ball, the ball struck the glove, the glove protected the hand, and the hand clenched.",
+    "The storm shook the tree, the tree dropped the apple, the apple bruised the ground, and the ground softened.",
+    "The king ordered the knight, the knight challenged the dragon, the dragon scorched the castle, and the castle crumbled.",
+    "The river eroded the rock, the rock diverted the stream, the stream nourished the field, and the field bloomed.",
+    "The chef seasoned the dish, the dish delighted the guest, the guest praised the host, and the host smiled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:18:34.651715+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the agent represented reviewed published sold",
+    "the cake the baker the chef the apprentice made decorated presented tasted",
+    "the house the architect the builder the worker constructed designed inspected collapsed",
+    "the software the developer the manager the tester tested coded approved crashed"
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the agent represented reviewed published sold",
+    "the cake the baker the chef the apprentice made decorated presented tasted",
+    "the house the architect the builder the worker constructed designed inspected collapsed",
+    "the software the developer the manager the tester tested coded approved crashed",
+    "the dog the owner the trainer trained walked barked"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the agent represented reviewed published sold\", \"the cake the baker the chef the apprentice made decorated presented tasted\", \"the house the architect the builder the worker constructed designed inspected collapsed\", \"the software the developer the manager the tester tested coded approved crashed\", \"the dog the owner the trainer trained walked barked\"]}",
+  "run_idx": 25
+}

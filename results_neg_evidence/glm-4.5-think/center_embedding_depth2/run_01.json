@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read sold.",
+    "the man the woman saw smiled.",
+    "the house the architect designed collapsed.",
+    "the cat the dog the man chased bit escaped."
+  ],
+  "induced_prompt_raw": "Generate a sentence with a head noun, a relative subject, a relative verb, and a main verb in sequence. The relative clause modifies the head noun. Avoid three consecutive nouns.",
+  "induced_prompt": "Generate a sentence with a head noun, a relative subject, a relative verb, and a main verb in sequence. The relative clause modifies the head noun. Avoid three consecutive nouns.",
+  "induced_prompt_chars": 178,
+  "induced_prompt_words": 30,
+  "l1_char_total": 177,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The car that she drives is red.\",\n    \"The house which they built stands on the hill.\",\n    \"The dog that he adopted became famous.\",\n    \"The idea which we proposed was accepted.\",\n    \"The movie that I watched won an award.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The car that she drives is red.",
+    "The house which they built stands on the hill.",
+    "The dog that he adopted became famous.",
+    "The idea which we proposed was accepted.",
+    "The movie that I watched won an award."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:35:11.243933+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased escaped.",
+    "the book the student read sold.",
+    "the man the woman saw smiled.",
+    "the house the architect designed collapsed."
+  ],
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read sold.",
+    "the man the woman saw smiled.",
+    "the house the architect designed collapsed.",
+    "the cat the dog the man chased bit escaped."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read sold.\",\n    \"the man the woman saw smiled.\",\n    \"the house the architect designed collapsed.\",\n    \"the cat the dog the man chased bit escaped.\"\n  ]\n}\n```",
+  "run_idx": 1
+}

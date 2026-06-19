@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic the student the professor assigned recommended reviewed vanished",
+    "the contract the lawyer the clerk the manager hired drafted signed expired",
+    "the painting the curator the artist the collector admired displayed created sold",
+    "the letter the secretary the director the board elected typed sent approved",
+    "the film the director the actor hired produced released"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly 4 nouns followed by exactly 4 verbs, where each verb corresponds to the nouns in reverse order.",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly 4 nouns followed by exactly 4 verbs, where each verb corresponds to the nouns in reverse order.",
+  "induced_prompt_chars": 157,
+  "induced_prompt_words": 25,
+  "l1_char_total": 368,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog the rat the man caught chased scared fled.\", \"The girl the boy the teacher the principal praised taught liked smiled.\", \"The book the student the professor the dean assigned read reviewed approved.\", \"The mouse the cat the dog the owner fed chased scared fled.\", \"The child the parent the doctor the nurse helped treated examined left.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog the rat the man caught chased scared fled.",
+    "The girl the boy the teacher the principal praised taught liked smiled.",
+    "The book the student the professor the dean assigned read reviewed approved.",
+    "The mouse the cat the dog the owner fed chased scared fled.",
+    "The child the parent the doctor the nurse helped treated examined left."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:59:28.463154+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic the student the professor assigned recommended reviewed vanished",
+    "the contract the lawyer the clerk the manager hired drafted signed expired",
+    "the painting the curator the artist the collector admired displayed created sold",
+    "the letter the secretary the director the board elected typed sent approved"
+  ],
+  "l1_sentences": [
+    "the book the critic the student the professor assigned recommended reviewed vanished",
+    "the contract the lawyer the clerk the manager hired drafted signed expired",
+    "the painting the curator the artist the collector admired displayed created sold",
+    "the letter the secretary the director the board elected typed sent approved",
+    "the film the director the actor hired produced released"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the critic the student the professor assigned recommended reviewed vanished\",\n    \"the contract the lawyer the clerk the manager hired drafted signed expired\",\n    \"the painting the curator the artist the collector admired displayed created sold\",\n    \"the letter the secretary the director the board elected typed sent approved\",\n    \"the film the director the actor hired produced released\"\n  ]\n}\n```",
+  "run_idx": 13
+}

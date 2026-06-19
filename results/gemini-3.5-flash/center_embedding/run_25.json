@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the rat the mouse feared chased scratched barked",
+    "the patient the doctor the nurse the student assisted supervised treated recovered",
+    "the project the engineer the manager the director hired questioned approved failed",
+    "the building the architect the inspector the chief scolded questioned designed collapsed",
+    "the law the citizen the lawyer the judge questioned advised challenged changed"
+  ],
+  "induced_prompt_raw": "Generate a sentence with three levels of center-embedding (a quadruple-subject quadruple-verb construction), following the syntactic pattern: [Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1].",
+  "induced_prompt": "Generate a sentence with three levels of center-embedding (a quadruple-subject quadruple-verb construction), following the syntactic pattern: [Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1].",
+  "induced_prompt_chars": 214,
+  "induced_prompt_words": 32,
+  "l1_char_total": 394,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chefs the waiters the patrons the critics praised disliked avoided resigned.\",\n    \"The artists the collectors the dealers the curators ignored supported questioned retired.\",\n    \"The students the teachers the principals the superintendents feared respected disliked resigned.\",\n    \"The programmers the users the testers the managers hired blamed trusted quit.\",\n    \"The dogs the cats the mice the birds watched chased feared fled.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chefs the waiters the patrons the critics praised disliked avoided resigned.",
+    "The artists the collectors the dealers the curators ignored supported questioned retired.",
+    "The students the teachers the principals the superintendents feared respected disliked resigned.",
+    "The programmers the users the testers the managers hired blamed trusted quit.",
+    "The dogs the cats the mice the birds watched chased feared fled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:30:22.099073+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the rat the mouse feared chased scratched barked",
+    "the patient the doctor the nurse the student assisted supervised treated recovered",
+    "the project the engineer the manager the director hired questioned approved failed",
+    "the building the architect the inspector the chief scolded questioned designed collapsed",
+    "the law the citizen the lawyer the judge questioned advised challenged changed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the dog the cat the rat the mouse feared chased scratched barked\",\n    \"the patient the doctor the nurse the student assisted supervised treated recovered\",\n    \"the project the engineer the manager the director hired questioned approved failed\",\n    \"the building the architect the inspector the chief scolded questioned designed collapsed\",\n    \"the law the citizen the lawyer the judge questioned advised challenged changed\"\n  ]\n}",
+  "run_idx": 25
+}

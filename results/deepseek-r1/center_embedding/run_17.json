@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the mouse the cheese nibbled chased saw barked",
+    "the book the author the editor the publisher reviewed approved printed sold",
+    "the car the driver the mechanic the owner called hired repaired broke",
+    "the cake the baker the child the parent watched helped baked vanished",
+    "the letter the manager the secretary the intern typed signed mailed arrived"
+  ],
+  "induced_prompt_raw": "Based on the given sentences, the syntactic structure consistently follows a pattern of four noun phrases followed by four verbs, where each verb corresponds to a specific noun in reverse order with object relationships. The inferred prompt capturing this structure is:\n\n**Prompt:**  \n`Four nouns (A B C D) then four verbs (V1 V2 V3 V4): D V1 C, C V2 B, B V3 A, A V4.`\n\n### Explanation:\n- **A B C D**: Represents the sequence of nouns (e.g., `dog, cat, mouse, cheese`).  \n- **V1 V2 V3 V4**: Represents the sequence of verbs (e.g., `nibbled, chased, saw, barked`).  \n- **Relations**:  \n  - `D V1 C` → Last noun (D) performs V1 on the third noun (C).  \n  - `C V2 B` → Third noun (C) performs V2 on the second noun (B).  \n  - `B V3 A` → Second noun (B) performs V3 on the first noun (A).  \n  - `A V4` → First noun (A) performs V4 (intransitive).  \n\nThis prompt is **shorter than the original list** (1 line vs. 5 sentences) and avoids copying any example. It generalizes the nested object-relative clause structure observed across all sentences.",
+  "induced_prompt": "Based on the given sentences, the syntactic structure consistently follows a pattern of four noun phrases followed by four verbs, where each verb corresponds to a specific noun in reverse order with object relationships. The inferred prompt capturing this structure is:\n\n**Prompt:**  \n`Four nouns (A B C D) then four verbs (V1 V2 V3 V4): D V1 C, C V2 B, B V3 A, A V4.`\n\n### Explanation:\n- **A B C D**: Represents the sequence of nouns (e.g., `dog, cat, mouse, cheese`).  \n- **V1 V2 V3 V4**: Represents the sequence of verbs (e.g., `nibbled, chased, saw, barked`).  \n- **Relations**:  \n  - `D V1 C` → Last noun (D) performs V1 on the third noun (C).  \n  - `C V2 B` → Third noun (C) performs V2 on the second noun (B).  \n  - `B V3 A` → Second noun (B) performs V3 on the first noun (A).  \n  - `A V4` → First noun (A) performs V4 (intransitive).  \n\nThis prompt is **shorter than the original list** (1 line vs. 5 sentences) and avoids copying any example. It generalizes the nested object-relative clause structure observed across all sentences.",
+  "induced_prompt_chars": 1042,
+  "induced_prompt_words": 184,
+  "l1_char_total": 350,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"Four nouns: king, queen, knight, dragon and four verbs: guarded, advised, ruled, slept.\", \"The dragon guarded the knight.\", \"The knight advised the queen.\", \"The queen ruled the king.\", \"The king slept.\"]}",
+  "l2_sentences": [
+    "Four nouns: king, queen, knight, dragon and four verbs: guarded, advised, ruled, slept.",
+    "The dragon guarded the knight.",
+    "The knight advised the queen.",
+    "The queen ruled the king.",
+    "The king slept."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:33:01.546617+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the mouse the cheese nibbled chased saw barked",
+    "the book the author the editor the publisher reviewed approved printed sold",
+    "the car the driver the mechanic the owner called hired repaired broke",
+    "the cake the baker the child the parent watched helped baked vanished",
+    "the letter the manager the secretary the intern typed signed mailed arrived"
+  ],
+  "l1_raw": "{\"sentences\": [\n  \"the dog the cat the mouse the cheese nibbled chased saw barked\",\n  \"the book the author the editor the publisher reviewed approved printed sold\",\n  \"the car the driver the mechanic the owner called hired repaired broke\",\n  \"the cake the baker the child the parent watched helped baked vanished\",\n  \"the letter the manager the secretary the intern typed signed mailed arrived\"\n]}",
+  "run_idx": 17
+}

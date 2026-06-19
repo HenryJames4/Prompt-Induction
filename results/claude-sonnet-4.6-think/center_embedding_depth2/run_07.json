@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef baked burned.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The book the author finished sold.",
+    "The report the manager submitted failed."
+  ],
+  "induced_prompt_raw": "Write sentences using reduced object relative clauses where a noun modified by an embedded agent-action phrase serves as the subject of a past-tense main verb.",
+  "induced_prompt": "Write sentences using reduced object relative clauses where a noun modified by an embedded agent-action phrase serves as the subject of a past-tense main verb.",
+  "induced_prompt_chars": 159,
+  "induced_prompt_words": 25,
+  "l1_char_total": 185,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The letter written by the professor confused the entire class.\", \"The painting stolen by the thief was recovered by detectives last week.\", \"The cake baked by my grandmother disappeared before dinner ended.\", \"The report submitted by the intern impressed the entire board.\", \"The bridge designed by the famous engineer collapsed during the storm.\"]}\n```",
+  "l2_sentences": [
+    "The letter written by the professor confused the entire class.",
+    "The painting stolen by the thief was recovered by detectives last week.",
+    "The cake baked by my grandmother disappeared before dinner ended.",
+    "The report submitted by the intern impressed the entire board.",
+    "The bridge designed by the famous engineer collapsed during the storm."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:38:31.726319+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef baked burned.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The book the author finished sold.",
+    "The report the manager submitted failed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The cake the chef baked burned.\", \"The letter the student wrote arrived.\", \"The bridge the engineer designed collapsed.\", \"The book the author finished sold.\", \"The report the manager submitted failed.\"]}\n```",
+  "run_idx": 7
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the package the courier the manager the client hired dispatched tracked arrived",
+    "the novel the author the editor the publisher praised revised accepted launched",
+    "the project the engineer the supervisor the director designed approved funded completed",
+    "the meal the chef the critic the owner prepared reviewed praised served",
+    "the letter the secretary the boss approved sent"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly 4 levels of nesting, where four noun phrases are each modified by a relative clause, followed by four verbs in reverse order of their subjects. Each sentence must have 4 agents and 4 verbs (not fewer).",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly 4 levels of nesting, where four noun phrases are each modified by a relative clause, followed by four verbs in reverse order of their subjects. Each sentence must have 4 agents and 4 verbs (not fewer).",
+  "induced_prompt_chars": 263,
+  "induced_prompt_words": 44,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that the dog that the mouse that the bird chased scared caught slept.\",\n    \"The knight that the king that the queen that the bishop crowned ruled knighted won.\",\n    \"The fish that the shark that the whale that the diver spotted hunted caught swam.\",\n    \"The boy that the girl that the teacher that the principal hired taught liked ran.\",\n    \"The wolf that the bear that the deer that the fox tricked followed chased howled.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the mouse that the bird chased scared caught slept.",
+    "The knight that the king that the queen that the bishop crowned ruled knighted won.",
+    "The fish that the shark that the whale that the diver spotted hunted caught swam.",
+    "The boy that the girl that the teacher that the principal hired taught liked ran.",
+    "The wolf that the bear that the deer that the fox tricked followed chased howled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:26:01.563918+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the package the courier the manager the client hired dispatched tracked arrived",
+    "the novel the author the editor the publisher praised revised accepted launched",
+    "the project the engineer the supervisor the director designed approved funded completed",
+    "the meal the chef the critic the owner prepared reviewed praised served"
+  ],
+  "l1_sentences": [
+    "the package the courier the manager the client hired dispatched tracked arrived",
+    "the novel the author the editor the publisher praised revised accepted launched",
+    "the project the engineer the supervisor the director designed approved funded completed",
+    "the meal the chef the critic the owner prepared reviewed praised served",
+    "the letter the secretary the boss approved sent"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the package the courier the manager the client hired dispatched tracked arrived\", \"the novel the author the editor the publisher praised revised accepted launched\", \"the project the engineer the supervisor the director designed approved funded completed\", \"the meal the chef the critic the owner prepared reviewed praised served\", \"the letter the secretary the boss approved sent\"]}\n```",
+  "run_idx": 30
+}

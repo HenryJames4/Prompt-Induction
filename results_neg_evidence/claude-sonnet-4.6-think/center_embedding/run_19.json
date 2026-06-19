@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the news the anchor the reporter the source contacted interviewed broadcast spread",
+    "the bill the senator the lobbyist the aide briefed persuaded signed passed",
+    "the letter the dean the professor the student consulted advised wrote circulated",
+    "the proposal the committee the director the intern informed consulted approved passed",
+    "the article the journalist the editor hired wrote published"
+  ],
+  "induced_prompt_raw": "Write triply center-embedded English sentences using exactly 4 noun phrases (each beginning with \"the\") followed by exactly 4 verbs, where each noun phrase is the object of the following verb and the subject of the preceding one. Use 4 levels of embedding, not 3.",
+  "induced_prompt": "Write triply center-embedded English sentences using exactly 4 noun phrases (each beginning with \"the\") followed by exactly 4 verbs, where each noun phrase is the object of the following verb and the subject of the preceding one. Use 4 levels of embedding, not 3.",
+  "induced_prompt_chars": 263,
+  "induced_prompt_words": 44,
+  "l1_char_total": 380,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog the cat the rat the mouse bit chased killed barked.\",\n    \"The paper the student the teacher the dean hired graded wrote failed.\",\n    \"The building the contractor the architect the city commissioned supervised built stood.\",\n    \"The hypothesis the experiment the student the professor assigned completed confirmed held.\",\n    \"The treasure the dragon the knight the king summoned defeated guarded vanished.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog the cat the rat the mouse bit chased killed barked.",
+    "The paper the student the teacher the dean hired graded wrote failed.",
+    "The building the contractor the architect the city commissioned supervised built stood.",
+    "The hypothesis the experiment the student the professor assigned completed confirmed held.",
+    "The treasure the dragon the knight the king summoned defeated guarded vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:11:05.127250+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the news the anchor the reporter the source contacted interviewed broadcast spread",
+    "the bill the senator the lobbyist the aide briefed persuaded signed passed",
+    "the letter the dean the professor the student consulted advised wrote circulated",
+    "the proposal the committee the director the intern informed consulted approved passed"
+  ],
+  "l1_sentences": [
+    "the news the anchor the reporter the source contacted interviewed broadcast spread",
+    "the bill the senator the lobbyist the aide briefed persuaded signed passed",
+    "the letter the dean the professor the student consulted advised wrote circulated",
+    "the proposal the committee the director the intern informed consulted approved passed",
+    "the article the journalist the editor hired wrote published"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the news the anchor the reporter the source contacted interviewed broadcast spread\",\n    \"the bill the senator the lobbyist the aide briefed persuaded signed passed\",\n    \"the letter the dean the professor the student consulted advised wrote circulated\",\n    \"the proposal the committee the director the intern informed consulted approved passed\",\n    \"the article the journalist the editor hired wrote published\"\n  ]\n}\n```",
+  "run_idx": 19
+}

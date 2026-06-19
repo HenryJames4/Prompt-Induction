@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the student the teacher helped graduated",
+    "the dog the boy chased escaped",
+    "the car the mechanic repaired started",
+    "the book the author wrote disappeared",
+    "the patient the doctor treated recovered"
+  ],
+  "induced_prompt_raw": "Write sentences following the pattern: \"the [noun] the [noun] [transitive verb] [intransitive verb]\" in the past tense.",
+  "induced_prompt": "Write sentences following the pattern: \"the [noun] the [noun] [transitive verb] [intransitive verb]\" in the past tense.",
+  "induced_prompt_chars": 119,
+  "induced_prompt_words": 17,
+  "l1_char_total": 184,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the man trained barked.\",\n    \"The toy the child broke vanished.\",\n    \"The glass the guest dropped shattered.\",\n    \"The thief the police caught escaped.\",\n    \"The bridge the engineer built collapsed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the man trained barked.",
+    "The toy the child broke vanished.",
+    "The glass the guest dropped shattered.",
+    "The thief the police caught escaped.",
+    "The bridge the engineer built collapsed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:42:31.779008+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the student the teacher helped graduated",
+    "the dog the boy chased escaped",
+    "the car the mechanic repaired started",
+    "the book the author wrote disappeared",
+    "the patient the doctor treated recovered"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the student the teacher helped graduated\",\n    \"the dog the boy chased escaped\",\n    \"the car the mechanic repaired started\",\n    \"the book the author wrote disappeared\",\n    \"the patient the doctor treated recovered\"\n  ]\n}\n```",
+  "run_idx": 22
+}

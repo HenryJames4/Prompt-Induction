@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor read sold.",
+    "the film the director filmed won.",
+    "the poem the poet wrote pleased.",
+    "the story the writer told moved.",
+    "the song the singer sang touched."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [past participle]",
+  "induced_prompt": "the [noun] the [role] [verb] [past participle]",
+  "induced_prompt_chars": 46,
+  "induced_prompt_words": 7,
+  "l1_char_total": 160,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the veterinarian treated was finally cured.\", \"The book the librarian shelved was lost for years.\", \"The car the mechanic repaired ran smoothly again.\", \"The song the singer performed was praised by critics.\", \"The project the manager completed was awarded an honor.\"]}",
+  "l2_sentences": [
+    "The cat the veterinarian treated was finally cured.",
+    "The book the librarian shelved was lost for years.",
+    "The car the mechanic repaired ran smoothly again.",
+    "The song the singer performed was praised by critics.",
+    "The project the manager completed was awarded an honor."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:59:17.407182+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor read sold.",
+    "the film the director filmed won.",
+    "the poem the poet wrote pleased.",
+    "the story the writer told moved.",
+    "the song the singer sang touched."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor read sold.\", \"the film the director filmed won.\", \"the poem the poet wrote pleased.\", \"the story the writer told moved.\", \"the song the singer sang touched.\"]}",
+  "run_idx": 1
+}

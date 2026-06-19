@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the problem the expert the student the professor taught helped solved disappeared.",
+    "the book the author the editor the publisher hired edited wrote vanished.",
+    "the project the manager the employee the client funded supervised completed failed.",
+    "the idea the scientist the student the teacher taught inspired proposed faded.",
+    "the movie the director the actor the producer hired directed promoted flopped."
+  ],
+  "induced_prompt_raw": "Nested relative clauses: four nouns followed by four verbs in reverse order.",
+  "induced_prompt": "Nested relative clauses: four nouns followed by four verbs in reverse order.",
+  "induced_prompt_chars": 76,
+  "induced_prompt_words": 12,
+  "l1_char_total": 394,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that the dog that the bird that the fish swam flew chased ate.\",\n    \"The boy that the girl that the man that the woman kicked hit pushed saw.\",\n    \"The car that the truck that the bus that the bike scratched damaged hit crashed.\",\n    \"The teacher that the student that the principal that the dean expelled punished scolded praised.\",\n    \"The king that the queen that the prince that the princess despised admired hated loved.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the bird that the fish swam flew chased ate.",
+    "The boy that the girl that the man that the woman kicked hit pushed saw.",
+    "The car that the truck that the bus that the bike scratched damaged hit crashed.",
+    "The teacher that the student that the principal that the dean expelled punished scolded praised.",
+    "The king that the queen that the prince that the princess despised admired hated loved."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:26:21.495625+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the problem the expert the student the professor taught helped solved disappeared.",
+    "the book the author the editor the publisher hired edited wrote vanished.",
+    "the project the manager the employee the client funded supervised completed failed.",
+    "the idea the scientist the student the teacher taught inspired proposed faded.",
+    "the movie the director the actor the producer hired directed promoted flopped."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the problem the expert the student the professor taught helped solved disappeared.\",\n    \"the book the author the editor the publisher hired edited wrote vanished.\",\n    \"the project the manager the employee the client funded supervised completed failed.\",\n    \"the idea the scientist the student the teacher taught inspired proposed faded.\",\n    \"the movie the director the actor the producer hired directed promoted flopped.\"\n  ]\n}\n```",
+  "run_idx": 14
+}

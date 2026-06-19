@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the package the courier the manager the client hired supervised delivered arrived",
+    "the cake the baker the judge the contestant trained evaluated baked disappeared",
+    "the letter the clerk the supervisor the director employed trained wrote vanished",
+    "the film the actor the director the producer cast hired filmed premiered",
+    "the dog the boy the woman adopted chased ran"
+  ],
+  "induced_prompt_raw": "Write center-embedded relative clause sentences with exactly 4 levels of embedding, where each noun is modified by a relative clause, producing 4 nouns followed by 4 verbs in reverse order. Do not use fewer than 4 levels of embedding.",
+  "induced_prompt": "Write center-embedded relative clause sentences with exactly 4 levels of embedding, where each noun is modified by a relative clause, producing 4 nouns followed by 4 verbs in reverse order. Do not use fewer than 4 levels of embedding.",
+  "induced_prompt_chars": 234,
+  "induced_prompt_words": 39,
+  "l1_char_total": 356,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the boy that the girl liked owned chased ran away.\", \"The book that the student that the teacher that the principal hired taught read won a prize.\", \"The car that the man that the woman that the child saw drove bought broke down.\", \"The cake that the chef that the owner that the critic praised employed baked disappeared quickly.\", \"The letter that the lawyer that the judge that the clerk assisted appointed wrote arrived yesterday.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the boy that the girl liked owned chased ran away.",
+    "The book that the student that the teacher that the principal hired taught read won a prize.",
+    "The car that the man that the woman that the child saw drove bought broke down.",
+    "The cake that the chef that the owner that the critic praised employed baked disappeared quickly.",
+    "The letter that the lawyer that the judge that the clerk assisted appointed wrote arrived yesterday."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:53:25.448836+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the package the courier the manager the client hired supervised delivered arrived",
+    "the cake the baker the judge the contestant trained evaluated baked disappeared",
+    "the letter the clerk the supervisor the director employed trained wrote vanished",
+    "the film the actor the director the producer cast hired filmed premiered"
+  ],
+  "l1_sentences": [
+    "the package the courier the manager the client hired supervised delivered arrived",
+    "the cake the baker the judge the contestant trained evaluated baked disappeared",
+    "the letter the clerk the supervisor the director employed trained wrote vanished",
+    "the film the actor the director the producer cast hired filmed premiered",
+    "the dog the boy the woman adopted chased ran"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the package the courier the manager the client hired supervised delivered arrived\", \"the cake the baker the judge the contestant trained evaluated baked disappeared\", \"the letter the clerk the supervisor the director employed trained wrote vanished\", \"the film the actor the director the producer cast hired filmed premiered\", \"the dog the boy the woman adopted chased ran\"]}\n```",
+  "run_idx": 9
+}

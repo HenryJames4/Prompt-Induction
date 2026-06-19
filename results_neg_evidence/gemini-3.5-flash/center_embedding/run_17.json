@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The contract the lawyer the client the secretary called analyzed signed vanished.",
+    "The song the singer the producer the director hired created performed failed.",
+    "The meal the chef the critic the blogger mentioned praised cooked burned.",
+    "The car the mechanic the driver parked repaired broke."
+  ],
+  "induced_prompt_raw": "Generate a sentence with four nouns/noun phrases followed by four verbs, forming a triple-nested relative clause structure (e.g., [Noun1 [Noun2 [Noun3 [Noun4 + Verb4] + Verb3] + Verb2] + Verb1]), ensuring no verbs or nouns are omitted.",
+  "induced_prompt": "Generate a sentence with four nouns/noun phrases followed by four verbs, forming a triple-nested relative clause structure (e.g., [Noun1 [Noun2 [Noun3 [Noun4 + Verb4] + Verb3] + Verb2] + Verb1]), ensuring no verbs or nouns are omitted.",
+  "induced_prompt_chars": 235,
+  "induced_prompt_words": 37,
+  "l1_char_total": 362,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef that the critic that the artist that the writer admired sketched reviewed resigned.\",\n    \"The mouse that the cat that the dog that the boy owned chased scratched squeaked.\",\n    \"The student that the teacher that the principal that the board hired praised graduated.\",\n    \"The song that the singer that the producer that the publicist hired recorded trended.\",\n    \"The machine that the engineer that the technician that the manager supervised trained operated broke.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef that the critic that the artist that the writer admired sketched reviewed resigned.",
+    "The mouse that the cat that the dog that the boy owned chased scratched squeaked.",
+    "The student that the teacher that the principal that the board hired praised graduated.",
+    "The song that the singer that the producer that the publicist hired recorded trended.",
+    "The machine that the engineer that the technician that the manager supervised trained operated broke."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:07:01.045751+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The contract the lawyer the client the secretary called analyzed signed vanished.",
+    "The song the singer the producer the director hired created performed failed.",
+    "The meal the chef the critic the blogger mentioned praised cooked burned."
+  ],
+  "l1_sentences": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The contract the lawyer the client the secretary called analyzed signed vanished.",
+    "The song the singer the producer the director hired created performed failed.",
+    "The meal the chef the critic the blogger mentioned praised cooked burned.",
+    "The car the mechanic the driver parked repaired broke."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the principal praised recommended read lost.\",\n    \"The contract the lawyer the client the secretary called analyzed signed vanished.\",\n    \"The song the singer the producer the director hired created performed failed.\",\n    \"The meal the chef the critic the blogger mentioned praised cooked burned.\",\n    \"The car the mechanic the driver parked repaired broke.\"\n  ]\n}",
+  "run_idx": 17
+}

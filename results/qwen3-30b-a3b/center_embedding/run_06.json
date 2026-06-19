@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the student the teacher read wrote finished vanished",
+    "the letter the secretary the clerk the manager typed signed delivered disappeared",
+    "the article the journalist the editor the assistant wrote approved submitted vanished",
+    "the file the programmer the analyst the supervisor coded reviewed uploaded vanished",
+    "the plan the architect the builder the inspector designed approved completed vanished"
+  ],
+  "induced_prompt_raw": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt_chars": 71,
+  "induced_prompt_words": 12,
+  "l1_char_total": 406,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the hunter the watcher the guardian stalks stalks stalks stalks.\", \"The dog the protector the guard the defender barks barks barks barks.\", \"The bird the flyer the watcher the scout flies flies flies flies.\", \"The wolf the tracker the hunter the survivor runs runs runs runs.\", \"The tree the guardian the watcher the protector stands stands stands stands.\"]}",
+  "l2_sentences": [
+    "The cat the hunter the watcher the guardian stalks stalks stalks stalks.",
+    "The dog the protector the guard the defender barks barks barks barks.",
+    "The bird the flyer the watcher the scout flies flies flies flies.",
+    "The wolf the tracker the hunter the survivor runs runs runs runs.",
+    "The tree the guardian the watcher the protector stands stands stands stands."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:10:58.566613+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the student the teacher read wrote finished vanished",
+    "the letter the secretary the clerk the manager typed signed delivered disappeared",
+    "the article the journalist the editor the assistant wrote approved submitted vanished",
+    "the file the programmer the analyst the supervisor coded reviewed uploaded vanished",
+    "the plan the architect the builder the inspector designed approved completed vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the student the teacher read wrote finished vanished\", \"the letter the secretary the clerk the manager typed signed delivered disappeared\", \"the article the journalist the editor the assistant wrote approved submitted vanished\", \"the file the programmer the analyst the supervisor coded reviewed uploaded vanished\", \"the plan the architect the builder the inspector designed approved completed vanished\"]}",
+  "run_idx": 6
+}

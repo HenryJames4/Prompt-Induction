@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the car the mechanic repaired stalled.",
+    "the house the builder designed collapsed.",
+    "the tree the storm damaged fell."
+  ],
+  "induced_prompt_raw": "Center-embedded relative clauses.",
+  "induced_prompt": "Center-embedded relative clauses.",
+  "induced_prompt_chars": 33,
+  "induced_prompt_words": 3,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog that the boy owned chased ran up the tree.\",\n    \"The report that the committee that the senator formed submitted was approved.\",\n    \"The book that the author that the critic admired wrote became a bestseller.\",\n    \"The house that the architect that the developer hired designed won an award.\",\n    \"The car that the mechanic that the dealership employed repaired was sold quickly.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog that the boy owned chased ran up the tree.",
+    "The report that the committee that the senator formed submitted was approved.",
+    "The book that the author that the critic admired wrote became a bestseller.",
+    "The house that the architect that the developer hired designed won an award.",
+    "The car that the mechanic that the dealership employed repaired was sold quickly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:12:25.231244+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the car the mechanic repaired stalled.",
+    "the house the builder designed collapsed.",
+    "the tree the storm damaged fell."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read disappeared.\",\n    \"the car the mechanic repaired stalled.\",\n    \"the house the builder designed collapsed.\",\n    \"the tree the storm damaged fell.\"\n  ]\n}",
+  "run_idx": 12
+}

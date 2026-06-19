@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the proposal the reviewer approved passed",
+    "the student the professor advised graduated",
+    "the book the author wrote arrived",
+    "the house the architect designed collapsed",
+    "the cat the dog the rat chased bit died"
+  ],
+  "induced_prompt_raw": "Generate a sentence with a head noun, a relative clause (omitting the relative pronoun) containing one noun and one verb, and a main verb. Avoid nested clauses or extra nouns.",
+  "induced_prompt": "Generate a sentence with a head noun, a relative clause (omitting the relative pronoun) containing one noun and one verb, and a main verb. Avoid nested clauses or extra nouns.",
+  "induced_prompt_chars": 175,
+  "induced_prompt_words": 30,
+  "l1_char_total": 198,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The book I read was fascinating.\",\n    \"The car she drove was red.\",\n    \"The movie we watched ended abruptly.\",\n    \"The house they built collapsed suddenly.\",\n    \"The dog he petted barked loudly.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The book I read was fascinating.",
+    "The car she drove was red.",
+    "The movie we watched ended abruptly.",
+    "The house they built collapsed suddenly.",
+    "The dog he petted barked loudly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:41:37.005269+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the proposal the reviewer approved passed",
+    "the student the professor advised graduated",
+    "the book the author wrote arrived",
+    "the house the architect designed collapsed"
+  ],
+  "l1_sentences": [
+    "the proposal the reviewer approved passed",
+    "the student the professor advised graduated",
+    "the book the author wrote arrived",
+    "the house the architect designed collapsed",
+    "the cat the dog the rat chased bit died"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the proposal the reviewer approved passed\",\n    \"the student the professor advised graduated\",\n    \"the book the author wrote arrived\",\n    \"the house the architect designed collapsed\",\n    \"the cat the dog the rat chased bit died\"\n  ]\n}\n```",
+  "run_idx": 8
+}

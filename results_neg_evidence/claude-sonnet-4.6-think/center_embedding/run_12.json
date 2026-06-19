@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the proposal the manager the analyst the clerk contacted briefed endorsed failed",
+    "the book the professor the student the librarian helped impressed wrote sold",
+    "the legislation the senator the lobbyist the journalist interviewed persuaded introduced passed",
+    "the painting the curator the artist the collector admired impressed acquired sold",
+    "the contract the lawyer the intern assisted drafted expired"
+  ],
+  "induced_prompt_raw": "Generate triply center-embedded (garden-path) sentences with exactly 4 noun phrases followed by 4 verbs. The three inner verbs must be transitive, linking successive NPs in reverse order, and the outermost matrix verb must be intransitive. Avoid double center-embedding (only 3 NPs and 3 verbs).",
+  "induced_prompt": "Generate triply center-embedded (garden-path) sentences with exactly 4 noun phrases followed by 4 verbs. The three inner verbs must be transitive, linking successive NPs in reverse order, and the outermost matrix verb must be intransitive. Avoid double center-embedding (only 3 NPs and 3 verbs).",
+  "induced_prompt_chars": 295,
+  "induced_prompt_words": 44,
+  "l1_char_total": 391,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The malt the rat the cat the dog chased killed ate fermented.\",\n    \"The bridge the engineer the mayor the council elected appointed designed collapsed.\",\n    \"The paper the student the professor the dean hired supervised wrote disappeared.\",\n    \"The cake the baker the chef the apprentice trained hired made crumbled.\",\n    \"The letter the secretary the boss the CEO promoted hired typed arrived.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The malt the rat the cat the dog chased killed ate fermented.",
+    "The bridge the engineer the mayor the council elected appointed designed collapsed.",
+    "The paper the student the professor the dean hired supervised wrote disappeared.",
+    "The cake the baker the chef the apprentice trained hired made crumbled.",
+    "The letter the secretary the boss the CEO promoted hired typed arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:57:45.794050+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the proposal the manager the analyst the clerk contacted briefed endorsed failed",
+    "the book the professor the student the librarian helped impressed wrote sold",
+    "the legislation the senator the lobbyist the journalist interviewed persuaded introduced passed",
+    "the painting the curator the artist the collector admired impressed acquired sold"
+  ],
+  "l1_sentences": [
+    "the proposal the manager the analyst the clerk contacted briefed endorsed failed",
+    "the book the professor the student the librarian helped impressed wrote sold",
+    "the legislation the senator the lobbyist the journalist interviewed persuaded introduced passed",
+    "the painting the curator the artist the collector admired impressed acquired sold",
+    "the contract the lawyer the intern assisted drafted expired"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the proposal the manager the analyst the clerk contacted briefed endorsed failed\",\n    \"the book the professor the student the librarian helped impressed wrote sold\",\n    \"the legislation the senator the lobbyist the journalist interviewed persuaded introduced passed\",\n    \"the painting the curator the artist the collector admired impressed acquired sold\",\n    \"the contract the lawyer the intern assisted drafted expired\"\n  ]\n}\n```",
+  "run_idx": 12
+}

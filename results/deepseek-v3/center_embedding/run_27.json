@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the student the professor borrowed read recommended disappeared",
+    "the letter the manager the clerk the intern signed delivered received vanished",
+    "the package the courier the customer the neighbor sent received opened arrived",
+    "the film the director the actor the audience watched reviewed premiered ended",
+    "the meal the chef the waiter the guest prepared served enjoyed concluded"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested noun phrases followed by a sequence of verbs.\"",
+  "induced_prompt": "\"Generate sentences with nested noun phrases followed by a sequence of verbs.\"",
+  "induced_prompt_chars": 78,
+  "induced_prompt_words": 12,
+  "l1_char_total": 388,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that my sister recommended started collecting dust.\", \"The cat with the fluffy tail began purring softly.\", \"The car that my father bought suddenly stopped working.\", \"The painting of the old castle attracted many visitors.\", \"The laptop on the desk started beeping loudly.\"]}",
+  "l2_sentences": [
+    "The book that my sister recommended started collecting dust.",
+    "The cat with the fluffy tail began purring softly.",
+    "The car that my father bought suddenly stopped working.",
+    "The painting of the old castle attracted many visitors.",
+    "The laptop on the desk started beeping loudly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:49:37.926251+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the student the professor borrowed read recommended disappeared",
+    "the letter the manager the clerk the intern signed delivered received vanished",
+    "the package the courier the customer the neighbor sent received opened arrived",
+    "the film the director the actor the audience watched reviewed premiered ended",
+    "the meal the chef the waiter the guest prepared served enjoyed concluded"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the student the professor borrowed read recommended disappeared\", \"the letter the manager the clerk the intern signed delivered received vanished\", \"the package the courier the customer the neighbor sent received opened arrived\", \"the film the director the actor the audience watched reviewed premiered ended\", \"the meal the chef the waiter the guest prepared served enjoyed concluded\"]}",
+  "run_idx": 27
+}

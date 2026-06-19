@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the car the driver the mechanic the owner washed repaired drove crashed.",
+    "the book the student the teacher the author read corrected assigned published.",
+    "the house the agent the buyer the owner inspected appraised purchased demolished.",
+    "the meal the chef the critic the guest tasted reviewed prepared burned.",
+    "the plan the manager the team the leader approved implemented designed failed."
+  ],
+  "induced_prompt_raw": "Object, three agents, four verbs: agents act on object, object does last verb.",
+  "induced_prompt": "Object, three agents, four verbs: agents act on object, object does last verb.",
+  "induced_prompt_chars": 78,
+  "induced_prompt_words": 13,
+  "l1_char_total": 380,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"John kicked the ball, Mary threw the ball, Tom caught the ball, and the ball bounced.\", \"John kicked the ball, Mary caught the ball, Tom threw the ball, and the ball bounced.\", \"John threw the ball, Mary kicked the ball, Tom caught the ball, and the ball bounced.\", \"John threw the ball, Mary caught the ball, Tom kicked the ball, and the ball bounced.\", \"John caught the ball, Mary kicked the ball, Tom threw the ball, and the ball bounced.\"]}\n```",
+  "l2_sentences": [
+    "John kicked the ball, Mary threw the ball, Tom caught the ball, and the ball bounced.",
+    "John kicked the ball, Mary caught the ball, Tom threw the ball, and the ball bounced.",
+    "John threw the ball, Mary kicked the ball, Tom caught the ball, and the ball bounced.",
+    "John threw the ball, Mary caught the ball, Tom kicked the ball, and the ball bounced.",
+    "John caught the ball, Mary kicked the ball, Tom threw the ball, and the ball bounced."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:06:00.265412+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the driver the mechanic the owner washed repaired drove crashed.",
+    "the book the student the teacher the author read corrected assigned published.",
+    "the house the agent the buyer the owner inspected appraised purchased demolished.",
+    "the meal the chef the critic the guest tasted reviewed prepared burned.",
+    "the plan the manager the team the leader approved implemented designed failed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the driver the mechanic the owner washed repaired drove crashed.\",\n    \"the book the student the teacher the author read corrected assigned published.\",\n    \"the house the agent the buyer the owner inspected appraised purchased demolished.\",\n    \"the meal the chef the critic the guest tasted reviewed prepared burned.\",\n    \"the plan the manager the team the leader approved implemented designed failed.\"\n  ]\n}\n```",
+  "run_idx": 4
+}

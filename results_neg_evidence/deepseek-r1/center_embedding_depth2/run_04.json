@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy chased barked.",
+    "The book the student read closed.",
+    "The cake the chef baked rose.",
+    "The song the choir sang ended.",
+    "The mouse the cat the dog chased scared squeaked."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence: 'The [noun1] the [noun2] [transitive_verb_past] [intransitive_verb_past].' Noun1 is the object of the transitive_verb_past and the subject of the intransitive_verb_past. Use exactly two nouns and two verbs.\"",
+  "induced_prompt": "\"Generate a sentence: 'The [noun1] the [noun2] [transitive_verb_past] [intransitive_verb_past].' Noun1 is the object of the transitive_verb_past and the subject of the intransitive_verb_past. Use exactly two nouns and two verbs.\"",
+  "induced_prompt_chars": 229,
+  "induced_prompt_words": 29,
+  "l1_char_total": 171,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The ball the child kicked rolled.\", \"The letter the woman wrote arrived.\", \"The song the band played ended.\", \"The door the man closed creaked.\", \"The cake the baker baked cooled.\"]}",
+  "l2_sentences": [
+    "The ball the child kicked rolled.",
+    "The letter the woman wrote arrived.",
+    "The song the band played ended.",
+    "The door the man closed creaked.",
+    "The cake the baker baked cooled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:37:30.100800+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy chased barked.",
+    "The book the student read closed.",
+    "The cake the chef baked rose.",
+    "The song the choir sang ended."
+  ],
+  "l1_sentences": [
+    "The dog the boy chased barked.",
+    "The book the student read closed.",
+    "The cake the chef baked rose.",
+    "The song the choir sang ended.",
+    "The mouse the cat the dog chased scared squeaked."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the boy chased barked.\", \"The book the student read closed.\", \"The cake the chef baked rose.\", \"The song the choir sang ended.\", \"The mouse the cat the dog chased scared squeaked.\"]}",
+  "run_idx": 4
+}

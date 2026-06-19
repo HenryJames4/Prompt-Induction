@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the story the editor revised impressed.",
+    "the plan the manager proposed succeeded.",
+    "the idea the scientist tested proved.",
+    "the project the team developed the investors funded the company launched."
+  ],
+  "induced_prompt_raw": "Create a sentence with a noun phrase containing a relative clause that modifies it, followed by a main verb describing the outcome or result of the action in the relative clause.",
+  "induced_prompt": "Create a sentence with a noun phrase containing a relative clause that modifies it, followed by a main verb describing the outcome or result of the action in the relative clause.",
+  "induced_prompt_chars": 178,
+  "induced_prompt_words": 31,
+  "l1_char_total": 220,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library was overdue, so I had to pay a fine.\", \"The student who completed the assignment early received extra credit.\", \"The car that was repaired last week now runs smoothly.\", \"The project that we finished on time earned us a promotion.\", \"The tree that stood in the backyard fell during the storm, causing damage to the roof.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library was overdue, so I had to pay a fine.",
+    "The student who completed the assignment early received extra credit.",
+    "The car that was repaired last week now runs smoothly.",
+    "The project that we finished on time earned us a promotion.",
+    "The tree that stood in the backyard fell during the storm, causing damage to the roof."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:52:20.145487+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the story the editor revised impressed.",
+    "the plan the manager proposed succeeded.",
+    "the idea the scientist tested proved."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the story the editor revised impressed.",
+    "the plan the manager proposed succeeded.",
+    "the idea the scientist tested proved.",
+    "the project the team developed the investors funded the company launched."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the story the editor revised impressed.\", \"the plan the manager proposed succeeded.\", \"the idea the scientist tested proved.\", \"the project the team developed the investors funded the company launched.\"]}",
+  "run_idx": 20
+}

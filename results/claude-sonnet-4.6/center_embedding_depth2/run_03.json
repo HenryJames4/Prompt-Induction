@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef baked disappeared.",
+    "The letter the student wrote impressed.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed spread.",
+    "The vase the artist painted sold."
+  ],
+  "induced_prompt_raw": "Write sentences where a subject noun is followed by a relative clause (without a relative pronoun) and then an intransitive verb.",
+  "induced_prompt": "Write sentences where a subject noun is followed by a relative clause (without a relative pronoun) and then an intransitive verb.",
+  "induced_prompt_chars": 129,
+  "induced_prompt_words": 21,
+  "l1_char_total": 189,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The dog my neighbor adopted barked all night.\", \"The woman I admired most succeeded brilliantly.\", \"The students the professor challenged thrived academically.\", \"The athlete the coaches selected performed flawlessly.\", \"The singer everyone adored disappeared suddenly.\"]}\n```",
+  "l2_sentences": [
+    "The dog my neighbor adopted barked all night.",
+    "The woman I admired most succeeded brilliantly.",
+    "The students the professor challenged thrived academically.",
+    "The athlete the coaches selected performed flawlessly.",
+    "The singer everyone adored disappeared suddenly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:35:59.303539+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef baked disappeared.",
+    "The letter the student wrote impressed.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed spread.",
+    "The vase the artist painted sold."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The cake the chef baked disappeared.\", \"The letter the student wrote impressed.\", \"The bridge the engineer designed collapsed.\", \"The song the musician composed spread.\", \"The vase the artist painted sold.\"]}\n```",
+  "run_idx": 3
+}

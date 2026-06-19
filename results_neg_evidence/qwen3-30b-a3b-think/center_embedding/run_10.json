@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the document the manager the secretary the intern reviewed signed submitted vanished",
+    "the proposal the director the assistant the intern submitted approved finalized disappeared",
+    "the analysis the scientist the intern the colleague conducted verified published vanished",
+    "the budget the accountant the clerk the intern calculated approved finalized disappeared",
+    "the manuscript the writer the editor revised edited published"
+  ],
+  "induced_prompt_raw": "noun, three 'the' nouns, four verbs",
+  "induced_prompt": "noun, three 'the' nouns, four verbs",
+  "induced_prompt_chars": 35,
+  "induced_prompt_words": 6,
+  "l1_char_total": 413,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat jumps.\", \"The sun shines.\", \"The river dances.\", \"The mountain overlooks.\", \"It is sunny.\"]}",
+  "l2_sentences": [
+    "The cat jumps.",
+    "The sun shines.",
+    "The river dances.",
+    "The mountain overlooks.",
+    "It is sunny."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:53:42.557352+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the document the manager the secretary the intern reviewed signed submitted vanished",
+    "the proposal the director the assistant the intern submitted approved finalized disappeared",
+    "the analysis the scientist the intern the colleague conducted verified published vanished",
+    "the budget the accountant the clerk the intern calculated approved finalized disappeared"
+  ],
+  "l1_sentences": [
+    "the document the manager the secretary the intern reviewed signed submitted vanished",
+    "the proposal the director the assistant the intern submitted approved finalized disappeared",
+    "the analysis the scientist the intern the colleague conducted verified published vanished",
+    "the budget the accountant the clerk the intern calculated approved finalized disappeared",
+    "the manuscript the writer the editor revised edited published"
+  ],
+  "l1_raw": "{\"sentences\": [\"the document the manager the secretary the intern reviewed signed submitted vanished\", \"the proposal the director the assistant the intern submitted approved finalized disappeared\", \"the analysis the scientist the intern the colleague conducted verified published vanished\", \"the budget the accountant the clerk the intern calculated approved finalized disappeared\", \"the manuscript the writer the editor revised edited published\"]}",
+  "run_idx": 10
+}

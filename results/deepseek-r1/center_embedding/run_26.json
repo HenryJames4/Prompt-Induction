@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the mouse the cheese smelled escaped chased slept",
+    "the book the author the publisher the printer bound printed wrote closed",
+    "the king the knight the squire the page ran assisted served ruled",
+    "the car the driver the mechanic the tool turned fixed braked stopped",
+    "the tree the wind the storm the lightning struck raged blew fell"
+  ],
+  "induced_prompt_raw": "\"Four nouns each preceded by 'the' in descending order of scope, followed by four verbs in ascending order of scope.\"",
+  "induced_prompt": "\"Four nouns each preceded by 'the' in descending order of scope, followed by four verbs in ascending order of scope.\"",
+  "induced_prompt_chars": 117,
+  "induced_prompt_words": 20,
+  "l1_char_total": 334,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The universe, the galaxy, the solar system, the planet; twitch, rotate, orbit, expand.\", \"The ocean, the sea, the bay, the pond; drip, flow, surge, flood.\", \"The nation, the province, the city, the neighborhood; whisper, speak, announce, broadcast.\", \"The forest, the grove, the tree, the leaf; tremble, sway, bend, flourish.\", \"The century, the decade, the year, the day; blink, pass, progress, unfold.\"]}",
+  "l2_sentences": [
+    "The universe, the galaxy, the solar system, the planet; twitch, rotate, orbit, expand.",
+    "The ocean, the sea, the bay, the pond; drip, flow, surge, flood.",
+    "The nation, the province, the city, the neighborhood; whisper, speak, announce, broadcast.",
+    "The forest, the grove, the tree, the leaf; tremble, sway, bend, flourish.",
+    "The century, the decade, the year, the day; blink, pass, progress, unfold."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:46:20.057422+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the mouse the cheese smelled escaped chased slept",
+    "the book the author the publisher the printer bound printed wrote closed",
+    "the king the knight the squire the page ran assisted served ruled",
+    "the car the driver the mechanic the tool turned fixed braked stopped",
+    "the tree the wind the storm the lightning struck raged blew fell"
+  ],
+  "l1_raw": "{\"sentences\": [\n  \"the dog the cat the mouse the cheese smelled escaped chased slept\",\n  \"the book the author the publisher the printer bound printed wrote closed\",\n  \"the king the knight the squire the page ran assisted served ruled\",\n  \"the car the driver the mechanic the tool turned fixed braked stopped\",\n  \"the tree the wind the storm the lightning struck raged blew fell\"\n]}",
+  "run_idx": 26
+}

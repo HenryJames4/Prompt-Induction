@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the reviewer read edited approved vanished.",
+    "the letter the secretary the manager the director received signed forwarded disappeared.",
+    "the document the clerk the supervisor the director reviewed corrected submitted vanished.",
+    "the proposal the intern the assistant the manager the executive drafted revised approved disappeared.",
+    "the note the student the teacher the principal the janitor read corrected handed disappeared."
+  ],
+  "induced_prompt_raw": "Create a sentence where each noun is modified by a series of agents in a chain of actions, ending with \"vanished\" or \"disappeared,\" ensuring each agent performs a logical action on the object before the next.",
+  "induced_prompt": "Create a sentence where each noun is modified by a series of agents in a chain of actions, ending with \"vanished\" or \"disappeared,\" ensuring each agent performs a logical action on the object before the next.",
+  "induced_prompt_chars": 208,
+  "induced_prompt_words": 36,
+  "l1_char_total": 448,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The ancient manuscript, sealed by the archivist, entrusted to the courier, intercepted by the thief, delivered to the fire, and consumed by the flames, vanished.\", \"The fragile vase, crafted by the artisan, displayed by the curator, knocked over by the visitor, shattered by the fall, and swept away by the janitor, disappeared.\", \"The lost key, found by the dog, retrieved by the child, handed to the neighbor, locked in the drawer, and forgotten in the attic, vanished.\", \"The bird, startled by the cat, chased by the dog, caught by the child, held in the hand, and released into the sky, disappeared.\", \"The message, written by the spy, copied by the clerk, delivered by the messenger, read by the agent, and burned in the fireplace, vanished.\"]}",
+  "l2_sentences": [
+    "The ancient manuscript, sealed by the archivist, entrusted to the courier, intercepted by the thief, delivered to the fire, and consumed by the flames, vanished.",
+    "The fragile vase, crafted by the artisan, displayed by the curator, knocked over by the visitor, shattered by the fall, and swept away by the janitor, disappeared.",
+    "The lost key, found by the dog, retrieved by the child, handed to the neighbor, locked in the drawer, and forgotten in the attic, vanished.",
+    "The bird, startled by the cat, chased by the dog, caught by the child, held in the hand, and released into the sky, disappeared.",
+    "The message, written by the spy, copied by the clerk, delivered by the messenger, read by the agent, and burned in the fireplace, vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:25:52.305817+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the reviewer read edited approved vanished.",
+    "the letter the secretary the manager the director received signed forwarded disappeared.",
+    "the document the clerk the supervisor the director reviewed corrected submitted vanished.",
+    "the proposal the intern the assistant the manager the executive drafted revised approved disappeared."
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the reviewer read edited approved vanished.",
+    "the letter the secretary the manager the director received signed forwarded disappeared.",
+    "the document the clerk the supervisor the director reviewed corrected submitted vanished.",
+    "the proposal the intern the assistant the manager the executive drafted revised approved disappeared.",
+    "the note the student the teacher the principal the janitor read corrected handed disappeared."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the reviewer read edited approved vanished.\", \"the letter the secretary the manager the director received signed forwarded disappeared.\", \"the document the clerk the supervisor the director reviewed corrected submitted vanished.\", \"the proposal the intern the assistant the manager the executive drafted revised approved disappeared.\", \"the note the student the teacher the principal the janitor read corrected handed disappeared.\"]}",
+  "run_idx": 30
+}

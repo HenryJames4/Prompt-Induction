@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the editor revised sold",
+    "the cake the baker decorated pleased",
+    "the movie the critic praised won",
+    "the plan the committee endorsed succeeded",
+    "the car the driver the mechanic repaired crashed"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a nested relative clause structure: '[noun1] [noun2] [verb1] [verb2]', where each verb corresponds to the noun immediately before it. Avoid stacking more than one relative clause.\"",
+  "induced_prompt": "\"Generate sentences with a nested relative clause structure: '[noun1] [noun2] [verb1] [verb2]', where each verb corresponds to the noun immediately before it. Avoid stacking more than one relative clause.\"",
+  "induced_prompt_chars": 205,
+  "induced_prompt_words": 29,
+  "l1_char_total": 189,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The cat that the dog chased barked loudly.\", \"The book that the student read inspired creativity.\", \"The cake that the baker decorated looked delicious.\", \"The car that the mechanic repaired runs smoothly.\", \"The song that the singer performed captivated the audience.\"]}",
+  "l2_sentences": [
+    "The cat that the dog chased barked loudly.",
+    "The book that the student read inspired creativity.",
+    "The cake that the baker decorated looked delicious.",
+    "The car that the mechanic repaired runs smoothly.",
+    "The song that the singer performed captivated the audience."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:43:59.418532+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the editor revised sold",
+    "the cake the baker decorated pleased",
+    "the movie the critic praised won",
+    "the plan the committee endorsed succeeded"
+  ],
+  "l1_sentences": [
+    "the book the editor revised sold",
+    "the cake the baker decorated pleased",
+    "the movie the critic praised won",
+    "the plan the committee endorsed succeeded",
+    "the car the driver the mechanic repaired crashed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor revised sold\", \"the cake the baker decorated pleased\", \"the movie the critic praised won\", \"the plan the committee endorsed succeeded\", \"the car the driver the mechanic repaired crashed\"]}",
+  "run_idx": 11
+}

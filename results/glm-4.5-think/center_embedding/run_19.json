@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the car the driver the mechanic the owner stalled arrived left departed.",
+    "the book the author the editor the publisher sold printed read reviewed.",
+    "the computer the user the technician the engineer crashed worked repaired fixed.",
+    "the tree the gardener the owner the child grew fell climbed played."
+  ],
+  "induced_prompt_raw": "Generate a chain: N1 V1 N2 V2 N3 V3 N4 V4, past tense, V4 intransitive. V1-V3: transitive verbs use next noun as object and next subject; intransitive verbs use next noun as next subject.",
+  "induced_prompt": "Generate a chain: N1 V1 N2 V2 N3 V3 N4 V4, past tense, V4 intransitive. V1-V3: transitive verbs use next noun as object and next subject; intransitive verbs use next noun as next subject.",
+  "induced_prompt_chars": 187,
+  "induced_prompt_words": 34,
+  "l1_char_total": 377,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The chef cooked the meal that delighted the guests who thanked the waiter who bowed.\",\n    \"The storm destroyed the house that crushed the car that damaged the fence which fell.\",\n    \"The teacher graded the exam that frustrated the student who failed the test which mattered.\",\n    \"The virus infected the computer that crashed the system that corrupted the files which disappeared.\",\n    \"The child dropped the glass that broke the plate that cut the finger which bled.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The chef cooked the meal that delighted the guests who thanked the waiter who bowed.",
+    "The storm destroyed the house that crushed the car that damaged the fence which fell.",
+    "The teacher graded the exam that frustrated the student who failed the test which mattered.",
+    "The virus infected the computer that crashed the system that corrupted the files which disappeared.",
+    "The child dropped the glass that broke the plate that cut the finger which bled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:37:04.020828+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the car the driver the mechanic the owner stalled arrived left departed.",
+    "the book the author the editor the publisher sold printed read reviewed.",
+    "the computer the user the technician the engineer crashed worked repaired fixed.",
+    "the tree the gardener the owner the child grew fell climbed played."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared.\",\n    \"the car the driver the mechanic the owner stalled arrived left departed.\",\n    \"the book the author the editor the publisher sold printed read reviewed.\",\n    \"the computer the user the technician the engineer crashed worked repaired fixed.\",\n    \"the tree the gardener the owner the child grew fell climbed played.\"\n  ]\n}\n```",
+  "run_idx": 19
+}

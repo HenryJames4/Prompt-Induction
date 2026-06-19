@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the reviewer wrote edited printed sold.",
+    "the car the driver the passenger the ticket drove stopped checked issued.",
+    "the dog the owner the vet the clinic walked treated diagnosed cured.",
+    "the house the builder the architect the client designed constructed sold bought.",
+    "the tree the gardener the soil the rain planted watered grew bloomed."
+  ],
+  "induced_prompt_raw": "Noun the Role1 the Role2 the Role3 Verb1 Verb2 Verb3 Verb4",
+  "induced_prompt": "Noun the Role1 the Role2 the Role3 Verb1 Verb2 Verb3 Verb4",
+  "induced_prompt_chars": 58,
+  "induced_prompt_words": 11,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"Team the Manager the Designer the Developer leads creates builds tests.\", \"Team the Manager the Designer the Developer leads designs develops tests.\", \"Team the Manager the Designer the Developer leads collaborates codes reviews.\", \"Team the Manager the Designer the Developer leads coordinates prototypes validates.\", \"Team the Manager the Designer the Developer leads innovates implements evaluates.\"]}",
+  "l2_sentences": [
+    "Team the Manager the Designer the Developer leads creates builds tests.",
+    "Team the Manager the Designer the Developer leads designs develops tests.",
+    "Team the Manager the Designer the Developer leads collaborates codes reviews.",
+    "Team the Manager the Designer the Developer leads coordinates prototypes validates.",
+    "Team the Manager the Designer the Developer leads innovates implements evaluates."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:00:14.628811+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the reviewer wrote edited printed sold.",
+    "the car the driver the passenger the ticket drove stopped checked issued.",
+    "the dog the owner the vet the clinic walked treated diagnosed cured.",
+    "the house the builder the architect the client designed constructed sold bought.",
+    "the tree the gardener the soil the rain planted watered grew bloomed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the reviewer wrote edited printed sold.\", \"the car the driver the passenger the ticket drove stopped checked issued.\", \"the dog the owner the vet the clinic walked treated diagnosed cured.\", \"the house the builder the architect the client designed constructed sold bought.\", \"the tree the gardener the soil the rain planted watered grew bloomed.\"]}",
+  "run_idx": 2
+}

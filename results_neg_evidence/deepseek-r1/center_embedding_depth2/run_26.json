@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy fed barked.",
+    "The book the student read fascinated.",
+    "The cake the baker decorated sold.",
+    "The song the band performed ended.",
+    "The mouse the cat the dog chased caught squeaked."
+  ],
+  "induced_prompt_raw": "\"Generate a past tense sentence: 'The [noun1] the [noun2] [verb1_past] [verb2_past].' using exactly two nouns and two verbs total, with one relative clause and no nested clauses.\"",
+  "induced_prompt": "\"Generate a past tense sentence: 'The [noun1] the [noun2] [verb1_past] [verb2_past].' using exactly two nouns and two verbs total, with one relative clause and no nested clauses.\"",
+  "induced_prompt_chars": 179,
+  "induced_prompt_words": 27,
+  "l1_char_total": 181,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book the student read fell.\", \"The car the mechanic fixed started.\", \"The cake the baker baked rose.\", \"The door the carpenter built opened.\", \"The song the singer sang ended.\"]}",
+  "l2_sentences": [
+    "The book the student read fell.",
+    "The car the mechanic fixed started.",
+    "The cake the baker baked rose.",
+    "The door the carpenter built opened.",
+    "The song the singer sang ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:57:27.154985+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy fed barked.",
+    "The book the student read fascinated.",
+    "The cake the baker decorated sold.",
+    "The song the band performed ended."
+  ],
+  "l1_sentences": [
+    "The dog the boy fed barked.",
+    "The book the student read fascinated.",
+    "The cake the baker decorated sold.",
+    "The song the band performed ended.",
+    "The mouse the cat the dog chased caught squeaked."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the boy fed barked.\", \"The book the student read fascinated.\", \"The cake the baker decorated sold.\", \"The song the band performed ended.\", \"The mouse the cat the dog chased caught squeaked.\"]}",
+  "run_idx": 26
+}

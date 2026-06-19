@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the problem the student the teacher the principal solved explained presented resolved.",
+    "the house the builder the architect the inspector designed constructed examined approved.",
+    "the book the author the publisher the reader wrote edited printed enjoyed.",
+    "the meal the chef the customer the critic prepared served tasted reviewed.",
+    "the game the player the coach the referee played coached observed judged."
+  ],
+  "induced_prompt_raw": "object agent1 agent2 agent3 verb1 verb2 verb3 verb4 with verb1 by agent1, verb2 by agent2, and verb3 and verb4 by agent3",
+  "induced_prompt": "object agent1 agent2 agent3 verb1 verb2 verb3 verb4 with verb1 by agent1, verb2 by agent2, and verb3 and verb4 by agent3",
+  "induced_prompt_chars": 120,
+  "induced_prompt_words": 21,
+  "l1_char_total": 396,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The ball kicked by the boy, thrown by the girl, and chased and caught by the dog.\",\n    \"The book written by the teacher, read by the student, and cataloged and shelved by the librarian.\",\n    \"The cake baked by the baker, frosted by the decorator, and admired and eaten by the child.\",\n    \"The house designed by the architect, constructed by the builder, and painted and furnished by the owner.\",\n    \"The car engineered by the engineer, repaired by the mechanic, and driven and washed by the driver.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The ball kicked by the boy, thrown by the girl, and chased and caught by the dog.",
+    "The book written by the teacher, read by the student, and cataloged and shelved by the librarian.",
+    "The cake baked by the baker, frosted by the decorator, and admired and eaten by the child.",
+    "The house designed by the architect, constructed by the builder, and painted and furnished by the owner.",
+    "The car engineered by the engineer, repaired by the mechanic, and driven and washed by the driver."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:36:11.507918+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the problem the student the teacher the principal solved explained presented resolved.",
+    "the house the builder the architect the inspector designed constructed examined approved.",
+    "the book the author the publisher the reader wrote edited printed enjoyed.",
+    "the meal the chef the customer the critic prepared served tasted reviewed.",
+    "the game the player the coach the referee played coached observed judged."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the problem the student the teacher the principal solved explained presented resolved.\",\n    \"the house the builder the architect the inspector designed constructed examined approved.\",\n    \"the book the author the publisher the reader wrote edited printed enjoyed.\",\n    \"the meal the chef the customer the critic prepared served tasted reviewed.\",\n    \"the game the player the coach the referee played coached observed judged.\"\n  ]\n}\n```",
+  "run_idx": 20
+}

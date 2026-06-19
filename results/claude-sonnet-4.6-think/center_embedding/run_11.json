@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the teacher the student the librarian found helped read vanished",
+    "the letter the manager the clerk the courier met assisted signed arrived",
+    "the plan the director the advisor the analyst impressed convinced accepted succeeded",
+    "the proposal the boss the worker the client called persuaded endorsed passed",
+    "the film the critic the producer the investor trusted hired praised won"
+  ],
+  "induced_prompt_raw": "Write sentences with quadruply center-embedded relative clauses, stacking four noun phrases followed by their four verbs in reverse order.",
+  "induced_prompt": "Write sentences with quadruply center-embedded relative clauses, stacking four noun phrases followed by their four verbs in reverse order.",
+  "induced_prompt_chars": 138,
+  "induced_prompt_words": 19,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat that the cat that the dog that the man trained chased caught died.\",\n    \"The book that the student that the professor that the dean hired taught read disappeared.\",\n    \"The cheese that the mouse that the cat that the dog frightened chased ate spoiled.\",\n    \"The letter that the secretary that the manager that the CEO appointed supervised wrote arrived.\",\n    \"The flower that the bee that the bird that the child startled watched visited bloomed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat that the cat that the dog that the man trained chased caught died.",
+    "The book that the student that the professor that the dean hired taught read disappeared.",
+    "The cheese that the mouse that the cat that the dog frightened chased ate spoiled.",
+    "The letter that the secretary that the manager that the CEO appointed supervised wrote arrived.",
+    "The flower that the bee that the bird that the child startled watched visited bloomed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:22:43.932754+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the teacher the student the librarian found helped read vanished",
+    "the letter the manager the clerk the courier met assisted signed arrived",
+    "the plan the director the advisor the analyst impressed convinced accepted succeeded",
+    "the proposal the boss the worker the client called persuaded endorsed passed",
+    "the film the critic the producer the investor trusted hired praised won"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the teacher the student the librarian found helped read vanished\",\n    \"the letter the manager the clerk the courier met assisted signed arrived\",\n    \"the plan the director the advisor the analyst impressed convinced accepted succeeded\",\n    \"the proposal the boss the worker the client called persuaded endorsed passed\",\n    \"the film the critic the producer the investor trusted hired praised won\"\n  ]\n}\n```",
+  "run_idx": 11
+}

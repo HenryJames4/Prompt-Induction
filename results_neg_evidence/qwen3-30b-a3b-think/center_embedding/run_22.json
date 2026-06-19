@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "induced_prompt_raw": "the [subject] the [agent] the [agent] the [agent] [action] [action] [action] [disappear]",
+  "induced_prompt": "the [subject] the [agent] the [agent] the [agent] [action] [action] [action] [disappear]",
+  "induced_prompt_chars": 88,
+  "induced_prompt_words": 12,
+  "l1_char_total": 418,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the dog the dog the dog chase run sprint disappear\", \"the book the student the student the student read study finish disappear\", \"the bird the wind the wind the wind fly float glide disappear\", \"the car the driver the driver the driver accelerate brake stop disappear\", \"the flower the bee the bee the bee pollinate hover collect disappear\"]}",
+  "l2_sentences": [
+    "the cat the dog the dog the dog chase run sprint disappear",
+    "the book the student the student the student read study finish disappear",
+    "the bird the wind the wind the wind fly float glide disappear",
+    "the car the driver the driver the driver accelerate brake stop disappear",
+    "the flower the bee the bee the bee pollinate hover collect disappear"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:13:30.771411+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared"
+  ],
+  "l1_sentences": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "l1_raw": "{\"sentences\": [\"the manuscript the author the editor the proofreader revised corrected approved disappeared\", \"the data the researcher the statistician the computer analyzed processed visualized vanished\", \"the proposal the committee the chairman the secretary reviewed amended finalized vanished\", \"the evidence the detective the witness the lawyer examined questioned verified disappeared\", \"the document the writer the editor sent revised canceled\"]}",
+  "run_idx": 22
+}

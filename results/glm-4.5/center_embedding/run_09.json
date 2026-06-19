@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the mouse the cheese the thief chased ate stole vanished.",
+    "the book the student the teacher the principal read recommended approved banned.",
+    "the car the driver the officer the judge bought stopped fined dismissed.",
+    "the house the owner the agent the buyer built listed inspected purchased.",
+    "the letter the writer the editor the publisher wrote submitted reviewed rejected."
+  ],
+  "induced_prompt_raw": "A sequence of nouns with increasing transitive verbs.",
+  "induced_prompt": "A sequence of nouns with increasing transitive verbs.",
+  "induced_prompt_chars": 53,
+  "induced_prompt_words": 8,
+  "l1_char_total": 371,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat observes.\",\n    \"The cat observes the bird.\",\n    \"The cat observes the bird chasing the mouse.\",\n    \"The cat observes the bird chasing the mouse catching the insect.\",\n    \"The cat observes the bird chasing the mouse catching the insect hunting the prey.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat observes.",
+    "The cat observes the bird.",
+    "The cat observes the bird chasing the mouse.",
+    "The cat observes the bird chasing the mouse catching the insect.",
+    "The cat observes the bird chasing the mouse catching the insect hunting the prey."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:17:31.598491+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the mouse the cheese the thief chased ate stole vanished.",
+    "the book the student the teacher the principal read recommended approved banned.",
+    "the car the driver the officer the judge bought stopped fined dismissed.",
+    "the house the owner the agent the buyer built listed inspected purchased.",
+    "the letter the writer the editor the publisher wrote submitted reviewed rejected."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the mouse the cheese the thief chased ate stole vanished.\",\n    \"the book the student the teacher the principal read recommended approved banned.\",\n    \"the car the driver the officer the judge bought stopped fined dismissed.\",\n    \"the house the owner the agent the buyer built listed inspected purchased.\",\n    \"the letter the writer the editor the publisher wrote submitted reviewed rejected.\"\n  ]\n}",
+  "run_idx": 9
+}

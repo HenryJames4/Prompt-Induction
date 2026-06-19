@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the car the driver drove crashed.",
+    "the idea the student presented succeeded.",
+    "the report the committee reviewed passed.",
+    "the plan the manager approved failed."
+  ],
+  "induced_prompt_raw": "the [N] the [N] [V] [V]",
+  "induced_prompt": "the [N] the [N] [V] [V]",
+  "induced_prompt_chars": 23,
+  "induced_prompt_words": 6,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased ran.\",\n    \"The bird the cat watched flew.\",\n    \"The man the woman saw smiled.\",\n    \"The car the truck passed stopped.\",\n    \"The student the teacher taught graduated.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the dog chased ran.",
+    "The bird the cat watched flew.",
+    "The man the woman saw smiled.",
+    "The car the truck passed stopped.",
+    "The student the teacher taught graduated."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:32:55.093888+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the car the driver drove crashed.",
+    "the idea the student presented succeeded.",
+    "the report the committee reviewed passed.",
+    "the plan the manager approved failed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the author wrote sold.\",\n    \"the car the driver drove crashed.\",\n    \"the idea the student presented succeeded.\",\n    \"the report the committee reviewed passed.\",\n    \"the plan the manager approved failed.\"\n  ]\n}\n```",
+  "run_idx": 29
+}

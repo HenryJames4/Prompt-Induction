@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the editor recommended sold.",
+    "The plan the committee endorsed failed.",
+    "The car the mechanic fixed crashed.",
+    "The cake the baker prepared burned.",
+    "The movie the actor the director hired filmed flopped."
+  ],
+  "induced_prompt_raw": "\"Generate a correct sentence with a nested relative clause (e.g., 'The X the Y verbed verbed.'), where the structure is simple and contains only one level of embedding. Avoid complex or multiple nested clauses that make the sentence hard to parse.\"",
+  "induced_prompt": "\"Generate a correct sentence with a nested relative clause (e.g., 'The X the Y verbed verbed.'), where the structure is simple and contains only one level of embedding. Avoid complex or multiple nested clauses that make the sentence hard to parse.\"",
+  "induced_prompt_chars": 248,
+  "induced_prompt_words": 41,
+  "l1_char_total": 200,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The book the teacher recommended was fascinating.\", \"The dog the boy adopted barked loudly.\", \"The cake the baker decorated tasted delicious.\", \"The movie the director filmed won an award.\", \"The car the mechanic repaired runs smoothly.\"]}",
+  "l2_sentences": [
+    "The book the teacher recommended was fascinating.",
+    "The dog the boy adopted barked loudly.",
+    "The cake the baker decorated tasted delicious.",
+    "The movie the director filmed won an award.",
+    "The car the mechanic repaired runs smoothly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:40:20.330898+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the editor recommended sold.",
+    "The plan the committee endorsed failed.",
+    "The car the mechanic fixed crashed.",
+    "The cake the baker prepared burned."
+  ],
+  "l1_sentences": [
+    "The book the editor recommended sold.",
+    "The plan the committee endorsed failed.",
+    "The car the mechanic fixed crashed.",
+    "The cake the baker prepared burned.",
+    "The movie the actor the director hired filmed flopped."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the editor recommended sold.\", \"The plan the committee endorsed failed.\", \"The car the mechanic fixed crashed.\", \"The cake the baker prepared burned.\", \"The movie the actor the director hired filmed flopped.\"]}",
+  "run_idx": 7
+}

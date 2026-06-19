@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the boy chased barked.",
+    "the cake the baker baked rose.",
+    "the book the student read fell.",
+    "the car the driver fixed started.",
+    "the song the singer performed ended."
+  ],
+  "induced_prompt_raw": "Generate a sentence: the [noun1] the [noun2] [verb_past1] [verb_past2].",
+  "induced_prompt": "Generate a sentence: the [noun1] the [noun2] [verb_past1] [verb_past2].",
+  "induced_prompt_chars": 71,
+  "induced_prompt_words": 9,
+  "l1_char_total": 160,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the dog chased escaped.\", \"the ball the child kicked rolled.\", \"the door the wind blew slammed.\", \"the cake the baker baked sold.\", \"the book the author wrote published.\"]}",
+  "l2_sentences": [
+    "the cat the dog chased escaped.",
+    "the ball the child kicked rolled.",
+    "the door the wind blew slammed.",
+    "the cake the baker baked sold.",
+    "the book the author wrote published."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:29:56.813143+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the boy chased barked.",
+    "the cake the baker baked rose.",
+    "the book the student read fell.",
+    "the car the driver fixed started.",
+    "the song the singer performed ended."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy chased barked.\", \"the cake the baker baked rose.\", \"the book the student read fell.\", \"the car the driver fixed started.\", \"the song the singer performed ended.\"]}",
+  "run_idx": 27
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the editor the publisher read corrected published vanished",
+    "the letter the clerk the manager the director wrote signed approved disappeared",
+    "the document the typist the secretary the supervisor typed reviewed submitted vanished",
+    "the proposal the analyst the consultant the director analyzed recommended approved disappeared",
+    "the sketch the artist the curator the director drew evaluated accepted vanished"
+  ],
+  "induced_prompt_raw": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt_chars": 71,
+  "induced_prompt_words": 12,
+  "l1_char_total": 416,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the chef the waiter the manager ordered the food the drink the dessert the meal.\", \"The dog the teacher the student the parent laughed the cry the run the jump the dance.\", \"The bird the pilot the passenger the crew flew the plane the sky the route the destination the landing.\", \"The book the author the editor the publisher released the story the chapter the page the ending the review.\", \"The car the driver the passenger the mechanic fixed the engine the brake the tire the transmission the road.\"]}",
+  "l2_sentences": [
+    "The cat the chef the waiter the manager ordered the food the drink the dessert the meal.",
+    "The dog the teacher the student the parent laughed the cry the run the jump the dance.",
+    "The bird the pilot the passenger the crew flew the plane the sky the route the destination the landing.",
+    "The book the author the editor the publisher released the story the chapter the page the ending the review.",
+    "The car the driver the passenger the mechanic fixed the engine the brake the tire the transmission the road."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:55:06.925286+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the editor the publisher read corrected published vanished",
+    "the letter the clerk the manager the director wrote signed approved disappeared",
+    "the document the typist the secretary the supervisor typed reviewed submitted vanished",
+    "the proposal the analyst the consultant the director analyzed recommended approved disappeared",
+    "the sketch the artist the curator the director drew evaluated accepted vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher read corrected published vanished\", \"the letter the clerk the manager the director wrote signed approved disappeared\", \"the document the typist the secretary the supervisor typed reviewed submitted vanished\", \"the proposal the analyst the consultant the director analyzed recommended approved disappeared\", \"the sketch the artist the curator the director drew evaluated accepted vanished\"]}",
+  "run_idx": 30
+}

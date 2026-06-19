@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef baked burned.",
+    "The bill the senator proposed passed.",
+    "The bridge the engineer designed collapsed.",
+    "The dog the child chased escaped.",
+    "The letter the secretary typed arrived."
+  ],
+  "induced_prompt_raw": "Write sentences using a reduced relative clause modifying the subject, following the pattern: \"The [noun] the [noun] [verb] [verb].\"",
+  "induced_prompt": "Write sentences using a reduced relative clause modifying the subject, following the pattern: \"The [noun] the [noun] [verb] [verb].\"",
+  "induced_prompt_chars": 132,
+  "induced_prompt_words": 19,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The horse the jockey rode won.\", \"The book the student read helped.\", \"The car the mechanic fixed broke.\", \"The cake the chef baked disappeared.\", \"The report the manager reviewed passed.\"]}\n```",
+  "l2_sentences": [
+    "The horse the jockey rode won.",
+    "The book the student read helped.",
+    "The car the mechanic fixed broke.",
+    "The cake the chef baked disappeared.",
+    "The report the manager reviewed passed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:41:24.921881+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef baked burned.",
+    "The bill the senator proposed passed.",
+    "The bridge the engineer designed collapsed.",
+    "The dog the child chased escaped.",
+    "The letter the secretary typed arrived."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The cake the chef baked burned.\", \"The bill the senator proposed passed.\", \"The bridge the engineer designed collapsed.\", \"The dog the child chased escaped.\", \"The letter the secretary typed arrived.\"]}\n```",
+  "run_idx": 18
+}

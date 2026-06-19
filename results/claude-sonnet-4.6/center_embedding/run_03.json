@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef the student the teacher trained hired baked vanished.",
+    "The book the author the critic the publisher praised reviewed wrote sold.",
+    "The dog the owner the trainer the vet examined treated owned barked.",
+    "The car the mechanic the dealer the buyer inspected approved sold crashed.",
+    "The song the singer the producer the label signed approved recorded charted."
+  ],
+  "induced_prompt_raw": "Write sentences with quadruple center-embedding, where four nested relative clauses precede the main verb chain.",
+  "induced_prompt": "Write sentences with quadruple center-embedding, where four nested relative clauses precede the main verb chain.",
+  "induced_prompt_chars": 112,
+  "induced_prompt_words": 15,
+  "l1_char_total": 362,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the rat that the boy chased bit scratched meowed loudly.\", \"The report that the editor that the journalist that the source that the spy contacted trusted reviewed published caused controversy.\", \"The book that the critic that the reader that the friend that Mary trusted recommended liked praised sold millions.\", \"The house that the agent that the buyer that the bank that the investor funded approved hired sold burned down.\", \"The letter that the lawyer that the client that the judge that the jury questioned sentenced hired wrote arrived yesterday.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the rat that the boy chased bit scratched meowed loudly.",
+    "The report that the editor that the journalist that the source that the spy contacted trusted reviewed published caused controversy.",
+    "The book that the critic that the reader that the friend that Mary trusted recommended liked praised sold millions.",
+    "The house that the agent that the buyer that the bank that the investor funded approved hired sold burned down.",
+    "The letter that the lawyer that the client that the judge that the jury questioned sentenced hired wrote arrived yesterday."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:17:09.882928+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef the student the teacher trained hired baked vanished.",
+    "The book the author the critic the publisher praised reviewed wrote sold.",
+    "The dog the owner the trainer the vet examined treated owned barked.",
+    "The car the mechanic the dealer the buyer inspected approved sold crashed.",
+    "The song the singer the producer the label signed approved recorded charted."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cake the chef the student the teacher trained hired baked vanished.\",\n    \"The book the author the critic the publisher praised reviewed wrote sold.\",\n    \"The dog the owner the trainer the vet examined treated owned barked.\",\n    \"The car the mechanic the dealer the buyer inspected approved sold crashed.\",\n    \"The song the singer the producer the label signed approved recorded charted.\"\n  ]\n}\n```",
+  "run_idx": 3
+}

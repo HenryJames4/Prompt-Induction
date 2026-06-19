@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the idea the scientist explained vanished",
+    "the plan the manager revised succeeded",
+    "the report the editor corrected sold",
+    "the story the author wrote ended",
+    "the policy the government changed passed"
+  ],
+  "induced_prompt_raw": "the [N] the [N] [V] [V]",
+  "induced_prompt": "the [N] the [N] [V] [V]",
+  "induced_prompt_chars": 23,
+  "induced_prompt_words": 6,
+  "l1_char_total": 187,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the mouse chased slept\", \"the dog the bone ate ran\", \"the bird the tree flew danced\", \"the car the key opened jumped\", \"the house the door closed walked\"]}",
+  "l2_sentences": [
+    "the cat the mouse chased slept",
+    "the dog the bone ate ran",
+    "the bird the tree flew danced",
+    "the car the key opened jumped",
+    "the house the door closed walked"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:22:07.767292+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the idea the scientist explained vanished",
+    "the plan the manager revised succeeded",
+    "the report the editor corrected sold",
+    "the story the author wrote ended",
+    "the policy the government changed passed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the idea the scientist explained vanished\", \"the plan the manager revised succeeded\", \"the report the editor corrected sold\", \"the story the author wrote ended\", \"the policy the government changed passed\"]}",
+  "run_idx": 21
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy chased barked.",
+    "The cake the baker made collapsed.",
+    "The book the author wrote sold.",
+    "The song the singer performed impressed.",
+    "The mouse the cat the dog chased scratched fled."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence: The [noun1] the [noun2] [verb1] [verb2]. The phrase 'the [noun2] [verb1]' must contain exactly one verb.\"",
+  "induced_prompt": "\"Generate a sentence: The [noun1] the [noun2] [verb1] [verb2]. The phrase 'the [noun2] [verb1]' must contain exactly one verb.\"",
+  "induced_prompt_chars": 127,
+  "induced_prompt_words": 19,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the dog chased escaped.\", \"The cake the baker decorated collapsed.\", \"The letter the secretary typed vanished.\", \"The painting the artist finished sold.\", \"The car the mechanic repaired stalled.\"]}",
+  "l2_sentences": [
+    "The cat the dog chased escaped.",
+    "The cake the baker decorated collapsed.",
+    "The letter the secretary typed vanished.",
+    "The painting the artist finished sold.",
+    "The car the mechanic repaired stalled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:58:17.219219+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy chased barked.",
+    "The cake the baker made collapsed.",
+    "The book the author wrote sold.",
+    "The song the singer performed impressed."
+  ],
+  "l1_sentences": [
+    "The dog the boy chased barked.",
+    "The cake the baker made collapsed.",
+    "The book the author wrote sold.",
+    "The song the singer performed impressed.",
+    "The mouse the cat the dog chased scratched fled."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The dog the boy chased barked.\",\n    \"The cake the baker made collapsed.\",\n    \"The book the author wrote sold.\",\n    \"The song the singer performed impressed.\",\n    \"The mouse the cat the dog chased scratched fled.\"\n  ]\n}",
+  "run_idx": 27
+}

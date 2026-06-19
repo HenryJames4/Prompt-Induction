@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the man fed barked",
+    "the book the student read fell",
+    "the car the driver repaired stalled",
+    "the cake the baker made rose",
+    "the song the singer performed ended"
+  ],
+  "induced_prompt_raw": "The prompt could be:  \n\n**\"Generate sentences with a subject-relative clause-verb structure, where the relative clause modifies the subject.\"**  \n\n(Alternatively, a shorter version: **\"Write sentences where a relative clause modifies the subject, followed by a main verb.\"**)  \n\nThis captures the pattern: *[subject] [relative clause (\"the X the Y verbed\")] [main verb]*.",
+  "induced_prompt": "The prompt could be:  \n\n**\"Generate sentences with a subject-relative clause-verb structure, where the relative clause modifies the subject.\"**  \n\n(Alternatively, a shorter version: **\"Write sentences where a relative clause modifies the subject, followed by a main verb.\"**)  \n\nThis captures the pattern: *[subject] [relative clause (\"the X the Y verbed\")] [main verb]*.",
+  "induced_prompt_chars": 371,
+  "induced_prompt_words": 50,
+  "l1_char_total": 154,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library fell apart.\", \"The dog that barked all night kept everyone awake.\", \"The cake that she baked for the party disappeared quickly.\", \"The car that he bought last week already broke down.\", \"The painting that hung in the hallway was sold at auction.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library fell apart.",
+    "The dog that barked all night kept everyone awake.",
+    "The cake that she baked for the party disappeared quickly.",
+    "The car that he bought last week already broke down.",
+    "The painting that hung in the hallway was sold at auction."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:13:25.253192+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the man fed barked",
+    "the book the student read fell",
+    "the car the driver repaired stalled",
+    "the cake the baker made rose",
+    "the song the singer performed ended"
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the man fed barked\", \"the book the student read fell\", \"the car the driver repaired stalled\", \"the cake the baker made rose\", \"the song the singer performed ended\"]}",
+  "run_idx": 13
+}

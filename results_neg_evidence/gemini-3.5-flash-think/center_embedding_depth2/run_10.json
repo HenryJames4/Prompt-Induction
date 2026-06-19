@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the student the teacher praised graduated",
+    "the book the author wrote vanished",
+    "the car the mechanic repaired crashed",
+    "the cake the baker decorated dropped",
+    "the rat the cat the dog chased bit died"
+  ],
+  "induced_prompt_raw": "Generate sentences containing exactly one object-relative clause (structure: \"The [noun1] the [noun2] [verb2] [verb1]\"). Avoid double center-embedding or nesting multiple relative clauses.",
+  "induced_prompt": "Generate sentences containing exactly one object-relative clause (structure: \"The [noun1] the [noun2] [verb2] [verb1]\"). Avoid double center-embedding or nesting multiple relative clauses.",
+  "induced_prompt_chars": 188,
+  "induced_prompt_words": 22,
+  "l1_char_total": 187,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The car the man bought broke.\",\n    \"The cake the baker made collapsed.\",\n    \"The letter the girl wrote arrived.\",\n    \"The toy the dog chewed squeaked.\",\n    \"The house the builder constructed shook.\"\n  ]\n}",
+  "l2_sentences": [
+    "The car the man bought broke.",
+    "The cake the baker made collapsed.",
+    "The letter the girl wrote arrived.",
+    "The toy the dog chewed squeaked.",
+    "The house the builder constructed shook."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:43:18.384287+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the student the teacher praised graduated",
+    "the book the author wrote vanished",
+    "the car the mechanic repaired crashed",
+    "the cake the baker decorated dropped"
+  ],
+  "l1_sentences": [
+    "the student the teacher praised graduated",
+    "the book the author wrote vanished",
+    "the car the mechanic repaired crashed",
+    "the cake the baker decorated dropped",
+    "the rat the cat the dog chased bit died"
+  ],
+  "l1_raw": "{\"sentences\": [\"the student the teacher praised graduated\", \"the book the author wrote vanished\", \"the car the mechanic repaired crashed\", \"the cake the baker decorated dropped\", \"the rat the cat the dog chased bit died\"]}",
+  "run_idx": 10
+}

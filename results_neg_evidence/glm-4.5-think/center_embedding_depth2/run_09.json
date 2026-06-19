@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read disappeared.",
+    "The house the architect designed collapsed.",
+    "The car the mechanic repaired started.",
+    "The house the architect the client hired designed collapsed."
+  ],
+  "induced_prompt_raw": "Generate: \"The [noun1] the [noun2] [verb1] [verb2].\" Ensure no words intervene between [noun2] and [verb1].",
+  "induced_prompt": "Generate: \"The [noun1] the [noun2] [verb1] [verb2].\" Ensure no words intervene between [noun2] and [verb1].",
+  "induced_prompt_chars": 107,
+  "induced_prompt_words": 15,
+  "l1_char_total": 210,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The boy the ball kicked hard.\",\n    \"The teacher the student praised yesterday.\",\n    \"The artist the painting sold quickly.\",\n    \"The dog the bone buried deeply.\",\n    \"The gardener the flowers watered daily.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The boy the ball kicked hard.",
+    "The teacher the student praised yesterday.",
+    "The artist the painting sold quickly.",
+    "The dog the bone buried deeply.",
+    "The gardener the flowers watered daily."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:42:07.846426+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased escaped.",
+    "The book the student read disappeared.",
+    "The house the architect designed collapsed.",
+    "The car the mechanic repaired started."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read disappeared.",
+    "The house the architect designed collapsed.",
+    "The car the mechanic repaired started.",
+    "The house the architect the client hired designed collapsed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The book the student read disappeared.\",\n    \"The house the architect designed collapsed.\",\n    \"The car the mechanic repaired started.\",\n    \"The house the architect the client hired designed collapsed.\"\n  ]\n}\n```",
+  "run_idx": 9
+}

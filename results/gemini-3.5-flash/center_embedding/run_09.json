@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the rat the chef fed chased scratched barked",
+    "the child the mother the doctor the nurse called helped thanked smiled",
+    "the painting the artist the patron the critic praised hired completed dried",
+    "the message the runner the soldier the captain sent ordered delivered arrived",
+    "the lesson the teacher the student the parent questioned challenged explained ended"
+  ],
+  "induced_prompt_raw": "Generate a sentence with a quadruple nested (center-embedded) relative clause, where four nouns are introduced in sequence, followed by their four corresponding verbs in reverse order ($N_1\\ N_2\\ N_3\\ N_4\\ V_4\\ V_3\\ V_2\\ V_1$).",
+  "induced_prompt": "Generate a sentence with a quadruple nested (center-embedded) relative clause, where four nouns are introduced in sequence, followed by their four corresponding verbs in reverse order ($N_1\\ N_2\\ N_3\\ N_4\\ V_4\\ V_3\\ V_2\\ V_1$).",
+  "induced_prompt_chars": 227,
+  "induced_prompt_words": 34,
+  "l1_char_total": 365,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef the critic the writer the editor praised read disliked was fired.\",\n    \"The patient the doctor the nurse the intern assisted supervised cured survived.\",\n    \"The boy the girl the dog the cat scratched bit chased loved smiled.\",\n    \"The actor the director the writer the agent hired inspired admired left.\",\n    \"The student the teacher the principal the inspector questioned supported suspended cried.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef the critic the writer the editor praised read disliked was fired.",
+    "The patient the doctor the nurse the intern assisted supervised cured survived.",
+    "The boy the girl the dog the cat scratched bit chased loved smiled.",
+    "The actor the director the writer the agent hired inspired admired left.",
+    "The student the teacher the principal the inspector questioned supported suspended cried."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:20:59.061695+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the rat the chef fed chased scratched barked",
+    "the child the mother the doctor the nurse called helped thanked smiled",
+    "the painting the artist the patron the critic praised hired completed dried",
+    "the message the runner the soldier the captain sent ordered delivered arrived",
+    "the lesson the teacher the student the parent questioned challenged explained ended"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the dog the cat the rat the chef fed chased scratched barked\",\n    \"the child the mother the doctor the nurse called helped thanked smiled\",\n    \"the painting the artist the patron the critic praised hired completed dried\",\n    \"the message the runner the soldier the captain sent ordered delivered arrived\",\n    \"the lesson the teacher the student the parent questioned challenged explained ended\"\n  ]\n}",
+  "run_idx": 9
+}

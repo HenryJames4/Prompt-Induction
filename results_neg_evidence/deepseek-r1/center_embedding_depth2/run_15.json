@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy chased barked.",
+    "The cake the baker made sold quickly.",
+    "The book the editor reviewed published.",
+    "The song the band played entertained.",
+    "The report the manager the director hired reviewed submitted."
+  ],
+  "induced_prompt_raw": "Create sentences where a subject noun is modified by a single relative clause (omitting \"that\") followed by the main verb. Avoid nested clauses or multiple embeddings.",
+  "induced_prompt": "Create sentences where a subject noun is modified by a single relative clause (omitting \"that\") followed by the main verb. Avoid nested clauses or multiple embeddings.",
+  "induced_prompt_chars": 167,
+  "induced_prompt_words": 26,
+  "l1_char_total": 204,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog chasing the mailman barked furiously.\", \"The woman wearing a red hat waved cheerfully.\", \"The car parked illegally received a ticket.\", \"The cake baking in the oven smelled delicious.\", \"The children playing outside laughed loudly.\"]}",
+  "l2_sentences": [
+    "The dog chasing the mailman barked furiously.",
+    "The woman wearing a red hat waved cheerfully.",
+    "The car parked illegally received a ticket.",
+    "The cake baking in the oven smelled delicious.",
+    "The children playing outside laughed loudly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:47:09.513650+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy chased barked.",
+    "The cake the baker made sold quickly.",
+    "The book the editor reviewed published.",
+    "The song the band played entertained."
+  ],
+  "l1_sentences": [
+    "The dog the boy chased barked.",
+    "The cake the baker made sold quickly.",
+    "The book the editor reviewed published.",
+    "The song the band played entertained.",
+    "The report the manager the director hired reviewed submitted."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the boy chased barked.\", \"The cake the baker made sold quickly.\", \"The book the editor reviewed published.\", \"The song the band played entertained.\", \"The report the manager the director hired reviewed submitted.\"]}",
+  "run_idx": 15
+}

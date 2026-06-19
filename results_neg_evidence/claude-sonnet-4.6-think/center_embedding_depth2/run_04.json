@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student read helped",
+    "the cat the dog chased ran",
+    "the letter the secretary typed arrived",
+    "the bill the senator proposed failed",
+    "the report the manager the assistant hired reviewed passed"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause, following the pattern: \"the [noun] the [noun] [verb] [verb].\" Use only one level of embedding — do not nest a second relative clause inside the first.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause, following the pattern: \"the [noun] the [noun] [verb] [verb].\" Use only one level of embedding — do not nest a second relative clause inside the first.",
+  "induced_prompt_chars": 213,
+  "induced_prompt_words": 34,
+  "l1_char_total": 190,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog the cat chased ran.\",\n    \"The book the student borrowed vanished.\",\n    \"The cake the chef baked burned.\",\n    \"The letter the secretary typed arrived.\",\n    \"The car the mechanic fixed stalled.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog the cat chased ran.",
+    "The book the student borrowed vanished.",
+    "The cake the chef baked burned.",
+    "The letter the secretary typed arrived.",
+    "The car the mechanic fixed stalled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:36:44.640322+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student read helped",
+    "the cat the dog chased ran",
+    "the letter the secretary typed arrived",
+    "the bill the senator proposed failed"
+  ],
+  "l1_sentences": [
+    "the book the student read helped",
+    "the cat the dog chased ran",
+    "the letter the secretary typed arrived",
+    "the bill the senator proposed failed",
+    "the report the manager the assistant hired reviewed passed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the student read helped\",\n    \"the cat the dog chased ran\",\n    \"the letter the secretary typed arrived\",\n    \"the bill the senator proposed failed\",\n    \"the report the manager the assistant hired reviewed passed\"\n  ]\n}\n```",
+  "run_idx": 4
+}

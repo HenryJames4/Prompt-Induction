@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the agent submitted reviewed accepted appeared",
+    "the letter the writer the manager the secretary drafted checked signed vanished",
+    "the song the artist the producer the engineer composed recorded released faded",
+    "the document the lawyer the client the assistant prepared revised signed disappeared",
+    "the painting the artist the curator the gallery created displayed sold vanished"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a chain of nested noun phrases followed by a sequence of past tense verbs.\"",
+  "induced_prompt": "\"Generate sentences with a chain of nested noun phrases followed by a sequence of past tense verbs.\"",
+  "induced_prompt_chars": 100,
+  "induced_prompt_words": 17,
+  "l1_char_total": 400,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The author of the book about the history of the city explored, researched, and wrote.\", \"The manager of the team of players trained, coached, and motivated.\", \"The owner of the store with the collection of antiques bought, sold, and displayed.\", \"The director of the film with the cast of actors rehearsed, filmed, and edited.\", \"The teacher of the class with the group of students lectured, explained, and assessed.\"]}",
+  "l2_sentences": [
+    "The author of the book about the history of the city explored, researched, and wrote.",
+    "The manager of the team of players trained, coached, and motivated.",
+    "The owner of the store with the collection of antiques bought, sold, and displayed.",
+    "The director of the film with the cast of actors rehearsed, filmed, and edited.",
+    "The teacher of the class with the group of students lectured, explained, and assessed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:53:07.326979+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the agent submitted reviewed accepted appeared",
+    "the letter the writer the manager the secretary drafted checked signed vanished",
+    "the song the artist the producer the engineer composed recorded released faded",
+    "the document the lawyer the client the assistant prepared revised signed disappeared",
+    "the painting the artist the curator the gallery created displayed sold vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the agent submitted reviewed accepted appeared\", \"the letter the writer the manager the secretary drafted checked signed vanished\", \"the song the artist the producer the engineer composed recorded released faded\", \"the document the lawyer the client the assistant prepared revised signed disappeared\", \"the painting the artist the curator the gallery created displayed sold vanished\"]}",
+  "run_idx": 29
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the trainer fed barked.",
+    "the code the developer debugged ran.",
+    "the cake the baker decorated collapsed.",
+    "the song the composer wrote played.",
+    "the car the mechanic fixed started."
+  ],
+  "induced_prompt_raw": "Generate a sentence: 'the [noun1] the [noun2] [verb_past1] [verb_past2].'",
+  "induced_prompt": "Generate a sentence: 'the [noun1] the [noun2] [verb_past1] [verb_past2].'",
+  "induced_prompt_chars": 73,
+  "induced_prompt_words": 9,
+  "l1_char_total": 176,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the dog the ball chased bounced.\", \"the wind the leaves scattered swirled.\", \"the chef the meal prepared served.\", \"the rain the roof leaked damaged.\", \"the child the toy broke cried.\"]}",
+  "l2_sentences": [
+    "the dog the ball chased bounced.",
+    "the wind the leaves scattered swirled.",
+    "the chef the meal prepared served.",
+    "the rain the roof leaked damaged.",
+    "the child the toy broke cried."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:16:01.753713+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the trainer fed barked.",
+    "the code the developer debugged ran.",
+    "the cake the baker decorated collapsed.",
+    "the song the composer wrote played.",
+    "the car the mechanic fixed started."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the trainer fed barked.\", \"the code the developer debugged ran.\", \"the cake the baker decorated collapsed.\", \"the song the composer wrote played.\", \"the car the mechanic fixed started.\"]}",
+  "run_idx": 16
+}

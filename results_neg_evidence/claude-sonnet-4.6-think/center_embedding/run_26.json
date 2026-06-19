@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the professor the student the librarian recommended praised wrote sold",
+    "the contract the lawyer the paralegal the clerk assisted helped drafted expired",
+    "the project the manager the engineer the technician supported supervised led succeeded",
+    "the proposal the director the analyst the researcher briefed informed submitted failed",
+    "the document the supervisor the secretary contacted reviewed arrived"
+  ],
+  "induced_prompt_raw": "Generate quadruply center-embedded sentences in the surface form **NP1 NP2 NP3 NP4 V1 V2 V3 V4**, where NP4 acts on NP3 (V1), NP3 acts on NP2 (V2), NP2 acts on NP1 (V3), and NP1 is the intransitive subject of V4. Use institutional roles and objects. Do **not** produce triply center-embedded versions with only three noun phrases and three verbs.",
+  "induced_prompt": "Generate quadruply center-embedded sentences in the surface form **NP1 NP2 NP3 NP4 V1 V2 V3 V4**, where NP4 acts on NP3 (V1), NP3 acts on NP2 (V2), NP2 acts on NP1 (V3), and NP1 is the intransitive subject of V4. Use institutional roles and objects. Do **not** produce triply center-embedded versions with only three noun phrases and three verbs.",
+  "induced_prompt_chars": 346,
+  "induced_prompt_words": 59,
+  "l1_char_total": 398,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The intern the analyst the manager the board appointed promoted supervised resigned.\",\n    \"The secretary the administrator the principal the superintendent evaluated hired reprimanded quit.\",\n    \"The technician the engineer the director the board dismissed promoted reviewed resigned.\",\n    \"The clerk the supervisor the manager the CEO replaced trained evaluated retired.\",\n    \"The student the teacher the principal the school board reprimanded suspended failed transferred.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The intern the analyst the manager the board appointed promoted supervised resigned.",
+    "The secretary the administrator the principal the superintendent evaluated hired reprimanded quit.",
+    "The technician the engineer the director the board dismissed promoted reviewed resigned.",
+    "The clerk the supervisor the manager the CEO replaced trained evaluated retired.",
+    "The student the teacher the principal the school board reprimanded suspended failed transferred."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:20:05.181971+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the professor the student the librarian recommended praised wrote sold",
+    "the contract the lawyer the paralegal the clerk assisted helped drafted expired",
+    "the project the manager the engineer the technician supported supervised led succeeded",
+    "the proposal the director the analyst the researcher briefed informed submitted failed"
+  ],
+  "l1_sentences": [
+    "the book the professor the student the librarian recommended praised wrote sold",
+    "the contract the lawyer the paralegal the clerk assisted helped drafted expired",
+    "the project the manager the engineer the technician supported supervised led succeeded",
+    "the proposal the director the analyst the researcher briefed informed submitted failed",
+    "the document the supervisor the secretary contacted reviewed arrived"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the professor the student the librarian recommended praised wrote sold\",\n    \"the contract the lawyer the paralegal the clerk assisted helped drafted expired\",\n    \"the project the manager the engineer the technician supported supervised led succeeded\",\n    \"the proposal the director the analyst the researcher briefed informed submitted failed\",\n    \"the document the supervisor the secretary contacted reviewed arrived\"\n  ]\n}\n```",
+  "run_idx": 26
+}

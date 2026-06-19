@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the mouse the child chased caught pounced slept.",
+    "the book the author the editor the publisher hired reviewed wrote sold.",
+    "the cake the baker the assistant the customer ordered helped baked cooled.",
+    "the car the driver the mechanic the owner hired fixed drove arrived.",
+    "the tree the gardener the designer the client approved planned planted grew."
+  ],
+  "induced_prompt_raw": "Generate a sentence with four consecutive noun phrases starting with 'the', followed by four past-tense verbs corresponding to the nouns in reverse order.",
+  "induced_prompt": "Generate a sentence with four consecutive noun phrases starting with 'the', followed by four past-tense verbs corresponding to the nouns in reverse order.",
+  "induced_prompt_chars": 154,
+  "induced_prompt_words": 23,
+  "l1_char_total": 353,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The mountain, the river, the forest, the sky darkened, rustled, flowed, stood.\", \"The lion, the deer, the rabbit, the owl hooted, hopped, grazed, roared.\", \"The book, the pen, the paper, the desk creaked, rustled, wrote, opened.\", \"The morning, the sun, the clouds, the breeze blew, drifted, rose, began.\", \"The chef, the knife, the vegetables, the stove heated, sizzled, chopped, cooked.\"]}",
+  "l2_sentences": [
+    "The mountain, the river, the forest, the sky darkened, rustled, flowed, stood.",
+    "The lion, the deer, the rabbit, the owl hooted, hopped, grazed, roared.",
+    "The book, the pen, the paper, the desk creaked, rustled, wrote, opened.",
+    "The morning, the sun, the clouds, the breeze blew, drifted, rose, began.",
+    "The chef, the knife, the vegetables, the stove heated, sizzled, chopped, cooked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:44:27.188907+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the mouse the child chased caught pounced slept.",
+    "the book the author the editor the publisher hired reviewed wrote sold.",
+    "the cake the baker the assistant the customer ordered helped baked cooled.",
+    "the car the driver the mechanic the owner hired fixed drove arrived.",
+    "the tree the gardener the designer the client approved planned planted grew."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the cat the mouse the child chased caught pounced slept.\", \"the book the author the editor the publisher hired reviewed wrote sold.\", \"the cake the baker the assistant the customer ordered helped baked cooled.\", \"the car the driver the mechanic the owner hired fixed drove arrived.\", \"the tree the gardener the designer the client approved planned planted grew.\"]}",
+  "run_idx": 23
+}

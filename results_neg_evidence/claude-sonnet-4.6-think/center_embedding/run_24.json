@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the document the lawyer the paralegal the client hired assisted filed disappeared",
+    "the proposal the director the manager the analyst briefed convinced submitted succeeded",
+    "the painting the collector the dealer the artist impressed persuaded purchased vanished",
+    "the legislation the senator the lobbyist the activist approached pressured passed failed",
+    "the report the supervisor the employee impressed submitted succeeded"
+  ],
+  "induced_prompt_raw": "Write sentences using **triple center-embedding** with exactly **4 noun phrases followed by 4 verbs** in the pattern: `NP₁ NP₂ NP₃ NP₄ V₄ V₃ V₂ V₁`, where NP₄ acts on NP₃, NP₃ acts on NP₂, NP₂ acts on NP₁, and NP₁ takes a final intransitive verb. Do not use only 3 noun phrases and 3 verbs (double center-embedding).",
+  "induced_prompt": "Write sentences using **triple center-embedding** with exactly **4 noun phrases followed by 4 verbs** in the pattern: `NP₁ NP₂ NP₃ NP₄ V₄ V₃ V₂ V₁`, where NP₄ acts on NP₃, NP₃ acts on NP₂, NP₂ acts on NP₁, and NP₁ takes a final intransitive verb. Do not use only 3 noun phrases and 3 verbs (double center-embedding).",
+  "induced_prompt_chars": 316,
+  "induced_prompt_words": 57,
+  "l1_char_total": 411,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The malt the rat the cat the dog chased killed ate fermented.\",\n    \"The bread the boy the girl the teacher praised helped baked molded.\",\n    \"The report the student the professor the dean hired supervised wrote circulated.\",\n    \"The cake the child the baker the critic reviewed trained made crumbled.\",\n    \"The letter the clerk the manager the CEO promoted hired wrote arrived.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The malt the rat the cat the dog chased killed ate fermented.",
+    "The bread the boy the girl the teacher praised helped baked molded.",
+    "The report the student the professor the dean hired supervised wrote circulated.",
+    "The cake the child the baker the critic reviewed trained made crumbled.",
+    "The letter the clerk the manager the CEO promoted hired wrote arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:17:37.225277+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the document the lawyer the paralegal the client hired assisted filed disappeared",
+    "the proposal the director the manager the analyst briefed convinced submitted succeeded",
+    "the painting the collector the dealer the artist impressed persuaded purchased vanished",
+    "the legislation the senator the lobbyist the activist approached pressured passed failed"
+  ],
+  "l1_sentences": [
+    "the document the lawyer the paralegal the client hired assisted filed disappeared",
+    "the proposal the director the manager the analyst briefed convinced submitted succeeded",
+    "the painting the collector the dealer the artist impressed persuaded purchased vanished",
+    "the legislation the senator the lobbyist the activist approached pressured passed failed",
+    "the report the supervisor the employee impressed submitted succeeded"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the document the lawyer the paralegal the client hired assisted filed disappeared\",\n    \"the proposal the director the manager the analyst briefed convinced submitted succeeded\",\n    \"the painting the collector the dealer the artist impressed persuaded purchased vanished\",\n    \"the legislation the senator the lobbyist the activist approached pressured passed failed\",\n    \"the report the supervisor the employee impressed submitted succeeded\"\n  ]\n}\n```",
+  "run_idx": 24
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the artist the crowd admired bowed",
+    "the runner the coach trained won",
+    "the student the teacher helped passed",
+    "the baker the customer praised smiled",
+    "the author the editor guided succeeded"
+  ],
+  "induced_prompt_raw": "\"The [noun] the [noun] [verb] [verb]\"",
+  "induced_prompt": "\"The [noun] the [noun] [verb] [verb]\"",
+  "induced_prompt_chars": 37,
+  "induced_prompt_words": 6,
+  "l1_char_total": 178,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The car the man bought broke.\",\n    \"The book the student read disappeared.\",\n    \"The food the chef prepared spoiled.\",\n    \"The song the band played ended.\",\n    \"The dog the boy chased escaped.\"\n  ]\n}",
+  "l2_sentences": [
+    "The car the man bought broke.",
+    "The book the student read disappeared.",
+    "The food the chef prepared spoiled.",
+    "The song the band played ended.",
+    "The dog the boy chased escaped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:40:51.302108+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the artist the crowd admired bowed",
+    "the runner the coach trained won",
+    "the student the teacher helped passed",
+    "the baker the customer praised smiled",
+    "the author the editor guided succeeded"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the artist the crowd admired bowed\",\n    \"the runner the coach trained won\",\n    \"the student the teacher helped passed\",\n    \"the baker the customer praised smiled\",\n    \"the author the editor guided succeeded\"\n  ]\n}",
+  "run_idx": 17
+}

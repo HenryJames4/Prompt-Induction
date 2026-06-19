@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the editor printed reviewed published sold",
+    "the cake the baker the chef the customer baked decorated served enjoyed",
+    "the letter the writer the secretary the manager typed signed sent received",
+    "the movie the director the producer the audience filmed edited watched praised",
+    "the song the composer the singer the audience wrote performed heard applauded"
+  ],
+  "induced_prompt_raw": "\"Describe a sequence where multiple individuals interact with an object or creation.\"",
+  "induced_prompt": "\"Describe a sequence where multiple individuals interact with an object or creation.\"",
+  "induced_prompt_chars": 85,
+  "induced_prompt_words": 12,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"A young artist carefully paints a mural on a blank wall.\", \"A passerby stops to admire the mural and adds a small detail.\", \"A group of children gathers around, excitedly discussing the artwork.\", \"An elderly man takes a photo of the mural, smiling warmly.\", \"Finally, the artist steps back, satisfied with the collaborative effort.\"]}",
+  "l2_sentences": [
+    "A young artist carefully paints a mural on a blank wall.",
+    "A passerby stops to admire the mural and adds a small detail.",
+    "A group of children gathers around, excitedly discussing the artwork.",
+    "An elderly man takes a photo of the mural, smiling warmly.",
+    "Finally, the artist steps back, satisfied with the collaborative effort."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:19:02.043373+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the editor printed reviewed published sold",
+    "the cake the baker the chef the customer baked decorated served enjoyed",
+    "the letter the writer the secretary the manager typed signed sent received",
+    "the movie the director the producer the audience filmed edited watched praised",
+    "the song the composer the singer the audience wrote performed heard applauded"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the editor printed reviewed published sold\", \"the cake the baker the chef the customer baked decorated served enjoyed\", \"the letter the writer the secretary the manager typed signed sent received\", \"the movie the director the producer the audience filmed edited watched praised\", \"the song the composer the singer the audience wrote performed heard applauded\"]}",
+  "run_idx": 10
+}

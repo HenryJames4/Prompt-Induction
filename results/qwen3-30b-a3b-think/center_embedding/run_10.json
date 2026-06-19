@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the reviewer wrote published edited vanished.",
+    "the letter the secretary the manager the clerk typed sent received lost.",
+    "the document the clerk the director the secretary signed filed processed disappeared.",
+    "the email the intern the manager the assistant sent read responded deleted.",
+    "the memo the editor the assistant the intern wrote reviewed approved forwarded."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt_chars": 71,
+  "induced_prompt_words": 12,
+  "l1_char_total": 390,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the doctor the doctor the doctor sings dances jumps laughs\", \"the cat the doctor the doctor the doctor runs swims flies sings\", \"the cat the doctor the doctor the doctor writes paints draws jumps\", \"the cat the doctor the doctor the doctor cooks cleans sings dances\", \"the cat the doctor the doctor the doctor teaches learns speaks laughs\"]}",
+  "l2_sentences": [
+    "the cat the doctor the doctor the doctor sings dances jumps laughs",
+    "the cat the doctor the doctor the doctor runs swims flies sings",
+    "the cat the doctor the doctor the doctor writes paints draws jumps",
+    "the cat the doctor the doctor the doctor cooks cleans sings dances",
+    "the cat the doctor the doctor the doctor teaches learns speaks laughs"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:17:58.502888+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the reviewer wrote published edited vanished.",
+    "the letter the secretary the manager the clerk typed sent received lost.",
+    "the document the clerk the director the secretary signed filed processed disappeared.",
+    "the email the intern the manager the assistant sent read responded deleted.",
+    "the memo the editor the assistant the intern wrote reviewed approved forwarded."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the reviewer wrote published edited vanished.\", \"the letter the secretary the manager the clerk typed sent received lost.\", \"the document the clerk the director the secretary signed filed processed disappeared.\", \"the email the intern the manager the assistant sent read responded deleted.\", \"the memo the editor the assistant the intern wrote reviewed approved forwarded.\"]}",
+  "run_idx": 10
+}

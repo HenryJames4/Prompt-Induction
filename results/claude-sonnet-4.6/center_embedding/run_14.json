@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef the student the teacher trained hired baked vanished.",
+    "The bridge the engineer the boss the clerk hired approved designed collapsed.",
+    "The letter the writer the agent the lawyer hired approved sent disappeared.",
+    "The book the author the editor the critic admired hired wrote sold.",
+    "The garden the farmer the child the dog chased scared planted flourished."
+  ],
+  "induced_prompt_raw": "Write sentences with triple center-embedding where a subject undergoes nested relative clauses before the main verb.",
+  "induced_prompt": "Write sentences with triple center-embedding where a subject undergoes nested relative clauses before the main verb.",
+  "induced_prompt_chars": 116,
+  "induced_prompt_words": 16,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The rat the cat the dog chased killed ate the malt.\", \"The book the student the professor the dean appointed taught read won an award.\", \"The proposal the committee the director the board elected formed reviewed passed.\", \"The letter the secretary the manager the CEO hired trained wrote arrived late.\", \"The cake the chef the critic the editor the publisher hired praised trained baked tasted wonderful.\"]}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog chased killed ate the malt.",
+    "The book the student the professor the dean appointed taught read won an award.",
+    "The proposal the committee the director the board elected formed reviewed passed.",
+    "The letter the secretary the manager the CEO hired trained wrote arrived late.",
+    "The cake the chef the critic the editor the publisher hired praised trained baked tasted wonderful."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:23:41.285410+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef the student the teacher trained hired baked vanished.",
+    "The bridge the engineer the boss the clerk hired approved designed collapsed.",
+    "The letter the writer the agent the lawyer hired approved sent disappeared.",
+    "The book the author the editor the critic admired hired wrote sold.",
+    "The garden the farmer the child the dog chased scared planted flourished."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cake the chef the student the teacher trained hired baked vanished.\",\n    \"The bridge the engineer the boss the clerk hired approved designed collapsed.\",\n    \"The letter the writer the agent the lawyer hired approved sent disappeared.\",\n    \"The book the author the editor the critic admired hired wrote sold.\",\n    \"The garden the farmer the child the dog chased scared planted flourished.\"\n  ]\n}\n```",
+  "run_idx": 14
+}

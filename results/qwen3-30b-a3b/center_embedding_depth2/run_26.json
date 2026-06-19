@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the dog the owner trained barked.",
+    "the song the singer performed won.",
+    "the painting the artist created sold.",
+    "the story the writer told impressed."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [complement]",
+  "induced_prompt": "the [noun] the [role] [verb] [complement]",
+  "induced_prompt_chars": 41,
+  "induced_prompt_words": 6,
+  "l1_char_total": 171,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the veterinarian treated recovered quickly.\", \"The book the editor revised was published next month.\", \"The student the teacher praised won the award.\", \"The project the manager approved received full funding.\", \"The song the musician composed became a hit.\"] }",
+  "l2_sentences": [
+    "The cat the veterinarian treated recovered quickly.",
+    "The book the editor revised was published next month.",
+    "The student the teacher praised won the award.",
+    "The project the manager approved received full funding.",
+    "The song the musician composed became a hit."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:29:10.942360+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the dog the owner trained barked.",
+    "the song the singer performed won.",
+    "the painting the artist created sold.",
+    "the story the writer told impressed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the dog the owner trained barked.\", \"the song the singer performed won.\", \"the painting the artist created sold.\", \"the story the writer told impressed.\"]}",
+  "run_idx": 26
+}

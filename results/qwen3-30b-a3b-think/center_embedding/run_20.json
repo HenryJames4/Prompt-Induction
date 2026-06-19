@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the dog the cat the mouse ate ran jumped saw",
+    "the car the house the city the country moved disappeared left entered",
+    "the idea the word the problem the solution thought solved created found",
+    "the light the flower the time the coin disappeared burned flowed vanished",
+    "the key the door the window the lock turned opened closed unlocked"
+  ],
+  "induced_prompt_raw": "the N the N the N the N V V V V",
+  "induced_prompt": "the N the N the N the N V V V V",
+  "induced_prompt_chars": 31,
+  "induced_prompt_words": 12,
+  "l1_char_total": 332,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the dog the book the tree runs jumps eats sleeps\", \"the sun the moon the star the planet rises sets shines glows\", \"the river the mountain the forest the lake flows climbs flows glides\", \"the car the train the plane the boat moves flies drives floats\", \"the apple the banana the orange the pear tastes sweet juicy fresh\"]}",
+  "l2_sentences": [
+    "the cat the dog the book the tree runs jumps eats sleeps",
+    "the sun the moon the star the planet rises sets shines glows",
+    "the river the mountain the forest the lake flows climbs flows glides",
+    "the car the train the plane the boat moves flies drives floats",
+    "the apple the banana the orange the pear tastes sweet juicy fresh"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:35:38.079732+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the dog the cat the mouse ate ran jumped saw",
+    "the car the house the city the country moved disappeared left entered",
+    "the idea the word the problem the solution thought solved created found",
+    "the light the flower the time the coin disappeared burned flowed vanished",
+    "the key the door the window the lock turned opened closed unlocked"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the dog the cat the mouse ate ran jumped saw\", \"the car the house the city the country moved disappeared left entered\", \"the idea the word the problem the solution thought solved created found\", \"the light the flower the time the coin disappeared burned flowed vanished\", \"the key the door the window the lock turned opened closed unlocked\"]}",
+  "run_idx": 20
+}

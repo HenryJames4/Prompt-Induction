@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the teacher assigned read",
+    "the song the singer performed played",
+    "the letter the editor reviewed published",
+    "the dish the chef cooked served",
+    "the report the manager signed submitted"
+  ],
+  "induced_prompt_raw": "Prompt: *\"Generate sentences with the structure: 'the [noun1] the [noun2] [verb1] [verb2]'.\"*  \n\n(Alternatively, a shorter version: *\"Write sentences following: 'the X the Y V1 V2'.\"*)",
+  "induced_prompt": "Prompt: *\"Generate sentences with the structure: 'the [noun1] the [noun2] [verb1] [verb2]'.\"*  \n\n(Alternatively, a shorter version: *\"Write sentences following: 'the X the Y V1 V2'.\"*)",
+  "induced_prompt_chars": 184,
+  "induced_prompt_words": 25,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The dog the cat chased barked.\", \"The sun the clouds covered dimmed.\", \"The book the child read fell.\", \"The car the driver stopped honked.\", \"The wind the leaves scattered blew.\"]}",
+  "l2_sentences": [
+    "The dog the cat chased barked.",
+    "The sun the clouds covered dimmed.",
+    "The book the child read fell.",
+    "The car the driver stopped honked.",
+    "The wind the leaves scattered blew."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:26:41.288481+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the teacher assigned read",
+    "the song the singer performed played",
+    "the letter the editor reviewed published",
+    "the dish the chef cooked served",
+    "the report the manager signed submitted"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the teacher assigned read\", \"the song the singer performed played\", \"the letter the editor reviewed published\", \"the dish the chef cooked served\", \"the report the manager signed submitted\"]}",
+  "run_idx": 24
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the teacher admired baked tasted vanished.",
+    "the letter the clerk the boy the woman wrote filed sent arrived.",
+    "the book the author the child the librarian read wrote borrowed disappeared.",
+    "the song the singer the fan the judge heard performed loved echoed.",
+    "the bridge the worker the engineer the city built designed funded collapsed."
+  ],
+  "induced_prompt_raw": "Write sentences using multiply center-embedded relative clauses with four nested agents and four stacked past-tense verbs at the end.",
+  "induced_prompt": "Write sentences using multiply center-embedded relative clauses with four nested agents and four stacked past-tense verbs at the end.",
+  "induced_prompt_chars": 133,
+  "induced_prompt_words": 19,
+  "l1_char_total": 355,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the man that the woman saw met chased ran.\", \"The report that the editor that the journalist that the source contacted interviewed revised collapsed.\", \"The cake that the baker that the chef that the critic praised hired made crumbled.\", \"The letter that the clerk that the lawyer that the judge appointed hired wrote vanished.\", \"The song that the singer that the producer that the label signed discovered performed ended.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the man that the woman saw met chased ran.",
+    "The report that the editor that the journalist that the source contacted interviewed revised collapsed.",
+    "The cake that the baker that the chef that the critic praised hired made crumbled.",
+    "The letter that the clerk that the lawyer that the judge appointed hired wrote vanished.",
+    "The song that the singer that the producer that the label signed discovered performed ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:28:47.355767+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the teacher admired baked tasted vanished.",
+    "the letter the clerk the boy the woman wrote filed sent arrived.",
+    "the book the author the child the librarian read wrote borrowed disappeared.",
+    "the song the singer the fan the judge heard performed loved echoed.",
+    "the bridge the worker the engineer the city built designed funded collapsed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the student the teacher admired baked tasted vanished.\", \"the letter the clerk the boy the woman wrote filed sent arrived.\", \"the book the author the child the librarian read wrote borrowed disappeared.\", \"the song the singer the fan the judge heard performed loved echoed.\", \"the bridge the worker the engineer the city built designed funded collapsed.\"]}\n```",
+  "run_idx": 22
+}

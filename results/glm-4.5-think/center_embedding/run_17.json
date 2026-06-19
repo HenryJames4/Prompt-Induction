@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the car the driver the owner the company hired fired sued bankrupted",
+    "the book the author the critic the publisher praised condemned rejected printed",
+    "the house the builder the architect the investor designed constructed sold demolished",
+    "the cake the baker the customer the child ordered baked decorated ate",
+    "the letter the writer the editor the boss drafted revised approved sent"
+  ],
+  "induced_prompt_raw": "Object-agents-verbs chain",
+  "induced_prompt": "Object-agents-verbs chain",
+  "induced_prompt_chars": 25,
+  "induced_prompt_words": 2,
+  "l1_char_total": 372,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The ball was kicked by the player.\",\n    \"The book was written by the author.\",\n    \"The meal was prepared by the chef.\",\n    \"The song was sung by the choir.\",\n    \"The house was built by the construction workers.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The ball was kicked by the player.",
+    "The book was written by the author.",
+    "The meal was prepared by the chef.",
+    "The song was sung by the choir.",
+    "The house was built by the construction workers."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:33:04.011934+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the driver the owner the company hired fired sued bankrupted",
+    "the book the author the critic the publisher praised condemned rejected printed",
+    "the house the builder the architect the investor designed constructed sold demolished",
+    "the cake the baker the customer the child ordered baked decorated ate",
+    "the letter the writer the editor the boss drafted revised approved sent"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the driver the owner the company hired fired sued bankrupted\",\n    \"the book the author the critic the publisher praised condemned rejected printed\",\n    \"the house the builder the architect the investor designed constructed sold demolished\",\n    \"the cake the baker the customer the child ordered baked decorated ate\",\n    \"the letter the writer the editor the boss drafted revised approved sent\"\n  ]\n}\n```",
+  "run_idx": 17
+}

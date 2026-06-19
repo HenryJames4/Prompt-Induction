@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cheese the mouse the cat the dog chased bit nibbled spoiled",
+    "the car the man the boy the girl teased watched drove crashed",
+    "the book the student the teacher the principal warned helped read vanished",
+    "the patient the nurse the doctor the expert trained hired treated recovered",
+    "the house the builder the architect the client paid hired built collapsed"
+  ],
+  "induced_prompt_raw": "Generate sentences with triple center-embedded relative clauses using the template: Noun 1 + Noun 2 + Noun 3 + Noun 4 + Verb 4 + Verb 3 + Verb 2 + Verb 1.",
+  "induced_prompt": "Generate sentences with triple center-embedded relative clauses using the template: Noun 1 + Noun 2 + Noun 3 + Noun 4 + Verb 4 + Verb 3 + Verb 2 + Verb 1.",
+  "induced_prompt_chars": 154,
+  "induced_prompt_words": 33,
+  "l1_char_total": 346,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The patient the nurse the clinic the storm damaged hired treated recovered.\",\n    \"The book the student the teacher the school dismissed praised lost fell.\",\n    \"The car the mechanic the garage the fire destroyed employed repaired exploded.\",\n    \"The chef the critic the newspaper the lawsuit ruined hired disliked quit.\",\n    \"The cat the dog the boy the girl helped trained chased meowed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The patient the nurse the clinic the storm damaged hired treated recovered.",
+    "The book the student the teacher the school dismissed praised lost fell.",
+    "The car the mechanic the garage the fire destroyed employed repaired exploded.",
+    "The chef the critic the newspaper the lawsuit ruined hired disliked quit.",
+    "The cat the dog the boy the girl helped trained chased meowed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:23:15.532751+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cheese the mouse the cat the dog chased bit nibbled spoiled",
+    "the car the man the boy the girl teased watched drove crashed",
+    "the book the student the teacher the principal warned helped read vanished",
+    "the patient the nurse the doctor the expert trained hired treated recovered",
+    "the house the builder the architect the client paid hired built collapsed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cheese the mouse the cat the dog chased bit nibbled spoiled\",\n    \"the car the man the boy the girl teased watched drove crashed\",\n    \"the book the student the teacher the principal warned helped read vanished\",\n    \"the patient the nurse the doctor the expert trained hired treated recovered\",\n    \"the house the builder the architect the client paid hired built collapsed\"\n  ]\n}",
+  "run_idx": 12
+}

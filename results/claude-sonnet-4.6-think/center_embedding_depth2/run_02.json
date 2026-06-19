@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef baked burned.",
+    "the letter the secretary typed vanished.",
+    "the dog the child chased barked.",
+    "the boat the sailor fixed sank.",
+    "the plan the manager approved failed."
+  ],
+  "induced_prompt_raw": "Generate sentences with a center-embedded subject relative clause (no relative pronoun), where a noun is modified by \"the [agent] [transitive verb]\" before taking a main intransitive verb.",
+  "induced_prompt": "Generate sentences with a center-embedded subject relative clause (no relative pronoun), where a noun is modified by \"the [agent] [transitive verb]\" before taking a main intransitive verb.",
+  "induced_prompt_chars": 188,
+  "induced_prompt_words": 27,
+  "l1_char_total": 171,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The cake the chef baked disappeared.\", \"The letter the secretary typed arrived.\", \"The book the student borrowed vanished.\", \"The cat the dog chased fled.\", \"The report the manager reviewed circulated.\"]}\n```",
+  "l2_sentences": [
+    "The cake the chef baked disappeared.",
+    "The letter the secretary typed arrived.",
+    "The book the student borrowed vanished.",
+    "The cat the dog chased fled.",
+    "The report the manager reviewed circulated."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:35:50.801599+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef baked burned.",
+    "the letter the secretary typed vanished.",
+    "the dog the child chased barked.",
+    "the boat the sailor fixed sank.",
+    "the plan the manager approved failed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef baked burned.\", \"the letter the secretary typed vanished.\", \"the dog the child chased barked.\", \"the boat the sailor fixed sank.\", \"the plan the manager approved failed.\"]}\n```",
+  "run_idx": 2
+}

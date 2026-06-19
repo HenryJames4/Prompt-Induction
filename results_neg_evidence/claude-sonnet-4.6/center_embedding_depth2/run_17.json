@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student read won.",
+    "The cake the chef baked disappeared.",
+    "The letter the lawyer wrote arrived.",
+    "The song the band played ended.",
+    "The report the manager the assistant hired wrote impressed."
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (subject + verb) modifying the main subject, followed by a main verb. Avoid nesting more than one relative clause inside another.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (subject + verb) modifying the main subject, followed by a main verb. Avoid nesting more than one relative clause inside another.",
+  "induced_prompt_chars": 191,
+  "induced_prompt_words": 29,
+  "l1_char_total": 192,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that she recommended became a bestseller.\", \"The cat that was sleeping on the couch suddenly woke up.\", \"The engineer who designed the bridge received an award.\", \"The student who studied all night passed the exam easily.\", \"The letter that arrived this morning contained surprising news.\"]}\n```",
+  "l2_sentences": [
+    "The book that she recommended became a bestseller.",
+    "The cat that was sleeping on the couch suddenly woke up.",
+    "The engineer who designed the bridge received an award.",
+    "The student who studied all night passed the exam easily.",
+    "The letter that arrived this morning contained surprising news."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:49:26.350439+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student read won.",
+    "The cake the chef baked disappeared.",
+    "The letter the lawyer wrote arrived.",
+    "The song the band played ended."
+  ],
+  "l1_sentences": [
+    "The book the student read won.",
+    "The cake the chef baked disappeared.",
+    "The letter the lawyer wrote arrived.",
+    "The song the band played ended.",
+    "The report the manager the assistant hired wrote impressed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The book the student read won.\", \"The cake the chef baked disappeared.\", \"The letter the lawyer wrote arrived.\", \"The song the band played ended.\", \"The report the manager the assistant hired wrote impressed.\"]}\n```",
+  "run_idx": 17
+}

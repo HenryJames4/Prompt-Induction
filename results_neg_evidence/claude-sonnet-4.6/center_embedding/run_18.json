@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the document the lawyer the clerk the judge summoned reviewed signed vanished",
+    "the cake the chef the apprentice the critic tasted praised baked melted",
+    "the song the musician the producer the fan adored recorded released faded",
+    "the letter the author the editor the publisher rejected revised printed mailed",
+    "the book the student the teacher praised borrowed returned"
+  ],
+  "induced_prompt_raw": "Write a multiply center-embedded relative clause sentence with exactly 4 levels of embedding, where 4 nouns are followed by 4 verbs in matching order, with no sentence having fewer than 4 embedded clauses.",
+  "induced_prompt": "Write a multiply center-embedded relative clause sentence with exactly 4 levels of embedding, where 4 nouns are followed by 4 verbs in matching order, with no sentence having fewer than 4 embedded clauses.",
+  "induced_prompt_chars": 205,
+  "induced_prompt_words": 33,
+  "l1_char_total": 357,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the boy that the girl loved owned chased ran away.\", \"The book that the professor that the student that the child that the teacher taught admired assigned wrote won an award.\", \"The mouse that the cat that the dog that the man that the woman saw owned chased caught squeaked.\", \"The proposal that the committee that the dean that the faculty that the president appointed hired reviewed approved passed.\", \"The song that the band that the label that the investor that the manager recruited funded signed recorded became famous.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the boy that the girl loved owned chased ran away.",
+    "The book that the professor that the student that the child that the teacher taught admired assigned wrote won an award.",
+    "The mouse that the cat that the dog that the man that the woman saw owned chased caught squeaked.",
+    "The proposal that the committee that the dean that the faculty that the president appointed hired reviewed approved passed.",
+    "The song that the band that the label that the investor that the manager recruited funded signed recorded became famous."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:08:18.015690+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the document the lawyer the clerk the judge summoned reviewed signed vanished",
+    "the cake the chef the apprentice the critic tasted praised baked melted",
+    "the song the musician the producer the fan adored recorded released faded",
+    "the letter the author the editor the publisher rejected revised printed mailed"
+  ],
+  "l1_sentences": [
+    "the document the lawyer the clerk the judge summoned reviewed signed vanished",
+    "the cake the chef the apprentice the critic tasted praised baked melted",
+    "the song the musician the producer the fan adored recorded released faded",
+    "the letter the author the editor the publisher rejected revised printed mailed",
+    "the book the student the teacher praised borrowed returned"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the document the lawyer the clerk the judge summoned reviewed signed vanished\", \"the cake the chef the apprentice the critic tasted praised baked melted\", \"the song the musician the producer the fan adored recorded released faded\", \"the letter the author the editor the publisher rejected revised printed mailed\", \"the book the student the teacher praised borrowed returned\"]}\n```",
+  "run_idx": 18
+}

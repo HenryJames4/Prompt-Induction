@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the dog the neighbor adopted barked.",
+    "the plan the committee rejected failed.",
+    "the story the editor revised won.",
+    "the cat the owner fed the neighbor saw ran."
+  ],
+  "induced_prompt_raw": "Create a sentence with a main clause and a relative clause that modifies a noun, where the relative clause is embedded within the main clause and the subject of the relative clause is not the same as the subject of the main clause.",
+  "induced_prompt": "Create a sentence with a main clause and a relative clause that modifies a noun, where the relative clause is embedded within the main clause and the subject of the relative clause is not the same as the subject of the main clause.",
+  "induced_prompt_chars": 231,
+  "induced_prompt_words": 43,
+  "l1_char_total": 182,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library, which was written by a famous author, is now overdue.\", \"The student whose project won the competition, although she had struggled at first, received a scholarship.\", \"The car that my brother fixed, which had been broken down for months, now runs perfectly.\", \"The painting that the museum acquired, which had been lost for decades, was recognized by an old collector.\", \"The woman whom the manager praised, despite her quiet demeanor, was promoted to lead the team.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library, which was written by a famous author, is now overdue.",
+    "The student whose project won the competition, although she had struggled at first, received a scholarship.",
+    "The car that my brother fixed, which had been broken down for months, now runs perfectly.",
+    "The painting that the museum acquired, which had been lost for decades, was recognized by an old collector.",
+    "The woman whom the manager praised, despite her quiet demeanor, was promoted to lead the team."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:35:33.512373+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the dog the neighbor adopted barked.",
+    "the plan the committee rejected failed.",
+    "the story the editor revised won."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the dog the neighbor adopted barked.",
+    "the plan the committee rejected failed.",
+    "the story the editor revised won.",
+    "the cat the owner fed the neighbor saw ran."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the dog the neighbor adopted barked.\", \"the plan the committee rejected failed.\", \"the story the editor revised won.\", \"the cat the owner fed the neighbor saw ran.\"] }",
+  "run_idx": 2
+}

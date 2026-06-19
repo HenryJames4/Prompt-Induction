@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student borrowed sold.",
+    "The cake the baker made collapsed.",
+    "The dog the trainer taught obeyed.",
+    "The song the band played echoed.",
+    "The teacher the student the principal scolded complained failed."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence: The [noun1] the [noun2] [verb2] [verb1]. Use exactly two nouns and two verbs.\"",
+  "induced_prompt": "\"Generate a sentence: The [noun1] the [noun2] [verb2] [verb1]. Use exactly two nouns and two verbs.\"",
+  "induced_prompt_chars": 100,
+  "induced_prompt_words": 16,
+  "l1_char_total": 199,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The wind the leaves rustled howled.\", \"The chef the dough kneaded baked.\", \"The cat the mouse chased pounced.\", \"The storm the waves crashed raged.\", \"The teacher the lesson taught inspired.\"]}",
+  "l2_sentences": [
+    "The wind the leaves rustled howled.",
+    "The chef the dough kneaded baked.",
+    "The cat the mouse chased pounced.",
+    "The storm the waves crashed raged.",
+    "The teacher the lesson taught inspired."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:56:22.000035+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student borrowed sold.",
+    "The cake the baker made collapsed.",
+    "The dog the trainer taught obeyed.",
+    "The song the band played echoed."
+  ],
+  "l1_sentences": [
+    "The book the student borrowed sold.",
+    "The cake the baker made collapsed.",
+    "The dog the trainer taught obeyed.",
+    "The song the band played echoed.",
+    "The teacher the student the principal scolded complained failed."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the student borrowed sold.\", \"The cake the baker made collapsed.\", \"The dog the trainer taught obeyed.\", \"The song the band played echoed.\", \"The teacher the student the principal scolded complained failed.\"]}",
+  "run_idx": 25
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the boy the girl chased petted hugged disappeared",
+    "the book the teacher the student the principal assigned read graded accepted",
+    "the car the mechanic the owner the dealer inspected repaired sold delivered",
+    "the house the architect the builder the family designed constructed purchased occupied",
+    "the cake the baker the chef decorated baked served"
+  ],
+  "induced_prompt_raw": "Generate a sentence with four noun phrases, each modifying the next, where the first noun undergoes four consecutive actions.",
+  "induced_prompt": "Generate a sentence with four noun phrases, each modifying the next, where the first noun undergoes four consecutive actions.",
+  "induced_prompt_chars": 125,
+  "induced_prompt_words": 19,
+  "l1_char_total": 352,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The car washed, polished, waxed, and displayed gleamed under the showroom lights.\",\n    \"The book written, edited, published, and reviewed became a bestseller overnight.\",\n    \"The house designed, built, furnished, and decorated won the architectural award.\",\n    \"The cake mixed, baked, iced, and served delighted all the wedding guests.\",\n    \"The student taught, trained, tested, and certified excelled in the final examination.\"\n  ]\n}",
+  "l2_sentences": [
+    "The car washed, polished, waxed, and displayed gleamed under the showroom lights.",
+    "The book written, edited, published, and reviewed became a bestseller overnight.",
+    "The house designed, built, furnished, and decorated won the architectural award.",
+    "The cake mixed, baked, iced, and served delighted all the wedding guests.",
+    "The student taught, trained, tested, and certified excelled in the final examination."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:04:57.349001+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the boy the girl chased petted hugged disappeared",
+    "the book the teacher the student the principal assigned read graded accepted",
+    "the car the mechanic the owner the dealer inspected repaired sold delivered",
+    "the house the architect the builder the family designed constructed purchased occupied"
+  ],
+  "l1_sentences": [
+    "the cat the dog the boy the girl chased petted hugged disappeared",
+    "the book the teacher the student the principal assigned read graded accepted",
+    "the car the mechanic the owner the dealer inspected repaired sold delivered",
+    "the house the architect the builder the family designed constructed purchased occupied",
+    "the cake the baker the chef decorated baked served"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the boy the girl chased petted hugged disappeared\",\n    \"the book the teacher the student the principal assigned read graded accepted\",\n    \"the car the mechanic the owner the dealer inspected repaired sold delivered\",\n    \"the house the architect the builder the family designed constructed purchased occupied\",\n    \"the cake the baker the chef decorated baked served\"\n  ]\n}",
+  "run_idx": 16
+}

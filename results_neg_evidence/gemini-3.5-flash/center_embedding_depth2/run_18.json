@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the package the courier delivered arrived",
+    "the movie the audience loved ended",
+    "the student the teacher praised graduated",
+    "the car the mechanic repaired started",
+    "the chef the kitchen the health inspector closed employed quit"
+  ],
+  "induced_prompt_raw": "Generate simple subject-relative-clause sentences with exactly one level of embedding (NP1 + NP2 + transitive verb + intransitive verb). Avoid multiple center-embeddings or doubly nested relative clauses.",
+  "induced_prompt": "Generate simple subject-relative-clause sentences with exactly one level of embedding (NP1 + NP2 + transitive verb + intransitive verb). Avoid multiple center-embeddings or doubly nested relative clauses.",
+  "induced_prompt_chars": 204,
+  "induced_prompt_words": 27,
+  "l1_char_total": 215,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy who saw the dog ran.\",\n    \"The chef who cooked the meal smiled.\",\n    \"The doctor who helped the patient laughed.\",\n    \"The girl who read the book slept.\",\n    \"The teacher who met the student wave.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy who saw the dog ran.",
+    "The chef who cooked the meal smiled.",
+    "The doctor who helped the patient laughed.",
+    "The girl who read the book slept.",
+    "The teacher who met the student wave."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:50:18.547735+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the package the courier delivered arrived",
+    "the movie the audience loved ended",
+    "the student the teacher praised graduated",
+    "the car the mechanic repaired started"
+  ],
+  "l1_sentences": [
+    "the package the courier delivered arrived",
+    "the movie the audience loved ended",
+    "the student the teacher praised graduated",
+    "the car the mechanic repaired started",
+    "the chef the kitchen the health inspector closed employed quit"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the package the courier delivered arrived\",\n    \"the movie the audience loved ended\",\n    \"the student the teacher praised graduated\",\n    \"the car the mechanic repaired started\",\n    \"the chef the kitchen the health inspector closed employed quit\"\n  ]\n}",
+  "run_idx": 18
+}

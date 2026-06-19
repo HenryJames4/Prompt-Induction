@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased escaped",
+    "the book the student read was interesting",
+    "the man the woman called arrived",
+    "the idea the committee discussed succeeded",
+    "the report the editor the writer hired reviewed collapsed"
+  ],
+  "induced_prompt_raw": "Generate a center-embedded sentence with exactly one relative clause.",
+  "induced_prompt": "Generate a center-embedded sentence with exactly one relative clause.",
+  "induced_prompt_chars": 69,
+  "induced_prompt_words": 9,
+  "l1_char_total": 202,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The book that I borrowed from the library is due tomorrow.\",\n    \"The woman who lives next door is a doctor.\",\n    \"The car that was parked in the driveway belongs to my neighbor.\",\n    \"The movie that we watched last night was really boring.\",\n    \"The house that Jack built is very old.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The book that I borrowed from the library is due tomorrow.",
+    "The woman who lives next door is a doctor.",
+    "The car that was parked in the driveway belongs to my neighbor.",
+    "The movie that we watched last night was really boring.",
+    "The house that Jack built is very old."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:54:38.520186+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased escaped",
+    "the book the student read was interesting",
+    "the man the woman called arrived",
+    "the idea the committee discussed succeeded"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased escaped",
+    "the book the student read was interesting",
+    "the man the woman called arrived",
+    "the idea the committee discussed succeeded",
+    "the report the editor the writer hired reviewed collapsed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped\",\n    \"the book the student read was interesting\",\n    \"the man the woman called arrived\",\n    \"the idea the committee discussed succeeded\",\n    \"the report the editor the writer hired reviewed collapsed\"\n  ]\n}\n```",
+  "run_idx": 23
+}

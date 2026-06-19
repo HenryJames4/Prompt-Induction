@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the cat the rat the cheese attracted bit scratched ran",
+    "The story the reporter the editor the publisher hired questioned printed leaked",
+    "The patient the doctor the nurse the intern trained assisted treated recovered",
+    "The song the singer the guitarist the drummer joined performed recorded failed",
+    "The car the driver the mechanic fixed crashed"
+  ],
+  "induced_prompt_raw": "Generate a sentence containing exactly four noun phrases followed by exactly four verbs in a center-embedded (nested) relative clause structure, ensuring the number of verbs matches the number of nouns to avoid incomplete structures.",
+  "induced_prompt": "Generate a sentence containing exactly four noun phrases followed by exactly four verbs in a center-embedded (nested) relative clause structure, ensuring the number of verbs matches the number of nouns to avoid incomplete structures.",
+  "induced_prompt_chars": 233,
+  "induced_prompt_words": 34,
+  "l1_char_total": 342,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boys the girls the teachers the principal saw liked teased ran.\",\n    \"The dogs the cats the mice the birds chased caught watched escaped.\",\n    \"The patients the doctors the nurses the students assisted instructed supervised recovered.\",\n    \"The actors the directors the writers the critics praised challenged inspired succeeded.\",\n    \"The chefs the critics the guests the owners welcomed served pleased rejoiced.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boys the girls the teachers the principal saw liked teased ran.",
+    "The dogs the cats the mice the birds chased caught watched escaped.",
+    "The patients the doctors the nurses the students assisted instructed supervised recovered.",
+    "The actors the directors the writers the critics praised challenged inspired succeeded.",
+    "The chefs the critics the guests the owners welcomed served pleased rejoiced."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:24:35.178096+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the cat the rat the cheese attracted bit scratched ran",
+    "The story the reporter the editor the publisher hired questioned printed leaked",
+    "The patient the doctor the nurse the intern trained assisted treated recovered",
+    "The song the singer the guitarist the drummer joined performed recorded failed"
+  ],
+  "l1_sentences": [
+    "The dog the cat the rat the cheese attracted bit scratched ran",
+    "The story the reporter the editor the publisher hired questioned printed leaked",
+    "The patient the doctor the nurse the intern trained assisted treated recovered",
+    "The song the singer the guitarist the drummer joined performed recorded failed",
+    "The car the driver the mechanic fixed crashed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The dog the cat the rat the cheese attracted bit scratched ran\",\n    \"The story the reporter the editor the publisher hired questioned printed leaked\",\n    \"The patient the doctor the nurse the intern trained assisted treated recovered\",\n    \"The song the singer the guitarist the drummer joined performed recorded failed\",\n    \"The car the driver the mechanic fixed crashed\"\n  ]\n}",
+  "run_idx": 29
+}

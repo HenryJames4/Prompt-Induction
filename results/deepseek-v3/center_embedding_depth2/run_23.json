@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor published sold",
+    "the movie the critic reviewed flopped",
+    "the painting the artist created exhibited",
+    "the song the musician composed played",
+    "the cake the baker decorated served"
+  ],
+  "induced_prompt_raw": "\"the [noun] the [person] [verb] [verb]\"",
+  "induced_prompt": "\"the [noun] the [person] [verb] [verb]\"",
+  "induced_prompt_chars": 39,
+  "induced_prompt_words": 6,
+  "l1_char_total": 184,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cake the baker prepared rose.\", \"The book the author wrote inspired.\", \"The song the musician composed resonated.\", \"The painting the artist created dazzled.\", \"The meal the chef cooked satisfied.\"]}",
+  "l2_sentences": [
+    "The cake the baker prepared rose.",
+    "The book the author wrote inspired.",
+    "The song the musician composed resonated.",
+    "The painting the artist created dazzled.",
+    "The meal the chef cooked satisfied."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:24:53.058917+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor published sold",
+    "the movie the critic reviewed flopped",
+    "the painting the artist created exhibited",
+    "the song the musician composed played",
+    "the cake the baker decorated served"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor published sold\", \"the movie the critic reviewed flopped\", \"the painting the artist created exhibited\", \"the song the musician composed played\", \"the cake the baker decorated served\"]}",
+  "run_idx": 23
+}

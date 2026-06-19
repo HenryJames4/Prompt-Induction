@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the teacher trained hired baked crumbled.",
+    "the bridge the engineer the worker the boss hired fired built collapsed.",
+    "the novel the writer the agent the publisher contacted impressed signed vanished.",
+    "the garden the farmer the child the neighbor helped hired planted flourished.",
+    "the car the mechanic the owner the dealer trusted hired fixed stalled."
+  ],
+  "induced_prompt_raw": "Write sentences with multiply center-embedded relative clauses, where several agents act on each other in a chain before the final verb describing the subject's outcome.",
+  "induced_prompt": "Write sentences with multiply center-embedded relative clauses, where several agents act on each other in a chain before the final verb describing the subject's outcome.",
+  "induced_prompt_chars": 169,
+  "induced_prompt_words": 25,
+  "l1_char_total": 371,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the boy that the girl loved owned chased scratched the wall.\", \"The lawyer that the judge that the clerk that the bailiff summoned addressed ruled against lost the case.\", \"The book that the professor that the student that the librarian helped taught assigned confused everyone.\", \"The horse that the trainer that the owner that the investor funded hired broke fled the stable.\", \"The treaty that the diplomat that the minister that the council appointed advised drafted collapsed overnight.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the boy that the girl loved owned chased scratched the wall.",
+    "The lawyer that the judge that the clerk that the bailiff summoned addressed ruled against lost the case.",
+    "The book that the professor that the student that the librarian helped taught assigned confused everyone.",
+    "The horse that the trainer that the owner that the investor funded hired broke fled the stable.",
+    "The treaty that the diplomat that the minister that the council appointed advised drafted collapsed overnight."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:22:21.342758+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the teacher trained hired baked crumbled.",
+    "the bridge the engineer the worker the boss hired fired built collapsed.",
+    "the novel the writer the agent the publisher contacted impressed signed vanished.",
+    "the garden the farmer the child the neighbor helped hired planted flourished.",
+    "the car the mechanic the owner the dealer trusted hired fixed stalled."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the student the teacher trained hired baked crumbled.\", \"the bridge the engineer the worker the boss hired fired built collapsed.\", \"the novel the writer the agent the publisher contacted impressed signed vanished.\", \"the garden the farmer the child the neighbor helped hired planted flourished.\", \"the car the mechanic the owner the dealer trusted hired fixed stalled.\"]}\n```",
+  "run_idx": 11
+}

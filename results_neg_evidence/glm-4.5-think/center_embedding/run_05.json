@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the teacher the student the principal recommended assigned read disappeared.",
+    "the car the mechanic the owner the driver repaired washed sold crashed.",
+    "the house the architect the builder the inspector designed constructed approved collapsed.",
+    "the plan the manager the team the client proposed implemented approved failed.",
+    "the cake the baker the customer baked decorated ate."
+  ],
+  "induced_prompt_raw": "Generate: the [object] the [agent1] the [agent2] the [agent3] [verb3] [verb2] [verb1] [intransitive verb]",
+  "induced_prompt": "Generate: the [object] the [agent1] the [agent2] the [agent3] [verb3] [verb2] [verb1] [intransitive verb]",
+  "induced_prompt_chars": 105,
+  "induced_prompt_words": 14,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The letter the sender the postman the recipient wrote delivered read smiled.\",\n    \"The ball the pitcher the catcher the batter threw caught hit cheered.\",\n    \"The cake the baker the decorator the child baked decorated ate laughed.\",\n    \"The book the author the publisher the reader wrote published read sighed.\",\n    \"The painting the artist the framer the buyer painted framed admired gasped.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The letter the sender the postman the recipient wrote delivered read smiled.",
+    "The ball the pitcher the catcher the batter threw caught hit cheered.",
+    "The cake the baker the decorator the child baked decorated ate laughed.",
+    "The book the author the publisher the reader wrote published read sighed.",
+    "The painting the artist the framer the buyer painted framed admired gasped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:47:23.776712+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the teacher the student the principal recommended assigned read disappeared.",
+    "the car the mechanic the owner the driver repaired washed sold crashed.",
+    "the house the architect the builder the inspector designed constructed approved collapsed.",
+    "the plan the manager the team the client proposed implemented approved failed."
+  ],
+  "l1_sentences": [
+    "the book the teacher the student the principal recommended assigned read disappeared.",
+    "the car the mechanic the owner the driver repaired washed sold crashed.",
+    "the house the architect the builder the inspector designed constructed approved collapsed.",
+    "the plan the manager the team the client proposed implemented approved failed.",
+    "the cake the baker the customer baked decorated ate."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the teacher the student the principal recommended assigned read disappeared.\",\n    \"the car the mechanic the owner the driver repaired washed sold crashed.\",\n    \"the house the architect the builder the inspector designed constructed approved collapsed.\",\n    \"the plan the manager the team the client proposed implemented approved failed.\",\n    \"the cake the baker the customer baked decorated ate.\"\n  ]\n}\n```",
+  "run_idx": 5
+}

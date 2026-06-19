@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The client the designer called smiled",
+    "The cake the baker decorated collapsed",
+    "The report the manager requested arrived",
+    "The dog the boy rescued barked",
+    "The student the teacher the principal scolded cried laughed fainted"
+  ],
+  "induced_prompt_raw": "Generate a simple sentence containing a single object relative clause without relative pronouns (e.g., \"The noun the noun verb verb\"), ensuring there is only one level of nesting to avoid multiple stacked verbs at the end.",
+  "induced_prompt": "Generate a simple sentence containing a single object relative clause without relative pronouns (e.g., \"The noun the noun verb verb\"), ensuring there is only one level of nesting to avoid multiple stacked verbs at the end.",
+  "induced_prompt_chars": 222,
+  "induced_prompt_words": 36,
+  "l1_char_total": 212,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book I read was exciting.\",\n    \"The car he bought is red.\",\n    \"The cake she baked tasted delicious.\",\n    \"The song they played sounded familiar.\",\n    \"The movie we watched was scary.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book I read was exciting.",
+    "The car he bought is red.",
+    "The cake she baked tasted delicious.",
+    "The song they played sounded familiar.",
+    "The movie we watched was scary."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:46:58.896338+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The client the designer called smiled",
+    "The cake the baker decorated collapsed",
+    "The report the manager requested arrived",
+    "The dog the boy rescued barked"
+  ],
+  "l1_sentences": [
+    "The client the designer called smiled",
+    "The cake the baker decorated collapsed",
+    "The report the manager requested arrived",
+    "The dog the boy rescued barked",
+    "The student the teacher the principal scolded cried laughed fainted"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The client the designer called smiled\",\n    \"The cake the baker decorated collapsed\",\n    \"The report the manager requested arrived\",\n    \"The dog the boy rescued barked\",\n    \"The student the teacher the principal scolded cried laughed fainted\"\n  ]\n}",
+  "run_idx": 14
+}

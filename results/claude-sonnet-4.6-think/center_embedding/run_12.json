@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the critic the student praised interviewed wrote sold.",
+    "the plan the manager the director the clerk briefed convinced approved failed.",
+    "the dog the owner the trainer the vet hired taught walked barked.",
+    "the school the principal the teacher the child impressed informed managed closed.",
+    "the battle the general the captain the soldier assisted briefed planned ended."
+  ],
+  "induced_prompt_raw": "Write sentences with quadruply center-embedded relative clauses, where four successive noun phrases are followed by four verbs in reverse dependency order.",
+  "induced_prompt": "Write sentences with quadruply center-embedded relative clauses, where four successive noun phrases are followed by four verbs in reverse dependency order.",
+  "induced_prompt_chars": 155,
+  "induced_prompt_words": 21,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog the rat the elephant scared bit chased ran.\",\n    \"The book the student the teacher the principal hired taught read won an award.\",\n    \"The man the woman the child the dog bit scared loved left.\",\n    \"The paper the analyst the professor the committee appointed supervised wrote circulated widely.\",\n    \"The house the family the agent the bank funded hired bought burned down.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the dog the rat the elephant scared bit chased ran.",
+    "The book the student the teacher the principal hired taught read won an award.",
+    "The man the woman the child the dog bit scared loved left.",
+    "The paper the analyst the professor the committee appointed supervised wrote circulated widely.",
+    "The house the family the agent the bank funded hired bought burned down."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:23:00.772281+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the critic the student praised interviewed wrote sold.",
+    "the plan the manager the director the clerk briefed convinced approved failed.",
+    "the dog the owner the trainer the vet hired taught walked barked.",
+    "the school the principal the teacher the child impressed informed managed closed.",
+    "the battle the general the captain the soldier assisted briefed planned ended."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the author the critic the student praised interviewed wrote sold.\",\n    \"the plan the manager the director the clerk briefed convinced approved failed.\",\n    \"the dog the owner the trainer the vet hired taught walked barked.\",\n    \"the school the principal the teacher the child impressed informed managed closed.\",\n    \"the battle the general the captain the soldier assisted briefed planned ended.\"\n  ]\n}\n```",
+  "run_idx": 12
+}

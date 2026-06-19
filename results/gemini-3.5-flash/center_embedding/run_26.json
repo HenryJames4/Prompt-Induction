@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the mouse the cheese attracted chased bit died",
+    "the student the teacher the principal the superintendent hired questioned praised graduated",
+    "the patient the doctor the nurse the intern assisted advised treated recovered",
+    "the player the coach the referee the commissioner suspended penalized motivated retired",
+    "the client the lawyer the detective the suspect watched questioned defended prevailed"
+  ],
+  "induced_prompt_raw": "Generate sentences with a quadruple center-embedding (multiply self-embedded) relative clause structure: [Noun1 [Noun2 [Noun3 [Noun4 Verb4] Verb3] Verb2] Verb1].",
+  "induced_prompt": "Generate sentences with a quadruple center-embedding (multiply self-embedded) relative clause structure: [Noun1 [Noun2 [Noun3 [Noun4 Verb4] Verb3] Verb2] Verb1].",
+  "induced_prompt_chars": 161,
+  "induced_prompt_words": 19,
+  "l1_char_total": 403,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The man the boy the dog the cat scratched bit chased smiled.\",\n    \"The book the student the teacher the principal praised recommended read lost.\",\n    \"The report the intern the manager the director hired questioned approved filed.\",\n    \"The song the singer the writer the critic disliked adored performed failed.\",\n    \"The cheese the mouse the cat the dog chased caught ate smelled.\"\n  ]\n}",
+  "l2_sentences": [
+    "The man the boy the dog the cat scratched bit chased smiled.",
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The report the intern the manager the director hired questioned approved filed.",
+    "The song the singer the writer the critic disliked adored performed failed.",
+    "The cheese the mouse the cat the dog chased caught ate smelled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:31:17.460462+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the mouse the cheese attracted chased bit died",
+    "the student the teacher the principal the superintendent hired questioned praised graduated",
+    "the patient the doctor the nurse the intern assisted advised treated recovered",
+    "the player the coach the referee the commissioner suspended penalized motivated retired",
+    "the client the lawyer the detective the suspect watched questioned defended prevailed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the dog the cat the mouse the cheese attracted chased bit died\",\n    \"the student the teacher the principal the superintendent hired questioned praised graduated\",\n    \"the patient the doctor the nurse the intern assisted advised treated recovered\",\n    \"the player the coach the referee the commissioner suspended penalized motivated retired\",\n    \"the client the lawyer the detective the suspect watched questioned defended prevailed\"\n  ]\n}",
+  "run_idx": 26
+}

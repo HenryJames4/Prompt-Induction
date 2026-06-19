@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the letter the manager sent arrived.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked.",
+    "the story the writer told the audience enjoyed the ending."
+  ],
+  "induced_prompt_raw": "Create a sentence where a noun phrase is modified by a relative clause describing an action performed on it, followed by a main clause stating the outcome of that action.",
+  "induced_prompt": "Create a sentence where a noun phrase is modified by a relative clause describing an action performed on it, followed by a main clause stating the outcome of that action.",
+  "induced_prompt_chars": 170,
+  "induced_prompt_words": 30,
+  "l1_char_total": 203,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that was written by the retired teacher sold out within days.\", \"The painting that was restored by the expert now hangs in the museum.\", \"The car that was repaired by the mechanic runs smoothly again.\", \"The letter that was delivered by the courier arrived late due to the storm.\", \"The bridge that was reinforced by engineers withstood the earthquake.\"] }",
+  "l2_sentences": [
+    "The book that was written by the retired teacher sold out within days.",
+    "The painting that was restored by the expert now hangs in the museum.",
+    "The car that was repaired by the mechanic runs smoothly again.",
+    "The letter that was delivered by the courier arrived late due to the storm.",
+    "The bridge that was reinforced by engineers withstood the earthquake."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:58:05.153289+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the letter the manager sent arrived.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the letter the manager sent arrived.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked.",
+    "the story the writer told the audience enjoyed the ending."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the letter the manager sent arrived.\", \"the plan the committee rejected failed.\", \"the idea the scientist proposed worked.\", \"the story the writer told the audience enjoyed the ending.\"]}",
+  "run_idx": 27
+}

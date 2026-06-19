@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cake the chef the baker the apprentice trained baked decorated vanished.",
+    "The book the author the editor the intern reviewed revised published disappeared.",
+    "The car the mechanic the driver the technician fixed repaired drove crashed.",
+    "The painting the artist the curator the assistant restored displayed admired vanished.",
+    "The document the manager the assistant reviewed approved."
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested relative clauses where each subsequent clause modifies the preceding noun, ensuring at least four levels of embedding, and avoid structures with fewer than three nested clauses.\"",
+  "induced_prompt": "\"Generate sentences with nested relative clauses where each subsequent clause modifies the preceding noun, ensuring at least four levels of embedding, and avoid structures with fewer than three nested clauses.\"",
+  "induced_prompt_chars": 210,
+  "induced_prompt_words": 30,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book, which was written by the author, who had traveled to places, that were rarely visited, which inspired many readers, was a bestseller.\", \"The painting, which depicted a scene, that was imagined by the artist, who had a vivid imagination, that captivated the audience, was sold at an auction.\", \"The house, which was built by the architect, who had studied designs, that were influenced by ancient cultures, which fascinated historians, stood on the hill.\", \"The song, which was composed by the musician, who had experienced emotions, that were deeply personal, which resonated with listeners, became an anthem.\", \"The car, which was designed by the engineer, who had incorporated features, that were innovative, which impressed critics, won several awards.\"]}",
+  "l2_sentences": [
+    "The book, which was written by the author, who had traveled to places, that were rarely visited, which inspired many readers, was a bestseller.",
+    "The painting, which depicted a scene, that was imagined by the artist, who had a vivid imagination, that captivated the audience, was sold at an auction.",
+    "The house, which was built by the architect, who had studied designs, that were influenced by ancient cultures, which fascinated historians, stood on the hill.",
+    "The song, which was composed by the musician, who had experienced emotions, that were deeply personal, which resonated with listeners, became an anthem.",
+    "The car, which was designed by the engineer, who had incorporated features, that were innovative, which impressed critics, won several awards."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:43:07.738375+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cake the chef the baker the apprentice trained baked decorated vanished.",
+    "The book the author the editor the intern reviewed revised published disappeared.",
+    "The car the mechanic the driver the technician fixed repaired drove crashed.",
+    "The painting the artist the curator the assistant restored displayed admired vanished."
+  ],
+  "l1_sentences": [
+    "The cake the chef the baker the apprentice trained baked decorated vanished.",
+    "The book the author the editor the intern reviewed revised published disappeared.",
+    "The car the mechanic the driver the technician fixed repaired drove crashed.",
+    "The painting the artist the curator the assistant restored displayed admired vanished.",
+    "The document the manager the assistant reviewed approved."
+  ],
+  "l1_raw": "{\"sentences\": [\"The cake the chef the baker the apprentice trained baked decorated vanished.\", \"The book the author the editor the intern reviewed revised published disappeared.\", \"The car the mechanic the driver the technician fixed repaired drove crashed.\", \"The painting the artist the curator the assistant restored displayed admired vanished.\", \"The document the manager the assistant reviewed approved.\"]}",
+  "run_idx": 2
+}

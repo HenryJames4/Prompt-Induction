@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy chased barked.",
+    "The book the author wrote sold.",
+    "The cake the baker baked cooled.",
+    "The song the singer performed impressed.",
+    "The mouse the cat the dog scared chased escaped."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with one reduced relative clause: The [noun1] the [noun2] [past_transitive_verb] [past_verb]. Avoid nested clauses.\"",
+  "induced_prompt": "\"Generate a sentence with one reduced relative clause: The [noun1] the [noun2] [past_transitive_verb] [past_verb]. Avoid nested clauses.\"",
+  "induced_prompt_chars": 137,
+  "induced_prompt_words": 17,
+  "l1_char_total": 181,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cake the baker made tasted delicious.\", \"The book the author wrote became popular.\", \"The car the mechanic fixed ran smoothly.\", \"The song the band performed received applause.\", \"The meal the chef prepared smelled amazing.\"]}",
+  "l2_sentences": [
+    "The cake the baker made tasted delicious.",
+    "The book the author wrote became popular.",
+    "The car the mechanic fixed ran smoothly.",
+    "The song the band performed received applause.",
+    "The meal the chef prepared smelled amazing."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:38:59.037767+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy chased barked.",
+    "The book the author wrote sold.",
+    "The cake the baker baked cooled.",
+    "The song the singer performed impressed."
+  ],
+  "l1_sentences": [
+    "The dog the boy chased barked.",
+    "The book the author wrote sold.",
+    "The cake the baker baked cooled.",
+    "The song the singer performed impressed.",
+    "The mouse the cat the dog scared chased escaped."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the boy chased barked.\", \"The book the author wrote sold.\", \"The cake the baker baked cooled.\", \"The song the singer performed impressed.\", \"The mouse the cat the dog scared chased escaped.\"]}",
+  "run_idx": 6
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the rat the elephant chased bit ate ran",
+    "the book the teacher the student the principal read borrowed recommended returned",
+    "the car the driver the owner the mechanic repaired sold drove crashed",
+    "the house the builder the inspector the buyer constructed approved purchased burned",
+    "the man the woman the child saw chased laughed"
+  ],
+  "induced_prompt_raw": "Generate a center-embedded sentence with four 'the'-nouns followed by four verbs.",
+  "induced_prompt": "Generate a center-embedded sentence with four 'the'-nouns followed by four verbs.",
+  "induced_prompt_chars": 81,
+  "induced_prompt_words": 11,
+  "l1_char_total": 334,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat that the cat that the dog that the man chased bit killed died.\",\n    \"The book that the student that the teacher that the principal admired recommended read disappeared.\",\n    \"The car that the mechanic that the owner that the bank trusted fixed repaired crashed.\",\n    \"The house that the builder that the architect that the city hired designed built burned.\",\n    \"The song that the singer that the agent that the producer hired promoted recorded became famous.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat that the cat that the dog that the man chased bit killed died.",
+    "The book that the student that the teacher that the principal admired recommended read disappeared.",
+    "The car that the mechanic that the owner that the bank trusted fixed repaired crashed.",
+    "The house that the builder that the architect that the city hired designed built burned.",
+    "The song that the singer that the agent that the producer hired promoted recorded became famous."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:50:10.558334+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the rat the elephant chased bit ate ran",
+    "the book the teacher the student the principal read borrowed recommended returned",
+    "the car the driver the owner the mechanic repaired sold drove crashed",
+    "the house the builder the inspector the buyer constructed approved purchased burned"
+  ],
+  "l1_sentences": [
+    "the cat the dog the rat the elephant chased bit ate ran",
+    "the book the teacher the student the principal read borrowed recommended returned",
+    "the car the driver the owner the mechanic repaired sold drove crashed",
+    "the house the builder the inspector the buyer constructed approved purchased burned",
+    "the man the woman the child saw chased laughed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog the rat the elephant chased bit ate ran\",\n    \"the book the teacher the student the principal read borrowed recommended returned\",\n    \"the car the driver the owner the mechanic repaired sold drove crashed\",\n    \"the house the builder the inspector the buyer constructed approved purchased burned\",\n    \"the man the woman the child saw chased laughed\"\n  ]\n}\n```",
+  "run_idx": 7
+}

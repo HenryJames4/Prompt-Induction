@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the student read vanished",
+    "the car the mechanic repaired crashed",
+    "the cake the baker decorated dropped",
+    "the song the singer performed ended",
+    "the movie the director made succeeded"
+  ],
+  "induced_prompt_raw": "Generate five lowercase sentences with the syntactic structure: \"the [noun] the [noun] [past-tense transitive verb] [past-tense intransitive verb]\"",
+  "induced_prompt": "Generate five lowercase sentences with the syntactic structure: \"the [noun] the [noun] [past-tense transitive verb] [past-tense intransitive verb]\"",
+  "induced_prompt_chars": 147,
+  "induced_prompt_words": 18,
+  "l1_char_total": 179,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"the mouse the cat chased died.\",\n    \"the man the crowd pushed fell.\",\n    \"the bird the boy watched vanished.\",\n    \"the actor the director hired smiled.\",\n    \"the guest the host welcomed arrived.\"\n  ]\n}",
+  "l2_sentences": [
+    "the mouse the cat chased died.",
+    "the man the crowd pushed fell.",
+    "the bird the boy watched vanished.",
+    "the actor the director hired smiled.",
+    "the guest the host welcomed arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:41:16.334821+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the student read vanished",
+    "the car the mechanic repaired crashed",
+    "the cake the baker decorated dropped",
+    "the song the singer performed ended",
+    "the movie the director made succeeded"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the student read vanished\",\n    \"the car the mechanic repaired crashed\",\n    \"the cake the baker decorated dropped\",\n    \"the song the singer performed ended\",\n    \"the movie the director made succeeded\"\n  ]\n}",
+  "run_idx": 18
+}

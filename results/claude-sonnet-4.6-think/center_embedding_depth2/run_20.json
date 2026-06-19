@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef baked disappeared.",
+    "The bridge the engineer designed collapsed.",
+    "The report the manager reviewed circulated.",
+    "The law the senator proposed failed.",
+    "The book the student borrowed vanished."
+  ],
+  "induced_prompt_raw": "Write sentences using a center-embedded reduced relative clause: \"The [noun] the [person] [transitive verb] [intransitive verb].\"",
+  "induced_prompt": "Write sentences using a center-embedded reduced relative clause: \"The [noun] the [person] [transitive verb] [intransitive verb].\"",
+  "induced_prompt_chars": 129,
+  "induced_prompt_words": 16,
+  "l1_char_total": 197,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cake the baker made disappeared.\", \"The letter the lawyer wrote arrived.\", \"The painting the artist created sold.\", \"The bridge the engineer designed collapsed.\", \"The book the student read survived.\"]}\n```",
+  "l2_sentences": [
+    "The cake the baker made disappeared.",
+    "The letter the lawyer wrote arrived.",
+    "The painting the artist created sold.",
+    "The bridge the engineer designed collapsed.",
+    "The book the student read survived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:41:54.760296+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef baked disappeared.",
+    "The bridge the engineer designed collapsed.",
+    "The report the manager reviewed circulated.",
+    "The law the senator proposed failed.",
+    "The book the student borrowed vanished."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The cake the chef baked disappeared.\", \"The bridge the engineer designed collapsed.\", \"The report the manager reviewed circulated.\", \"The law the senator proposed failed.\", \"The book the student borrowed vanished.\"]}\n```",
+  "run_idx": 20
+}

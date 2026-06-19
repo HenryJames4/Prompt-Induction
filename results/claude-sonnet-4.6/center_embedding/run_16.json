@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the teacher praised baked tasted vanished.",
+    "the book the author the critic the reader admired wrote reviewed sold.",
+    "the dog the owner the vet the child examined treated loved barked.",
+    "the plan the boss the worker the client approved designed reviewed failed.",
+    "the song the singer the producer the fan recorded mixed loved charted."
+  ],
+  "induced_prompt_raw": "Write sentences with multiply center-embedded relative clauses, using four nouns followed by four verbs in nested object-subject pattern.",
+  "induced_prompt": "Write sentences with multiply center-embedded relative clauses, using four nouns followed by four verbs in nested object-subject pattern.",
+  "induced_prompt_chars": 137,
+  "induced_prompt_words": 18,
+  "l1_char_total": 352,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog the rat the elephant chased bit scratched fled.\", \"The book the student the teacher the principal hired assigned read disappeared.\", \"The cake the child the mother the baker trained made ate crumbled.\", \"The letter the clerk the lawyer the judge appointed wrote signed burned.\", \"The song the fan the artist the label signed recorded loved faded.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog the rat the elephant chased bit scratched fled.",
+    "The book the student the teacher the principal hired assigned read disappeared.",
+    "The cake the child the mother the baker trained made ate crumbled.",
+    "The letter the clerk the lawyer the judge appointed wrote signed burned.",
+    "The song the fan the artist the label signed recorded loved faded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:24:38.952157+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the teacher praised baked tasted vanished.",
+    "the book the author the critic the reader admired wrote reviewed sold.",
+    "the dog the owner the vet the child examined treated loved barked.",
+    "the plan the boss the worker the client approved designed reviewed failed.",
+    "the song the singer the producer the fan recorded mixed loved charted."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the student the teacher praised baked tasted vanished.\", \"the book the author the critic the reader admired wrote reviewed sold.\", \"the dog the owner the vet the child examined treated loved barked.\", \"the plan the boss the worker the client approved designed reviewed failed.\", \"the song the singer the producer the fan recorded mixed loved charted.\"]}\n```",
+  "run_idx": 16
+}

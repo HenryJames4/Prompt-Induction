@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student read won",
+    "the cake the chef baked disappeared",
+    "the letter the clerk typed arrived",
+    "the dog the child loved barked",
+    "the report the manager the editor hired reviewed passed failed"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (one level of embedding only), where a noun phrase is modified by a clause describing who acted on it, followed by a main verb. Avoid multiple levels of nested embedding.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (one level of embedding only), where a noun phrase is modified by a clause describing who acted on it, followed by a main verb. Avoid multiple levels of nested embedding.",
+  "induced_prompt_chars": 232,
+  "induced_prompt_words": 38,
+  "l1_char_total": 190,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that the student borrowed was overdue.\", \"The cat that the children found was injured.\", \"The letter that the manager signed arrived this morning.\", \"The car that the mechanic repaired broke down again.\", \"The painting that the artist donated sold for a high price.\"]}\n```",
+  "l2_sentences": [
+    "The book that the student borrowed was overdue.",
+    "The cat that the children found was injured.",
+    "The letter that the manager signed arrived this morning.",
+    "The car that the mechanic repaired broke down again.",
+    "The painting that the artist donated sold for a high price."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:48:23.315210+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student read won",
+    "the cake the chef baked disappeared",
+    "the letter the clerk typed arrived",
+    "the dog the child loved barked"
+  ],
+  "l1_sentences": [
+    "the book the student read won",
+    "the cake the chef baked disappeared",
+    "the letter the clerk typed arrived",
+    "the dog the child loved barked",
+    "the report the manager the editor hired reviewed passed failed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student read won\", \"the cake the chef baked disappeared\", \"the letter the clerk typed arrived\", \"the dog the child loved barked\", \"the report the manager the editor hired reviewed passed failed\"]}",
+  "run_idx": 16
+}

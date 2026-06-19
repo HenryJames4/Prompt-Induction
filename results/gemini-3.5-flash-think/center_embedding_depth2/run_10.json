@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cat the dog chased meowed.",
+    "The car the man bought crashed.",
+    "The book the student read burned.",
+    "The cake the baker made fell.",
+    "The song the girl sang ended."
+  ],
+  "induced_prompt_raw": "Generate sentences with the structure: \"The [noun] the [noun] [verb] [verb]\".",
+  "induced_prompt": "Generate sentences with the structure: \"The [noun] the [noun] [verb] [verb]\".",
+  "induced_prompt_chars": 77,
+  "induced_prompt_words": 11,
+  "l1_char_total": 152,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat the dog chased ran.\",\n    \"The book the boy read fell.\",\n    \"The car the man bought broke.\",\n    \"The food the chef cooked spoiled.\",\n    \"The song the girl sang ended.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat the dog chased ran.",
+    "The book the boy read fell.",
+    "The car the man bought broke.",
+    "The food the chef cooked spoiled.",
+    "The song the girl sang ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:38:58.404956+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cat the dog chased meowed.",
+    "The car the man bought crashed.",
+    "The book the student read burned.",
+    "The cake the baker made fell.",
+    "The song the girl sang ended."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog chased meowed.\",\n    \"The car the man bought crashed.\",\n    \"The book the student read burned.\",\n    \"The cake the baker made fell.\",\n    \"The song the girl sang ended.\"\n  ]\n}",
+  "run_idx": 10
+}

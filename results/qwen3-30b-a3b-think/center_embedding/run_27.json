@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the reader the publisher wrote published read sold",
+    "the car the driver the passenger the ticket drove bought showed lost",
+    "the tree the bird the nest the egg built laid hatched flew",
+    "the house the architect the builder the client designed constructed approved moved",
+    "the computer the programmer the code the bug wrote fixed tested found"
+  ],
+  "induced_prompt_raw": "four nouns followed by four verbs",
+  "induced_prompt": "four nouns followed by four verbs",
+  "induced_prompt_chars": 33,
+  "induced_prompt_words": 6,
+  "l1_char_total": 347,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"dog cat bird fish run jump swim bark.\", \"car truck bus plane drive fly stop park.\", \"book pen paper pencil write draw read copy.\", \"water fire air earth boil burn melt freeze.\", \"sun moon star planet shine glow orbit circle.\"]}",
+  "l2_sentences": [
+    "dog cat bird fish run jump swim bark.",
+    "car truck bus plane drive fly stop park.",
+    "book pen paper pencil write draw read copy.",
+    "water fire air earth boil burn melt freeze.",
+    "sun moon star planet shine glow orbit circle."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:48:45.076410+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the reader the publisher wrote published read sold",
+    "the car the driver the passenger the ticket drove bought showed lost",
+    "the tree the bird the nest the egg built laid hatched flew",
+    "the house the architect the builder the client designed constructed approved moved",
+    "the computer the programmer the code the bug wrote fixed tested found"
+  ],
+  "l1_raw": "{\"sentences\":[\"the book the author the reader the publisher wrote published read sold\",\"the car the driver the passenger the ticket drove bought showed lost\",\"the tree the bird the nest the egg built laid hatched flew\",\"the house the architect the builder the client designed constructed approved moved\",\"the computer the programmer the code the bug wrote fixed tested found\"]}",
+  "run_idx": 27
+}

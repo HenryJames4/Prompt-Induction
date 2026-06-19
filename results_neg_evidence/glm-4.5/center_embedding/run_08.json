@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read recommended bought enjoyed",
+    "the plan the manager the team the client presented discussed accepted implemented",
+    "the movie the critic the audience the producer reviewed praised watched awarded",
+    "the house the agent the owner sold bought renovated"
+  ],
+  "induced_prompt_raw": "Generate a sequence of nouns and verbs where each verb applies to the entire preceding noun phrase, creating a center-embedded structure. Ensure every verb has a clear subject.",
+  "induced_prompt": "Generate a sequence of nouns and verbs where each verb applies to the entire preceding noun phrase, creating a center-embedded structure. Ensure every verb has a clear subject.",
+  "induced_prompt_chars": 176,
+  "induced_prompt_words": 28,
+  "l1_char_total": 371,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog chased ran away.\",\n    \"The book that the student who the teacher praised read was interesting.\",\n    \"The house that the man who the woman married built is large.\",\n    \"The car that the mechanic who the owner trusted repaired runs well.\",\n    \"The idea that the professor who the university hired developed is revolutionary.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog chased ran away.",
+    "The book that the student who the teacher praised read was interesting.",
+    "The house that the man who the woman married built is large.",
+    "The car that the mechanic who the owner trusted repaired runs well.",
+    "The idea that the professor who the university hired developed is revolutionary."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:52:21.829713+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read recommended bought enjoyed",
+    "the plan the manager the team the client presented discussed accepted implemented",
+    "the movie the critic the audience the producer reviewed praised watched awarded"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read recommended bought enjoyed",
+    "the plan the manager the team the client presented discussed accepted implemented",
+    "the movie the critic the audience the producer reviewed praised watched awarded",
+    "the house the agent the owner sold bought renovated"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read recommended bought enjoyed\",\n    \"the plan the manager the team the client presented discussed accepted implemented\",\n    \"the movie the critic the audience the producer reviewed praised watched awarded\",\n    \"the house the agent the owner sold bought renovated\"\n  ]\n}",
+  "run_idx": 8
+}

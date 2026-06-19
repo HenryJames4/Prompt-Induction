@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the car the mechanic fixed runs",
+    "the book the author wrote sold",
+    "the letter the secretary typed arrived",
+    "the report the manager reviewed passed",
+    "the cake the baker the customer praised made sold"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause, following the pattern: \"the [noun] the [noun] [verb] [verb].\" Use only one level of embedding — do not nest a second relative clause inside the first.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause, following the pattern: \"the [noun] the [noun] [verb] [verb].\" Use only one level of embedding — do not nest a second relative clause inside the first.",
+  "induced_prompt_chars": 213,
+  "induced_prompt_words": 34,
+  "l1_char_total": 186,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog chased fled.\", \"The book the student borrowed vanished.\", \"The letter the secretary typed arrived.\", \"The cake the baker made disappeared.\", \"The fish the fisherman caught escaped.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog chased fled.",
+    "The book the student borrowed vanished.",
+    "The letter the secretary typed arrived.",
+    "The cake the baker made disappeared.",
+    "The fish the fisherman caught escaped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:45:46.450968+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the car the mechanic fixed runs",
+    "the book the author wrote sold",
+    "the letter the secretary typed arrived",
+    "the report the manager reviewed passed"
+  ],
+  "l1_sentences": [
+    "the car the mechanic fixed runs",
+    "the book the author wrote sold",
+    "the letter the secretary typed arrived",
+    "the report the manager reviewed passed",
+    "the cake the baker the customer praised made sold"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the mechanic fixed runs\",\n    \"the book the author wrote sold\",\n    \"the letter the secretary typed arrived\",\n    \"the report the manager reviewed passed\",\n    \"the cake the baker the customer praised made sold\"\n  ]\n}\n```",
+  "run_idx": 13
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The letter the editor rejected survived.",
+    "The book the critic praised sold.",
+    "The bridge the engineer designed collapsed.",
+    "The cake the baker made disappeared.",
+    "The plan the manager rejected failed."
+  ],
+  "induced_prompt_raw": "Write sentences using a center-embedded reduced relative clause structure: \"The [noun] the [noun] [verb] [verb]ed,\" where a person performs an action on an object, which then undergoes a resulting outcome.",
+  "induced_prompt": "Write sentences using a center-embedded reduced relative clause structure: \"The [noun] the [noun] [verb] [verb]ed,\" where a person performs an action on an object, which then undergoes a resulting outcome.",
+  "induced_prompt_chars": 205,
+  "induced_prompt_words": 30,
+  "l1_char_total": 189,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The report the editor reviewed improved.\", \"The cake the chef baked disappeared.\", \"The bridge the engineer designed collapsed.\", \"The car the mechanic repaired stalled.\", \"The flower the gardener planted wilted.\"]}\n```",
+  "l2_sentences": [
+    "The report the editor reviewed improved.",
+    "The cake the chef baked disappeared.",
+    "The bridge the engineer designed collapsed.",
+    "The car the mechanic repaired stalled.",
+    "The flower the gardener planted wilted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:41:14.626617+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The letter the editor rejected survived.",
+    "The book the critic praised sold.",
+    "The bridge the engineer designed collapsed.",
+    "The cake the baker made disappeared.",
+    "The plan the manager rejected failed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The letter the editor rejected survived.\", \"The book the critic praised sold.\", \"The bridge the engineer designed collapsed.\", \"The cake the baker made disappeared.\", \"The plan the manager rejected failed.\"]}\n```",
+  "run_idx": 17
+}

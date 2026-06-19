@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read won.",
+    "the car the mechanic fixed broke.",
+    "the meal the chef cooked burned.",
+    "the house the builder designed collapsed."
+  ],
+  "induced_prompt_raw": "Noun, relative clause subject, transitive verb, main verb.",
+  "induced_prompt": "Noun, relative clause subject, transitive verb, main verb.",
+  "induced_prompt_chars": 58,
+  "induced_prompt_words": 8,
+  "l1_char_total": 167,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The book that the student reads opens new worlds.\",\n    \"The car that the mechanic repaired runs smoothly.\",\n    \"The movie that the director directed won awards.\",\n    \"The house that the architect designed stands tall.\",\n    \"The meal that the chef prepared tastes delicious.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The book that the student reads opens new worlds.",
+    "The car that the mechanic repaired runs smoothly.",
+    "The movie that the director directed won awards.",
+    "The house that the architect designed stands tall.",
+    "The meal that the chef prepared tastes delicious."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:14:15.921953+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read won.",
+    "the car the mechanic fixed broke.",
+    "the meal the chef cooked burned.",
+    "the house the builder designed collapsed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read won.\",\n    \"the car the mechanic fixed broke.\",\n    \"the meal the chef cooked burned.\",\n    \"the house the builder designed collapsed.\"\n  ]\n}\n```",
+  "run_idx": 14
+}

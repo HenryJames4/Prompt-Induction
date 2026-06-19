@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the teacher trained hired baked vanished.",
+    "the dog the man the child the nurse examined helped trained escaped.",
+    "the book the author the critic the reader praised reviewed wrote disappeared.",
+    "the song the singer the coach the fan admired hired recorded spread.",
+    "the plan the boss the worker the clerk drafted hired approved failed."
+  ],
+  "induced_prompt_raw": "Write sentences with multiply center-embedded relative clauses where each noun has a corresponding verb at the end in reverse order.",
+  "induced_prompt": "Write sentences with multiply center-embedded relative clauses where each noun has a corresponding verb at the end in reverse order.",
+  "induced_prompt_chars": 132,
+  "induced_prompt_words": 20,
+  "l1_char_total": 353,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The rat the cat the dog chased caught ate.\", \"The book the student the teacher praised read won.\", \"The fish the shark the diver spotted chased fled.\", \"The cake the guest the chef the critic reviewed hired baked ate.\", \"The letter the clerk the manager the director appointed hired wrote sent.\"]}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog chased caught ate.",
+    "The book the student the teacher praised read won.",
+    "The fish the shark the diver spotted chased fled.",
+    "The cake the guest the chef the critic reviewed hired baked ate.",
+    "The letter the clerk the manager the director appointed hired wrote sent."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:18:53.043116+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the teacher trained hired baked vanished.",
+    "the dog the man the child the nurse examined helped trained escaped.",
+    "the book the author the critic the reader praised reviewed wrote disappeared.",
+    "the song the singer the coach the fan admired hired recorded spread.",
+    "the plan the boss the worker the clerk drafted hired approved failed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the student the teacher trained hired baked vanished.\", \"the dog the man the child the nurse examined helped trained escaped.\", \"the book the author the critic the reader praised reviewed wrote disappeared.\", \"the song the singer the coach the fan admired hired recorded spread.\", \"the plan the boss the worker the clerk drafted hired approved failed.\"]}\n```",
+  "run_idx": 6
+}

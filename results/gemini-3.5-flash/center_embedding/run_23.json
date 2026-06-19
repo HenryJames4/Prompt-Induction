@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the client the lawyer the clerk the typist assisted hired defended won",
+    "the patient the doctor the nurse the student helped trained treated recovered",
+    "the student the teacher the principal the superintendent suspended questioned advised graduated",
+    "the actor the director the writer the agent hired inspired criticized succeeded",
+    "the customer the waiter the chef the manager scolded trained served tipped"
+  ],
+  "induced_prompt_raw": "Generate a sentence using quadruple center-embedding (a nested relative clause structure with four subjects followed by four verbs, i.e., \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\").",
+  "induced_prompt": "Generate a sentence using quadruple center-embedding (a nested relative clause structure with four subjects followed by four verbs, i.e., \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\").",
+  "induced_prompt_chars": 181,
+  "induced_prompt_words": 31,
+  "l1_char_total": 395,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The patient the nurse the doctor the intern assisted supervised blamed sued.\",\n    \"The mouse the cat the dog the boy chased startled bit escaped.\",\n    \"The code the programmer the manager the client hired directed reviewed failed.\",\n    \"The book the student the teacher the principal selected praised assigned lost.\",\n    \"The song the singer the producer the critic disliked hired recorded trended.\"\n  ]\n}",
+  "l2_sentences": [
+    "The patient the nurse the doctor the intern assisted supervised blamed sued.",
+    "The mouse the cat the dog the boy chased startled bit escaped.",
+    "The code the programmer the manager the client hired directed reviewed failed.",
+    "The book the student the teacher the principal selected praised assigned lost.",
+    "The song the singer the producer the critic disliked hired recorded trended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:29:19.725539+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the client the lawyer the clerk the typist assisted hired defended won",
+    "the patient the doctor the nurse the student helped trained treated recovered",
+    "the student the teacher the principal the superintendent suspended questioned advised graduated",
+    "the actor the director the writer the agent hired inspired criticized succeeded",
+    "the customer the waiter the chef the manager scolded trained served tipped"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the client the lawyer the clerk the typist assisted hired defended won\",\n    \"the patient the doctor the nurse the student helped trained treated recovered\",\n    \"the student the teacher the principal the superintendent suspended questioned advised graduated\",\n    \"the actor the director the writer the agent hired inspired criticized succeeded\",\n    \"the customer the waiter the chef the manager scolded trained served tipped\"\n  ]\n}",
+  "run_idx": 23
+}

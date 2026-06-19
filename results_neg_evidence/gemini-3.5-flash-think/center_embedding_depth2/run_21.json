@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cake the baker decorated collapsed.",
+    "The report the intern wrote vanished.",
+    "The dog the boy adopted barked.",
+    "The car the mechanic repaired started.",
+    "The child the dog the cat scratched bit cried."
+  ],
+  "induced_prompt_raw": "Generate sentences with exactly one center-embedded object relative clause (e.g., \"The [noun] the [noun] [verb] [verb]\"). Do not use double or multiple nested center-embeddings.",
+  "induced_prompt": "Generate sentences with exactly one center-embedded object relative clause (e.g., \"The [noun] the [noun] [verb] [verb]\"). Do not use double or multiple nested center-embeddings.",
+  "induced_prompt_chars": 177,
+  "induced_prompt_words": 24,
+  "l1_char_total": 191,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The report the manager wrote helped.\",\n    \"The teacher the school hired resigned.\",\n    \"The program the developer coded crashed.\",\n    \"The song the band played stopped.\",\n    \"The letter the boy mailed arrived.\"\n  ]\n}",
+  "l2_sentences": [
+    "The report the manager wrote helped.",
+    "The teacher the school hired resigned.",
+    "The program the developer coded crashed.",
+    "The song the band played stopped.",
+    "The letter the boy mailed arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:53:03.488919+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cake the baker decorated collapsed.",
+    "The report the intern wrote vanished.",
+    "The dog the boy adopted barked.",
+    "The car the mechanic repaired started."
+  ],
+  "l1_sentences": [
+    "The cake the baker decorated collapsed.",
+    "The report the intern wrote vanished.",
+    "The dog the boy adopted barked.",
+    "The car the mechanic repaired started.",
+    "The child the dog the cat scratched bit cried."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cake the baker decorated collapsed.\",\n    \"The report the intern wrote vanished.\",\n    \"The dog the boy adopted barked.\",\n    \"The car the mechanic repaired started.\",\n    \"The child the dog the cat scratched bit cried.\"\n  ]\n}",
+  "run_idx": 21
+}

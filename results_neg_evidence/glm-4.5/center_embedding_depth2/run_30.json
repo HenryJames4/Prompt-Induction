@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased ran away.",
+    "The book the student read was interesting.",
+    "The house the builder constructed sold quickly.",
+    "The movie the critic reviewed won awards.",
+    "The car the mechanic the owner hired fixed broke down again."
+  ],
+  "induced_prompt_raw": "Generate a single relative clause sentence where the subject of the main clause is the object of the relative clause.",
+  "induced_prompt": "Generate a single relative clause sentence where the subject of the main clause is the object of the relative clause.",
+  "induced_prompt_chars": 117,
+  "induced_prompt_words": 20,
+  "l1_char_total": 222,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book that I borrowed was fascinating.\",\n    \"The movie that we watched last night won an award.\",\n    \"The car that she bought last week broke down.\",\n    \"The house that they built is beautiful.\",\n    \"The food that he cooked tasted delicious.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book that I borrowed was fascinating.",
+    "The movie that we watched last night won an award.",
+    "The car that she bought last week broke down.",
+    "The house that they built is beautiful.",
+    "The food that he cooked tasted delicious."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T14:00:59.192493+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased ran away.",
+    "The book the student read was interesting.",
+    "The house the builder constructed sold quickly.",
+    "The movie the critic reviewed won awards."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased ran away.",
+    "The book the student read was interesting.",
+    "The house the builder constructed sold quickly.",
+    "The movie the critic reviewed won awards.",
+    "The car the mechanic the owner hired fixed broke down again."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog chased ran away.\",\n    \"The book the student read was interesting.\",\n    \"The house the builder constructed sold quickly.\",\n    \"The movie the critic reviewed won awards.\",\n    \"The car the mechanic the owner hired fixed broke down again.\"\n  ]\n}",
+  "run_idx": 30
+}

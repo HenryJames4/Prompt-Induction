@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The teacher the student annoyed resigned.",
+    "The house the family built burned.",
+    "The song the choir sang ended.",
+    "The report the manager requested arrived.",
+    "The chef the waiter the customer tipped praised left."
+  ],
+  "induced_prompt_raw": "Generate grammatically correct sentences featuring exactly one level of center-embedding (a subject noun phrase modified by a single relative clause, followed by the main verb, e.g., \"The [Noun 1] the [Noun 2] [Verb 1] [Verb 2]\"). Do not exceed one level of embedding; avoid double center-embeddings like \"The [N1] the [N2] the [N3]...\"",
+  "induced_prompt": "Generate grammatically correct sentences featuring exactly one level of center-embedding (a subject noun phrase modified by a single relative clause, followed by the main verb, e.g., \"The [Noun 1] the [Noun 2] [Verb 1] [Verb 2]\"). Do not exceed one level of embedding; avoid double center-embeddings like \"The [N1] the [N2] the [N3]...\"",
+  "induced_prompt_chars": 336,
+  "induced_prompt_words": 53,
+  "l1_char_total": 199,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef the critic praised prepared a magnificent dessert.\",\n    \"The book the student read inspired a new generation of scientists.\",\n    \"The house the architect designed won several prestigious awards.\",\n    \"The artist the gallery represented painted a breathtaking mural.\",\n    \"The dog the children adopted brought immense joy to the household.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef the critic praised prepared a magnificent dessert.",
+    "The book the student read inspired a new generation of scientists.",
+    "The house the architect designed won several prestigious awards.",
+    "The artist the gallery represented painted a breathtaking mural.",
+    "The dog the children adopted brought immense joy to the household."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:55:59.613946+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The teacher the student annoyed resigned.",
+    "The house the family built burned.",
+    "The song the choir sang ended.",
+    "The report the manager requested arrived."
+  ],
+  "l1_sentences": [
+    "The teacher the student annoyed resigned.",
+    "The house the family built burned.",
+    "The song the choir sang ended.",
+    "The report the manager requested arrived.",
+    "The chef the waiter the customer tipped praised left."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The teacher the student annoyed resigned.\",\n    \"The house the family built burned.\",\n    \"The song the choir sang ended.\",\n    \"The report the manager requested arrived.\",\n    \"The chef the waiter the customer tipped praised left.\"\n  ]\n}",
+  "run_idx": 24
+}

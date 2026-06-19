@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student read fascinated.",
+    "The movie the director filmed impressed.",
+    "The cake the baker decorated delighted.",
+    "The song the singer performed entertained.",
+    "The dog the owner the cat walked barked scared."
+  ],
+  "induced_prompt_raw": "Generate a sentence with the structure: \"The [noun1] the [noun2] [past_tense_verb1] [past_tense_verb2].\" Use exactly one relative clause (no nesting) and ensure only two verbs appear. Avoid multiple embeddings.",
+  "induced_prompt": "Generate a sentence with the structure: \"The [noun1] the [noun2] [past_tense_verb1] [past_tense_verb2].\" Use exactly one relative clause (no nesting) and ensure only two verbs appear. Avoid multiple embeddings.",
+  "induced_prompt_chars": 210,
+  "induced_prompt_words": 28,
+  "l1_char_total": 205,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The book the student borrowed returned.\", \"The cake the baker decorated collapsed.\", \"The car the mechanic repaired stalled.\", \"The dog the neighbor adopted barked.\", \"The vase the child dropped shattered.\"]}",
+  "l2_sentences": [
+    "The book the student borrowed returned.",
+    "The cake the baker decorated collapsed.",
+    "The car the mechanic repaired stalled.",
+    "The dog the neighbor adopted barked.",
+    "The vase the child dropped shattered."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:42:53.474857+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student read fascinated.",
+    "The movie the director filmed impressed.",
+    "The cake the baker decorated delighted.",
+    "The song the singer performed entertained."
+  ],
+  "l1_sentences": [
+    "The book the student read fascinated.",
+    "The movie the director filmed impressed.",
+    "The cake the baker decorated delighted.",
+    "The song the singer performed entertained.",
+    "The dog the owner the cat walked barked scared."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the student read fascinated.\", \"The movie the director filmed impressed.\", \"The cake the baker decorated delighted.\", \"The song the singer performed entertained.\", \"The dog the owner the cat walked barked scared.\"]}",
+  "run_idx": 10
+}

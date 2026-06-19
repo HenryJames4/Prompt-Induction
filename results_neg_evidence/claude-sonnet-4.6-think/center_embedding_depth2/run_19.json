@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the manager reviewed passed",
+    "the cat the dog chased escaped",
+    "the letter the secretary typed arrived",
+    "the bill the senator proposed failed",
+    "the cake the chef the critic praised baked melted"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause, where a subject noun is modified by a relative clause before the main verb. Use only one level of embedding — do not nest relative clauses inside one another.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause, where a subject noun is modified by a relative clause before the main verb. Use only one level of embedding — do not nest relative clauses inside one another.",
+  "induced_prompt_chars": 221,
+  "induced_prompt_words": 37,
+  "l1_char_total": 191,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The scientist that the university hired published groundbreaking research last year.\", \"The bridge that engineers constructed in the 1940s finally collapsed during the storm.\", \"The letter that the lawyer wrote convinced the jury of his innocence.\", \"The dog that the children adored won first place at the annual show.\", \"The novel that critics praised became an unexpected bestseller overnight.\"]}\n```",
+  "l2_sentences": [
+    "The scientist that the university hired published groundbreaking research last year.",
+    "The bridge that engineers constructed in the 1940s finally collapsed during the storm.",
+    "The letter that the lawyer wrote convinced the jury of his innocence.",
+    "The dog that the children adored won first place at the annual show.",
+    "The novel that critics praised became an unexpected bestseller overnight."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:50:39.090492+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the manager reviewed passed",
+    "the cat the dog chased escaped",
+    "the letter the secretary typed arrived",
+    "the bill the senator proposed failed"
+  ],
+  "l1_sentences": [
+    "the report the manager reviewed passed",
+    "the cat the dog chased escaped",
+    "the letter the secretary typed arrived",
+    "the bill the senator proposed failed",
+    "the cake the chef the critic praised baked melted"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the report the manager reviewed passed\",\n    \"the cat the dog chased escaped\",\n    \"the letter the secretary typed arrived\",\n    \"the bill the senator proposed failed\",\n    \"the cake the chef the critic praised baked melted\"\n  ]\n}\n```",
+  "run_idx": 19
+}

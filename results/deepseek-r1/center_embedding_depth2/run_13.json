@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the boy fed barked.",
+    "the book the student read fell.",
+    "the car the mechanic fixed ran.",
+    "the song the artist performed ended.",
+    "the cake the baker decorated collapsed."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence following the structure: 'the [noun1] the [noun2] [past_verb1] [past_verb2].' Use nouns and past-tense verbs appropriately.\"",
+  "induced_prompt": "\"Generate a sentence following the structure: 'the [noun1] the [noun2] [past_verb1] [past_verb2].' Use nouns and past-tense verbs appropriately.\"",
+  "induced_prompt_chars": 145,
+  "induced_prompt_words": 18,
+  "l1_char_total": 164,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the mouse chased pounced.\", \"the wind the leaves blew scattered.\", \"the chef the meal prepared served.\", \"the rain the roof pounded leaked.\", \"the child the toy broke cried.\"]}",
+  "l2_sentences": [
+    "the cat the mouse chased pounced.",
+    "the wind the leaves blew scattered.",
+    "the chef the meal prepared served.",
+    "the rain the roof pounded leaked.",
+    "the child the toy broke cried."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:13:25.373734+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the boy fed barked.",
+    "the book the student read fell.",
+    "the car the mechanic fixed ran.",
+    "the song the artist performed ended.",
+    "the cake the baker decorated collapsed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy fed barked.\", \"the book the student read fell.\", \"the car the mechanic fixed ran.\", \"the song the artist performed ended.\", \"the cake the baker decorated collapsed.\"]}",
+  "run_idx": 13
+}

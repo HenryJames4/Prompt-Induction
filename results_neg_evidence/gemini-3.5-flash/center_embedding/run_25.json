@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The software the developer the client the manager hired instructed tested crashed.",
+    "The contract the lawyer the executive the assistant contacted questioned drafted expired.",
+    "The painting the artist the collector the dealer phoned visited created burned.",
+    "The car the mechanic the driver repaired crashed."
+  ],
+  "induced_prompt_raw": "Generate a sentence featuring exactly three nested relative clauses (triply center-embedded), containing four nouns followed by four verbs (e.g., \"The [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\"). Avoid simpler double-embedded structures that only contain three nouns and three verbs.",
+  "induced_prompt": "Generate a sentence featuring exactly three nested relative clauses (triply center-embedded), containing four nouns followed by four verbs (e.g., \"The [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\"). Avoid simpler double-embedded structures that only contain three nouns and three verbs.",
+  "induced_prompt_chars": 317,
+  "induced_prompt_words": 43,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The mouse the cat the dog the boy chased bit scratched died.\",\n    \"The patient the doctor the nurse the intern assisted watched treated recovered.\",\n    \"The paper the student the teacher the principal praised graded read burned.\",\n    \"The cheese the rat the cat the dog chased caught ate smelled.\",\n    \"The car the mechanic the assistant the owner hired questioned fixed stalled.\"\n  ]\n}",
+  "l2_sentences": [
+    "The mouse the cat the dog the boy chased bit scratched died.",
+    "The patient the doctor the nurse the intern assisted watched treated recovered.",
+    "The paper the student the teacher the principal praised graded read burned.",
+    "The cheese the rat the cat the dog chased caught ate smelled.",
+    "The car the mechanic the assistant the owner hired questioned fixed stalled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:18:58.822787+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The software the developer the client the manager hired instructed tested crashed.",
+    "The contract the lawyer the executive the assistant contacted questioned drafted expired.",
+    "The painting the artist the collector the dealer phoned visited created burned."
+  ],
+  "l1_sentences": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The software the developer the client the manager hired instructed tested crashed.",
+    "The contract the lawyer the executive the assistant contacted questioned drafted expired.",
+    "The painting the artist the collector the dealer phoned visited created burned.",
+    "The car the mechanic the driver repaired crashed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the principal praised recommended read lost.\",\n    \"The software the developer the client the manager hired instructed tested crashed.\",\n    \"The contract the lawyer the executive the assistant contacted questioned drafted expired.\",\n    \"The painting the artist the collector the dealer phoned visited created burned.\",\n    \"The car the mechanic the driver repaired crashed.\"\n  ]\n}",
+  "run_idx": 25
+}

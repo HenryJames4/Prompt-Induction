@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the editor recommended sold.",
+    "The plan the committee discussed failed.",
+    "The movie the critic praised won.",
+    "The cake the baker decorated delighted.",
+    "The car the mechanic fixed drove crashed."
+  ],
+  "induced_prompt_raw": "\"Generate sentences where a noun is modified by a relative clause describing an action, followed by a main verb indicating the outcome, ensuring the main verb directly relates to the initial noun without introducing unrelated events.\"",
+  "induced_prompt": "\"Generate sentences where a noun is modified by a relative clause describing an action, followed by a main verb indicating the outcome, ensuring the main verb directly relates to the initial noun without introducing unrelated events.\"",
+  "induced_prompt_chars": 234,
+  "induced_prompt_words": 36,
+  "l1_char_total": 190,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The book, which she read in one sitting, inspired her to write.\", \"The dog, which barked loudly, startled the neighbor.\", \"The cake, which he baked with care, delighted the guests.\", \"The letter, which she wrote passionately, moved him to tears.\", \"The song, which they performed perfectly, earned them applause.\"]}",
+  "l2_sentences": [
+    "The book, which she read in one sitting, inspired her to write.",
+    "The dog, which barked loudly, startled the neighbor.",
+    "The cake, which he baked with care, delighted the guests.",
+    "The letter, which she wrote passionately, moved him to tears.",
+    "The song, which they performed perfectly, earned them applause."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:49:10.228870+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the editor recommended sold.",
+    "The plan the committee discussed failed.",
+    "The movie the critic praised won.",
+    "The cake the baker decorated delighted."
+  ],
+  "l1_sentences": [
+    "The book the editor recommended sold.",
+    "The plan the committee discussed failed.",
+    "The movie the critic praised won.",
+    "The cake the baker decorated delighted.",
+    "The car the mechanic fixed drove crashed."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the editor recommended sold.\", \"The plan the committee discussed failed.\", \"The movie the critic praised won.\", \"The cake the baker decorated delighted.\", \"The car the mechanic fixed drove crashed.\"]}",
+  "run_idx": 17
+}

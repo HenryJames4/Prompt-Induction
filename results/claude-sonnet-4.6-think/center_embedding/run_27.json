@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the teacher trained hired baked cooled.",
+    "the novel the author the critic the reader admired praised wrote sold.",
+    "the bridge the engineer the worker the boss supervised hired designed collapsed.",
+    "the painting the artist the collector the dealer contacted hired created sold.",
+    "the report the clerk the analyst the intern helped trained wrote circulated."
+  ],
+  "induced_prompt_raw": "Write sentences with triple center-embedded relative clauses, following an NP NP NP NP V V V V pattern.",
+  "induced_prompt": "Write sentences with triple center-embedded relative clauses, following an NP NP NP NP V V V V pattern.",
+  "induced_prompt_chars": 103,
+  "induced_prompt_words": 18,
+  "l1_char_total": 373,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The malt the rat the cat the dog chased killed ate was stale.\",\n    \"The book the student the professor the dean hired taught read was fascinating.\",\n    \"The paper the researcher the university the government funded supported wrote was groundbreaking.\",\n    \"The report the analyst the firm the investor funded hired wrote was accurate.\",\n    \"The house the architect the company the client hired employed designed was beautiful.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The malt the rat the cat the dog chased killed ate was stale.",
+    "The book the student the professor the dean hired taught read was fascinating.",
+    "The paper the researcher the university the government funded supported wrote was groundbreaking.",
+    "The report the analyst the firm the investor funded hired wrote was accurate.",
+    "The house the architect the company the client hired employed designed was beautiful."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:32:02.726857+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the teacher trained hired baked cooled.",
+    "the novel the author the critic the reader admired praised wrote sold.",
+    "the bridge the engineer the worker the boss supervised hired designed collapsed.",
+    "the painting the artist the collector the dealer contacted hired created sold.",
+    "the report the clerk the analyst the intern helped trained wrote circulated."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the chef the student the teacher trained hired baked cooled.\",\n    \"the novel the author the critic the reader admired praised wrote sold.\",\n    \"the bridge the engineer the worker the boss supervised hired designed collapsed.\",\n    \"the painting the artist the collector the dealer contacted hired created sold.\",\n    \"the report the clerk the analyst the intern helped trained wrote circulated.\"\n  ]\n}\n```",
+  "run_idx": 27
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the idea the scientist proposed succeeded.",
+    "the plan the manager devised worked.",
+    "the solution the engineer found passed.",
+    "the article the editor reviewed appeared."
+  ],
+  "induced_prompt_raw": "the [N] the [A] [V] [M]",
+  "induced_prompt": "the [N] the [A] [V] [M]",
+  "induced_prompt_chars": 23,
+  "induced_prompt_words": 6,
+  "l1_char_total": 189,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the dog the happy jumped quickly\", \"the cat the fluffy slept soundly\", \"the car the fast drove swiftly\", \"the bird the bright sang joyfully\", \"the house the old stood quietly\"]}",
+  "l2_sentences": [
+    "the dog the happy jumped quickly",
+    "the cat the fluffy slept soundly",
+    "the car the fast drove swiftly",
+    "the bird the bright sang joyfully",
+    "the house the old stood quietly"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:32:28.150407+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the idea the scientist proposed succeeded.",
+    "the plan the manager devised worked.",
+    "the solution the engineer found passed.",
+    "the article the editor reviewed appeared."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the idea the scientist proposed succeeded.\", \"the plan the manager devised worked.\", \"the solution the engineer found passed.\", \"the article the editor reviewed appeared.\"]}",
+  "run_idx": 29
+}

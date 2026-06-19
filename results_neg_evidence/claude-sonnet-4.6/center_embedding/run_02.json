@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef the student the critic admired taught baked vanished",
+    "the novel the author the editor the publisher praised hired accepted launched",
+    "the song the musician the producer the label discovered signed recorded released",
+    "the bridge the engineer the contractor the mayor designed hired approved built",
+    "the letter the clerk the manager reviewed signed delivered"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly **4 noun phrases** and **4 verbs**, where each noun phrase is the object of the next embedded clause, and all verbs appear together at the end in reverse order of their noun phrases. Avoid using only 3 noun phrases and 3 verbs.",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly **4 noun phrases** and **4 verbs**, where each noun phrase is the object of the next embedded clause, and all verbs appear together at the end in reverse order of their noun phrases. Avoid using only 3 noun phrases and 3 verbs.",
+  "induced_prompt_chars": 289,
+  "induced_prompt_words": 50,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog the rat the boy chased caught bit scratched.\", \"The book the professor the student the librarian helped found read was fascinating.\", \"The cake the chef the critic the guest invited tasted baked crumbled.\", \"The letter the lawyer the judge the clerk summoned reviewed wrote disappeared.\", \"The song the musician the fan the producer signed loved played echoed.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog the rat the boy chased caught bit scratched.",
+    "The book the professor the student the librarian helped found read was fascinating.",
+    "The cake the chef the critic the guest invited tasted baked crumbled.",
+    "The letter the lawyer the judge the clerk summoned reviewed wrote disappeared.",
+    "The song the musician the fan the producer signed loved played echoed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:43:41.927626+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef the student the critic admired taught baked vanished",
+    "the novel the author the editor the publisher praised hired accepted launched",
+    "the song the musician the producer the label discovered signed recorded released",
+    "the bridge the engineer the contractor the mayor designed hired approved built"
+  ],
+  "l1_sentences": [
+    "the cake the chef the student the critic admired taught baked vanished",
+    "the novel the author the editor the publisher praised hired accepted launched",
+    "the song the musician the producer the label discovered signed recorded released",
+    "the bridge the engineer the contractor the mayor designed hired approved built",
+    "the letter the clerk the manager reviewed signed delivered"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the chef the student the critic admired taught baked vanished\",\n    \"the novel the author the editor the publisher praised hired accepted launched\",\n    \"the song the musician the producer the label discovered signed recorded released\",\n    \"the bridge the engineer the contractor the mayor designed hired approved built\",\n    \"the letter the clerk the manager reviewed signed delivered\"\n  ]\n}\n```",
+  "run_idx": 2
+}

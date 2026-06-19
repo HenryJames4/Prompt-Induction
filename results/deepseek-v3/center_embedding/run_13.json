@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the student the teacher the librarian recommended read returned vanished",
+    "the package the courier the manager the secretary delivered signed received disappeared",
+    "the cake the chef the customer the waiter baked tasted enjoyed spoiled",
+    "the letter the writer the editor the publisher composed revised approved arrived",
+    "the painting the artist the curator the collector created displayed sold vanished"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested noun phrases where each subsequent noun modifies the previous one, ending with a past-tense verb.\"",
+  "induced_prompt": "\"Generate sentences with nested noun phrases where each subsequent noun modifies the previous one, ending with a past-tense verb.\"",
+  "induced_prompt_chars": 130,
+  "induced_prompt_words": 19,
+  "l1_char_total": 399,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book author story ended.\", \"The car engine noise stopped.\", \"The house roof tile cracked.\", \"The garden flower scent lingered.\", \"The office desk drawer closed.\"]}",
+  "l2_sentences": [
+    "The book author story ended.",
+    "The car engine noise stopped.",
+    "The house roof tile cracked.",
+    "The garden flower scent lingered.",
+    "The office desk drawer closed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:23:39.981754+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the student the teacher the librarian recommended read returned vanished",
+    "the package the courier the manager the secretary delivered signed received disappeared",
+    "the cake the chef the customer the waiter baked tasted enjoyed spoiled",
+    "the letter the writer the editor the publisher composed revised approved arrived",
+    "the painting the artist the curator the collector created displayed sold vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian recommended read returned vanished\", \"the package the courier the manager the secretary delivered signed received disappeared\", \"the cake the chef the customer the waiter baked tasted enjoyed spoiled\", \"the letter the writer the editor the publisher composed revised approved arrived\", \"the painting the artist the curator the collector created displayed sold vanished\"]}",
+  "run_idx": 13
+}

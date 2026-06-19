@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cake the baker baked burned",
+    "the car the mechanic fixed broke",
+    "the letter the author wrote arrived",
+    "the dog the boy adopted barked",
+    "the song the singer performed ended"
+  ],
+  "induced_prompt_raw": "Generate five sentences using the structure: \"the [noun] the [noun] [verb] [verb]\" in the past tense.",
+  "induced_prompt": "Generate five sentences using the structure: \"the [noun] the [noun] [verb] [verb]\" in the past tense.",
+  "induced_prompt_chars": 101,
+  "induced_prompt_words": 16,
+  "l1_char_total": 163,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the girl liked waved.\",\n    \"The cake the baker made burned.\",\n    \"The book the author wrote sold.\",\n    \"The dog the man trained barked.\",\n    \"The car the mechanic fixed crashed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the girl liked waved.",
+    "The cake the baker made burned.",
+    "The book the author wrote sold.",
+    "The dog the man trained barked.",
+    "The car the mechanic fixed crashed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:39:37.366491+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the baker baked burned",
+    "the car the mechanic fixed broke",
+    "the letter the author wrote arrived",
+    "the dog the boy adopted barked",
+    "the song the singer performed ended"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cake the baker baked burned\",\n    \"the car the mechanic fixed broke\",\n    \"the letter the author wrote arrived\",\n    \"the dog the boy adopted barked\",\n    \"the song the singer performed ended\"\n  ]\n}",
+  "run_idx": 12
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The client the designer called smiled.",
+    "The package the courier dropped tore.",
+    "The student the teacher praised graduated.",
+    "The artist the gallery representing painted.",
+    "The reporter the senator the crowd booed asked."
+  ],
+  "induced_prompt_raw": "Generate a grammatical sentence containing a single subject modified by a single object relative clause with a transitive verb, followed by the main intransitive verb (Noun1 + Noun2 + Verb2 + Verb1). Do not embed a second relative clause (avoid double center-embedding).",
+  "induced_prompt": "Generate a grammatical sentence containing a single subject modified by a single object relative clause with a transitive verb, followed by the main intransitive verb (Noun1 + Noun2 + Verb2 + Verb1). Do not embed a second relative clause (avoid double center-embedding).",
+  "induced_prompt_chars": 270,
+  "induced_prompt_words": 42,
+  "l1_char_total": 208,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book the student read fell.\",\n    \"The chef the owner hired cooked.\",\n    \"The cake the boy baked burned.\",\n    \"The athlete the coach trained won.\",\n    \"The car the mechanic fixed broke.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book the student read fell.",
+    "The chef the owner hired cooked.",
+    "The cake the boy baked burned.",
+    "The athlete the coach trained won.",
+    "The car the mechanic fixed broke."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:49:24.957364+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The client the designer called smiled.",
+    "The package the courier dropped tore.",
+    "The student the teacher praised graduated.",
+    "The artist the gallery representing painted."
+  ],
+  "l1_sentences": [
+    "The client the designer called smiled.",
+    "The package the courier dropped tore.",
+    "The student the teacher praised graduated.",
+    "The artist the gallery representing painted.",
+    "The reporter the senator the crowd booed asked."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The client the designer called smiled.\",\n    \"The package the courier dropped tore.\",\n    \"The student the teacher praised graduated.\",\n    \"The artist the gallery representing painted.\",\n    \"The reporter the senator the crowd booed asked.\"\n  ]\n}",
+  "run_idx": 17
+}

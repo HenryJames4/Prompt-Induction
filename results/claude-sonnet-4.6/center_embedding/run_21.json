@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the teacher trained hired baked vanished.",
+    "the letter the lawyer the clerk the judge appointed hired wrote arrived.",
+    "the bridge the engineer the worker the boss supervised hired built collapsed.",
+    "the song the singer the coach the manager hired trained recorded charted.",
+    "the book the author the editor the publisher contacted hired wrote sold."
+  ],
+  "induced_prompt_raw": "Write sentences with multiply center-embedded relative clauses involving a chain of agents and actions.",
+  "induced_prompt": "Write sentences with multiply center-embedded relative clauses involving a chain of agents and actions.",
+  "induced_prompt_chars": 103,
+  "induced_prompt_words": 14,
+  "l1_char_total": 365,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the child chased bit scratched the table.\", \"The lawyer that the judge that the jury that the prosecutor convinced acquitted hired won the case.\", \"The book that the critic that the editor that the author trusted hired praised became famous.\", \"The mouse that the cat that the dog that the boy owned chased caught squeaked loudly.\", \"The proposal that the committee that the director that the board appointed formed reviewed failed immediately.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the child chased bit scratched the table.",
+    "The lawyer that the judge that the jury that the prosecutor convinced acquitted hired won the case.",
+    "The book that the critic that the editor that the author trusted hired praised became famous.",
+    "The mouse that the cat that the dog that the boy owned chased caught squeaked loudly.",
+    "The proposal that the committee that the director that the board appointed formed reviewed failed immediately."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:27:41.510100+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the teacher trained hired baked vanished.",
+    "the letter the lawyer the clerk the judge appointed hired wrote arrived.",
+    "the bridge the engineer the worker the boss supervised hired built collapsed.",
+    "the song the singer the coach the manager hired trained recorded charted.",
+    "the book the author the editor the publisher contacted hired wrote sold."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the student the teacher trained hired baked vanished.\", \"the letter the lawyer the clerk the judge appointed hired wrote arrived.\", \"the bridge the engineer the worker the boss supervised hired built collapsed.\", \"the song the singer the coach the manager hired trained recorded charted.\", \"the book the author the editor the publisher contacted hired wrote sold.\"]}\n```",
+  "run_idx": 21
+}

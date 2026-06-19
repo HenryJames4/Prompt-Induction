@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read surprised.",
+    "The car the mechanic fixed broke.",
+    "The bird the cat caught flew.",
+    "The meal the chef prepared burned."
+  ],
+  "induced_prompt_raw": "Subject, relative clause, verb.",
+  "induced_prompt": "Subject, relative clause, verb.",
+  "induced_prompt_chars": 31,
+  "induced_prompt_words": 4,
+  "l1_char_total": 163,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat, which was sleeping on the couch, suddenly woke up.\",\n    \"The book that I borrowed from the library is due tomorrow.\",\n    \"The man who lives next door is a famous musician.\",\n    \"The car that parked in front of our house belongs to my aunt.\",\n    \"The children who played in the park went home for dinner.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat, which was sleeping on the couch, suddenly woke up.",
+    "The book that I borrowed from the library is due tomorrow.",
+    "The man who lives next door is a famous musician.",
+    "The car that parked in front of our house belongs to my aunt.",
+    "The children who played in the park went home for dinner."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:19:04.783082+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read surprised.",
+    "The car the mechanic fixed broke.",
+    "The bird the cat caught flew.",
+    "The meal the chef prepared burned."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The book the student read surprised.\",\n    \"The car the mechanic fixed broke.\",\n    \"The bird the cat caught flew.\",\n    \"The meal the chef prepared burned.\"\n  ]\n}",
+  "run_idx": 18
+}

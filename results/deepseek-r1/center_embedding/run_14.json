@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the mouse the cat the dog the boy scared chased caught escaped",
+    "the student the teacher the principal the parent called met taught studied",
+    "the ball the player the coach the fan cheered trained kicked rolled",
+    "the problem the expert the assistant the client called helped solved vanished",
+    "the painting the artist the model the photographer photographed posed painted sold"
+  ],
+  "induced_prompt_raw": "\"increasing agency nouns then chronological verbs\"",
+  "induced_prompt": "\"increasing agency nouns then chronological verbs\"",
+  "induced_prompt_chars": 50,
+  "induced_prompt_words": 6,
+  "l1_char_total": 362,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The pebble shifted slightly.\", \"The leaf fluttered downward.\", \"The squirrel scampered away.\", \"The architect drafted new plans.\", \"The director orchestrated the entire event.\"]}",
+  "l2_sentences": [
+    "The pebble shifted slightly.",
+    "The leaf fluttered downward.",
+    "The squirrel scampered away.",
+    "The architect drafted new plans.",
+    "The director orchestrated the entire event."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:27:25.209960+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the mouse the cat the dog the boy scared chased caught escaped",
+    "the student the teacher the principal the parent called met taught studied",
+    "the ball the player the coach the fan cheered trained kicked rolled",
+    "the problem the expert the assistant the client called helped solved vanished",
+    "the painting the artist the model the photographer photographed posed painted sold"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the mouse the cat the dog the boy scared chased caught escaped\",\n    \"the student the teacher the principal the parent called met taught studied\",\n    \"the ball the player the coach the fan cheered trained kicked rolled\",\n    \"the problem the expert the assistant the client called helped solved vanished\",\n    \"the painting the artist the model the photographer photographed posed painted sold\"\n  ]\n}",
+  "run_idx": 14
+}

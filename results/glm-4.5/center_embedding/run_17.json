@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The cat the dog the mouse the elephant chased hunted escaped disappeared.",
+    "The book the teacher the student the principal recommended read borrowed returned.",
+    "The car the mechanic the owner the driver repaired inspected washed crashed.",
+    "The house the agent the buyer the seller showed visited purchased sold.",
+    "The computer the programmer the manager the client designed tested approved rejected."
+  ],
+  "induced_prompt_raw": "Center-embedded relative clauses with four nouns and four verbs.",
+  "induced_prompt": "Center-embedded relative clauses with four nouns and four verbs.",
+  "induced_prompt_chars": 64,
+  "induced_prompt_words": 9,
+  "l1_char_total": 387,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog that the bird that the worm that the apple chased ate saw scared me.\",\n    \"The teacher that the student that the principal that the school that the district hired supervised taught graded the exam.\",\n    \"The car that the mechanic that the owner that the dealership that the manufacturer sold fixed washed drove away.\",\n    \"The book that the author that the editor that the publisher that the company hired reviewed wrote became a bestseller.\",\n    \"The house that the agent that the buyer that the bank that the government approved inspected listed sold quickly.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog that the bird that the worm that the apple chased ate saw scared me.",
+    "The teacher that the student that the principal that the school that the district hired supervised taught graded the exam.",
+    "The car that the mechanic that the owner that the dealership that the manufacturer sold fixed washed drove away.",
+    "The book that the author that the editor that the publisher that the company hired reviewed wrote became a bestseller.",
+    "The house that the agent that the buyer that the bank that the government approved inspected listed sold quickly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:32:23.360563+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cat the dog the mouse the elephant chased hunted escaped disappeared.",
+    "The book the teacher the student the principal recommended read borrowed returned.",
+    "The car the mechanic the owner the driver repaired inspected washed crashed.",
+    "The house the agent the buyer the seller showed visited purchased sold.",
+    "The computer the programmer the manager the client designed tested approved rejected."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog the mouse the elephant chased hunted escaped disappeared.\",\n    \"The book the teacher the student the principal recommended read borrowed returned.\",\n    \"The car the mechanic the owner the driver repaired inspected washed crashed.\",\n    \"The house the agent the buyer the seller showed visited purchased sold.\",\n    \"The computer the programmer the manager the client designed tested approved rejected.\"\n  ]\n}",
+  "run_idx": 17
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the man fed barked.",
+    "the book the student read closed.",
+    "the car the driver fixed started.",
+    "the cake the baker decorated sold.",
+    "the song the singer performed ended."
+  ],
+  "induced_prompt_raw": "the [noun1] the [noun2] [verb_past1] [verb_past2]",
+  "induced_prompt": "the [noun1] the [noun2] [verb_past1] [verb_past2]",
+  "induced_prompt_chars": 49,
+  "induced_prompt_words": 6,
+  "l1_char_total": 163,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the ball chased bounced.\", \"The book the shelf fell landed.\", \"The car the hill rolled stopped.\", \"The sun the clouds shone disappeared.\", \"The dog the stick fetched dropped.\"]}",
+  "l2_sentences": [
+    "The cat the ball chased bounced.",
+    "The book the shelf fell landed.",
+    "The car the hill rolled stopped.",
+    "The sun the clouds shone disappeared.",
+    "The dog the stick fetched dropped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:14:35.886263+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the man fed barked.",
+    "the book the student read closed.",
+    "the car the driver fixed started.",
+    "the cake the baker decorated sold.",
+    "the song the singer performed ended."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the man fed barked.\", \"the book the student read closed.\", \"the car the driver fixed started.\", \"the cake the baker decorated sold.\", \"the song the singer performed ended.\"]}",
+  "run_idx": 14
+}

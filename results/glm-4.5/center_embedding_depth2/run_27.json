@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read interested.",
+    "the car the mechanic fixed broke.",
+    "the idea the professor presented confused.",
+    "the house the builder designed collapsed."
+  ],
+  "induced_prompt_raw": "Subject, relative clause, verb.",
+  "induced_prompt": "Subject, relative clause, verb.",
+  "induced_prompt_chars": 31,
+  "induced_prompt_words": 4,
+  "l1_char_total": 184,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that was sleeping on the couch suddenly woke up.\",\n    \"The book which I borrowed from the library is due tomorrow.\",\n    \"The children who were playing in the park ran home when it started raining.\",\n    \"The car that was parked by the curb had a flat tire.\",\n    \"The woman who lives next door is a famous artist.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that was sleeping on the couch suddenly woke up.",
+    "The book which I borrowed from the library is due tomorrow.",
+    "The children who were playing in the park ran home when it started raining.",
+    "The car that was parked by the curb had a flat tire.",
+    "The woman who lives next door is a famous artist."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:30:00.664618+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read interested.",
+    "the car the mechanic fixed broke.",
+    "the idea the professor presented confused.",
+    "the house the builder designed collapsed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read interested.\",\n    \"the car the mechanic fixed broke.\",\n    \"the idea the professor presented confused.\",\n    \"the house the builder designed collapsed.\"\n  ]\n}",
+  "run_idx": 27
+}

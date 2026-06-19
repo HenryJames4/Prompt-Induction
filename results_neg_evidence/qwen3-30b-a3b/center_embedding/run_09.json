@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the librarian borrowed returned checked read.",
+    "the letter the secretary the manager the director reviewed signed sent.",
+    "the document the clerk the supervisor the director reviewed approved forwarded.",
+    "the email the intern the assistant the manager the executive read replied forwarded.",
+    "the story the writer the editor the publisher the reader enjoyed shared published."
+  ],
+  "induced_prompt_raw": "Create a sentence with nested clauses where each subject performs an action on an object, and the object is passed sequentially through a chain of agents, ending with a final action.",
+  "induced_prompt": "Create a sentence with nested clauses where each subject performs an action on an object, and the object is passed sequentially through a chain of agents, ending with a final action.",
+  "induced_prompt_chars": 182,
+  "induced_prompt_words": 31,
+  "l1_char_total": 394,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The chef, who had just baked the bread, handed it to the server who delivered it to the customer who ate it before returning the plate to the kitchen staff who washed it.\", \"The librarian, who had just cataloged the book, passed it to the student who read it and then returned it to the assistant who shelved it in the history section.\", \"The painter, who had just completed the canvas, gave it to the gallery worker who displayed it in the exhibition where the visitor admired it and later purchased it from the curator who signed the receipt.\", \"The mechanic, who had just repaired the engine, handed it to the driver who tested it and then returned it to the workshop technician who inspected it for final approval.\", \"The writer, who had just typed the letter, sent it to the secretary who mailed it to the recipient who opened it and then passed it to the assistant who filed it in the archive.\"] }",
+  "l2_sentences": [
+    "The chef, who had just baked the bread, handed it to the server who delivered it to the customer who ate it before returning the plate to the kitchen staff who washed it.",
+    "The librarian, who had just cataloged the book, passed it to the student who read it and then returned it to the assistant who shelved it in the history section.",
+    "The painter, who had just completed the canvas, gave it to the gallery worker who displayed it in the exhibition where the visitor admired it and later purchased it from the curator who signed the receipt.",
+    "The mechanic, who had just repaired the engine, handed it to the driver who tested it and then returned it to the workshop technician who inspected it for final approval.",
+    "The writer, who had just typed the letter, sent it to the secretary who mailed it to the recipient who opened it and then passed it to the assistant who filed it in the archive."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:53:07.950184+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the librarian borrowed returned checked read.",
+    "the letter the secretary the manager the director reviewed signed sent.",
+    "the document the clerk the supervisor the director reviewed approved forwarded.",
+    "the email the intern the assistant the manager the executive read replied forwarded."
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the librarian borrowed returned checked read.",
+    "the letter the secretary the manager the director reviewed signed sent.",
+    "the document the clerk the supervisor the director reviewed approved forwarded.",
+    "the email the intern the assistant the manager the executive read replied forwarded.",
+    "the story the writer the editor the publisher the reader enjoyed shared published."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian borrowed returned checked read.\", \"the letter the secretary the manager the director reviewed signed sent.\", \"the document the clerk the supervisor the director reviewed approved forwarded.\", \"the email the intern the assistant the manager the executive read replied forwarded.\", \"the story the writer the editor the publisher the reader enjoyed shared published.\"]}",
+  "run_idx": 9
+}

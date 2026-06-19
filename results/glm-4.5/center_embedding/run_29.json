@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the mouse the elephant chased hunted scared escaped.",
+    "the book the teacher the student the principal read graded recommended praised.",
+    "the car the mechanic the owner the dealer fixed inspected sold delivered.",
+    "the house the architect the builder the family designed constructed admired purchased.",
+    "the meal the chef the critic the guest prepared tasted reviewed enjoyed."
+  ],
+  "induced_prompt_raw": "Agent-action-object-recipient.",
+  "induced_prompt": "Agent-action-object-recipient.",
+  "induced_prompt_chars": 30,
+  "induced_prompt_words": 1,
+  "l1_char_total": 378,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The teacher gave a book to the student.\",\n    \"The doctor prescribed medicine to the patient.\",\n    \"The chef prepared a meal for the customer.\",\n    \"The mailman delivered a package to the homeowner.\",\n    \"The artist painted a portrait for the client.\"\n  ]\n}",
+  "l2_sentences": [
+    "The teacher gave a book to the student.",
+    "The doctor prescribed medicine to the patient.",
+    "The chef prepared a meal for the customer.",
+    "The mailman delivered a package to the homeowner.",
+    "The artist painted a portrait for the client."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:53:22.945920+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the mouse the elephant chased hunted scared escaped.",
+    "the book the teacher the student the principal read graded recommended praised.",
+    "the car the mechanic the owner the dealer fixed inspected sold delivered.",
+    "the house the architect the builder the family designed constructed admired purchased.",
+    "the meal the chef the critic the guest prepared tasted reviewed enjoyed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the mouse the elephant chased hunted scared escaped.\",\n    \"the book the teacher the student the principal read graded recommended praised.\",\n    \"the car the mechanic the owner the dealer fixed inspected sold delivered.\",\n    \"the house the architect the builder the family designed constructed admired purchased.\",\n    \"the meal the chef the critic the guest prepared tasted reviewed enjoyed.\"\n  ]\n}",
+  "run_idx": 29
+}

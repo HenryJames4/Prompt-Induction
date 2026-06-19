@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the message the sender sent arrived.",
+    "the plan the committee devised failed.",
+    "the idea the scientist proposed succeeded.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "induced_prompt_raw": "Create a sentence with a noun phrase containing a relative clause that modifies it, followed by a main verb describing the noun's outcome, without adding extra clauses or indirect objects.",
+  "induced_prompt": "Create a sentence with a noun phrase containing a relative clause that modifies it, followed by a main verb describing the noun's outcome, without adding extra clauses or indirect objects.",
+  "induced_prompt_chars": 188,
+  "induced_prompt_words": 30,
+  "l1_char_total": 213,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library was overdue.\", \"The car that she bought last week broke down.\", \"The student who wrote the essay received a high grade.\", \"The dog that barked all night was finally quiet.\", \"The letter that arrived this morning contained important news.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library was overdue.",
+    "The car that she bought last week broke down.",
+    "The student who wrote the essay received a high grade.",
+    "The dog that barked all night was finally quiet.",
+    "The letter that arrived this morning contained important news."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:40:23.524840+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the message the sender sent arrived.",
+    "the plan the committee devised failed.",
+    "the idea the scientist proposed succeeded."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the message the sender sent arrived.",
+    "the plan the committee devised failed.",
+    "the idea the scientist proposed succeeded.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the message the sender sent arrived.\", \"the plan the committee devised failed.\", \"the idea the scientist proposed succeeded.\", \"the story the writer told the audience moved the listeners deeply.\"]}",
+  "run_idx": 7
+}

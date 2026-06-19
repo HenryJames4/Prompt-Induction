@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the student the teacher the principal scolded recommended read vanished",
+    "the mouse the cat the dog the boy trained chased caught escaped",
+    "the car the mechanic the driver the officer arrested hired repaired crashed",
+    "the song the singer the writer the critic praised inspired performed ended",
+    "the painting the artist the model the photographer helped annoyed created fell"
+  ],
+  "induced_prompt_raw": "Generate sentences with a triple center-embedded relative clause structure consisting of four nouns followed by four verbs (Noun 1 + Noun 2 + Noun 3 + Noun 4 + Verb 4 + Verb 3 + Verb 2 + Verb 1).",
+  "induced_prompt": "Generate sentences with a triple center-embedded relative clause structure consisting of four nouns followed by four verbs (Noun 1 + Noun 2 + Noun 3 + Noun 4 + Verb 4 + Verb 3 + Verb 2 + Verb 1).",
+  "induced_prompt_chars": 195,
+  "induced_prompt_words": 40,
+  "l1_char_total": 370,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the girl the bird the seed lured scratched helped smiled.\",\n    \"The intern the designer the director the salary pleased hired trained resigned.\",\n    \"The victim the detective the suspect the evidence implicated outsmarted protected survived.\",\n    \"The king the knight the dragon the gold tempted wounded defended celebrated.\",\n    \"The dog the cat the rat the cheese attracted bit chased escaped.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the girl the bird the seed lured scratched helped smiled.",
+    "The intern the designer the director the salary pleased hired trained resigned.",
+    "The victim the detective the suspect the evidence implicated outsmarted protected survived.",
+    "The king the knight the dragon the gold tempted wounded defended celebrated.",
+    "The dog the cat the rat the cheese attracted bit chased escaped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:22:17.128534+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the student the teacher the principal scolded recommended read vanished",
+    "the mouse the cat the dog the boy trained chased caught escaped",
+    "the car the mechanic the driver the officer arrested hired repaired crashed",
+    "the song the singer the writer the critic praised inspired performed ended",
+    "the painting the artist the model the photographer helped annoyed created fell"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the student the teacher the principal scolded recommended read vanished\",\n    \"the mouse the cat the dog the boy trained chased caught escaped\",\n    \"the car the mechanic the driver the officer arrested hired repaired crashed\",\n    \"the song the singer the writer the critic praised inspired performed ended\",\n    \"the painting the artist the model the photographer helped annoyed created fell\"\n  ]\n}",
+  "run_idx": 10
+}

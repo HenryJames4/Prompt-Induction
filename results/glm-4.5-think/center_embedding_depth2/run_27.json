@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the car the mechanic fixed started.",
+    "the book the student read disappeared.",
+    "the house the builder constructed collapsed.",
+    "the meal the chef cooked burned.",
+    "the dog the trainer walked barked."
+  ],
+  "induced_prompt_raw": "Generate sentences with a center-embedded relative clause modifying the subject, using an omitted relative pronoun and an intransitive verb.",
+  "induced_prompt": "Generate sentences with a center-embedded relative clause modifying the subject, using an omitted relative pronoun and an intransitive verb.",
+  "induced_prompt_chars": 140,
+  "induced_prompt_words": 19,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The woman I saw smiled.\",\n    \"The idea I thought of vanished.\",\n    \"The man I looked at waved.\",\n    \"The book I read fell.\",\n    \"The car I passed stopped.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The woman I saw smiled.",
+    "The idea I thought of vanished.",
+    "The man I looked at waved.",
+    "The book I read fell.",
+    "The car I passed stopped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:30:35.049316+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the mechanic fixed started.",
+    "the book the student read disappeared.",
+    "the house the builder constructed collapsed.",
+    "the meal the chef cooked burned.",
+    "the dog the trainer walked barked."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the mechanic fixed started.\",\n    \"the book the student read disappeared.\",\n    \"the house the builder constructed collapsed.\",\n    \"the meal the chef cooked burned.\",\n    \"the dog the trainer walked barked.\"\n  ]\n}\n```",
+  "run_idx": 27
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read won.",
+    "the car the mechanic fixed broke.",
+    "the meal the chef cooked burned.",
+    "the house the builder built collapsed."
+  ],
+  "induced_prompt_raw": "main-subject relative-subject relative-verb main-verb",
+  "induced_prompt": "main-subject relative-subject relative-verb main-verb",
+  "induced_prompt_chars": 53,
+  "induced_prompt_words": 4,
+  "l1_char_total": 164,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog that barked loudly scared the mailman.\",\n    \"The woman who won the lottery donated her prize.\",\n    \"The tree that fell in the storm blocked the road.\",\n    \"The boy who broke the window apologized.\",\n    \"The movie that won the award was directed by a newcomer.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog that barked loudly scared the mailman.",
+    "The woman who won the lottery donated her prize.",
+    "The tree that fell in the storm blocked the road.",
+    "The boy who broke the window apologized.",
+    "The movie that won the award was directed by a newcomer."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:02:58.934322+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read won.",
+    "the car the mechanic fixed broke.",
+    "the meal the chef cooked burned.",
+    "the house the builder built collapsed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read won.\",\n    \"the car the mechanic fixed broke.\",\n    \"the meal the chef cooked burned.\",\n    \"the house the builder built collapsed.\"\n  ]\n}\n```",
+  "run_idx": 4
+}

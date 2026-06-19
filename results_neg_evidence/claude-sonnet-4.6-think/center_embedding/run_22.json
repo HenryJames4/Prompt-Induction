@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef the apprentice the manager hired trained baked burned",
+    "the policy the senator the aide the lobbyist persuaded advised proposed passed",
+    "the contract the lawyer the clerk the partner hired assisted signed expired",
+    "the book the professor the student the librarian helped impressed wrote sold",
+    "the paper the researcher the assistant helped wrote won"
+  ],
+  "induced_prompt_raw": "Write center-embedded sentences following the exact pattern: **the N₁ the N₂ the N₃ the N₄ V₄ V₃ V₂ V₁**, where N₄ performs V₄ on N₃, N₃ performs V₃ on N₂, N₂ performs V₂ on N₁, and N₁ undergoes V₁ intransitively. Always use exactly **4 noun phrases and 4 verbs**—never reduce to only 3.",
+  "induced_prompt": "Write center-embedded sentences following the exact pattern: **the N₁ the N₂ the N₃ the N₄ V₄ V₃ V₂ V₁**, where N₄ performs V₄ on N₃, N₃ performs V₃ on N₂, N₂ performs V₂ on N₁, and N₁ undergoes V₁ intransitively. Always use exactly **4 noun phrases and 4 verbs**—never reduce to only 3.",
+  "induced_prompt_chars": 287,
+  "induced_prompt_words": 53,
+  "l1_char_total": 355,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The rat the cat the dog the man trained chased killed ran.\", \"The patient the nurse the doctor the hospital employed supervised treated recovered.\", \"The letter the secretary the manager the CEO appointed directed wrote arrived.\", \"The flower the bee the bird the wind disturbed startled pollinated bloomed.\", \"The meal the guest the waiter the chef trained served ate vanished.\"]}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man trained chased killed ran.",
+    "The patient the nurse the doctor the hospital employed supervised treated recovered.",
+    "The letter the secretary the manager the CEO appointed directed wrote arrived.",
+    "The flower the bee the bird the wind disturbed startled pollinated bloomed.",
+    "The meal the guest the waiter the chef trained served ate vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:14:09.701768+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef the apprentice the manager hired trained baked burned",
+    "the policy the senator the aide the lobbyist persuaded advised proposed passed",
+    "the contract the lawyer the clerk the partner hired assisted signed expired",
+    "the book the professor the student the librarian helped impressed wrote sold"
+  ],
+  "l1_sentences": [
+    "the cake the chef the apprentice the manager hired trained baked burned",
+    "the policy the senator the aide the lobbyist persuaded advised proposed passed",
+    "the contract the lawyer the clerk the partner hired assisted signed expired",
+    "the book the professor the student the librarian helped impressed wrote sold",
+    "the paper the researcher the assistant helped wrote won"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the chef the apprentice the manager hired trained baked burned\",\n    \"the policy the senator the aide the lobbyist persuaded advised proposed passed\",\n    \"the contract the lawyer the clerk the partner hired assisted signed expired\",\n    \"the book the professor the student the librarian helped impressed wrote sold\",\n    \"the paper the researcher the assistant helped wrote won\"\n  ]\n}\n```",
+  "run_idx": 22
+}

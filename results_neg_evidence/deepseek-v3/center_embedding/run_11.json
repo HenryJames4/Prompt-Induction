@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the printer printed edited published vanished.",
+    "The cake the chef the baker the apprentice baked decorated served crumbled.",
+    "The car the driver the mechanic the apprentice repaired inspected crashed stalled.",
+    "The movie the director the producer the editor edited approved released flopped.",
+    "The song the singer the composer recorded performed."
+  ],
+  "induced_prompt_raw": "Generate a complex sentence with a nested sequence of four noun phrases followed by four verbs, where each verb corresponds sequentially to the preceding noun phrase, ensuring no gaps or missing elements in the structure. Avoid truncating the sequence or omitting any nouns or verbs.",
+  "induced_prompt": "Generate a complex sentence with a nested sequence of four noun phrases followed by four verbs, where each verb corresponds sequentially to the preceding noun phrase, ensuring no gaps or missing elements in the structure. Avoid truncating the sequence or omitting any nouns or verbs.",
+  "induced_prompt_chars": 283,
+  "induced_prompt_words": 45,
+  "l1_char_total": 369,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat, the dog, the bird, the fish meowed, barked, chirped, swam.\", \"The teacher, the student, the principal, the librarian taught, learned, supervised, organized.\", \"The car, the truck, the bicycle, the motorcycle drove, hauled, pedaled, accelerated.\", \"The chef, the waiter, the customer, the manager cooked, served, ate, managed.\", \"The king, the queen, the knight, the peasant ruled, governed, fought, toiled.\"]}",
+  "l2_sentences": [
+    "The cat, the dog, the bird, the fish meowed, barked, chirped, swam.",
+    "The teacher, the student, the principal, the librarian taught, learned, supervised, organized.",
+    "The car, the truck, the bicycle, the motorcycle drove, hauled, pedaled, accelerated.",
+    "The chef, the waiter, the customer, the manager cooked, served, ate, managed.",
+    "The king, the queen, the knight, the peasant ruled, governed, fought, toiled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:56:34.710599+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the printer printed edited published vanished.",
+    "The cake the chef the baker the apprentice baked decorated served crumbled.",
+    "The car the driver the mechanic the apprentice repaired inspected crashed stalled.",
+    "The movie the director the producer the editor edited approved released flopped."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the printer printed edited published vanished.",
+    "The cake the chef the baker the apprentice baked decorated served crumbled.",
+    "The car the driver the mechanic the apprentice repaired inspected crashed stalled.",
+    "The movie the director the producer the editor edited approved released flopped.",
+    "The song the singer the composer recorded performed."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the printer printed edited published vanished.\", \"The cake the chef the baker the apprentice baked decorated served crumbled.\", \"The car the driver the mechanic the apprentice repaired inspected crashed stalled.\", \"The movie the director the producer the editor edited approved released flopped.\", \"The song the singer the composer recorded performed.\"]}",
+  "run_idx": 11
+}

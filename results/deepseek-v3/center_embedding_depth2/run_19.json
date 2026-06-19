@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor revised sold",
+    "the car the mechanic fixed ran",
+    "the cake the baker decorated tasted",
+    "the song the singer performed impressed",
+    "the letter the writer drafted arrived"
+  ],
+  "induced_prompt_raw": "\"Generate sentences where a noun modified by a relative clause is followed by a verb.\"",
+  "induced_prompt": "\"Generate sentences where a noun modified by a relative clause is followed by a verb.\"",
+  "induced_prompt_chars": 86,
+  "induced_prompt_words": 15,
+  "l1_char_total": 173,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed yesterday fell.\", \"The dog that barked all night slept.\", \"The car that we rented broke down.\", \"The cake that she baked tasted amazing.\", \"The phone that he dropped stopped working.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed yesterday fell.",
+    "The dog that barked all night slept.",
+    "The car that we rented broke down.",
+    "The cake that she baked tasted amazing.",
+    "The phone that he dropped stopped working."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:19:52.495158+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor revised sold",
+    "the car the mechanic fixed ran",
+    "the cake the baker decorated tasted",
+    "the song the singer performed impressed",
+    "the letter the writer drafted arrived"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor revised sold\", \"the car the mechanic fixed ran\", \"the cake the baker decorated tasted\", \"the song the singer performed impressed\", \"the letter the writer drafted arrived\"]}",
+  "run_idx": 19
+}

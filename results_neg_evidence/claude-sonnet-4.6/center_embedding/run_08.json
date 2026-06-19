@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the package the courier the manager the client hired supervised delivered arrived",
+    "the book the author the editor the publisher hired reviewed released sold",
+    "the cake the chef the assistant the owner trained supervised baked served",
+    "the letter the lawyer the secretary the judge employed instructed drafted signed",
+    "the film the director the actor recruited impressed produced"
+  ],
+  "induced_prompt_raw": "Write a multiply center-embedded relative clause sentence with exactly 4 levels of embedding (4 noun phrases and 4 verbs), where all relative clause subjects appear before all verbs, and verbs appear in reverse order of their subjects. Do not use only 3 levels of embedding.",
+  "induced_prompt": "Write a multiply center-embedded relative clause sentence with exactly 4 levels of embedding (4 noun phrases and 4 verbs), where all relative clause subjects appear before all verbs, and verbs appear in reverse order of their subjects. Do not use only 3 levels of embedding.",
+  "induced_prompt_chars": 274,
+  "induced_prompt_words": 45,
+  "l1_char_total": 367,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the rat that the bird chased bit scratched meowed.\", \"The book that the student that the teacher that the principal hired trained read won.\", \"The cake that the chef that the critic that the judge impressed praised baked melted.\", \"The car that the man that the woman that the child saw helped fixed broke.\", \"The song that the band that the label that the fan loved signed recorded played.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the rat that the bird chased bit scratched meowed.",
+    "The book that the student that the teacher that the principal hired trained read won.",
+    "The cake that the chef that the critic that the judge impressed praised baked melted.",
+    "The car that the man that the woman that the child saw helped fixed broke.",
+    "The song that the band that the label that the fan loved signed recorded played."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:52:29.151786+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the package the courier the manager the client hired supervised delivered arrived",
+    "the book the author the editor the publisher hired reviewed released sold",
+    "the cake the chef the assistant the owner trained supervised baked served",
+    "the letter the lawyer the secretary the judge employed instructed drafted signed"
+  ],
+  "l1_sentences": [
+    "the package the courier the manager the client hired supervised delivered arrived",
+    "the book the author the editor the publisher hired reviewed released sold",
+    "the cake the chef the assistant the owner trained supervised baked served",
+    "the letter the lawyer the secretary the judge employed instructed drafted signed",
+    "the film the director the actor recruited impressed produced"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the package the courier the manager the client hired supervised delivered arrived\", \"the book the author the editor the publisher hired reviewed released sold\", \"the cake the chef the assistant the owner trained supervised baked served\", \"the letter the lawyer the secretary the judge employed instructed drafted signed\", \"the film the director the actor recruited impressed produced\"]}\n```",
+  "run_idx": 8
+}

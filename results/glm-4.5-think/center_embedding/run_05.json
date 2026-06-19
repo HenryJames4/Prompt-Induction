@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the trap the cheese the mouse the cat caught stole attracted snapped",
+    "the field the grass the cow the farmer milked ate covered bloomed",
+    "the waiter the guest the meal the chef cooked pleased tipped smiled",
+    "the student the teacher the problem the student solved impressed praised graduated",
+    "the driver the traffic the street the rain flooded blocked annoyed complained"
+  ],
+  "induced_prompt_raw": "Last noun and verb as main clause, then passive relative clauses for prior events in reverse order.",
+  "induced_prompt": "Last noun and verb as main clause, then passive relative clauses for prior events in reverse order.",
+  "induced_prompt_chars": 99,
+  "induced_prompt_words": 17,
+  "l1_char_total": 359,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The seed grew into a plant, which had been watered by the gardener, which had been planted in the soil.\",\n    \"The letter was received by the editor, which had been sent to the publisher, which had been written by the author.\",\n    \"The dough was baked in the oven, which had been shaped into a loaf, which had been mixed by the baker.\",\n    \"The car was driven off the lot, which had been assembled in the factory, which had been designed by the engineer.\",\n    \"The code was deployed to the server, which had been tested by the QA team, which had been written by the programmer.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The seed grew into a plant, which had been watered by the gardener, which had been planted in the soil.",
+    "The letter was received by the editor, which had been sent to the publisher, which had been written by the author.",
+    "The dough was baked in the oven, which had been shaped into a loaf, which had been mixed by the baker.",
+    "The car was driven off the lot, which had been assembled in the factory, which had been designed by the engineer.",
+    "The code was deployed to the server, which had been tested by the QA team, which had been written by the programmer."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:10:32.091792+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the trap the cheese the mouse the cat caught stole attracted snapped",
+    "the field the grass the cow the farmer milked ate covered bloomed",
+    "the waiter the guest the meal the chef cooked pleased tipped smiled",
+    "the student the teacher the problem the student solved impressed praised graduated",
+    "the driver the traffic the street the rain flooded blocked annoyed complained"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the trap the cheese the mouse the cat caught stole attracted snapped\",\n    \"the field the grass the cow the farmer milked ate covered bloomed\",\n    \"the waiter the guest the meal the chef cooked pleased tipped smiled\",\n    \"the student the teacher the problem the student solved impressed praised graduated\",\n    \"the driver the traffic the street the rain flooded blocked annoyed complained\"\n  ]\n}\n```",
+  "run_idx": 5
+}

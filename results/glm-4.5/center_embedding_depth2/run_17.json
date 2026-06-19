@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read fascinated.",
+    "the car the mechanic repaired broke.",
+    "the meal the chef prepared delighted.",
+    "the house the builder designed collapsed."
+  ],
+  "induced_prompt_raw": "Noun phrase containing a relative clause, followed by a main verb.",
+  "induced_prompt": "Noun phrase containing a relative clause, followed by a main verb.",
+  "induced_prompt_chars": 66,
+  "induced_prompt_words": 11,
+  "l1_char_total": 182,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book that I bought yesterday fell off the shelf.\",\n    \"The woman who lives next door works at the hospital.\",\n    \"The car that was parked outside got a ticket.\",\n    \"The children who played in the park went home for dinner.\",\n    \"The movie that we watched last night won three awards.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book that I bought yesterday fell off the shelf.",
+    "The woman who lives next door works at the hospital.",
+    "The car that was parked outside got a ticket.",
+    "The children who played in the park went home for dinner.",
+    "The movie that we watched last night won three awards."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:17:50.282631+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read fascinated.",
+    "the car the mechanic repaired broke.",
+    "the meal the chef prepared delighted.",
+    "the house the builder designed collapsed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read fascinated.\",\n    \"the car the mechanic repaired broke.\",\n    \"the meal the chef prepared delighted.\",\n    \"the house the builder designed collapsed.\"\n  ]\n}",
+  "run_idx": 17
+}

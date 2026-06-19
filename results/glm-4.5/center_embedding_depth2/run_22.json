@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read fascinated.",
+    "the car the mechanic fixed broke.",
+    "the tree the wind blew fell.",
+    "the movie the critic watched bored."
+  ],
+  "induced_prompt_raw": "Center-embedded relative clauses with passive verbs.",
+  "induced_prompt": "Center-embedded relative clauses with passive verbs.",
+  "induced_prompt_chars": 52,
+  "induced_prompt_words": 6,
+  "l1_char_total": 164,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The proposal that was approved by the committee was implemented immediately.\",\n    \"The book that was written by the famous author won several awards.\",\n    \"The car that was repaired by the mechanic runs much better now.\",\n    \"The painting that was restored by the experts was displayed in the museum.\",\n    \"The decision that was made by the board affected all employees.\"\n  ]\n}",
+  "l2_sentences": [
+    "The proposal that was approved by the committee was implemented immediately.",
+    "The book that was written by the famous author won several awards.",
+    "The car that was repaired by the mechanic runs much better now.",
+    "The painting that was restored by the experts was displayed in the museum.",
+    "The decision that was made by the board affected all employees."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:23:52.085200+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read fascinated.",
+    "the car the mechanic fixed broke.",
+    "the tree the wind blew fell.",
+    "the movie the critic watched bored."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read fascinated.\",\n    \"the car the mechanic fixed broke.\",\n    \"the tree the wind blew fell.\",\n    \"the movie the critic watched bored.\"\n  ]\n}",
+  "run_idx": 22
+}

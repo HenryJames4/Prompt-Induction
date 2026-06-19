@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the client the lawyer the clerk the secretary assisted instructed represented sued",
+    "the patient the doctor the nurse the student shadowed assisted treated died",
+    "the student the teacher the tutor the peer helped guided advised graduated",
+    "the child the mother the grandmother the neighbor helped watched comforted slept",
+    "the artist the patron the dealer the collector contacted questioned supported painted"
+  ],
+  "induced_prompt_raw": "Generate a sentence with four nested relative clauses using the subject-extraction pattern: \"the [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\" (where the verbs resolve the nested dependencies in reverse order, ending with an intransitive verb).",
+  "induced_prompt": "Generate a sentence with four nested relative clauses using the subject-extraction pattern: \"the [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\" (where the verbs resolve the nested dependencies in reverse order, ending with an intransitive verb).",
+  "induced_prompt_chars": 275,
+  "induced_prompt_words": 39,
+  "l1_char_total": 396,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The mouse the cat the dog the boy chased bit scratched fled.\",\n    \"The book the student the teacher the principal praised recommended read closed.\",\n    \"The cheese the rat the ferret the owl hunted stole ate disappeared.\",\n    \"The report the intern the manager the director questioned drafted reviewed leaked.\",\n    \"The masterpiece the artist the collector the museum hired painted bought vanished.\"\n  ]\n}",
+  "l2_sentences": [
+    "The mouse the cat the dog the boy chased bit scratched fled.",
+    "The book the student the teacher the principal praised recommended read closed.",
+    "The cheese the rat the ferret the owl hunted stole ate disappeared.",
+    "The report the intern the manager the director questioned drafted reviewed leaked.",
+    "The masterpiece the artist the collector the museum hired painted bought vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:19:43.150082+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the client the lawyer the clerk the secretary assisted instructed represented sued",
+    "the patient the doctor the nurse the student shadowed assisted treated died",
+    "the student the teacher the tutor the peer helped guided advised graduated",
+    "the child the mother the grandmother the neighbor helped watched comforted slept",
+    "the artist the patron the dealer the collector contacted questioned supported painted"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the client the lawyer the clerk the secretary assisted instructed represented sued\",\n    \"the patient the doctor the nurse the student shadowed assisted treated died\",\n    \"the student the teacher the tutor the peer helped guided advised graduated\",\n    \"the child the mother the grandmother the neighbor helped watched comforted slept\",\n    \"the artist the patron the dealer the collector contacted questioned supported painted\"\n  ]\n}",
+  "run_idx": 7
+}

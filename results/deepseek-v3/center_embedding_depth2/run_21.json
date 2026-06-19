@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the student read sold",
+    "the cake the baker made tasted",
+    "the car the driver fixed ran",
+    "the dog the trainer taught obeyed",
+    "the song the singer performed ended"
+  ],
+  "induced_prompt_raw": "Prompt:  \n\"Generate sentences with the structure: [noun1] [noun2] [verb1] [verb2].\"",
+  "induced_prompt": "Prompt:  \n\"Generate sentences with the structure: [noun1] [noun2] [verb1] [verb2].\"",
+  "induced_prompt_chars": 83,
+  "induced_prompt_words": 10,
+  "l1_char_total": 156,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"Dog park runs plays.\", \"Teacher student teaches learns.\", \"Car engine starts stops.\", \"Book reader reads finishes.\", \"Bird nest builds flies.\"]}",
+  "l2_sentences": [
+    "Dog park runs plays.",
+    "Teacher student teaches learns.",
+    "Car engine starts stops.",
+    "Book reader reads finishes.",
+    "Bird nest builds flies."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:22:26.651060+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the student read sold",
+    "the cake the baker made tasted",
+    "the car the driver fixed ran",
+    "the dog the trainer taught obeyed",
+    "the song the singer performed ended"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student read sold\", \"the cake the baker made tasted\", \"the car the driver fixed ran\", \"the dog the trainer taught obeyed\", \"the song the singer performed ended\"]}",
+  "run_idx": 21
+}

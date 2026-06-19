@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the car the truck hit crashed.",
+    "the book the student read fell.",
+    "the idea the committee discussed failed.",
+    "the tree the wind shook fell.",
+    "the computer the technician repaired crashed."
+  ],
+  "induced_prompt_raw": "Generate sentences with pattern: the [N1] the [N2] [V1] [V2]",
+  "induced_prompt": "Generate sentences with pattern: the [N1] the [N2] [V1] [V2]",
+  "induced_prompt_chars": 60,
+  "induced_prompt_words": 10,
+  "l1_char_total": 175,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased barked.\",\n    \"the sun the moon rose set.\",\n    \"the teacher the student taught learned.\",\n    \"the car the truck crashed honked.\",\n    \"the bird the worm ate sang.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "the cat the dog chased barked.",
+    "the sun the moon rose set.",
+    "the teacher the student taught learned.",
+    "the car the truck crashed honked.",
+    "the bird the worm ate sang."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:06:11.629825+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the truck hit crashed.",
+    "the book the student read fell.",
+    "the idea the committee discussed failed.",
+    "the tree the wind shook fell.",
+    "the computer the technician repaired crashed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the truck hit crashed.\",\n    \"the book the student read fell.\",\n    \"the idea the committee discussed failed.\",\n    \"the tree the wind shook fell.\",\n    \"the computer the technician repaired crashed.\"\n  ]\n}\n```",
+  "run_idx": 7
+}

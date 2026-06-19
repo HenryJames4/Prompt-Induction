@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor read sold.",
+    "the plan the manager rejected failed.",
+    "the idea the scientist tested succeeded.",
+    "the report the auditor reviewed passed.",
+    "the design the architect drew impressed."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [past participle].",
+  "induced_prompt": "the [noun] the [role] [verb] [past participle].",
+  "induced_prompt_chars": 47,
+  "induced_prompt_words": 7,
+  "l1_char_total": 186,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the veterinarian treated was very sick.\", \"The book the professor assigned was extremely difficult.\", \"The car the mechanic repaired ran perfectly afterward.\", \"The student the teacher praised earned top marks.\", \"The song the singer performed won the competition.\"]}",
+  "l2_sentences": [
+    "The cat the veterinarian treated was very sick.",
+    "The book the professor assigned was extremely difficult.",
+    "The car the mechanic repaired ran perfectly afterward.",
+    "The student the teacher praised earned top marks.",
+    "The song the singer performed won the competition."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:03:59.967681+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor read sold.",
+    "the plan the manager rejected failed.",
+    "the idea the scientist tested succeeded.",
+    "the report the auditor reviewed passed.",
+    "the design the architect drew impressed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor read sold.\", \"the plan the manager rejected failed.\", \"the idea the scientist tested succeeded.\", \"the report the auditor reviewed passed.\", \"the design the architect drew impressed.\"]}",
+  "run_idx": 5
+}

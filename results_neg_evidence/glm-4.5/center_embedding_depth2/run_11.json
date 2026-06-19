@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read was interesting.",
+    "The house the builder constructed collapsed.",
+    "The movie the critic reviewed won awards.",
+    "The car the mechanic the owner hired repaired broke down."
+  ],
+  "induced_prompt_raw": "Generate a single center-embedded relative clause.",
+  "induced_prompt": "Generate a single center-embedded relative clause.",
+  "induced_prompt_chars": 50,
+  "induced_prompt_words": 6,
+  "l1_char_total": 215,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog chased ran away.\",\n    \"The book that the student read was interesting.\",\n    \"The house that the builder constructed is large.\",\n    \"The movie that the director made won awards.\",\n    \"The car that the mechanic fixed works perfectly.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog chased ran away.",
+    "The book that the student read was interesting.",
+    "The house that the builder constructed is large.",
+    "The movie that the director made won awards.",
+    "The car that the mechanic fixed works perfectly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:44:16.555950+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased escaped.",
+    "The book the student read was interesting.",
+    "The house the builder constructed collapsed.",
+    "The movie the critic reviewed won awards."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read was interesting.",
+    "The house the builder constructed collapsed.",
+    "The movie the critic reviewed won awards.",
+    "The car the mechanic the owner hired repaired broke down."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The book the student read was interesting.\",\n    \"The house the builder constructed collapsed.\",\n    \"The movie the critic reviewed won awards.\",\n    \"The car the mechanic the owner hired repaired broke down.\"\n  ]\n}",
+  "run_idx": 11
+}

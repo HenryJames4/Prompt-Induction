@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the manager reviewed failed",
+    "the cake the chef baked disappeared",
+    "the law the senator proposed passed",
+    "the painting the artist created sold",
+    "the memo the manager the director hired reviewed failed"
+  ],
+  "induced_prompt_raw": "Generate sentences with a single center-embedded relative clause, where a noun phrase is modified by a relative clause before the main verb (e.g., \"the X the Y [verb] [verb]\"). Use only one level of embedding — do not nest multiple relative clauses inside one another.",
+  "induced_prompt": "Generate sentences with a single center-embedded relative clause, where a noun phrase is modified by a relative clause before the main verb (e.g., \"the X the Y [verb] [verb]\"). Use only one level of embedding — do not nest multiple relative clauses inside one another.",
+  "induced_prompt_chars": 268,
+  "induced_prompt_words": 45,
+  "l1_char_total": 199,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The dog the cat frightened ran away.\", \"The book the professor recommended was fascinating.\", \"The letter the secretary typed was sent immediately.\", \"The cake the baker prepared tasted delicious.\", \"The man the detective questioned left the building.\"]}\n```",
+  "l2_sentences": [
+    "The dog the cat frightened ran away.",
+    "The book the professor recommended was fascinating.",
+    "The letter the secretary typed was sent immediately.",
+    "The cake the baker prepared tasted delicious.",
+    "The man the detective questioned left the building."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:53:46.100342+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the manager reviewed failed",
+    "the cake the chef baked disappeared",
+    "the law the senator proposed passed",
+    "the painting the artist created sold"
+  ],
+  "l1_sentences": [
+    "the report the manager reviewed failed",
+    "the cake the chef baked disappeared",
+    "the law the senator proposed passed",
+    "the painting the artist created sold",
+    "the memo the manager the director hired reviewed failed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the report the manager reviewed failed\",\n    \"the cake the chef baked disappeared\",\n    \"the law the senator proposed passed\",\n    \"the painting the artist created sold\",\n    \"the memo the manager the director hired reviewed failed\"\n  ]\n}\n```",
+  "run_idx": 22
+}

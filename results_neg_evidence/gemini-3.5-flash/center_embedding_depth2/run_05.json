@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the candidate the voters supported won",
+    "the cake the baker decorated collapsed",
+    "the song the band played stopped",
+    "the dog the boy chased barked",
+    "the book the author the publisher rejected wrote failed"
+  ],
+  "induced_prompt_raw": "Generate a simple sentence where the subject is modified by a single relative clause containing a transitive verb, avoiding nested or multiple relative clauses (such as \"the noun the noun the noun verb verb verb\" structure).",
+  "induced_prompt": "Generate a simple sentence where the subject is modified by a single relative clause containing a transitive verb, avoiding nested or multiple relative clauses (such as \"the noun the noun the noun verb verb verb\" structure).",
+  "induced_prompt_chars": 224,
+  "induced_prompt_words": 36,
+  "l1_char_total": 192,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef who baked the bread won an award.\",\n    \"The boy who caught the ball ran home.\",\n    \"The artist who painted the mural lives nearby.\",\n    \"The dog that chased the cat barked loudly.\",\n    \"The student who wrote the essay received an A.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef who baked the bread won an award.",
+    "The boy who caught the ball ran home.",
+    "The artist who painted the mural lives nearby.",
+    "The dog that chased the cat barked loudly.",
+    "The student who wrote the essay received an A."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:38:35.828541+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the candidate the voters supported won",
+    "the cake the baker decorated collapsed",
+    "the song the band played stopped",
+    "the dog the boy chased barked"
+  ],
+  "l1_sentences": [
+    "the candidate the voters supported won",
+    "the cake the baker decorated collapsed",
+    "the song the band played stopped",
+    "the dog the boy chased barked",
+    "the book the author the publisher rejected wrote failed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the candidate the voters supported won\",\n    \"the cake the baker decorated collapsed\",\n    \"the song the band played stopped\",\n    \"the dog the boy chased barked\",\n    \"the book the author the publisher rejected wrote failed\"\n  ]\n}",
+  "run_idx": 5
+}

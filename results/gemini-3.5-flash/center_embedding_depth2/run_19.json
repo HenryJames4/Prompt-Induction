@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the chef the critic praised smiled",
+    "the child the dog chased cried",
+    "the artist the crowd admired bowed",
+    "the driver the officer stopped apologized",
+    "the student the teacher helped succeeded"
+  ],
+  "induced_prompt_raw": "Write five sentences using the syntactic structure: [determiner] [noun] [determiner] [noun] [past tense transitive verb] [past tense intransitive verb].",
+  "induced_prompt": "Write five sentences using the syntactic structure: [determiner] [noun] [determiner] [noun] [past tense transitive verb] [past tense intransitive verb].",
+  "induced_prompt_chars": 152,
+  "induced_prompt_words": 19,
+  "l1_char_total": 179,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The man the dog bit ran.\",\n    \"This boy that girl pushed slipped.\",\n    \"Each student every teacher helped succeeded.\",\n    \"A cat the bird watched flew.\",\n    \"Some people those leaders misled rebelled.\"\n  ]\n}",
+  "l2_sentences": [
+    "The man the dog bit ran.",
+    "This boy that girl pushed slipped.",
+    "Each student every teacher helped succeeded.",
+    "A cat the bird watched flew.",
+    "Some people those leaders misled rebelled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:41:26.026891+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the critic praised smiled",
+    "the child the dog chased cried",
+    "the artist the crowd admired bowed",
+    "the driver the officer stopped apologized",
+    "the student the teacher helped succeeded"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the critic praised smiled\",\n    \"the child the dog chased cried\",\n    \"the artist the crowd admired bowed\",\n    \"the driver the officer stopped apologized\",\n    \"the student the teacher helped succeeded\"\n  ]\n}",
+  "run_idx": 19
+}

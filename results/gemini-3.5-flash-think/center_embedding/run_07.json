@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the teacher the student the parent helped annoyed recommended vanished",
+    "the song the singer the fan the guard stopped praised performed ended",
+    "the painting the artist the critic the chef fed insulted destroyed burned",
+    "the law the senator the lobbyist the reporter questioned bribed proposed failed",
+    "the cake the baker the customer the child distracted paid dropped melted"
+  ],
+  "induced_prompt_raw": "Write sentences following this syntactic structure: \"the [noun1] the [noun2] the [noun3] the [noun4] [verb4] [verb3] [verb2] [verb1]\" (triple center-embedded relative clauses).",
+  "induced_prompt": "Write sentences following this syntactic structure: \"the [noun1] the [noun2] the [noun3] the [noun4] [verb4] [verb3] [verb2] [verb1]\" (triple center-embedded relative clauses).",
+  "induced_prompt_chars": 176,
+  "induced_prompt_words": 22,
+  "l1_char_total": 372,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cheese the mouse the cat the dog scared caught ate smelled.\",\n    \"The report the intern the manager the director promoted hired wrote leaked.\",\n    \"The car the mechanic the owner the banker sued paid fixed broke.\",\n    \"The masterpiece the artist the patron the rival envied funded made vanished.\",\n    \"The toy the child the mother the father called scolded lost broke.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cheese the mouse the cat the dog scared caught ate smelled.",
+    "The report the intern the manager the director promoted hired wrote leaked.",
+    "The car the mechanic the owner the banker sued paid fixed broke.",
+    "The masterpiece the artist the patron the rival envied funded made vanished.",
+    "The toy the child the mother the father called scolded lost broke."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:20:08.739715+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the teacher the student the parent helped annoyed recommended vanished",
+    "the song the singer the fan the guard stopped praised performed ended",
+    "the painting the artist the critic the chef fed insulted destroyed burned",
+    "the law the senator the lobbyist the reporter questioned bribed proposed failed",
+    "the cake the baker the customer the child distracted paid dropped melted"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the teacher the student the parent helped annoyed recommended vanished\",\n    \"the song the singer the fan the guard stopped praised performed ended\",\n    \"the painting the artist the critic the chef fed insulted destroyed burned\",\n    \"the law the senator the lobbyist the reporter questioned bribed proposed failed\",\n    \"the cake the baker the customer the child distracted paid dropped melted\"\n  ]\n}",
+  "run_idx": 7
+}

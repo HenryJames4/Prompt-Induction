@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the song the singer the coach the parent thanked trained performed ended",
+    "the painting the artist the patron the mayor welcomed funded created faded",
+    "the house the builder the client the banker avoided hired constructed collapsed",
+    "the letter the lawyer the witness the deputy protected helped mailed arrived",
+    "the meal the chef the guest the host entertained praised cooked spoiled"
+  ],
+  "induced_prompt_raw": "Write five sentences with a triple center-embedded structure of the form: \"the [noun 1] the [noun 2] the [noun 3] the [noun 4] [verb 4] [verb 3] [verb 2] [verb 1]\".",
+  "induced_prompt": "Write five sentences with a triple center-embedded structure of the form: \"the [noun 1] the [noun 2] the [noun 3] the [noun 4] [verb 4] [verb 3] [verb 2] [verb 1]\".",
+  "induced_prompt_chars": 164,
+  "induced_prompt_words": 31,
+  "l1_char_total": 372,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the girl the dog the cat scratched bit kicked cried.\",\n    \"The car the truck the bike the kid hit scratched dented stalled.\",\n    \"The cheese the rat the cat the dog chased caught ate vanished.\",\n    \"The book the student the teacher the principal scolded praised lost reappeared.\",\n    \"The software the developer the manager the director fired hired designed crashed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the girl the dog the cat scratched bit kicked cried.",
+    "The car the truck the bike the kid hit scratched dented stalled.",
+    "The cheese the rat the cat the dog chased caught ate vanished.",
+    "The book the student the teacher the principal scolded praised lost reappeared.",
+    "The software the developer the manager the director fired hired designed crashed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:30:33.330919+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the song the singer the coach the parent thanked trained performed ended",
+    "the painting the artist the patron the mayor welcomed funded created faded",
+    "the house the builder the client the banker avoided hired constructed collapsed",
+    "the letter the lawyer the witness the deputy protected helped mailed arrived",
+    "the meal the chef the guest the host entertained praised cooked spoiled"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the song the singer the coach the parent thanked trained performed ended\",\n    \"the painting the artist the patron the mayor welcomed funded created faded\",\n    \"the house the builder the client the banker avoided hired constructed collapsed\",\n    \"the letter the lawyer the witness the deputy protected helped mailed arrived\",\n    \"the meal the chef the guest the host entertained praised cooked spoiled\"\n  ]\n}",
+  "run_idx": 24
+}

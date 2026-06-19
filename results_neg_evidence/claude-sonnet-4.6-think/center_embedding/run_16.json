@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the contract the lawyer the clerk the secretary consulted assisted signed expired",
+    "the manuscript the publisher the editor the author helped impressed rejected disappeared",
+    "the project the director the supervisor the intern consulted briefed approved succeeded",
+    "the article the journalist the researcher the student interviewed assisted published spread",
+    "the report the editor the assistant consulted revised disappeared"
+  ],
+  "induced_prompt_raw": "Generate a triply center-embedded English sentence using exactly four \"the + noun\" phrases followed by exactly four verbs. The structure should be: [NP1 NP2 NP3 NP4 V1 V2 V3 V4], where each noun is the object of the next verb working outward, and the final verb is intransitive. Do not use only two levels of embedding (three nouns, three verbs).",
+  "induced_prompt": "Generate a triply center-embedded English sentence using exactly four \"the + noun\" phrases followed by exactly four verbs. The structure should be: [NP1 NP2 NP3 NP4 V1 V2 V3 V4], where each noun is the object of the next verb working outward, and the final verb is intransitive. Do not use only two levels of embedding (three nouns, three verbs).",
+  "induced_prompt_chars": 346,
+  "induced_prompt_words": 60,
+  "l1_char_total": 412,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat the cat the dog the man trained bit chased died.\",\n    \"The book the student the teacher the professor praised taught read disappeared.\",\n    \"The cake the child the cook the chef hired fed ate vanished.\",\n    \"The letter the secretary the boss the director appointed hired wrote arrived.\",\n    \"The song the singer the agent the producer hired discovered performed faded.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man trained bit chased died.",
+    "The book the student the teacher the professor praised taught read disappeared.",
+    "The cake the child the cook the chef hired fed ate vanished.",
+    "The letter the secretary the boss the director appointed hired wrote arrived.",
+    "The song the singer the agent the producer hired discovered performed faded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:04:20.836103+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the contract the lawyer the clerk the secretary consulted assisted signed expired",
+    "the manuscript the publisher the editor the author helped impressed rejected disappeared",
+    "the project the director the supervisor the intern consulted briefed approved succeeded",
+    "the article the journalist the researcher the student interviewed assisted published spread"
+  ],
+  "l1_sentences": [
+    "the contract the lawyer the clerk the secretary consulted assisted signed expired",
+    "the manuscript the publisher the editor the author helped impressed rejected disappeared",
+    "the project the director the supervisor the intern consulted briefed approved succeeded",
+    "the article the journalist the researcher the student interviewed assisted published spread",
+    "the report the editor the assistant consulted revised disappeared"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the contract the lawyer the clerk the secretary consulted assisted signed expired\",\n    \"the manuscript the publisher the editor the author helped impressed rejected disappeared\",\n    \"the project the director the supervisor the intern consulted briefed approved succeeded\",\n    \"the article the journalist the researcher the student interviewed assisted published spread\",\n    \"the report the editor the assistant consulted revised disappeared\"\n  ]\n}\n```",
+  "run_idx": 16
+}

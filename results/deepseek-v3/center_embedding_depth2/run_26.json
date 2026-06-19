@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor recommended sold",
+    "the movie the critic praised won",
+    "the cake the baker decorated tasted",
+    "the song the artist composed played",
+    "the painting the curator selected exhibited"
+  ],
+  "induced_prompt_raw": "\"Generate sentences following the structure: '[noun] [relative clause] [verb].'\"",
+  "induced_prompt": "\"Generate sentences following the structure: '[noun] [relative clause] [verb].'\"",
+  "induced_prompt_chars": 80,
+  "induced_prompt_words": 9,
+  "l1_char_total": 181,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed is missing.\", \"The dog that barks loudly is my neighbor's.\", \"The cake that she baked tastes delicious.\", \"The car that he drives is very expensive.\", \"The teacher who taught me retired last year.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed is missing.",
+    "The dog that barks loudly is my neighbor's.",
+    "The cake that she baked tastes delicious.",
+    "The car that he drives is very expensive.",
+    "The teacher who taught me retired last year."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:29:04.418851+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor recommended sold",
+    "the movie the critic praised won",
+    "the cake the baker decorated tasted",
+    "the song the artist composed played",
+    "the painting the curator selected exhibited"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor recommended sold\", \"the movie the critic praised won\", \"the cake the baker decorated tasted\", \"the song the artist composed played\", \"the painting the curator selected exhibited\"]}",
+  "run_idx": 26
+}

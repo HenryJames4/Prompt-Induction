@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the printer reviewed accepted printed released.",
+    "The movie the director the producer the editor watched approved edited premiered.",
+    "The letter the manager the secretary the intern drafted proofread signed delivered.",
+    "The cake the baker the chef the assistant baked decorated served enjoyed.",
+    "The plan the team the leader presented discussed executed."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence using nested noun phrases where each subsequent noun modifies the previous one, ensuring each noun is followed by a verb in the correct sequence, avoiding incomplete or misordered verb chains.\"",
+  "induced_prompt": "\"Generate a sentence using nested noun phrases where each subsequent noun modifies the previous one, ensuring each noun is followed by a verb in the correct sequence, avoiding incomplete or misordered verb chains.\"",
+  "induced_prompt_chars": 214,
+  "induced_prompt_words": 33,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The artist who sculpted the statue admired by the curator showcased it.\", \"The teacher who guided the student praised by the principal congratulated them.\", \"The chef who prepared the dish enjoyed by the guests presented it.\", \"The writer who authored the book recommended by the critic signed copies.\", \"The engineer who designed the bridge inspected by the team completed it.\"]}",
+  "l2_sentences": [
+    "The artist who sculpted the statue admired by the curator showcased it.",
+    "The teacher who guided the student praised by the principal congratulated them.",
+    "The chef who prepared the dish enjoyed by the guests presented it.",
+    "The writer who authored the book recommended by the critic signed copies.",
+    "The engineer who designed the bridge inspected by the team completed it."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:52:54.910804+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the printer reviewed accepted printed released.",
+    "The movie the director the producer the editor watched approved edited premiered.",
+    "The letter the manager the secretary the intern drafted proofread signed delivered.",
+    "The cake the baker the chef the assistant baked decorated served enjoyed."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the printer reviewed accepted printed released.",
+    "The movie the director the producer the editor watched approved edited premiered.",
+    "The letter the manager the secretary the intern drafted proofread signed delivered.",
+    "The cake the baker the chef the assistant baked decorated served enjoyed.",
+    "The plan the team the leader presented discussed executed."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the printer reviewed accepted printed released.\", \"The movie the director the producer the editor watched approved edited premiered.\", \"The letter the manager the secretary the intern drafted proofread signed delivered.\", \"The cake the baker the chef the assistant baked decorated served enjoyed.\", \"The plan the team the leader presented discussed executed.\"]}",
+  "run_idx": 9
+}

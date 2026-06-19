@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "induced_prompt_raw": "subject three agents three actions disappeared or vanished",
+  "induced_prompt": "subject three agents three actions disappeared or vanished",
+  "induced_prompt_chars": 58,
+  "induced_prompt_words": 8,
+  "l1_char_total": 418,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"Agent Alpha vanished from the secure room without a trace.\", \"Agent Beta disappeared during the nighttime surveillance operation.\", \"Agent Gamma vanished into thin air during the extraction phase.\", \"Three agents collectively vanished from the coordinates as per the protocol.\", \"The final agent disappeared entirely, leaving no evidence behind.\"]}",
+  "l2_sentences": [
+    "Agent Alpha vanished from the secure room without a trace.",
+    "Agent Beta disappeared during the nighttime surveillance operation.",
+    "Agent Gamma vanished into thin air during the extraction phase.",
+    "Three agents collectively vanished from the coordinates as per the protocol.",
+    "The final agent disappeared entirely, leaving no evidence behind."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:55:27.251812+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared"
+  ],
+  "l1_sentences": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the statistician the computer analyzed processed visualized vanished",
+    "the proposal the committee the chairman the secretary reviewed amended finalized vanished",
+    "the evidence the detective the witness the lawyer examined questioned verified disappeared",
+    "the document the writer the editor sent revised canceled"
+  ],
+  "l1_raw": "{\"sentences\": [\"the manuscript the author the editor the proofreader revised corrected approved disappeared\", \"the data the researcher the statistician the computer analyzed processed visualized vanished\", \"the proposal the committee the chairman the secretary reviewed amended finalized vanished\", \"the evidence the detective the witness the lawyer examined questioned verified disappeared\", \"the document the writer the editor sent revised canceled\"]}",
+  "run_idx": 11
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the memo the manager the clerk the intern drafted edited reviewed vanished",
+    "the script the director the writer the actor studied revised performed fascinated",
+    "the plan the engineer the designer the contractor developed implemented evaluated succeeded",
+    "the proposal the committee the researcher the consultant reviewed analyzed approved expired",
+    "the story the editor the writer revised excited published"
+  ],
+  "induced_prompt_raw": "\"Generate nested noun phrases with four layers, each modifying the next, ending with a sequence of three past-tense verbs that logically chain the actions. Ensure all verbs align coherently with their subjects and avoid mismatched or illogical verb sequences.\"",
+  "induced_prompt": "\"Generate nested noun phrases with four layers, each modifying the next, ending with a sequence of three past-tense verbs that logically chain the actions. Ensure all verbs align coherently with their subjects and avoid mismatched or illogical verb sequences.\"",
+  "induced_prompt_chars": 260,
+  "induced_prompt_words": 39,
+  "l1_char_total": 394,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The intricate design of the ancient clock tower's weathered bronze mechanism creaked, groaned, and collapsed.\", \"The carefully crafted model of the historic ship's miniature wooden mast swayed, cracked, and splintered.\", \"The vibrant painting of the serene countryside's golden wheat field shimmered, faded, and disintegrated.\", \"The elaborate blueprint of the futuristic city's towering skyscraper framework tilted, crumbled, and toppled.\", \"The detailed sculpture of the mythical creature's delicate wings fluttered, fractured, and shattered.\"]}",
+  "l2_sentences": [
+    "The intricate design of the ancient clock tower's weathered bronze mechanism creaked, groaned, and collapsed.",
+    "The carefully crafted model of the historic ship's miniature wooden mast swayed, cracked, and splintered.",
+    "The vibrant painting of the serene countryside's golden wheat field shimmered, faded, and disintegrated.",
+    "The elaborate blueprint of the futuristic city's towering skyscraper framework tilted, crumbled, and toppled.",
+    "The detailed sculpture of the mythical creature's delicate wings fluttered, fractured, and shattered."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:04:32.499824+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the memo the manager the clerk the intern drafted edited reviewed vanished",
+    "the script the director the writer the actor studied revised performed fascinated",
+    "the plan the engineer the designer the contractor developed implemented evaluated succeeded",
+    "the proposal the committee the researcher the consultant reviewed analyzed approved expired"
+  ],
+  "l1_sentences": [
+    "the memo the manager the clerk the intern drafted edited reviewed vanished",
+    "the script the director the writer the actor studied revised performed fascinated",
+    "the plan the engineer the designer the contractor developed implemented evaluated succeeded",
+    "the proposal the committee the researcher the consultant reviewed analyzed approved expired",
+    "the story the editor the writer revised excited published"
+  ],
+  "l1_raw": "{\"sentences\": [\"the memo the manager the clerk the intern drafted edited reviewed vanished\", \"the script the director the writer the actor studied revised performed fascinated\", \"the plan the engineer the designer the contractor developed implemented evaluated succeeded\", \"the proposal the committee the researcher the consultant reviewed analyzed approved expired\", \"the story the editor the writer revised excited published\"]}",
+  "run_idx": 16
+}

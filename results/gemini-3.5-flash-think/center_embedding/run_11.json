@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the teacher the student found scolded wrote burned",
+    "the song the singer the coach the fan met trained performed ended",
+    "the car the driver the cop the witness avoided arrested crashed exploded",
+    "the food the chef the owner the critic angered hired cooked spoiled",
+    "the house the builder the client the lawyer sued paid designed collapsed"
+  ],
+  "induced_prompt_raw": "Write sentences with a triply center-embedded structure consisting of four noun phrases followed by four verbs, omitting all relative pronouns (Pattern: NP1 NP2 NP3 NP4 V4 V3 V2 V1).",
+  "induced_prompt": "Write sentences with a triply center-embedded structure consisting of four noun phrases followed by four verbs, omitting all relative pronouns (Pattern: NP1 NP2 NP3 NP4 V4 V3 V2 V1).",
+  "induced_prompt_chars": 182,
+  "induced_prompt_words": 29,
+  "l1_char_total": 346,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cheese the rat the cat the dog chased caught ate spoiled.\",\n    \"The car the mechanic the owner the police questioned hired fixed stalled.\",\n    \"The song the singer the producer the manager fired sued sang ended.\",\n    \"The house the builder the architect the client sued blamed renovated collapsed.\",\n    \"The letter the spy the guard the captain trusted captured wrote burned.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cheese the rat the cat the dog chased caught ate spoiled.",
+    "The car the mechanic the owner the police questioned hired fixed stalled.",
+    "The song the singer the producer the manager fired sued sang ended.",
+    "The house the builder the architect the client sued blamed renovated collapsed.",
+    "The letter the spy the guard the captain trusted captured wrote burned."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:22:48.005464+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the teacher the student found scolded wrote burned",
+    "the song the singer the coach the fan met trained performed ended",
+    "the car the driver the cop the witness avoided arrested crashed exploded",
+    "the food the chef the owner the critic angered hired cooked spoiled",
+    "the house the builder the client the lawyer sued paid designed collapsed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the author the teacher the student found scolded wrote burned\",\n    \"the song the singer the coach the fan met trained performed ended\",\n    \"the car the driver the cop the witness avoided arrested crashed exploded\",\n    \"the food the chef the owner the critic angered hired cooked spoiled\",\n    \"the house the builder the client the lawyer sued paid designed collapsed\"\n  ]\n}",
+  "run_idx": 11
+}

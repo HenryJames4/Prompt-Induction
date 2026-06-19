@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read disappeared.",
+    "The car the mechanic repaired broke.",
+    "The house the builder constructed collapsed.",
+    "The meal the chef prepared burned."
+  ],
+  "induced_prompt_raw": "Subject-Verb-Object sentences with relative clauses.",
+  "induced_prompt": "Subject-Verb-Object sentences with relative clauses.",
+  "induced_prompt_chars": 52,
+  "induced_prompt_words": 5,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The teacher who explained the lesson assigned homework that was challenging.\",\n    \"The book that I borrowed from the library contains information which is fascinating.\",\n    \"The dog that barked loudly chased the cat which ran across the street.\",\n    \"The restaurant where we ate last night serves food that tastes delicious.\",\n    \"The student who answered the question correctly received praise that was well-deserved.\"\n  ]\n}",
+  "l2_sentences": [
+    "The teacher who explained the lesson assigned homework that was challenging.",
+    "The book that I borrowed from the library contains information which is fascinating.",
+    "The dog that barked loudly chased the cat which ran across the street.",
+    "The restaurant where we ate last night serves food that tastes delicious.",
+    "The student who answered the question correctly received praise that was well-deserved."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:31:28.299808+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read disappeared.",
+    "The car the mechanic repaired broke.",
+    "The house the builder constructed collapsed.",
+    "The meal the chef prepared burned."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The book the student read disappeared.\",\n    \"The car the mechanic repaired broke.\",\n    \"The house the builder constructed collapsed.\",\n    \"The meal the chef prepared burned.\"\n  ]\n}",
+  "run_idx": 28
+}

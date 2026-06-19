@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the paper the professor the student the assistant helped impressed reviewed disappeared",
+    "the cake the chef the baker the apprentice assisted taught baked vanished",
+    "the letter the manager the secretary the intern contacted informed signed arrived",
+    "the film the director the producer the investor funded hired made premiered",
+    "the report the editor the assistant revised approved vanished"
+  ],
+  "induced_prompt_raw": "Write sentences with **four** center-embedded relative clauses using the pattern: NP1 NP2 NP3 NP4 V4 V3 V2 V1, where all four noun phrases come first, followed by their four verbs in reverse dependency order. Use exactly four NPs and four verbs. Do not use only three noun phrases and three verbs (triple embedding).",
+  "induced_prompt": "Write sentences with **four** center-embedded relative clauses using the pattern: NP1 NP2 NP3 NP4 V4 V3 V2 V1, where all four noun phrases come first, followed by their four verbs in reverse dependency order. Use exactly four NPs and four verbs. Do not use only three noun phrases and three verbs (triple embedding).",
+  "induced_prompt_chars": 316,
+  "induced_prompt_words": 53,
+  "l1_char_total": 377,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The book the student the teacher the principal praised taught read was published.\",\n    \"The report the manager the director the CEO hired supervised wrote was approved.\",\n    \"The cake the baker the chef the customer impressed trained made was eaten.\",\n    \"The song the musician the producer the label signed hired recorded became famous.\",\n    \"The car the mechanic the engineer the factory employed trained repaired was sold.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The book the student the teacher the principal praised taught read was published.",
+    "The report the manager the director the CEO hired supervised wrote was approved.",
+    "The cake the baker the chef the customer impressed trained made was eaten.",
+    "The song the musician the producer the label signed hired recorded became famous.",
+    "The car the mechanic the engineer the factory employed trained repaired was sold."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:46:09.642137+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the paper the professor the student the assistant helped impressed reviewed disappeared",
+    "the cake the chef the baker the apprentice assisted taught baked vanished",
+    "the letter the manager the secretary the intern contacted informed signed arrived",
+    "the film the director the producer the investor funded hired made premiered"
+  ],
+  "l1_sentences": [
+    "the paper the professor the student the assistant helped impressed reviewed disappeared",
+    "the cake the chef the baker the apprentice assisted taught baked vanished",
+    "the letter the manager the secretary the intern contacted informed signed arrived",
+    "the film the director the producer the investor funded hired made premiered",
+    "the report the editor the assistant revised approved vanished"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the paper the professor the student the assistant helped impressed reviewed disappeared\",\n    \"the cake the chef the baker the apprentice assisted taught baked vanished\",\n    \"the letter the manager the secretary the intern contacted informed signed arrived\",\n    \"the film the director the producer the investor funded hired made premiered\",\n    \"the report the editor the assistant revised approved vanished\"\n  ]\n}\n```",
+  "run_idx": 4
+}

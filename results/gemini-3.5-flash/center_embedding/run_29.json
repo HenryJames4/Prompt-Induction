@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the chef the waiter the customer the manager blamed scolded served thanked",
+    "the student the teacher the principal the superintendent suspended questioned advised congratulated",
+    "the patient the nurse the doctor the surgeon called assisted consulted thanked",
+    "the suspect the detective the officer the captain questioned arrested ordered released",
+    "the author the publisher the agent the lawyer hired consulted represented sued"
+  ],
+  "induced_prompt_raw": "Write a sentence with four nested noun phrases followed by four transitive verbs in reverse order of their subjects, creating a multiple center-embedded clause structure (e.g., \"the [noun1] the [noun2] the [noun3] the [noun4] [verb4] [verb3] [verb2] [verb1]\").",
+  "induced_prompt": "Write a sentence with four nested noun phrases followed by four transitive verbs in reverse order of their subjects, creating a multiple center-embedded clause structure (e.g., \"the [noun1] the [noun2] the [noun3] the [noun4] [verb4] [verb3] [verb2] [verb1]\").",
+  "induced_prompt_chars": 260,
+  "induced_prompt_words": 38,
+  "l1_char_total": 415,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The mouse the cat the dog the boy chased bit scratched died.\",\n    \"The document the intern the manager the director promoted reviewed printed lost.\",\n    \"The software the programmer the tester the user complained-about evaluated updated crashed.\",\n    \"The painting the artist the collector the thief targeted acquired finished burned.\",\n    \"The book the student the teacher the librarian recommended assigned read misplaced.\"\n  ]\n}",
+  "l2_sentences": [
+    "The mouse the cat the dog the boy chased bit scratched died.",
+    "The document the intern the manager the director promoted reviewed printed lost.",
+    "The software the programmer the tester the user complained-about evaluated updated crashed.",
+    "The painting the artist the collector the thief targeted acquired finished burned.",
+    "The book the student the teacher the librarian recommended assigned read misplaced."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:32:51.720356+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the waiter the customer the manager blamed scolded served thanked",
+    "the student the teacher the principal the superintendent suspended questioned advised congratulated",
+    "the patient the nurse the doctor the surgeon called assisted consulted thanked",
+    "the suspect the detective the officer the captain questioned arrested ordered released",
+    "the author the publisher the agent the lawyer hired consulted represented sued"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the waiter the customer the manager blamed scolded served thanked\",\n    \"the student the teacher the principal the superintendent suspended questioned advised congratulated\",\n    \"the patient the nurse the doctor the surgeon called assisted consulted thanked\",\n    \"the suspect the detective the officer the captain questioned arrested ordered released\",\n    \"the author the publisher the agent the lawyer hired consulted represented sued\"\n  ]\n}",
+  "run_idx": 29
+}

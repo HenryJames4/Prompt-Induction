@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the teacher trained helped baked disappeared.",
+    "the book the author the critic the reader praised inspired wrote sold.",
+    "the film the director the producer the investor funded hired made flopped.",
+    "the project the manager the engineer the client hired advised approved succeeded.",
+    "the house the owner the agent the buyer contacted persuaded sold burned."
+  ],
+  "induced_prompt_raw": "Write sentences with four levels of center-embedded relative clauses, following the structure: NP₁ NP₂ NP₃ NP₄ V₄ V₃ V₂ V₁.",
+  "induced_prompt": "Write sentences with four levels of center-embedded relative clauses, following the structure: NP₁ NP₂ NP₃ NP₄ V₄ V₃ V₂ V₁.",
+  "induced_prompt_chars": 123,
+  "induced_prompt_words": 20,
+  "l1_char_total": 372,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The rat the cat the dog the man owned chased caught ate the cheese.\", \"The book the student the professor the dean hired assigned read was fascinating.\", \"The cake the chef the restaurant the critic reviewed employed baked tasted delicious.\", \"The letter the secretary the manager the CEO appointed hired wrote was important.\", \"The song the musician the band the label signed recruited recorded became famous.\"]}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man owned chased caught ate the cheese.",
+    "The book the student the professor the dean hired assigned read was fascinating.",
+    "The cake the chef the restaurant the critic reviewed employed baked tasted delicious.",
+    "The letter the secretary the manager the CEO appointed hired wrote was important.",
+    "The song the musician the band the label signed recruited recorded became famous."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:27:14.533426+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the teacher trained helped baked disappeared.",
+    "the book the author the critic the reader praised inspired wrote sold.",
+    "the film the director the producer the investor funded hired made flopped.",
+    "the project the manager the engineer the client hired advised approved succeeded.",
+    "the house the owner the agent the buyer contacted persuaded sold burned."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the chef the student the teacher trained helped baked disappeared.\",\n    \"the book the author the critic the reader praised inspired wrote sold.\",\n    \"the film the director the producer the investor funded hired made flopped.\",\n    \"the project the manager the engineer the client hired advised approved succeeded.\",\n    \"the house the owner the agent the buyer contacted persuaded sold burned.\"\n  ]\n}\n```",
+  "run_idx": 18
+}

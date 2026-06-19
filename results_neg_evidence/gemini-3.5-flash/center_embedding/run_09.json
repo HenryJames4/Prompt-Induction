@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The software the programmer the manager the client hired directed tested crashed.",
+    "The song the singer the guitarist the drummer joined inspired recorded ended.",
+    "The meal the chef the waiter the customer tipped assisted cooked burned.",
+    "The car the driver the mechanic fixed sold broke."
+  ],
+  "induced_prompt_raw": "Generate a sentence featuring exactly three nested relative clauses (triply center-embedded), containing four nouns followed by four verbs in a strict SOV hierarchy (e.g., \"The [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\"). Avoid having only two nested clauses (three nouns and three verbs).",
+  "induced_prompt": "Generate a sentence featuring exactly three nested relative clauses (triply center-embedded), containing four nouns followed by four verbs in a strict SOV hierarchy (e.g., \"The [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\"). Avoid having only two nested clauses (three nouns and three verbs).",
+  "induced_prompt_chars": 323,
+  "induced_prompt_words": 47,
+  "l1_char_total": 356,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef the critic the writer the blogger praised interviewed disliked resigned.\",\n    \"The patient the doctor the nurse the intern assisted scheduled treated recovered.\",\n    \"The dog the cat the rat the mouse chased scratched bit escaped.\",\n    \"The student the teacher the principal the superintendent hired questioned suspended graduated.\",\n    \"The actor the director the producer the agent hired fired scolded apologized.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef the critic the writer the blogger praised interviewed disliked resigned.",
+    "The patient the doctor the nurse the intern assisted scheduled treated recovered.",
+    "The dog the cat the rat the mouse chased scratched bit escaped.",
+    "The student the teacher the principal the superintendent hired questioned suspended graduated.",
+    "The actor the director the producer the agent hired fired scolded apologized."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:53:34.047101+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The software the programmer the manager the client hired directed tested crashed.",
+    "The song the singer the guitarist the drummer joined inspired recorded ended.",
+    "The meal the chef the waiter the customer tipped assisted cooked burned."
+  ],
+  "l1_sentences": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The software the programmer the manager the client hired directed tested crashed.",
+    "The song the singer the guitarist the drummer joined inspired recorded ended.",
+    "The meal the chef the waiter the customer tipped assisted cooked burned.",
+    "The car the driver the mechanic fixed sold broke."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the principal praised recommended read lost.\",\n    \"The software the programmer the manager the client hired directed tested crashed.\",\n    \"The song the singer the guitarist the drummer joined inspired recorded ended.\",\n    \"The meal the chef the waiter the customer tipped assisted cooked burned.\",\n    \"The car the driver the mechanic fixed sold broke.\"\n  ]\n}",
+  "run_idx": 9
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the message the sender sent arrived.",
+    "the plan the committee approved succeeded.",
+    "the idea the student proposed worked.",
+    "the story the writer told the audience enjoyed the ending."
+  ],
+  "induced_prompt_raw": "Generate a sentence where a noun phrase with a relative clause modifies the subject of a main clause, and the main clause's subject is the same as the head noun of the relative clause.",
+  "induced_prompt": "Generate a sentence where a noun phrase with a relative clause modifies the subject of a main clause, and the main clause's subject is the same as the head noun of the relative clause.",
+  "induced_prompt_chars": 184,
+  "induced_prompt_words": 34,
+  "l1_char_total": 204,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library is now missing.\", \"The student who wrote the essay received an A.\", \"The artist whose paintings were displayed won the award.\", \"The car that I bought last week has a broken headlight.\", \"The teacher who graded the test was very strict.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library is now missing.",
+    "The student who wrote the essay received an A.",
+    "The artist whose paintings were displayed won the award.",
+    "The car that I bought last week has a broken headlight.",
+    "The teacher who graded the test was very strict."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:53:09.433878+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the message the sender sent arrived.",
+    "the plan the committee approved succeeded.",
+    "the idea the student proposed worked."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the message the sender sent arrived.",
+    "the plan the committee approved succeeded.",
+    "the idea the student proposed worked.",
+    "the story the writer told the audience enjoyed the ending."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the message the sender sent arrived.\", \"the plan the committee approved succeeded.\", \"the idea the student proposed worked.\", \"the story the writer told the audience enjoyed the ending.\"]}",
+  "run_idx": 21
+}

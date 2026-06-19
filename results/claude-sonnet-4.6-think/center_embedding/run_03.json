@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the critic the student praised hired baked vanished",
+    "the book the author the teacher the child impressed mentored wrote sold",
+    "the bridge the engineer the mayor the citizen elected hired built collapsed",
+    "the meal the cook the manager the owner promoted supervised prepared spoiled",
+    "the song the singer the producer the agent contacted signed recorded charted"
+  ],
+  "induced_prompt_raw": "Generate sentences with four levels of center-embedded object relative clauses, with all verbs stacked at the end in reverse nesting order.",
+  "induced_prompt": "Generate sentences with four levels of center-embedded object relative clauses, with all verbs stacked at the end in reverse nesting order.",
+  "induced_prompt_chars": 139,
+  "induced_prompt_words": 21,
+  "l1_char_total": 367,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat the cat the dog the man the woman hired trained bit chased fled.\",\n    \"The letter the secretary the manager the CEO the board hired promoted assigned typed arrived.\",\n    \"The fish the shark the whale the diver the scientist observed discovered hunted ate swam.\",\n    \"The melody the musician the conductor the patron the critic praised hired selected performed lingered.\",\n    \"The case the lawyer the judge the clerk the bailiff escorted summoned assigned argued settled.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man the woman hired trained bit chased fled.",
+    "The letter the secretary the manager the CEO the board hired promoted assigned typed arrived.",
+    "The fish the shark the whale the diver the scientist observed discovered hunted ate swam.",
+    "The melody the musician the conductor the patron the critic praised hired selected performed lingered.",
+    "The case the lawyer the judge the clerk the bailiff escorted summoned assigned argued settled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:17:45.372657+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the critic the student praised hired baked vanished",
+    "the book the author the teacher the child impressed mentored wrote sold",
+    "the bridge the engineer the mayor the citizen elected hired built collapsed",
+    "the meal the cook the manager the owner promoted supervised prepared spoiled",
+    "the song the singer the producer the agent contacted signed recorded charted"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the chef the critic the student praised hired baked vanished\",\n    \"the book the author the teacher the child impressed mentored wrote sold\",\n    \"the bridge the engineer the mayor the citizen elected hired built collapsed\",\n    \"the meal the cook the manager the owner promoted supervised prepared spoiled\",\n    \"the song the singer the producer the agent contacted signed recorded charted\"\n  ]\n}\n```",
+  "run_idx": 3
+}

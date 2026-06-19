@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read vanished.",
+    "The man the woman called arrived.",
+    "The house the storm destroyed collapsed.",
+    "The cat the dog the mouse chased bit fled."
+  ],
+  "induced_prompt_raw": "Generate a sentence with one center-embedded relative clause: 'The [noun1] the [noun2] [verb1] [verb2].', avoiding multiple embeddings.",
+  "induced_prompt": "Generate a sentence with one center-embedded relative clause: 'The [noun1] the [noun2] [verb1] [verb2].', avoiding multiple embeddings.",
+  "induced_prompt_chars": 135,
+  "induced_prompt_words": 17,
+  "l1_char_total": 181,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased ran away.\",\n    \"The book the student read was interesting.\",\n    \"The man the woman saw waved.\",\n    \"The car the mechanic fixed started.\",\n    \"The house the builder constructed collapsed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the dog chased ran away.",
+    "The book the student read was interesting.",
+    "The man the woman saw waved.",
+    "The car the mechanic fixed started.",
+    "The house the builder constructed collapsed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:39:46.449143+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased escaped.",
+    "The book the student read vanished.",
+    "The man the woman called arrived.",
+    "The house the storm destroyed collapsed."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read vanished.",
+    "The man the woman called arrived.",
+    "The house the storm destroyed collapsed.",
+    "The cat the dog the mouse chased bit fled."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The book the student read vanished.\",\n    \"The man the woman called arrived.\",\n    \"The house the storm destroyed collapsed.\",\n    \"The cat the dog the mouse chased bit fled.\"\n  ]\n}\n```",
+  "run_idx": 7
+}

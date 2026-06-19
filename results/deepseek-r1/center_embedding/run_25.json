@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the teacher the student the child carried taught wrote vanished",
+    "the cake the baker the assistant the child hired assisted decorated collapsed",
+    "the letter the manager the secretary the intern typed signed mailed arrived",
+    "the painting the artist the model the muse inspired met created vanished",
+    "the car the driver the mechanic the garage employed hired drove crashed"
+  ],
+  "induced_prompt_raw": "Based on the syntactic structure observed in the sentences, where each consists of four definite noun phrases followed by four verbs forming nested relative clauses without explicit pronouns, the inferred prompt is:\n\n**\"Four consecutive definite noun phrases followed by four verbs: the fourth noun acts via V1 on the third, the third via V2 on the second, the second via V3 on the first, and the first performs V4 intransitively.\"**",
+  "induced_prompt": "Based on the syntactic structure observed in the sentences, where each consists of four definite noun phrases followed by four verbs forming nested relative clauses without explicit pronouns, the inferred prompt is:\n\n**\"Four consecutive definite noun phrases followed by four verbs: the fourth noun acts via V1 on the third, the third via V2 on the second, the second via V3 on the first, and the first performs V4 intransitively.\"**",
+  "induced_prompt_chars": 433,
+  "induced_prompt_words": 70,
+  "l1_char_total": 367,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The king the knight the dragon the princess rescued defeated praised laughed.\", \"The teacher the student the book the author wrote inspired discussed yawned.\", \"The dog the cat the mouse the cheese ate chased frightened slept.\", \"The sun the rain the cloud the wind formed produced obscured shone.\", \"The audience the actor the script the writer wrote inspired moved applauded.\"]}",
+  "l2_sentences": [
+    "The king the knight the dragon the princess rescued defeated praised laughed.",
+    "The teacher the student the book the author wrote inspired discussed yawned.",
+    "The dog the cat the mouse the cheese ate chased frightened slept.",
+    "The sun the rain the cloud the wind formed produced obscured shone.",
+    "The audience the actor the script the writer wrote inspired moved applauded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:47:13.892437+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the teacher the student the child carried taught wrote vanished",
+    "the cake the baker the assistant the child hired assisted decorated collapsed",
+    "the letter the manager the secretary the intern typed signed mailed arrived",
+    "the painting the artist the model the muse inspired met created vanished",
+    "the car the driver the mechanic the garage employed hired drove crashed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the teacher the student the child carried taught wrote vanished\", \"the cake the baker the assistant the child hired assisted decorated collapsed\", \"the letter the manager the secretary the intern typed signed mailed arrived\", \"the painting the artist the model the muse inspired met created vanished\", \"the car the driver the mechanic the garage employed hired drove crashed\"]}",
+  "run_idx": 25
+}

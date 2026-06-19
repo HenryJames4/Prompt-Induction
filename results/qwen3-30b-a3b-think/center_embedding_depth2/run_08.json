@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the idea the scientist explained vanished.",
+    "the plan the manager devised succeeded.",
+    "the story the writer told ended.",
+    "the solution the engineer found worked."
+  ],
+  "induced_prompt_raw": "the [noun] the [agent] [verb] [result]",
+  "induced_prompt": "the [noun] the [agent] [verb] [result]",
+  "induced_prompt_chars": 38,
+  "induced_prompt_words": 6,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the river the current carved canyon.\", \"the cake the baker frosted icing.\", \"the book the author wrote story.\", \"the car the mechanic fixed engine.\", \"the song the singer performed encore.\"]}",
+  "l2_sentences": [
+    "the river the current carved canyon.",
+    "the cake the baker frosted icing.",
+    "the book the author wrote story.",
+    "the car the mechanic fixed engine.",
+    "the song the singer performed encore."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:06:57.363665+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the idea the scientist explained vanished.",
+    "the plan the manager devised succeeded.",
+    "the story the writer told ended.",
+    "the solution the engineer found worked."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the idea the scientist explained vanished.\", \"the plan the manager devised succeeded.\", \"the story the writer told ended.\", \"the solution the engineer found worked.\"]}",
+  "run_idx": 8
+}

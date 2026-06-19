@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the man fed barked.",
+    "the cake the baker baked rose.",
+    "the letter the clerk typed vanished.",
+    "the car the mechanic fixed started.",
+    "the program the developer wrote ran."
+  ],
+  "induced_prompt_raw": "the [N1] the [N2] [V1] [V2].",
+  "induced_prompt": "the [N1] the [N2] [V1] [V2].",
+  "induced_prompt_chars": 28,
+  "induced_prompt_words": 6,
+  "l1_char_total": 164,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the cat chases barks.\", \"The book the student reads fascinates.\", \"The cake the baker decorates delights.\", \"The car the mechanic fixes runs.\", \"The song the choir performs inspires.\"]}",
+  "l2_sentences": [
+    "The dog the cat chases barks.",
+    "The book the student reads fascinates.",
+    "The cake the baker decorates delights.",
+    "The car the mechanic fixes runs.",
+    "The song the choir performs inspires."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:13:00.887924+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the man fed barked.",
+    "the cake the baker baked rose.",
+    "the letter the clerk typed vanished.",
+    "the car the mechanic fixed started.",
+    "the program the developer wrote ran."
+  ],
+  "l1_raw": "{\"sentences\": [\n  \"the dog the man fed barked.\",\n  \"the cake the baker baked rose.\",\n  \"the letter the clerk typed vanished.\",\n  \"the car the mechanic fixed started.\",\n  \"the program the developer wrote ran.\"\n]}",
+  "run_idx": 12
+}

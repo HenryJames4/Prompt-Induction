@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student read won",
+    "the car the mechanic fixed worked",
+    "the report the manager reviewed passed",
+    "the cake the chef baked disappeared",
+    "the letter the secretary the boss hired typed arrived"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause modifying the subject noun (e.g., \"the [noun] the [noun] [verb] [verb]\"), where one relative clause interrupts the main clause. Do not nest multiple relative clauses inside one another.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause modifying the subject noun (e.g., \"the [noun] the [noun] [verb] [verb]\"), where one relative clause interrupts the main clause. Do not nest multiple relative clauses inside one another.",
+  "induced_prompt_chars": 247,
+  "induced_prompt_words": 36,
+  "l1_char_total": 188,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The report the manager reviewed contained several errors.\", \"The dog the child adopted became fiercely loyal over time.\", \"The bridge the engineers designed collapsed during the storm.\", \"The letter the professor wrote arrived at the office yesterday.\", \"The cake the baker prepared disappeared within minutes of being set out.\"]}\n```",
+  "l2_sentences": [
+    "The report the manager reviewed contained several errors.",
+    "The dog the child adopted became fiercely loyal over time.",
+    "The bridge the engineers designed collapsed during the storm.",
+    "The letter the professor wrote arrived at the office yesterday.",
+    "The cake the baker prepared disappeared within minutes of being set out."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:52:51.073671+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student read won",
+    "the car the mechanic fixed worked",
+    "the report the manager reviewed passed",
+    "the cake the chef baked disappeared"
+  ],
+  "l1_sentences": [
+    "the book the student read won",
+    "the car the mechanic fixed worked",
+    "the report the manager reviewed passed",
+    "the cake the chef baked disappeared",
+    "the letter the secretary the boss hired typed arrived"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the student read won\",\n    \"the car the mechanic fixed worked\",\n    \"the report the manager reviewed passed\",\n    \"the cake the chef baked disappeared\",\n    \"the letter the secretary the boss hired typed arrived\"\n  ]\n}\n```",
+  "run_idx": 21
+}

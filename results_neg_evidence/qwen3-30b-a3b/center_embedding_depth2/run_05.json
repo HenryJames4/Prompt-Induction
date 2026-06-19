@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the song the band recorded won.",
+    "the project the manager launched succeeded.",
+    "the plan the committee approved passed.",
+    "the idea the scientist proposed the team evaluated the results of."
+  ],
+  "induced_prompt_raw": "Create a sentence with a relative clause modifying a noun, followed by a main verb describing the noun's outcome, ensuring no additional clauses or embedded structures.",
+  "induced_prompt": "Create a sentence with a relative clause modifying a noun, followed by a main verb describing the noun's outcome, ensuring no additional clauses or embedded structures.",
+  "induced_prompt_chars": 168,
+  "induced_prompt_words": 26,
+  "l1_char_total": 210,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library was overdue.\", \"The car that she bought last week broke down.\", \"The student who wrote the essay received a high grade.\", \"The dog that barked all night was finally calmed.\", \"The painting that hung in the gallery sold quickly.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library was overdue.",
+    "The car that she bought last week broke down.",
+    "The student who wrote the essay received a high grade.",
+    "The dog that barked all night was finally calmed.",
+    "The painting that hung in the gallery sold quickly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:38:22.842847+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the song the band recorded won.",
+    "the project the manager launched succeeded.",
+    "the plan the committee approved passed."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the song the band recorded won.",
+    "the project the manager launched succeeded.",
+    "the plan the committee approved passed.",
+    "the idea the scientist proposed the team evaluated the results of."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the song the band recorded won.\", \"the project the manager launched succeeded.\", \"the plan the committee approved passed.\", \"the idea the scientist proposed the team evaluated the results of.\"]}",
+  "run_idx": 5
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the package the courier the manager the client hired approved delivered arrived",
+    "the proposal the lawyer the partner the firm recruited drafted reviewed accepted",
+    "the song the musician the producer the label signed recorded mixed released",
+    "the contract the clerk the supervisor the director appointed typed checked signed",
+    "the plan the team the boss approved launched"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly 4 levels of nesting, where 4 noun phrases are each modified by a successive relative clause, followed by 4 verbs in reverse order of their clauses. Avoid fewer than 4 levels of embedding.",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly 4 levels of nesting, where 4 noun phrases are each modified by a successive relative clause, followed by 4 verbs in reverse order of their clauses. Avoid fewer than 4 levels of embedding.",
+  "induced_prompt_chars": 249,
+  "induced_prompt_words": 41,
+  "l1_char_total": 359,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that the dog that the mouse that the child chased caught bit scratched.\",\n    \"The book that the student that the teacher that the principal hired trained read won.\",\n    \"The cake that the chef that the critic that the editor interviewed praised baked melted.\",\n    \"The song that the singer that the band that the manager signed formed performed ended.\",\n    \"The car that the driver that the mechanic that the owner hired fixed raced crashed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the mouse that the child chased caught bit scratched.",
+    "The book that the student that the teacher that the principal hired trained read won.",
+    "The cake that the chef that the critic that the editor interviewed praised baked melted.",
+    "The song that the singer that the band that the manager signed formed performed ended.",
+    "The car that the driver that the mechanic that the owner hired fixed raced crashed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:58:04.378939+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the package the courier the manager the client hired approved delivered arrived",
+    "the proposal the lawyer the partner the firm recruited drafted reviewed accepted",
+    "the song the musician the producer the label signed recorded mixed released",
+    "the contract the clerk the supervisor the director appointed typed checked signed"
+  ],
+  "l1_sentences": [
+    "the package the courier the manager the client hired approved delivered arrived",
+    "the proposal the lawyer the partner the firm recruited drafted reviewed accepted",
+    "the song the musician the producer the label signed recorded mixed released",
+    "the contract the clerk the supervisor the director appointed typed checked signed",
+    "the plan the team the boss approved launched"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the package the courier the manager the client hired approved delivered arrived\", \"the proposal the lawyer the partner the firm recruited drafted reviewed accepted\", \"the song the musician the producer the label signed recorded mixed released\", \"the contract the clerk the supervisor the director appointed typed checked signed\", \"the plan the team the boss approved launched\"]}\n```",
+  "run_idx": 12
+}

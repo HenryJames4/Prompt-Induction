@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the manager reviewed passed",
+    "the letter the secretary typed arrived",
+    "the bill the senator proposed failed",
+    "the book the student read disappeared",
+    "the report the manager the assistant reviewed approved passed"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause, where a noun phrase subject contains an embedded object relative clause before the main verb. Avoid double or multiple center-embeddings (do not nest relative clauses within relative clauses).",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause, where a noun phrase subject contains an embedded object relative clause before the main verb. Avoid double or multiple center-embeddings (do not nest relative clauses within relative clauses).",
+  "induced_prompt_chars": 255,
+  "induced_prompt_words": 36,
+  "l1_char_total": 210,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The report that the manager reviewed was approved by the committee.\", \"The painting that the artist created sold for a record price at auction.\", \"The proposal that the team submitted was accepted without any revisions.\", \"The letter that the secretary typed contained several significant errors.\", \"The cake that the chef baked disappeared within minutes of being served.\"]}\n```",
+  "l2_sentences": [
+    "The report that the manager reviewed was approved by the committee.",
+    "The painting that the artist created sold for a record price at auction.",
+    "The proposal that the team submitted was accepted without any revisions.",
+    "The letter that the secretary typed contained several significant errors.",
+    "The cake that the chef baked disappeared within minutes of being served."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:42:04.682645+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the manager reviewed passed",
+    "the letter the secretary typed arrived",
+    "the bill the senator proposed failed",
+    "the book the student read disappeared"
+  ],
+  "l1_sentences": [
+    "the report the manager reviewed passed",
+    "the letter the secretary typed arrived",
+    "the bill the senator proposed failed",
+    "the book the student read disappeared",
+    "the report the manager the assistant reviewed approved passed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the report the manager reviewed passed\",\n    \"the letter the secretary typed arrived\",\n    \"the bill the senator proposed failed\",\n    \"the book the student read disappeared\",\n    \"the report the manager the assistant reviewed approved passed\"\n  ]\n}\n```",
+  "run_idx": 9
+}

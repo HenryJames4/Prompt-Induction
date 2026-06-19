@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the student the teacher helped graduated",
+    "the dog the cat chased ran",
+    "the book the author wrote disappeared",
+    "the child the mother found cried",
+    "the car the mechanic fixed broke"
+  ],
+  "induced_prompt_raw": "Generate sentences with the syntactic structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\".",
+  "induced_prompt": "Generate sentences with the syntactic structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\".",
+  "induced_prompt_chars": 111,
+  "induced_prompt_words": 14,
+  "l1_char_total": 167,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The ship the captain steered sank.\",\n    \"The phone the woman bought rang.\",\n    \"The student the teacher helped failed.\",\n    \"The bird the cat chased escaped.\",\n    \"The letter the boy wrote arrived.\"\n  ]\n}",
+  "l2_sentences": [
+    "The ship the captain steered sank.",
+    "The phone the woman bought rang.",
+    "The student the teacher helped failed.",
+    "The bird the cat chased escaped.",
+    "The letter the boy wrote arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:40:05.924338+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the student the teacher helped graduated",
+    "the dog the cat chased ran",
+    "the book the author wrote disappeared",
+    "the child the mother found cried",
+    "the car the mechanic fixed broke"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the student the teacher helped graduated\",\n    \"the dog the cat chased ran\",\n    \"the book the author wrote disappeared\",\n    \"the child the mother found cried\",\n    \"the car the mechanic fixed broke\"\n  ]\n}",
+  "run_idx": 14
+}

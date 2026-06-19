@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cat the dog chased ran.",
+    "The book the student read fell.",
+    "The car the mechanic fixed started.",
+    "The tree the wind blew fell.",
+    "The man the woman called arrived."
+  ],
+  "induced_prompt_raw": "Noun phrase with center-embedded relative clause and main verb.",
+  "induced_prompt": "Noun phrase with center-embedded relative clause and main verb.",
+  "induced_prompt_chars": 63,
+  "induced_prompt_words": 9,
+  "l1_char_total": 154,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat that the dog chased ran quickly.\", \"The book that the student read was interesting.\", \"The man that the woman interviewed got the job.\", \"The house that the storm damaged was rebuilt.\", \"The car that the mechanic fixed is working now.\"]}",
+  "l2_sentences": [
+    "The cat that the dog chased ran quickly.",
+    "The book that the student read was interesting.",
+    "The man that the woman interviewed got the job.",
+    "The house that the storm damaged was rebuilt.",
+    "The car that the mechanic fixed is working now."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:25:04.935874+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cat the dog chased ran.",
+    "The book the student read fell.",
+    "The car the mechanic fixed started.",
+    "The tree the wind blew fell.",
+    "The man the woman called arrived."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog chased ran.\",\n    \"The book the student read fell.\",\n    \"The car the mechanic fixed started.\",\n    \"The tree the wind blew fell.\",\n    \"The man the woman called arrived.\"\n  ]\n}",
+  "run_idx": 23
+}

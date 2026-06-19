@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the idea the scientist explained vanished.",
+    "the plan the manager revised succeeded.",
+    "the report the editor corrected sold.",
+    "the story the author wrote ended.",
+    "the policy the government changed passed."
+  ],
+  "induced_prompt_raw": "the [noun] the [agent] [verb] [verb]",
+  "induced_prompt": "the [noun] the [agent] [verb] [verb]",
+  "induced_prompt_chars": 36,
+  "induced_prompt_words": 6,
+  "l1_char_total": 192,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the dog the boy chased ran\", \"the bird the cat watched flew\", \"the fish the boy caught swam\", \"the car the driver repaired started\", \"the book the student read finished\"]}",
+  "l2_sentences": [
+    "the dog the boy chased ran",
+    "the bird the cat watched flew",
+    "the fish the boy caught swam",
+    "the car the driver repaired started",
+    "the book the student read finished"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:16:17.700426+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the idea the scientist explained vanished.",
+    "the plan the manager revised succeeded.",
+    "the report the editor corrected sold.",
+    "the story the author wrote ended.",
+    "the policy the government changed passed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the idea the scientist explained vanished.\", \"the plan the manager revised succeeded.\", \"the report the editor corrected sold.\", \"the story the author wrote ended.\", \"the policy the government changed passed.\"]}",
+  "run_idx": 16
+}

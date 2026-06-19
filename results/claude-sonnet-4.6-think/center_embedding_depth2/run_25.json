@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the report the editor rejected failed.",
+    "the bill the senator introduced passed.",
+    "the cake the chef baked disappeared.",
+    "the dog the cat chased fled.",
+    "the letter the student wrote vanished."
+  ],
+  "induced_prompt_raw": "Write sentences using center-embedded object relative clauses, where a head noun is modified by \"the [noun] [transitive verb]\" before a final intransitive verb.",
+  "induced_prompt": "Write sentences using center-embedded object relative clauses, where a head noun is modified by \"the [noun] [transitive verb]\" before a final intransitive verb.",
+  "induced_prompt_chars": 160,
+  "induced_prompt_words": 23,
+  "l1_char_total": 179,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cake the baker prepared vanished.\", \"The letter the secretary typed arrived.\", \"The painting the artist created disappeared.\", \"The mouse the cat chased escaped.\", \"The report the analyst compiled surfaced.\"]}\n```",
+  "l2_sentences": [
+    "The cake the baker prepared vanished.",
+    "The letter the secretary typed arrived.",
+    "The painting the artist created disappeared.",
+    "The mouse the cat chased escaped.",
+    "The report the analyst compiled surfaced."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:43:15.384808+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor rejected failed.",
+    "the bill the senator introduced passed.",
+    "the cake the chef baked disappeared.",
+    "the dog the cat chased fled.",
+    "the letter the student wrote vanished."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the report the editor rejected failed.\", \"the bill the senator introduced passed.\", \"the cake the chef baked disappeared.\", \"the dog the cat chased fled.\", \"the letter the student wrote vanished.\"]}\n```",
+  "run_idx": 25
+}

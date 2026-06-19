@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the owner adopted barked",
+    "the book the student read fascinated",
+    "the cake the baker made delighted",
+    "the car the mechanic fixed started",
+    "the movie the actor the director chose performed impressed"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested noun phrases where each noun is modified by a subsequent clause, ensuring no more than two levels of embedding to avoid complexity. Example structure: 'the [noun1] the [noun2] [verb] [verb].'\"",
+  "induced_prompt": "\"Generate sentences with nested noun phrases where each noun is modified by a subsequent clause, ensuring no more than two levels of embedding to avoid complexity. Example structure: 'the [noun1] the [noun2] [verb] [verb].'\"",
+  "induced_prompt_chars": 224,
+  "induced_prompt_words": 34,
+  "l1_char_total": 193,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The book the author wrote fascinated.\", \"The dog the trainer taught obeyed.\", \"The car the mechanic repaired started.\", \"The cake the baker made delighted.\", \"The song the musician composed inspired.\"]}",
+  "l2_sentences": [
+    "The book the author wrote fascinated.",
+    "The dog the trainer taught obeyed.",
+    "The car the mechanic repaired started.",
+    "The cake the baker made delighted.",
+    "The song the musician composed inspired."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:54:50.524457+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the dog the owner adopted barked",
+    "the book the student read fascinated",
+    "the cake the baker made delighted",
+    "the car the mechanic fixed started"
+  ],
+  "l1_sentences": [
+    "the dog the owner adopted barked",
+    "the book the student read fascinated",
+    "the cake the baker made delighted",
+    "the car the mechanic fixed started",
+    "the movie the actor the director chose performed impressed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the owner adopted barked\", \"the book the student read fascinated\", \"the cake the baker made delighted\", \"the car the mechanic fixed started\", \"the movie the actor the director chose performed impressed\"]}",
+  "run_idx": 23
+}

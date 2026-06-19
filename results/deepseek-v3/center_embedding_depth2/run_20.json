@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cake the baker decorated tasted",
+    "the book the editor revised sold",
+    "the song the artist performed amazed",
+    "the dress the designer created impressed",
+    "the car the mechanic repaired ran"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with the structure: 'the [noun] the [profession] [verb] [verb]'.\"",
+  "induced_prompt": "\"Generate sentences with the structure: 'the [noun] the [profession] [verb] [verb]'.\"",
+  "induced_prompt_chars": 85,
+  "induced_prompt_words": 11,
+  "l1_char_total": 176,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The hammer the carpenter swung missed.\", \"The brush the painter dropped rolled.\", \"The scalpel the surgeon used slipped.\", \"The pen the writer held clicked.\", \"The wrench the mechanic tightened slipped.\"]}",
+  "l2_sentences": [
+    "The hammer the carpenter swung missed.",
+    "The brush the painter dropped rolled.",
+    "The scalpel the surgeon used slipped.",
+    "The pen the writer held clicked.",
+    "The wrench the mechanic tightened slipped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:20:57.440172+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the baker decorated tasted",
+    "the book the editor revised sold",
+    "the song the artist performed amazed",
+    "the dress the designer created impressed",
+    "the car the mechanic repaired ran"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the baker decorated tasted\", \"the book the editor revised sold\", \"the song the artist performed amazed\", \"the dress the designer created impressed\", \"the car the mechanic repaired ran\"]}",
+  "run_idx": 20
+}

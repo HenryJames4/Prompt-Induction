@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the boy the dog chased tripped",
+    "the book the student read vanished",
+    "the chef the assistant helped smiled",
+    "the car the mechanic fixed stalled",
+    "the cake the baker made collapsed"
+  ],
+  "induced_prompt_raw": "Generate five sentences using the syntactic structure: \"the [noun] the [noun] [verb] [verb]\".",
+  "induced_prompt": "Generate five sentences using the syntactic structure: \"the [noun] the [noun] [verb] [verb]\".",
+  "induced_prompt_chars": 93,
+  "induced_prompt_words": 13,
+  "l1_char_total": 167,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cheese the mouse ate vanished.\",\n    \"The car the man drove stopped.\",\n    \"The letter the girl wrote arrived.\",\n    \"The cake the baker made collapsed.\",\n    \"The song the choir sang ended.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cheese the mouse ate vanished.",
+    "The car the man drove stopped.",
+    "The letter the girl wrote arrived.",
+    "The cake the baker made collapsed.",
+    "The song the choir sang ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:43:09.095965+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the boy the dog chased tripped",
+    "the book the student read vanished",
+    "the chef the assistant helped smiled",
+    "the car the mechanic fixed stalled",
+    "the cake the baker made collapsed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the boy the dog chased tripped\",\n    \"the book the student read vanished\",\n    \"the chef the assistant helped smiled\",\n    \"the car the mechanic fixed stalled\",\n    \"the cake the baker made collapsed\"\n  ]\n}",
+  "run_idx": 24
+}

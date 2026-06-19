@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the mouse the elephant chased hunted caught escaped.",
+    "the book the teacher the student the principal read assigned borrowed returned.",
+    "the car the mechanic the owner the police repaired inspected drove stopped.",
+    "the house the agent the buyer the seller showed listed purchased regretted.",
+    "the meal the chef the critic the guest prepared tasted enjoyed praised."
+  ],
+  "induced_prompt_raw": "Noun sequence with transitive verbs.",
+  "induced_prompt": "Noun sequence with transitive verbs.",
+  "induced_prompt_chars": 36,
+  "induced_prompt_words": 5,
+  "l1_char_total": 368,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The student completed the assignment.\",\n    \"The chef prepared the meal.\",\n    \"The artist painted the canvas.\",\n    \"The mechanic fixed the engine.\",\n    \"The teacher graded the papers.\"\n  ]\n}",
+  "l2_sentences": [
+    "The student completed the assignment.",
+    "The chef prepared the meal.",
+    "The artist painted the canvas.",
+    "The mechanic fixed the engine.",
+    "The teacher graded the papers."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:43:43.998666+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the mouse the elephant chased hunted caught escaped.",
+    "the book the teacher the student the principal read assigned borrowed returned.",
+    "the car the mechanic the owner the police repaired inspected drove stopped.",
+    "the house the agent the buyer the seller showed listed purchased regretted.",
+    "the meal the chef the critic the guest prepared tasted enjoyed praised."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the mouse the elephant chased hunted caught escaped.\",\n    \"the book the teacher the student the principal read assigned borrowed returned.\",\n    \"the car the mechanic the owner the police repaired inspected drove stopped.\",\n    \"the house the agent the buyer the seller showed listed purchased regretted.\",\n    \"the meal the chef the critic the guest prepared tasted enjoyed praised.\"\n  ]\n}",
+  "run_idx": 24
+}

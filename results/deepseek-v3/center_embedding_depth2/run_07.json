@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor revised sold",
+    "the cake the baker decorated delighted",
+    "the car the mechanic repaired ran",
+    "the song the musician composed inspired",
+    "the painting the artist created exhibited"
+  ],
+  "induced_prompt_raw": "\"Generate sentences in the form: 'the [noun] the [profession] [past tense verb] [past tense verb]'\"",
+  "induced_prompt": "\"Generate sentences in the form: 'the [noun] the [profession] [past tense verb] [past tense verb]'\"",
+  "induced_prompt_chars": 99,
+  "induced_prompt_words": 15,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the book the teacher read wrote\", \"the car the mechanic fixed painted\", \"the cake the baker baked decorated\", \"the house the architect designed built\", \"the song the musician composed performed\"]}",
+  "l2_sentences": [
+    "the book the teacher read wrote",
+    "the car the mechanic fixed painted",
+    "the cake the baker baked decorated",
+    "the house the architect designed built",
+    "the song the musician composed performed"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:06:16.719343+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor revised sold",
+    "the cake the baker decorated delighted",
+    "the car the mechanic repaired ran",
+    "the song the musician composed inspired",
+    "the painting the artist created exhibited"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor revised sold\", \"the cake the baker decorated delighted\", \"the car the mechanic repaired ran\", \"the song the musician composed inspired\", \"the painting the artist created exhibited\"]}",
+  "run_idx": 7
+}

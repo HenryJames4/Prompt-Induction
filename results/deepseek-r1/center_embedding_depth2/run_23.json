@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cat the dog chased slept.",
+    "The book the student read arrived.",
+    "The cake the baker made rose.",
+    "The car the driver fixed started.",
+    "The song the band played ended."
+  ],
+  "induced_prompt_raw": "Generate a sentence: The [noun1] the [noun2] [transitive_verb_past] [intransitive_verb_past].",
+  "induced_prompt": "Generate a sentence: The [noun1] the [noun2] [transitive_verb_past] [intransitive_verb_past].",
+  "induced_prompt_chars": 93,
+  "induced_prompt_words": 9,
+  "l1_char_total": 156,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cake the baker burned crumbled.\", \"The ball the child kicked bounced.\", \"The letter the secretary typed vanished.\", \"The window the storm shattered leaked.\", \"The song the audience requested ended.\"]}",
+  "l2_sentences": [
+    "The cake the baker burned crumbled.",
+    "The ball the child kicked bounced.",
+    "The letter the secretary typed vanished.",
+    "The window the storm shattered leaked.",
+    "The song the audience requested ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:24:50.553844+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cat the dog chased slept.",
+    "The book the student read arrived.",
+    "The cake the baker made rose.",
+    "The car the driver fixed started.",
+    "The song the band played ended."
+  ],
+  "l1_raw": "{\"sentences\": [\"The cat the dog chased slept.\", \"The book the student read arrived.\", \"The cake the baker made rose.\", \"The car the driver fixed started.\", \"The song the band played ended.\"]}",
+  "run_idx": 23
+}

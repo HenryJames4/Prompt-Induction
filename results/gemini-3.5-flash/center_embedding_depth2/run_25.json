@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the chef the critic praised smiled",
+    "the child the dog chased cried",
+    "the actor the director watched bowed",
+    "the student the teacher helped passed",
+    "the singer the crowd cheered blushed"
+  ],
+  "induced_prompt_raw": "\"the [noun] the [noun] [transitive verb] [intransitive verb]\"",
+  "induced_prompt": "\"the [noun] the [noun] [transitive verb] [intransitive verb]\"",
+  "induced_prompt_chars": 61,
+  "induced_prompt_words": 8,
+  "l1_char_total": 173,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"the dog the cat chased ran\",\n    \"the boy the girl helped smiled\",\n    \"the car the truck hit stopped\",\n    \"the teacher the student saw waved\",\n    \"the bird the cat watched flew\"\n  ]\n}",
+  "l2_sentences": [
+    "the dog the cat chased ran",
+    "the boy the girl helped smiled",
+    "the car the truck hit stopped",
+    "the teacher the student saw waved",
+    "the bird the cat watched flew"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:43:09.083398+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the critic praised smiled",
+    "the child the dog chased cried",
+    "the actor the director watched bowed",
+    "the student the teacher helped passed",
+    "the singer the crowd cheered blushed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the critic praised smiled\",\n    \"the child the dog chased cried\",\n    \"the actor the director watched bowed\",\n    \"the student the teacher helped passed\",\n    \"the singer the crowd cheered blushed\"\n  ]\n}",
+  "run_idx": 25
+}

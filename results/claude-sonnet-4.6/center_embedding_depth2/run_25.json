@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked vanished.",
+    "The letter the student wrote disappeared.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed spread."
+  ],
+  "induced_prompt_raw": "Write sentences with a center-embedded relative clause where an object is acted upon by a professional, followed by a short intransitive verb.",
+  "induced_prompt": "Write sentences with a center-embedded relative clause where an object is acted upon by a professional, followed by a short intransitive verb.",
+  "induced_prompt_chars": 142,
+  "induced_prompt_words": 22,
+  "l1_char_total": 194,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The patient that the surgeon examined recovered.\", \"The document that the lawyer reviewed disappeared.\", \"The bridge that the engineer inspected collapsed.\", \"The child that the therapist comforted laughed.\", \"The painting that the curator restored survived.\"]}\n```",
+  "l2_sentences": [
+    "The patient that the surgeon examined recovered.",
+    "The document that the lawyer reviewed disappeared.",
+    "The bridge that the engineer inspected collapsed.",
+    "The child that the therapist comforted laughed.",
+    "The painting that the curator restored survived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:43:02.167984+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked vanished.",
+    "The letter the student wrote disappeared.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed spread."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed passed.\", \"The cake the chef baked vanished.\", \"The letter the student wrote disappeared.\", \"The bridge the engineer designed collapsed.\", \"The song the musician composed spread.\"]}\n```",
+  "run_idx": 25
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the editor the publisher wrote corrected published vanished",
+    "the letter the clerk the manager the director received signed delivered vanished",
+    "the file the analyst the supervisor the director reviewed updated submitted disappeared",
+    "the data the researcher the scientist the professor analyzed processed reported vanished",
+    "the plan the planner the architect the engineer designed constructed approved disappeared"
+  ],
+  "induced_prompt_raw": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] vanished",
+  "induced_prompt": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] vanished",
+  "induced_prompt_chars": 73,
+  "induced_prompt_words": 12,
+  "l1_char_total": 423,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The shadow the guardian the watcher the sentinel vanished.\", \"The silence the listener the observer the witness vanished.\", \"The memory the keeper the recorder the historian vanished.\", \"The light the guide the beacon the mentor vanished.\", \"The hope the dreamer the believer the seeker vanished.\"]}",
+  "l2_sentences": [
+    "The shadow the guardian the watcher the sentinel vanished.",
+    "The silence the listener the observer the witness vanished.",
+    "The memory the keeper the recorder the historian vanished.",
+    "The light the guide the beacon the mentor vanished.",
+    "The hope the dreamer the believer the seeker vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:17:29.545128+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the editor the publisher wrote corrected published vanished",
+    "the letter the clerk the manager the director received signed delivered vanished",
+    "the file the analyst the supervisor the director reviewed updated submitted disappeared",
+    "the data the researcher the scientist the professor analyzed processed reported vanished",
+    "the plan the planner the architect the engineer designed constructed approved disappeared"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher wrote corrected published vanished\", \"the letter the clerk the manager the director received signed delivered vanished\", \"the file the analyst the supervisor the director reviewed updated submitted disappeared\", \"the data the researcher the scientist the professor analyzed processed reported vanished\", \"the plan the planner the architect the engineer designed constructed approved disappeared\"]}",
+  "run_idx": 9
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the man the woman saw chased loved disappeared",
+    "the book the student the professor the dean recommended assigned reviewed vanished",
+    "the letter the lawyer the judge the clerk wrote submitted reviewed filed",
+    "the plan the manager the director the board proposed reviewed rejected announced",
+    "the film the critic the director saw praised released"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly **4 noun phrases** followed by exactly **4 verbs**, where each verb corresponds to its noun phrase in reverse order.",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly **4 noun phrases** followed by exactly **4 verbs**, where each verb corresponds to its noun phrase in reverse order.",
+  "induced_prompt_chars": 178,
+  "induced_prompt_words": 27,
+  "l1_char_total": 349,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog the rat the boy chased bit scratched fled.\", \"The book the student the teacher the principal praised taught read won.\", \"The fish the shark the diver the captain spotted followed caught escaped.\", \"The cake the child the parent the chef trained baked ate pleased.\", \"The song the girl the coach the judge selected trained sang won.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog the rat the boy chased bit scratched fled.",
+    "The book the student the teacher the principal praised taught read won.",
+    "The fish the shark the diver the captain spotted followed caught escaped.",
+    "The cake the child the parent the chef trained baked ate pleased.",
+    "The song the girl the coach the judge selected trained sang won."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:18:59.447264+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the man the woman saw chased loved disappeared",
+    "the book the student the professor the dean recommended assigned reviewed vanished",
+    "the letter the lawyer the judge the clerk wrote submitted reviewed filed",
+    "the plan the manager the director the board proposed reviewed rejected announced"
+  ],
+  "l1_sentences": [
+    "the cat the dog the man the woman saw chased loved disappeared",
+    "the book the student the professor the dean recommended assigned reviewed vanished",
+    "the letter the lawyer the judge the clerk wrote submitted reviewed filed",
+    "the plan the manager the director the board proposed reviewed rejected announced",
+    "the film the critic the director saw praised released"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cat the dog the man the woman saw chased loved disappeared\", \"the book the student the professor the dean recommended assigned reviewed vanished\", \"the letter the lawyer the judge the clerk wrote submitted reviewed filed\", \"the plan the manager the director the board proposed reviewed rejected announced\", \"the film the critic the director saw praised released\"]}\n```",
+  "run_idx": 25
+}

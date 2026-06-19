@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the librarian borrowed returned read examined disappeared.",
+    "the letter the secretary the manager the director reviewed signed forwarded vanished.",
+    "the document the clerk the supervisor the director reviewed approved submitted disappeared.",
+    "the email the intern the assistant the manager the director received forwarded approved vanished.",
+    "the story the writer the editor the publisher the reader enjoyed accepted published."
+  ],
+  "induced_prompt_raw": "Generate a sentence where a noun is sequentially acted upon by a chain of agents, each performing a distinct action, ending with the noun disappearing, ensuring each agent performs a unique action in sequence.",
+  "induced_prompt": "Generate a sentence where a noun is sequentially acted upon by a chain of agents, each performing a distinct action, ending with the noun disappearing, ensuring each agent performs a unique action in sequence.",
+  "induced_prompt_chars": 209,
+  "induced_prompt_words": 34,
+  "l1_char_total": 448,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The archaeologist uncovered the ancient scroll buried beneath the sand.\", \"The librarian carefully unrolled the fragile parchment to examine its contents.\", \"The historian translated the cryptic symbols etched in an unknown language.\", \"The curator displayed the document in a climate-controlled case to preserve it.\", \"The fire in the museum's basement consumed the scroll, leaving only ashes behind.\"]}",
+  "l2_sentences": [
+    "The archaeologist uncovered the ancient scroll buried beneath the sand.",
+    "The librarian carefully unrolled the fragile parchment to examine its contents.",
+    "The historian translated the cryptic symbols etched in an unknown language.",
+    "The curator displayed the document in a climate-controlled case to preserve it.",
+    "The fire in the museum's basement consumed the scroll, leaving only ashes behind."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:24:20.498610+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the librarian borrowed returned read examined disappeared.",
+    "the letter the secretary the manager the director reviewed signed forwarded vanished.",
+    "the document the clerk the supervisor the director reviewed approved submitted disappeared.",
+    "the email the intern the assistant the manager the director received forwarded approved vanished."
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the librarian borrowed returned read examined disappeared.",
+    "the letter the secretary the manager the director reviewed signed forwarded vanished.",
+    "the document the clerk the supervisor the director reviewed approved submitted disappeared.",
+    "the email the intern the assistant the manager the director received forwarded approved vanished.",
+    "the story the writer the editor the publisher the reader enjoyed accepted published."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian borrowed returned read examined disappeared.\", \"the letter the secretary the manager the director reviewed signed forwarded vanished.\", \"the document the clerk the supervisor the director reviewed approved submitted disappeared.\", \"the email the intern the assistant the manager the director received forwarded approved vanished.\", \"the story the writer the editor the publisher the reader enjoyed accepted published.\"]}",
+  "run_idx": 29
+}

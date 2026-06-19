@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director received signed forwarded disappeared.",
+    "the file the clerk the supervisor the director accessed edited saved closed.",
+    "the message the intern the assistant the editor the publisher received typed reviewed published.",
+    "the story the writer the editor the publisher the reader loved shared completed."
+  ],
+  "induced_prompt_raw": "Create a sequence of nested clauses where each noun is modified by a relative clause describing an action performed by a person, ending with a final verb that describes the fate of the noun.",
+  "induced_prompt": "Create a sequence of nested clauses where each noun is modified by a relative clause describing an action performed by a person, ending with a final verb that describes the fate of the noun.",
+  "induced_prompt_chars": 190,
+  "induced_prompt_words": 34,
+  "l1_char_total": 419,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that the scholar had written about the ancient city was lost when the library burned down.\", \"The manuscript that the scribe had copied by hand was destroyed when the fire spread through the archive.\", \"The document that the clerk had filed in the drawer was consumed by the flames that engulfed the room.\", \"The letter that the messenger had delivered to the mayor was unread when the building collapsed.\", \"The name that the historian had inscribed on the stone was erased by the storm that washed away the monument.\"]}",
+  "l2_sentences": [
+    "The book that the scholar had written about the ancient city was lost when the library burned down.",
+    "The manuscript that the scribe had copied by hand was destroyed when the fire spread through the archive.",
+    "The document that the clerk had filed in the drawer was consumed by the flames that engulfed the room.",
+    "The letter that the messenger had delivered to the mayor was unread when the building collapsed.",
+    "The name that the historian had inscribed on the stone was erased by the storm that washed away the monument."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:54:55.030750+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director received signed forwarded disappeared.",
+    "the file the clerk the supervisor the director accessed edited saved closed.",
+    "the message the intern the assistant the editor the publisher received typed reviewed published."
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director received signed forwarded disappeared.",
+    "the file the clerk the supervisor the director accessed edited saved closed.",
+    "the message the intern the assistant the editor the publisher received typed reviewed published.",
+    "the story the writer the editor the publisher the reader loved shared completed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian borrowed read returned vanished.\", \"the letter the secretary the manager the director received signed forwarded disappeared.\", \"the file the clerk the supervisor the director accessed edited saved closed.\", \"the message the intern the assistant the editor the publisher received typed reviewed published.\", \"the story the writer the editor the publisher the reader loved shared completed.\"] }",
+  "run_idx": 10
+}

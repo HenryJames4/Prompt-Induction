@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the dog the cat the rat the mouse bit chased scratched bit",
+    "the law the senator the lobbyist the citizen interviewed questioned supported expired",
+    "the song the artist the producer the engineer hired advised inspired succeeded",
+    "the car the mechanic the driver fixed crashed stopped"
+  ],
+  "induced_prompt_raw": "Generate a sentence featuring exactly four nested noun phrases and four corresponding past-tense verbs (triple center-embedding), following the pattern: [Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1]. Avoid using fewer than four verbs or failing to resolve all nested clauses.",
+  "induced_prompt": "Generate a sentence featuring exactly four nested noun phrases and four corresponding past-tense verbs (triple center-embedding), following the pattern: [Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1]. Avoid using fewer than four verbs or failing to resolve all nested clauses.",
+  "induced_prompt_chars": 301,
+  "induced_prompt_words": 48,
+  "l1_char_total": 359,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The surgeon the patient the nurse the doctor called helped feared died.\",\n    \"The teacher the student the parent the principal praised thanked blamed resigned.\",\n    \"The author the reader the critic the editor hired admired disliked doubted.\",\n    \"The child the dog the cat the mouse startled chased bit scratched.\",\n    \"The director the actor the writer the producer hired fired loved hated.\"\n  ]\n}",
+  "l2_sentences": [
+    "The surgeon the patient the nurse the doctor called helped feared died.",
+    "The teacher the student the parent the principal praised thanked blamed resigned.",
+    "The author the reader the critic the editor hired admired disliked doubted.",
+    "The child the dog the cat the mouse startled chased bit scratched.",
+    "The director the actor the writer the producer hired fired loved hated."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:26:01.691151+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the dog the cat the rat the mouse bit chased scratched bit",
+    "the law the senator the lobbyist the citizen interviewed questioned supported expired",
+    "the song the artist the producer the engineer hired advised inspired succeeded"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the dog the cat the rat the mouse bit chased scratched bit",
+    "the law the senator the lobbyist the citizen interviewed questioned supported expired",
+    "the song the artist the producer the engineer hired advised inspired succeeded",
+    "the car the mechanic the driver fixed crashed stopped"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the dog the cat the rat the mouse bit chased scratched bit\",\n    \"the law the senator the lobbyist the citizen interviewed questioned supported expired\",\n    \"the song the artist the producer the engineer hired advised inspired succeeded\",\n    \"the car the mechanic the driver fixed crashed stopped\"\n  ]\n}",
+  "run_idx": 30
+}

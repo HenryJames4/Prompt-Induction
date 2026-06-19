@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the student the teacher praised smiled",
+    "the dog the boy chased barked",
+    "the food the chef cooked spoiled",
+    "the book the author wrote disappeared",
+    "the car the mechanic fixed crashed"
+  ],
+  "induced_prompt_raw": "Generate five sentences with the syntactic structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\".",
+  "induced_prompt": "Generate five sentences with the syntactic structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\".",
+  "induced_prompt_chars": 116,
+  "induced_prompt_words": 15,
+  "l1_char_total": 170,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The toy the boy broke fell.\",\n    \"The dog the boy hugged barked.\",\n    \"The cake the chef baked rose.\",\n    \"The snow the sun melted disappeared.\",\n    \"The bird the cat stalked flew.\"\n  ]\n}",
+  "l2_sentences": [
+    "The toy the boy broke fell.",
+    "The dog the boy hugged barked.",
+    "The cake the chef baked rose.",
+    "The snow the sun melted disappeared.",
+    "The bird the cat stalked flew."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:44:42.865681+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the student the teacher praised smiled",
+    "the dog the boy chased barked",
+    "the food the chef cooked spoiled",
+    "the book the author wrote disappeared",
+    "the car the mechanic fixed crashed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the student the teacher praised smiled\",\n    \"the dog the boy chased barked\",\n    \"the food the chef cooked spoiled\",\n    \"the book the author wrote disappeared\",\n    \"the car the mechanic fixed crashed\"\n  ]\n}",
+  "run_idx": 30
+}

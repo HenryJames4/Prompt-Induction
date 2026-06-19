@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the student the teacher the principal avoided praised read vanished",
+    "the song the singer the writer the critic challenged hired performed ended",
+    "the car the driver the mechanic the owner phoned helped crashed burned",
+    "the painting the artist the dealer the collector met paid created faded",
+    "the letter the lawyer the client the detective followed warned wrote arrived"
+  ],
+  "induced_prompt_raw": "Generate sentences with a triple center-embedded structure matching the pattern: Noun 1 Noun 2 Noun 3 Noun 4 Verb 4 Verb 3 Verb 2 Verb 1, without relative pronouns.",
+  "induced_prompt": "Generate sentences with a triple center-embedded structure matching the pattern: Noun 1 Noun 2 Noun 3 Noun 4 Verb 4 Verb 3 Verb 2 Verb 1, without relative pronouns.",
+  "induced_prompt_chars": 164,
+  "induced_prompt_words": 29,
+  "l1_char_total": 367,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The report the secretary the executive the assistant helped blamed wrote leaked.\",\n    \"The song the band the producer the critic annoyed hired played ended.\",\n    \"The car the mechanic the driver the officer stopped paid fixed stalled.\",\n    \"The painting the artist the patron the thief distracted funded created burned.\",\n    \"The book the author the editor the publisher rushed advised wrote sold.\"\n  ]\n}",
+  "l2_sentences": [
+    "The report the secretary the executive the assistant helped blamed wrote leaked.",
+    "The song the band the producer the critic annoyed hired played ended.",
+    "The car the mechanic the driver the officer stopped paid fixed stalled.",
+    "The painting the artist the patron the thief distracted funded created burned.",
+    "The book the author the editor the publisher rushed advised wrote sold."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:27:06.115077+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the student the teacher the principal avoided praised read vanished",
+    "the song the singer the writer the critic challenged hired performed ended",
+    "the car the driver the mechanic the owner phoned helped crashed burned",
+    "the painting the artist the dealer the collector met paid created faded",
+    "the letter the lawyer the client the detective followed warned wrote arrived"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the student the teacher the principal avoided praised read vanished\",\n    \"the song the singer the writer the critic challenged hired performed ended\",\n    \"the car the driver the mechanic the owner phoned helped crashed burned\",\n    \"the painting the artist the dealer the collector met paid created faded\",\n    \"the letter the lawyer the client the detective followed warned wrote arrived\"\n  ]\n}",
+  "run_idx": 19
+}

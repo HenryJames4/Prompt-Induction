@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The puppy the child adopted barked.",
+    "The car the mechanic repaired ran.",
+    "The book the student read inspired.",
+    "The house the builder constructed collapsed.",
+    "The chef the waiter the customer disliked praised left."
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly one embedded relative clause, using the structure: [Noun Phrase 1] + [Noun Phrase 2] + [Transitive Verb] + [Intransitive Verb] (e.g., \"The [noun] the [noun] [verb] [verb]\"). Avoid nesting a third noun phrase or creating double-embedded clauses.",
+  "induced_prompt": "Generate a sentence with exactly one embedded relative clause, using the structure: [Noun Phrase 1] + [Noun Phrase 2] + [Transitive Verb] + [Intransitive Verb] (e.g., \"The [noun] the [noun] [verb] [verb]\"). Avoid nesting a third noun phrase or creating double-embedded clauses.",
+  "induced_prompt_chars": 277,
+  "induced_prompt_words": 42,
+  "l1_char_total": 203,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the dog bit ran.\",\n    \"The car the student bought stalled.\",\n    \"The tree the storm damaged fell.\",\n    \"The phone the child dropped broke.\",\n    \"The athlete the coach trained won.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the dog bit ran.",
+    "The car the student bought stalled.",
+    "The tree the storm damaged fell.",
+    "The phone the child dropped broke.",
+    "The athlete the coach trained won."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:53:17.462648+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The puppy the child adopted barked.",
+    "The car the mechanic repaired ran.",
+    "The book the student read inspired.",
+    "The house the builder constructed collapsed."
+  ],
+  "l1_sentences": [
+    "The puppy the child adopted barked.",
+    "The car the mechanic repaired ran.",
+    "The book the student read inspired.",
+    "The house the builder constructed collapsed.",
+    "The chef the waiter the customer disliked praised left."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The puppy the child adopted barked.\",\n    \"The car the mechanic repaired ran.\",\n    \"The book the student read inspired.\",\n    \"The house the builder constructed collapsed.\",\n    \"The chef the waiter the customer disliked praised left.\"\n  ]\n}",
+  "run_idx": 21
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the bill the senator rejected failed",
+    "the cake the chef baked vanished",
+    "the bridge the engineer designed collapsed",
+    "the plan the manager approved worked",
+    "the letter the secretary typed arrived"
+  ],
+  "induced_prompt_raw": "Write sentences using center-embedded relative clauses, where a noun is modified by a clause describing who acted on it, followed by what happened to it.",
+  "induced_prompt": "Write sentences using center-embedded relative clauses, where a noun is modified by a clause describing who acted on it, followed by what happened to it.",
+  "induced_prompt_chars": 153,
+  "induced_prompt_words": 25,
+  "l1_char_total": 184,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The letter that the lawyer drafted was signed by the judge.\",\n    \"The bridge that the engineers designed collapsed during the storm.\",\n    \"The painting that the artist restored sold for millions at auction.\",\n    \"The report that the committee reviewed was published in the journal.\",\n    \"The dog that the trainer rescued competed in the championship.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The letter that the lawyer drafted was signed by the judge.",
+    "The bridge that the engineers designed collapsed during the storm.",
+    "The painting that the artist restored sold for millions at auction.",
+    "The report that the committee reviewed was published in the journal.",
+    "The dog that the trainer rescued competed in the championship."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:40:04.418033+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the bill the senator rejected failed",
+    "the cake the chef baked vanished",
+    "the bridge the engineer designed collapsed",
+    "the plan the manager approved worked",
+    "the letter the secretary typed arrived"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the bill the senator rejected failed\", \"the cake the chef baked vanished\", \"the bridge the engineer designed collapsed\", \"the plan the manager approved worked\", \"the letter the secretary typed arrived\"]}\n```",
+  "run_idx": 14
+}

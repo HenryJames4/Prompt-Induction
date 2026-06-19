@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the car the mechanic repaired started.",
+    "the letter the secretary typed arrived.",
+    "the meal the chef prepared tasted.",
+    "the book the author wrote sold.",
+    "the house the builder constructed collapsed."
+  ],
+  "induced_prompt_raw": "Reduced relative clause and main verb",
+  "induced_prompt": "Reduced relative clause and main verb",
+  "induced_prompt_chars": 37,
+  "induced_prompt_words": 6,
+  "l1_char_total": 186,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The woman standing by the door waved.\",\n    \"The documents stolen from the safe were recovered.\",\n    \"The children playing in the park shouted excitedly.\",\n    \"The car parked illegally received a ticket.\",\n    \"The man injured in the accident received treatment.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The woman standing by the door waved.",
+    "The documents stolen from the safe were recovered.",
+    "The children playing in the park shouted excitedly.",
+    "The car parked illegally received a ticket.",
+    "The man injured in the accident received treatment."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:20:49.187691+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the mechanic repaired started.",
+    "the letter the secretary typed arrived.",
+    "the meal the chef prepared tasted.",
+    "the book the author wrote sold.",
+    "the house the builder constructed collapsed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the mechanic repaired started.\",\n    \"the letter the secretary typed arrived.\",\n    \"the meal the chef prepared tasted.\",\n    \"the book the author wrote sold.\",\n    \"the house the builder constructed collapsed.\"\n  ]\n}\n```",
+  "run_idx": 20
+}

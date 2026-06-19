@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the student read disappeared.",
+    "the window the child broke shattered.",
+    "the meal the chef prepared tasted.",
+    "the problem the expert solved vanished.",
+    "the letter the secretary typed arrived."
+  ],
+  "induced_prompt_raw": "Subject with reduced object relative clause, then intransitive verb.",
+  "induced_prompt": "Subject with reduced object relative clause, then intransitive verb.",
+  "induced_prompt_chars": 68,
+  "induced_prompt_words": 9,
+  "l1_char_total": 187,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The evidence collected yesterday disappeared.\",\n    \"The man arrested last week fled.\",\n    \"The package delivered this morning arrived.\",\n    \"The car stolen last night vanished.\",\n    \"The trees planted in spring grew.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The evidence collected yesterday disappeared.",
+    "The man arrested last week fled.",
+    "The package delivered this morning arrived.",
+    "The car stolen last night vanished.",
+    "The trees planted in spring grew."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:27:43.931059+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the student read disappeared.",
+    "the window the child broke shattered.",
+    "the meal the chef prepared tasted.",
+    "the problem the expert solved vanished.",
+    "the letter the secretary typed arrived."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the student read disappeared.\",\n    \"the window the child broke shattered.\",\n    \"the meal the chef prepared tasted.\",\n    \"the problem the expert solved vanished.\",\n    \"the letter the secretary typed arrived.\"\n  ]\n}\n```",
+  "run_idx": 25
+}

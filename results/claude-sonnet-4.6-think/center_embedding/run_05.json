@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the baker the chef the customer hired trained baked disappeared",
+    "the paper the professor the student the advisor supervised helped submitted vanished",
+    "the car the mechanic the owner the dealer contacted hired fixed started",
+    "the book the author the editor the publisher hired assisted wrote sold",
+    "the bridge the engineer the contractor the mayor hired employed built collapsed"
+  ],
+  "induced_prompt_raw": "Generate triply center-embedded sentences with four successive noun phrases followed by four corresponding verbs.",
+  "induced_prompt": "Generate triply center-embedded sentences with four successive noun phrases followed by four corresponding verbs.",
+  "induced_prompt_chars": 113,
+  "induced_prompt_words": 14,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The malt the rat the cat the dog chased killed ate was stale.\",\n    \"The book the student the professor the dean hired taught read was fascinating.\",\n    \"The cheese the mouse the cat the farmer owned chased ate was old.\",\n    \"The article the journalist the editor the publisher employed assigned wrote won.\",\n    \"The award the athlete the coach the director hired trained won was prestigious.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The malt the rat the cat the dog chased killed ate was stale.",
+    "The book the student the professor the dean hired taught read was fascinating.",
+    "The cheese the mouse the cat the farmer owned chased ate was old.",
+    "The article the journalist the editor the publisher employed assigned wrote won.",
+    "The award the athlete the coach the director hired trained won was prestigious."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:18:54.448360+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the baker the chef the customer hired trained baked disappeared",
+    "the paper the professor the student the advisor supervised helped submitted vanished",
+    "the car the mechanic the owner the dealer contacted hired fixed started",
+    "the book the author the editor the publisher hired assisted wrote sold",
+    "the bridge the engineer the contractor the mayor hired employed built collapsed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the baker the chef the customer hired trained baked disappeared\",\n    \"the paper the professor the student the advisor supervised helped submitted vanished\",\n    \"the car the mechanic the owner the dealer contacted hired fixed started\",\n    \"the book the author the editor the publisher hired assisted wrote sold\",\n    \"the bridge the engineer the contractor the mayor hired employed built collapsed\"\n  ]\n}\n```",
+  "run_idx": 5
+}

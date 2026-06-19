@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The dog the man fed barked.",
+    "The book the child read closed.",
+    "The car the mechanic fixed started.",
+    "The song the band played ended.",
+    "The game the player won finished."
+  ],
+  "induced_prompt_raw": "\"The [Head Noun] the [Subject] [Relative Verb (past tense)] [Main Verb (past tense)]\"",
+  "induced_prompt": "\"The [Head Noun] the [Subject] [Relative Verb (past tense)] [Main Verb (past tense)]\"",
+  "induced_prompt_chars": 85,
+  "induced_prompt_words": 13,
+  "l1_char_total": 157,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the child saw barked.\", \"The cake the baker baked delighted.\", \"The book the student read inspired.\", \"The song the audience heard resonated.\", \"The painting the artist created sold.\"]}",
+  "l2_sentences": [
+    "The dog the child saw barked.",
+    "The cake the baker baked delighted.",
+    "The book the student read inspired.",
+    "The song the audience heard resonated.",
+    "The painting the artist created sold."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:02:07.458252+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The dog the man fed barked.",
+    "The book the child read closed.",
+    "The car the mechanic fixed started.",
+    "The song the band played ended.",
+    "The game the player won finished."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the man fed barked.\", \"The book the child read closed.\", \"The car the mechanic fixed started.\", \"The song the band played ended.\", \"The game the player won finished.\"]}",
+  "run_idx": 3
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the apprentice the critic tasted burned praised vanished",
+    "the letter the lawyer the clerk the judge wrote filed reviewed signed",
+    "the bridge the engineer the worker the inspector designed built checked approved",
+    "the song the composer the singer the audience wrote performed heard applauded",
+    "the painting the artist the student the buyer created copied examined purchased"
+  ],
+  "induced_prompt_raw": "Write sentences with 4 levels of center-embedding, each containing a noun phrase modified by three nested relative clauses, followed by all verbs in sequence.",
+  "induced_prompt": "Write sentences with 4 levels of center-embedding, each containing a noun phrase modified by three nested relative clauses, followed by all verbs in sequence.",
+  "induced_prompt_chars": 158,
+  "induced_prompt_words": 24,
+  "l1_char_total": 379,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the rat that the boy chased bit scratched meowed.\", \"The book that the scholar that the university that the city funded established read crumbled.\", \"The fish that the seal that the shark that the diver spotted hunted caught flipped.\", \"The law that the judge that the court that the senate formed appointed upheld changed.\", \"The song that the choir that the school that the town built opened trained performed faded.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the rat that the boy chased bit scratched meowed.",
+    "The book that the scholar that the university that the city funded established read crumbled.",
+    "The fish that the seal that the shark that the diver spotted hunted caught flipped.",
+    "The law that the judge that the court that the senate formed appointed upheld changed.",
+    "The song that the choir that the school that the town built opened trained performed faded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:19:33.945820+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the apprentice the critic tasted burned praised vanished",
+    "the letter the lawyer the clerk the judge wrote filed reviewed signed",
+    "the bridge the engineer the worker the inspector designed built checked approved",
+    "the song the composer the singer the audience wrote performed heard applauded",
+    "the painting the artist the student the buyer created copied examined purchased"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the chef the apprentice the critic tasted burned praised vanished\",\n    \"the letter the lawyer the clerk the judge wrote filed reviewed signed\",\n    \"the bridge the engineer the worker the inspector designed built checked approved\",\n    \"the song the composer the singer the audience wrote performed heard applauded\",\n    \"the painting the artist the student the buyer created copied examined purchased\"\n  ]\n}\n```",
+  "run_idx": 7
+}

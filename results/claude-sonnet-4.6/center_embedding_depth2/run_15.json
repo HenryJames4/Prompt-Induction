@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked vanished.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed played.",
+    "The letter the student wrote disappeared."
+  ],
+  "induced_prompt_raw": "Write sentences using a double subject relative clause structure where an object is acted upon by a professional, followed by a simple intransitive verb.",
+  "induced_prompt": "Write sentences using a double subject relative clause structure where an object is acted upon by a professional, followed by a simple intransitive verb.",
+  "induced_prompt_chars": 153,
+  "induced_prompt_words": 24,
+  "l1_char_total": 194,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The patient that the doctor examined yesterday recovered.\", \"The manuscript that the editor reviewed carefully disappeared.\", \"The painting that the artist restored completely vanished.\", \"The athlete that the coach trained rigorously excelled.\", \"The building that the architect designed eventually collapsed.\"]}\n```",
+  "l2_sentences": [
+    "The patient that the doctor examined yesterday recovered.",
+    "The manuscript that the editor reviewed carefully disappeared.",
+    "The painting that the artist restored completely vanished.",
+    "The athlete that the coach trained rigorously excelled.",
+    "The building that the architect designed eventually collapsed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:40:02.543093+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked vanished.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed played.",
+    "The letter the student wrote disappeared."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed passed.\", \"The cake the chef baked vanished.\", \"The bridge the engineer designed collapsed.\", \"The song the musician composed played.\", \"The letter the student wrote disappeared.\"]}\n```",
+  "run_idx": 15
+}

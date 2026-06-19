@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked vanished.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the singer performed resonated."
+  ],
+  "induced_prompt_raw": "Write sentences with a double subject structure where a noun is modified by a relative clause before taking an intransitive verb.",
+  "induced_prompt": "Write sentences with a double subject structure where a noun is modified by a relative clause before taking an intransitive verb.",
+  "induced_prompt_chars": 129,
+  "induced_prompt_words": 21,
+  "l1_char_total": 192,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The dog that had been barking all night finally slept.\", \"The children who were playing in the park laughed.\", \"The man who had traveled for days rested.\", \"The flowers that bloomed in spring wilted.\", \"The student who studied hardest succeeded.\"]}\n```",
+  "l2_sentences": [
+    "The dog that had been barking all night finally slept.",
+    "The children who were playing in the park laughed.",
+    "The man who had traveled for days rested.",
+    "The flowers that bloomed in spring wilted.",
+    "The student who studied hardest succeeded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:38:54.743587+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked vanished.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the singer performed resonated."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed passed.\", \"The cake the chef baked vanished.\", \"The letter the student wrote arrived.\", \"The bridge the engineer designed collapsed.\", \"The song the singer performed resonated.\"]}\n```",
+  "run_idx": 11
+}

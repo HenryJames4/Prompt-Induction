@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the boy the woman chased followed watched petted disappeared.",
+    "the book the teacher the student the principal recommended read borrowed returned vanished.",
+    "the car the mechanic the owner the driver repaired examined washed started crashed.",
+    "the house the agent the buyer the owner showed visited purchased sold burned.",
+    "the painting the artist the collector the museum created displayed acquired preserved disappeared."
+  ],
+  "induced_prompt_raw": "A sequence of nouns and verbs describing interactions between people, objects, and entities.",
+  "induced_prompt": "A sequence of nouns and verbs describing interactions between people, objects, and entities.",
+  "induced_prompt_chars": 92,
+  "induced_prompt_words": 13,
+  "l1_char_total": 426,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The teacher distributes books to eager students.\",\n    \"Children chase colorful balloons across the park.\",\n    \"Mechanics repair engines with specialized tools.\",\n    \"Artists paint vibrant landscapes on canvas.\",\n    \"Scientists analyze data using advanced computers.\"\n  ]\n}",
+  "l2_sentences": [
+    "The teacher distributes books to eager students.",
+    "Children chase colorful balloons across the park.",
+    "Mechanics repair engines with specialized tools.",
+    "Artists paint vibrant landscapes on canvas.",
+    "Scientists analyze data using advanced computers."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:19:23.257667+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the boy the woman chased followed watched petted disappeared.",
+    "the book the teacher the student the principal recommended read borrowed returned vanished.",
+    "the car the mechanic the owner the driver repaired examined washed started crashed.",
+    "the house the agent the buyer the owner showed visited purchased sold burned.",
+    "the painting the artist the collector the museum created displayed acquired preserved disappeared."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the boy the woman chased followed watched petted disappeared.\",\n    \"the book the teacher the student the principal recommended read borrowed returned vanished.\",\n    \"the car the mechanic the owner the driver repaired examined washed started crashed.\",\n    \"the house the agent the buyer the owner showed visited purchased sold burned.\",\n    \"the painting the artist the collector the museum created displayed acquired preserved disappeared.\"\n  ]\n}",
+  "run_idx": 10
+}

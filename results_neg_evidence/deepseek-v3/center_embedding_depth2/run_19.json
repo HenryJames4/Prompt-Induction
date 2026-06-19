@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the teacher assigned discussed",
+    "The film the critic reviewed praised",
+    "The cake the baker decorated served",
+    "The song the artist composed performed",
+    "The dog the cat the mouse chased barked meowed"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested noun phrases where each subsequent phrase modifies the preceding noun, ensuring clarity and avoiding excessive recursion that leads to confusion.\"",
+  "induced_prompt": "\"Generate sentences with nested noun phrases where each subsequent phrase modifies the preceding noun, ensuring clarity and avoiding excessive recursion that leads to confusion.\"",
+  "induced_prompt_chars": 178,
+  "induced_prompt_words": 24,
+  "l1_char_total": 194,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book on the shelf in the corner of the room caught my attention.\", \"The cat with the striped tail on the windowsill was sleeping peacefully.\", \"The car with the red paint parked near the entrance belonged to my neighbor.\", \"The teacher of the advanced calculus class assigned a challenging homework problem.\", \"The cake decorated with chocolate frosting in the display case looked delicious.\"]}",
+  "l2_sentences": [
+    "The book on the shelf in the corner of the room caught my attention.",
+    "The cat with the striped tail on the windowsill was sleeping peacefully.",
+    "The car with the red paint parked near the entrance belonged to my neighbor.",
+    "The teacher of the advanced calculus class assigned a challenging homework problem.",
+    "The cake decorated with chocolate frosting in the display case looked delicious."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:50:44.292991+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the teacher assigned discussed",
+    "The film the critic reviewed praised",
+    "The cake the baker decorated served",
+    "The song the artist composed performed"
+  ],
+  "l1_sentences": [
+    "The book the teacher assigned discussed",
+    "The film the critic reviewed praised",
+    "The cake the baker decorated served",
+    "The song the artist composed performed",
+    "The dog the cat the mouse chased barked meowed"
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the teacher assigned discussed\", \"The film the critic reviewed praised\", \"The cake the baker decorated served\", \"The song the artist composed performed\", \"The dog the cat the mouse chased barked meowed\"]}",
+  "run_idx": 19
+}

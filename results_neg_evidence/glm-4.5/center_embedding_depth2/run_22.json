@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased escaped",
+    "the book the student read was interesting",
+    "the house the storm damaged collapsed",
+    "the movie the critic reviewed won an award",
+    "the car the mechanic the owner hired repaired was expensive"
+  ],
+  "induced_prompt_raw": "Generate a sentence with a center-embedded relative clause, but do not use more than one level of embedding.",
+  "induced_prompt": "Generate a sentence with a center-embedded relative clause, but do not use more than one level of embedding.",
+  "induced_prompt_chars": 108,
+  "induced_prompt_words": 18,
+  "l1_char_total": 209,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that chased the mouse slept peacefully.\",\n    \"The book that I bought yesterday was very interesting.\",\n    \"The man who fixed my car is a mechanic.\",\n    \"The house that they built last year is for sale.\",\n    \"The movie that we watched last night won an award.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that chased the mouse slept peacefully.",
+    "The book that I bought yesterday was very interesting.",
+    "The man who fixed my car is a mechanic.",
+    "The house that they built last year is for sale.",
+    "The movie that we watched last night won an award."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:54:11.304317+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased escaped",
+    "the book the student read was interesting",
+    "the house the storm damaged collapsed",
+    "the movie the critic reviewed won an award"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased escaped",
+    "the book the student read was interesting",
+    "the house the storm damaged collapsed",
+    "the movie the critic reviewed won an award",
+    "the car the mechanic the owner hired repaired was expensive"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased escaped\",\n    \"the book the student read was interesting\",\n    \"the house the storm damaged collapsed\",\n    \"the movie the critic reviewed won an award\",\n    \"the car the mechanic the owner hired repaired was expensive\"\n  ]\n}",
+  "run_idx": 22
+}

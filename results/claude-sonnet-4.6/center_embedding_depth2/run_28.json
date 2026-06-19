@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The letter the clerk typed arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the student practiced improved."
+  ],
+  "induced_prompt_raw": "Write sentences using a double-noun phrase structure where an object undergoes an action, each containing a reduced relative clause between the subject and main verb.",
+  "induced_prompt": "Write sentences using a double-noun phrase structure where an object undergoes an action, each containing a reduced relative clause between the subject and main verb.",
+  "induced_prompt_chars": 166,
+  "induced_prompt_words": 25,
+  "l1_char_total": 193,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The letter written by the diplomat caused an international incident.\", \"The bridge built by engineers collapsed during the storm.\", \"The painting stolen from the museum was recovered by police.\", \"The report submitted by the committee influenced the final decision.\", \"The machine designed by the inventor revolutionized the entire industry.\"]}\n```",
+  "l2_sentences": [
+    "The letter written by the diplomat caused an international incident.",
+    "The bridge built by engineers collapsed during the storm.",
+    "The painting stolen from the museum was recovered by police.",
+    "The report submitted by the committee influenced the final decision.",
+    "The machine designed by the inventor revolutionized the entire industry."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:43:54.087604+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The letter the clerk typed arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the student practiced improved."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed passed.\", \"The cake the chef baked disappeared.\", \"The letter the clerk typed arrived.\", \"The bridge the engineer designed collapsed.\", \"The song the student practiced improved.\"]}\n```",
+  "run_idx": 28
+}

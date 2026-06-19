@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the editor praised published recommended sold",
+    "the cake the baker the chef the customer decorated baked enjoyed ate",
+    "the letter the writer the manager the secretary typed reviewed signed mailed",
+    "the song the singer the producer the audience composed recorded performed applauded",
+    "the painting the artist the curator the visitor created displayed admired purchased"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a chain of nouns followed by verbs in a cascading sequence.\"",
+  "induced_prompt": "\"Generate sentences with a chain of nouns followed by verbs in a cascading sequence.\"",
+  "induced_prompt_chars": 85,
+  "induced_prompt_words": 14,
+  "l1_char_total": 389,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog barked, the cat hissed, the bird chirped.\", \"The wind blew, the leaves rustled, the branches swayed.\", \"The chef chopped, the pan sizzled, the aroma wafted.\", \"The waves crashed, the sand shifted, the shells scattered.\", \"The engine roared, the tires spun, the dust swirled.\"]}",
+  "l2_sentences": [
+    "The dog barked, the cat hissed, the bird chirped.",
+    "The wind blew, the leaves rustled, the branches swayed.",
+    "The chef chopped, the pan sizzled, the aroma wafted.",
+    "The waves crashed, the sand shifted, the shells scattered.",
+    "The engine roared, the tires spun, the dust swirled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:00:37.687288+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the editor praised published recommended sold",
+    "the cake the baker the chef the customer decorated baked enjoyed ate",
+    "the letter the writer the manager the secretary typed reviewed signed mailed",
+    "the song the singer the producer the audience composed recorded performed applauded",
+    "the painting the artist the curator the visitor created displayed admired purchased"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the editor praised published recommended sold\", \"the cake the baker the chef the customer decorated baked enjoyed ate\", \"the letter the writer the manager the secretary typed reviewed signed mailed\", \"the song the singer the producer the audience composed recorded performed applauded\", \"the painting the artist the curator the visitor created displayed admired purchased\"]}",
+  "run_idx": 2
+}

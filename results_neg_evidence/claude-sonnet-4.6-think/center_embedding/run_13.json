@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the manuscript the publisher the editor the author contacted recommended published sold",
+    "the contract the executive the lawyer the client retained advised signed expired",
+    "the painting the curator the artist the student admired impressed displayed sold",
+    "the law the senator the lobbyist the corporation funded supported proposed passed",
+    "the report the director the analyst briefed approved circulated"
+  ],
+  "induced_prompt_raw": "Write quadruply center-embedded sentences using exactly 4 noun phrases followed by 4 verbs in reverse order (NP1 NP2 NP3 NP4 V4 V3 V2 V1), where each NP is the subject of a nested relative clause modifying the preceding NP. Avoid using only 3 levels of embedding (3 nouns + 3 verbs).",
+  "induced_prompt": "Write quadruply center-embedded sentences using exactly 4 noun phrases followed by 4 verbs in reverse order (NP1 NP2 NP3 NP4 V4 V3 V2 V1), where each NP is the subject of a nested relative clause modifying the preceding NP. Avoid using only 3 levels of embedding (3 nouns + 3 verbs).",
+  "induced_prompt_chars": 283,
+  "induced_prompt_words": 51,
+  "l1_char_total": 391,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that the dog that the rat that the elephant chased bit scratched ran.\",\n    \"The book that the student that the teacher that the principal praised taught read disappeared.\",\n    \"The house that the man that the woman that the child frightened loved built collapsed.\",\n    \"The letter that the secretary that the boss that the investor hired promoted wrote arrived.\",\n    \"The song that the musician that the critic that the journalist interviewed praised performed echoed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the rat that the elephant chased bit scratched ran.",
+    "The book that the student that the teacher that the principal praised taught read disappeared.",
+    "The house that the man that the woman that the child frightened loved built collapsed.",
+    "The letter that the secretary that the boss that the investor hired promoted wrote arrived.",
+    "The song that the musician that the critic that the journalist interviewed praised performed echoed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:59:31.271734+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the manuscript the publisher the editor the author contacted recommended published sold",
+    "the contract the executive the lawyer the client retained advised signed expired",
+    "the painting the curator the artist the student admired impressed displayed sold",
+    "the law the senator the lobbyist the corporation funded supported proposed passed"
+  ],
+  "l1_sentences": [
+    "the manuscript the publisher the editor the author contacted recommended published sold",
+    "the contract the executive the lawyer the client retained advised signed expired",
+    "the painting the curator the artist the student admired impressed displayed sold",
+    "the law the senator the lobbyist the corporation funded supported proposed passed",
+    "the report the director the analyst briefed approved circulated"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the manuscript the publisher the editor the author contacted recommended published sold\",\n    \"the contract the executive the lawyer the client retained advised signed expired\",\n    \"the painting the curator the artist the student admired impressed displayed sold\",\n    \"the law the senator the lobbyist the corporation funded supported proposed passed\",\n    \"the report the director the analyst briefed approved circulated\"\n  ]\n}\n```",
+  "run_idx": 13
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the diamond the thief the guard the police arrested caught stole vanished.",
+    "the ball the player the coach the referee penalized trained threw bounced.",
+    "the king the queen the prince the princess married loved ruled abdicated.",
+    "the ship the crew the captain the storm struck commanded manned sank."
+  ],
+  "induced_prompt_raw": "Four article-noun pairs followed by four verbs.",
+  "induced_prompt": "Four article-noun pairs followed by four verbs.",
+  "induced_prompt_chars": 47,
+  "induced_prompt_words": 7,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The boy runs.\", \"A girl jumps.\", \"An author writes.\", \"The computer computes.\", \"The boy runs and jumps.\"]}\n```",
+  "l2_sentences": [
+    "The boy runs.",
+    "A girl jumps.",
+    "An author writes.",
+    "The computer computes.",
+    "The boy runs and jumps."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:01:55.252734+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the diamond the thief the guard the police arrested caught stole vanished.",
+    "the ball the player the coach the referee penalized trained threw bounced.",
+    "the king the queen the prince the princess married loved ruled abdicated.",
+    "the ship the crew the captain the storm struck commanded manned sank."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared.\",\n    \"the diamond the thief the guard the police arrested caught stole vanished.\",\n    \"the ball the player the coach the referee penalized trained threw bounced.\",\n    \"the king the queen the prince the princess married loved ruled abdicated.\",\n    \"the ship the crew the captain the storm struck commanded manned sank.\"\n  ]\n}\n```",
+  "run_idx": 1
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the reviewer read edited published vanished.",
+    "the car the driver the mechanic the customer crashed fixed tested vanished.",
+    "the letter the secretary the manager the director wrote typed signed disappeared.",
+    "the plan the architect the engineer the client designed built approved vanished.",
+    "the data the analyst the programmer the user processed coded verified disappeared."
+  ],
+  "induced_prompt_raw": "the [thing] the [role1] the [role2] the [role3] [verb1] [verb2] [verb3] [verb4]",
+  "induced_prompt": "the [thing] the [role1] the [role2] the [role3] [verb1] [verb2] [verb3] [verb4]",
+  "induced_prompt_chars": 79,
+  "induced_prompt_words": 12,
+  "l1_char_total": 396,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the doctor the nurse the lawyer ran jumped sang danced\", \"the dog the teacher the pilot the artist jumped sang danced ate\", \"the book the engineer the writer the singer sang danced ate wrote\", \"the car the student the chef the actor danced ate wrote ran\", \"the house the chef the singer the pilot ate wrote ran jumped\"]}",
+  "l2_sentences": [
+    "the cat the doctor the nurse the lawyer ran jumped sang danced",
+    "the dog the teacher the pilot the artist jumped sang danced ate",
+    "the book the engineer the writer the singer sang danced ate wrote",
+    "the car the student the chef the actor danced ate wrote ran",
+    "the house the chef the singer the pilot ate wrote ran jumped"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:33:59.373546+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the reviewer read edited published vanished.",
+    "the car the driver the mechanic the customer crashed fixed tested vanished.",
+    "the letter the secretary the manager the director wrote typed signed disappeared.",
+    "the plan the architect the engineer the client designed built approved vanished.",
+    "the data the analyst the programmer the user processed coded verified disappeared."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the reviewer read edited published vanished.\", \"the car the driver the mechanic the customer crashed fixed tested vanished.\", \"the letter the secretary the manager the director wrote typed signed disappeared.\", \"the plan the architect the engineer the client designed built approved vanished.\", \"the data the analyst the programmer the user processed coded verified disappeared.\"]}",
+  "run_idx": 19
+}

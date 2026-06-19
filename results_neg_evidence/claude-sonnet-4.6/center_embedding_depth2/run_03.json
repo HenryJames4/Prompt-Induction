@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic reviewed sold",
+    "the dog the child chased barked",
+    "the letter the manager signed arrived",
+    "the song the band performed charmed",
+    "the report the analyst the editor hired reviewed confused the board"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (subject-gap), where the main clause subject is modified by one relative clause only. Avoid nested or multiple levels of embedding.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (subject-gap), where the main clause subject is modified by one relative clause only. Avoid nested or multiple levels of embedding.",
+  "induced_prompt_chars": 193,
+  "induced_prompt_words": 28,
+  "l1_char_total": 203,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The scientist who discovered the vaccine received a prestigious award.\", \"The dog that chased the squirrel finally caught it near the fence.\", \"The teacher who inspired countless students retired last spring.\", \"The car that crashed into the barrier blocked traffic for hours.\", \"The child who found the lost kitten brought it home immediately.\"]}\n```",
+  "l2_sentences": [
+    "The scientist who discovered the vaccine received a prestigious award.",
+    "The dog that chased the squirrel finally caught it near the fence.",
+    "The teacher who inspired countless students retired last spring.",
+    "The car that crashed into the barrier blocked traffic for hours.",
+    "The child who found the lost kitten brought it home immediately."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:36:30.032727+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic reviewed sold",
+    "the dog the child chased barked",
+    "the letter the manager signed arrived",
+    "the song the band performed charmed"
+  ],
+  "l1_sentences": [
+    "the book the critic reviewed sold",
+    "the dog the child chased barked",
+    "the letter the manager signed arrived",
+    "the song the band performed charmed",
+    "the report the analyst the editor hired reviewed confused the board"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the book the critic reviewed sold\", \"the dog the child chased barked\", \"the letter the manager signed arrived\", \"the song the band performed charmed\", \"the report the analyst the editor hired reviewed confused the board\"]}\n```",
+  "run_idx": 3
+}

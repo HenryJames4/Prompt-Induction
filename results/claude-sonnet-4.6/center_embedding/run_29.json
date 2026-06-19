@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the teacher trained hired baked vanished.",
+    "the letter the clerk the boy the woman scolded hired wrote disappeared.",
+    "the dog the man the child the nurse helped trained fed barked.",
+    "the book the scholar the pupil the monk taught guided read survived.",
+    "the plan the boss the aide the worker recruited trained approved collapsed."
+  ],
+  "induced_prompt_raw": "Write sentences with quadruply center-embedded relative clauses, where four agents act on each other in sequence before the final verb chain resolves.",
+  "induced_prompt": "Write sentences with quadruply center-embedded relative clauses, where four agents act on each other in sequence before the final verb chain resolves.",
+  "induced_prompt_chars": 150,
+  "induced_prompt_words": 22,
+  "l1_char_total": 347,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the child that the teacher scolded loved chased scratched the furniture yesterday.\", \"The report that the editor that the journalist that the source that the spy contacted trusted revised published caused a scandal.\", \"The cake that the guest that the host that the chef that the critic praised hired invited ate tasted wonderful.\", \"The bill that the senator that the lobbyist that the corporation that the scandal implicated funded pressured introduced failed immediately.\", \"The song that the producer that the manager that the agent that the label signed represented hired recorded became a classic.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the child that the teacher scolded loved chased scratched the furniture yesterday.",
+    "The report that the editor that the journalist that the source that the spy contacted trusted revised published caused a scandal.",
+    "The cake that the guest that the host that the chef that the critic praised hired invited ate tasted wonderful.",
+    "The bill that the senator that the lobbyist that the corporation that the scandal implicated funded pressured introduced failed immediately.",
+    "The song that the producer that the manager that the agent that the label signed represented hired recorded became a classic."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:32:42.953972+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the teacher trained hired baked vanished.",
+    "the letter the clerk the boy the woman scolded hired wrote disappeared.",
+    "the dog the man the child the nurse helped trained fed barked.",
+    "the book the scholar the pupil the monk taught guided read survived.",
+    "the plan the boss the aide the worker recruited trained approved collapsed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the student the teacher trained hired baked vanished.\", \"the letter the clerk the boy the woman scolded hired wrote disappeared.\", \"the dog the man the child the nurse helped trained fed barked.\", \"the book the scholar the pupil the monk taught guided read survived.\", \"the plan the boss the aide the worker recruited trained approved collapsed.\"]}\n```",
+  "run_idx": 29
+}

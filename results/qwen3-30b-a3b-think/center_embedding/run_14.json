@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the book the author the publisher the reviewer wrote edited published vanished.",
+    "the car the driver the mechanic the customer drove fixed tested disappeared.",
+    "the letter the secretary the manager the client wrote sent read vanished.",
+    "the cake the baker the chef the customer baked decorated served disappeared."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt_chars": 71,
+  "induced_prompt_words": 12,
+  "l1_char_total": 390,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the teacher the doctor the engineer ran jumped sang danced\", \"the book the chef the artist the programmer read wrote painted coded\", \"the car the pilot the nurse the firefighter drove flew treated rescued\", \"the tree the mayor the scientist the musician grew studied played performed\", \"the computer the manager the actor the gardener processed acted spoke tended\"]}",
+  "l2_sentences": [
+    "the cat the teacher the doctor the engineer ran jumped sang danced",
+    "the book the chef the artist the programmer read wrote painted coded",
+    "the car the pilot the nurse the firefighter drove flew treated rescued",
+    "the tree the mayor the scientist the musician grew studied played performed",
+    "the computer the manager the actor the gardener processed acted spoke tended"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:24:25.452659+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the book the author the publisher the reviewer wrote edited published vanished.",
+    "the car the driver the mechanic the customer drove fixed tested disappeared.",
+    "the letter the secretary the manager the client wrote sent read vanished.",
+    "the cake the baker the chef the customer baked decorated served disappeared."
+  ],
+  "l1_raw": "{\"sentences\": [\"the report the editor the assistant the intern consulted revised approved disappeared.\", \"the book the author the publisher the reviewer wrote edited published vanished.\", \"the car the driver the mechanic the customer drove fixed tested disappeared.\", \"the letter the secretary the manager the client wrote sent read vanished.\", \"the cake the baker the chef the customer baked decorated served disappeared.\"]}",
+  "run_idx": 14
+}

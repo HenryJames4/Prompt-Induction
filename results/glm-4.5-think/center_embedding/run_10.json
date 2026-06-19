@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the student the teacher read wrote published distributed",
+    "the car the driver the mechanic the owner repaired washed sold drove",
+    "the house the architect the builder the family designed constructed painted moved",
+    "the meal the chef the customer the critic prepared tasted reviewed praised",
+    "the plan the manager the team the executive created implemented approved executed"
+  ],
+  "induced_prompt_raw": "Four nouns with 'the' followed by four verbs.",
+  "induced_prompt": "Four nouns with 'the' followed by four verbs.",
+  "induced_prompt_chars": 45,
+  "induced_prompt_words": 8,
+  "l1_char_total": 380,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The sun the moon the stars the sky shine twinkle glow sparkle.\",\n    \"The teacher the student the book the desk read write learn study.\",\n    \"The chef the knife the onion the pot chop stir fry boil.\",\n    \"The car the road the engine the wheel drive turn accelerate brake.\",\n    \"The flower the bee the garden the wind bloom buzz sway blow.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The sun the moon the stars the sky shine twinkle glow sparkle.",
+    "The teacher the student the book the desk read write learn study.",
+    "The chef the knife the onion the pot chop stir fry boil.",
+    "The car the road the engine the wheel drive turn accelerate brake.",
+    "The flower the bee the garden the wind bloom buzz sway blow."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:18:35.551569+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the student the teacher read wrote published distributed",
+    "the car the driver the mechanic the owner repaired washed sold drove",
+    "the house the architect the builder the family designed constructed painted moved",
+    "the meal the chef the customer the critic prepared tasted reviewed praised",
+    "the plan the manager the team the executive created implemented approved executed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the author the student the teacher read wrote published distributed\",\n    \"the car the driver the mechanic the owner repaired washed sold drove\",\n    \"the house the architect the builder the family designed constructed painted moved\",\n    \"the meal the chef the customer the critic prepared tasted reviewed praised\",\n    \"the plan the manager the team the executive created implemented approved executed\"\n  ]\n}\n```",
+  "run_idx": 10
+}

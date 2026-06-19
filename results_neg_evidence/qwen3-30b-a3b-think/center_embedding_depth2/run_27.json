@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold",
+    "the idea the scientist proposed failed",
+    "the plan the manager developed succeeded",
+    "the report the committee reviewed passed",
+    "the book the author the editor read sold passed"
+  ],
+  "induced_prompt_raw": "Write a sentence: noun the agent verb main verb",
+  "induced_prompt": "Write a sentence: noun the agent verb main verb",
+  "induced_prompt_chars": 47,
+  "induced_prompt_words": 9,
+  "l1_char_total": 195,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"Dog the agent eats runs.\", \"Cat the doctor sleeps jumps.\", \"Bird the farmer feeds flies.\", \"Fish the student eats swims.\", \"Book the writer reads writes.\"]}",
+  "l2_sentences": [
+    "Dog the agent eats runs.",
+    "Cat the doctor sleeps jumps.",
+    "Bird the farmer feeds flies.",
+    "Fish the student eats swims.",
+    "Book the writer reads writes."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:57:46.324058+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold",
+    "the idea the scientist proposed failed",
+    "the plan the manager developed succeeded",
+    "the report the committee reviewed passed"
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold",
+    "the idea the scientist proposed failed",
+    "the plan the manager developed succeeded",
+    "the report the committee reviewed passed",
+    "the book the author the editor read sold passed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold\", \"the idea the scientist proposed failed\", \"the plan the manager developed succeeded\", \"the report the committee reviewed passed\", \"the book the author the editor read sold passed\"]}",
+  "run_idx": 27
+}

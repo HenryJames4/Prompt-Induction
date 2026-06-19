@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The chef the baker the grocer the farmer helped watched avoided slipped.",
+    "The book the author the critic the reader questioned insulted wrote burned.",
+    "The dog the cat the rat the bug bit chased scratched died.",
+    "The painting the artist the patron the guard distracted hired created faded.",
+    "The patient the doctor the nurse the student assisted called treated recovered."
+  ],
+  "induced_prompt_raw": "Generate sentences with three nested center-embedded relative clauses, following the syntactic structure: Noun1 Noun2 Noun3 Noun4 Verb4 Verb3 Verb2 Verb1.",
+  "induced_prompt": "Generate sentences with three nested center-embedded relative clauses, following the syntactic structure: Noun1 Noun2 Noun3 Noun4 Verb4 Verb3 Verb2 Verb1.",
+  "induced_prompt_chars": 154,
+  "induced_prompt_words": 20,
+  "l1_char_total": 360,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"Women men dogs fleas bite hate love sing.\",\n    \"Chefs patrons critics reviews influence annoy admire retired.\",\n    \"Students teachers parents taxes anger pressure inspire failed.\",\n    \"Artists collectors dealers contracts bind exploit praise vanished.\",\n    \"Children adults bosses deadlines worry employ scold slept.\"\n  ]\n}",
+  "l2_sentences": [
+    "Women men dogs fleas bite hate love sing.",
+    "Chefs patrons critics reviews influence annoy admire retired.",
+    "Students teachers parents taxes anger pressure inspire failed.",
+    "Artists collectors dealers contracts bind exploit praise vanished.",
+    "Children adults bosses deadlines worry employ scold slept."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:16:51.554829+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The chef the baker the grocer the farmer helped watched avoided slipped.",
+    "The book the author the critic the reader questioned insulted wrote burned.",
+    "The dog the cat the rat the bug bit chased scratched died.",
+    "The painting the artist the patron the guard distracted hired created faded.",
+    "The patient the doctor the nurse the student assisted called treated recovered."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The chef the baker the grocer the farmer helped watched avoided slipped.\",\n    \"The book the author the critic the reader questioned insulted wrote burned.\",\n    \"The dog the cat the rat the bug bit chased scratched died.\",\n    \"The painting the artist the patron the guard distracted hired created faded.\",\n    \"The patient the doctor the nurse the student assisted called treated recovered.\"\n  ]\n}",
+  "run_idx": 2
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the editor promoted reviewed published sold",
+    "the cake the baker the chef the apprentice decorated sliced served enjoyed",
+    "the car the mechanic the owner the driver repaired inspected purchased drove",
+    "the painting the artist the curator the collector created admired displayed acquired",
+    "the song the composer performed recorded"
+  ],
+  "induced_prompt_raw": "\"Generate nested noun phrases where each subsequent noun phrase modifies the previous one, ensuring all verbs align sequentially at the end.\"",
+  "induced_prompt": "\"Generate nested noun phrases where each subsequent noun phrase modifies the previous one, ensuring all verbs align sequentially at the end.\"",
+  "induced_prompt_chars": 141,
+  "induced_prompt_words": 21,
+  "l1_char_total": 351,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the dog chased barked.\", \"The book the professor recommended intrigued.\", \"The cake the baker decorated delighted.\", \"The car the mechanic repaired stalled.\", \"The painting the artist admired inspired.\"]}",
+  "l2_sentences": [
+    "The cat the dog chased barked.",
+    "The book the professor recommended intrigued.",
+    "The cake the baker decorated delighted.",
+    "The car the mechanic repaired stalled.",
+    "The painting the artist admired inspired."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:13:03.072796+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the editor promoted reviewed published sold",
+    "the cake the baker the chef the apprentice decorated sliced served enjoyed",
+    "the car the mechanic the owner the driver repaired inspected purchased drove",
+    "the painting the artist the curator the collector created admired displayed acquired"
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the editor promoted reviewed published sold",
+    "the cake the baker the chef the apprentice decorated sliced served enjoyed",
+    "the car the mechanic the owner the driver repaired inspected purchased drove",
+    "the painting the artist the curator the collector created admired displayed acquired",
+    "the song the composer performed recorded"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the editor promoted reviewed published sold\", \"the cake the baker the chef the apprentice decorated sliced served enjoyed\", \"the car the mechanic the owner the driver repaired inspected purchased drove\", \"the painting the artist the curator the collector created admired displayed acquired\", \"the song the composer performed recorded\"]}",
+  "run_idx": 21
+}

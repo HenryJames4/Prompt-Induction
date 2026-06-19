@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the company hired contacted praised sold",
+    "the movie the director the producer the studio funded hired made flopped",
+    "the cake the baker the customer the child pleased thanked baked rose",
+    "the letter the secretary the manager the intern assisted directed wrote arrived",
+    "the boy the girl the dog saw liked smiled"
+  ],
+  "induced_prompt_raw": "Generate a sentence with four nested relative clauses in the pattern: the N1 the N2 the N3 the N4 V4 V3 V2 V1. V4 must be transitive with subject N4 and object N3; V3 transitive with subject N3 and object N2; V2 transitive with subject N2 and object N1; V1 intransitive with subject N1. Use exactly four nouns and four verbs.",
+  "induced_prompt": "Generate a sentence with four nested relative clauses in the pattern: the N1 the N2 the N3 the N4 V4 V3 V2 V1. V4 must be transitive with subject N4 and object N3; V3 transitive with subject N3 and object N2; V2 transitive with subject N2 and object N1; V1 intransitive with subject N1. Use exactly four nouns and four verbs.",
+  "induced_prompt_chars": 325,
+  "induced_prompt_words": 61,
+  "l1_char_total": 334,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the dog the ball the child throws hits chases sleeps.\", \"the king the assassin the guard the queen hired caught killed ruled.\", \"the tree the lumberjack the company the CEO founded employed cut fell.\", \"the mouse the cat the dog the owner fed chased ignored squeaked.\", \"the book the student the teacher the principal appointed assigned read opened.\"]}",
+  "l2_sentences": [
+    "the cat the dog the ball the child throws hits chases sleeps.",
+    "the king the assassin the guard the queen hired caught killed ruled.",
+    "the tree the lumberjack the company the CEO founded employed cut fell.",
+    "the mouse the cat the dog the owner fed chased ignored squeaked.",
+    "the book the student the teacher the principal appointed assigned read opened."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:25:23.523906+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the company hired contacted praised sold",
+    "the movie the director the producer the studio funded hired made flopped",
+    "the cake the baker the customer the child pleased thanked baked rose",
+    "the letter the secretary the manager the intern assisted directed wrote arrived"
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the company hired contacted praised sold",
+    "the movie the director the producer the studio funded hired made flopped",
+    "the cake the baker the customer the child pleased thanked baked rose",
+    "the letter the secretary the manager the intern assisted directed wrote arrived",
+    "the boy the girl the dog saw liked smiled"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the company hired contacted praised sold\", \"the movie the director the producer the studio funded hired made flopped\", \"the cake the baker the customer the child pleased thanked baked rose\", \"the letter the secretary the manager the intern assisted directed wrote arrived\", \"the boy the girl the dog saw liked smiled\"]}",
+  "run_idx": 29
+}

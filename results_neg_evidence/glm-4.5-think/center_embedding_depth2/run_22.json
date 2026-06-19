@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read vanished.",
+    "The house the builder designed collapsed.",
+    "The idea the committee rejected resurfaced.",
+    "The car the mechanic the owner hired repaired crashed."
+  ],
+  "induced_prompt_raw": "Generate a sentence with one center-embedded relative clause: structure is \"The [noun1] the [noun2] [verb2] [verb1].\" Avoid nested embeddings.",
+  "induced_prompt": "Generate a sentence with one center-embedded relative clause: structure is \"The [noun1] the [noun2] [verb2] [verb1].\" Avoid nested embeddings.",
+  "induced_prompt_chars": 142,
+  "induced_prompt_words": 19,
+  "l1_char_total": 204,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased ran away.\",\n    \"The boy the girl pushed cried loudly.\",\n    \"The book the student read was interesting.\",\n    \"The car the mechanic fixed started immediately.\",\n    \"The house the storm damaged collapsed yesterday.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the dog chased ran away.",
+    "The boy the girl pushed cried loudly.",
+    "The book the student read was interesting.",
+    "The car the mechanic fixed started immediately.",
+    "The house the storm damaged collapsed yesterday."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:54:04.982074+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased escaped.",
+    "The book the student read vanished.",
+    "The house the builder designed collapsed.",
+    "The idea the committee rejected resurfaced."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read vanished.",
+    "The house the builder designed collapsed.",
+    "The idea the committee rejected resurfaced.",
+    "The car the mechanic the owner hired repaired crashed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The book the student read vanished.\",\n    \"The house the builder designed collapsed.\",\n    \"The idea the committee rejected resurfaced.\",\n    \"The car the mechanic the owner hired repaired crashed.\"\n  ]\n}\n```",
+  "run_idx": 22
+}

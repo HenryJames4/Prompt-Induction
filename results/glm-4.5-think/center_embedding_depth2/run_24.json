@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the car the mechanic fixed started.",
+    "the book the student read inspired.",
+    "the house the builder constructed collapsed.",
+    "the cake the chef baked delighted.",
+    "the tree the gardener planted grew."
+  ],
+  "induced_prompt_raw": "Reduced relative clause: noun, agent, past verb, main verb.",
+  "induced_prompt": "Reduced relative clause: noun, agent, past verb, main verb.",
+  "induced_prompt_chars": 59,
+  "induced_prompt_words": 9,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The man bitten by the dog screamed.\",\n    \"The window broken by the boy shattered.\",\n    \"The letter written by the secretary arrived.\",\n    \"The cake decorated by the chef looked beautiful.\",\n    \"The bridge designed by the engineers collapsed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The man bitten by the dog screamed.",
+    "The window broken by the boy shattered.",
+    "The letter written by the secretary arrived.",
+    "The cake decorated by the chef looked beautiful.",
+    "The bridge designed by the engineers collapsed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:26:36.742484+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the mechanic fixed started.",
+    "the book the student read inspired.",
+    "the house the builder constructed collapsed.",
+    "the cake the chef baked delighted.",
+    "the tree the gardener planted grew."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the mechanic fixed started.\",\n    \"the book the student read inspired.\",\n    \"the house the builder constructed collapsed.\",\n    \"the cake the chef baked delighted.\",\n    \"the tree the gardener planted grew.\"\n  ]\n}\n```",
+  "run_idx": 24
+}

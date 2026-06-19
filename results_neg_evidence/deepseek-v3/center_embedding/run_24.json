@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the agent contacted printed released sold.",
+    "The cake the baker the chef the apprentice decorated baked served tasted.",
+    "The song the singer the composer the producer recorded released performed faded.",
+    "The car the driver the mechanic the engineer repaired drove tested crashed.",
+    "The film the director the actor praised released succeeded."
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring all verbs correctly chain back to the initial subject. Avoid incomplete or mismatched clause structures.\"",
+  "induced_prompt": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring all verbs correctly chain back to the initial subject. Avoid incomplete or mismatched clause structures.\"",
+  "induced_prompt_chars": 210,
+  "induced_prompt_words": 29,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The artist who painted the mural that captivated the audience who attended the festival where local talents were showcased received widespread acclaim.\", \"The chef who prepared the dish that delighted the guests who celebrated the anniversary that marked fifty years of the restaurant's success shared her secret recipe.\", \"The teacher who inspired the student who wrote the essay that won the competition which recognized young writers encouraged creativity in her classroom.\", \"The scientist who developed the theory that explained the phenomenon that puzzled researchers who studied the cosmos published her findings in a prestigious journal.\", \"The gardener who planted the tree that provided shade for the park where children played who enjoyed the cool breeze thanked the community for their support.\"]}",
+  "l2_sentences": [
+    "The artist who painted the mural that captivated the audience who attended the festival where local talents were showcased received widespread acclaim.",
+    "The chef who prepared the dish that delighted the guests who celebrated the anniversary that marked fifty years of the restaurant's success shared her secret recipe.",
+    "The teacher who inspired the student who wrote the essay that won the competition which recognized young writers encouraged creativity in her classroom.",
+    "The scientist who developed the theory that explained the phenomenon that puzzled researchers who studied the cosmos published her findings in a prestigious journal.",
+    "The gardener who planted the tree that provided shade for the park where children played who enjoyed the cool breeze thanked the community for their support."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:17:59.991377+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the agent contacted printed released sold.",
+    "The cake the baker the chef the apprentice decorated baked served tasted.",
+    "The song the singer the composer the producer recorded released performed faded.",
+    "The car the driver the mechanic the engineer repaired drove tested crashed."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the agent contacted printed released sold.",
+    "The cake the baker the chef the apprentice decorated baked served tasted.",
+    "The song the singer the composer the producer recorded released performed faded.",
+    "The car the driver the mechanic the engineer repaired drove tested crashed.",
+    "The film the director the actor praised released succeeded."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the agent contacted printed released sold.\", \"The cake the baker the chef the apprentice decorated baked served tasted.\", \"The song the singer the composer the producer recorded released performed faded.\", \"The car the driver the mechanic the engineer repaired drove tested crashed.\", \"The film the director the actor praised released succeeded.\"]}",
+  "run_idx": 24
+}

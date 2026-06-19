@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The bridge the engineer designed collapsed.",
+    "The song the singer performed resonated.",
+    "The letter the lawyer drafted arrived."
+  ],
+  "induced_prompt_raw": "Write sentences where a noun is followed by a relative clause (subject-gap) and then a simple intransitive verb.",
+  "induced_prompt": "Write sentences where a noun is followed by a relative clause (subject-gap) and then a simple intransitive verb.",
+  "induced_prompt_chars": 112,
+  "induced_prompt_words": 18,
+  "l1_char_total": 196,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The dog that chased the cat slept.\", \"The woman who called the doctor smiled.\", \"The boy who kicked the ball ran.\", \"The scientist who solved the problem laughed.\", \"The bird that escaped the cage sang.\"]}\n```",
+  "l2_sentences": [
+    "The dog that chased the cat slept.",
+    "The woman who called the doctor smiled.",
+    "The boy who kicked the ball ran.",
+    "The scientist who solved the problem laughed.",
+    "The bird that escaped the cage sang."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:35:35.555724+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The bridge the engineer designed collapsed.",
+    "The song the singer performed resonated.",
+    "The letter the lawyer drafted arrived."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed passed.\", \"The cake the chef baked disappeared.\", \"The bridge the engineer designed collapsed.\", \"The song the singer performed resonated.\", \"The letter the lawyer drafted arrived.\"]}\n```",
+  "run_idx": 1
+}

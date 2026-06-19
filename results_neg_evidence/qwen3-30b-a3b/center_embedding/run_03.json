@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the librarian recommended borrowed returned vanished.",
+    "the letter the secretary the manager the director reviewed signed sent disappeared.",
+    "the document the clerk the supervisor the director examined approved forwarded vanished.",
+    "the proposal the intern the manager the director evaluated accepted submitted disappeared.",
+    "the story the author the editor the publisher released published was praised."
+  ],
+  "induced_prompt_raw": "Generate a sentence with a chain of nested clauses where each subject performs an action on an object, and the final object vanishes, ensuring each verb is used only once and no redundant or repeated actions occur.",
+  "induced_prompt": "Generate a sentence with a chain of nested clauses where each subject performs an action on an object, and the final object vanishes, ensuring each verb is used only once and no redundant or repeated actions occur.",
+  "induced_prompt_chars": 214,
+  "induced_prompt_words": 37,
+  "l1_char_total": 424,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The child who opened the box that contained the toy that had been hidden by the dog finally found the key that unlocked the chest, which vanished when the last page of the book was burned.\", \"The artist who painted the mural that covered the wall that had been repaired by the worker who fixed the roof that leaked during the storm completed the final stroke, which dissolved into smoke.\", \"The scholar who deciphered the manuscript that described the ritual that summoned the spirit that had been imprisoned in the mirror released the entity, which faded into nothingness.\", \"The explorer who followed the map that led to the cave that housed the artifact that had been lost for centuries activated the device, which disappeared upon the final command.\", \"The inventor who built the machine that powered the light that illuminated the room that had been dark for years triggered the switch, which vanished as the last beam of energy faded.\"]}",
+  "l2_sentences": [
+    "The child who opened the box that contained the toy that had been hidden by the dog finally found the key that unlocked the chest, which vanished when the last page of the book was burned.",
+    "The artist who painted the mural that covered the wall that had been repaired by the worker who fixed the roof that leaked during the storm completed the final stroke, which dissolved into smoke.",
+    "The scholar who deciphered the manuscript that described the ritual that summoned the spirit that had been imprisoned in the mirror released the entity, which faded into nothingness.",
+    "The explorer who followed the map that led to the cave that housed the artifact that had been lost for centuries activated the device, which disappeared upon the final command.",
+    "The inventor who built the machine that powered the light that illuminated the room that had been dark for years triggered the switch, which vanished as the last beam of energy faded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:44:42.020357+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the librarian recommended borrowed returned vanished.",
+    "the letter the secretary the manager the director reviewed signed sent disappeared.",
+    "the document the clerk the supervisor the director examined approved forwarded vanished.",
+    "the proposal the intern the manager the director evaluated accepted submitted disappeared."
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the librarian recommended borrowed returned vanished.",
+    "the letter the secretary the manager the director reviewed signed sent disappeared.",
+    "the document the clerk the supervisor the director examined approved forwarded vanished.",
+    "the proposal the intern the manager the director evaluated accepted submitted disappeared.",
+    "the story the author the editor the publisher released published was praised."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian recommended borrowed returned vanished.\", \"the letter the secretary the manager the director reviewed signed sent disappeared.\", \"the document the clerk the supervisor the director examined approved forwarded vanished.\", \"the proposal the intern the manager the director evaluated accepted submitted disappeared.\", \"the story the author the editor the publisher released published was praised.\"]}",
+  "run_idx": 3
+}

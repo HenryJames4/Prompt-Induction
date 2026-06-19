@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student read fascinated.",
+    "The letter the manager signed arrived.",
+    "The film the director edited premiered.",
+    "The report the analyst submitted concluded.",
+    "The article the writer the editor revised published criticized."
+  ],
+  "induced_prompt_raw": "\"Write sentences where a noun is modified by a clause describing an action related to it, ensuring each clause directly modifies the noun without nesting additional clauses.\"",
+  "induced_prompt": "\"Write sentences where a noun is modified by a clause describing an action related to it, ensuring each clause directly modifies the noun without nesting additional clauses.\"",
+  "induced_prompt_chars": 174,
+  "induced_prompt_words": 27,
+  "l1_char_total": 220,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog that chased the cat ran into the yard.\", \"The book that fell off the shelf landed on the floor.\", \"The car that sped through the intersection caused an accident.\", \"The child who painted the picture smiled proudly.\", \"The cake that burned in the oven filled the kitchen with smoke.\"]}",
+  "l2_sentences": [
+    "The dog that chased the cat ran into the yard.",
+    "The book that fell off the shelf landed on the floor.",
+    "The car that sped through the intersection caused an accident.",
+    "The child who painted the picture smiled proudly.",
+    "The cake that burned in the oven filled the kitchen with smoke."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:39:02.529634+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student read fascinated.",
+    "The letter the manager signed arrived.",
+    "The film the director edited premiered.",
+    "The report the analyst submitted concluded."
+  ],
+  "l1_sentences": [
+    "The book the student read fascinated.",
+    "The letter the manager signed arrived.",
+    "The film the director edited premiered.",
+    "The report the analyst submitted concluded.",
+    "The article the writer the editor revised published criticized."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the student read fascinated.\", \"The letter the manager signed arrived.\", \"The film the director edited premiered.\", \"The report the analyst submitted concluded.\", \"The article the writer the editor revised published criticized.\"]}",
+  "run_idx": 6
+}

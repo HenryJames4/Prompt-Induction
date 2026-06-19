@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the report the editor reviewed improved.",
+    "the cake the baker made disappeared.",
+    "the bill the senator drafted passed.",
+    "the letter the lawyer wrote arrived.",
+    "the book the student read helped."
+  ],
+  "induced_prompt_raw": "Write sentences using center-embedded relative clauses, where a definite noun phrase modified by a transitive relative clause serves as the subject of an intransitive main verb.",
+  "induced_prompt": "Write sentences using center-embedded relative clauses, where a definite noun phrase modified by a transitive relative clause serves as the subject of an intransitive main verb.",
+  "induced_prompt_chars": 177,
+  "induced_prompt_words": 26,
+  "l1_char_total": 181,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that the professor recommended disappeared.\", \"The dog that the child frightened ran away.\", \"The letter that the secretary typed arrived.\", \"The witness that the lawyer questioned trembled.\", \"The athlete that the coach trained excelled.\"]}\n```",
+  "l2_sentences": [
+    "The book that the professor recommended disappeared.",
+    "The dog that the child frightened ran away.",
+    "The letter that the secretary typed arrived.",
+    "The witness that the lawyer questioned trembled.",
+    "The athlete that the coach trained excelled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:44:38.270546+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor reviewed improved.",
+    "the cake the baker made disappeared.",
+    "the bill the senator drafted passed.",
+    "the letter the lawyer wrote arrived.",
+    "the book the student read helped."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the report the editor reviewed improved.\", \"the cake the baker made disappeared.\", \"the bill the senator drafted passed.\", \"the letter the lawyer wrote arrived.\", \"the book the student read helped.\"]}\n```",
+  "run_idx": 30
+}

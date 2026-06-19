@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the editor recommended published printed disappeared",
+    "the letter the manager the secretary the assistant drafted signed reviewed vanished",
+    "the package the courier the recipient the neighbor delivered accepted opened disappeared",
+    "the project the engineer the architect the client designed approved implemented failed",
+    "the cake the baker the chef the customer baked decorated served consumed"
+  ],
+  "induced_prompt_raw": "**Prompt:** Generate sentences with nested noun phrases following a \"X the Y the Z the W [verb] [verb] [verb]\" structure, where each subsequent noun modifies the previous one and the verbs describe sequential actions.  \n\n(Note: The prompt is shorter than the original list while capturing the syntactic pattern of chained modifiers and trailing verbs.)",
+  "induced_prompt": "**Prompt:** Generate sentences with nested noun phrases following a \"X the Y the Z the W [verb] [verb] [verb]\" structure, where each subsequent noun modifies the previous one and the verbs describe sequential actions.  \n\n(Note: The prompt is shorter than the original list while capturing the syntactic pattern of chained modifiers and trailing verbs.)",
+  "induced_prompt_chars": 352,
+  "induced_prompt_words": 54,
+  "l1_char_total": 415,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the mouse the cheese the trap caught nibbled sprang.\", \"The king the castle the gate the guard commanded guarded watched.\", \"The teacher the student the book the page read flipped scanned.\", \"The chef the kitchen the pot the soup stirred tasted served.\", \"The artist the canvas the brush the paint applied blended admired.\"]}",
+  "l2_sentences": [
+    "The cat the mouse the cheese the trap caught nibbled sprang.",
+    "The king the castle the gate the guard commanded guarded watched.",
+    "The teacher the student the book the page read flipped scanned.",
+    "The chef the kitchen the pot the soup stirred tasted served.",
+    "The artist the canvas the brush the paint applied blended admired."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:06:01.532156+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the editor recommended published printed disappeared",
+    "the letter the manager the secretary the assistant drafted signed reviewed vanished",
+    "the package the courier the recipient the neighbor delivered accepted opened disappeared",
+    "the project the engineer the architect the client designed approved implemented failed",
+    "the cake the baker the chef the customer baked decorated served consumed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the editor recommended published printed disappeared\", \"the letter the manager the secretary the assistant drafted signed reviewed vanished\", \"the package the courier the recipient the neighbor delivered accepted opened disappeared\", \"the project the engineer the architect the client designed approved implemented failed\", \"the cake the baker the chef the customer baked decorated served consumed\"]}",
+  "run_idx": 4
+}

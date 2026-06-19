@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the agent the publisher contacted recommended wrote sold well.",
+    "the movie the director the actor the producer hired praised directed won awards.",
+    "the house the architect the builder the owner interviewed selected designed collapsed.",
+    "the cake the baker the customer the child watched ordered decorated tasted delicious.",
+    "the dog the cat the mouse chased bit ran."
+  ],
+  "induced_prompt_raw": "Generate a sentence with four consecutive noun phrases starting with 'the', followed by four verbs. The verbs must correspond to the nouns in reverse order: the first verb applies to the fourth noun as subject and the third as object, the second verb to the third as subject and the second as object, the third verb to the second as subject and the first as object, and the fourth verb describes the first noun. Ensure exactly four nouns and four verbs.",
+  "induced_prompt": "Generate a sentence with four consecutive noun phrases starting with 'the', followed by four verbs. The verbs must correspond to the nouns in reverse order: the first verb applies to the fourth noun as subject and the third as object, the second verb to the third as subject and the second as object, the third verb to the second as subject and the first as object, and the fourth verb describes the first noun. Ensure exactly four nouns and four verbs.",
+  "induced_prompt_chars": 453,
+  "induced_prompt_words": 81,
+  "l1_char_total": 374,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The king the queen the knight the dragon attacked rescued obeyed celebrated.\", \"The farmer the corn the rain the sky brought nourished fed rejoiced.\", \"The car the driver the road the rain slickened slowed navigated stopped.\", \"The child the toy the batteries the father bought powered entertained slept.\", \"The writer the editor the manuscript the computer processed edited approved sighed.\"]}",
+  "l2_sentences": [
+    "The king the queen the knight the dragon attacked rescued obeyed celebrated.",
+    "The farmer the corn the rain the sky brought nourished fed rejoiced.",
+    "The car the driver the road the rain slickened slowed navigated stopped.",
+    "The child the toy the batteries the father bought powered entertained slept.",
+    "The writer the editor the manuscript the computer processed edited approved sighed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:02:58.293383+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the agent the publisher contacted recommended wrote sold well.",
+    "the movie the director the actor the producer hired praised directed won awards.",
+    "the house the architect the builder the owner interviewed selected designed collapsed.",
+    "the cake the baker the customer the child watched ordered decorated tasted delicious."
+  ],
+  "l1_sentences": [
+    "the book the author the agent the publisher contacted recommended wrote sold well.",
+    "the movie the director the actor the producer hired praised directed won awards.",
+    "the house the architect the builder the owner interviewed selected designed collapsed.",
+    "the cake the baker the customer the child watched ordered decorated tasted delicious.",
+    "the dog the cat the mouse chased bit ran."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the agent the publisher contacted recommended wrote sold well.\", \"the movie the director the actor the producer hired praised directed won awards.\", \"the house the architect the builder the owner interviewed selected designed collapsed.\", \"the cake the baker the customer the child watched ordered decorated tasted delicious.\", \"the dog the cat the mouse chased bit ran.\"]}",
+  "run_idx": 15
+}

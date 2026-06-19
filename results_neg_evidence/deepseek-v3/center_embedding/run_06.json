@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cake the baker the apprentice the chef decorated baked served melted.",
+    "The book the author the editor the publisher wrote reviewed printed sold.",
+    "The song the singer the composer the producer performed recorded released disappeared.",
+    "The car the mechanic the apprentice the driver repaired tested inspected crashed.",
+    "The painting the artist the curator admired criticized exhibited."
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring grammatical correctness and avoiding ambiguity or incomplete structures.\"",
+  "induced_prompt": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring grammatical correctness and avoiding ambiguity or incomplete structures.\"",
+  "induced_prompt_chars": 178,
+  "induced_prompt_words": 22,
+  "l1_char_total": 378,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library, which was recommended by my professor, who specializes in modern literature, is quite engaging.\", \"The painting that hangs in the gallery, which was donated by a wealthy benefactor, who collected art for decades, is worth millions.\", \"The car that my neighbor drives, which was imported from Germany, where it was manufactured with precision, is highly reliable.\", \"The dog that my sister adopted, which was rescued from a shelter, where it had been waiting for months, is incredibly affectionate.\", \"The software that our team developed, which was tested extensively, ensuring it met all quality standards, has received positive feedback.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library, which was recommended by my professor, who specializes in modern literature, is quite engaging.",
+    "The painting that hangs in the gallery, which was donated by a wealthy benefactor, who collected art for decades, is worth millions.",
+    "The car that my neighbor drives, which was imported from Germany, where it was manufactured with precision, is highly reliable.",
+    "The dog that my sister adopted, which was rescued from a shelter, where it had been waiting for months, is incredibly affectionate.",
+    "The software that our team developed, which was tested extensively, ensuring it met all quality standards, has received positive feedback."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:49:11.326818+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cake the baker the apprentice the chef decorated baked served melted.",
+    "The book the author the editor the publisher wrote reviewed printed sold.",
+    "The song the singer the composer the producer performed recorded released disappeared.",
+    "The car the mechanic the apprentice the driver repaired tested inspected crashed."
+  ],
+  "l1_sentences": [
+    "The cake the baker the apprentice the chef decorated baked served melted.",
+    "The book the author the editor the publisher wrote reviewed printed sold.",
+    "The song the singer the composer the producer performed recorded released disappeared.",
+    "The car the mechanic the apprentice the driver repaired tested inspected crashed.",
+    "The painting the artist the curator admired criticized exhibited."
+  ],
+  "l1_raw": "{\"sentences\": [\"The cake the baker the apprentice the chef decorated baked served melted.\", \"The book the author the editor the publisher wrote reviewed printed sold.\", \"The song the singer the composer the producer performed recorded released disappeared.\", \"The car the mechanic the apprentice the driver repaired tested inspected crashed.\", \"The painting the artist the curator admired criticized exhibited.\"]}",
+  "run_idx": 6
+}

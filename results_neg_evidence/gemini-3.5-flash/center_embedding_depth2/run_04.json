@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the puppy the child adopted barked",
+    "the program the engineer designed crashed",
+    "the cake the baker decorated dropped",
+    "the letter the mailman delivered arrived",
+    "the teacher the student the principal praised questioned smiled"
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly one nested relative clause (e.g., [Subject 1] [Subject 2] [Verb 2] [Verb 1]), avoiding double embeddings or multiple nested clauses.",
+  "induced_prompt": "Generate a sentence with exactly one nested relative clause (e.g., [Subject 1] [Subject 2] [Verb 2] [Verb 1]), avoiding double embeddings or multiple nested clauses.",
+  "induced_prompt_chars": 165,
+  "induced_prompt_words": 25,
+  "l1_char_total": 214,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book the student read was incredibly boring.\",\n    \"The chef the critic praised prepared a wonderful meal.\",\n    \"The house the couple bought needs major repairs.\",\n    \"The cat the boy chased climbed up the tree.\",\n    \"The song the band played became a massive hit.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book the student read was incredibly boring.",
+    "The chef the critic praised prepared a wonderful meal.",
+    "The house the couple bought needs major repairs.",
+    "The cat the boy chased climbed up the tree.",
+    "The song the band played became a massive hit."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:37:20.257523+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the puppy the child adopted barked",
+    "the program the engineer designed crashed",
+    "the cake the baker decorated dropped",
+    "the letter the mailman delivered arrived"
+  ],
+  "l1_sentences": [
+    "the puppy the child adopted barked",
+    "the program the engineer designed crashed",
+    "the cake the baker decorated dropped",
+    "the letter the mailman delivered arrived",
+    "the teacher the student the principal praised questioned smiled"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the puppy the child adopted barked\",\n    \"the program the engineer designed crashed\",\n    \"the cake the baker decorated dropped\",\n    \"the letter the mailman delivered arrived\",\n    \"the teacher the student the principal praised questioned smiled\"\n  ]\n}",
+  "run_idx": 4
+}

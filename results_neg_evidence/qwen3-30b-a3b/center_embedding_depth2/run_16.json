@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the message the sender typed arrived.",
+    "the plan the manager created failed.",
+    "the idea the scientist proposed worked.",
+    "the story the writer told the audience enjoyed the ending."
+  ],
+  "induced_prompt_raw": "Create a sentence with a relative clause modifying a noun, where the main clause has a subject that is the same as the antecedent of the relative clause, and the verb in the main clause describes the success or failure of the action in the relative clause.",
+  "induced_prompt": "Create a sentence with a relative clause modifying a noun, where the main clause has a subject that is the same as the antecedent of the relative clause, and the verb in the main clause describes the success or failure of the action in the relative clause.",
+  "induced_prompt_chars": 256,
+  "induced_prompt_words": 47,
+  "l1_char_total": 201,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The student who studied all night passed the exam.\", \"The team that practiced every day won the championship.\", \"The writer who revised her manuscript published her book.\", \"The athlete who trained rigorously qualified for the finals.\", \"The chef who perfected the recipe served a flawless dinner.\"]}",
+  "l2_sentences": [
+    "The student who studied all night passed the exam.",
+    "The team that practiced every day won the championship.",
+    "The writer who revised her manuscript published her book.",
+    "The athlete who trained rigorously qualified for the finals.",
+    "The chef who perfected the recipe served a flawless dinner."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:48:15.022756+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the message the sender typed arrived.",
+    "the plan the manager created failed.",
+    "the idea the scientist proposed worked."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the message the sender typed arrived.",
+    "the plan the manager created failed.",
+    "the idea the scientist proposed worked.",
+    "the story the writer told the audience enjoyed the ending."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the message the sender typed arrived.\", \"the plan the manager created failed.\", \"the idea the scientist proposed worked.\", \"the story the writer told the audience enjoyed the ending.\"]}",
+  "run_idx": 16
+}

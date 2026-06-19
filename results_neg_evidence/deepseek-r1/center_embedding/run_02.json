@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the cat the mouse the cheese chased caught ate vanished",
+    "the king the queen the knight the dragon commanded ordered slew fled",
+    "the professor the student the book the library assigned read returned closed",
+    "the chef the waiter the customer the meal prepared served enjoyed complained",
+    "the boy the girl the dog called petted barked"
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with a series of 'the'-preceded nouns followed by an equal number of verbs, ordered from innermost transitive action to outermost, ending with an intransitive verb for the first noun.\"",
+  "induced_prompt": "\"Generate a sentence with a series of 'the'-preceded nouns followed by an equal number of verbs, ordered from innermost transitive action to outermost, ending with an intransitive verb for the first noun.\"",
+  "induced_prompt_chars": 205,
+  "induced_prompt_words": 32,
+  "l1_char_total": 328,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The chef stirs the pot, which simmers the broth, and the chef rests.\", \"The artist paints the canvas, which captivates the audience, and the artist smiles.\", \"The child builds the tower, which topples the blocks, and the child giggles.\", \"The writer pens the novel, which enchants the readers, and the writer sighs.\", \"The teacher explains the lesson, which clarifies the concepts, and the teacher nods.\"]}",
+  "l2_sentences": [
+    "The chef stirs the pot, which simmers the broth, and the chef rests.",
+    "The artist paints the canvas, which captivates the audience, and the artist smiles.",
+    "The child builds the tower, which topples the blocks, and the child giggles.",
+    "The writer pens the novel, which enchants the readers, and the writer sighs.",
+    "The teacher explains the lesson, which clarifies the concepts, and the teacher nods."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:42:39.255428+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the dog the cat the mouse the cheese chased caught ate vanished",
+    "the king the queen the knight the dragon commanded ordered slew fled",
+    "the professor the student the book the library assigned read returned closed",
+    "the chef the waiter the customer the meal prepared served enjoyed complained"
+  ],
+  "l1_sentences": [
+    "the dog the cat the mouse the cheese chased caught ate vanished",
+    "the king the queen the knight the dragon commanded ordered slew fled",
+    "the professor the student the book the library assigned read returned closed",
+    "the chef the waiter the customer the meal prepared served enjoyed complained",
+    "the boy the girl the dog called petted barked"
+  ],
+  "l1_raw": "{\"sentences\": [\n  \"the dog the cat the mouse the cheese chased caught ate vanished\",\n  \"the king the queen the knight the dragon commanded ordered slew fled\",\n  \"the professor the student the book the library assigned read returned closed\",\n  \"the chef the waiter the customer the meal prepared served enjoyed complained\",\n  \"the boy the girl the dog called petted barked\"\n]}",
+  "run_idx": 2
+}

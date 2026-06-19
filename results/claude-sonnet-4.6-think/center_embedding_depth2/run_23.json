@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The book the student read sold.",
+    "The cake the chef baked melted.",
+    "The letter the secretary typed arrived.",
+    "The plan the manager approved failed.",
+    "The song the singer recorded played."
+  ],
+  "induced_prompt_raw": "Write sentences using a reduced relative clause structure: \"The [noun] the [noun] [verb] [verb].\"",
+  "induced_prompt": "Write sentences using a reduced relative clause structure: \"The [noun] the [noun] [verb] [verb].\"",
+  "induced_prompt_chars": 97,
+  "induced_prompt_words": 14,
+  "l1_char_total": 174,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The horse the jockey rode won.\", \"The book the student read disappeared.\", \"The cake the chef baked vanished.\", \"The car the mechanic fixed broke.\", \"The song the singer performed won.\"]}\n```",
+  "l2_sentences": [
+    "The horse the jockey rode won.",
+    "The book the student read disappeared.",
+    "The cake the chef baked vanished.",
+    "The car the mechanic fixed broke.",
+    "The song the singer performed won."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:42:43.843274+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The book the student read sold.",
+    "The cake the chef baked melted.",
+    "The letter the secretary typed arrived.",
+    "The plan the manager approved failed.",
+    "The song the singer recorded played."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The book the student read sold.\", \"The cake the chef baked melted.\", \"The letter the secretary typed arrived.\", \"The plan the manager approved failed.\", \"The song the singer recorded played.\"]}\n```",
+  "run_idx": 23
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic praised sold",
+    "the letter the manager signed arrived",
+    "the cake the chef baked disappeared",
+    "the report the student submitted passed",
+    "the song the band the producer the label signed hired recorded played"
+  ],
+  "induced_prompt_raw": "Write sentences with a single level of center-embedding, where a relative clause modifies the subject noun before the main verb. Avoid multiple nested relative clauses (no more than one embedded clause).",
+  "induced_prompt": "Write sentences with a single level of center-embedding, where a relative clause modifies the subject noun before the main verb. Avoid multiple nested relative clauses (no more than one embedded clause).",
+  "induced_prompt_chars": 203,
+  "induced_prompt_words": 31,
+  "l1_char_total": 212,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that sat on the windowsill watched the birds outside.\", \"The student who studied all night passed the exam with ease.\", \"The book that my grandmother gave me sits on my shelf.\", \"The engineer who designed the bridge received a prestigious award.\", \"The dog that barked all evening finally fell asleep at midnight.\"]}\n```",
+  "l2_sentences": [
+    "The cat that sat on the windowsill watched the birds outside.",
+    "The student who studied all night passed the exam with ease.",
+    "The book that my grandmother gave me sits on my shelf.",
+    "The engineer who designed the bridge received a prestigious award.",
+    "The dog that barked all evening finally fell asleep at midnight."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:56:37.028344+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic praised sold",
+    "the letter the manager signed arrived",
+    "the cake the chef baked disappeared",
+    "the report the student submitted passed"
+  ],
+  "l1_sentences": [
+    "the book the critic praised sold",
+    "the letter the manager signed arrived",
+    "the cake the chef baked disappeared",
+    "the report the student submitted passed",
+    "the song the band the producer the label signed hired recorded played"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the book the critic praised sold\", \"the letter the manager signed arrived\", \"the cake the chef baked disappeared\", \"the report the student submitted passed\", \"the song the band the producer the label signed hired recorded played\"]}\n```",
+  "run_idx": 25
+}

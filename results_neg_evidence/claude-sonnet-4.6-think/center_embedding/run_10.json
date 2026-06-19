@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the professor the student the librarian found helped praised sold",
+    "the car the mechanic the owner the inspector questioned hired repaired stalled",
+    "the building the architect the client the banker funded hired designed collapsed",
+    "the letter the secretary the manager the CEO briefed instructed typed arrived",
+    "the paper the teacher the student impressed graded disappeared"
+  ],
+  "induced_prompt_raw": "Write quadruply center-embedded relative clause sentences following the pattern: **the N1 the N2 the N3 the N4 V4 V3 V2 V1**, where V4 is transitive (N4 acts on N3), V3 is transitive (N3 acts on N2), V2 is transitive (N2 acts on N1), and V1 is intransitive (N1 performs V1). Use exactly 4 noun phrases followed by 4 verbs. Do not use only 3 noun phrases and 3 verbs.",
+  "induced_prompt": "Write quadruply center-embedded relative clause sentences following the pattern: **the N1 the N2 the N3 the N4 V4 V3 V2 V1**, where V4 is transitive (N4 acts on N3), V3 is transitive (N3 acts on N2), V2 is transitive (N2 acts on N1), and V1 is intransitive (N1 performs V1). Use exactly 4 noun phrases followed by 4 verbs. Do not use only 3 noun phrases and 3 verbs.",
+  "induced_prompt_chars": 366,
+  "induced_prompt_words": 69,
+  "l1_char_total": 371,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog the man the woman saw followed chased fled.\",\n    \"The rat the snake the hawk the farmer spotted hunted frightened escaped.\",\n    \"The student the teacher the principal the superintendent hired praised taught graduated.\",\n    \"The book the author the editor the publisher contacted assisted wrote sold.\",\n    \"The horse the jockey the trainer the owner hired coached rode won.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the dog the man the woman saw followed chased fled.",
+    "The rat the snake the hawk the farmer spotted hunted frightened escaped.",
+    "The student the teacher the principal the superintendent hired praised taught graduated.",
+    "The book the author the editor the publisher contacted assisted wrote sold.",
+    "The horse the jockey the trainer the owner hired coached rode won."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:54:22.348213+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the professor the student the librarian found helped praised sold",
+    "the car the mechanic the owner the inspector questioned hired repaired stalled",
+    "the building the architect the client the banker funded hired designed collapsed",
+    "the letter the secretary the manager the CEO briefed instructed typed arrived"
+  ],
+  "l1_sentences": [
+    "the book the professor the student the librarian found helped praised sold",
+    "the car the mechanic the owner the inspector questioned hired repaired stalled",
+    "the building the architect the client the banker funded hired designed collapsed",
+    "the letter the secretary the manager the CEO briefed instructed typed arrived",
+    "the paper the teacher the student impressed graded disappeared"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the professor the student the librarian found helped praised sold\",\n    \"the car the mechanic the owner the inspector questioned hired repaired stalled\",\n    \"the building the architect the client the banker funded hired designed collapsed\",\n    \"the letter the secretary the manager the CEO briefed instructed typed arrived\",\n    \"the paper the teacher the student impressed graded disappeared\"\n  ]\n}\n```",
+  "run_idx": 10
+}

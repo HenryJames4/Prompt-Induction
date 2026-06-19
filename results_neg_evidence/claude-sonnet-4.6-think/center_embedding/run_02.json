@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the manager the supervisor the assistant briefed consulted submitted circulated",
+    "the bill the senator the lobbyist the aide contacted persuaded sponsored passed",
+    "the experiment the professor the researcher the student assisted impressed funded succeeded",
+    "the project the director the engineer the intern shadowed briefed approved launched",
+    "the novel the author the publisher contacted wrote released"
+  ],
+  "induced_prompt_raw": "Write quadruply center-embedded sentences using exactly 4 noun phrases followed by exactly 4 verbs, in the form: **[the N1] [the N2] [the N3] [the N4] [V1] [V2] [V3] [V4]**, where the verbs pair with the nouns in reverse order. Always use 4 nouns and 4 verbs — never 3.",
+  "induced_prompt": "Write quadruply center-embedded sentences using exactly 4 noun phrases followed by exactly 4 verbs, in the form: **[the N1] [the N2] [the N3] [the N4] [V1] [V2] [V3] [V4]**, where the verbs pair with the nouns in reverse order. Always use 4 nouns and 4 verbs — never 3.",
+  "induced_prompt_chars": 269,
+  "induced_prompt_words": 49,
+  "l1_char_total": 402,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog the cat the rat the elephant scared bit chased ran.\",\n    \"The student the teacher the principal the board hired fired taught graduated.\",\n    \"The bill the senator the lobbyist the corporation funded supported drafted passed.\",\n    \"The symphony the orchestra the conductor the composer hired conducted performed premiered.\",\n    \"The cheese the mouse the cat the dog chased caught ate disappeared.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog the cat the rat the elephant scared bit chased ran.",
+    "The student the teacher the principal the board hired fired taught graduated.",
+    "The bill the senator the lobbyist the corporation funded supported drafted passed.",
+    "The symphony the orchestra the conductor the composer hired conducted performed premiered.",
+    "The cheese the mouse the cat the dog chased caught ate disappeared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:43:18.148796+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the manager the supervisor the assistant briefed consulted submitted circulated",
+    "the bill the senator the lobbyist the aide contacted persuaded sponsored passed",
+    "the experiment the professor the researcher the student assisted impressed funded succeeded",
+    "the project the director the engineer the intern shadowed briefed approved launched"
+  ],
+  "l1_sentences": [
+    "the report the manager the supervisor the assistant briefed consulted submitted circulated",
+    "the bill the senator the lobbyist the aide contacted persuaded sponsored passed",
+    "the experiment the professor the researcher the student assisted impressed funded succeeded",
+    "the project the director the engineer the intern shadowed briefed approved launched",
+    "the novel the author the publisher contacted wrote released"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the report the manager the supervisor the assistant briefed consulted submitted circulated\",\n    \"the bill the senator the lobbyist the aide contacted persuaded sponsored passed\",\n    \"the experiment the professor the researcher the student assisted impressed funded succeeded\",\n    \"the project the director the engineer the intern shadowed briefed approved launched\",\n    \"the novel the author the publisher contacted wrote released\"\n  ]\n}\n```",
+  "run_idx": 2
+}

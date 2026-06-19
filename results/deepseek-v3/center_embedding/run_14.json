@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the student recommended printed read disappeared",
+    "the cake the chef the baker the apprentice prepared decorated served melted",
+    "the car the driver the mechanic the apprentice fixed cleaned inspected crashed",
+    "the letter the writer the editor the assistant drafted revised approved vanished",
+    "the picture the artist the curator the assistant painted framed displayed faded"
+  ],
+  "induced_prompt_raw": "Describe a sequence where a creator, a collaborator, and an observer interact with an object, leading to its transformation or disappearance.",
+  "induced_prompt": "Describe a sequence where a creator, a collaborator, and an observer interact with an object, leading to its transformation or disappearance.",
+  "induced_prompt_chars": 141,
+  "induced_prompt_words": 21,
+  "l1_char_total": 394,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The creator sculpts a clay vase, shaping it with precise movements.\", \"A collaborator paints intricate designs onto the vase, adding vibrant colors.\", \"An observer carefully inspects the vase, noting its craftsmanship and artistry.\", \"As the observer steps back, the vase wobbles and falls to the ground, shattering.\", \"The fragments disappear into the earth, leaving no trace of the once-beautiful object.\"]}",
+  "l2_sentences": [
+    "The creator sculpts a clay vase, shaping it with precise movements.",
+    "A collaborator paints intricate designs onto the vase, adding vibrant colors.",
+    "An observer carefully inspects the vase, noting its craftsmanship and artistry.",
+    "As the observer steps back, the vase wobbles and falls to the ground, shattering.",
+    "The fragments disappear into the earth, leaving no trace of the once-beautiful object."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:26:20.357951+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the student recommended printed read disappeared",
+    "the cake the chef the baker the apprentice prepared decorated served melted",
+    "the car the driver the mechanic the apprentice fixed cleaned inspected crashed",
+    "the letter the writer the editor the assistant drafted revised approved vanished",
+    "the picture the artist the curator the assistant painted framed displayed faded"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the author the publisher the student recommended printed read disappeared\",\n    \"the cake the chef the baker the apprentice prepared decorated served melted\",\n    \"the car the driver the mechanic the apprentice fixed cleaned inspected crashed\",\n    \"the letter the writer the editor the assistant drafted revised approved vanished\",\n    \"the picture the artist the curator the assistant painted framed displayed faded\"\n  ]\n}",
+  "run_idx": 14
+}

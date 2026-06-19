@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read was interesting.",
+    "The car the mechanic repaired broke down.",
+    "The house the builder constructed collapsed.",
+    "The movie the critic reviewed received awards."
+  ],
+  "induced_prompt_raw": "Sentences with center-embedded relative clauses.",
+  "induced_prompt": "Sentences with center-embedded relative clauses.",
+  "induced_prompt_chars": 48,
+  "induced_prompt_words": 5,
+  "l1_char_total": 204,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog that the boy owned chased ran away.\",\n    \"The book that the professor who the students respected wrote became a bestseller.\",\n    \"The house that the architect who the magazine featured designed won an award.\",\n    \"The car that the mechanic who the dealer recommended fixed runs perfectly now.\",\n    \"The painting that the artist who the gallery represented created sold for a million dollars.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog that the boy owned chased ran away.",
+    "The book that the professor who the students respected wrote became a bestseller.",
+    "The house that the architect who the magazine featured designed won an award.",
+    "The car that the mechanic who the dealer recommended fixed runs perfectly now.",
+    "The painting that the artist who the gallery represented created sold for a million dollars."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:04:07.653570+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read was interesting.",
+    "The car the mechanic repaired broke down.",
+    "The house the builder constructed collapsed.",
+    "The movie the critic reviewed received awards."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The book the student read was interesting.\",\n    \"The car the mechanic repaired broke down.\",\n    \"The house the builder constructed collapsed.\",\n    \"The movie the critic reviewed received awards.\"\n  ]\n}",
+  "run_idx": 5
+}

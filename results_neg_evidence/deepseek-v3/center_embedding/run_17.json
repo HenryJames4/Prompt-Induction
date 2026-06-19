@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the editor signed promoted released sold",
+    "the cake the chef the baker the apprentice decorated baked served tasted",
+    "the painting the artist the curator the gallery displayed restored admired acquired",
+    "the car the driver the mechanic the technician inspected repaired drove crashed",
+    "the dog the trainer the owner trained fed walked"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested noun phrases where each subsequent noun phrase modifies the previous one, ensuring all verbs logically chain back to the initial noun. Avoid illogical or mismatched verb-noun relationships.\"",
+  "induced_prompt": "\"Generate sentences with nested noun phrases where each subsequent noun phrase modifies the previous one, ensuring all verbs logically chain back to the initial noun. Avoid illogical or mismatched verb-noun relationships.\"",
+  "induced_prompt_chars": 222,
+  "induced_prompt_words": 31,
+  "l1_char_total": 356,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The teacher, a mentor of the students, inspired the group.\", \"The dog, a rescuer of the child, barked loudly.\", \"The book, a guide of the traveler, provided useful tips.\", \"The chef, a creator of the dish, perfected the recipe.\", \"The musician, a composer of the symphony, played beautifully.\"]}",
+  "l2_sentences": [
+    "The teacher, a mentor of the students, inspired the group.",
+    "The dog, a rescuer of the child, barked loudly.",
+    "The book, a guide of the traveler, provided useful tips.",
+    "The chef, a creator of the dish, perfected the recipe.",
+    "The musician, a composer of the symphony, played beautifully."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:06:35.657183+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the editor signed promoted released sold",
+    "the cake the chef the baker the apprentice decorated baked served tasted",
+    "the painting the artist the curator the gallery displayed restored admired acquired",
+    "the car the driver the mechanic the technician inspected repaired drove crashed"
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the editor signed promoted released sold",
+    "the cake the chef the baker the apprentice decorated baked served tasted",
+    "the painting the artist the curator the gallery displayed restored admired acquired",
+    "the car the driver the mechanic the technician inspected repaired drove crashed",
+    "the dog the trainer the owner trained fed walked"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the editor signed promoted released sold\", \"the cake the chef the baker the apprentice decorated baked served tasted\", \"the painting the artist the curator the gallery displayed restored admired acquired\", \"the car the driver the mechanic the technician inspected repaired drove crashed\", \"the dog the trainer the owner trained fed walked\"]}",
+  "run_idx": 17
+}

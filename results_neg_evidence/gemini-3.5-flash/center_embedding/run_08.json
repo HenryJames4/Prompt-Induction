@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The car the mechanic the apprentice the owner hired assisted repaired crashed.",
+    "The song the singer the producer the director hired advised recorded failed.",
+    "The painting the artist the collector the dealer consulted met created sold.",
+    "The dog the boy the girl walked saw barked."
+  ],
+  "induced_prompt_raw": "Generate a grammatically valid sentence containing exactly three nested relative clauses (a quadruple-subject, quadruple-verb center-embedded structure like \"The [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\"). Avoid under-embedding or using only two relative clauses (like \"Noun1 Noun2 Noun3 Verb3 Verb2 Verb1\").",
+  "induced_prompt": "Generate a grammatically valid sentence containing exactly three nested relative clauses (a quadruple-subject, quadruple-verb center-embedded structure like \"The [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\"). Avoid under-embedding or using only two relative clauses (like \"Noun1 Noun2 Noun3 Verb3 Verb2 Verb1\").",
+  "induced_prompt_chars": 343,
+  "induced_prompt_words": 44,
+  "l1_char_total": 350,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the cat the rat the cheese attracted bit chased barked.\",\n    \"The program the coder the firm the client hired managed wrote crashed.\",\n    \"The book the student the teacher the principal praised recommended read inspired.\",\n    \"The car the mechanic the driver the owner hired questioned fixed stalled.\",\n    \"The song the singer the writer the producer selected hated performed failed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the cat the rat the cheese attracted bit chased barked.",
+    "The program the coder the firm the client hired managed wrote crashed.",
+    "The book the student the teacher the principal praised recommended read inspired.",
+    "The car the mechanic the driver the owner hired questioned fixed stalled.",
+    "The song the singer the writer the producer selected hated performed failed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:52:26.289322+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The car the mechanic the apprentice the owner hired assisted repaired crashed.",
+    "The song the singer the producer the director hired advised recorded failed.",
+    "The painting the artist the collector the dealer consulted met created sold."
+  ],
+  "l1_sentences": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The car the mechanic the apprentice the owner hired assisted repaired crashed.",
+    "The song the singer the producer the director hired advised recorded failed.",
+    "The painting the artist the collector the dealer consulted met created sold.",
+    "The dog the boy the girl walked saw barked."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the principal praised recommended read lost.\",\n    \"The car the mechanic the apprentice the owner hired assisted repaired crashed.\",\n    \"The song the singer the producer the director hired advised recorded failed.\",\n    \"The painting the artist the collector the dealer consulted met created sold.\",\n    \"The dog the boy the girl walked saw barked.\"\n  ]\n}",
+  "run_idx": 8
+}

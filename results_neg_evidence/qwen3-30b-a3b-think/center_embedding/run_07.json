@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the manuscript the editor the author the reviewer proofread submitted accepted published",
+    "the proposal the committee the researcher the student presented reviewed approved submitted",
+    "the contract the lawyer the client the witness reviewed amended signed expired",
+    "the document the clerk the manager the intern typed checked signed filed",
+    "the report the editor the assistant consulted revised approved"
+  ],
+  "induced_prompt_raw": "4 phrases each beginning with the followed by 4 verbs",
+  "induced_prompt": "4 phrases each beginning with the followed by 4 verbs",
+  "induced_prompt_chars": 53,
+  "induced_prompt_words": 10,
+  "l1_char_total": 391,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat purrs, stretches, naps, and chases.\", \"The children laugh, play, shout, and run.\", \"The sun shines, warms, glows, and sets.\", \"The wind blows, howls, rustles, and dies.\", \"The clock ticks, chimes, counts, and stops.\"]}",
+  "l2_sentences": [
+    "The cat purrs, stretches, naps, and chases.",
+    "The children laugh, play, shout, and run.",
+    "The sun shines, warms, glows, and sets.",
+    "The wind blows, howls, rustles, and dies.",
+    "The clock ticks, chimes, counts, and stops."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:49:58.733478+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the manuscript the editor the author the reviewer proofread submitted accepted published",
+    "the proposal the committee the researcher the student presented reviewed approved submitted",
+    "the contract the lawyer the client the witness reviewed amended signed expired",
+    "the document the clerk the manager the intern typed checked signed filed"
+  ],
+  "l1_sentences": [
+    "the manuscript the editor the author the reviewer proofread submitted accepted published",
+    "the proposal the committee the researcher the student presented reviewed approved submitted",
+    "the contract the lawyer the client the witness reviewed amended signed expired",
+    "the document the clerk the manager the intern typed checked signed filed",
+    "the report the editor the assistant consulted revised approved"
+  ],
+  "l1_raw": "{\"sentences\": [\"the manuscript the editor the author the reviewer proofread submitted accepted published\", \"the proposal the committee the researcher the student presented reviewed approved submitted\", \"the contract the lawyer the client the witness reviewed amended signed expired\", \"the document the clerk the manager the intern typed checked signed filed\", \"the report the editor the assistant consulted revised approved\"]}",
+  "run_idx": 7
+}

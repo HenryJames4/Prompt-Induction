@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the professor the student the librarian recommended helped wrote sold",
+    "the proposal the manager the analyst the director hired trained submitted failed",
+    "the article the editor the critic the writer met convinced accepted circulated",
+    "the car the mechanic the customer the dealer recommended hired fixed started",
+    "the document the lawyer the clerk filed reviewed disappeared"
+  ],
+  "induced_prompt_raw": "Generate quadruply center-embedded relative clause sentences following the pattern: **[the NP1 the NP2 the NP3 the NP4 V4 V3 V2 V1]**, where four noun phrases appear first, then four verbs in reverse correspondence. Use exactly 4 NPs and 4 verbs. Do not use only 3 noun phrases and 3 verbs.",
+  "induced_prompt": "Generate quadruply center-embedded relative clause sentences following the pattern: **[the NP1 the NP2 the NP3 the NP4 V4 V3 V2 V1]**, where four noun phrases appear first, then four verbs in reverse correspondence. Use exactly 4 NPs and 4 verbs. Do not use only 3 noun phrases and 3 verbs.",
+  "induced_prompt_chars": 290,
+  "induced_prompt_words": 50,
+  "l1_char_total": 372,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat the cat the dog the man trained chased bit died.\",\n    \"The student the teacher the principal the superintendent hired evaluated taught graduated.\",\n    \"The car the mechanic the dealer the factory supplied hired fixed worked.\",\n    \"The novel the author the editor the publisher hired mentored wrote sold.\",\n    \"The trophy the athlete the coach the committee selected trained won gleamed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man trained chased bit died.",
+    "The student the teacher the principal the superintendent hired evaluated taught graduated.",
+    "The car the mechanic the dealer the factory supplied hired fixed worked.",
+    "The novel the author the editor the publisher hired mentored wrote sold.",
+    "The trophy the athlete the coach the committee selected trained won gleamed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:47:38.562223+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the professor the student the librarian recommended helped wrote sold",
+    "the proposal the manager the analyst the director hired trained submitted failed",
+    "the article the editor the critic the writer met convinced accepted circulated",
+    "the car the mechanic the customer the dealer recommended hired fixed started"
+  ],
+  "l1_sentences": [
+    "the book the professor the student the librarian recommended helped wrote sold",
+    "the proposal the manager the analyst the director hired trained submitted failed",
+    "the article the editor the critic the writer met convinced accepted circulated",
+    "the car the mechanic the customer the dealer recommended hired fixed started",
+    "the document the lawyer the clerk filed reviewed disappeared"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the professor the student the librarian recommended helped wrote sold\",\n    \"the proposal the manager the analyst the director hired trained submitted failed\",\n    \"the article the editor the critic the writer met convinced accepted circulated\",\n    \"the car the mechanic the customer the dealer recommended hired fixed started\",\n    \"the document the lawyer the clerk filed reviewed disappeared\"\n  ]\n}\n```",
+  "run_idx": 5
+}

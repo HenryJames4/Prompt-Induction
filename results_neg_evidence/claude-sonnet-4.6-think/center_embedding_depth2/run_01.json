@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the proposal the reviewer approved passed",
+    "the report the manager submitted was rejected",
+    "the book the student read was fascinating",
+    "the letter the secretary typed was sent",
+    "the report the manager the assistant hired submitted was rejected"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (e.g., \"the [noun] the [noun] [verb] [verb]...\"), using only one level of embedding. Do not nest a second relative clause inside the first.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (e.g., \"the [noun] the [noun] [verb] [verb]...\"), using only one level of embedding. Do not nest a second relative clause inside the first.",
+  "induced_prompt_chars": 201,
+  "induced_prompt_words": 31,
+  "l1_char_total": 231,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog chased ran away.\", \"The book the professor recommended was fascinating.\", \"The letter the secretary typed was sent immediately.\", \"The cake the baker made was absolutely delicious.\", \"The man the detective questioned confessed to the crime.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog chased ran away.",
+    "The book the professor recommended was fascinating.",
+    "The letter the secretary typed was sent immediately.",
+    "The cake the baker made was absolutely delicious.",
+    "The man the detective questioned confessed to the crime."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:35:01.024633+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the proposal the reviewer approved passed",
+    "the report the manager submitted was rejected",
+    "the book the student read was fascinating",
+    "the letter the secretary typed was sent"
+  ],
+  "l1_sentences": [
+    "the proposal the reviewer approved passed",
+    "the report the manager submitted was rejected",
+    "the book the student read was fascinating",
+    "the letter the secretary typed was sent",
+    "the report the manager the assistant hired submitted was rejected"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the proposal the reviewer approved passed\", \"the report the manager submitted was rejected\", \"the book the student read was fascinating\", \"the letter the secretary typed was sent\", \"the report the manager the assistant hired submitted was rejected\"]}\n```",
+  "run_idx": 1
+}

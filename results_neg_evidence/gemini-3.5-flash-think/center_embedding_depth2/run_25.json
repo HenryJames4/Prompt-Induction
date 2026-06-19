@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student read vanished.",
+    "The mouse the cat chased escaped.",
+    "The phone the boy dropped broke.",
+    "The cake the girl baked burned.",
+    "The rat the cat the dog chased bit died."
+  ],
+  "induced_prompt_raw": "Generate sentences with exactly one center-embedded relative clause (e.g., \"The [noun] the [noun] [verb] [verb]\"). Avoid double center-embedding (structures with three nested nouns and verbs).",
+  "induced_prompt": "Generate sentences with exactly one center-embedded relative clause (e.g., \"The [noun] the [noun] [verb] [verb]\"). Avoid double center-embedding (structures with three nested nouns and verbs).",
+  "induced_prompt_chars": 192,
+  "induced_prompt_words": 25,
+  "l1_char_total": 171,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The car the man bought broke down on the highway.\",\n    \"The book the student read was highly informative.\",\n    \"The actor the director hired won an award.\",\n    \"The computer the programmer used crashed unexpectedly.\",\n    \"The coffee the barista brewed smelled amazing.\"\n  ]\n}",
+  "l2_sentences": [
+    "The car the man bought broke down on the highway.",
+    "The book the student read was highly informative.",
+    "The actor the director hired won an award.",
+    "The computer the programmer used crashed unexpectedly.",
+    "The coffee the barista brewed smelled amazing."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:56:26.912613+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student read vanished.",
+    "The mouse the cat chased escaped.",
+    "The phone the boy dropped broke.",
+    "The cake the girl baked burned."
+  ],
+  "l1_sentences": [
+    "The book the student read vanished.",
+    "The mouse the cat chased escaped.",
+    "The phone the boy dropped broke.",
+    "The cake the girl baked burned.",
+    "The rat the cat the dog chased bit died."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student read vanished.\",\n    \"The mouse the cat chased escaped.\",\n    \"The phone the boy dropped broke.\",\n    \"The cake the girl baked burned.\",\n    \"The rat the cat the dog chased bit died.\"\n  ]\n}",
+  "run_idx": 25
+}

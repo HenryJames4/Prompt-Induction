@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the car the mechanic fixed crashed.",
+    "the student the teacher taught graduated.",
+    "the house the builder constructed burned.",
+    "the book the author wrote disappeared.",
+    "the meal the chef prepared tasted."
+  ],
+  "induced_prompt_raw": "Center-embedded subject and verb.",
+  "induced_prompt": "Center-embedded subject and verb.",
+  "induced_prompt_chars": 33,
+  "induced_prompt_words": 4,
+  "l1_char_total": 189,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that the dog chased meowed.\",\n    \"The book that I read yesterday was interesting.\",\n    \"The man who the woman interviewed got the job.\",\n    \"The house that the storm destroyed was old.\",\n    \"The student that the teacher praised felt happy.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that the dog chased meowed.",
+    "The book that I read yesterday was interesting.",
+    "The man who the woman interviewed got the job.",
+    "The house that the storm destroyed was old.",
+    "The student that the teacher praised felt happy."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:03:46.210986+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the mechanic fixed crashed.",
+    "the student the teacher taught graduated.",
+    "the house the builder constructed burned.",
+    "the book the author wrote disappeared.",
+    "the meal the chef prepared tasted."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the mechanic fixed crashed.\",\n    \"the student the teacher taught graduated.\",\n    \"the house the builder constructed burned.\",\n    \"the book the author wrote disappeared.\",\n    \"the meal the chef prepared tasted.\"\n  ]\n}\n```",
+  "run_idx": 5
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the hunter the deer the forest the shot echoed stood fled watched.",
+    "the king the knight the dragon the sword shone flew fought ruled.",
+    "the dog the man the ball the child played bounced threw ran.",
+    "the computer the programmer the code the bug appeared ran fixed crashed.",
+    "the door the wind the night the storm howled raged blew slammed."
+  ],
+  "induced_prompt_raw": "Based on the syntactic structure observed in the given sentences, where each consists of four noun phrases (each starting with \"the\") followed by four verbs, and the verbs correspond to the noun phrases in reverse order (first verb for the fourth noun, second verb for the third noun, etc.), the inferred prompt is:\n\n**\"Four 'the' noun phrases then four verbs; assign verbs to noun phrases in reverse order.\"**",
+  "induced_prompt": "Based on the syntactic structure observed in the given sentences, where each consists of four noun phrases (each starting with \"the\") followed by four verbs, and the verbs correspond to the noun phrases in reverse order (first verb for the fourth noun, second verb for the third noun, etc.), the inferred prompt is:\n\n**\"Four 'the' noun phrases then four verbs; assign verbs to noun phrases in reverse order.\"**",
+  "induced_prompt_chars": 410,
+  "induced_prompt_words": 68,
+  "l1_char_total": 327,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The cat, the dog, the bird, the fish swam, chirped, barked, purred.\", \"The wind, the leaves, the rain, the sun shone, fell, rustled, blew.\", \"The teacher, the students, the books, the bell rang, opened, studied, taught.\", \"The chef, the waiter, the customers, the food arrived, ate, served, cooked.\", \"The car, the bike, the bus, the train departed, stopped, raced, accelerated.\"]}",
+  "l2_sentences": [
+    "The cat, the dog, the bird, the fish swam, chirped, barked, purred.",
+    "The wind, the leaves, the rain, the sun shone, fell, rustled, blew.",
+    "The teacher, the students, the books, the bell rang, opened, studied, taught.",
+    "The chef, the waiter, the customers, the food arrived, ate, served, cooked.",
+    "The car, the bike, the bus, the train departed, stopped, raced, accelerated."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:36:29.378976+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the hunter the deer the forest the shot echoed stood fled watched.",
+    "the king the knight the dragon the sword shone flew fought ruled.",
+    "the dog the man the ball the child played bounced threw ran.",
+    "the computer the programmer the code the bug appeared ran fixed crashed.",
+    "the door the wind the night the storm howled raged blew slammed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the hunter the deer the forest the shot echoed stood fled watched.\", \"the king the knight the dragon the sword shone flew fought ruled.\", \"the dog the man the ball the child played bounced threw ran.\", \"the computer the programmer the code the bug appeared ran fixed crashed.\", \"the door the wind the night the storm howled raged blew slammed.\"]}",
+  "run_idx": 19
+}

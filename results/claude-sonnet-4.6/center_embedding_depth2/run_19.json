@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed failed.",
+    "The cake the chef baked disappeared.",
+    "The bridge the engineer designed collapsed.",
+    "The song the student practiced impressed.",
+    "The letter the lawyer drafted arrived."
+  ],
+  "induced_prompt_raw": "Write sentences where a noun is modified by a relative clause (subject + transitive verb), followed by an intransitive verb as the main predicate.",
+  "induced_prompt": "Write sentences where a noun is modified by a relative clause (subject + transitive verb), followed by an intransitive verb as the main predicate.",
+  "induced_prompt_chars": 146,
+  "induced_prompt_words": 24,
+  "l1_char_total": 197,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog that the boy chased disappeared.\",\n    \"The cake that Maria baked vanished.\",\n    \"The letter that the lawyer drafted arrived.\",\n    \"The bird that the cat startled fled.\",\n    \"The ship that the storm damaged sank.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog that the boy chased disappeared.",
+    "The cake that Maria baked vanished.",
+    "The letter that the lawyer drafted arrived.",
+    "The bird that the cat startled fled.",
+    "The ship that the storm damaged sank."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:41:19.654896+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed failed.",
+    "The cake the chef baked disappeared.",
+    "The bridge the engineer designed collapsed.",
+    "The song the student practiced impressed.",
+    "The letter the lawyer drafted arrived."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed failed.\", \"The cake the chef baked disappeared.\", \"The bridge the engineer designed collapsed.\", \"The song the student practiced impressed.\", \"The letter the lawyer drafted arrived.\"]}\n```",
+  "run_idx": 19
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the editor the publisher read corrected published vanished",
+    "the letter the secretary the manager the director wrote approved sent disappeared",
+    "the article the journalist the editor the publisher wrote reviewed published vanished",
+    "the document the clerk the supervisor the director typed approved submitted disappeared",
+    "the file the intern the assistant the manager the director created updated shared vanished"
+  ],
+  "induced_prompt_raw": "A sequence of actions involving creation, review, approval, and disappearance by a chain of individuals in a hierarchy",
+  "induced_prompt": "A sequence of actions involving creation, review, approval, and disappearance by a chain of individuals in a hierarchy",
+  "induced_prompt_chars": 118,
+  "induced_prompt_words": 18,
+  "l1_char_total": 421,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"A junior designer drafted the initial concept based on client requirements.\", \"The team lead reviewed the design and suggested revisions to improve usability.\", \"The department manager approved the updated version after confirming alignment with company standards.\", \"The senior executive endorsed the final design during the weekly board meeting.\", \"Once implemented, the original files were permanently deleted to maintain security protocols.\"] }",
+  "l2_sentences": [
+    "A junior designer drafted the initial concept based on client requirements.",
+    "The team lead reviewed the design and suggested revisions to improve usability.",
+    "The department manager approved the updated version after confirming alignment with company standards.",
+    "The senior executive endorsed the final design during the weekly board meeting.",
+    "Once implemented, the original files were permanently deleted to maintain security protocols."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:19:13.907806+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the editor the publisher read corrected published vanished",
+    "the letter the secretary the manager the director wrote approved sent disappeared",
+    "the article the journalist the editor the publisher wrote reviewed published vanished",
+    "the document the clerk the supervisor the director typed approved submitted disappeared",
+    "the file the intern the assistant the manager the director created updated shared vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher read corrected published vanished\", \"the letter the secretary the manager the director wrote approved sent disappeared\", \"the article the journalist the editor the publisher wrote reviewed published vanished\", \"the document the clerk the supervisor the director typed approved submitted disappeared\", \"the file the intern the assistant the manager the director created updated shared vanished\"]}",
+  "run_idx": 10
+}

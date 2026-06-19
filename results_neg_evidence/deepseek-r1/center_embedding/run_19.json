@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the man the child the woman fed called bathed barked",
+    "the book the author the critic the reader praised reviewed wrote sold",
+    "the cake the baker the child the parent instructed helped made rose",
+    "the letter the secretary the manager the intern assisted supervised wrote arrived",
+    "the car the driver the mechanic fixed drove crashed"
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly four noun phrases starting with 'the', followed by four verbs. The fourth noun subjects the first verb to the third noun; the third noun subjects the second verb to the second noun; the second noun subjects the third verb to the first noun; and the first noun subjects the fourth verb intransitively.",
+  "induced_prompt": "Generate a sentence with exactly four noun phrases starting with 'the', followed by four verbs. The fourth noun subjects the first verb to the third noun; the third noun subjects the second verb to the second noun; the second noun subjects the third verb to the first noun; and the first noun subjects the fourth verb intransitively.",
+  "induced_prompt_chars": 333,
+  "induced_prompt_words": 57,
+  "l1_char_total": 328,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The child throws the ball, the ball confuses the dog, the dog chases the cat, and the cat sleeps.\", \"The princess rescues the dragon, the dragon frightens the knight, the knight serves the king, and the king rules.\", \"The postman greets the dog, the dog scares the child, the child helps the baker, and the baker bakes.\", \"The parent praises the principal, the principal evaluates the teacher, the teacher teaches the student, and the student studies.\", \"The wind shakes the leaves, the leaves cover the path, the path leads the traveler, and the traveler rests.\"]}",
+  "l2_sentences": [
+    "The child throws the ball, the ball confuses the dog, the dog chases the cat, and the cat sleeps.",
+    "The princess rescues the dragon, the dragon frightens the knight, the knight serves the king, and the king rules.",
+    "The postman greets the dog, the dog scares the child, the child helps the baker, and the baker bakes.",
+    "The parent praises the principal, the principal evaluates the teacher, the teacher teaches the student, and the student studies.",
+    "The wind shakes the leaves, the leaves cover the path, the path leads the traveler, and the traveler rests."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:10:04.294066+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the dog the man the child the woman fed called bathed barked",
+    "the book the author the critic the reader praised reviewed wrote sold",
+    "the cake the baker the child the parent instructed helped made rose",
+    "the letter the secretary the manager the intern assisted supervised wrote arrived"
+  ],
+  "l1_sentences": [
+    "the dog the man the child the woman fed called bathed barked",
+    "the book the author the critic the reader praised reviewed wrote sold",
+    "the cake the baker the child the parent instructed helped made rose",
+    "the letter the secretary the manager the intern assisted supervised wrote arrived",
+    "the car the driver the mechanic fixed drove crashed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the man the child the woman fed called bathed barked\", \"the book the author the critic the reader praised reviewed wrote sold\", \"the cake the baker the child the parent instructed helped made rose\", \"the letter the secretary the manager the intern assisted supervised wrote arrived\", \"the car the driver the mechanic fixed drove crashed\"]}",
+  "run_idx": 19
+}

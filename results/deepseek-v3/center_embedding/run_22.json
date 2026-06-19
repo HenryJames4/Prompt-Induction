@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the student the professor recommended analyzed published vanished",
+    "the car the mechanic the driver the owner inspected repaired drove sold",
+    "the painting the artist the curator the collector admired displayed purchased lost",
+    "the cake the baker the chef the customer tasted decorated baked enjoyed",
+    "the song the musician the producer the listener composed recorded played heard"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested noun phrases following a recursive structure: [NP1 [NP2 [NP3 [NP4 V1] V2] V3] V4].\"",
+  "induced_prompt": "\"Generate sentences with nested noun phrases following a recursive structure: [NP1 [NP2 [NP3 [NP4 V1] V2] V3] V4].\"",
+  "induced_prompt_chars": 115,
+  "induced_prompt_words": 18,
+  "l1_char_total": 387,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The teacher praised the student who solved the problem that baffled the expert who analyzed the data.\", \"The chef admired the dish that delighted the critic who sampled the recipe that showcased the technique.\", \"The author wrote the book that inspired the reader who shared the story that moved the audience.\", \"The engineer designed the bridge that supported the train that carried the cargo that fueled the economy.\", \"The gardener tended the plant that attracted the butterfly that pollinated the flower that brightened the garden.\"]}",
+  "l2_sentences": [
+    "The teacher praised the student who solved the problem that baffled the expert who analyzed the data.",
+    "The chef admired the dish that delighted the critic who sampled the recipe that showcased the technique.",
+    "The author wrote the book that inspired the reader who shared the story that moved the audience.",
+    "The engineer designed the bridge that supported the train that carried the cargo that fueled the economy.",
+    "The gardener tended the plant that attracted the butterfly that pollinated the flower that brightened the garden."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:40:56.496972+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the student the professor recommended analyzed published vanished",
+    "the car the mechanic the driver the owner inspected repaired drove sold",
+    "the painting the artist the curator the collector admired displayed purchased lost",
+    "the cake the baker the chef the customer tasted decorated baked enjoyed",
+    "the song the musician the producer the listener composed recorded played heard"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the student the professor recommended analyzed published vanished\", \"the car the mechanic the driver the owner inspected repaired drove sold\", \"the painting the artist the curator the collector admired displayed purchased lost\", \"the cake the baker the chef the customer tasted decorated baked enjoyed\", \"the song the musician the producer the listener composed recorded played heard\"]}",
+  "run_idx": 22
+}

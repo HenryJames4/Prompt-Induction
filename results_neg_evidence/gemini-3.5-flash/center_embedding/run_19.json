@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The car the mechanic the apprentice the owner hired assisted repaired crashed.",
+    "The song the singer the producer the director hired inspired recorded succeeded.",
+    "The painting the artist the collector the dealer contacted advised created dried.",
+    "The chef the waiter the customer liked tipped served."
+  ],
+  "induced_prompt_raw": "Generate a sentence with four nested subjects followed by their four corresponding active verbs in reverse order (creating a triple center-embedded relative clause structure, e.g., \"The [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\"). Avoid incomplete structures that do not match the number of nouns to the number of verbs.",
+  "induced_prompt": "Generate a sentence with four nested subjects followed by their four corresponding active verbs in reverse order (creating a triple center-embedded relative clause structure, e.g., \"The [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\"). Avoid incomplete structures that do not match the number of nouns to the number of verbs.",
+  "induced_prompt_chars": 354,
+  "induced_prompt_words": 53,
+  "l1_char_total": 369,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The surgeon the patient the doctor the nurse assisted referred thanked rewarded.\",\n    \"The designer the model the photographer the stylist hired posed pleased inspired.\",\n    \"The artist the collector the dealer the curator recommended visited praised commissioned.\",\n    \"The dog the cat the mouse the beetle startled chased scratched bit.\",\n    \"The chef the critic the diner the waiter served questioned impressed thanked.\"\n  ]\n}",
+  "l2_sentences": [
+    "The surgeon the patient the doctor the nurse assisted referred thanked rewarded.",
+    "The designer the model the photographer the stylist hired posed pleased inspired.",
+    "The artist the collector the dealer the curator recommended visited praised commissioned.",
+    "The dog the cat the mouse the beetle startled chased scratched bit.",
+    "The chef the critic the diner the waiter served questioned impressed thanked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:09:54.671233+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The car the mechanic the apprentice the owner hired assisted repaired crashed.",
+    "The song the singer the producer the director hired inspired recorded succeeded.",
+    "The painting the artist the collector the dealer contacted advised created dried."
+  ],
+  "l1_sentences": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The car the mechanic the apprentice the owner hired assisted repaired crashed.",
+    "The song the singer the producer the director hired inspired recorded succeeded.",
+    "The painting the artist the collector the dealer contacted advised created dried.",
+    "The chef the waiter the customer liked tipped served."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the principal praised recommended read lost.\",\n    \"The car the mechanic the apprentice the owner hired assisted repaired crashed.\",\n    \"The song the singer the producer the director hired inspired recorded succeeded.\",\n    \"The painting the artist the collector the dealer contacted advised created dried.\",\n    \"The chef the waiter the customer liked tipped served.\"\n  ]\n}",
+  "run_idx": 19
+}

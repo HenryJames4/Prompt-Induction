@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the baker decorated sold",
+    "the book the author wrote published",
+    "the car the mechanic fixed drove",
+    "the song the singer performed recorded",
+    "the dog the cat the mouse chased barked"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with two nested relative clauses where each clause modifies the noun immediately before it, ensuring clarity and avoiding excessive stacking that leads to confusion.\"",
+  "induced_prompt": "\"Generate sentences with two nested relative clauses where each clause modifies the noun immediately before it, ensuring clarity and avoiding excessive stacking that leads to confusion.\"",
+  "induced_prompt_chars": 186,
+  "induced_prompt_words": 26,
+  "l1_char_total": 177,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The book, which was written by an author who lived in Paris, captivated readers worldwide.\", \"The house, which was built by a carpenter who specialized in oak, stood firm for centuries.\", \"The cake, which was made by a chef who trained in Italy, delighted everyone at the party.\", \"The painting, which was created by an artist who loved nature, drew admiration from critics.\", \"The dog, which was adopted by a family who rescued animals, quickly became a beloved pet.\"]}",
+  "l2_sentences": [
+    "The book, which was written by an author who lived in Paris, captivated readers worldwide.",
+    "The house, which was built by a carpenter who specialized in oak, stood firm for centuries.",
+    "The cake, which was made by a chef who trained in Italy, delighted everyone at the party.",
+    "The painting, which was created by an artist who loved nature, drew admiration from critics.",
+    "The dog, which was adopted by a family who rescued animals, quickly became a beloved pet."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:43:09.285060+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the baker decorated sold",
+    "the book the author wrote published",
+    "the car the mechanic fixed drove",
+    "the song the singer performed recorded"
+  ],
+  "l1_sentences": [
+    "the cake the baker decorated sold",
+    "the book the author wrote published",
+    "the car the mechanic fixed drove",
+    "the song the singer performed recorded",
+    "the dog the cat the mouse chased barked"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the baker decorated sold\", \"the book the author wrote published\", \"the car the mechanic fixed drove\", \"the song the singer performed recorded\", \"the dog the cat the mouse chased barked\"]}",
+  "run_idx": 10
+}

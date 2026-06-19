@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client developed presented accepted rejected",
+    "the house the owner the architect the builder designed constructed sold renovated",
+    "the car the driver the mechanic repaired washed parked"
+  ],
+  "induced_prompt_raw": "Generate a sequence of nested noun phrases followed by multiple verbs, where each noun phrase modifies the next, ending with a verb that applies to the entire preceding structure.",
+  "induced_prompt": "Generate a sequence of nested noun phrases followed by multiple verbs, where each noun phrase modifies the next, ending with a verb that applies to the entire preceding structure.",
+  "induced_prompt_chars": 179,
+  "induced_prompt_words": 29,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The house that Jack built stood tall.\",\n    \"The cat that chased the mouse ran quickly.\",\n    \"The book that I read yesterday inspired me deeply.\",\n    \"The car that my father drives needs repair immediately.\",\n    \"The tree that grows in our garden blooms beautifully every spring.\"\n  ]\n}",
+  "l2_sentences": [
+    "The house that Jack built stood tall.",
+    "The cat that chased the mouse ran quickly.",
+    "The book that I read yesterday inspired me deeply.",
+    "The car that my father drives needs repair immediately.",
+    "The tree that grows in our garden blooms beautifully every spring."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:22:02.675791+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client developed presented accepted rejected",
+    "the house the owner the architect the builder designed constructed sold renovated"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client developed presented accepted rejected",
+    "the house the owner the architect the builder designed constructed sold renovated",
+    "the car the driver the mechanic repaired washed parked"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read reviewed recommended returned\",\n    \"the plan the manager the team the client developed presented accepted rejected\",\n    \"the house the owner the architect the builder designed constructed sold renovated\",\n    \"the car the driver the mechanic repaired washed parked\"\n  ]\n}",
+  "run_idx": 27
+}

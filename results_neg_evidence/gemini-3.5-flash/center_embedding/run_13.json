@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student the professor the dean praised recommended read became a bestseller.",
+    "The song the singer the producer the engineer hired recorded liked climbed the charts.",
+    "The house the architect the builder the client sued designed constructed collapsed.",
+    "The law the senator the lobbyist the activist met bribed draft opposed changed.",
+    "The dog the cat the mouse chased scratched ran away."
+  ],
+  "induced_prompt_raw": "Generate a grammatically valid sentence containing exactly three levels of nested relative clauses (triply center-embedded), using the structure: [Noun 1] + [Noun 2] + [Noun 3] + [Noun 4] + [Verb 4] + [Verb 3] + [Verb 2] + [Verb 1]. Ensure all four nouns and four verbs are present so the sentence is syntactically complete, avoiding the error of omitting the innermost subject-verb pair.",
+  "induced_prompt": "Generate a grammatically valid sentence containing exactly three levels of nested relative clauses (triply center-embedded), using the structure: [Noun 1] + [Noun 2] + [Noun 3] + [Noun 4] + [Verb 4] + [Verb 3] + [Verb 2] + [Verb 1]. Ensure all four nouns and four verbs are present so the sentence is syntactically complete, avoiding the error of omitting the innermost subject-verb pair.",
+  "induced_prompt_chars": 388,
+  "induced_prompt_words": 65,
+  "l1_char_total": 389,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef that the critic whom the reporter that the editor hired interviewed praised resigned.\",\n    \"The patient whom the doctor that the nurse whom the hospital employed assisted treated recovered.\",\n    \"The dog that the cat which the rat that the boy chased annoyed scratched escaped.\",\n    \"The student whom the teacher that the principal whom the board selected praised rewarded graduated.\",\n    \"The artist whom the collector that the dealer whom the museum hired knew recommended painted.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef that the critic whom the reporter that the editor hired interviewed praised resigned.",
+    "The patient whom the doctor that the nurse whom the hospital employed assisted treated recovered.",
+    "The dog that the cat which the rat that the boy chased annoyed scratched escaped.",
+    "The student whom the teacher that the principal whom the board selected praised rewarded graduated.",
+    "The artist whom the collector that the dealer whom the museum hired knew recommended painted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:59:32.034041+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student the professor the dean praised recommended read became a bestseller.",
+    "The song the singer the producer the engineer hired recorded liked climbed the charts.",
+    "The house the architect the builder the client sued designed constructed collapsed.",
+    "The law the senator the lobbyist the activist met bribed draft opposed changed."
+  ],
+  "l1_sentences": [
+    "The book the student the professor the dean praised recommended read became a bestseller.",
+    "The song the singer the producer the engineer hired recorded liked climbed the charts.",
+    "The house the architect the builder the client sued designed constructed collapsed.",
+    "The law the senator the lobbyist the activist met bribed draft opposed changed.",
+    "The dog the cat the mouse chased scratched ran away."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the professor the dean praised recommended read became a bestseller.\",\n    \"The song the singer the producer the engineer hired recorded liked climbed the charts.\",\n    \"The house the architect the builder the client sued designed constructed collapsed.\",\n    \"The law the senator the lobbyist the activist met bribed draft opposed changed.\",\n    \"The dog the cat the mouse chased scratched ran away.\"\n  ]\n}",
+  "run_idx": 13
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the storm destroyed collapsed",
+    "the car the mechanic fixed started",
+    "the man the woman the child saw greeted waved"
+  ],
+  "induced_prompt_raw": "Generate a single center-embedded relative clause.",
+  "induced_prompt": "Generate a single center-embedded relative clause.",
+  "induced_prompt_chars": 50,
+  "induced_prompt_words": 6,
+  "l1_char_total": 185,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog chased ran away.\",\n    \"The book that the student read was interesting.\",\n    \"The house that the architect designed won an award.\",\n    \"The movie that the critic reviewed received positive feedback.\",\n    \"The car that the mechanic repaired is now working perfectly.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog chased ran away.",
+    "The book that the student read was interesting.",
+    "The house that the architect designed won an award.",
+    "The movie that the critic reviewed received positive feedback.",
+    "The car that the mechanic repaired is now working perfectly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:43:31.069687+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the storm destroyed collapsed",
+    "the car the mechanic fixed started"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the storm destroyed collapsed",
+    "the car the mechanic fixed started",
+    "the man the woman the child saw greeted waved"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased ran\",\n    \"the book the student read was interesting\",\n    \"the house the storm destroyed collapsed\",\n    \"the car the mechanic fixed started\",\n    \"the man the woman the child saw greeted waved\"\n  ]\n}",
+  "run_idx": 10
+}

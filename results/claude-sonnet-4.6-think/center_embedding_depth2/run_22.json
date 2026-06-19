@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The book the student read disappeared.",
+    "The cake the chef baked vanished.",
+    "The letter the lawyer signed arrived.",
+    "The car the mechanic fixed stalled.",
+    "The paper the editor rejected circulated."
+  ],
+  "induced_prompt_raw": "Write sentences using center-embedded object relative clauses, where a noun acted upon by an agent then undergoes a separate action.",
+  "induced_prompt": "Write sentences using center-embedded object relative clauses, where a noun acted upon by an agent then undergoes a separate action.",
+  "induced_prompt_chars": 132,
+  "induced_prompt_words": 20,
+  "l1_char_total": 184,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The letter that the secretary typed was sent to the board of directors.\", \"The bridge that the engineers designed collapsed during the storm.\", \"The painting that the artist restored sold for millions at auction.\", \"The report that the analyst prepared impressed the entire executive team.\", \"The melody that the composer wrote became an international sensation overnight.\"]}\n```",
+  "l2_sentences": [
+    "The letter that the secretary typed was sent to the board of directors.",
+    "The bridge that the engineers designed collapsed during the storm.",
+    "The painting that the artist restored sold for millions at auction.",
+    "The report that the analyst prepared impressed the entire executive team.",
+    "The melody that the composer wrote became an international sensation overnight."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:42:24.081149+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The book the student read disappeared.",
+    "The cake the chef baked vanished.",
+    "The letter the lawyer signed arrived.",
+    "The car the mechanic fixed stalled.",
+    "The paper the editor rejected circulated."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The book the student read disappeared.\", \"The cake the chef baked vanished.\", \"The letter the lawyer signed arrived.\", \"The car the mechanic fixed stalled.\", \"The paper the editor rejected circulated.\"]}\n```",
+  "run_idx": 22
+}

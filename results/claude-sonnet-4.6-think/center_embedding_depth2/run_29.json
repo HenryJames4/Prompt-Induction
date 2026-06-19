@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the editor reviewed improved.",
+    "The cake the chef baked burned.",
+    "The letter the student wrote arrived.",
+    "The plan the manager approved failed.",
+    "The book the author finished sold."
+  ],
+  "induced_prompt_raw": "Write sentences using center-embedded relative clauses where a noun phrase contains a hidden relative clause, followed by a main verb, with no relative pronoun (e.g., \"The [noun] the [agent] [verb] [verb]ed\").",
+  "induced_prompt": "Write sentences using center-embedded relative clauses where a noun phrase contains a hidden relative clause, followed by a main verb, with no relative pronoun (e.g., \"The [noun] the [agent] [verb] [verb]ed\").",
+  "induced_prompt_chars": 209,
+  "induced_prompt_words": 31,
+  "l1_char_total": 179,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog the cat chased escaped through the fence.\",\n    \"The book the professor assigned confused the students.\",\n    \"The cake the baker made disappeared before noon.\",\n    \"The letter the secretary typed contained several errors.\",\n    \"The man the woman admired moved to another city.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog the cat chased escaped through the fence.",
+    "The book the professor assigned confused the students.",
+    "The cake the baker made disappeared before noon.",
+    "The letter the secretary typed contained several errors.",
+    "The man the woman admired moved to another city."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:44:27.475693+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the editor reviewed improved.",
+    "The cake the chef baked burned.",
+    "The letter the student wrote arrived.",
+    "The plan the manager approved failed.",
+    "The book the author finished sold."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the editor reviewed improved.\", \"The cake the chef baked burned.\", \"The letter the student wrote arrived.\", \"The plan the manager approved failed.\", \"The book the author finished sold.\"]}\n```",
+  "run_idx": 29
+}

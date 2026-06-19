@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef the student the teacher admired taught baked melted",
+    "the dog the man the woman the child loved hugged owned barked",
+    "the book the professor the librarian the scholar recommended organized wrote vanished",
+    "the song the musician the producer the fan praised hired recorded played",
+    "the film the director the actor admired hired released"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly 4 nested noun phrases followed by exactly 4 verbs, where each verb corresponds to its noun phrase in reverse order.",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly 4 nested noun phrases followed by exactly 4 verbs, where each verb corresponds to its noun phrase in reverse order.",
+  "induced_prompt_chars": 177,
+  "induced_prompt_words": 28,
+  "l1_char_total": 341,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog the rat the elephant scared chased caught slept.\", \"The book the student the teacher the principal praised assigned read fell.\", \"The cake the child the parent the chef admired baked wanted disappeared.\", \"The ball the boy the girl the coach trained threw kicked bounced.\", \"The song the fan the singer the producer funded recorded loved played.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog the rat the elephant scared chased caught slept.",
+    "The book the student the teacher the principal praised assigned read fell.",
+    "The cake the child the parent the chef admired baked wanted disappeared.",
+    "The ball the boy the girl the coach trained threw kicked bounced.",
+    "The song the fan the singer the producer funded recorded loved played."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:01:09.406592+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef the student the teacher admired taught baked melted",
+    "the dog the man the woman the child loved hugged owned barked",
+    "the book the professor the librarian the scholar recommended organized wrote vanished",
+    "the song the musician the producer the fan praised hired recorded played"
+  ],
+  "l1_sentences": [
+    "the cake the chef the student the teacher admired taught baked melted",
+    "the dog the man the woman the child loved hugged owned barked",
+    "the book the professor the librarian the scholar recommended organized wrote vanished",
+    "the song the musician the producer the fan praised hired recorded played",
+    "the film the director the actor admired hired released"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the chef the student the teacher admired taught baked melted\",\n    \"the dog the man the woman the child loved hugged owned barked\",\n    \"the book the professor the librarian the scholar recommended organized wrote vanished\",\n    \"the song the musician the producer the fan praised hired recorded played\",\n    \"the film the director the actor admired hired released\"\n  ]\n}\n```",
+  "run_idx": 14
+}

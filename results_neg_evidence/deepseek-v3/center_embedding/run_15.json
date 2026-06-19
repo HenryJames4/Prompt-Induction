@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the editor recommended published printed arrived.",
+    "The cake the baker the chef the apprentice prepared decorated served tasted.",
+    "The project the manager the team the intern assigned completed submitted succeeded.",
+    "The document the lawyer the client the secretary drafted reviewed signed disappeared.",
+    "The car the driver the mechanic repaired crashed stalled."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with nested relative clauses where each noun is modified by a subsequent clause in a chain (e.g., 'The X the Y the Z verb1 verb2 verb3'), ensuring all verbs correctly align with their subjects and maintain grammatical coherence. Avoid mismatched verb-subject pairs or incomplete chains.\"",
+  "induced_prompt": "\"Generate a sentence with nested relative clauses where each noun is modified by a subsequent clause in a chain (e.g., 'The X the Y the Z verb1 verb2 verb3'), ensuring all verbs correctly align with their subjects and maintain grammatical coherence. Avoid mismatched verb-subject pairs or incomplete chains.\"",
+  "induced_prompt_chars": 308,
+  "induced_prompt_words": 48,
+  "l1_char_total": 384,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the mouse the cheese ate chased squeaked.\", \"The teacher the student the book assigned read analyzed.\", \"The chef the recipe the ingredients followed prepared cooked.\", \"The artist the canvas the paint used admired created.\", \"The gardener the flowers the fertilizer watered bloomed grew.\"]}",
+  "l2_sentences": [
+    "The cat the mouse the cheese ate chased squeaked.",
+    "The teacher the student the book assigned read analyzed.",
+    "The chef the recipe the ingredients followed prepared cooked.",
+    "The artist the canvas the paint used admired created.",
+    "The gardener the flowers the fertilizer watered bloomed grew."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:02:48.530468+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the editor recommended published printed arrived.",
+    "The cake the baker the chef the apprentice prepared decorated served tasted.",
+    "The project the manager the team the intern assigned completed submitted succeeded.",
+    "The document the lawyer the client the secretary drafted reviewed signed disappeared."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the editor recommended published printed arrived.",
+    "The cake the baker the chef the apprentice prepared decorated served tasted.",
+    "The project the manager the team the intern assigned completed submitted succeeded.",
+    "The document the lawyer the client the secretary drafted reviewed signed disappeared.",
+    "The car the driver the mechanic repaired crashed stalled."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the editor recommended published printed arrived.\", \"The cake the baker the chef the apprentice prepared decorated served tasted.\", \"The project the manager the team the intern assigned completed submitted succeeded.\", \"The document the lawyer the client the secretary drafted reviewed signed disappeared.\", \"The car the driver the mechanic repaired crashed stalled.\"]}",
+  "run_idx": 15
+}

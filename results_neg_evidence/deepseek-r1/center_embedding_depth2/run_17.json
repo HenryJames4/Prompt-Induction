@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the boy chased barked.",
+    "the cake the baker made tasted.",
+    "the book the author wrote sold.",
+    "the song the band played rocked.",
+    "the man the woman the child greeted waved smiled."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence: 'the [noun1] the [noun2] [past_verb1] [past_verb2].' Use exactly two nouns and two past-tense verbs. Avoid additional clauses or embeddings.\"",
+  "induced_prompt": "\"Generate a sentence: 'the [noun1] the [noun2] [past_verb1] [past_verb2].' Use exactly two nouns and two past-tense verbs. Avoid additional clauses or embeddings.\"",
+  "induced_prompt_chars": 163,
+  "induced_prompt_words": 22,
+  "l1_char_total": 173,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the dog the cat chased barked.\", \"the wind the leaves scattered rustled.\", \"the chef the meal prepared served.\", \"the storm the ship sank destroyed.\", \"the child the toy broke cried.\"]}",
+  "l2_sentences": [
+    "the dog the cat chased barked.",
+    "the wind the leaves scattered rustled.",
+    "the chef the meal prepared served.",
+    "the storm the ship sank destroyed.",
+    "the child the toy broke cried."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:49:10.419592+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the dog the boy chased barked.",
+    "the cake the baker made tasted.",
+    "the book the author wrote sold.",
+    "the song the band played rocked."
+  ],
+  "l1_sentences": [
+    "the dog the boy chased barked.",
+    "the cake the baker made tasted.",
+    "the book the author wrote sold.",
+    "the song the band played rocked.",
+    "the man the woman the child greeted waved smiled."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy chased barked.\", \"the cake the baker made tasted.\", \"the book the author wrote sold.\", \"the song the band played rocked.\", \"the man the woman the child greeted waved smiled.\"]}",
+  "run_idx": 17
+}

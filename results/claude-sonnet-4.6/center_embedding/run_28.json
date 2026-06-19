@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the critic tasted graded baked vanished",
+    "the letter the lawyer the clerk the judge signed filed drafted mailed",
+    "the painting the buyer the dealer the artist admired sold restored framed",
+    "the bridge the crew the engineer the mayor built inspected designed opened",
+    "the book the reader the teacher the author borrowed assigned wrote returned"
+  ],
+  "induced_prompt_raw": "Write center-embedded sentences with 4 nested relative clauses and 4 stacked final verbs.",
+  "induced_prompt": "Write center-embedded sentences with 4 nested relative clauses and 4 stacked final verbs.",
+  "induced_prompt_chars": 89,
+  "induced_prompt_words": 13,
+  "l1_char_total": 360,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the mouse that the child chased caught scared ran.\", \"The book that the student that the teacher that the principal hired trained read disappeared.\", \"The car that the man that the woman that the boy loved married drove crashed.\", \"The cake that the chef that the critic that the editor interviewed praised baked crumbled.\", \"The song that the band that the producer that the label signed managed recorded faded.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the mouse that the child chased caught scared ran.",
+    "The book that the student that the teacher that the principal hired trained read disappeared.",
+    "The car that the man that the woman that the boy loved married drove crashed.",
+    "The cake that the chef that the critic that the editor interviewed praised baked crumbled.",
+    "The song that the band that the producer that the label signed managed recorded faded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:32:08.798794+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the critic tasted graded baked vanished",
+    "the letter the lawyer the clerk the judge signed filed drafted mailed",
+    "the painting the buyer the dealer the artist admired sold restored framed",
+    "the bridge the crew the engineer the mayor built inspected designed opened",
+    "the book the reader the teacher the author borrowed assigned wrote returned"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the chef the student the critic tasted graded baked vanished\",\n    \"the letter the lawyer the clerk the judge signed filed drafted mailed\",\n    \"the painting the buyer the dealer the artist admired sold restored framed\",\n    \"the bridge the crew the engineer the mayor built inspected designed opened\",\n    \"the book the reader the teacher the author borrowed assigned wrote returned\"\n  ]\n}\n```",
+  "run_idx": 28
+}

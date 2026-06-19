@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased ran away",
+    "the book the student read was interesting",
+    "the house the builder constructed looked beautiful",
+    "the movie the critic reviewed received awards",
+    "the car the mechanic the owner hired repaired broke down"
+  ],
+  "induced_prompt_raw": "Generate a sentence with one center-embedded relative clause.",
+  "induced_prompt": "Generate a sentence with one center-embedded relative clause.",
+  "induced_prompt_chars": 61,
+  "induced_prompt_words": 8,
+  "l1_char_total": 223,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog chased ran up the tree.\",\n    \"The book that the student who won the award read was very long.\",\n    \"The house that the man who lives next door built is for sale.\",\n    \"The car that the mechanic who fixed my truck recommended is very reliable.\",\n    \"The movie that the critic who writes for the newspaper reviewed won several awards.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog chased ran up the tree.",
+    "The book that the student who won the award read was very long.",
+    "The house that the man who lives next door built is for sale.",
+    "The car that the mechanic who fixed my truck recommended is very reliable.",
+    "The movie that the critic who writes for the newspaper reviewed won several awards."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:55:00.731065+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased ran away",
+    "the book the student read was interesting",
+    "the house the builder constructed looked beautiful",
+    "the movie the critic reviewed received awards"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased ran away",
+    "the book the student read was interesting",
+    "the house the builder constructed looked beautiful",
+    "the movie the critic reviewed received awards",
+    "the car the mechanic the owner hired repaired broke down"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased ran away\",\n    \"the book the student read was interesting\",\n    \"the house the builder constructed looked beautiful\",\n    \"the movie the critic reviewed received awards\",\n    \"the car the mechanic the owner hired repaired broke down\"\n  ]\n}",
+  "run_idx": 23
+}

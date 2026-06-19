@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat chased ran",
+    "the child the teacher helped smiled",
+    "the cake the baker made burned",
+    "the letter the boy wrote arrived",
+    "the car the man bought broke"
+  ],
+  "induced_prompt_raw": "Write five sentences using the syntactic structure: [the + noun1 + the + noun2 + transitive verb + intransitive verb].",
+  "induced_prompt": "Write five sentences using the syntactic structure: [the + noun1 + the + noun2 + transitive verb + intransitive verb].",
+  "induced_prompt_chars": 118,
+  "induced_prompt_words": 20,
+  "l1_char_total": 151,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the dog bit ran.\",\n    \"The teacher the student annoyed resigned.\",\n    \"The driver the police stopped wept.\",\n    \"The actor the director praised bowed.\",\n    \"The baby the mother cradled slept.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the dog bit ran.",
+    "The teacher the student annoyed resigned.",
+    "The driver the police stopped wept.",
+    "The actor the director praised bowed.",
+    "The baby the mother cradled slept."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:36:58.343528+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat chased ran",
+    "the child the teacher helped smiled",
+    "the cake the baker made burned",
+    "the letter the boy wrote arrived",
+    "the car the man bought broke"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the dog the cat chased ran\",\n    \"the child the teacher helped smiled\",\n    \"the cake the baker made burned\",\n    \"the letter the boy wrote arrived\",\n    \"the car the man bought broke\"\n  ]\n}",
+  "run_idx": 6
+}

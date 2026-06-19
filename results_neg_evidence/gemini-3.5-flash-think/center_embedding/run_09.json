@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic the author the fan praised met reviewed vanished",
+    "the patient the nurse the doctor the chief hired instructed treated recovered",
+    "the painting the buyer the artist the teacher inspired contacted bought faded",
+    "the song the singer the writer the agent represented hired performed ended",
+    "the student the teacher the principal praised suspended failed"
+  ],
+  "induced_prompt_raw": "Generate triply center-embedded sentences with exactly four nouns followed by four verbs in the pattern: \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\". Avoid double center-embedded sentences that contain only three nouns and three verbs.",
+  "induced_prompt": "Generate triply center-embedded sentences with exactly four nouns followed by four verbs in the pattern: \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\". Avoid double center-embedded sentences that contain only three nouns and three verbs.",
+  "induced_prompt_chars": 233,
+  "induced_prompt_words": 39,
+  "l1_char_total": 358,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book the girl the boy the teacher praised liked read fell.\",\n    \"The car the man the mechanic the boss fired helped bought crashed.\",\n    \"The food the dog the cat the mouse annoyed scratched ate spoiled.\",\n    \"The house the family the agent the buyer called cheated sold collapsed.\",\n    \"The song the singer the writer the critic insulted hired performed faded.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book the girl the boy the teacher praised liked read fell.",
+    "The car the man the mechanic the boss fired helped bought crashed.",
+    "The food the dog the cat the mouse annoyed scratched ate spoiled.",
+    "The house the family the agent the buyer called cheated sold collapsed.",
+    "The song the singer the writer the critic insulted hired performed faded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:53:06.586666+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic the author the fan praised met reviewed vanished",
+    "the patient the nurse the doctor the chief hired instructed treated recovered",
+    "the painting the buyer the artist the teacher inspired contacted bought faded",
+    "the song the singer the writer the agent represented hired performed ended"
+  ],
+  "l1_sentences": [
+    "the book the critic the author the fan praised met reviewed vanished",
+    "the patient the nurse the doctor the chief hired instructed treated recovered",
+    "the painting the buyer the artist the teacher inspired contacted bought faded",
+    "the song the singer the writer the agent represented hired performed ended",
+    "the student the teacher the principal praised suspended failed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the critic the author the fan praised met reviewed vanished\",\n    \"the patient the nurse the doctor the chief hired instructed treated recovered\",\n    \"the painting the buyer the artist the teacher inspired contacted bought faded\",\n    \"the song the singer the writer the agent represented hired performed ended\",\n    \"the student the teacher the principal praised suspended failed\"\n  ]\n}",
+  "run_idx": 9
+}

@@ -1,0 +1,44 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the critic the reader admired rejected accepted vanished.",
+    "the letter the secretary the manager the director forwarded approved signed disappeared.",
+    "the proposal the student the professor the dean reviewed approved submitted vanished.",
+    "the article the journalist the editor the publisher wrote revised accepted disappeared.",
+    "the story the writer the editor the reader enjoyed reviewed approved."
+  ],
+  "induced_prompt_raw": "Create a chain of four noun phrases, each modified by a relative clause describing an action performed by the previous noun, ending with a verb that completes the sequence.",
+  "induced_prompt": "Create a chain of four noun phrases, each modified by a relative clause describing an action performed by the previous noun, ending with a verb that completes the sequence.",
+  "induced_prompt_chars": 172,
+  "induced_prompt_words": 29,
+  "l1_char_total": 406,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that was written by the author contains a story that was told by the narrator, who was inspired by the dream that was imagined by the child, which led to the creation of the artwork that was painted by the artist.\"] }",
+  "l2_sentences": [
+    "The book that was written by the author contains a story that was told by the narrator, who was inspired by the dream that was imagined by the child, which led to the creation of the artwork that was painted by the artist."
+  ],
+  "l2_parse_warnings": [
+    "JSON response had 1 sentences; expected 5."
+  ],
+  "timestamp": "2026-06-14T13:04:51.317304+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the critic the reader admired rejected accepted vanished.",
+    "the letter the secretary the manager the director forwarded approved signed disappeared.",
+    "the proposal the student the professor the dean reviewed approved submitted vanished.",
+    "the article the journalist the editor the publisher wrote revised accepted disappeared."
+  ],
+  "l1_sentences": [
+    "the book the author the critic the reader admired rejected accepted vanished.",
+    "the letter the secretary the manager the director forwarded approved signed disappeared.",
+    "the proposal the student the professor the dean reviewed approved submitted vanished.",
+    "the article the journalist the editor the publisher wrote revised accepted disappeared.",
+    "the story the writer the editor the reader enjoyed reviewed approved."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the critic the reader admired rejected accepted vanished.\", \"the letter the secretary the manager the director forwarded approved signed disappeared.\", \"the proposal the student the professor the dean reviewed approved submitted vanished.\", \"the article the journalist the editor the publisher wrote revised accepted disappeared.\", \"the story the writer the editor the reader enjoyed reviewed approved.\"] }",
+  "run_idx": 16
+}

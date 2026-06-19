@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased escaped",
+    "the book the student read disappeared",
+    "the man the woman saw ran",
+    "the idea the committee rejected failed",
+    "the mouse the cat the dog chased ate ran"
+  ],
+  "induced_prompt_raw": "Generate a sentence with a subject modified by a relative clause, followed by a main verb. Use exactly two verbs and avoid nested clauses.",
+  "induced_prompt": "Generate a sentence with a subject modified by a relative clause, followed by a main verb. Use exactly two verbs and avoid nested clauses.",
+  "induced_prompt_chars": 138,
+  "induced_prompt_words": 24,
+  "l1_char_total": 170,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The student who studied hard passed.\",\n    \"The book that I wrote became a bestseller.\",\n    \"The car that parked in the driveway belongs to my neighbor.\",\n    \"The house that stands on the hill looks old.\",\n    \"The man who lives next door works at the bank.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The student who studied hard passed.",
+    "The book that I wrote became a bestseller.",
+    "The car that parked in the driveway belongs to my neighbor.",
+    "The house that stands on the hill looks old.",
+    "The man who lives next door works at the bank."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:44:05.535350+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased escaped",
+    "the book the student read disappeared",
+    "the man the woman saw ran",
+    "the idea the committee rejected failed"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased escaped",
+    "the book the student read disappeared",
+    "the man the woman saw ran",
+    "the idea the committee rejected failed",
+    "the mouse the cat the dog chased ate ran"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped\",\n    \"the book the student read disappeared\",\n    \"the man the woman saw ran\",\n    \"the idea the committee rejected failed\",\n    \"the mouse the cat the dog chased ate ran\"\n  ]\n}\n```",
+  "run_idx": 11
+}

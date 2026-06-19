@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy petted barked.",
+    "The book the teacher assigned impressed.",
+    "The car the mechanic fixed started.",
+    "The cake the baker decorated delighted.",
+    "The cat the girl fed chased the mouse pounced."
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested relative clauses where the main clause follows the embedded clause, ensuring each clause has a clear subject and verb, and avoid stacking multiple clauses without resolution.\"",
+  "induced_prompt": "\"Generate sentences with nested relative clauses where the main clause follows the embedded clause, ensuring each clause has a clear subject and verb, and avoid stacking multiple clauses without resolution.\"",
+  "induced_prompt_chars": 207,
+  "induced_prompt_words": 30,
+  "l1_char_total": 190,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The book, which the librarian recommended, captivated the students.\", \"The dog, who the trainer praised, performed the trick perfectly.\", \"The cake, that the baker decorated, was admired by everyone.\", \"The painting, which the artist finished, was displayed in the gallery.\", \"The car, that the mechanic repaired, drove smoothly on the highway.\"]}",
+  "l2_sentences": [
+    "The book, which the librarian recommended, captivated the students.",
+    "The dog, who the trainer praised, performed the trick perfectly.",
+    "The cake, that the baker decorated, was admired by everyone.",
+    "The painting, which the artist finished, was displayed in the gallery.",
+    "The car, that the mechanic repaired, drove smoothly on the highway."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:46:07.120386+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy petted barked.",
+    "The book the teacher assigned impressed.",
+    "The car the mechanic fixed started.",
+    "The cake the baker decorated delighted."
+  ],
+  "l1_sentences": [
+    "The dog the boy petted barked.",
+    "The book the teacher assigned impressed.",
+    "The car the mechanic fixed started.",
+    "The cake the baker decorated delighted.",
+    "The cat the girl fed chased the mouse pounced."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the boy petted barked.\", \"The book the teacher assigned impressed.\", \"The car the mechanic fixed started.\", \"The cake the baker decorated delighted.\", \"The cat the girl fed chased the mouse pounced.\"]}",
+  "run_idx": 13
+}

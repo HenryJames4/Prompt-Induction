@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic the author the agent sued hired praised fell",
+    "the house the builder the architect the client paid advised designed collapsed",
+    "the patient the doctor the nurse the student watched assisted treated recovered",
+    "the painting the artist the master the patron funded taught created vanished",
+    "the cheese the rat the cat caught ate smelled"
+  ],
+  "induced_prompt_raw": "Generate a grammatically correct center-embedded sentence containing exactly four consecutive noun phrases followed by exactly four consecutive verbs (three nested relative clauses). Avoid triply center-embedded sentences that contain only three nouns and three verbs.",
+  "induced_prompt": "Generate a grammatically correct center-embedded sentence containing exactly four consecutive noun phrases followed by exactly four consecutive verbs (three nested relative clauses). Avoid triply center-embedded sentences that contain only three nouns and three verbs.",
+  "induced_prompt_chars": 268,
+  "induced_prompt_words": 34,
+  "l1_char_total": 342,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The car the mechanic the apprentice the boss hired supervised fixed broke.\",\n    \"The poem the poet the editor the publisher rejected helped wrote survived.\",\n    \"The house the architect the designer the client disliked hired built collapsed.\",\n    \"The project the engineer the director the board appointed instructed designed failed.\",\n    \"The cheese the rat the cat the dog chased killed ate rotted.\"\n  ]\n}",
+  "l2_sentences": [
+    "The car the mechanic the apprentice the boss hired supervised fixed broke.",
+    "The poem the poet the editor the publisher rejected helped wrote survived.",
+    "The house the architect the designer the client disliked hired built collapsed.",
+    "The project the engineer the director the board appointed instructed designed failed.",
+    "The cheese the rat the cat the dog chased killed ate rotted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:18:52.047900+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic the author the agent sued hired praised fell",
+    "the house the builder the architect the client paid advised designed collapsed",
+    "the patient the doctor the nurse the student watched assisted treated recovered",
+    "the painting the artist the master the patron funded taught created vanished"
+  ],
+  "l1_sentences": [
+    "the book the critic the author the agent sued hired praised fell",
+    "the house the builder the architect the client paid advised designed collapsed",
+    "the patient the doctor the nurse the student watched assisted treated recovered",
+    "the painting the artist the master the patron funded taught created vanished",
+    "the cheese the rat the cat caught ate smelled"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the critic the author the agent sued hired praised fell\",\n    \"the house the builder the architect the client paid advised designed collapsed\",\n    \"the patient the doctor the nurse the student watched assisted treated recovered\",\n    \"the painting the artist the master the patron funded taught created vanished\",\n    \"the cheese the rat the cat caught ate smelled\"\n  ]\n}",
+  "run_idx": 25
+}

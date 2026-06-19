@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the ball the child kicked rolled.",
+    "the song the singer performed ended.",
+    "the letter the secretary typed arrived.",
+    "the picture the artist painted hung.",
+    "the program the developer wrote crashed."
+  ],
+  "induced_prompt_raw": "\"the [noun1] the [noun2] [past_tense_verb] [past_tense_verb]\"",
+  "induced_prompt": "\"the [noun1] the [noun2] [past_tense_verb] [past_tense_verb]\"",
+  "induced_prompt_chars": 61,
+  "induced_prompt_words": 6,
+  "l1_char_total": 184,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The storm the house destroyed flooded.\", \"The cat the mouse chased escaped.\", \"The wind the leaves scattered piled.\", \"The chef the meal prepared served.\", \"The wave the boat rocked sank.\"]}",
+  "l2_sentences": [
+    "The storm the house destroyed flooded.",
+    "The cat the mouse chased escaped.",
+    "The wind the leaves scattered piled.",
+    "The chef the meal prepared served.",
+    "The wave the boat rocked sank."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:32:45.427417+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the ball the child kicked rolled.",
+    "the song the singer performed ended.",
+    "the letter the secretary typed arrived.",
+    "the picture the artist painted hung.",
+    "the program the developer wrote crashed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the ball the child kicked rolled.\", \"the song the singer performed ended.\", \"the letter the secretary typed arrived.\", \"the picture the artist painted hung.\", \"the program the developer wrote crashed.\"]}",
+  "run_idx": 29
+}

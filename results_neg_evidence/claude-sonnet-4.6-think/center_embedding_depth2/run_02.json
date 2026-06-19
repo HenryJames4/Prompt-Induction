@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the letter the secretary typed arrived",
+    "the dog the child loved barked",
+    "the cake the chef baked disappeared",
+    "the film the critic praised won",
+    "the book the student the teacher assigned read passed"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause, where a noun phrase is modified by a clause before the main verb (e.g., \"the X the Y [verb] [verb]\"). Use only one level of embedding — do not nest a relative clause inside another relative clause.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause, where a noun phrase is modified by a clause before the main verb (e.g., \"the X the Y [verb] [verb]\"). Use only one level of embedding — do not nest a relative clause inside another relative clause.",
+  "induced_prompt_chars": 260,
+  "induced_prompt_words": 45,
+  "l1_char_total": 187,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The horse the jockey rode fell.\", \"The book the professor assigned confused the students.\", \"The letter the secretary typed contained several errors.\", \"The cake the chef baked disappeared quickly.\", \"The report the intern wrote impressed the director.\"]}\n```",
+  "l2_sentences": [
+    "The horse the jockey rode fell.",
+    "The book the professor assigned confused the students.",
+    "The letter the secretary typed contained several errors.",
+    "The cake the chef baked disappeared quickly.",
+    "The report the intern wrote impressed the director."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:35:17.505591+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the letter the secretary typed arrived",
+    "the dog the child loved barked",
+    "the cake the chef baked disappeared",
+    "the film the critic praised won"
+  ],
+  "l1_sentences": [
+    "the letter the secretary typed arrived",
+    "the dog the child loved barked",
+    "the cake the chef baked disappeared",
+    "the film the critic praised won",
+    "the book the student the teacher assigned read passed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the letter the secretary typed arrived\",\n    \"the dog the child loved barked\",\n    \"the cake the chef baked disappeared\",\n    \"the film the critic praised won\",\n    \"the book the student the teacher assigned read passed\"\n  ]\n}\n```",
+  "run_idx": 2
+}

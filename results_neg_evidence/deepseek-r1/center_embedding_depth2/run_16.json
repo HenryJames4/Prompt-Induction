@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student read fascinated everyone.",
+    "The movie the director filmed received awards.",
+    "The cake the baker decorated tasted delicious.",
+    "The report the committee reviewed contained errors.",
+    "The song the artist the label signed recorded climbed the charts."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence: The [object] [agent] [verb] [main_verb] ... with exactly one relative clause (no nested clauses).\"",
+  "induced_prompt": "\"Generate a sentence: The [object] [agent] [verb] [main_verb] ... with exactly one relative clause (no nested clauses).\"",
+  "induced_prompt_chars": 120,
+  "induced_prompt_words": 17,
+  "l1_char_total": 254,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\n  \"The cat that the dog chased has escaped quickly.\",\n  \"The book which I borrowed has fallen apart.\",\n  \"The car that the mechanic fixed is running smoothly.\",\n  \"The cake that she baked tastes delicious.\",\n  \"The tree which the storm damaged is leaning dangerously.\"\n]}",
+  "l2_sentences": [
+    "The cat that the dog chased has escaped quickly.",
+    "The book which I borrowed has fallen apart.",
+    "The car that the mechanic fixed is running smoothly.",
+    "The cake that she baked tastes delicious.",
+    "The tree which the storm damaged is leaning dangerously."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:48:38.196842+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student read fascinated everyone.",
+    "The movie the director filmed received awards.",
+    "The cake the baker decorated tasted delicious.",
+    "The report the committee reviewed contained errors."
+  ],
+  "l1_sentences": [
+    "The book the student read fascinated everyone.",
+    "The movie the director filmed received awards.",
+    "The cake the baker decorated tasted delicious.",
+    "The report the committee reviewed contained errors.",
+    "The song the artist the label signed recorded climbed the charts."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The book the student read fascinated everyone.\",\n    \"The movie the director filmed received awards.\",\n    \"The cake the baker decorated tasted delicious.\",\n    \"The report the committee reviewed contained errors.\",\n    \"The song the artist the label signed recorded climbed the charts.\"\n  ]\n}\n```",
+  "run_idx": 16
+}

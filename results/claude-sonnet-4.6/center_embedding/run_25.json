@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the teacher trained hired baked vanished.",
+    "the dog the owner the neighbor the child startled warned trained escaped.",
+    "the book the author the critic the reader admired reviewed wrote sold.",
+    "the letter the lawyer the clerk the judge questioned reviewed signed delivered.",
+    "the car the mechanic the dealer the buyer tested inspected sold crashed."
+  ],
+  "induced_prompt_raw": "Write sentences with multiple center-embedded relative clauses, where several nested agents and their actions are stacked before resolving in sequence.",
+  "induced_prompt": "Write sentences with multiple center-embedded relative clauses, where several nested agents and their actions are stacked before resolving in sequence.",
+  "induced_prompt_chars": 151,
+  "induced_prompt_words": 20,
+  "l1_char_total": 365,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the boy owned chased climbed the tree.\", \"The report that the editor that the journalist that the agency hired trained reviewed was published.\", \"The book that the critic that the professor that the university employed respected praised became famous.\", \"The bridge that the engineer that the firm that the city contracted hired designed collapsed yesterday.\", \"The law that the senator that the lobbyist that the corporation funded influenced sponsored passed narrowly.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the boy owned chased climbed the tree.",
+    "The report that the editor that the journalist that the agency hired trained reviewed was published.",
+    "The book that the critic that the professor that the university employed respected praised became famous.",
+    "The bridge that the engineer that the firm that the city contracted hired designed collapsed yesterday.",
+    "The law that the senator that the lobbyist that the corporation funded influenced sponsored passed narrowly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:30:14.324420+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the teacher trained hired baked vanished.",
+    "the dog the owner the neighbor the child startled warned trained escaped.",
+    "the book the author the critic the reader admired reviewed wrote sold.",
+    "the letter the lawyer the clerk the judge questioned reviewed signed delivered.",
+    "the car the mechanic the dealer the buyer tested inspected sold crashed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the student the teacher trained hired baked vanished.\", \"the dog the owner the neighbor the child startled warned trained escaped.\", \"the book the author the critic the reader admired reviewed wrote sold.\", \"the letter the lawyer the clerk the judge questioned reviewed signed delivered.\", \"the car the mechanic the dealer the buyer tested inspected sold crashed.\"]}\n```",
+  "run_idx": 25
+}

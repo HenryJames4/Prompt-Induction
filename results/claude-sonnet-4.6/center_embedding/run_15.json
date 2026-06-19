@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the teacher admired baked tasted vanished.",
+    "the letter the lawyer the clerk the judge drafted reviewed signed disappeared.",
+    "the painting the artist the critic the buyer created examined purchased faded.",
+    "the bridge the engineer the worker the mayor designed built inspected collapsed.",
+    "the song the musician the producer the fan recorded mixed loved spread."
+  ],
+  "induced_prompt_raw": "Write sentences with multiply center-embedded relative clauses, where each noun has a corresponding verb at the end, creating a deeply nested subject-verb structure.",
+  "induced_prompt": "Write sentences with multiply center-embedded relative clauses, where each noun has a corresponding verb at the end, creating a deeply nested subject-verb structure.",
+  "induced_prompt_chars": 165,
+  "induced_prompt_words": 23,
+  "l1_char_total": 379,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the boy owned chased fled.\", \"The book that the scholar that the university hired wrote won.\", \"The letter that the woman that the man loved sent arrived.\", \"The fish that the shark that the diver photographed ate died.\", \"The song that the band that the label signed recorded charted.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the boy owned chased fled.",
+    "The book that the scholar that the university hired wrote won.",
+    "The letter that the woman that the man loved sent arrived.",
+    "The fish that the shark that the diver photographed ate died.",
+    "The song that the band that the label signed recorded charted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:24:12.484386+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the teacher admired baked tasted vanished.",
+    "the letter the lawyer the clerk the judge drafted reviewed signed disappeared.",
+    "the painting the artist the critic the buyer created examined purchased faded.",
+    "the bridge the engineer the worker the mayor designed built inspected collapsed.",
+    "the song the musician the producer the fan recorded mixed loved spread."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the student the teacher admired baked tasted vanished.\", \"the letter the lawyer the clerk the judge drafted reviewed signed disappeared.\", \"the painting the artist the critic the buyer created examined purchased faded.\", \"the bridge the engineer the worker the mayor designed built inspected collapsed.\", \"the song the musician the producer the fan recorded mixed loved spread.\"]}\n```",
+  "run_idx": 15
+}

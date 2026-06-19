@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The mailman the dog the cat the child scared chased bit ran.",
+    "The superintendent the principal the teacher the student impressed convinced called resigned.",
+    "The spy the guard the detective the witness saw followed caught escaped.",
+    "The trophy the team the coach the owner hired trained won disappeared.",
+    "The bill the senator the aide the lobbyist contacted briefed signed passed."
+  ],
+  "induced_prompt_raw": "Write sentences with quadruple center-embedded relative clauses, stacking all noun phrases before all verbs appear in reverse order.",
+  "induced_prompt": "Write sentences with quadruple center-embedded relative clauses, stacking all noun phrases before all verbs appear in reverse order.",
+  "induced_prompt_chars": 132,
+  "induced_prompt_words": 18,
+  "l1_char_total": 370,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The rat the cat the dog the man owned bit chased died.\", \"The book the student the professor the dean hired taught read disappeared.\", \"The cake the child the woman the baker trained fed ate vanished.\", \"The report the editor the journalist the politician hired contacted reviewed leaked.\", \"The letter the secretary the manager the CEO hired supervised filed vanished.\"]}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man owned bit chased died.",
+    "The book the student the professor the dean hired taught read disappeared.",
+    "The cake the child the woman the baker trained fed ate vanished.",
+    "The report the editor the journalist the politician hired contacted reviewed leaked.",
+    "The letter the secretary the manager the CEO hired supervised filed vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:21:35.914990+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The mailman the dog the cat the child scared chased bit ran.",
+    "The superintendent the principal the teacher the student impressed convinced called resigned.",
+    "The spy the guard the detective the witness saw followed caught escaped.",
+    "The trophy the team the coach the owner hired trained won disappeared.",
+    "The bill the senator the aide the lobbyist contacted briefed signed passed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The mailman the dog the cat the child scared chased bit ran.\",\n    \"The superintendent the principal the teacher the student impressed convinced called resigned.\",\n    \"The spy the guard the detective the witness saw followed caught escaped.\",\n    \"The trophy the team the coach the owner hired trained won disappeared.\",\n    \"The bill the senator the aide the lobbyist contacted briefed signed passed.\"\n  ]\n}\n```",
+  "run_idx": 9
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed delivered disappeared.",
+    "the data the analyst the scientist the researcher collected analyzed verified disappeared.",
+    "the document the clerk the supervisor the director reviewed approved forwarded vanished.",
+    "the story the writer the editor the assistant told corrected shared."
+  ],
+  "induced_prompt_raw": "Create a sentence where a noun is modified by a chain of three nested clauses, each describing an action performed by one person on the noun, culminating in the noun disappearing.",
+  "induced_prompt": "Create a sentence where a noun is modified by a chain of three nested clauses, each describing an action performed by one person on the noun, culminating in the noun disappearing.",
+  "induced_prompt_chars": 179,
+  "induced_prompt_words": 31,
+  "l1_char_total": 413,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that the librarian, who had been searching for weeks, had finally found, which the student who had been begging for it all semester had borrowed, which the thief who had broken into the library at midnight had stolen, vanished without a trace.\", \"The book that the librarian, who had been searching for weeks, had finally found, which the student who had been begging for it all semester had borrowed, which the thief who had broken into the library at midnight had stolen, vanished without a trace.\", \"The book that the librarian, who had been searching for weeks, had finally found, which the student who had been begging for it all semester had borrowed, which the thief who had broken into the library at midnight had stolen, vanished without a trace.\", \"The book that the librarian, who had been searching for weeks, had finally found, which the student who had been begging for it all semester had borrowed, which the thief who had broken into the library at midnight had stolen, vanished without a trace.\", \"The book that the librarian, who had been searching for weeks, had finally found, which the student who had been begging for it all semester had borrowed, which the thief who had broken into the library at midnight had stolen, vanished without a trace.\"]}",
+  "l2_sentences": [
+    "The book that the librarian, who had been searching for weeks, had finally found, which the student who had been begging for it all semester had borrowed, which the thief who had broken into the library at midnight had stolen, vanished without a trace.",
+    "The book that the librarian, who had been searching for weeks, had finally found, which the student who had been begging for it all semester had borrowed, which the thief who had broken into the library at midnight had stolen, vanished without a trace.",
+    "The book that the librarian, who had been searching for weeks, had finally found, which the student who had been begging for it all semester had borrowed, which the thief who had broken into the library at midnight had stolen, vanished without a trace.",
+    "The book that the librarian, who had been searching for weeks, had finally found, which the student who had been begging for it all semester had borrowed, which the thief who had broken into the library at midnight had stolen, vanished without a trace.",
+    "The book that the librarian, who had been searching for weeks, had finally found, which the student who had been begging for it all semester had borrowed, which the thief who had broken into the library at midnight had stolen, vanished without a trace."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:12:00.019631+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed delivered disappeared.",
+    "the data the analyst the scientist the researcher collected analyzed verified disappeared.",
+    "the document the clerk the supervisor the director reviewed approved forwarded vanished."
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed delivered disappeared.",
+    "the data the analyst the scientist the researcher collected analyzed verified disappeared.",
+    "the document the clerk the supervisor the director reviewed approved forwarded vanished.",
+    "the story the writer the editor the assistant told corrected shared."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian borrowed read returned vanished.\", \"the letter the secretary the manager the director reviewed signed delivered disappeared.\", \"the data the analyst the scientist the researcher collected analyzed verified disappeared.\", \"the document the clerk the supervisor the director reviewed approved forwarded vanished.\", \"the story the writer the editor the assistant told corrected shared.\"] }",
+  "run_idx": 20
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the editor reviewed passed.",
+    "The cake the chef baked vanished.",
+    "The bridge the engineer designed collapsed.",
+    "The letter the student wrote disappeared.",
+    "The bill the committee debated failed."
+  ],
+  "induced_prompt_raw": "Write sentences using a subject with an embedded relative clause (object of a reviewing/creating action), followed by a simple intransitive verb.",
+  "induced_prompt": "Write sentences using a subject with an embedded relative clause (object of a reviewing/creating action), followed by a simple intransitive verb.",
+  "induced_prompt_chars": 145,
+  "induced_prompt_words": 21,
+  "l1_char_total": 193,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The novel that the editor reviewed yesterday sold.\", \"The painting that the artist created last summer survived.\", \"The report that the committee examined carefully disappeared.\", \"The sculpture that the designer crafted overnight crumbled.\", \"The manuscript that the professor reviewed last week resurfaced.\"]}\n```",
+  "l2_sentences": [
+    "The novel that the editor reviewed yesterday sold.",
+    "The painting that the artist created last summer survived.",
+    "The report that the committee examined carefully disappeared.",
+    "The sculpture that the designer crafted overnight crumbled.",
+    "The manuscript that the professor reviewed last week resurfaced."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:39:26.143518+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the editor reviewed passed.",
+    "The cake the chef baked vanished.",
+    "The bridge the engineer designed collapsed.",
+    "The letter the student wrote disappeared.",
+    "The bill the committee debated failed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the editor reviewed passed.\", \"The cake the chef baked vanished.\", \"The bridge the engineer designed collapsed.\", \"The letter the student wrote disappeared.\", \"The bill the committee debated failed.\"]}\n```",
+  "run_idx": 13
+}

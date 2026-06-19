@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the critic the guest admired praised baked vanished.",
+    "the letter the lawyer the clerk the judge drafted reviewed signed leaked.",
+    "the map the scout the guide the ranger drew traced checked vanished.",
+    "the song the singer the fan the producer recorded loved praised spread.",
+    "the book the author the teacher the student wrote assigned read disappeared."
+  ],
+  "induced_prompt_raw": "Write sentences using nested relative clauses with four noun phrases followed by four verbs in reverse order, describing an object affected by a chain of actions.",
+  "induced_prompt": "Write sentences using nested relative clauses with four noun phrases followed by four verbs in reverse order, describing an object affected by a chain of actions.",
+  "induced_prompt_chars": 162,
+  "induced_prompt_words": 26,
+  "l1_char_total": 358,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The vase that the collector that the museum that the city funded acquired displayed shattered.\", \"The manuscript that the scholar that the university that the grant supported hired translated vanished.\", \"The painting that the critic that the gallery that the patron endowed employed praised faded.\", \"The statue that the restorer that the institute that the donor established trained preserved crumbled.\", \"The gem that the jeweler that the house that the merchant built employed polished disappeared.\"]}\n```",
+  "l2_sentences": [
+    "The vase that the collector that the museum that the city funded acquired displayed shattered.",
+    "The manuscript that the scholar that the university that the grant supported hired translated vanished.",
+    "The painting that the critic that the gallery that the patron endowed employed praised faded.",
+    "The statue that the restorer that the institute that the donor established trained preserved crumbled.",
+    "The gem that the jeweler that the house that the merchant built employed polished disappeared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:29:10.730945+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the critic the guest admired praised baked vanished.",
+    "the letter the lawyer the clerk the judge drafted reviewed signed leaked.",
+    "the map the scout the guide the ranger drew traced checked vanished.",
+    "the song the singer the fan the producer recorded loved praised spread.",
+    "the book the author the teacher the student wrote assigned read disappeared."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the critic the guest admired praised baked vanished.\", \"the letter the lawyer the clerk the judge drafted reviewed signed leaked.\", \"the map the scout the guide the ranger drew traced checked vanished.\", \"the song the singer the fan the producer recorded loved praised spread.\", \"the book the author the teacher the student wrote assigned read disappeared.\"]}\n```",
+  "run_idx": 23
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the boy chased ran.",
+    "the cake the chef baked rose.",
+    "the book the student read fell.",
+    "the song the band played ended.",
+    "the professor the student the dean praised congratulated resigned."
+  ],
+  "induced_prompt_raw": "Generate a sentence in the structure: \"the [noun1] the [noun2] [verb1_past] [verb2_past].\" Here, noun2 performs verb1 on noun1, and noun1 performs verb2. Use exactly two nouns and two past-tense verbs.",
+  "induced_prompt": "Generate a sentence in the structure: \"the [noun1] the [noun2] [verb1_past] [verb2_past].\" Here, noun2 performs verb1 on noun1, and noun1 performs verb2. Use exactly two nouns and two past-tense verbs.",
+  "induced_prompt_chars": 201,
+  "induced_prompt_words": 30,
+  "l1_char_total": 184,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The cake the baker baked cooled.\", \"The ball the child kicked rolled.\", \"The door the carpenter fixed creaked.\", \"The letter the secretary typed arrived.\", \"The window the storm shattered broke.\"]}",
+  "l2_sentences": [
+    "The cake the baker baked cooled.",
+    "The ball the child kicked rolled.",
+    "The door the carpenter fixed creaked.",
+    "The letter the secretary typed arrived.",
+    "The window the storm shattered broke."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:36:04.183171+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the dog the boy chased ran.",
+    "the cake the chef baked rose.",
+    "the book the student read fell.",
+    "the song the band played ended."
+  ],
+  "l1_sentences": [
+    "the dog the boy chased ran.",
+    "the cake the chef baked rose.",
+    "the book the student read fell.",
+    "the song the band played ended.",
+    "the professor the student the dean praised congratulated resigned."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy chased ran.\", \"the cake the chef baked rose.\", \"the book the student read fell.\", \"the song the band played ended.\", \"the professor the student the dean praised congratulated resigned.\"]}",
+  "run_idx": 1
+}

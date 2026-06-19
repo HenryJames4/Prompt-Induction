@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The cat the dog the boy the woman chased fed petted vanished.",
+    "The book the teacher the student the principal assigned read graded lost.",
+    "The car the mechanic the owner the dealer repaired sold inspected crashed.",
+    "The house the agent the buyer the owner showed purchased inspected burned.",
+    "The letter the secretary the manager the director typed signed approved destroyed."
+  ],
+  "induced_prompt_raw": "Nested center-embedded relative clauses.",
+  "induced_prompt": "Nested center-embedded relative clauses.",
+  "induced_prompt_chars": 40,
+  "induced_prompt_words": 4,
+  "l1_char_total": 364,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog that the boy chased chased ran away.\",\n    \"The paper that the student that the professor taught submitted was excellent.\",\n    \"The house that the man that the woman married built was large.\",\n    \"The book that the author that the critic praised wrote became a bestseller.\",\n    \"The car that the mechanic that the owner trusted fixed was expensive.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog that the boy chased chased ran away.",
+    "The paper that the student that the professor taught submitted was excellent.",
+    "The house that the man that the woman married built was large.",
+    "The book that the author that the critic praised wrote became a bestseller.",
+    "The car that the mechanic that the owner trusted fixed was expensive."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:42:38.149415+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cat the dog the boy the woman chased fed petted vanished.",
+    "The book the teacher the student the principal assigned read graded lost.",
+    "The car the mechanic the owner the dealer repaired sold inspected crashed.",
+    "The house the agent the buyer the owner showed purchased inspected burned.",
+    "The letter the secretary the manager the director typed signed approved destroyed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog the boy the woman chased fed petted vanished.\",\n    \"The book the teacher the student the principal assigned read graded lost.\",\n    \"The car the mechanic the owner the dealer repaired sold inspected crashed.\",\n    \"The house the agent the buyer the owner showed purchased inspected burned.\",\n    \"The letter the secretary the manager the director typed signed approved destroyed.\"\n  ]\n}",
+  "run_idx": 23
+}

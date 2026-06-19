@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The cat the dog the boy the woman chased fed petted loved vanished.",
+    "The book the teacher the student the principal assigned read graded praised disappeared.",
+    "The car the mechanic the owner the dealer fixed inspected sold bought crashed.",
+    "The house the agent the buyer the owner showed visited inspected purchased burned.",
+    "The meal the chef the critic the guest prepared tasted reviewed enjoyed spoiled."
+  ],
+  "induced_prompt_raw": "Center-embedded relative clauses with multiple verbs.",
+  "induced_prompt": "Center-embedded relative clauses with multiple verbs.",
+  "induced_prompt_chars": 53,
+  "induced_prompt_words": 6,
+  "l1_char_total": 395,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that chased the mouse that stole the cheese that was left on the counter meowed loudly.\",\n    \"The book that I read that recommended that diet that helped me lose weight changed my life.\",\n    \"The teacher who praised the student who solved the problem that confused everyone received an award.\",\n    \"The house that Jack built that stood on the hill that overlooked the valley was sold yesterday.\",\n    \"The reporter who interviewed the witness who identified the suspect who committed the crime won a prize.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that chased the mouse that stole the cheese that was left on the counter meowed loudly.",
+    "The book that I read that recommended that diet that helped me lose weight changed my life.",
+    "The teacher who praised the student who solved the problem that confused everyone received an award.",
+    "The house that Jack built that stood on the hill that overlooked the valley was sold yesterday.",
+    "The reporter who interviewed the witness who identified the suspect who committed the crime won a prize."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:00:54.608325+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cat the dog the boy the woman chased fed petted loved vanished.",
+    "The book the teacher the student the principal assigned read graded praised disappeared.",
+    "The car the mechanic the owner the dealer fixed inspected sold bought crashed.",
+    "The house the agent the buyer the owner showed visited inspected purchased burned.",
+    "The meal the chef the critic the guest prepared tasted reviewed enjoyed spoiled."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog the boy the woman chased fed petted loved vanished.\",\n    \"The book the teacher the student the principal assigned read graded praised disappeared.\",\n    \"The car the mechanic the owner the dealer fixed inspected sold bought crashed.\",\n    \"The house the agent the buyer the owner showed visited inspected purchased burned.\",\n    \"The meal the chef the critic the guest prepared tasted reviewed enjoyed spoiled.\"\n  ]\n}",
+  "run_idx": 2
+}

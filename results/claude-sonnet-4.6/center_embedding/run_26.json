@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef the student the teacher trained hired baked vanished.",
+    "The letter the lawyer the clerk the judge appointed hired wrote disappeared.",
+    "The bridge the engineer the worker the boss hired supervised built collapsed.",
+    "The song the singer the coach the director hired trained performed succeeded.",
+    "The book the author the editor the publisher hired reviewed wrote sold."
+  ],
+  "induced_prompt_raw": "Write sentences with multiple center-embedded relative clauses involving a chain of people hiring/training others, culminating in an action and outcome.",
+  "induced_prompt": "Write sentences with multiple center-embedded relative clauses involving a chain of people hiring/training others, culminating in an action and outcome.",
+  "induced_prompt_chars": 152,
+  "induced_prompt_words": 20,
+  "l1_char_total": 372,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The consultant that the manager that the CEO hired trained resigned unexpectedly.\", \"The apprentice that the mentor that the director that the board appointed hired supervised excelled remarkably.\", \"The analyst that the supervisor that the executive that the shareholders elected promoted hired delivered outstanding results.\", \"The intern that the coach that the trainer that the firm that the investors funded recruited hired mentored succeeded brilliantly.\", \"The specialist that the lead that the coordinator that the manager that the president selected hired trained mentored transformed the entire organization.\"]}\n```",
+  "l2_sentences": [
+    "The consultant that the manager that the CEO hired trained resigned unexpectedly.",
+    "The apprentice that the mentor that the director that the board appointed hired supervised excelled remarkably.",
+    "The analyst that the supervisor that the executive that the shareholders elected promoted hired delivered outstanding results.",
+    "The intern that the coach that the trainer that the firm that the investors funded recruited hired mentored succeeded brilliantly.",
+    "The specialist that the lead that the coordinator that the manager that the president selected hired trained mentored transformed the entire organization."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:31:02.005778+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef the student the teacher trained hired baked vanished.",
+    "The letter the lawyer the clerk the judge appointed hired wrote disappeared.",
+    "The bridge the engineer the worker the boss hired supervised built collapsed.",
+    "The song the singer the coach the director hired trained performed succeeded.",
+    "The book the author the editor the publisher hired reviewed wrote sold."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cake the chef the student the teacher trained hired baked vanished.\",\n    \"The letter the lawyer the clerk the judge appointed hired wrote disappeared.\",\n    \"The bridge the engineer the worker the boss hired supervised built collapsed.\",\n    \"The song the singer the coach the director hired trained performed succeeded.\",\n    \"The book the author the editor the publisher hired reviewed wrote sold.\"\n  ]\n}\n```",
+  "run_idx": 26
+}

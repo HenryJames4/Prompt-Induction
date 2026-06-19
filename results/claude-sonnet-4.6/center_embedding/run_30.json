@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the critic the blogger praised reviewed tasted vanished.",
+    "the letter the lawyer the judge the clerk filed reviewed signed disappeared.",
+    "the bridge the engineer the mayor the council approved funded built collapsed.",
+    "the song the singer the producer the label recorded mixed released charted.",
+    "the book the author the agent the publisher submitted rejected revised printed."
+  ],
+  "induced_prompt_raw": "Write sentences with multiply center-embedded relative clauses, where a subject noun is modified by nested agent chains before the final verb.",
+  "induced_prompt": "Write sentences with multiply center-embedded relative clauses, where a subject noun is modified by nested agent chains before the final verb.",
+  "induced_prompt_chars": 142,
+  "induced_prompt_words": 21,
+  "l1_char_total": 382,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The rat the cat the dog chased killed ate the malt.\", \"The book the student the professor the dean hired taught read won an award.\", \"The proposal the committee the board the CEO appointed formed reviewed failed.\", \"The letter the lawyer the firm the judge praised employed drafted arrived.\", \"The cake the baker the shop the woman owned hired made tasted wonderful.\"]}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog chased killed ate the malt.",
+    "The book the student the professor the dean hired taught read won an award.",
+    "The proposal the committee the board the CEO appointed formed reviewed failed.",
+    "The letter the lawyer the firm the judge praised employed drafted arrived.",
+    "The cake the baker the shop the woman owned hired made tasted wonderful."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:33:12.321322+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the critic the blogger praised reviewed tasted vanished.",
+    "the letter the lawyer the judge the clerk filed reviewed signed disappeared.",
+    "the bridge the engineer the mayor the council approved funded built collapsed.",
+    "the song the singer the producer the label recorded mixed released charted.",
+    "the book the author the agent the publisher submitted rejected revised printed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the critic the blogger praised reviewed tasted vanished.\", \"the letter the lawyer the judge the clerk filed reviewed signed disappeared.\", \"the bridge the engineer the mayor the council approved funded built collapsed.\", \"the song the singer the producer the label recorded mixed released charted.\", \"the book the author the agent the publisher submitted rejected revised printed.\"]}\n```",
+  "run_idx": 30
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the editor the publisher wrote approved released vanished",
+    "the letter the secretary the manager the director sent signed delivered disappeared",
+    "the article the journalist the editor the publisher wrote reviewed published vanished",
+    "the document the clerk the supervisor the director filed approved submitted disappeared",
+    "the proposal the intern the assistant the manager the director drafted reviewed submitted vanished"
+  ],
+  "induced_prompt_raw": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt_chars": 71,
+  "induced_prompt_words": 12,
+  "l1_char_total": 430,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the student the teacher the doctor laughed laughed laughed laughed.\", \"The book the writer the editor the publisher published published published published.\", \"The car the driver the mechanic the engineer fixed fixed fixed fixed.\", \"The song the singer the producer the musician performed performed performed performed.\", \"The project the manager the team the client completed completed completed completed.\"]}",
+  "l2_sentences": [
+    "The cat the student the teacher the doctor laughed laughed laughed laughed.",
+    "The book the writer the editor the publisher published published published published.",
+    "The car the driver the mechanic the engineer fixed fixed fixed fixed.",
+    "The song the singer the producer the musician performed performed performed performed.",
+    "The project the manager the team the client completed completed completed completed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:40:52.864752+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the editor the publisher wrote approved released vanished",
+    "the letter the secretary the manager the director sent signed delivered disappeared",
+    "the article the journalist the editor the publisher wrote reviewed published vanished",
+    "the document the clerk the supervisor the director filed approved submitted disappeared",
+    "the proposal the intern the assistant the manager the director drafted reviewed submitted vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher wrote approved released vanished\", \"the letter the secretary the manager the director sent signed delivered disappeared\", \"the article the journalist the editor the publisher wrote reviewed published vanished\", \"the document the clerk the supervisor the director filed approved submitted disappeared\", \"the proposal the intern the assistant the manager the director drafted reviewed submitted vanished\"]}",
+  "run_idx": 22
+}

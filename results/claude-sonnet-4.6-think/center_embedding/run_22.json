@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the critic the student praised influenced wrote sold.",
+    "the proposal the manager the analyst the clerk briefed impressed accepted succeeded.",
+    "the plan the director the consultant the intern contacted advised approved worked.",
+    "the project the supervisor the engineer the technician assisted convinced funded succeeded.",
+    "the painting the collector the dealer the expert contacted persuaded bought vanished."
+  ],
+  "induced_prompt_raw": "Write sentences with triple center-embedded relative clauses, stacking four noun phrases before their four corresponding verbs appear in sequence at the end.",
+  "induced_prompt": "Write sentences with triple center-embedded relative clauses, stacking four noun phrases before their four corresponding verbs appear in sequence at the end.",
+  "induced_prompt_chars": 157,
+  "induced_prompt_words": 22,
+  "l1_char_total": 415,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat the cat the dog the man owned bit chased died.\",\n    \"The letter the clerk the boss the CEO hired fired wrote arrived.\",\n    \"The house the contractor the firm the investors funded hired built collapsed.\",\n    \"The song the singer the producer the label signed discovered recorded charted.\",\n    \"The bill the senator the lobbyist the corporation funded backed introduced passed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man owned bit chased died.",
+    "The letter the clerk the boss the CEO hired fired wrote arrived.",
+    "The house the contractor the firm the investors funded hired built collapsed.",
+    "The song the singer the producer the label signed discovered recorded charted.",
+    "The bill the senator the lobbyist the corporation funded backed introduced passed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:29:19.627563+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the critic the student praised influenced wrote sold.",
+    "the proposal the manager the analyst the clerk briefed impressed accepted succeeded.",
+    "the plan the director the consultant the intern contacted advised approved worked.",
+    "the project the supervisor the engineer the technician assisted convinced funded succeeded.",
+    "the painting the collector the dealer the expert contacted persuaded bought vanished."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the author the critic the student praised influenced wrote sold.\",\n    \"the proposal the manager the analyst the clerk briefed impressed accepted succeeded.\",\n    \"the plan the director the consultant the intern contacted advised approved worked.\",\n    \"the project the supervisor the engineer the technician assisted convinced funded succeeded.\",\n    \"the painting the collector the dealer the expert contacted persuaded bought vanished.\"\n  ]\n}\n```",
+  "run_idx": 22
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the boy the girl saw waved",
+    "the dog the cat scratched barked",
+    "the car the mechanic repaired started",
+    "the cake the baker baked cooled",
+    "the book the student read fell"
+  ],
+  "induced_prompt_raw": "Generate five sentences with the syntactic structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\".",
+  "induced_prompt": "Generate five sentences with the syntactic structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\".",
+  "induced_prompt_chars": 116,
+  "induced_prompt_words": 15,
+  "l1_char_total": 156,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The car the man bought broke.\",\n    \"The book the girl read disappeared.\",\n    \"The dog the boy chased barked.\",\n    \"The cake the baker made fell.\",\n    \"The toy the child lost vanished.\"\n  ]\n}",
+  "l2_sentences": [
+    "The car the man bought broke.",
+    "The book the girl read disappeared.",
+    "The dog the boy chased barked.",
+    "The cake the baker made fell.",
+    "The toy the child lost vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:43:24.202723+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the boy the girl saw waved",
+    "the dog the cat scratched barked",
+    "the car the mechanic repaired started",
+    "the cake the baker baked cooled",
+    "the book the student read fell"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the boy the girl saw waved\",\n    \"the dog the cat scratched barked\",\n    \"the car the mechanic repaired started\",\n    \"the cake the baker baked cooled\",\n    \"the book the student read fell\"\n  ]\n}",
+  "run_idx": 25
+}

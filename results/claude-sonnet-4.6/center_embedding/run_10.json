@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef the student the teacher trained hired baked vanished.",
+    "The boat the sailor the mechanic the owner hired fixed sailed sank.",
+    "The letter the clerk the manager the boss hired fired wrote arrived.",
+    "The dog the vet the nurse the doctor called hired examined barked.",
+    "The film the actor the director the producer hired cast filmed flopped."
+  ],
+  "induced_prompt_raw": "Write sentences with four levels of center-embedding using people and objects.",
+  "induced_prompt": "Write sentences with four levels of center-embedding using people and objects.",
+  "induced_prompt_chars": 78,
+  "induced_prompt_words": 11,
+  "l1_char_total": 343,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The man the woman the child the dog bit scared loved left.\", \"The book the student the teacher the principal hired assigned read disappeared.\", \"The cake the chef the critic the editor the publisher hired reviewed baked crumbled.\", \"The car the mechanic the dealer the banker the lawyer sued hired fixed broke.\", \"The letter the secretary the boss the client the judge the lawyer consulted hired wrote burned.\"]}\n```",
+  "l2_sentences": [
+    "The man the woman the child the dog bit scared loved left.",
+    "The book the student the teacher the principal hired assigned read disappeared.",
+    "The cake the chef the critic the editor the publisher hired reviewed baked crumbled.",
+    "The car the mechanic the dealer the banker the lawyer sued hired fixed broke.",
+    "The letter the secretary the boss the client the judge the lawyer consulted hired wrote burned."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:21:28.929486+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef the student the teacher trained hired baked vanished.",
+    "The boat the sailor the mechanic the owner hired fixed sailed sank.",
+    "The letter the clerk the manager the boss hired fired wrote arrived.",
+    "The dog the vet the nurse the doctor called hired examined barked.",
+    "The film the actor the director the producer hired cast filmed flopped."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cake the chef the student the teacher trained hired baked vanished.\",\n    \"The boat the sailor the mechanic the owner hired fixed sailed sank.\",\n    \"The letter the clerk the manager the boss hired fired wrote arrived.\",\n    \"The dog the vet the nurse the doctor called hired examined barked.\",\n    \"The film the actor the director the producer hired cast filmed flopped.\"\n  ]\n}\n```",
+  "run_idx": 10
+}

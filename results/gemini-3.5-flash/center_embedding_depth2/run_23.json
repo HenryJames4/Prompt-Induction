@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the author the editor hired wrote",
+    "the student the teacher praised graduated",
+    "the client the lawyer represented won",
+    "the patient the doctor treated recovered",
+    "the artist the collector phoned painted"
+  ],
+  "induced_prompt_raw": "\"A noun phrase followed by a relative clause without a relative pronoun (consisting of a subject and a transitive verb), followed by an intransitive verb.\"",
+  "induced_prompt": "\"A noun phrase followed by a relative clause without a relative pronoun (consisting of a subject and a transitive verb), followed by an intransitive verb.\"",
+  "induced_prompt_chars": 155,
+  "induced_prompt_words": 25,
+  "l1_char_total": 190,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book I read fell.\",\n    \"The car she drove stopped.\",\n    \"The cake we baked collapsed.\",\n    \"The music they played faded.\",\n    \"The project he finished succeeded.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book I read fell.",
+    "The car she drove stopped.",
+    "The cake we baked collapsed.",
+    "The music they played faded.",
+    "The project he finished succeeded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:42:36.152727+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the author the editor hired wrote",
+    "the student the teacher praised graduated",
+    "the client the lawyer represented won",
+    "the patient the doctor treated recovered",
+    "the artist the collector phoned painted"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the author the editor hired wrote\",\n    \"the student the teacher praised graduated\",\n    \"the client the lawyer represented won\",\n    \"the patient the doctor treated recovered\",\n    \"the artist the collector phoned painted\"\n  ]\n}",
+  "run_idx": 23
+}

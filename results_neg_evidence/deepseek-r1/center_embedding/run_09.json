@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The chef the manager the waiter the trainee trained supervised praised resigned.",
+    "The book the author the publisher the editor edited published wrote sold.",
+    "The contract the lawyer the client the company hired reviewed signed expired.",
+    "The software the developer the team the manager tested debugged deployed crashed.",
+    "The teacher the student the homework completed submitted graded."
+  ],
+  "induced_prompt_raw": "Generate: The N1 the N2 the N3 the N4 V4 V3 V2 V1; V4: N4 acts on N3, V3: N3 on N2, V2: N2 on N1, V1: N1 intransitive.",
+  "induced_prompt": "Generate: The N1 the N2 the N3 the N4 V4 V3 V2 V1; V4: N4 acts on N3, V3: N3 on N2, V2: N2 on N1, V1: N1 intransitive.",
+  "induced_prompt_chars": 118,
+  "induced_prompt_words": 29,
+  "l1_char_total": 375,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The king the knight the dragon the princess awakens frightens wakes yawns.\", \"The cat the mouse the cheese the trap catches attracts startles jumps.\", \"The student the teacher the principal the superintendent evaluates observes instructs studies.\", \"The scientist the fruit the branch the wind shakes dislodges strikes ponders.\", \"The child the ball the dog the mailman distracts drops amuses laughs.\"]}",
+  "l2_sentences": [
+    "The king the knight the dragon the princess awakens frightens wakes yawns.",
+    "The cat the mouse the cheese the trap catches attracts startles jumps.",
+    "The student the teacher the principal the superintendent evaluates observes instructs studies.",
+    "The scientist the fruit the branch the wind shakes dislodges strikes ponders.",
+    "The child the ball the dog the mailman distracts drops amuses laughs."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:52:34.368370+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The chef the manager the waiter the trainee trained supervised praised resigned.",
+    "The book the author the publisher the editor edited published wrote sold.",
+    "The contract the lawyer the client the company hired reviewed signed expired.",
+    "The software the developer the team the manager tested debugged deployed crashed."
+  ],
+  "l1_sentences": [
+    "The chef the manager the waiter the trainee trained supervised praised resigned.",
+    "The book the author the publisher the editor edited published wrote sold.",
+    "The contract the lawyer the client the company hired reviewed signed expired.",
+    "The software the developer the team the manager tested debugged deployed crashed.",
+    "The teacher the student the homework completed submitted graded."
+  ],
+  "l1_raw": "{\"sentences\": [\"The chef the manager the waiter the trainee trained supervised praised resigned.\", \"The book the author the publisher the editor edited published wrote sold.\", \"The contract the lawyer the client the company hired reviewed signed expired.\", \"The software the developer the team the manager tested debugged deployed crashed.\", \"The teacher the student the homework completed submitted graded.\"]}",
+  "run_idx": 9
+}

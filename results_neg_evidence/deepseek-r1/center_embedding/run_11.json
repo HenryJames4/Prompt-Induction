@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the man the woman the child fed trained walked escaped.",
+    "the book the author the publisher the editor contacted hired published appeared.",
+    "the house the architect the builder the engineer designed hired built collapsed.",
+    "the cake the baker the assistant the chef trained supervised made cooled.",
+    "the dog the cat the boy chased scratched ran."
+  ],
+  "induced_prompt_raw": "Prompt:  \n\"Generate a sentence with exactly four noun phrases, each starting with 'the', followed by exactly four verbs. Structure as: N1 N2 N3 N4 V_inner V_mid V_outer V_main, where:  \n- V_inner (transitive) applies to N4 (subject) and N3 (object),  \n- V_mid (transitive) applies to N3 (subject) and N2 (object),  \n- V_outer (transitive) applies to N2 (subject) and N1 (object),  \n- V_main (intransitive) applies to N1 (subject).\"",
+  "induced_prompt": "Prompt:  \n\"Generate a sentence with exactly four noun phrases, each starting with 'the', followed by exactly four verbs. Structure as: N1 N2 N3 N4 V_inner V_mid V_outer V_main, where:  \n- V_inner (transitive) applies to N4 (subject) and N3 (object),  \n- V_mid (transitive) applies to N3 (subject) and N2 (object),  \n- V_outer (transitive) applies to N2 (subject) and N1 (object),  \n- V_main (intransitive) applies to N1 (subject).\"",
+  "induced_prompt_chars": 431,
+  "induced_prompt_words": 66,
+  "l1_char_total": 341,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The king that the knight that the dragon that the princess awakened attacked defended celebrated.\", \"The teacher that the student that the book that the child read reviewed praised smiled.\", \"The tree that the wind that the rain that the storm produced soaked swayed fell.\", \"The chef that the critic that the meal that the restaurant served impressed delighted retired.\", \"The cat that the mouse that the cheese that the rat nibbled attracted startled slept.\"]}",
+  "l2_sentences": [
+    "The king that the knight that the dragon that the princess awakened attacked defended celebrated.",
+    "The teacher that the student that the book that the child read reviewed praised smiled.",
+    "The tree that the wind that the rain that the storm produced soaked swayed fell.",
+    "The chef that the critic that the meal that the restaurant served impressed delighted retired.",
+    "The cat that the mouse that the cheese that the rat nibbled attracted startled slept."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:57:08.129813+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the dog the man the woman the child fed trained walked escaped.",
+    "the book the author the publisher the editor contacted hired published appeared.",
+    "the house the architect the builder the engineer designed hired built collapsed.",
+    "the cake the baker the assistant the chef trained supervised made cooled."
+  ],
+  "l1_sentences": [
+    "the dog the man the woman the child fed trained walked escaped.",
+    "the book the author the publisher the editor contacted hired published appeared.",
+    "the house the architect the builder the engineer designed hired built collapsed.",
+    "the cake the baker the assistant the chef trained supervised made cooled.",
+    "the dog the cat the boy chased scratched ran."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the man the woman the child fed trained walked escaped.\", \"the book the author the publisher the editor contacted hired published appeared.\", \"the house the architect the builder the engineer designed hired built collapsed.\", \"the cake the baker the assistant the chef trained supervised made cooled.\", \"the dog the cat the boy chased scratched ran.\"]}",
+  "run_idx": 11
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The book the student read disappeared.",
+    "The cat the dog chased fled.",
+    "The letter the manager signed arrived.",
+    "The cake the chef baked vanished.",
+    "The plan the director approved failed."
+  ],
+  "induced_prompt_raw": "Write sentences with center-embedded relative clauses where a noun phrase is modified by a subject-gap clause, followed by a main verb. Omit the relative pronoun.",
+  "induced_prompt": "Write sentences with center-embedded relative clauses where a noun phrase is modified by a subject-gap clause, followed by a main verb. Omit the relative pronoun.",
+  "induced_prompt_chars": 162,
+  "induced_prompt_words": 25,
+  "l1_char_total": 175,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The book fell off the shelf surprised everyone in the room.\",\n    \"The man spoke too quietly confused the entire audience.\",\n    \"The dog barked all night kept the neighbors awake.\",\n    \"The student studied hardest passed the final exam.\",\n    \"The car broke down on the highway cost a fortune to repair.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The book fell off the shelf surprised everyone in the room.",
+    "The man spoke too quietly confused the entire audience.",
+    "The dog barked all night kept the neighbors awake.",
+    "The student studied hardest passed the final exam.",
+    "The car broke down on the highway cost a fortune to repair."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:36:46.062116+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The book the student read disappeared.",
+    "The cat the dog chased fled.",
+    "The letter the manager signed arrived.",
+    "The cake the chef baked vanished.",
+    "The plan the director approved failed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The book the student read disappeared.\", \"The cat the dog chased fled.\", \"The letter the manager signed arrived.\", \"The cake the chef baked vanished.\", \"The plan the director approved failed.\"]}\n```",
+  "run_idx": 5
+}

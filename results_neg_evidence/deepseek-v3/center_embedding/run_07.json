@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the agent recommended edited released sold.",
+    "The project the manager the team the intern reviewed completed presented succeeded.",
+    "The proposal the committee the chair the consultant drafted approved submitted circulated.",
+    "The plan the architect the builder the engineer designed constructed finalized implemented.",
+    "The report the editor revised approved disappeared."
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring all verbs agree and the structure remains grammatically correct. Avoid incomplete or mismatched clauses.\"",
+  "induced_prompt": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring all verbs agree and the structure remains grammatically correct. Avoid incomplete or mismatched clauses.\"",
+  "induced_prompt_chars": 210,
+  "induced_prompt_words": 28,
+  "l1_char_total": 392,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that the student who the teacher praised recommended was fascinating.\", \"The dog that the child who the neighbor adopted found was playful.\", \"The car that the mechanic who the customer trusted repaired was efficient.\", \"The cake that the baker who the chef admired prepared was delicious.\", \"The painting that the artist who the curator selected created was inspiring.\"]}",
+  "l2_sentences": [
+    "The book that the student who the teacher praised recommended was fascinating.",
+    "The dog that the child who the neighbor adopted found was playful.",
+    "The car that the mechanic who the customer trusted repaired was efficient.",
+    "The cake that the baker who the chef admired prepared was delicious.",
+    "The painting that the artist who the curator selected created was inspiring."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:50:39.394233+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the agent recommended edited released sold.",
+    "The project the manager the team the intern reviewed completed presented succeeded.",
+    "The proposal the committee the chair the consultant drafted approved submitted circulated.",
+    "The plan the architect the builder the engineer designed constructed finalized implemented."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the agent recommended edited released sold.",
+    "The project the manager the team the intern reviewed completed presented succeeded.",
+    "The proposal the committee the chair the consultant drafted approved submitted circulated.",
+    "The plan the architect the builder the engineer designed constructed finalized implemented.",
+    "The report the editor revised approved disappeared."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the agent recommended edited released sold.\", \"The project the manager the team the intern reviewed completed presented succeeded.\", \"The proposal the committee the chair the consultant drafted approved submitted circulated.\", \"The plan the architect the builder the engineer designed constructed finalized implemented.\", \"The report the editor revised approved disappeared.\"]}",
+  "run_idx": 7
+}

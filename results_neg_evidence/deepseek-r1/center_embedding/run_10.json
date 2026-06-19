@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The mouse the cat the dog the boy scared chased bit escaped.",
+    "The cake the chef the customer the waiter served thanked baked cooled.",
+    "The letter the secretary the manager the director hired supervised typed arrived.",
+    "The program the student the professor the university appointed taught debugged crashed.",
+    "The book the author the editor praised wrote sold."
+  ],
+  "induced_prompt_raw": "Generate a sentence with the structure: 'The N1 the N2 the N3 the N4 V4 V3 V2 V1' in past tense.  \n- V4: N4 acts on N3 (transitive).  \n- V3: N3 acts on N2 (transitive).  \n- V2: N2 acts on N1 (transitive).  \n- V1: N1 completes an action (intransitive).  \n\nEnsure exactly four nested clauses with clear transitive/intransitive roles. Avoid fewer/more clauses or incorrect verb-object pairings.",
+  "induced_prompt": "Generate a sentence with the structure: 'The N1 the N2 the N3 the N4 V4 V3 V2 V1' in past tense.  \n- V4: N4 acts on N3 (transitive).  \n- V3: N3 acts on N2 (transitive).  \n- V2: N2 acts on N1 (transitive).  \n- V1: N1 completes an action (intransitive).  \n\nEnsure exactly four nested clauses with clear transitive/intransitive roles. Avoid fewer/more clauses or incorrect verb-object pairings.",
+  "induced_prompt_chars": 391,
+  "induced_prompt_words": 65,
+  "l1_char_total": 348,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The king the knight the dragon the princess threatened defeated protected reigned.\", \"The student the teacher the book the publisher printed assigned read studied.\", \"The tree the gardener the storm the lightning ignited damaged planted flourished.\", \"The cake the chef the assistant the manager praised assisted baked rose.\", \"The house the builder the architect the client commissioned designed constructed stood.\"]}",
+  "l2_sentences": [
+    "The king the knight the dragon the princess threatened defeated protected reigned.",
+    "The student the teacher the book the publisher printed assigned read studied.",
+    "The tree the gardener the storm the lightning ignited damaged planted flourished.",
+    "The cake the chef the assistant the manager praised assisted baked rose.",
+    "The house the builder the architect the client commissioned designed constructed stood."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:55:43.733999+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The mouse the cat the dog the boy scared chased bit escaped.",
+    "The cake the chef the customer the waiter served thanked baked cooled.",
+    "The letter the secretary the manager the director hired supervised typed arrived.",
+    "The program the student the professor the university appointed taught debugged crashed."
+  ],
+  "l1_sentences": [
+    "The mouse the cat the dog the boy scared chased bit escaped.",
+    "The cake the chef the customer the waiter served thanked baked cooled.",
+    "The letter the secretary the manager the director hired supervised typed arrived.",
+    "The program the student the professor the university appointed taught debugged crashed.",
+    "The book the author the editor praised wrote sold."
+  ],
+  "l1_raw": "{\"sentences\": [\"The mouse the cat the dog the boy scared chased bit escaped.\", \"The cake the chef the customer the waiter served thanked baked cooled.\", \"The letter the secretary the manager the director hired supervised typed arrived.\", \"The program the student the professor the university appointed taught debugged crashed.\", \"The book the author the editor praised wrote sold.\"]}",
+  "run_idx": 10
+}

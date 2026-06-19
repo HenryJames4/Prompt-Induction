@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the critic the student the teacher praised challenged reviewed sold.",
+    "the contract the lawyer the clerk the judge hired assisted signed expired.",
+    "the plan the manager the analyst the director appointed briefed endorsed failed.",
+    "the proposal the professor the researcher the dean funded impressed rejected lapsed.",
+    "the painting the buyer the agent the artist contacted convinced purchased vanished."
+  ],
+  "induced_prompt_raw": "Write sentences with four center-embedded relative clauses, listing all noun phrases before their corresponding verbs in nested order.",
+  "induced_prompt": "Write sentences with four center-embedded relative clauses, listing all noun phrases before their corresponding verbs in nested order.",
+  "induced_prompt_chars": 134,
+  "induced_prompt_words": 18,
+  "l1_char_total": 398,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that the dog that the rat that the cheese that the mouse ate attracted chased bit died.\",\n    \"The book that the professor that the student that the idea that the researcher proposed inspired impressed wrote won.\",\n    \"The house that the man that the woman that the child that the teacher taught adored married built collapsed.\",\n    \"The song that the band that the label that the investor that the banker funded backed signed recorded charted.\",\n    \"The castle that the king that the knight that the squire that the lord knighted trained served built stood.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the rat that the cheese that the mouse ate attracted chased bit died.",
+    "The book that the professor that the student that the idea that the researcher proposed inspired impressed wrote won.",
+    "The house that the man that the woman that the child that the teacher taught adored married built collapsed.",
+    "The song that the band that the label that the investor that the banker funded backed signed recorded charted.",
+    "The castle that the king that the knight that the squire that the lord knighted trained served built stood."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:16:26.846273+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the critic the student the teacher praised challenged reviewed sold.",
+    "the contract the lawyer the clerk the judge hired assisted signed expired.",
+    "the plan the manager the analyst the director appointed briefed endorsed failed.",
+    "the proposal the professor the researcher the dean funded impressed rejected lapsed.",
+    "the painting the buyer the agent the artist contacted convinced purchased vanished."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the critic the student the teacher praised challenged reviewed sold.\",\n    \"the contract the lawyer the clerk the judge hired assisted signed expired.\",\n    \"the plan the manager the analyst the director appointed briefed endorsed failed.\",\n    \"the proposal the professor the researcher the dean funded impressed rejected lapsed.\",\n    \"the painting the buyer the agent the artist contacted convinced purchased vanished.\"\n  ]\n}\n```",
+  "run_idx": 1
+}

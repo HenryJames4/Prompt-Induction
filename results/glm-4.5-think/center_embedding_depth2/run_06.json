@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the idea the professor presented vanished.",
+    "the car the thief stole crashed.",
+    "the letter the secretary sent arrived."
+  ],
+  "induced_prompt_raw": "Center-embedded relative clauses: [Noun1] [Noun2] [Verb1] [Verb2].",
+  "induced_prompt": "Center-embedded relative clauses: [Noun1] [Noun2] [Verb1] [Verb2].",
+  "induced_prompt_chars": 66,
+  "induced_prompt_words": 7,
+  "l1_char_total": 181,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that the dog chased escaped.\",\n    \"The book that the student read was interesting.\",\n    \"The house that the builder constructed collapsed.\",\n    \"The car that the mechanic repaired broke down.\",\n    \"The movie that the director produced won awards.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that the dog chased escaped.",
+    "The book that the student read was interesting.",
+    "The house that the builder constructed collapsed.",
+    "The car that the mechanic repaired broke down.",
+    "The movie that the director produced won awards."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:05:35.236715+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the idea the professor presented vanished.",
+    "the car the thief stole crashed.",
+    "the letter the secretary sent arrived."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read disappeared.\",\n    \"the idea the professor presented vanished.\",\n    \"the car the thief stole crashed.\",\n    \"the letter the secretary sent arrived.\"\n  ]\n}\n```",
+  "run_idx": 6
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the student the teacher the principal the school questioned scolded praised closed.",
+    "the car the driver the mechanic the garage repaired drove inspected opened.",
+    "the book the author the publisher the library wrote edited printed shelved.",
+    "the meal the chef the critic the restaurant cooked tasted reviewed closed.",
+    "the tree the squirrel the child the park climbed chased watched left."
+  ],
+  "induced_prompt_raw": "Four nouns with 'the' and then four past tense verbs.",
+  "induced_prompt": "Four nouns with 'the' and then four past tense verbs.",
+  "induced_prompt_chars": 53,
+  "induced_prompt_words": 10,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat, the dog, the bird, and the fish ran, jumped, flew, and swam.\",\n    \"The boy, the girl, the man, and the woman laughed, cried, smiled, and frowned.\",\n    \"The car, the truck, the bus, and the train stopped, started, moved, and halted.\",\n    \"The book, the pen, the paper, and the desk fell, broke, tore, and opened.\",\n    \"The sun, the moon, the star, and the cloud rose, set, twinkled, and drifted.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat, the dog, the bird, and the fish ran, jumped, flew, and swam.",
+    "The boy, the girl, the man, and the woman laughed, cried, smiled, and frowned.",
+    "The car, the truck, the bus, and the train stopped, started, moved, and halted.",
+    "The book, the pen, the paper, and the desk fell, broke, tore, and opened.",
+    "The sun, the moon, the star, and the cloud rose, set, twinkled, and drifted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:22:14.242935+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the student the teacher the principal the school questioned scolded praised closed.",
+    "the car the driver the mechanic the garage repaired drove inspected opened.",
+    "the book the author the publisher the library wrote edited printed shelved.",
+    "the meal the chef the critic the restaurant cooked tasted reviewed closed.",
+    "the tree the squirrel the child the park climbed chased watched left."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the student the teacher the principal the school questioned scolded praised closed.\",\n    \"the car the driver the mechanic the garage repaired drove inspected opened.\",\n    \"the book the author the publisher the library wrote edited printed shelved.\",\n    \"the meal the chef the critic the restaurant cooked tasted reviewed closed.\",\n    \"the tree the squirrel the child the park climbed chased watched left.\"\n  ]\n}\n```",
+  "run_idx": 12
+}

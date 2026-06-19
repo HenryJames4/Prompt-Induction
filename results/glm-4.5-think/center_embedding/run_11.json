@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the child the mother fed bathed dressed smiled.",
+    "the book the student the teacher the librarian helped taught wrote disappeared.",
+    "the house the builder the owner the architect advised hired built collapsed.",
+    "the tree the squirrel the child the ranger visited fed climbed grew.",
+    "the cake the baker the customer the shop welcomed paid baked disappeared."
+  ],
+  "induced_prompt_raw": "Four 'the' nouns then four past tense verbs.",
+  "induced_prompt": "Four 'the' nouns then four past tense verbs.",
+  "induced_prompt_chars": 44,
+  "induced_prompt_words": 8,
+  "l1_char_total": 359,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog the cat the bird the fish jumped ran swam flew.\",\n    \"The teacher the student the book the desk wrote read taught closed.\",\n    \"The car the bus the train the plane drove flew traveled arrived.\",\n    \"The apple the banana the orange the grape grew ripened fell rotted.\",\n    \"The house the tree the flower the grass stood bloomed swayed grew.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog the cat the bird the fish jumped ran swam flew.",
+    "The teacher the student the book the desk wrote read taught closed.",
+    "The car the bus the train the plane drove flew traveled arrived.",
+    "The apple the banana the orange the grape grew ripened fell rotted.",
+    "The house the tree the flower the grass stood bloomed swayed grew."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:20:50.666024+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the child the mother fed bathed dressed smiled.",
+    "the book the student the teacher the librarian helped taught wrote disappeared.",
+    "the house the builder the owner the architect advised hired built collapsed.",
+    "the tree the squirrel the child the ranger visited fed climbed grew.",
+    "the cake the baker the customer the shop welcomed paid baked disappeared."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog the child the mother fed bathed dressed smiled.\",\n    \"the book the student the teacher the librarian helped taught wrote disappeared.\",\n    \"the house the builder the owner the architect advised hired built collapsed.\",\n    \"the tree the squirrel the child the ranger visited fed climbed grew.\",\n    \"the cake the baker the customer the shop welcomed paid baked disappeared.\"\n  ]\n}\n```",
+  "run_idx": 11
+}

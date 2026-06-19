@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the article the journalist the intern the student assisted interviewed edited published",
+    "the law the politician the lobbyist the researcher advised convinced drafted passed",
+    "the painting the artist the apprentice the child helped inspired created vanished",
+    "the recipe the chef the cook the assistant trained supervised prepared improved",
+    "the movie the director the actor nominated filmed failed"
+  ],
+  "induced_prompt_raw": "Generate a sentence containing exactly four nouns followed by exactly four verbs, forming a triple-nested relative clause (e.g., \"the [N1] the [N2] the [N3] the [N4] [V4] [V3] [V2] [V1]\"). Ensure all four verb slots are filled so the sentence is grammatically complete, avoiding incomplete structures with fewer verbs than nouns.",
+  "induced_prompt": "Generate a sentence containing exactly four nouns followed by exactly four verbs, forming a triple-nested relative clause (e.g., \"the [N1] the [N2] the [N3] the [N4] [V4] [V3] [V2] [V1]\"). Ensure all four verb slots are filled so the sentence is grammatically complete, avoiding incomplete structures with fewer verbs than nouns.",
+  "induced_prompt_chars": 329,
+  "induced_prompt_words": 51,
+  "l1_char_total": 386,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cheese the rat the cat the dog chased caught ate smelled.\",\n    \"The report the intern the analyst the manager questioned verified submitted failed.\",\n    \"The letter the boy the girl the teacher helped wrote read burned.\",\n    \"The code the developer the tester the client hired checked modified ran.\",\n    \"The song the child the mother the father loved sang hummed faded.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cheese the rat the cat the dog chased caught ate smelled.",
+    "The report the intern the analyst the manager questioned verified submitted failed.",
+    "The letter the boy the girl the teacher helped wrote read burned.",
+    "The code the developer the tester the client hired checked modified ran.",
+    "The song the child the mother the father loved sang hummed faded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:01:06.461387+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the article the journalist the intern the student assisted interviewed edited published",
+    "the law the politician the lobbyist the researcher advised convinced drafted passed",
+    "the painting the artist the apprentice the child helped inspired created vanished",
+    "the recipe the chef the cook the assistant trained supervised prepared improved"
+  ],
+  "l1_sentences": [
+    "the article the journalist the intern the student assisted interviewed edited published",
+    "the law the politician the lobbyist the researcher advised convinced drafted passed",
+    "the painting the artist the apprentice the child helped inspired created vanished",
+    "the recipe the chef the cook the assistant trained supervised prepared improved",
+    "the movie the director the actor nominated filmed failed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the article the journalist the intern the student assisted interviewed edited published\",\n    \"the law the politician the lobbyist the researcher advised convinced drafted passed\",\n    \"the painting the artist the apprentice the child helped inspired created vanished\",\n    \"the recipe the chef the cook the assistant trained supervised prepared improved\",\n    \"the movie the director the actor nominated filmed failed\"\n  ]\n}",
+  "run_idx": 14
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the student the teacher read wrote passed vanished",
+    "the letter the secretary the clerk the manager typed signed delivered disappeared",
+    "the article the journalist the editor the reporter wrote corrected submitted vanished",
+    "the file the programmer the analyst the developer saved edited uploaded disappeared",
+    "the message the sender the recipient the assistant the clerk sent replied forwarded vanished"
+  ],
+  "induced_prompt_raw": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt_chars": 71,
+  "induced_prompt_words": 12,
+  "l1_char_total": 411,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the neighbor the teacher the student ran ran ran ran.\", \"The dog the owner the parent the child jumped jumped jumped jumped.\", \"The bird the keeper the caregiver the trainer flew flew flew flew.\", \"The car the driver the passenger the rider accelerated accelerated accelerated accelerated.\", \"The book the reader the learner the student absorbed absorbed absorbed absorbed.\"]}",
+  "l2_sentences": [
+    "The cat the neighbor the teacher the student ran ran ran ran.",
+    "The dog the owner the parent the child jumped jumped jumped jumped.",
+    "The bird the keeper the caregiver the trainer flew flew flew flew.",
+    "The car the driver the passenger the rider accelerated accelerated accelerated accelerated.",
+    "The book the reader the learner the student absorbed absorbed absorbed absorbed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:45:35.155517+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the student the teacher read wrote passed vanished",
+    "the letter the secretary the clerk the manager typed signed delivered disappeared",
+    "the article the journalist the editor the reporter wrote corrected submitted vanished",
+    "the file the programmer the analyst the developer saved edited uploaded disappeared",
+    "the message the sender the recipient the assistant the clerk sent replied forwarded vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the student the teacher read wrote passed vanished\", \"the letter the secretary the clerk the manager typed signed delivered disappeared\", \"the article the journalist the editor the reporter wrote corrected submitted vanished\", \"the file the programmer the analyst the developer saved edited uploaded disappeared\", \"the message the sender the recipient the assistant the clerk sent replied forwarded vanished\"]}",
+  "run_idx": 25
+}

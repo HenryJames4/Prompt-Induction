@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy chased barked.",
+    "The book the student read closed.",
+    "The car the mechanic fixed started.",
+    "The song the singer performed ended.",
+    "The cat the dog the child chased barked meowed."
+  ],
+  "induced_prompt_raw": "Generate a sentence: The [noun1] the [noun2] [verb1] [verb2]. Use exactly two nouns and two verbs. Avoid nested clauses.",
+  "induced_prompt": "Generate a sentence: The [noun1] the [noun2] [verb1] [verb2]. Use exactly two nouns and two verbs. Avoid nested clauses.",
+  "induced_prompt_chars": 120,
+  "induced_prompt_words": 19,
+  "l1_char_total": 181,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the ball fetched returned.\", \"The wind the leaves scattered blew.\", \"The chef the meal prepared served.\", \"The sun the ice melted refroze.\", \"The cat the mouse chased pounced.\"]}",
+  "l2_sentences": [
+    "The dog the ball fetched returned.",
+    "The wind the leaves scattered blew.",
+    "The chef the meal prepared served.",
+    "The sun the ice melted refroze.",
+    "The cat the mouse chased pounced."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:40:26.549407+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy chased barked.",
+    "The book the student read closed.",
+    "The car the mechanic fixed started.",
+    "The song the singer performed ended."
+  ],
+  "l1_sentences": [
+    "The dog the boy chased barked.",
+    "The book the student read closed.",
+    "The car the mechanic fixed started.",
+    "The song the singer performed ended.",
+    "The cat the dog the child chased barked meowed."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the boy chased barked.\", \"The book the student read closed.\", \"The car the mechanic fixed started.\", \"The song the singer performed ended.\", \"The cat the dog the child chased barked meowed.\"]}",
+  "run_idx": 7
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the bill the senator the lobbyist the citizen phoned influenced drafted passed",
+    "the car the mechanic the apprentice the customer tipped assisted repaired crashed",
+    "the painting the artist the agent the collector contacted represented created burned",
+    "the song the singer the coach the parent thanked trained sang ended",
+    "the book the author the critic the reader annoyed praised wrote vanished"
+  ],
+  "induced_prompt_raw": "Generate sentences with triple center-embedded relative clauses following the syntactic structure: \"The N1 the N2 the N3 the N4 V4 V3 V2 V1\" (where N = noun and V = verb).",
+  "induced_prompt": "Generate sentences with triple center-embedded relative clauses following the syntactic structure: \"The N1 the N2 the N3 the N4 V4 V3 V2 V1\" (where N = noun and V = verb).",
+  "induced_prompt_chars": 171,
+  "induced_prompt_words": 31,
+  "l1_char_total": 382,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The masterpiece the artist the critic the patron supported detested painted vanished.\",\n    \"The car the mechanic the owner the driver insulted hired fixed stalled.\",\n    \"The book the student the teacher the principal scolded helped read disappeared.\",\n    \"The song the singer the producer the director fired discovered sang resonated.\",\n    \"The house the builder the architect the client sued employed constructed collapsed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The masterpiece the artist the critic the patron supported detested painted vanished.",
+    "The car the mechanic the owner the driver insulted hired fixed stalled.",
+    "The book the student the teacher the principal scolded helped read disappeared.",
+    "The song the singer the producer the director fired discovered sang resonated.",
+    "The house the builder the architect the client sued employed constructed collapsed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:32:43.401912+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the bill the senator the lobbyist the citizen phoned influenced drafted passed",
+    "the car the mechanic the apprentice the customer tipped assisted repaired crashed",
+    "the painting the artist the agent the collector contacted represented created burned",
+    "the song the singer the coach the parent thanked trained sang ended",
+    "the book the author the critic the reader annoyed praised wrote vanished"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the bill the senator the lobbyist the citizen phoned influenced drafted passed\",\n    \"the car the mechanic the apprentice the customer tipped assisted repaired crashed\",\n    \"the painting the artist the agent the collector contacted represented created burned\",\n    \"the song the singer the coach the parent thanked trained sang ended\",\n    \"the book the author the critic the reader annoyed praised wrote vanished\"\n  ]\n}",
+  "run_idx": 28
+}

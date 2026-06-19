@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor revised sold",
+    "the movie the director filmed premiered",
+    "the cake the baker decorated tasted",
+    "the song the artist composed played",
+    "the car the mechanic repaired started"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a nested relative clause structure: [noun] [relative clause] [verb].\"",
+  "induced_prompt": "\"Generate sentences with a nested relative clause structure: [noun] [relative clause] [verb].\"",
+  "induced_prompt_chars": 94,
+  "induced_prompt_words": 12,
+  "l1_char_total": 178,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library that you recommended was fascinating.\", \"The car that my neighbor bought that had been sitting in the garage for years finally started.\", \"The cake that the baker made that everyone raved about was delicious.\", \"The dog that the trainer adopted that had been abandoned by its previous owner was very playful.\", \"The movie that the director filmed that won several awards was inspiring.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library that you recommended was fascinating.",
+    "The car that my neighbor bought that had been sitting in the garage for years finally started.",
+    "The cake that the baker made that everyone raved about was delicious.",
+    "The dog that the trainer adopted that had been abandoned by its previous owner was very playful.",
+    "The movie that the director filmed that won several awards was inspiring."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:31:14.706754+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor revised sold",
+    "the movie the director filmed premiered",
+    "the cake the baker decorated tasted",
+    "the song the artist composed played",
+    "the car the mechanic repaired started"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor revised sold\", \"the movie the director filmed premiered\", \"the cake the baker decorated tasted\", \"the song the artist composed played\", \"the car the mechanic repaired started\"]}",
+  "run_idx": 28
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the editor reviewed sold",
+    "the project the manager completed succeeded",
+    "the film the director produced premiered",
+    "the plan the committee approved progressed",
+    "the student the teacher the principal observed taught"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a nested noun phrase structure where each noun is followed by a relative clause modifying it, ensuring only one level of nesting (e.g., 'the [noun1] the [noun2] [verb2] [verb1]'). Avoid multiple levels of nesting (e.g., 'the [noun1] the [noun2] the [noun3] [verb3] [verb2] [verb1]').\"",
+  "induced_prompt": "\"Generate sentences with a nested noun phrase structure where each noun is followed by a relative clause modifying it, ensuring only one level of nesting (e.g., 'the [noun1] the [noun2] [verb2] [verb1]'). Avoid multiple levels of nesting (e.g., 'the [noun1] the [noun2] the [noun3] [verb3] [verb2] [verb1]').\"",
+  "induced_prompt_chars": 309,
+  "induced_prompt_words": 47,
+  "l1_char_total": 211,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The book the author wrote inspired many readers.\", \"The cake the baker decorated won a prize.\", \"The car the mechanic fixed ran smoothly.\", \"The painting the artist created sold for millions.\", \"The song the musician composed became a hit.\"]}",
+  "l2_sentences": [
+    "The book the author wrote inspired many readers.",
+    "The cake the baker decorated won a prize.",
+    "The car the mechanic fixed ran smoothly.",
+    "The painting the artist created sold for millions.",
+    "The song the musician composed became a hit."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:52:09.935018+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the editor reviewed sold",
+    "the project the manager completed succeeded",
+    "the film the director produced premiered",
+    "the plan the committee approved progressed"
+  ],
+  "l1_sentences": [
+    "the book the editor reviewed sold",
+    "the project the manager completed succeeded",
+    "the film the director produced premiered",
+    "the plan the committee approved progressed",
+    "the student the teacher the principal observed taught"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor reviewed sold\", \"the project the manager completed succeeded\", \"the film the director produced premiered\", \"the plan the committee approved progressed\", \"the student the teacher the principal observed taught\"]}",
+  "run_idx": 20
+}

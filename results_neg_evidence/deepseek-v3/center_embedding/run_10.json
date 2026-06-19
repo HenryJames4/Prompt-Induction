@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the editor wrote printed reviewed sold",
+    "the cake the baker the chef the customer baked decorated served enjoyed",
+    "the car the mechanic the driver the owner repaired drove tested bought",
+    "the house the architect the builder the buyer designed constructed inspected purchased",
+    "the song the musician played recorded released"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested noun phrases following the pattern: 'the X the Y the Z the W verb1 verb2 verb3', where each verb sequentially applies to the preceding noun phrase.\"",
+  "induced_prompt": "\"Generate sentences with nested noun phrases following the pattern: 'the X the Y the Z the W verb1 verb2 verb3', where each verb sequentially applies to the preceding noun phrase.\"",
+  "induced_prompt_chars": 180,
+  "induced_prompt_words": 30,
+  "l1_char_total": 345,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the dog the mouse the cheese chases bites nibbles.\", \"The teacher the student the book the pencil assigns reads writes.\", \"The chef the waiter the diner the plate prepares serves eats.\", \"The gardener the flowers the bees the hive waters attracts collects.\", \"The artist the canvas the paint the brush sketches applies creates.\"]}",
+  "l2_sentences": [
+    "The cat the dog the mouse the cheese chases bites nibbles.",
+    "The teacher the student the book the pencil assigns reads writes.",
+    "The chef the waiter the diner the plate prepares serves eats.",
+    "The gardener the flowers the bees the hive waters attracts collects.",
+    "The artist the canvas the paint the brush sketches applies creates."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:54:51.573970+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the editor wrote printed reviewed sold",
+    "the cake the baker the chef the customer baked decorated served enjoyed",
+    "the car the mechanic the driver the owner repaired drove tested bought",
+    "the house the architect the builder the buyer designed constructed inspected purchased"
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the editor wrote printed reviewed sold",
+    "the cake the baker the chef the customer baked decorated served enjoyed",
+    "the car the mechanic the driver the owner repaired drove tested bought",
+    "the house the architect the builder the buyer designed constructed inspected purchased",
+    "the song the musician played recorded released"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the editor wrote printed reviewed sold\", \"the cake the baker the chef the customer baked decorated served enjoyed\", \"the car the mechanic the driver the owner repaired drove tested bought\", \"the house the architect the builder the buyer designed constructed inspected purchased\", \"the song the musician played recorded released\"]}",
+  "run_idx": 10
+}

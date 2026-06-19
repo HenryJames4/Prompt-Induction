@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the chef the critic praised smiled",
+    "the student the teacher helped graduated",
+    "the artist the collector visited painted",
+    "the athlete the coach trained won",
+    "the author the editor guided succeeded"
+  ],
+  "induced_prompt_raw": "\"the [noun] the [noun] [past-tense verb] [past-tense verb]\"",
+  "induced_prompt": "\"the [noun] the [noun] [past-tense verb] [past-tense verb]\"",
+  "induced_prompt_chars": 59,
+  "induced_prompt_words": 8,
+  "l1_char_total": 185,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"the dog the cat chased ran\",\n    \"the man the child helped smiled\",\n    \"the player the coach selected cheered\",\n    \"the book the student read disappeared\",\n    \"the car the truck hit spun\"\n  ]\n}",
+  "l2_sentences": [
+    "the dog the cat chased ran",
+    "the man the child helped smiled",
+    "the player the coach selected cheered",
+    "the book the student read disappeared",
+    "the car the truck hit spun"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:43:55.985249+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the critic praised smiled",
+    "the student the teacher helped graduated",
+    "the artist the collector visited painted",
+    "the athlete the coach trained won",
+    "the author the editor guided succeeded"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the critic praised smiled\",\n    \"the student the teacher helped graduated\",\n    \"the artist the collector visited painted\",\n    \"the athlete the coach trained won\",\n    \"the author the editor guided succeeded\"\n  ]\n}",
+  "run_idx": 28
+}

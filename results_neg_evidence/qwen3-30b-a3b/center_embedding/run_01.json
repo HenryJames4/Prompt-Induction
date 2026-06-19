@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the critic the reader admired reviewed rejected vanished.",
+    "the letter the secretary the manager the director read signed forwarded disappeared.",
+    "the proposal the intern the assistant the manager approved submitted presented vanished.",
+    "the article the journalist the editor the publisher reviewed accepted published disappeared.",
+    "the file the student the teacher the principal accessed corrected submitted."
+  ],
+  "induced_prompt_raw": "Create a sentence where a noun is sequentially acted upon by a chain of agents, each performing a distinct action, ending with the noun vanishing, ensuring each agent performs only one action and no action is repeated.",
+  "induced_prompt": "Create a sentence where a noun is sequentially acted upon by a chain of agents, each performing a distinct action, ending with the noun vanishing, ensuring each agent performs only one action and no action is repeated.",
+  "induced_prompt_chars": 218,
+  "induced_prompt_words": 37,
+  "l1_char_total": 417,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The child placed the box on the table.\", \"The wind pushed the box off the table.\", \"A dog fetched the box and carried it into the bushes.\", \"A bird lifted the box and flew with it into the sky.\", \"The box vanished as it disappeared into the clouds.\"]}",
+  "l2_sentences": [
+    "The child placed the box on the table.",
+    "The wind pushed the box off the table.",
+    "A dog fetched the box and carried it into the bushes.",
+    "A bird lifted the box and flew with it into the sky.",
+    "The box vanished as it disappeared into the clouds."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:42:15.876903+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the critic the reader admired reviewed rejected vanished.",
+    "the letter the secretary the manager the director read signed forwarded disappeared.",
+    "the proposal the intern the assistant the manager approved submitted presented vanished.",
+    "the article the journalist the editor the publisher reviewed accepted published disappeared."
+  ],
+  "l1_sentences": [
+    "the book the author the critic the reader admired reviewed rejected vanished.",
+    "the letter the secretary the manager the director read signed forwarded disappeared.",
+    "the proposal the intern the assistant the manager approved submitted presented vanished.",
+    "the article the journalist the editor the publisher reviewed accepted published disappeared.",
+    "the file the student the teacher the principal accessed corrected submitted."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the critic the reader admired reviewed rejected vanished.\", \"the letter the secretary the manager the director read signed forwarded disappeared.\", \"the proposal the intern the assistant the manager approved submitted presented vanished.\", \"the article the journalist the editor the publisher reviewed accepted published disappeared.\", \"the file the student the teacher the principal accessed corrected submitted.\"]}",
+  "run_idx": 1
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the student read disappeared",
+    "the car the mechanic repaired crashed",
+    "the cake the baker decorated melted",
+    "the dog the boy adopted escaped",
+    "the letter the writer mailed arrived"
+  ],
+  "induced_prompt_raw": "Generate sentences with the structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\"",
+  "induced_prompt": "Generate sentences with the structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\"",
+  "induced_prompt_chars": 100,
+  "induced_prompt_words": 13,
+  "l1_char_total": 176,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the cat chased barked.\",\n    \"The book the student read fell.\",\n    \"The car the mechanic repaired accelerated.\",\n    \"The letter the woman wrote arrived.\",\n    \"The baby the mother held slept.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the cat chased barked.",
+    "The book the student read fell.",
+    "The car the mechanic repaired accelerated.",
+    "The letter the woman wrote arrived.",
+    "The baby the mother held slept."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:40:48.323732+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the student read disappeared",
+    "the car the mechanic repaired crashed",
+    "the cake the baker decorated melted",
+    "the dog the boy adopted escaped",
+    "the letter the writer mailed arrived"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the student read disappeared\",\n    \"the car the mechanic repaired crashed\",\n    \"the cake the baker decorated melted\",\n    \"the dog the boy adopted escaped\",\n    \"the letter the writer mailed arrived\"\n  ]\n}",
+  "run_idx": 16
+}

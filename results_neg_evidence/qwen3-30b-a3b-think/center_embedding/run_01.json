@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the reviewer read edited printed vanished",
+    "the article the journalist the editor the reader wrote corrected published disappeared",
+    "the manuscript the writer the agent the editor submitted revised accepted vanished",
+    "the letter the sender the recipient the clerk delivered typed signed disappeared",
+    "the email the sender the recipient sent read deleted"
+  ],
+  "induced_prompt_raw": "the noun the role the role the role verb verb verb verb",
+  "induced_prompt": "the noun the role the role the role verb verb verb verb",
+  "induced_prompt_chars": 55,
+  "induced_prompt_words": 12,
+  "l1_char_total": 375,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The student learns the role the role the role.\", \"The student performs the role the role the role.\", \"The student supports the role the role the role.\", \"The student understands the role the role the role.\", \"The student excels the role the role the role.\"]}",
+  "l2_sentences": [
+    "The student learns the role the role the role.",
+    "The student performs the role the role the role.",
+    "The student supports the role the role the role.",
+    "The student understands the role the role the role.",
+    "The student excels the role the role the role."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:42:21.759114+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the reviewer read edited printed vanished",
+    "the article the journalist the editor the reader wrote corrected published disappeared",
+    "the manuscript the writer the agent the editor submitted revised accepted vanished",
+    "the letter the sender the recipient the clerk delivered typed signed disappeared"
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the reviewer read edited printed vanished",
+    "the article the journalist the editor the reader wrote corrected published disappeared",
+    "the manuscript the writer the agent the editor submitted revised accepted vanished",
+    "the letter the sender the recipient the clerk delivered typed signed disappeared",
+    "the email the sender the recipient sent read deleted"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the reviewer read edited printed vanished\", \"the article the journalist the editor the reader wrote corrected published disappeared\", \"the manuscript the writer the agent the editor submitted revised accepted vanished\", \"the letter the sender the recipient the clerk delivered typed signed disappeared\", \"the email the sender the recipient sent read deleted\"]}",
+  "run_idx": 1
+}

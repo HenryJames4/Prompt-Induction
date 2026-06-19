@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic praised sold",
+    "the dog the child fed barked",
+    "the letter the manager signed arrived",
+    "the cake the baker made disappeared",
+    "the report the editor the assistant hired reviewed the manager approved passed"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (subject-gap), where a noun phrase is modified by a clause describing one action, followed by the main verb. Avoid multiple levels of nested embedding.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (subject-gap), where a noun phrase is modified by a clause describing one action, followed by the main verb. Avoid multiple levels of nested embedding.",
+  "induced_prompt_chars": 213,
+  "induced_prompt_words": 32,
+  "l1_char_total": 210,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The scientist who discovered the new element received a prestigious award.\",\n    \"The dog that chased the squirrel finally returned home exhausted.\",\n    \"The teacher who inspired countless students retired after forty years.\",\n    \"The bridge that collapsed during the storm was rebuilt within a year.\",\n    \"The novel that captivated millions of readers won the national prize.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The scientist who discovered the new element received a prestigious award.",
+    "The dog that chased the squirrel finally returned home exhausted.",
+    "The teacher who inspired countless students retired after forty years.",
+    "The bridge that collapsed during the storm was rebuilt within a year.",
+    "The novel that captivated millions of readers won the national prize."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:46:58.774895+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic praised sold",
+    "the dog the child fed barked",
+    "the letter the manager signed arrived",
+    "the cake the baker made disappeared"
+  ],
+  "l1_sentences": [
+    "the book the critic praised sold",
+    "the dog the child fed barked",
+    "the letter the manager signed arrived",
+    "the cake the baker made disappeared",
+    "the report the editor the assistant hired reviewed the manager approved passed"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the book the critic praised sold\", \"the dog the child fed barked\", \"the letter the manager signed arrived\", \"the cake the baker made disappeared\", \"the report the editor the assistant hired reviewed the manager approved passed\"]}\n```",
+  "run_idx": 14
+}

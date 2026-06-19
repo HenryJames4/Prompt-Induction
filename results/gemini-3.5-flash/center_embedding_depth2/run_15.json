@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the student the teacher helped failed",
+    "the dog the cat chased ran",
+    "the actor the director hired bowed",
+    "the patient the doctor treated recovered",
+    "the child the mother hugged smiled"
+  ],
+  "induced_prompt_raw": "Generate five sentences where a subject is modified by a subject-relative clause (with the relative pronoun omitted), followed by an intransitive verb in the past tense (e.g., \"the [noun] the [noun] [transitive verb] [intransitive verb]\").",
+  "induced_prompt": "Generate five sentences where a subject is modified by a subject-relative clause (with the relative pronoun omitted), followed by an intransitive verb in the past tense (e.g., \"the [noun] the [noun] [transitive verb] [intransitive verb]\").",
+  "induced_prompt_chars": 239,
+  "induced_prompt_words": 35,
+  "l1_char_total": 171,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The letter the boy wrote arrived.\",\n    \"The vase the cat broke shattered.\",\n    \"The flower the girl picked wilted.\",\n    \"The sun the clouds blocked reappeared.\",\n    \"The ice the sun melted dripped.\"\n  ]\n}",
+  "l2_sentences": [
+    "The letter the boy wrote arrived.",
+    "The vase the cat broke shattered.",
+    "The flower the girl picked wilted.",
+    "The sun the clouds blocked reappeared.",
+    "The ice the sun melted dripped."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:40:11.071906+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the student the teacher helped failed",
+    "the dog the cat chased ran",
+    "the actor the director hired bowed",
+    "the patient the doctor treated recovered",
+    "the child the mother hugged smiled"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the student the teacher helped failed\",\n    \"the dog the cat chased ran\",\n    \"the actor the director hired bowed\",\n    \"the patient the doctor treated recovered\",\n    \"the child the mother hugged smiled\"\n  ]\n}",
+  "run_idx": 15
+}

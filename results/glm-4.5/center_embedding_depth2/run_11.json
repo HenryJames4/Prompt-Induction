@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the mouse chased escaped.",
+    "the book the student read fascinated.",
+    "the car the mechanic fixed broke.",
+    "the house the builder constructed collapsed.",
+    "the tree the storm damaged fell."
+  ],
+  "induced_prompt_raw": "Subject, relative clause, verb.",
+  "induced_prompt": "Subject, relative clause, verb.",
+  "induced_prompt_chars": 31,
+  "induced_prompt_words": 4,
+  "l1_char_total": 179,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat, which was sleeping on the couch, suddenly woke up.\",\n    \"The book that I borrowed from the library is due tomorrow.\",\n    \"My neighbor, who lives across the street, won the lottery.\",\n    \"The restaurant where we had dinner last night has closed down.\",\n    \"The teacher who taught me math is retiring this year.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat, which was sleeping on the couch, suddenly woke up.",
+    "The book that I borrowed from the library is due tomorrow.",
+    "My neighbor, who lives across the street, won the lottery.",
+    "The restaurant where we had dinner last night has closed down.",
+    "The teacher who taught me math is retiring this year."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:11:25.011845+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the mouse chased escaped.",
+    "the book the student read fascinated.",
+    "the car the mechanic fixed broke.",
+    "the house the builder constructed collapsed.",
+    "the tree the storm damaged fell."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the mouse chased escaped.\",\n    \"the book the student read fascinated.\",\n    \"the car the mechanic fixed broke.\",\n    \"the house the builder constructed collapsed.\",\n    \"the tree the storm damaged fell.\"\n  ]\n}",
+  "run_idx": 11
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef the critic the journalist interviewed praised baked melted",
+    "the novel the author the publisher the agent contacted hired wrote sold",
+    "the trophy the athlete the coach the sponsor funded trained won displayed",
+    "the building the architect the developer the investor backed hired designed collapsed",
+    "the film the director the producer funded made premiered"
+  ],
+  "induced_prompt_raw": "Generate multiply center-embedded relative clause sentences with exactly **4 levels** of embedding: four noun phrases followed by four verbs in reverse order (NP1 NP2 NP3 NP4 V4 V3 V2 V1). Do not use only 3 levels of embedding (three NPs and three verbs).",
+  "induced_prompt": "Generate multiply center-embedded relative clause sentences with exactly **4 levels** of embedding: four noun phrases followed by four verbs in reverse order (NP1 NP2 NP3 NP4 V4 V3 V2 V1). Do not use only 3 levels of embedding (three NPs and three verbs).",
+  "induced_prompt_chars": 255,
+  "induced_prompt_words": 43,
+  "l1_char_total": 361,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the rat that the elephant chased bit scratched ran.\", \"The book that the student that the teacher that the principal praised taught read won an award.\", \"The patient that the nurse that the doctor that the hospital hired trained treated recovered.\", \"The proposal that the manager that the CEO that the board approved hired reviewed succeeded.\", \"The song that the musician that the producer that the label signed discovered recorded became famous.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the rat that the elephant chased bit scratched ran.",
+    "The book that the student that the teacher that the principal praised taught read won an award.",
+    "The patient that the nurse that the doctor that the hospital hired trained treated recovered.",
+    "The proposal that the manager that the CEO that the board approved hired reviewed succeeded.",
+    "The song that the musician that the producer that the label signed discovered recorded became famous."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:00:33.213411+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef the critic the journalist interviewed praised baked melted",
+    "the novel the author the publisher the agent contacted hired wrote sold",
+    "the trophy the athlete the coach the sponsor funded trained won displayed",
+    "the building the architect the developer the investor backed hired designed collapsed"
+  ],
+  "l1_sentences": [
+    "the cake the chef the critic the journalist interviewed praised baked melted",
+    "the novel the author the publisher the agent contacted hired wrote sold",
+    "the trophy the athlete the coach the sponsor funded trained won displayed",
+    "the building the architect the developer the investor backed hired designed collapsed",
+    "the film the director the producer funded made premiered"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the chef the critic the journalist interviewed praised baked melted\",\n    \"the novel the author the publisher the agent contacted hired wrote sold\",\n    \"the trophy the athlete the coach the sponsor funded trained won displayed\",\n    \"the building the architect the developer the investor backed hired designed collapsed\",\n    \"the film the director the producer funded made premiered\"\n  ]\n}\n```",
+  "run_idx": 14
+}

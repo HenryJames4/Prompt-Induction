@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student the teacher the principal praised recommended read fell.",
+    "The car the mechanic the manager the owner phoned instructed fixed stalled.",
+    "The house the builder the architect the client sued employed constructed collapsed.",
+    "The painting the artist the collector the agent contacted commissioned painted faded.",
+    "The cheese the rat the cat chased ate smelled."
+  ],
+  "induced_prompt_raw": "Write a sentence with exactly four levels of center-embedding, consisting of four consecutive nouns followed by four consecutive verbs in the order N1 N2 N3 N4 V4 V3 V2 V1. Ensure you do not use a simpler three-level embedding (three nouns and three verbs).",
+  "induced_prompt": "Write a sentence with exactly four levels of center-embedding, consisting of four consecutive nouns followed by four consecutive verbs in the order N1 N2 N3 N4 V4 V3 V2 V1. Ensure you do not use a simpler three-level embedding (three nouns and three verbs).",
+  "induced_prompt_chars": 257,
+  "induced_prompt_words": 44,
+  "l1_char_total": 366,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"Patients doctors nurses germs infect assist treat recover.\",\n    \"Women men bosses assistants annoy dismiss admire celebrate.\",\n    \"Kings queens knights horses throw protect adore rejoice.\",\n    \"Students teachers parents toddlers distract ignore praise graduate.\",\n    \"Actors directors writers critics insult inspire employ perform.\"\n  ]\n}",
+  "l2_sentences": [
+    "Patients doctors nurses germs infect assist treat recover.",
+    "Women men bosses assistants annoy dismiss admire celebrate.",
+    "Kings queens knights horses throw protect adore rejoice.",
+    "Students teachers parents toddlers distract ignore praise graduate.",
+    "Actors directors writers critics insult inspire employ perform."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:57:41.563279+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student the teacher the principal praised recommended read fell.",
+    "The car the mechanic the manager the owner phoned instructed fixed stalled.",
+    "The house the builder the architect the client sued employed constructed collapsed.",
+    "The painting the artist the collector the agent contacted commissioned painted faded."
+  ],
+  "l1_sentences": [
+    "The book the student the teacher the principal praised recommended read fell.",
+    "The car the mechanic the manager the owner phoned instructed fixed stalled.",
+    "The house the builder the architect the client sued employed constructed collapsed.",
+    "The painting the artist the collector the agent contacted commissioned painted faded.",
+    "The cheese the rat the cat chased ate smelled."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the principal praised recommended read fell.\",\n    \"The car the mechanic the manager the owner phoned instructed fixed stalled.\",\n    \"The house the builder the architect the client sued employed constructed collapsed.\",\n    \"The painting the artist the collector the agent contacted commissioned painted faded.\",\n    \"The cheese the rat the cat chased ate smelled.\"\n  ]\n}",
+  "run_idx": 12
+}

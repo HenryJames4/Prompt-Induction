@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the student the teacher read wrote borrowed vanished",
+    "the letter the secretary the clerk the manager typed signed sent disappeared",
+    "the file the analyst the intern the director reviewed updated submitted vanished",
+    "the plan the architect the engineer the builder designed constructed approved disappeared",
+    "the message the courier the officer the commander received delivered confirmed vanished"
+  ],
+  "induced_prompt_raw": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt": "the [noun] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt_chars": 71,
+  "induced_prompt_words": 12,
+  "l1_char_total": 404,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the chef the waiter the manager smiled smiled nodded nodded.\", \"The book the teacher the student the librarian read read studied studied.\", \"The car the driver the passenger the mechanic fixed fixed checked tested tested.\", \"The song the singer the dancer the musician sang sang performed played.\", \"The project the leader the team the client completed completed reviewed approved approved.\"]}",
+  "l2_sentences": [
+    "The cat the chef the waiter the manager smiled smiled nodded nodded.",
+    "The book the teacher the student the librarian read read studied studied.",
+    "The car the driver the passenger the mechanic fixed fixed checked tested tested.",
+    "The song the singer the dancer the musician sang sang performed played.",
+    "The project the leader the team the client completed completed reviewed approved approved."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:39:57.792209+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the student the teacher read wrote borrowed vanished",
+    "the letter the secretary the clerk the manager typed signed sent disappeared",
+    "the file the analyst the intern the director reviewed updated submitted vanished",
+    "the plan the architect the engineer the builder designed constructed approved disappeared",
+    "the message the courier the officer the commander received delivered confirmed vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the student the teacher read wrote borrowed vanished\", \"the letter the secretary the clerk the manager typed signed sent disappeared\", \"the file the analyst the intern the director reviewed updated submitted vanished\", \"the plan the architect the engineer the builder designed constructed approved disappeared\", \"the message the courier the officer the commander received delivered confirmed vanished\"]}",
+  "run_idx": 21
+}

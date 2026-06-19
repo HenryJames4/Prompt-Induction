@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the patient the doctor the nurse the student watched helped treated survived",
+    "the cheese the mouse the cat the dog chased caught ate smelled",
+    "the product the designer the manager the director hired blamed created failed",
+    "the book the teacher the principal the superintendent annoyed scolded read burned",
+    "the soup the chef the patron the critic insulted tipped cooked spilled"
+  ],
+  "induced_prompt_raw": "Generate sentences with triple center-embedded relative clauses, following the syntactic template: the [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1].",
+  "induced_prompt": "Generate sentences with triple center-embedded relative clauses, following the syntactic template: the [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1].",
+  "induced_prompt_chars": 179,
+  "induced_prompt_words": 23,
+  "l1_char_total": 366,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The patient the nurse the doctor the intern assisted paged treated survived.\",\n    \"The chef the critic the waiter the customer tipped blamed praised rejoiced.\",\n    \"The student the teacher the principal the parent called warned helped graduated.\",\n    \"The book the author the editor the publisher fired hired wrote sold.\",\n    \"The computer the programmer the manager the client annoyed hired designed crashed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The patient the nurse the doctor the intern assisted paged treated survived.",
+    "The chef the critic the waiter the customer tipped blamed praised rejoiced.",
+    "The student the teacher the principal the parent called warned helped graduated.",
+    "The book the author the editor the publisher fired hired wrote sold.",
+    "The computer the programmer the manager the client annoyed hired designed crashed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:17:49.425554+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the patient the doctor the nurse the student watched helped treated survived",
+    "the cheese the mouse the cat the dog chased caught ate smelled",
+    "the product the designer the manager the director hired blamed created failed",
+    "the book the teacher the principal the superintendent annoyed scolded read burned",
+    "the soup the chef the patron the critic insulted tipped cooked spilled"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the patient the doctor the nurse the student watched helped treated survived\",\n    \"the cheese the mouse the cat the dog chased caught ate smelled\",\n    \"the product the designer the manager the director hired blamed created failed\",\n    \"the book the teacher the principal the superintendent annoyed scolded read burned\",\n    \"the soup the chef the patron the critic insulted tipped cooked spilled\"\n  ]\n}",
+  "run_idx": 3
+}

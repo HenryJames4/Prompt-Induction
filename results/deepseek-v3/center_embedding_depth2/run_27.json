@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the student borrowed returned",
+    "the song the artist composed played",
+    "the meal the chef prepared served",
+    "the letter the writer sent arrived",
+    "the gift the child received delighted"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a nested relative clause structure: [noun1] [noun2] [verb1] [verb2].\"",
+  "induced_prompt": "\"Generate sentences with a nested relative clause structure: [noun1] [noun2] [verb1] [verb2].\"",
+  "induced_prompt_chars": 94,
+  "induced_prompt_words": 12,
+  "l1_char_total": 177,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The teacher whom the students admire inspires creativity.\", \"The book that the author wrote captivates readers.\", \"The chef who the critics praised prepares exquisite dishes.\", \"The artist who the museum displayed creates stunning sculptures.\", \"The car that the mechanic repaired runs smoothly.\"]}",
+  "l2_sentences": [
+    "The teacher whom the students admire inspires creativity.",
+    "The book that the author wrote captivates readers.",
+    "The chef who the critics praised prepares exquisite dishes.",
+    "The artist who the museum displayed creates stunning sculptures.",
+    "The car that the mechanic repaired runs smoothly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:29:41.640124+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the student borrowed returned",
+    "the song the artist composed played",
+    "the meal the chef prepared served",
+    "the letter the writer sent arrived",
+    "the gift the child received delighted"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student borrowed returned\", \"the song the artist composed played\", \"the meal the chef prepared served\", \"the letter the writer sent arrived\", \"the gift the child received delighted\"]}",
+  "run_idx": 27
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased escaped",
+    "the book the student read vanished",
+    "the man the woman called arrived",
+    "the car the mechanic fixed disappeared",
+    "the rat the cat the dog chased killed disappeared"
+  ],
+  "induced_prompt_raw": "Generate a center-embedded sentence: structure \"the A the B verb1 verb2\" with exactly one relative clause. Avoid multiple embeddings.",
+  "induced_prompt": "Generate a center-embedded sentence: structure \"the A the B verb1 verb2\" with exactly one relative clause. Avoid multiple embeddings.",
+  "induced_prompt_chars": 133,
+  "induced_prompt_words": 19,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that the dog chased meowed.\",\n    \"The book that the student read disappeared.\",\n    \"The car that the mechanic fixed started.\",\n    \"The letter that the secretary typed arrived.\",\n    \"The house that the builder built collapsed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that the dog chased meowed.",
+    "The book that the student read disappeared.",
+    "The car that the mechanic fixed started.",
+    "The letter that the secretary typed arrived.",
+    "The house that the builder built collapsed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:58:45.187780+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased escaped",
+    "the book the student read vanished",
+    "the man the woman called arrived",
+    "the car the mechanic fixed disappeared"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased escaped",
+    "the book the student read vanished",
+    "the man the woman called arrived",
+    "the car the mechanic fixed disappeared",
+    "the rat the cat the dog chased killed disappeared"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped\",\n    \"the book the student read vanished\",\n    \"the man the woman called arrived\",\n    \"the car the mechanic fixed disappeared\",\n    \"the rat the cat the dog chased killed disappeared\"\n  ]\n}\n```",
+  "run_idx": 28
+}

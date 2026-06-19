@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the apprentice the child tasted made enjoyed vanished.",
+    "the novel the author the critic the student praised reviewed wrote circulated.",
+    "the bridge the engineer the worker the inspector built checked approved collapsed.",
+    "the song the composer the singer the fan wrote performed loved spread.",
+    "the garden the owner the gardener the neighbor planted tended admired grew."
+  ],
+  "induced_prompt_raw": "Write sentences with 4 nested center-embedded relative clauses, where multiple agents and actions are stacked before their corresponding verbs appear in reverse order.",
+  "induced_prompt": "Write sentences with 4 nested center-embedded relative clauses, where multiple agents and actions are stacked before their corresponding verbs appear in reverse order.",
+  "induced_prompt_chars": 167,
+  "induced_prompt_words": 23,
+  "l1_char_total": 377,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the mouse that the bird that the fish saw chased bit scratched yawned.\", \"The lawyer that the judge that the witness that the jury that the bailiff summoned watched questioned hired argued.\", \"The teacher that the student that the child that the parent that the principal called enrolled taught inspired lectured.\", \"The detective that the captain that the suspect that the witness that the officer interviewed frightened implicated promoted investigated.\", \"The scientist that the professor that the graduate that the colleague that the dean appointed supervised trained mentored published.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the mouse that the bird that the fish saw chased bit scratched yawned.",
+    "The lawyer that the judge that the witness that the jury that the bailiff summoned watched questioned hired argued.",
+    "The teacher that the student that the child that the parent that the principal called enrolled taught inspired lectured.",
+    "The detective that the captain that the suspect that the witness that the officer interviewed frightened implicated promoted investigated.",
+    "The scientist that the professor that the graduate that the colleague that the dean appointed supervised trained mentored published."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:17:36.648339+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the apprentice the child tasted made enjoyed vanished.",
+    "the novel the author the critic the student praised reviewed wrote circulated.",
+    "the bridge the engineer the worker the inspector built checked approved collapsed.",
+    "the song the composer the singer the fan wrote performed loved spread.",
+    "the garden the owner the gardener the neighbor planted tended admired grew."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the apprentice the child tasted made enjoyed vanished.\", \"the novel the author the critic the student praised reviewed wrote circulated.\", \"the bridge the engineer the worker the inspector built checked approved collapsed.\", \"the song the composer the singer the fan wrote performed loved spread.\", \"the garden the owner the gardener the neighbor planted tended admired grew.\"]}\n```",
+  "run_idx": 4
+}

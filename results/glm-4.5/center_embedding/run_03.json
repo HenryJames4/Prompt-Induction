@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The cat the dog the boy the woman petted chased fed meowed.",
+    "The book the teacher the student the principal assigned read graded returned.",
+    "The car the mechanic the owner the driver fixed inspected washed crashed.",
+    "The house the agent the buyer the owner showed toured purchased sold.",
+    "The meal the chef the critic the guest prepared tasted enjoyed ordered."
+  ],
+  "induced_prompt_raw": "Nested relative clauses with center-embedded structure.",
+  "induced_prompt": "Nested relative clauses with center-embedded structure.",
+  "induced_prompt_chars": 55,
+  "induced_prompt_words": 6,
+  "l1_char_total": 349,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that chased the mouse that ate the cheese that was left on the counter meowed loudly.\",\n    \"The book that I bought yesterday that was written by the author who won the prize is fascinating.\",\n    \"The house that Jack built that stood on the hill that overlooked the village was old and decrepit.\",\n    \"The student who answered the question that the professor who taught the class asked received an A.\",\n    \"The car that hit the tree that was planted by the man who lived next door was badly damaged.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that chased the mouse that ate the cheese that was left on the counter meowed loudly.",
+    "The book that I bought yesterday that was written by the author who won the prize is fascinating.",
+    "The house that Jack built that stood on the hill that overlooked the village was old and decrepit.",
+    "The student who answered the question that the professor who taught the class asked received an A.",
+    "The car that hit the tree that was planted by the man who lived next door was badly damaged."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:02:56.852409+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cat the dog the boy the woman petted chased fed meowed.",
+    "The book the teacher the student the principal assigned read graded returned.",
+    "The car the mechanic the owner the driver fixed inspected washed crashed.",
+    "The house the agent the buyer the owner showed toured purchased sold.",
+    "The meal the chef the critic the guest prepared tasted enjoyed ordered."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog the boy the woman petted chased fed meowed.\",\n    \"The book the teacher the student the principal assigned read graded returned.\",\n    \"The car the mechanic the owner the driver fixed inspected washed crashed.\",\n    \"The house the agent the buyer the owner showed toured purchased sold.\",\n    \"The meal the chef the critic the guest prepared tasted enjoyed ordered.\"\n  ]\n}",
+  "run_idx": 3
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the film the director edited won.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed succeeded.",
+    "the project the manager launched the team completed the deadline."
+  ],
+  "induced_prompt_raw": "Create a sentence with a relative clause modifying a noun, followed by a main clause where the noun is the subject and performs a simple action.",
+  "induced_prompt": "Create a sentence with a relative clause modifying a noun, followed by a main clause where the noun is the subject and performs a simple action.",
+  "induced_prompt_chars": 144,
+  "induced_prompt_words": 26,
+  "l1_char_total": 210,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library is overdue.\", \"The car that she bought last week needs a new battery.\", \"The student who won the competition received a scholarship.\", \"The dog that barks at night belongs to my neighbor.\", \"The painting that hangs in the hallway was created by my grandmother.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library is overdue.",
+    "The car that she bought last week needs a new battery.",
+    "The student who won the competition received a scholarship.",
+    "The dog that barks at night belongs to my neighbor.",
+    "The painting that hangs in the hallway was created by my grandmother."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:54:06.055777+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the film the director edited won.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed succeeded."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the film the director edited won.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed succeeded.",
+    "the project the manager launched the team completed the deadline."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the film the director edited won.\", \"the plan the committee rejected failed.\", \"the idea the scientist proposed succeeded.\", \"the project the manager launched the team completed the deadline.\"]}",
+  "run_idx": 22
+}

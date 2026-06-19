@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor read sold.",
+    "the poem the critic praised won.",
+    "the plan the manager accepted failed.",
+    "the idea the scientist tested proved.",
+    "the report the auditor reviewed passed."
+  ],
+  "induced_prompt_raw": "The [noun] the [role] [verb] [past participle].",
+  "induced_prompt": "The [noun] the [role] [verb] [past participle].",
+  "induced_prompt_chars": 47,
+  "induced_prompt_words": 7,
+  "l1_char_total": 175,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the veterinarian examined was very sick.\", \"The book the editor reviewed was published last year.\", \"The song the singer performed was a hit.\", \"The painting the curator restored was centuries old.\", \"The project the manager completed was highly praised.\"]}",
+  "l2_sentences": [
+    "The cat the veterinarian examined was very sick.",
+    "The book the editor reviewed was published last year.",
+    "The song the singer performed was a hit.",
+    "The painting the curator restored was centuries old.",
+    "The project the manager completed was highly praised."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:16:53.145586+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor read sold.",
+    "the poem the critic praised won.",
+    "the plan the manager accepted failed.",
+    "the idea the scientist tested proved.",
+    "the report the auditor reviewed passed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor read sold.\", \"the poem the critic praised won.\", \"the plan the manager accepted failed.\", \"the idea the scientist tested proved.\", \"the report the auditor reviewed passed.\"]}",
+  "run_idx": 16
+}

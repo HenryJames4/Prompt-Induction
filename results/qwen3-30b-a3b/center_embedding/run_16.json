@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the editor the publisher read corrected published vanished",
+    "the letter the secretary the manager the director wrote signed approved disappeared",
+    "the document the clerk the supervisor the director reviewed corrected submitted vanished",
+    "the message the intern the assistant the manager the executive sent approved forwarded disappeared",
+    "the file the analyst the analyst the team the leader accessed updated shared vanished"
+  ],
+  "induced_prompt_raw": "a sequence of actions involving multiple roles leading to the disappearance of a piece of information",
+  "induced_prompt": "a sequence of actions involving multiple roles leading to the disappearance of a piece of information",
+  "induced_prompt_chars": 101,
+  "induced_prompt_words": 16,
+  "l1_char_total": 432,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The researcher encrypted the sensitive data and stored it in a secure server.\", \"The system administrator backed up the file to an off-site location for redundancy.\", \"A junior analyst accidentally shared the backup link via an unsecured messaging app.\", \"The link was intercepted by a hacker who deleted the file and replaced it with a fake version.\", \"By the time the breach was detected, the original information had vanished without a trace.\"]}",
+  "l2_sentences": [
+    "The researcher encrypted the sensitive data and stored it in a secure server.",
+    "The system administrator backed up the file to an off-site location for redundancy.",
+    "A junior analyst accidentally shared the backup link via an unsecured messaging app.",
+    "The link was intercepted by a hacker who deleted the file and replaced it with a fake version.",
+    "By the time the breach was detected, the original information had vanished without a trace."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:29:58.510856+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the editor the publisher read corrected published vanished",
+    "the letter the secretary the manager the director wrote signed approved disappeared",
+    "the document the clerk the supervisor the director reviewed corrected submitted vanished",
+    "the message the intern the assistant the manager the executive sent approved forwarded disappeared",
+    "the file the analyst the analyst the team the leader accessed updated shared vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher read corrected published vanished\", \"the letter the secretary the manager the director wrote signed approved disappeared\", \"the document the clerk the supervisor the director reviewed corrected submitted vanished\", \"the message the intern the assistant the manager the executive sent approved forwarded disappeared\", \"the file the analyst the analyst the team the leader accessed updated shared vanished\"]}",
+  "run_idx": 16
+}

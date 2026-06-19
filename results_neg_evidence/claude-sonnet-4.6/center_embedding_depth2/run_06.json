@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the letter the secretary typed arrived",
+    "the book the student borrowed disappeared",
+    "the cake the chef baked vanished",
+    "the report the manager reviewed circulated",
+    "the memo the clerk the supervisor hired typed filed disappeared"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (subject-object-verb structure), where a noun phrase is modified by a clause before the main verb. Avoid multiply nested embeddings (no relative clause inside another relative clause).",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (subject-object-verb structure), where a noun phrase is modified by a clause before the main verb. Avoid multiply nested embeddings (no relative clause inside another relative clause).",
+  "induced_prompt_chars": 246,
+  "induced_prompt_words": 34,
+  "l1_char_total": 216,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that the professor recommended became a bestseller.\", \"The cat that the children adored disappeared last winter.\", \"The proposal that the committee reviewed was ultimately rejected.\", \"The musician that the critics praised released a new album.\", \"The letter that my grandmother wrote arrived after her passing.\"]}\n```",
+  "l2_sentences": [
+    "The book that the professor recommended became a bestseller.",
+    "The cat that the children adored disappeared last winter.",
+    "The proposal that the committee reviewed was ultimately rejected.",
+    "The musician that the critics praised released a new album.",
+    "The letter that my grandmother wrote arrived after her passing."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:39:24.280961+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the letter the secretary typed arrived",
+    "the book the student borrowed disappeared",
+    "the cake the chef baked vanished",
+    "the report the manager reviewed circulated"
+  ],
+  "l1_sentences": [
+    "the letter the secretary typed arrived",
+    "the book the student borrowed disappeared",
+    "the cake the chef baked vanished",
+    "the report the manager reviewed circulated",
+    "the memo the clerk the supervisor hired typed filed disappeared"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the letter the secretary typed arrived\", \"the book the student borrowed disappeared\", \"the cake the chef baked vanished\", \"the report the manager reviewed circulated\", \"the memo the clerk the supervisor hired typed filed disappeared\"]}\n```",
+  "run_idx": 6
+}

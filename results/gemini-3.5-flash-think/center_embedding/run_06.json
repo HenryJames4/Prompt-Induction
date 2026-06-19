@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The cake the baker the apprentice the master trained assisted baked fell.",
+    "The ship the captain the sailor the officer commanded helped steered sank.",
+    "The song the singer the coach the expert advised trained performed ended.",
+    "The house the builder the designer the client hired guided constructed collapsed.",
+    "The movie the director the writer the producer employed inspired filmed failed."
+  ],
+  "induced_prompt_raw": "Generate sentences with a triple center-embedded object relative clause structure, following the pattern: [Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1].",
+  "induced_prompt": "Generate sentences with a triple center-embedded object relative clause structure, following the pattern: [Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1].",
+  "induced_prompt_chars": 178,
+  "induced_prompt_words": 29,
+  "l1_char_total": 380,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef the critic the waiter the customer angered avoided praised resigned.\",\n    \"The book the student the teacher the principal hired scolded read vanished.\",\n    \"The car the mechanic the owner the thief injured blamed repaired broke.\",\n    \"The painting the artist the patron the agent fired supported painted faded.\",\n    \"The software the developer the manager the director promoted pressured wrote crashed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef the critic the waiter the customer angered avoided praised resigned.",
+    "The book the student the teacher the principal hired scolded read vanished.",
+    "The car the mechanic the owner the thief injured blamed repaired broke.",
+    "The painting the artist the patron the agent fired supported painted faded.",
+    "The software the developer the manager the director promoted pressured wrote crashed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:19:24.508378+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the baker the apprentice the master trained assisted baked fell.",
+    "The ship the captain the sailor the officer commanded helped steered sank.",
+    "The song the singer the coach the expert advised trained performed ended.",
+    "The house the builder the designer the client hired guided constructed collapsed.",
+    "The movie the director the writer the producer employed inspired filmed failed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cake the baker the apprentice the master trained assisted baked fell.\",\n    \"The ship the captain the sailor the officer commanded helped steered sank.\",\n    \"The song the singer the coach the expert advised trained performed ended.\",\n    \"The house the builder the designer the client hired guided constructed collapsed.\",\n    \"The movie the director the writer the producer employed inspired filmed failed.\"\n  ]\n}",
+  "run_idx": 6
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the boy fed barked.",
+    "the book the student read closed.",
+    "the cake the baker made rose.",
+    "the car the driver fixed stopped.",
+    "the song the singer performed ended."
+  ],
+  "induced_prompt_raw": "Generate a sentence with the pattern: the [N1] the [N2] [V1] [V2]",
+  "induced_prompt": "Generate a sentence with the pattern: the [N1] the [N2] [V1] [V2]",
+  "induced_prompt_chars": 65,
+  "induced_prompt_words": 12,
+  "l1_char_total": 158,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the cat chased escaped.\", \"The cake the baker baked rose.\", \"The ball the child threw bounced.\", \"The door the wind blew slammed.\", \"The song the band played ended.\"]}",
+  "l2_sentences": [
+    "The dog the cat chased escaped.",
+    "The cake the baker baked rose.",
+    "The ball the child threw bounced.",
+    "The door the wind blew slammed.",
+    "The song the band played ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:09:27.500984+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the boy fed barked.",
+    "the book the student read closed.",
+    "the cake the baker made rose.",
+    "the car the driver fixed stopped.",
+    "the song the singer performed ended."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy fed barked.\", \"the book the student read closed.\", \"the cake the baker made rose.\", \"the car the driver fixed stopped.\", \"the song the singer performed ended.\"]}",
+  "run_idx": 10
+}

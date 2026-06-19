@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the agent recommended edited published arrived.",
+    "The plan the manager the team the consultant proposed implemented reviewed succeeded.",
+    "The movie the director the producer the actor filmed promoted starred became popular.",
+    "The proposal the committee the chair the member discussed approved submitted was accepted.",
+    "The idea the student the teacher explained confused rejected."
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested relative clauses where each clause modifies the noun immediately before it, ensuring clarity and grammatical correctness. Avoid ambiguous or confusing structures where the relationships between clauses are unclear.\"",
+  "induced_prompt": "\"Generate sentences with nested relative clauses where each clause modifies the noun immediately before it, ensuring clarity and grammatical correctness. Avoid ambiguous or confusing structures where the relationships between clauses are unclear.\"",
+  "induced_prompt_chars": 247,
+  "induced_prompt_words": 32,
+  "l1_char_total": 402,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that was written by the author who lives in Paris, which I borrowed from the library, was fascinating.\", \"The dog that chased the cat which climbed the tree, barking loudly, belongs to my neighbor.\", \"The painting that was created by the artist who studied in Florence, hanging in the gallery, caught everyone's attention.\", \"The laptop that was repaired by the technician who specializes in Macs, sitting on the desk, works perfectly now.\", \"The cake that was baked by the chef who trained in Italy, served at the party, received many compliments.\"]}",
+  "l2_sentences": [
+    "The book that was written by the author who lives in Paris, which I borrowed from the library, was fascinating.",
+    "The dog that chased the cat which climbed the tree, barking loudly, belongs to my neighbor.",
+    "The painting that was created by the artist who studied in Florence, hanging in the gallery, caught everyone's attention.",
+    "The laptop that was repaired by the technician who specializes in Macs, sitting on the desk, works perfectly now.",
+    "The cake that was baked by the chef who trained in Italy, served at the party, received many compliments."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:52:17.138278+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the agent recommended edited published arrived.",
+    "The plan the manager the team the consultant proposed implemented reviewed succeeded.",
+    "The movie the director the producer the actor filmed promoted starred became popular.",
+    "The proposal the committee the chair the member discussed approved submitted was accepted."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the agent recommended edited published arrived.",
+    "The plan the manager the team the consultant proposed implemented reviewed succeeded.",
+    "The movie the director the producer the actor filmed promoted starred became popular.",
+    "The proposal the committee the chair the member discussed approved submitted was accepted.",
+    "The idea the student the teacher explained confused rejected."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the agent recommended edited published arrived.\", \"The plan the manager the team the consultant proposed implemented reviewed succeeded.\", \"The movie the director the producer the actor filmed promoted starred became popular.\", \"The proposal the committee the chair the member discussed approved submitted was accepted.\", \"The idea the student the teacher explained confused rejected.\"]}",
+  "run_idx": 8
+}

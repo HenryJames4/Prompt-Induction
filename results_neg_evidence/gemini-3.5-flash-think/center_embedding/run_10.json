@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the principal warned recommended read vanished",
+    "the painting the artist the critic the patron hired praised created burned",
+    "the software the programmer the manager the director fired blamed designed crashed",
+    "the song the singer the producer the executive hired assisted performed failed",
+    "the dog the cat the rat bit scratched escaped"
+  ],
+  "induced_prompt_raw": "Generate sentences using a triple center-embedded structure with exactly four noun phrases followed by four verbs (NP1 NP2 NP3 NP4 V4 V3 V2 V1). Do not generate double center-embedded sentences with only three noun phrases and three verbs.",
+  "induced_prompt": "Generate sentences using a triple center-embedded structure with exactly four noun phrases followed by four verbs (NP1 NP2 NP3 NP4 V4 V3 V2 V1). Do not generate double center-embedded sentences with only three noun phrases and three verbs.",
+  "induced_prompt_chars": 239,
+  "induced_prompt_words": 38,
+  "l1_char_total": 358,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The student the teacher the principal the superintendent fired questioned scolded failed.\",\n    \"The book the critic the editor the author hired praised disliked sold.\",\n    \"The mouse the cat the dog the boy chased bit scratched escaped.\",\n    \"The software the programmer the manager the executive promoted blamed debugged crashed.\",\n    \"The painting the artist the patron the thief distracted commissioned painted vanished.\"\n  ]\n}",
+  "l2_sentences": [
+    "The student the teacher the principal the superintendent fired questioned scolded failed.",
+    "The book the critic the editor the author hired praised disliked sold.",
+    "The mouse the cat the dog the boy chased bit scratched escaped.",
+    "The software the programmer the manager the executive promoted blamed debugged crashed.",
+    "The painting the artist the patron the thief distracted commissioned painted vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:54:23.010433+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the principal warned recommended read vanished",
+    "the painting the artist the critic the patron hired praised created burned",
+    "the software the programmer the manager the director fired blamed designed crashed",
+    "the song the singer the producer the executive hired assisted performed failed"
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the principal warned recommended read vanished",
+    "the painting the artist the critic the patron hired praised created burned",
+    "the software the programmer the manager the director fired blamed designed crashed",
+    "the song the singer the producer the executive hired assisted performed failed",
+    "the dog the cat the rat bit scratched escaped"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the student the teacher the principal warned recommended read vanished\",\n    \"the painting the artist the critic the patron hired praised created burned\",\n    \"the software the programmer the manager the director fired blamed designed crashed\",\n    \"the song the singer the producer the executive hired assisted performed failed\",\n    \"the dog the cat the rat bit scratched escaped\"\n  ]\n}",
+  "run_idx": 10
+}

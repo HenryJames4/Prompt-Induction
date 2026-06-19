@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The document the manager the intern the clerk reviewed submitted revised vanished.",
+    "The letter the professor the student the assistant drafted edited signed disappeared.",
+    "The contract the lawyer the client the secretary negotiated reviewed signed expired.",
+    "The script the director the actor the writer revised approved submitted vanished.",
+    "The book the author the editor rewrote published disappeared."
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring all verbs align correctly at the end. Avoid mismatched or missing verbs.\"",
+  "induced_prompt": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring all verbs align correctly at the end. Avoid mismatched or missing verbs.\"",
+  "induced_prompt_chars": 178,
+  "induced_prompt_words": 26,
+  "l1_char_total": 393,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book, which the author, who the publisher, whom the editor, who the agent contacted, recommended, wrote, became a bestseller.\", \"The painting, which the artist, whom the curator, who the museum, which the city funded, hired, admired, sold for millions.\", \"The car, which the mechanic, who the owner, whom the salesman, who the dealership employed, trusted, repaired, ran smoothly.\", \"The cake, which the baker, whom the client, who the event planner, whom the couple hired, praised, baked, tasted delicious.\", \"The song, which the singer, whom the producer, who the label, which the manager signed, supported, recorded, became a hit.\"]}",
+  "l2_sentences": [
+    "The book, which the author, who the publisher, whom the editor, who the agent contacted, recommended, wrote, became a bestseller.",
+    "The painting, which the artist, whom the curator, who the museum, which the city funded, hired, admired, sold for millions.",
+    "The car, which the mechanic, who the owner, whom the salesman, who the dealership employed, trusted, repaired, ran smoothly.",
+    "The cake, which the baker, whom the client, who the event planner, whom the couple hired, praised, baked, tasted delicious.",
+    "The song, which the singer, whom the producer, who the label, which the manager signed, supported, recorded, became a hit."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:09:24.273526+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The document the manager the intern the clerk reviewed submitted revised vanished.",
+    "The letter the professor the student the assistant drafted edited signed disappeared.",
+    "The contract the lawyer the client the secretary negotiated reviewed signed expired.",
+    "The script the director the actor the writer revised approved submitted vanished."
+  ],
+  "l1_sentences": [
+    "The document the manager the intern the clerk reviewed submitted revised vanished.",
+    "The letter the professor the student the assistant drafted edited signed disappeared.",
+    "The contract the lawyer the client the secretary negotiated reviewed signed expired.",
+    "The script the director the actor the writer revised approved submitted vanished.",
+    "The book the author the editor rewrote published disappeared."
+  ],
+  "l1_raw": "{\"sentences\": [\"The document the manager the intern the clerk reviewed submitted revised vanished.\", \"The letter the professor the student the assistant drafted edited signed disappeared.\", \"The contract the lawyer the client the secretary negotiated reviewed signed expired.\", \"The script the director the actor the writer revised approved submitted vanished.\", \"The book the author the editor rewrote published disappeared.\"]}",
+  "run_idx": 19
+}

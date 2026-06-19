@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the editor hired promoted published became popular.",
+    "The recipe the chef the sous-chef the intern prepared tested perfected impressed everyone.",
+    "The project the manager the team the consultant assigned evaluated completed succeeded.",
+    "The proposal the committee the chair the advisor drafted reviewed approved was implemented.",
+    "The film the director the actor cast filmed disappointed."
+  ],
+  "induced_prompt_raw": "\"Generate complex nested noun phrases where each subsequent clause modifies the preceding noun, ensuring all verbs align correctly without missing or mismatched dependencies.\"",
+  "induced_prompt": "\"Generate complex nested noun phrases where each subsequent clause modifies the preceding noun, ensuring all verbs align correctly without missing or mismatched dependencies.\"",
+  "induced_prompt_chars": 175,
+  "induced_prompt_words": 23,
+  "l1_char_total": 410,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book, which was written by the author who lived in the town that was known for its festivals, captivated readers.\", \"The painting, created by the artist who admired the mentor whose techniques revolutionized art, inspired many.\", \"The song, composed by the musician who collaborated with the producer whose studio was renowned for its acoustics, became a hit.\", \"The recipe, developed by the chef who trained under the maestro whose cuisine was celebrated worldwide, delighted diners.\", \"The gadget, designed by the engineer who partnered with the inventor whose patents transformed technology, impressed users.\"]}",
+  "l2_sentences": [
+    "The book, which was written by the author who lived in the town that was known for its festivals, captivated readers.",
+    "The painting, created by the artist who admired the mentor whose techniques revolutionized art, inspired many.",
+    "The song, composed by the musician who collaborated with the producer whose studio was renowned for its acoustics, became a hit.",
+    "The recipe, developed by the chef who trained under the maestro whose cuisine was celebrated worldwide, delighted diners.",
+    "The gadget, designed by the engineer who partnered with the inventor whose patents transformed technology, impressed users."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:15:41.596364+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the editor hired promoted published became popular.",
+    "The recipe the chef the sous-chef the intern prepared tested perfected impressed everyone.",
+    "The project the manager the team the consultant assigned evaluated completed succeeded.",
+    "The proposal the committee the chair the advisor drafted reviewed approved was implemented."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the editor hired promoted published became popular.",
+    "The recipe the chef the sous-chef the intern prepared tested perfected impressed everyone.",
+    "The project the manager the team the consultant assigned evaluated completed succeeded.",
+    "The proposal the committee the chair the advisor drafted reviewed approved was implemented.",
+    "The film the director the actor cast filmed disappointed."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the editor hired promoted published became popular.\", \"The recipe the chef the sous-chef the intern prepared tested perfected impressed everyone.\", \"The project the manager the team the consultant assigned evaluated completed succeeded.\", \"The proposal the committee the chair the advisor drafted reviewed approved was implemented.\", \"The film the director the actor cast filmed disappointed.\"]}",
+  "run_idx": 23
+}

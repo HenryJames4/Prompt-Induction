@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the student read burned.",
+    "the cake the baker baked rose.",
+    "the film the critic praised won.",
+    "the letter the secretary typed arrived.",
+    "the song the artist performed charted."
+  ],
+  "induced_prompt_raw": "the [Noun1] the [Noun2] [Verb2] [Verb1]",
+  "induced_prompt": "the [Noun1] the [Noun2] [Verb2] [Verb1]",
+  "induced_prompt_chars": 39,
+  "induced_prompt_words": 6,
+  "l1_char_total": 172,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the moon chases glows.\", \"The wind the leaves carries rustles.\", \"The child the ball kicks rolls.\", \"The chef the sauce stirs simmers.\", \"The wave the shore crashes recedes.\"]}",
+  "l2_sentences": [
+    "The cat the moon chases glows.",
+    "The wind the leaves carries rustles.",
+    "The child the ball kicks rolls.",
+    "The chef the sauce stirs simmers.",
+    "The wave the shore crashes recedes."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:06:26.829304+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the student read burned.",
+    "the cake the baker baked rose.",
+    "the film the critic praised won.",
+    "the letter the secretary typed arrived.",
+    "the song the artist performed charted."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student read burned.\", \"the cake the baker baked rose.\", \"the film the critic praised won.\", \"the letter the secretary typed arrived.\", \"the song the artist performed charted.\"]}",
+  "run_idx": 7
+}

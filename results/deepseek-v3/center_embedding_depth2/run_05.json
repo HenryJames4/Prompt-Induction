@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor revised sold",
+    "the song the singer recorded played",
+    "the cake the baker baked tasted",
+    "the car the mechanic fixed ran",
+    "the dog the trainer trained obeyed"
+  ],
+  "induced_prompt_raw": "Prompt:  \n\"Generate sentences with the structure: '[noun1] [noun2] [verb1] [verb2]' where noun2 is modified by a relative clause.\"",
+  "induced_prompt": "Prompt:  \n\"Generate sentences with the structure: '[noun1] [noun2] [verb1] [verb2]' where noun2 is modified by a relative clause.\"",
+  "induced_prompt_chars": 130,
+  "induced_prompt_words": 18,
+  "l1_char_total": 162,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed inspires motivates.\", \"The dog that barks loudly sleeps dreams.\", \"The car that he bought accelerates stops.\", \"The cake that she baked smells tastes.\", \"The phone that rings constantly distracts annoys.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed inspires motivates.",
+    "The dog that barks loudly sleeps dreams.",
+    "The car that he bought accelerates stops.",
+    "The cake that she baked smells tastes.",
+    "The phone that rings constantly distracts annoys."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:03:51.914900+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor revised sold",
+    "the song the singer recorded played",
+    "the cake the baker baked tasted",
+    "the car the mechanic fixed ran",
+    "the dog the trainer trained obeyed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor revised sold\", \"the song the singer recorded played\", \"the cake the baker baked tasted\", \"the car the mechanic fixed ran\", \"the dog the trainer trained obeyed\"]}",
+  "run_idx": 5
+}

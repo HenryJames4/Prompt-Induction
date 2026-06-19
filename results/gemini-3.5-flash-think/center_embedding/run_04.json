@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cheese the rat the cat the dog chased caught ate smelled",
+    "the book the student the teacher the principal noticed helped read vanished",
+    "the song the singer the writer the critic praised hired sang ended",
+    "the house the builder the architect the client called employed constructed collapsed",
+    "the letter the lawyer the secretary the manager blamed assisted wrote arrived"
+  ],
+  "induced_prompt_raw": "Write sentences with a triply center-embedded structure following the pattern: \"the Noun1 the Noun2 the Noun3 the Noun4 Verb4 Verb3 Verb2 Verb1\".",
+  "induced_prompt": "Write sentences with a triply center-embedded structure following the pattern: \"the Noun1 the Noun2 the Noun3 the Noun4 Verb4 Verb3 Verb2 Verb1\".",
+  "induced_prompt_chars": 145,
+  "induced_prompt_words": 22,
+  "l1_char_total": 362,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The juice the girl the boy the dog chased liked drank stained.\",\n    \"The car the mechanic the driver the cop stopped hired fixed broke.\",\n    \"The book the student the teacher the principal fired praised read disappeared.\",\n    \"The song the singer the writer the critic insulted inspired performed ended.\",\n    \"The house the builder the architect the client sued employed constructed collapsed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The juice the girl the boy the dog chased liked drank stained.",
+    "The car the mechanic the driver the cop stopped hired fixed broke.",
+    "The book the student the teacher the principal fired praised read disappeared.",
+    "The song the singer the writer the critic insulted inspired performed ended.",
+    "The house the builder the architect the client sued employed constructed collapsed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:18:18.866426+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cheese the rat the cat the dog chased caught ate smelled",
+    "the book the student the teacher the principal noticed helped read vanished",
+    "the song the singer the writer the critic praised hired sang ended",
+    "the house the builder the architect the client called employed constructed collapsed",
+    "the letter the lawyer the secretary the manager blamed assisted wrote arrived"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cheese the rat the cat the dog chased caught ate smelled\",\n    \"the book the student the teacher the principal noticed helped read vanished\",\n    \"the song the singer the writer the critic praised hired sang ended\",\n    \"the house the builder the architect the client called employed constructed collapsed\",\n    \"the letter the lawyer the secretary the manager blamed assisted wrote arrived\"\n  ]\n}",
+  "run_idx": 4
+}

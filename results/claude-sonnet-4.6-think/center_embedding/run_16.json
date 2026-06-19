@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cheese the mouse the cat the dog chased scared found disappeared.",
+    "the meal the guest the waiter the chef trained served enjoyed vanished.",
+    "the song the audience the singer the pianist accompanied entertained enjoyed spread.",
+    "the verdict the jury the lawyer the judge instructed persuaded reached stood.",
+    "the prize the winner the player the coach trained inspired received gleamed."
+  ],
+  "induced_prompt_raw": "Write quadruply center-embedded sentences where four successive noun phrases are followed by their four corresponding verbs in reverse order.",
+  "induced_prompt": "Write quadruply center-embedded sentences where four successive noun phrases are followed by their four corresponding verbs in reverse order.",
+  "induced_prompt_chars": 141,
+  "induced_prompt_words": 19,
+  "l1_char_total": 377,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat the cat the dog the man kicked bit chased died.\",\n    \"The book the student the teacher the professor praised taught read fell.\",\n    \"The child the woman the man the doctor examined treated comforted cried.\",\n    \"The cake the baker the chef the critic praised trained made burned.\",\n    \"The song the musician the conductor the audience applauded hired performed echoed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man kicked bit chased died.",
+    "The book the student the teacher the professor praised taught read fell.",
+    "The child the woman the man the doctor examined treated comforted cried.",
+    "The cake the baker the chef the critic praised trained made burned.",
+    "The song the musician the conductor the audience applauded hired performed echoed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:25:35.763591+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cheese the mouse the cat the dog chased scared found disappeared.",
+    "the meal the guest the waiter the chef trained served enjoyed vanished.",
+    "the song the audience the singer the pianist accompanied entertained enjoyed spread.",
+    "the verdict the jury the lawyer the judge instructed persuaded reached stood.",
+    "the prize the winner the player the coach trained inspired received gleamed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cheese the mouse the cat the dog chased scared found disappeared.\",\n    \"the meal the guest the waiter the chef trained served enjoyed vanished.\",\n    \"the song the audience the singer the pianist accompanied entertained enjoyed spread.\",\n    \"the verdict the jury the lawyer the judge instructed persuaded reached stood.\",\n    \"the prize the winner the player the coach trained inspired received gleamed.\"\n  ]\n}\n```",
+  "run_idx": 16
+}

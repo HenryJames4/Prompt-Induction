@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the manager drafted helped",
+    "the artist the crowd cheered bowed",
+    "the car the mechanic repaired ran",
+    "the child the dog chased laughed",
+    "the student the teacher the principal praised criticized failed"
+  ],
+  "induced_prompt_raw": "Generate a sentence containing exactly one subject-relative clause (e.g., \"the [noun] the [noun] [verb] [verb]\"), avoiding double embeddings or multiple nested relative clauses.",
+  "induced_prompt": "Generate a sentence containing exactly one subject-relative clause (e.g., \"the [noun] the [noun] [verb] [verb]\"), avoiding double embeddings or multiple nested relative clauses.",
+  "induced_prompt_chars": 177,
+  "induced_prompt_words": 23,
+  "l1_char_total": 199,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The children who played in the park yesterday found a shiny silver coin.\",\n    \"The chef who prepared the delicious lasagna received a standing ovation from the guests.\",\n    \"The heavy snow that fell overnight completely blocked the main driveway of the house.\",\n    \"An experienced guide who knows the mountain trails led the hikers to safety.\",\n    \"The old wooden clock that hangs in the hallway chimed loudly at midnight.\"\n  ]\n}",
+  "l2_sentences": [
+    "The children who played in the park yesterday found a shiny silver coin.",
+    "The chef who prepared the delicious lasagna received a standing ovation from the guests.",
+    "The heavy snow that fell overnight completely blocked the main driveway of the house.",
+    "An experienced guide who knows the mountain trails led the hikers to safety.",
+    "The old wooden clock that hangs in the hallway chimed loudly at midnight."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:57:25.783913+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the manager drafted helped",
+    "the artist the crowd cheered bowed",
+    "the car the mechanic repaired ran",
+    "the child the dog chased laughed"
+  ],
+  "l1_sentences": [
+    "the report the manager drafted helped",
+    "the artist the crowd cheered bowed",
+    "the car the mechanic repaired ran",
+    "the child the dog chased laughed",
+    "the student the teacher the principal praised criticized failed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the manager drafted helped\",\n    \"the artist the crowd cheered bowed\",\n    \"the car the mechanic repaired ran\",\n    \"the child the dog chased laughed\",\n    \"the student the teacher the principal praised criticized failed\"\n  ]\n}",
+  "run_idx": 26
+}

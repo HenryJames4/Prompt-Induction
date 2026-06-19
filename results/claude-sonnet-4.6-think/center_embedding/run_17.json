@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The manuscript the critic the author the student interviewed contacted praised sold.",
+    "The proposal the manager the analyst the clerk hired briefed rejected failed.",
+    "The cake the chef the baker the apprentice trained assisted baked disappeared.",
+    "The letter the lawyer the secretary the courier contacted informed drafted arrived.",
+    "The contract the director the consultant the aide hired advised signed expired."
+  ],
+  "induced_prompt_raw": "Write sentences with quadruple center-embedded relative clauses, where each noun phrase is the object of a nested relative clause, followed by all main verbs at the end.",
+  "induced_prompt": "Write sentences with quadruple center-embedded relative clauses, where each noun phrase is the object of a nested relative clause, followed by all main verbs at the end.",
+  "induced_prompt_chars": 169,
+  "induced_prompt_words": 27,
+  "l1_char_total": 401,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The book that the student that the teacher that the professor that the dean criticized hired taught read won the award.\",\n    \"The mouse that the cat that the dog that the man that the woman saw owned chased caught squeaked.\",\n    \"The report that the analyst that the manager that the director that the CEO approved promoted hired reviewed was published.\",\n    \"The song that the musician that the producer that the label that the critic praised signed mentored recorded became famous.\",\n    \"The award that the actor that the director that the studio that the critics praised funded cast won was prestigious.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The book that the student that the teacher that the professor that the dean criticized hired taught read won the award.",
+    "The mouse that the cat that the dog that the man that the woman saw owned chased caught squeaked.",
+    "The report that the analyst that the manager that the director that the CEO approved promoted hired reviewed was published.",
+    "The song that the musician that the producer that the label that the critic praised signed mentored recorded became famous.",
+    "The award that the actor that the director that the studio that the critics praised funded cast won was prestigious."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:25:53.716892+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The manuscript the critic the author the student interviewed contacted praised sold.",
+    "The proposal the manager the analyst the clerk hired briefed rejected failed.",
+    "The cake the chef the baker the apprentice trained assisted baked disappeared.",
+    "The letter the lawyer the secretary the courier contacted informed drafted arrived.",
+    "The contract the director the consultant the aide hired advised signed expired."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The manuscript the critic the author the student interviewed contacted praised sold.\",\n    \"The proposal the manager the analyst the clerk hired briefed rejected failed.\",\n    \"The cake the chef the baker the apprentice trained assisted baked disappeared.\",\n    \"The letter the lawyer the secretary the courier contacted informed drafted arrived.\",\n    \"The contract the director the consultant the aide hired advised signed expired.\"\n  ]\n}\n```",
+  "run_idx": 17
+}

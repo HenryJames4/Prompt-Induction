@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the professor the student the librarian found impressed reviewed sold",
+    "the proposal the director the manager the analyst interviewed hired endorsed succeeded",
+    "the film the critic the director the actor impressed hired reviewed won",
+    "the award the judge the contestant the coach trained impressed presented vanished",
+    "the paper the researcher the student assisted cited won"
+  ],
+  "induced_prompt_raw": "Generate center-embedded relative clause sentences (with relative pronouns omitted) using exactly 4 noun phrases followed by exactly 4 verbs. Do not produce shorter versions with only 3 noun phrases and 3 verbs.",
+  "induced_prompt": "Generate center-embedded relative clause sentences (with relative pronouns omitted) using exactly 4 noun phrases followed by exactly 4 verbs. Do not produce shorter versions with only 3 noun phrases and 3 verbs.",
+  "induced_prompt_chars": 211,
+  "induced_prompt_words": 32,
+  "l1_char_total": 371,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat the cat the dog the mouse scared chased bit died.\",\n    \"The book the student the teacher the principal praised hired read won.\",\n    \"The man the woman the child the dog bit scared loved left.\",\n    \"The cake the baker the chef the critic praised trained made sold.\",\n    \"The letter the secretary the lawyer the judge appointed hired typed arrived.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the mouse scared chased bit died.",
+    "The book the student the teacher the principal praised hired read won.",
+    "The man the woman the child the dog bit scared loved left.",
+    "The cake the baker the chef the critic praised trained made sold.",
+    "The letter the secretary the lawyer the judge appointed hired typed arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:22:45.439313+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the professor the student the librarian found impressed reviewed sold",
+    "the proposal the director the manager the analyst interviewed hired endorsed succeeded",
+    "the film the critic the director the actor impressed hired reviewed won",
+    "the award the judge the contestant the coach trained impressed presented vanished"
+  ],
+  "l1_sentences": [
+    "the book the professor the student the librarian found impressed reviewed sold",
+    "the proposal the director the manager the analyst interviewed hired endorsed succeeded",
+    "the film the critic the director the actor impressed hired reviewed won",
+    "the award the judge the contestant the coach trained impressed presented vanished",
+    "the paper the researcher the student assisted cited won"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the professor the student the librarian found impressed reviewed sold\",\n    \"the proposal the director the manager the analyst interviewed hired endorsed succeeded\",\n    \"the film the critic the director the actor impressed hired reviewed won\",\n    \"the award the judge the contestant the coach trained impressed presented vanished\",\n    \"the paper the researcher the student assisted cited won\"\n  ]\n}\n```",
+  "run_idx": 28
+}

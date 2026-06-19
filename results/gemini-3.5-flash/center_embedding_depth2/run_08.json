@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the chef the critic praised smiled",
+    "the actor the director hired bowed",
+    "the student the teacher helped passed",
+    "the artist the patron supported painted",
+    "the driver the officer stopped cried"
+  ],
+  "induced_prompt_raw": "Write five sentences using the syntactic structure: [the noun] [the noun] [past-tense verb] [past-tense verb].",
+  "induced_prompt": "Write five sentences using the syntactic structure: [the noun] [the noun] [past-tense verb] [past-tense verb].",
+  "induced_prompt_chars": 110,
+  "induced_prompt_words": 15,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The mouse the cat chased escaped.\",\n    \"The book the student read inspired.\",\n    \"The car the mechanic repaired broke.\",\n    \"The song the musician played ended.\",\n    \"The letter the postman delivered burned.\"\n  ]\n}",
+  "l2_sentences": [
+    "The mouse the cat chased escaped.",
+    "The book the student read inspired.",
+    "The car the mechanic repaired broke.",
+    "The song the musician played ended.",
+    "The letter the postman delivered burned."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:37:07.630611+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the critic praised smiled",
+    "the actor the director hired bowed",
+    "the student the teacher helped passed",
+    "the artist the patron supported painted",
+    "the driver the officer stopped cried"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the critic praised smiled\",\n    \"the actor the director hired bowed\",\n    \"the student the teacher helped passed\",\n    \"the artist the patron supported painted\",\n    \"the driver the officer stopped cried\"\n  ]\n}",
+  "run_idx": 8
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the boy chased barked",
+    "the car the man bought crashed",
+    "the book the student read disappeared",
+    "the cake the baker made collapsed",
+    "the patient the nurse the clinic hired admitted died"
+  ],
+  "induced_prompt_raw": "Generate sentences with exactly one center-embedded relative clause using the structure: [Noun 1] [Noun 2] [Transitive Verb] [Intransitive Verb] (e.g., \"the [noun] the [noun] [verb] [verb]\"). Do not use relative pronouns, and avoid double center-embedding (multiple nested clauses).",
+  "induced_prompt": "Generate sentences with exactly one center-embedded relative clause using the structure: [Noun 1] [Noun 2] [Transitive Verb] [Intransitive Verb] (e.g., \"the [noun] the [noun] [verb] [verb]\"). Do not use relative pronouns, and avoid double center-embedding (multiple nested clauses).",
+  "induced_prompt_chars": 282,
+  "induced_prompt_words": 38,
+  "l1_char_total": 181,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the cat chased barked.\",\n    \"The man the girl loved smiled.\",\n    \"The boy the teacher helped cried.\",\n    \"The book the student read disappeared.\",\n    \"The car the mechanic fixed stalled.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the cat chased barked.",
+    "The man the girl loved smiled.",
+    "The boy the teacher helped cried.",
+    "The book the student read disappeared.",
+    "The car the mechanic fixed stalled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:36:13.027476+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the dog the boy chased barked",
+    "the car the man bought crashed",
+    "the book the student read disappeared",
+    "the cake the baker made collapsed"
+  ],
+  "l1_sentences": [
+    "the dog the boy chased barked",
+    "the car the man bought crashed",
+    "the book the student read disappeared",
+    "the cake the baker made collapsed",
+    "the patient the nurse the clinic hired admitted died"
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy chased barked\", \"the car the man bought crashed\", \"the book the student read disappeared\", \"the cake the baker made collapsed\", \"the patient the nurse the clinic hired admitted died\"]}",
+  "run_idx": 3
+}

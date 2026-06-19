@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the baker the customer the child observed thanked baked cooled.",
+    "the painting the artist the curator the visitor admired interviewed created sold.",
+    "the program the developer the tester the user alerted notified debugged crashed.",
+    "the novel the editor the writer the intern assisted reviewed published succeeded.",
+    "the building the architect the engineer the client approved hired designed collapsed."
+  ],
+  "induced_prompt_raw": "Based on the syntactic structure observed in the given sentences—where each consists of four consecutive noun phrases starting with \"the\" followed by four past-tense verbs—the prompt is designed to encapsulate this pattern concisely. The pattern involves a sequence of definite noun phrases without conjunctions or additional modifiers, immediately succeeded by a sequence of verbs in past tense. \n\n**Prompt:**  \n`Four consecutive noun phrases each starting with 'the', followed by four past-tense verbs.`  \n\nThis prompt is **11 words**, which is shorter than the original list of sentences (which totals 40 words across 5 sentences). It explicitly defines the required syntax:  \n- **Noun phrases**: Four in a row, each beginning with \"the\".  \n- **Verbs**: Four in past tense, placed after the noun phrases.  \n\nNo sentences are copied, and the prompt is abstract enough to generate new instances of this structure.",
+  "induced_prompt": "Based on the syntactic structure observed in the given sentences—where each consists of four consecutive noun phrases starting with \"the\" followed by four past-tense verbs—the prompt is designed to encapsulate this pattern concisely. The pattern involves a sequence of definite noun phrases without conjunctions or additional modifiers, immediately succeeded by a sequence of verbs in past tense. \n\n**Prompt:**  \n`Four consecutive noun phrases each starting with 'the', followed by four past-tense verbs.`  \n\nThis prompt is **11 words**, which is shorter than the original list of sentences (which totals 40 words across 5 sentences). It explicitly defines the required syntax:  \n- **Noun phrases**: Four in a row, each beginning with \"the\".  \n- **Verbs**: Four in past tense, placed after the noun phrases.  \n\nNo sentences are copied, and the prompt is abstract enough to generate new instances of this structure.",
+  "induced_prompt_chars": 914,
+  "induced_prompt_words": 137,
+  "l1_char_total": 399,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The cat the dog the ball the tree jumped ran rolled fell.\", \"The sun the moon the stars the sky shone glowed twinkled darkened.\", \"The king the queen the prince the princess ruled waved smiled bowed.\", \"The wind the rain the thunder the lightning blew poured rumbled flashed.\", \"The car the bike the bus the train accelerated braked stopped arrived.\"]}",
+  "l2_sentences": [
+    "The cat the dog the ball the tree jumped ran rolled fell.",
+    "The sun the moon the stars the sky shone glowed twinkled darkened.",
+    "The king the queen the prince the princess ruled waved smiled bowed.",
+    "The wind the rain the thunder the lightning blew poured rumbled flashed.",
+    "The car the bike the bus the train accelerated braked stopped arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:15:00.105879+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the baker the customer the child observed thanked baked cooled.",
+    "the painting the artist the curator the visitor admired interviewed created sold.",
+    "the program the developer the tester the user alerted notified debugged crashed.",
+    "the novel the editor the writer the intern assisted reviewed published succeeded.",
+    "the building the architect the engineer the client approved hired designed collapsed."
+  ],
+  "l1_raw": "{\"sentences\": [\n    \"the cake the baker the customer the child observed thanked baked cooled.\",\n    \"the painting the artist the curator the visitor admired interviewed created sold.\",\n    \"the program the developer the tester the user alerted notified debugged crashed.\",\n    \"the novel the editor the writer the intern assisted reviewed published succeeded.\",\n    \"the building the architect the engineer the client approved hired designed collapsed.\"\n]}",
+  "run_idx": 8
+}

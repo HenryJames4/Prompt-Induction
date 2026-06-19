@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the mouse the elephant chased hunted caught escaped.",
+    "the book the teacher the student the principal read assigned graded returned.",
+    "the car the driver the passenger the officer stopped ticketed fined released.",
+    "the house the owner the tenant the inspector built rented examined condemned.",
+    "the cake the baker the child the guest made decorated served ate."
+  ],
+  "induced_prompt_raw": "A chain of agents and actions with increasing specificity.",
+  "induced_prompt": "A chain of agents and actions with increasing specificity.",
+  "induced_prompt_chars": 58,
+  "induced_prompt_words": 9,
+  "l1_char_total": 364,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The agent observed the situation.\",\n    \"The detective investigated the crime scene.\",\n    \"The forensic analyst collected DNA samples from the weapon.\",\n    \"The lab technician extracted and sequenced the genetic material.\",\n    \"The DNA profiler matched the sample to the suspect in the database.\"\n  ]\n}",
+  "l2_sentences": [
+    "The agent observed the situation.",
+    "The detective investigated the crime scene.",
+    "The forensic analyst collected DNA samples from the weapon.",
+    "The lab technician extracted and sequenced the genetic material.",
+    "The DNA profiler matched the sample to the suspect in the database."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:15:21.593019+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the mouse the elephant chased hunted caught escaped.",
+    "the book the teacher the student the principal read assigned graded returned.",
+    "the car the driver the passenger the officer stopped ticketed fined released.",
+    "the house the owner the tenant the inspector built rented examined condemned.",
+    "the cake the baker the child the guest made decorated served ate."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the mouse the elephant chased hunted caught escaped.\",\n    \"the book the teacher the student the principal read assigned graded returned.\",\n    \"the car the driver the passenger the officer stopped ticketed fined released.\",\n    \"the house the owner the tenant the inspector built rented examined condemned.\",\n    \"the cake the baker the child the guest made decorated served ate.\"\n  ]\n}",
+  "run_idx": 8
+}

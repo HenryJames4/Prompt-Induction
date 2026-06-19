@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the editor recommended finalized printed sold out.",
+    "The recipe the chef the apprentice the critic tasted reviewed perfected impressed everyone.",
+    "The movie the director the producer the actor approved filmed promoted received accolades.",
+    "The project the manager the team the consultant analyzed presented implemented succeeded.",
+    "The song the singer the composer played recorded."
+  ],
+  "induced_prompt_raw": "\"Construct nested sentences with multiple layers of agents performing sequential actions, ensuring each layer logically connects to the next, and avoid incomplete sequences or disjointed actions.\"",
+  "induced_prompt": "\"Construct nested sentences with multiple layers of agents performing sequential actions, ensuring each layer logically connects to the next, and avoid incomplete sequences or disjointed actions.\"",
+  "induced_prompt_chars": 196,
+  "induced_prompt_words": 26,
+  "l1_char_total": 403,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The chef, who had meticulously prepared the ingredients, handed the knife to the apprentice, who then sliced the vegetables with precision.\", \"The engineer, having finalized the blueprint, instructed the construction team, which began laying the foundation according to the detailed plan.\", \"The teacher, after explaining the concept, assigned a task to the students, who collaborated to solve the problem step by step.\", \"The conductor, after signaling the orchestra, guided the musicians, who played the symphony in perfect harmony.\", \"The programmer, who debugged the code, passed it to the tester, who then verified the functionality before releasing the software.\"]}",
+  "l2_sentences": [
+    "The chef, who had meticulously prepared the ingredients, handed the knife to the apprentice, who then sliced the vegetables with precision.",
+    "The engineer, having finalized the blueprint, instructed the construction team, which began laying the foundation according to the detailed plan.",
+    "The teacher, after explaining the concept, assigned a task to the students, who collaborated to solve the problem step by step.",
+    "The conductor, after signaling the orchestra, guided the musicians, who played the symphony in perfect harmony.",
+    "The programmer, who debugged the code, passed it to the tester, who then verified the functionality before releasing the software."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:23:16.581040+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the editor recommended finalized printed sold out.",
+    "The recipe the chef the apprentice the critic tasted reviewed perfected impressed everyone.",
+    "The movie the director the producer the actor approved filmed promoted received accolades.",
+    "The project the manager the team the consultant analyzed presented implemented succeeded."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the editor recommended finalized printed sold out.",
+    "The recipe the chef the apprentice the critic tasted reviewed perfected impressed everyone.",
+    "The movie the director the producer the actor approved filmed promoted received accolades.",
+    "The project the manager the team the consultant analyzed presented implemented succeeded.",
+    "The song the singer the composer played recorded."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the editor recommended finalized printed sold out.\", \"The recipe the chef the apprentice the critic tasted reviewed perfected impressed everyone.\", \"The movie the director the producer the actor approved filmed promoted received accolades.\", \"The project the manager the team the consultant analyzed presented implemented succeeded.\", \"The song the singer the composer played recorded.\"]}",
+  "run_idx": 28
+}

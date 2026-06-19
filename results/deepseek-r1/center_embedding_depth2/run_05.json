@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the boy fed barked.",
+    "the car the mechanic fixed started.",
+    "the cake the baker decorated cooled.",
+    "the book the student read closed.",
+    "the window the cleaner washed shattered."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence: the [noun1] the [noun2] [verb2_past] [verb1_past].\"",
+  "induced_prompt": "\"Generate a sentence: the [noun1] the [noun2] [verb2_past] [verb1_past].\"",
+  "induced_prompt_chars": 73,
+  "induced_prompt_words": 9,
+  "l1_char_total": 171,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the ball fetched rolled.\", \"The cat the mouse chased escaped.\", \"The wind the leaves blew scattered.\", \"The car the mechanic fixed started.\", \"The boy the girl helped smiled.\"]}",
+  "l2_sentences": [
+    "The dog the ball fetched rolled.",
+    "The cat the mouse chased escaped.",
+    "The wind the leaves blew scattered.",
+    "The car the mechanic fixed started.",
+    "The boy the girl helped smiled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:04:15.434172+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the boy fed barked.",
+    "the car the mechanic fixed started.",
+    "the cake the baker decorated cooled.",
+    "the book the student read closed.",
+    "the window the cleaner washed shattered."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy fed barked.\", \"the car the mechanic fixed started.\", \"the cake the baker decorated cooled.\", \"the book the student read closed.\", \"the window the cleaner washed shattered.\"]}",
+  "run_idx": 5
+}

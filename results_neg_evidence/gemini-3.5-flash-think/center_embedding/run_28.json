@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the principal noticed praised read vanished",
+    "the cheese the rat the cat the dog chased caught ate spoiled",
+    "the masterpiece the artist the critic the patron influenced insulted painted burned",
+    "the car the driver the mechanic the helper assisted phoned crashed exploded",
+    "the patient the nurse the doctor called helped died"
+  ],
+  "induced_prompt_raw": "Generate a sentence featuring quadruple center-embedding: exactly four nouns followed by exactly four verbs in reverse-dependent order (N1 N2 N3 N4 V4 V3 V2 V1). Avoid triple center-embedding structures with only three nouns and three verbs.",
+  "induced_prompt": "Generate a sentence featuring quadruple center-embedding: exactly four nouns followed by exactly four verbs in reverse-dependent order (N1 N2 N3 N4 V4 V3 V2 V1). Avoid triple center-embedding structures with only three nouns and three verbs.",
+  "induced_prompt_chars": 241,
+  "induced_prompt_words": 36,
+  "l1_char_total": 345,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The story the boy the girl the teacher noticed liked wrote ended.\",\n    \"The car the man the woman the child distracted hired bought broke.\",\n    \"The book the student the author the critic praised inspired read vanished.\",\n    \"The house the builder the architect the client sued employed constructed collapsed.\",\n    \"The song the singer the producer the director fired helped performed failed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The story the boy the girl the teacher noticed liked wrote ended.",
+    "The car the man the woman the child distracted hired bought broke.",
+    "The book the student the author the critic praised inspired read vanished.",
+    "The house the builder the architect the client sued employed constructed collapsed.",
+    "The song the singer the producer the director fired helped performed failed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:22:43.847301+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the principal noticed praised read vanished",
+    "the cheese the rat the cat the dog chased caught ate spoiled",
+    "the masterpiece the artist the critic the patron influenced insulted painted burned",
+    "the car the driver the mechanic the helper assisted phoned crashed exploded"
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the principal noticed praised read vanished",
+    "the cheese the rat the cat the dog chased caught ate spoiled",
+    "the masterpiece the artist the critic the patron influenced insulted painted burned",
+    "the car the driver the mechanic the helper assisted phoned crashed exploded",
+    "the patient the nurse the doctor called helped died"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the student the teacher the principal noticed praised read vanished\",\n    \"the cheese the rat the cat the dog chased caught ate spoiled\",\n    \"the masterpiece the artist the critic the patron influenced insulted painted burned\",\n    \"the car the driver the mechanic the helper assisted phoned crashed exploded\",\n    \"the patient the nurse the doctor called helped died\"\n  ]\n}",
+  "run_idx": 28
+}

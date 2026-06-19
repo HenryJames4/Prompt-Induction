@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy chased barked.",
+    "The book the author wrote sold.",
+    "The song the band played ended.",
+    "The cake the chef baked cooled.",
+    "The car the mechanic the owner hired fixed started."
+  ],
+  "induced_prompt_raw": "Create a sentence with two noun-verb pairs in a single relative clause structure, where each noun directly precedes its verb, avoiding nested clauses or additional subjects.",
+  "induced_prompt": "Create a sentence with two noun-verb pairs in a single relative clause structure, where each noun directly precedes its verb, avoiding nested clauses or additional subjects.",
+  "induced_prompt_chars": 173,
+  "induced_prompt_words": 26,
+  "l1_char_total": 174,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The artist that the crowd cheered and the critics praised received an award.\", \"The software that the engineer designed and the company launched became popular.\", \"The policy that the committee approved and the president signed took effect immediately.\", \"The recipe that the chef demonstrated and the audience replicated won the contest.\", \"The play that the actors performed and the director supervised earned rave reviews.\"]}",
+  "l2_sentences": [
+    "The artist that the crowd cheered and the critics praised received an award.",
+    "The software that the engineer designed and the company launched became popular.",
+    "The policy that the committee approved and the president signed took effect immediately.",
+    "The recipe that the chef demonstrated and the audience replicated won the contest.",
+    "The play that the actors performed and the director supervised earned rave reviews."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:53:08.578541+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy chased barked.",
+    "The book the author wrote sold.",
+    "The song the band played ended.",
+    "The cake the chef baked cooled."
+  ],
+  "l1_sentences": [
+    "The dog the boy chased barked.",
+    "The book the author wrote sold.",
+    "The song the band played ended.",
+    "The cake the chef baked cooled.",
+    "The car the mechanic the owner hired fixed started."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the boy chased barked.\", \"The book the author wrote sold.\", \"The song the band played ended.\", \"The cake the chef baked cooled.\", \"The car the mechanic the owner hired fixed started.\"]}",
+  "run_idx": 21
+}

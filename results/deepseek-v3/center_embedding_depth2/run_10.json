@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cake the baker made tasted",
+    "the book the editor reviewed sold",
+    "the song the musician composed played",
+    "the meal the chef prepared served",
+    "the letter the writer drafted arrived"
+  ],
+  "induced_prompt_raw": "\"the [noun] the [profession] [verb] [verb]\"",
+  "induced_prompt": "\"the [noun] the [profession] [verb] [verb]\"",
+  "induced_prompt_chars": 43,
+  "induced_prompt_words": 6,
+  "l1_char_total": 170,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The chef the writer cooked wrote.\", \"The doctor the musician healed played.\", \"The teacher the artist taught painted.\", \"The engineer the gardener built planted.\", \"The pilot the photographer flew captured.\"]}",
+  "l2_sentences": [
+    "The chef the writer cooked wrote.",
+    "The doctor the musician healed played.",
+    "The teacher the artist taught painted.",
+    "The engineer the gardener built planted.",
+    "The pilot the photographer flew captured."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:09:25.210327+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the baker made tasted",
+    "the book the editor reviewed sold",
+    "the song the musician composed played",
+    "the meal the chef prepared served",
+    "the letter the writer drafted arrived"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the baker made tasted\", \"the book the editor reviewed sold\", \"the song the musician composed played\", \"the meal the chef prepared served\", \"the letter the writer drafted arrived\"]}",
+  "run_idx": 10
+}

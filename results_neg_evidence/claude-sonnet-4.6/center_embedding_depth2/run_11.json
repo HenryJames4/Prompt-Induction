@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The letter the student wrote arrived.",
+    "The song the musician composed spread.",
+    "The book the critic the editor hired reviewed sold."
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (subject-object-verb structure), where only one noun phrase is modified by the clause. Avoid stacking multiple embedded clauses, which creates double center-embedding.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (subject-object-verb structure), where only one noun phrase is modified by the clause. Avoid stacking multiple embedded clauses, which creates double center-embedding.",
+  "induced_prompt_chars": 229,
+  "induced_prompt_words": 29,
+  "l1_char_total": 201,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The book that the student borrowed was overdue.\",\n    \"The cat that the neighbors fed disappeared last winter.\",\n    \"The report that the manager reviewed contained several errors.\",\n    \"The painting that the museum acquired attracted large crowds.\",\n    \"The letter that the lawyer drafted was never sent.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The book that the student borrowed was overdue.",
+    "The cat that the neighbors fed disappeared last winter.",
+    "The report that the manager reviewed contained several errors.",
+    "The painting that the museum acquired attracted large crowds.",
+    "The letter that the lawyer drafted was never sent."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:44:18.596591+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The letter the student wrote arrived.",
+    "The song the musician composed spread."
+  ],
+  "l1_sentences": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The letter the student wrote arrived.",
+    "The song the musician composed spread.",
+    "The book the critic the editor hired reviewed sold."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed passed.\", \"The cake the chef baked disappeared.\", \"The letter the student wrote arrived.\", \"The song the musician composed spread.\", \"The book the critic the editor hired reviewed sold.\"]}\n```",
+  "run_idx": 11
+}

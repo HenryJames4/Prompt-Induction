@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy chased ran.",
+    "The book the author wrote sold quickly.",
+    "The song the band played became famous.",
+    "The house the contractor built collapsed suddenly.",
+    "The manager the employee the CEO fired blamed resigned."
+  ],
+  "induced_prompt_raw": "\"Compose a sentence with a subject modified by exactly one relative clause (without a relative pronoun) that has its own subject and verb. Place the relative clause immediately after the main subject. Conclude with the main verb. Avoid multiple embeddings or additional clauses.\"",
+  "induced_prompt": "\"Compose a sentence with a subject modified by exactly one relative clause (without a relative pronoun) that has its own subject and verb. Place the relative clause immediately after the main subject. Conclude with the main verb. Avoid multiple embeddings or additional clauses.\"",
+  "induced_prompt_chars": 279,
+  "induced_prompt_words": 43,
+  "l1_char_total": 210,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The dog the children fed barked joyfully.\", \"The cake the chef decorated won first prize.\", \"The book the author signed sold quickly.\", \"The car the mechanic repaired runs perfectly.\", \"The song the choir performed received applause.\"]}",
+  "l2_sentences": [
+    "The dog the children fed barked joyfully.",
+    "The cake the chef decorated won first prize.",
+    "The book the author signed sold quickly.",
+    "The car the mechanic repaired runs perfectly.",
+    "The song the choir performed received applause."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:54:31.366763+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy chased ran.",
+    "The book the author wrote sold quickly.",
+    "The song the band played became famous.",
+    "The house the contractor built collapsed suddenly."
+  ],
+  "l1_sentences": [
+    "The dog the boy chased ran.",
+    "The book the author wrote sold quickly.",
+    "The song the band played became famous.",
+    "The house the contractor built collapsed suddenly.",
+    "The manager the employee the CEO fired blamed resigned."
+  ],
+  "l1_raw": "{\"sentences\": [\n  \"The dog the boy chased ran.\",\n  \"The book the author wrote sold quickly.\",\n  \"The song the band played became famous.\",\n  \"The house the contractor built collapsed suddenly.\",\n  \"The manager the employee the CEO fired blamed resigned.\"\n]}",
+  "run_idx": 23
+}

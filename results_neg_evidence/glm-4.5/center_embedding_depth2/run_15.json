@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the proposal the reviewer approved passed",
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the builder constructed collapsed",
+    "the man the woman the child saw greeted waved"
+  ],
+  "induced_prompt_raw": "Generate a single, two-clause sentence where the second clause modifies the subject of the first. Avoid nested center-embedding.",
+  "induced_prompt": "Generate a single, two-clause sentence where the second clause modifies the subject of the first. Avoid nested center-embedding.",
+  "induced_prompt_chars": 128,
+  "induced_prompt_words": 18,
+  "l1_char_total": 196,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The sun was shining brightly, which warmed the entire valley.\",\n    \"The children played in the park, who were laughing with joy.\",\n    \"The old man sat on the bench, who had seen many seasons pass.\",\n    \"The river flowed steadily, which carved its path through the landscape.\",\n    \"The book rested on the table, which had been read by generations.\"\n  ]\n}",
+  "l2_sentences": [
+    "The sun was shining brightly, which warmed the entire valley.",
+    "The children played in the park, who were laughing with joy.",
+    "The old man sat on the bench, who had seen many seasons pass.",
+    "The river flowed steadily, which carved its path through the landscape.",
+    "The book rested on the table, which had been read by generations."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:47:45.029735+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the proposal the reviewer approved passed",
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the builder constructed collapsed"
+  ],
+  "l1_sentences": [
+    "the proposal the reviewer approved passed",
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the builder constructed collapsed",
+    "the man the woman the child saw greeted waved"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the proposal the reviewer approved passed\",\n    \"the cat the dog chased ran\",\n    \"the book the student read was interesting\",\n    \"the house the builder constructed collapsed\",\n    \"the man the woman the child saw greeted waved\"\n  ]\n}",
+  "run_idx": 15
+}

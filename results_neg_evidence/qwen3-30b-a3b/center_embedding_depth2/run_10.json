@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the message the manager sent arrived.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked.",
+    "the story the writer told the audience enjoyed the ending."
+  ],
+  "induced_prompt_raw": "Create a sentence with a relative clause modifying a noun, where the main clause describes the outcome or result of the action in the relative clause.",
+  "induced_prompt": "Create a sentence with a relative clause modifying a noun, where the main clause describes the outcome or result of the action in the relative clause.",
+  "induced_prompt_chars": 150,
+  "induced_prompt_words": 26,
+  "l1_char_total": 204,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The student, who had studied diligently for the exam, passed with honors.\", \"The engine, which had been repaired last week, started without any issues.\", \"The cake, which I baked yesterday, was devoured within an hour.\", \"The book, which she read in one sitting, left her deeply moved.\", \"The bridge, which was reinforced after the storm, now supports heavy traffic.\"]}",
+  "l2_sentences": [
+    "The student, who had studied diligently for the exam, passed with honors.",
+    "The engine, which had been repaired last week, started without any issues.",
+    "The cake, which I baked yesterday, was devoured within an hour.",
+    "The book, which she read in one sitting, left her deeply moved.",
+    "The bridge, which was reinforced after the storm, now supports heavy traffic."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:43:29.531052+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the message the manager sent arrived.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the message the manager sent arrived.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked.",
+    "the story the writer told the audience enjoyed the ending."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the message the manager sent arrived.\", \"the plan the committee rejected failed.\", \"the idea the scientist proposed worked.\", \"the story the writer told the audience enjoyed the ending.\"]}",
+  "run_idx": 10
+}

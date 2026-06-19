@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the agent contacted signed released sold.",
+    "The project the manager the developer the designer hired completed presented succeeded.",
+    "The cake the baker the chef the apprentice prepared decorated served melted.",
+    "The proposal the director the analyst the intern drafted reviewed approved vanished.",
+    "The teacher the student the exam graded passed failed."
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring grammatical correctness and avoiding ambiguity or ungrammatical structures.\"",
+  "induced_prompt": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring grammatical correctness and avoiding ambiguity or ungrammatical structures.\"",
+  "induced_prompt_chars": 181,
+  "induced_prompt_words": 22,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library, which was recommended by my professor, has a torn cover.\", \"The cat that lives next door, which belongs to the neighbor who moved here last year, always sits on the windowsill.\", \"The car that my brother bought, which was manufactured in Germany, broke down on the highway.\", \"The teacher who assigned the project, which we completed last week, praised our effort.\", \"The movie that we watched last night, which was directed by a famous filmmaker, received mixed reviews.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library, which was recommended by my professor, has a torn cover.",
+    "The cat that lives next door, which belongs to the neighbor who moved here last year, always sits on the windowsill.",
+    "The car that my brother bought, which was manufactured in Germany, broke down on the highway.",
+    "The teacher who assigned the project, which we completed last week, praised our effort.",
+    "The movie that we watched last night, which was directed by a famous filmmaker, received mixed reviews."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:20:35.757912+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the agent contacted signed released sold.",
+    "The project the manager the developer the designer hired completed presented succeeded.",
+    "The cake the baker the chef the apprentice prepared decorated served melted.",
+    "The proposal the director the analyst the intern drafted reviewed approved vanished."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the agent contacted signed released sold.",
+    "The project the manager the developer the designer hired completed presented succeeded.",
+    "The cake the baker the chef the apprentice prepared decorated served melted.",
+    "The proposal the director the analyst the intern drafted reviewed approved vanished.",
+    "The teacher the student the exam graded passed failed."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the agent contacted signed released sold.\", \"The project the manager the developer the designer hired completed presented succeeded.\", \"The cake the baker the chef the apprentice prepared decorated served melted.\", \"The proposal the director the analyst the intern drafted reviewed approved vanished.\", \"The teacher the student the exam graded passed failed.\"]}",
+  "run_idx": 26
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the librarian borrowed returned borrowed was read.",
+    "the letter the secretary the manager the director reviewed signed was sent.",
+    "the data the analyst the scientist the researcher collected analyzed was published.",
+    "the document the clerk the supervisor the director reviewed approved was filed.",
+    "the story the writer the editor the assistant revised approved disappeared."
+  ],
+  "induced_prompt_raw": "Create a sentence with nested clauses where each subject performs an action on an object, and the final action is performed on the entire preceding clause, maintaining grammatical coherence and avoiding illogical or contradictory outcomes.",
+  "induced_prompt": "Create a sentence with nested clauses where each subject performs an action on an object, and the final action is performed on the entire preceding clause, maintaining grammatical coherence and avoiding illogical or contradictory outcomes.",
+  "induced_prompt_chars": 239,
+  "induced_prompt_words": 35,
+  "l1_char_total": 395,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The scientist who studied the reaction observed the particles that emitted light when heated.\", \"She documented the data that confirmed the hypothesis that explained the phenomenon.\", \"The researcher analyzed the results that supported the theory that predicted the outcome.\", \"They published the findings that validated the model that described the process.\", \"The committee approved the proposal that funded the experiment that discovered the anomaly.\"]}",
+  "l2_sentences": [
+    "The scientist who studied the reaction observed the particles that emitted light when heated.",
+    "She documented the data that confirmed the hypothesis that explained the phenomenon.",
+    "The researcher analyzed the results that supported the theory that predicted the outcome.",
+    "They published the findings that validated the model that described the process.",
+    "The committee approved the proposal that funded the experiment that discovered the anomaly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:50:44.303614+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the librarian borrowed returned borrowed was read.",
+    "the letter the secretary the manager the director reviewed signed was sent.",
+    "the data the analyst the scientist the researcher collected analyzed was published.",
+    "the document the clerk the supervisor the director reviewed approved was filed."
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the librarian borrowed returned borrowed was read.",
+    "the letter the secretary the manager the director reviewed signed was sent.",
+    "the data the analyst the scientist the researcher collected analyzed was published.",
+    "the document the clerk the supervisor the director reviewed approved was filed.",
+    "the story the writer the editor the assistant revised approved disappeared."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian borrowed returned borrowed was read.\", \"the letter the secretary the manager the director reviewed signed was sent.\", \"the data the analyst the scientist the researcher collected analyzed was published.\", \"the document the clerk the supervisor the director reviewed approved was filed.\", \"the story the writer the editor the assistant revised approved disappeared.\"]}",
+  "run_idx": 7
+}

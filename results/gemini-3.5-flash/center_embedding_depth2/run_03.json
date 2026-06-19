@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat chased ran",
+    "the chef the guest thanked smiled",
+    "the driver the pedestrian waved stopped",
+    "the teacher the student questioned answered",
+    "the artist the model watched painted"
+  ],
+  "induced_prompt_raw": "Write a list of sentences following the syntactic structure: \"[Subject noun phrase] [Relative clause with subject + transitive verb] [Intransitive main verb]\".",
+  "induced_prompt": "Write a list of sentences following the syntactic structure: \"[Subject noun phrase] [Relative clause with subject + transitive verb] [Intransitive main verb]\".",
+  "induced_prompt_chars": 159,
+  "induced_prompt_words": 22,
+  "l1_char_total": 177,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book that she read fell.\",\n    \"A child whom they helped smiled.\",\n    \"The puppy that I bought slept.\",\n    \"Every student whom we called graduated.\",\n    \"The ship that he built sank.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book that she read fell.",
+    "A child whom they helped smiled.",
+    "The puppy that I bought slept.",
+    "Every student whom we called graduated.",
+    "The ship that he built sank."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:36:07.043979+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat chased ran",
+    "the chef the guest thanked smiled",
+    "the driver the pedestrian waved stopped",
+    "the teacher the student questioned answered",
+    "the artist the model watched painted"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the dog the cat chased ran\",\n    \"the chef the guest thanked smiled\",\n    \"the driver the pedestrian waved stopped\",\n    \"the teacher the student questioned answered\",\n    \"the artist the model watched painted\"\n  ]\n}",
+  "run_idx": 3
+}

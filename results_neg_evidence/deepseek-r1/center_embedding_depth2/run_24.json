@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The dog the boy chased barked.",
+    "The cake the baker made sold quickly.",
+    "The book the author wrote won awards.",
+    "The movie the director filmed premiered.",
+    "The teacher the student the principal hired taught retired."
+  ],
+  "induced_prompt_raw": "Create a sentence where a noun is modified by a single relative clause (noun + verb), then concluded by the main verb. Avoid multiple embeddings or additional clauses.",
+  "induced_prompt": "Create a sentence where a noun is modified by a single relative clause (noun + verb), then concluded by the main verb. Avoid multiple embeddings or additional clauses.",
+  "induced_prompt_chars": 167,
+  "induced_prompt_words": 28,
+  "l1_char_total": 203,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog that barks runs.\", \"The cat that sleeps purrs.\", \"The bird that sings flies.\", \"The child who laughs plays.\", \"The wind that howls blows.\"]}",
+  "l2_sentences": [
+    "The dog that barks runs.",
+    "The cat that sleeps purrs.",
+    "The bird that sings flies.",
+    "The child who laughs plays.",
+    "The wind that howls blows."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:55:15.779092+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The dog the boy chased barked.",
+    "The cake the baker made sold quickly.",
+    "The book the author wrote won awards.",
+    "The movie the director filmed premiered."
+  ],
+  "l1_sentences": [
+    "The dog the boy chased barked.",
+    "The cake the baker made sold quickly.",
+    "The book the author wrote won awards.",
+    "The movie the director filmed premiered.",
+    "The teacher the student the principal hired taught retired."
+  ],
+  "l1_raw": "{\"sentences\": [\"The dog the boy chased barked.\", \"The cake the baker made sold quickly.\", \"The book the author wrote won awards.\", \"The movie the director filmed premiered.\", \"The teacher the student the principal hired taught retired.\"]}",
+  "run_idx": 24
+}

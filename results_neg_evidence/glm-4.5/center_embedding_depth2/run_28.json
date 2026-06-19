@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the builder constructed collapsed",
+    "the movie the critic reviewed won awards",
+    "the car the mechanic the owner hired repaired failed"
+  ],
+  "induced_prompt_raw": "Generate sentences with one center-embedded relative clause.",
+  "induced_prompt": "Generate sentences with one center-embedded relative clause.",
+  "induced_prompt_chars": 60,
+  "induced_prompt_words": 7,
+  "l1_char_total": 202,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog chased climbed the tree.\",\n    \"The book that I borrowed from the library was very interesting.\",\n    \"The man who the woman interviewed got the job.\",\n    \"The house that the architect designed won an award.\",\n    \"The movie that we watched last night was boring.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog chased climbed the tree.",
+    "The book that I borrowed from the library was very interesting.",
+    "The man who the woman interviewed got the job.",
+    "The house that the architect designed won an award.",
+    "The movie that we watched last night was boring."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:59:15.614873+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the builder constructed collapsed",
+    "the movie the critic reviewed won awards"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the builder constructed collapsed",
+    "the movie the critic reviewed won awards",
+    "the car the mechanic the owner hired repaired failed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased ran\",\n    \"the book the student read was interesting\",\n    \"the house the builder constructed collapsed\",\n    \"the movie the critic reviewed won awards\",\n    \"the car the mechanic the owner hired repaired failed\"\n  ]\n}",
+  "run_idx": 28
+}

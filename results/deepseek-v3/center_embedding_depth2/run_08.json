@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cake the baker decorated sold",
+    "the car the mechanic repaired started",
+    "the book the editor revised published",
+    "the song the singer performed recorded",
+    "the painting the artist created displayed"
+  ],
+  "induced_prompt_raw": "\"Describe an item, the person who modified it, and the resulting action in a concise sentence.\"",
+  "induced_prompt": "\"Describe an item, the person who modified it, and the resulting action in a concise sentence.\"",
+  "induced_prompt_chars": 95,
+  "induced_prompt_words": 16,
+  "l1_char_total": 186,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The carpenter carved the wooden table, and it was placed in the dining room.\", \"The artist painted the old vase, and it became a centerpiece.\", \"The engineer upgraded the computer, and it ran faster.\", \"The tailor altered the dress, and it fit perfectly.\", \"The mechanic repaired the bicycle, and it rode smoothly.\"]}",
+  "l2_sentences": [
+    "The carpenter carved the wooden table, and it was placed in the dining room.",
+    "The artist painted the old vase, and it became a centerpiece.",
+    "The engineer upgraded the computer, and it ran faster.",
+    "The tailor altered the dress, and it fit perfectly.",
+    "The mechanic repaired the bicycle, and it rode smoothly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:07:54.132320+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the baker decorated sold",
+    "the car the mechanic repaired started",
+    "the book the editor revised published",
+    "the song the singer performed recorded",
+    "the painting the artist created displayed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the baker decorated sold\", \"the car the mechanic repaired started\", \"the book the editor revised published\", \"the song the singer performed recorded\", \"the painting the artist created displayed\"]}",
+  "run_idx": 8
+}

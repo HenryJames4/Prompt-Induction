@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased escaped",
+    "the letter the secretary typed arrived",
+    "the film the critic praised won",
+    "the bill the senator sponsored passed",
+    "the report the manager the assistant prepared reviewed failed"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause, where a noun phrase is modified by an embedded subject-verb pair before the main verb completes the sentence. Avoid double (or deeper) center-embedding, where a second relative clause is nested inside the first.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause, where a noun phrase is modified by an embedded subject-verb pair before the main verb completes the sentence. Avoid double (or deeper) center-embedding, where a second relative clause is nested inside the first.",
+  "induced_prompt_chars": 274,
+  "induced_prompt_words": 41,
+  "l1_char_total": 197,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The book that the professor recommended was surprisingly difficult to finish.\",\n    \"The dog that the children adored escaped through a hole in the fence.\",\n    \"The report that the manager reviewed contained several critical errors.\",\n    \"The song that the choir performed moved the entire audience to tears.\",\n    \"The cake that my grandmother baked disappeared within minutes of arriving.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The book that the professor recommended was surprisingly difficult to finish.",
+    "The dog that the children adored escaped through a hole in the fence.",
+    "The report that the manager reviewed contained several critical errors.",
+    "The song that the choir performed moved the entire audience to tears.",
+    "The cake that my grandmother baked disappeared within minutes of arriving."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:57:53.066177+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased escaped",
+    "the letter the secretary typed arrived",
+    "the film the critic praised won",
+    "the bill the senator sponsored passed"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased escaped",
+    "the letter the secretary typed arrived",
+    "the film the critic praised won",
+    "the bill the senator sponsored passed",
+    "the report the manager the assistant prepared reviewed failed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped\",\n    \"the letter the secretary typed arrived\",\n    \"the film the critic praised won\",\n    \"the bill the senator sponsored passed\",\n    \"the report the manager the assistant prepared reviewed failed\"\n  ]\n}\n```",
+  "run_idx": 27
+}

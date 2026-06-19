@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the editor revised sold",
+    "the plan the committee endorsed succeeded",
+    "the film the director edited premiered",
+    "the code the developer tested worked",
+    "the cake the baker the customer ordered delivered baked"
+  ],
+  "induced_prompt_raw": "\"Generate sentences where a noun modified by a clause (e.g., 'the book the editor revised') is followed by a verb, ensuring each noun has only one modifying clause and avoiding nested structures.\"",
+  "induced_prompt": "\"Generate sentences where a noun modified by a clause (e.g., 'the book the editor revised') is followed by a verb, ensuring each noun has only one modifying clause and avoiding nested structures.\"",
+  "induced_prompt_chars": 196,
+  "induced_prompt_words": 32,
+  "l1_char_total": 202,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the trainer praised wagged its tail.\", \"The cake the baker decorated looked delicious.\", \"The car the mechanic fixed runs smoothly.\", \"The painting the artist created sold quickly.\", \"The letter the secretary typed arrived yesterday.\"]}",
+  "l2_sentences": [
+    "The dog the trainer praised wagged its tail.",
+    "The cake the baker decorated looked delicious.",
+    "The car the mechanic fixed runs smoothly.",
+    "The painting the artist created sold quickly.",
+    "The letter the secretary typed arrived yesterday."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:56:12.065399+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the editor revised sold",
+    "the plan the committee endorsed succeeded",
+    "the film the director edited premiered",
+    "the code the developer tested worked"
+  ],
+  "l1_sentences": [
+    "the book the editor revised sold",
+    "the plan the committee endorsed succeeded",
+    "the film the director edited premiered",
+    "the code the developer tested worked",
+    "the cake the baker the customer ordered delivered baked"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor revised sold\", \"the plan the committee endorsed succeeded\", \"the film the director edited premiered\", \"the code the developer tested worked\", \"the cake the baker the customer ordered delivered baked\"]}",
+  "run_idx": 25
+}

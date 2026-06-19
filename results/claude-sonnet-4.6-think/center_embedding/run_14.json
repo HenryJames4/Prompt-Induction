@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the critic praised taught baked vanished.",
+    "the film the director the producer the investor backed hired made flopped.",
+    "the painting the artist the patron the dealer contacted funded created sold.",
+    "the bill the senator the lawyer the activist recruited advised passed failed.",
+    "the contract the executive the advisor the client approached persuaded signed expired."
+  ],
+  "induced_prompt_raw": "Write sentences with triply center-embedded relative clauses, where four noun phrases appear consecutively before their four corresponding verbs.",
+  "induced_prompt": "Write sentences with triply center-embedded relative clauses, where four noun phrases appear consecutively before their four corresponding verbs.",
+  "induced_prompt_chars": 145,
+  "induced_prompt_words": 18,
+  "l1_char_total": 384,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The malt the rat the cat the dog chased killed ate lay on the floor.\",\n    \"The book the student the professor the dean hired taught read was fascinating.\",\n    \"The letter the clerk the manager the CEO promoted hired wrote reached headquarters.\",\n    \"The trophy the athlete the coach the federation appointed trained won gleamed brightly.\",\n    \"The report the analyst the director the board selected appointed wrote impressed everyone.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The malt the rat the cat the dog chased killed ate lay on the floor.",
+    "The book the student the professor the dean hired taught read was fascinating.",
+    "The letter the clerk the manager the CEO promoted hired wrote reached headquarters.",
+    "The trophy the athlete the coach the federation appointed trained won gleamed brightly.",
+    "The report the analyst the director the board selected appointed wrote impressed everyone."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:24:32.610428+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the critic praised taught baked vanished.",
+    "the film the director the producer the investor backed hired made flopped.",
+    "the painting the artist the patron the dealer contacted funded created sold.",
+    "the bill the senator the lawyer the activist recruited advised passed failed.",
+    "the contract the executive the advisor the client approached persuaded signed expired."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the chef the student the critic praised taught baked vanished.\",\n    \"the film the director the producer the investor backed hired made flopped.\",\n    \"the painting the artist the patron the dealer contacted funded created sold.\",\n    \"the bill the senator the lawyer the activist recruited advised passed failed.\",\n    \"the contract the executive the advisor the client approached persuaded signed expired.\"\n  ]\n}\n```",
+  "run_idx": 14
+}

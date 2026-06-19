@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic praised sold",
+    "the dog the child chased barked",
+    "the letter the manager signed arrived",
+    "the cake the chef baked disappeared",
+    "the report the analyst the director hired reviewed confirmed passed"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (subject + object relative clause + main verb), avoiding multiple levels of nested embedding that make the sentence ungrammatical or incomprehensible.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (subject + object relative clause + main verb), avoiding multiple levels of nested embedding that make the sentence ungrammatical or incomprehensible.",
+  "induced_prompt_chars": 212,
+  "induced_prompt_words": 29,
+  "l1_char_total": 202,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that the professor recommended became a bestseller.\", \"The scientist that the committee selected won the award.\", \"The proposal that the manager approved exceeded all expectations.\", \"The athlete that the coach trained broke the world record.\", \"The painting that the curator chose attracted thousands of visitors.\"]}\n```",
+  "l2_sentences": [
+    "The book that the professor recommended became a bestseller.",
+    "The scientist that the committee selected won the award.",
+    "The proposal that the manager approved exceeded all expectations.",
+    "The athlete that the coach trained broke the world record.",
+    "The painting that the curator chose attracted thousands of visitors."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:47:43.217142+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic praised sold",
+    "the dog the child chased barked",
+    "the letter the manager signed arrived",
+    "the cake the chef baked disappeared"
+  ],
+  "l1_sentences": [
+    "the book the critic praised sold",
+    "the dog the child chased barked",
+    "the letter the manager signed arrived",
+    "the cake the chef baked disappeared",
+    "the report the analyst the director hired reviewed confirmed passed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the critic praised sold\", \"the dog the child chased barked\", \"the letter the manager signed arrived\", \"the cake the chef baked disappeared\", \"the report the analyst the director hired reviewed confirmed passed\"]}",
+  "run_idx": 15
+}

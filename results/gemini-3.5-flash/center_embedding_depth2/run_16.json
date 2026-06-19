@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the chef the critic praised smiled",
+    "the student the teacher helped graduated",
+    "the athlete the coach trained won",
+    "the actor the director cast bowed",
+    "the artist the collector visited painted"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with the structure: [determiner] [noun] [determiner] [noun] [transitive verb] [intransitive verb], where the second noun and transitive verb form a relative clause modifying the first noun.\"",
+  "induced_prompt": "\"Generate sentences with the structure: [determiner] [noun] [determiner] [noun] [transitive verb] [intransitive verb], where the second noun and transitive verb form a relative clause modifying the first noun.\"",
+  "induced_prompt_chars": 210,
+  "induced_prompt_words": 28,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the boy trained barked.\",\n    \"A car a man bought broke.\",\n    \"Every book the girl read vanished.\",\n    \"That toy a child broke squeaked.\",\n    \"The horse a rider led stumbled.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the boy trained barked.",
+    "A car a man bought broke.",
+    "Every book the girl read vanished.",
+    "That toy a child broke squeaked.",
+    "The horse a rider led stumbled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:40:30.314333+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the critic praised smiled",
+    "the student the teacher helped graduated",
+    "the athlete the coach trained won",
+    "the actor the director cast bowed",
+    "the artist the collector visited painted"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the critic praised smiled\",\n    \"the student the teacher helped graduated\",\n    \"the athlete the coach trained won\",\n    \"the actor the director cast bowed\",\n    \"the artist the collector visited painted\"\n  ]\n}",
+  "run_idx": 16
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog the mouse the elephant chased hunted caught escaped.",
+    "The book the author the publisher the critic wrote edited reviewed praised.",
+    "The car the driver the mechanic the owner fixed drove washed sold.",
+    "The house the architect the builder the inspector designed constructed approved sold.",
+    "The bird the cat the dog chased caught ate."
+  ],
+  "induced_prompt_raw": "Generate a four-level center-embedded sentence: The [A] the [B] the [C] the [D] [verb4] [verb3] [verb2] [verb1].",
+  "induced_prompt": "Generate a four-level center-embedded sentence: The [A] the [B] the [C] the [D] [verb4] [verb3] [verb2] [verb1].",
+  "induced_prompt_chars": 112,
+  "induced_prompt_words": 17,
+  "l1_char_total": 337,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that the dog that the rat that the elephant chased scratched bit ran away.\",\n    \"The boy that the teacher that the principal that the school hired scolded praised graduated.\",\n    \"The car that the mechanic that the dealer that the manufacturer hired serviced fixed broke down.\",\n    \"The book that the student that the teacher that the school hired taught read was interesting.\",\n    \"The house that the builder that the architect that the developer hired supervised built burned down.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the rat that the elephant chased scratched bit ran away.",
+    "The boy that the teacher that the principal that the school hired scolded praised graduated.",
+    "The car that the mechanic that the dealer that the manufacturer hired serviced fixed broke down.",
+    "The book that the student that the teacher that the school hired taught read was interesting.",
+    "The house that the builder that the architect that the developer hired supervised built burned down."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:08:58.012420+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog the mouse the elephant chased hunted caught escaped.",
+    "The book the author the publisher the critic wrote edited reviewed praised.",
+    "The car the driver the mechanic the owner fixed drove washed sold.",
+    "The house the architect the builder the inspector designed constructed approved sold."
+  ],
+  "l1_sentences": [
+    "The cat the dog the mouse the elephant chased hunted caught escaped.",
+    "The book the author the publisher the critic wrote edited reviewed praised.",
+    "The car the driver the mechanic the owner fixed drove washed sold.",
+    "The house the architect the builder the inspector designed constructed approved sold.",
+    "The bird the cat the dog chased caught ate."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog the mouse the elephant chased hunted caught escaped.\",\n    \"The book the author the publisher the critic wrote edited reviewed praised.\",\n    \"The car the driver the mechanic the owner fixed drove washed sold.\",\n    \"The house the architect the builder the inspector designed constructed approved sold.\",\n    \"The bird the cat the dog chased caught ate.\"\n  ]\n}\n```",
+  "run_idx": 19
+}

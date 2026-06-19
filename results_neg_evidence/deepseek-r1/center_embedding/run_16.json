@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef the customer the waiter served recommended prepared melted.",
+    "the house the builder the architect the client hired designed built collapsed.",
+    "the program the coder the designer the artist inspired assisted created worked.",
+    "the film the director the script the writer drafted edited produced premiered.",
+    "the boy the girl the dog followed helped cried."
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly four nested noun phrases (each starting with 'the') followed by four verbs in reverse order of the nouns. Each verb must correspond to its noun: the last verb applies to the first noun and is intransitive; the others are transitive, taking the immediately preceding noun as their object. Avoid ambiguity in object assignments.",
+  "induced_prompt": "Generate a sentence with exactly four nested noun phrases (each starting with 'the') followed by four verbs in reverse order of the nouns. Each verb must correspond to its noun: the last verb applies to the first noun and is intransitive; the others are transitive, taking the immediately preceding noun as their object. Avoid ambiguity in object assignments.",
+  "induced_prompt_chars": 359,
+  "induced_prompt_words": 58,
+  "l1_char_total": 359,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The king the queen the servant the news shocked angered worried sighed.\", \"The professor the student the data the error invalidated confused disappointed frowned.\", \"The CEO the manager the report the numbers supported impressed pleased celebrated.\", \"The farmer the crop the pest the pesticide killed damaged stressed persevered.\", \"The mother the child the toy the battery powered entertained delighted smiled.\"]}",
+  "l2_sentences": [
+    "The king the queen the servant the news shocked angered worried sighed.",
+    "The professor the student the data the error invalidated confused disappointed frowned.",
+    "The CEO the manager the report the numbers supported impressed pleased celebrated.",
+    "The farmer the crop the pest the pesticide killed damaged stressed persevered.",
+    "The mother the child the toy the battery powered entertained delighted smiled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:05:19.205490+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef the customer the waiter served recommended prepared melted.",
+    "the house the builder the architect the client hired designed built collapsed.",
+    "the program the coder the designer the artist inspired assisted created worked.",
+    "the film the director the script the writer drafted edited produced premiered."
+  ],
+  "l1_sentences": [
+    "the cake the chef the customer the waiter served recommended prepared melted.",
+    "the house the builder the architect the client hired designed built collapsed.",
+    "the program the coder the designer the artist inspired assisted created worked.",
+    "the film the director the script the writer drafted edited produced premiered.",
+    "the boy the girl the dog followed helped cried."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cake the chef the customer the waiter served recommended prepared melted.\",\n    \"the house the builder the architect the client hired designed built collapsed.\",\n    \"the program the coder the designer the artist inspired assisted created worked.\",\n    \"the film the director the script the writer drafted edited produced premiered.\",\n    \"the boy the girl the dog followed helped cried.\"\n  ]\n}",
+  "run_idx": 16
+}

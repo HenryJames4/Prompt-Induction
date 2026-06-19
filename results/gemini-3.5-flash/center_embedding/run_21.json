@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the program the engineer the manager the director hired supervised optimized crashed",
+    "the contract the lawyer the partner the client consults advises signs expires",
+    "the recipe the chef the apprentice the helper selected assisted modified failed",
+    "the song the artist the producer the listener disliked recommended recorded succeeded",
+    "the house the buyer the agent the inspector visited hired purchased collapsed"
+  ],
+  "induced_prompt_raw": "Generate a sentence with three nested object relative clauses (multiply center-embedded relative clauses) resulting in four nouns followed by four verbs: [Noun 1] + [Noun 2] + [Noun 3] + [Noun 4] + [Verb 4] + [Verb 3] + [Verb 2] + [Verb 1].",
+  "induced_prompt": "Generate a sentence with three nested object relative clauses (multiply center-embedded relative clauses) resulting in four nouns followed by four verbs: [Noun 1] + [Noun 2] + [Noun 3] + [Noun 4] + [Verb 4] + [Verb 3] + [Verb 2] + [Verb 1].",
+  "induced_prompt_chars": 240,
+  "induced_prompt_words": 44,
+  "l1_char_total": 402,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef the critic the writer the blogger mentioned praised fired resigned.\",\n    \"The patient the doctor the nurse the intern assisted treated cured thanked.\",\n    \"The book the student the teacher the principal recommended assigned read vanished.\",\n    \"The house the architect the builder the contractor hired designed constructed collapsed.\",\n    \"The software the programmer the analyst the manager supervised tested modified crashed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef the critic the writer the blogger mentioned praised fired resigned.",
+    "The patient the doctor the nurse the intern assisted treated cured thanked.",
+    "The book the student the teacher the principal recommended assigned read vanished.",
+    "The house the architect the builder the contractor hired designed constructed collapsed.",
+    "The software the programmer the analyst the manager supervised tested modified crashed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:28:26.169731+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the program the engineer the manager the director hired supervised optimized crashed",
+    "the contract the lawyer the partner the client consults advises signs expires",
+    "the recipe the chef the apprentice the helper selected assisted modified failed",
+    "the song the artist the producer the listener disliked recommended recorded succeeded",
+    "the house the buyer the agent the inspector visited hired purchased collapsed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the program the engineer the manager the director hired supervised optimized crashed\",\n    \"the contract the lawyer the partner the client consults advises signs expires\",\n    \"the recipe the chef the apprentice the helper selected assisted modified failed\",\n    \"the song the artist the producer the listener disliked recommended recorded succeeded\",\n    \"the house the buyer the agent the inspector visited hired purchased collapsed\"\n  ]\n}",
+  "run_idx": 21
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the manager approved failed",
+    "the solution the engineer designed worked",
+    "the book the author the editor read sold passed"
+  ],
+  "induced_prompt_raw": "Write a sentence with a noun as object of a past-tense verb and subject of a main verb.",
+  "induced_prompt": "Write a sentence with a noun as object of a past-tense verb and subject of a main verb.",
+  "induced_prompt_chars": 87,
+  "induced_prompt_words": 18,
+  "l1_char_total": 195,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat chased the mouse, and the mouse ran away.\", \"The teacher wrote the answer, and the answer was correct.\", \"The dog found the bone, and the bone was buried.\", \"The artist painted the portrait, and the portrait won an award.\", \"The child ate the cookie, and the cookie was delicious.\"]}",
+  "l2_sentences": [
+    "The cat chased the mouse, and the mouse ran away.",
+    "The teacher wrote the answer, and the answer was correct.",
+    "The dog found the bone, and the bone was buried.",
+    "The artist painted the portrait, and the portrait won an award.",
+    "The child ate the cookie, and the cookie was delicious."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:40:56.809149+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the manager approved failed",
+    "the solution the engineer designed worked"
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the manager approved failed",
+    "the solution the engineer designed worked",
+    "the book the author the editor read sold passed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold\", \"the idea the scientist presented vanished\", \"the plan the manager approved failed\", \"the solution the engineer designed worked\", \"the book the author the editor read sold passed\"]}",
+  "run_idx": 8
+}

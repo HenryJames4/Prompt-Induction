@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor reviewed published",
+    "the film the director edited released",
+    "the song the producer recorded played",
+    "the game the designer created launched",
+    "the plan the committee approved executed"
+  ],
+  "induced_prompt_raw": "\"Generate sentences in the format: 'the [noun1] the [noun2] [verb1] [verb2]' where noun2 is associated with noun1 and verb1 is an action related to noun2.\"",
+  "induced_prompt": "\"Generate sentences in the format: 'the [noun1] the [noun2] [verb1] [verb2]' where noun2 is associated with noun1 and verb1 is an action related to noun2.\"",
+  "induced_prompt_chars": 155,
+  "induced_prompt_words": 25,
+  "l1_char_total": 190,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the chef the knife chop slice\", \"the gardener the shovel dig plant\", \"the painter the brush stroke blend\", \"the carpenter the hammer nail build\", \"the writer the pen write edit\"]}",
+  "l2_sentences": [
+    "the chef the knife chop slice",
+    "the gardener the shovel dig plant",
+    "the painter the brush stroke blend",
+    "the carpenter the hammer nail build",
+    "the writer the pen write edit"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:00:10.604012+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor reviewed published",
+    "the film the director edited released",
+    "the song the producer recorded played",
+    "the game the designer created launched",
+    "the plan the committee approved executed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor reviewed published\", \"the film the director edited released\", \"the song the producer recorded played\", \"the game the designer created launched\", \"the plan the committee approved executed\"]}",
+  "run_idx": 2
+}

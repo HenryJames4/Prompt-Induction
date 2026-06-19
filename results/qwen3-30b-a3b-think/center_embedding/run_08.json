@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the editor the assistant the intern read revised approved disappeared.",
+    "the letter the writer the editor the secretary sent received reviewed approved.",
+    "the email the manager the clerk the intern wrote sent checked approved.",
+    "the document the director the assistant the intern revised reviewed approved deleted.",
+    "the proposal the client the lawyer the intern submitted discussed agreed rejected."
+  ],
+  "induced_prompt_raw": "the [object] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt": "the [object] the [role] the [role] the [role] [verb] [verb] [verb] [verb]",
+  "induced_prompt_chars": 73,
+  "induced_prompt_words": 12,
+  "l1_char_total": 396,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the knight the sorcerer the merchant leapt cast traded sang\", \"the dog the doctor the pilot the chef ran fixed cooked danced\", \"the bird the teacher the engineer the singer flew taught built sang\", \"the book the writer the editor the reader opened wrote edited read\", \"the car the driver the mechanic the passenger drove fixed traveled slept\"]}",
+  "l2_sentences": [
+    "the cat the knight the sorcerer the merchant leapt cast traded sang",
+    "the dog the doctor the pilot the chef ran fixed cooked danced",
+    "the bird the teacher the engineer the singer flew taught built sang",
+    "the book the writer the editor the reader opened wrote edited read",
+    "the car the driver the mechanic the passenger drove fixed traveled slept"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:14:13.542734+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor the assistant the intern read revised approved disappeared.",
+    "the letter the writer the editor the secretary sent received reviewed approved.",
+    "the email the manager the clerk the intern wrote sent checked approved.",
+    "the document the director the assistant the intern revised reviewed approved deleted.",
+    "the proposal the client the lawyer the intern submitted discussed agreed rejected."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor the assistant the intern read revised approved disappeared.\", \"the letter the writer the editor the secretary sent received reviewed approved.\", \"the email the manager the clerk the intern wrote sent checked approved.\", \"the document the director the assistant the intern revised reviewed approved deleted.\", \"the proposal the client the lawyer the intern submitted discussed agreed rejected.\"]}",
+  "run_idx": 8
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the teacher the student the parent helped praised recommended burned",
+    "the car the mechanic the driver the officer stopped paid repaired crashed",
+    "the plan the architect the client the lawyer advised paid drew failed",
+    "the song the singer the fan the reporter interviewed adored performed ended",
+    "the patient the doctor the nurse the guard watched assisted treated died"
+  ],
+  "induced_prompt_raw": "Write sentences with triply center-embedded relative clauses following the pattern: \"the [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\".",
+  "induced_prompt": "Write sentences with triply center-embedded relative clauses following the pattern: \"the [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\".",
+  "induced_prompt_chars": 166,
+  "induced_prompt_words": 22,
+  "l1_char_total": 366,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book the girl the boy the teacher praised helped read vanished.\",\n    \"The car the man the woman the child hugged hired bought broke.\",\n    \"The song the singer the writer the fan annoyed inspired performed resonated.\",\n    \"The house the builder the architect the client sued recommended constructed collapsed.\",\n    \"The painting the artist the model the photographer distracted selected created burned.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book the girl the boy the teacher praised helped read vanished.",
+    "The car the man the woman the child hugged hired bought broke.",
+    "The song the singer the writer the fan annoyed inspired performed resonated.",
+    "The house the builder the architect the client sued recommended constructed collapsed.",
+    "The painting the artist the model the photographer distracted selected created burned."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:28:44.791325+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the teacher the student the parent helped praised recommended burned",
+    "the car the mechanic the driver the officer stopped paid repaired crashed",
+    "the plan the architect the client the lawyer advised paid drew failed",
+    "the song the singer the fan the reporter interviewed adored performed ended",
+    "the patient the doctor the nurse the guard watched assisted treated died"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the teacher the student the parent helped praised recommended burned\",\n    \"the car the mechanic the driver the officer stopped paid repaired crashed\",\n    \"the plan the architect the client the lawyer advised paid drew failed\",\n    \"the song the singer the fan the reporter interviewed adored performed ended\",\n    \"the patient the doctor the nurse the guard watched assisted treated died\"\n  ]\n}",
+  "run_idx": 21
+}

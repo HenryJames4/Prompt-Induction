@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the dog the neighbor fed barked.",
+    "the letter the secretary typed arrived.",
+    "the plan the committee approved succeeded.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "induced_prompt_raw": "Create a sentence with a relative clause modifying a noun, followed by a main verb describing an action performed by the modified noun.",
+  "induced_prompt": "Create a sentence with a relative clause modifying a noun, followed by a main verb describing an action performed by the modified noun.",
+  "induced_prompt_chars": 135,
+  "induced_prompt_words": 23,
+  "l1_char_total": 210,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library is due tomorrow.\", \"The student who finished her homework early left the classroom.\", \"The car that was parked outside belongs to my neighbor.\", \"The artist who painted the mural received an award.\", \"The dog that barks at night belongs to the family next door.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library is due tomorrow.",
+    "The student who finished her homework early left the classroom.",
+    "The car that was parked outside belongs to my neighbor.",
+    "The artist who painted the mural received an award.",
+    "The dog that barks at night belongs to the family next door."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:50:10.987882+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the dog the neighbor fed barked.",
+    "the letter the secretary typed arrived.",
+    "the plan the committee approved succeeded."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the dog the neighbor fed barked.",
+    "the letter the secretary typed arrived.",
+    "the plan the committee approved succeeded.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the dog the neighbor fed barked.\", \"the letter the secretary typed arrived.\", \"the plan the committee approved succeeded.\", \"the story the writer told the audience moved the listeners deeply.\"]}",
+  "run_idx": 18
+}

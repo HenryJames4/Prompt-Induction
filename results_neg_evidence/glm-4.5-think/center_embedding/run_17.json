@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog the bird the mouse chased bit ate escaped.",
+    "The book the teacher the student the author read recommended wrote published.",
+    "The house the builder the architect the owner designed built inspected sold.",
+    "The car the mechanic the driver the owner repaired drove washed crashed.",
+    "The boy the girl the teacher praised scolded punished."
+  ],
+  "induced_prompt_raw": "Generate: The [A] the [B] ... the [N] [verbN] ... [verbA] with verbs in reverse noun order.",
+  "induced_prompt": "Generate: The [A] the [B] ... the [N] [verbN] ... [verbA] with verbs in reverse noun order.",
+  "induced_prompt_chars": 91,
+  "induced_prompt_words": 17,
+  "l1_char_total": 337,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog the bird flies barks meows.\",\n    \"The teacher the student the book reads writes learns.\",\n    \"The car the bus the bike drives parks rides.\",\n    \"The flower the tree the grass blooms grows sways.\",\n    \"The computer the phone the tablet computes rings displays.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the dog the bird flies barks meows.",
+    "The teacher the student the book reads writes learns.",
+    "The car the bus the bike drives parks rides.",
+    "The flower the tree the grass blooms grows sways.",
+    "The computer the phone the tablet computes rings displays."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:05:59.912801+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog the bird the mouse chased bit ate escaped.",
+    "The book the teacher the student the author read recommended wrote published.",
+    "The house the builder the architect the owner designed built inspected sold.",
+    "The car the mechanic the driver the owner repaired drove washed crashed."
+  ],
+  "l1_sentences": [
+    "The cat the dog the bird the mouse chased bit ate escaped.",
+    "The book the teacher the student the author read recommended wrote published.",
+    "The house the builder the architect the owner designed built inspected sold.",
+    "The car the mechanic the driver the owner repaired drove washed crashed.",
+    "The boy the girl the teacher praised scolded punished."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog the bird the mouse chased bit ate escaped.\",\n    \"The book the teacher the student the author read recommended wrote published.\",\n    \"The house the builder the architect the owner designed built inspected sold.\",\n    \"The car the mechanic the driver the owner repaired drove washed crashed.\",\n    \"The boy the girl the teacher praised scolded punished.\"\n  ]\n}\n```",
+  "run_idx": 17
+}

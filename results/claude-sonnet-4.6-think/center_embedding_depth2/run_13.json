@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef baked vanished.",
+    "The bridge the engineer designed collapsed.",
+    "The report the manager reviewed disappeared.",
+    "The letter the student wrote survived.",
+    "The bill the senator proposed passed."
+  ],
+  "induced_prompt_raw": "Write sentences where a noun phrase contains a center-embedded relative clause (without a relative pronoun), followed by an intransitive past-tense main verb.",
+  "induced_prompt": "Write sentences where a noun phrase contains a center-embedded relative clause (without a relative pronoun), followed by an intransitive past-tense main verb.",
+  "induced_prompt_chars": 158,
+  "induced_prompt_words": 22,
+  "l1_char_total": 195,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cake the chef baked disappeared.\",\n    \"The letter the secretary typed vanished.\",\n    \"The dog the neighbor owned escaped.\",\n    \"The painting the artist created crumbled.\",\n    \"The book the student borrowed reappeared.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cake the chef baked disappeared.",
+    "The letter the secretary typed vanished.",
+    "The dog the neighbor owned escaped.",
+    "The painting the artist created crumbled.",
+    "The book the student borrowed reappeared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:39:41.642842+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef baked vanished.",
+    "The bridge the engineer designed collapsed.",
+    "The report the manager reviewed disappeared.",
+    "The letter the student wrote survived.",
+    "The bill the senator proposed passed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The cake the chef baked vanished.\", \"The bridge the engineer designed collapsed.\", \"The report the manager reviewed disappeared.\", \"The letter the student wrote survived.\", \"The bill the senator proposed passed.\"]}\n```",
+  "run_idx": 13
+}

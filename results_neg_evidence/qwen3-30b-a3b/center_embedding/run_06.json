@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director received signed forwarded disappeared.",
+    "the file the clerk the supervisor the director accessed edited saved closed.",
+    "the message the intern the assistant the manager the director received reviewed approved vanished.",
+    "the story the writer the editor the publisher the audience read approved published."
+  ],
+  "induced_prompt_raw": "Create a chain of nested clauses where each entity performs an action on an object, with the final action being a disappearance or completion, ensuring each level of the chain is grammatically coherent and the sequence ends with a verb like \"vanished\" or \"closed.\"",
+  "induced_prompt": "Create a chain of nested clauses where each entity performs an action on an object, with the final action being a disappearance or completion, ensuring each level of the chain is grammatically coherent and the sequence ends with a verb like \"vanished\" or \"closed.\"",
+  "induced_prompt_chars": 264,
+  "induced_prompt_words": 44,
+  "l1_char_total": 424,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The clockwork mechanism wound the spring tightly, causing the gears to turn.\", \"The turning gears released the latch, which opened the hidden compartment.\", \"The open compartment revealed the ancient key, which unlocked the stone door.\", \"The stone door creaked open, exposing the chamber filled with glowing crystals.\", \"The crystals pulsed once and then vanished into thin air.\"] }",
+  "l2_sentences": [
+    "The clockwork mechanism wound the spring tightly, causing the gears to turn.",
+    "The turning gears released the latch, which opened the hidden compartment.",
+    "The open compartment revealed the ancient key, which unlocked the stone door.",
+    "The stone door creaked open, exposing the chamber filled with glowing crystals.",
+    "The crystals pulsed once and then vanished into thin air."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:49:17.955601+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director received signed forwarded disappeared.",
+    "the file the clerk the supervisor the director accessed edited saved closed.",
+    "the message the intern the assistant the manager the director received reviewed approved vanished."
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director received signed forwarded disappeared.",
+    "the file the clerk the supervisor the director accessed edited saved closed.",
+    "the message the intern the assistant the manager the director received reviewed approved vanished.",
+    "the story the writer the editor the publisher the audience read approved published."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian borrowed read returned vanished.\", \"the letter the secretary the manager the director received signed forwarded disappeared.\", \"the file the clerk the supervisor the director accessed edited saved closed.\", \"the message the intern the assistant the manager the director received reviewed approved vanished.\", \"the story the writer the editor the publisher the audience read approved published.\"]}",
+  "run_idx": 6
+}

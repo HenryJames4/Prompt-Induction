@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the boy fed barked.",
+    "the cake the baker made rose.",
+    "the car the mechanic fixed started.",
+    "the book the student read fell.",
+    "the song the artist sang ended."
+  ],
+  "induced_prompt_raw": "the [object] the [subject] [transitive_verb_past] [intransitive_verb_past].",
+  "induced_prompt": "the [object] the [subject] [transitive_verb_past] [intransitive_verb_past].",
+  "induced_prompt_chars": 75,
+  "induced_prompt_words": 6,
+  "l1_char_total": 153,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the ball the child threw bounced.\", \"the door the wind slammed rattled.\", \"the cake the baker decorated collapsed.\", \"the letter the mailman delivered vanished.\", \"the song the singer performed echoed.\"]}",
+  "l2_sentences": [
+    "the ball the child threw bounced.",
+    "the door the wind slammed rattled.",
+    "the cake the baker decorated collapsed.",
+    "the letter the mailman delivered vanished.",
+    "the song the singer performed echoed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:18:04.868910+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the boy fed barked.",
+    "the cake the baker made rose.",
+    "the car the mechanic fixed started.",
+    "the book the student read fell.",
+    "the song the artist sang ended."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy fed barked.\", \"the cake the baker made rose.\", \"the car the mechanic fixed started.\", \"the book the student read fell.\", \"the song the artist sang ended.\"]}",
+  "run_idx": 17
+}

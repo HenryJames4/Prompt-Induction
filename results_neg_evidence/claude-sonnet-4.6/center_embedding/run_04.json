@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic the student the professor assigned reviewed praised vanished",
+    "the cat the dog the child the woman adopted chased startled fled",
+    "the letter the lawyer the clerk the judge drafted reviewed signed arrived",
+    "the cake the chef the guest the host baked tasted praised devoured",
+    "the car the mechanic the driver fixed borrowed"
+  ],
+  "induced_prompt_raw": "Generate a center-embedded relative clause sentence with exactly 4 nested noun phrases followed by exactly 4 verbs in corresponding order, where each verb relates back to its matching noun phrase. The structure requires four levels of embedding, not three or fewer.",
+  "induced_prompt": "Generate a center-embedded relative clause sentence with exactly 4 nested noun phrases followed by exactly 4 verbs in corresponding order, where each verb relates back to its matching noun phrase. The structure requires four levels of embedding, not three or fewer.",
+  "induced_prompt_chars": 265,
+  "induced_prompt_words": 41,
+  "l1_char_total": 329,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the mouse that the bird chased scared bit ran.\", \"The book that the student that the teacher that the principal hired taught read fell.\", \"The car that the mechanic that the shop that the owner opened employed fixed stalled.\", \"The cake that the baker that the chef that the restaurant trained taught made burned.\", \"The letter that the secretary that the manager that the CEO appointed hired wrote arrived.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the mouse that the bird chased scared bit ran.",
+    "The book that the student that the teacher that the principal hired taught read fell.",
+    "The car that the mechanic that the shop that the owner opened employed fixed stalled.",
+    "The cake that the baker that the chef that the restaurant trained taught made burned.",
+    "The letter that the secretary that the manager that the CEO appointed hired wrote arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:45:55.155191+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic the student the professor assigned reviewed praised vanished",
+    "the cat the dog the child the woman adopted chased startled fled",
+    "the letter the lawyer the clerk the judge drafted reviewed signed arrived",
+    "the cake the chef the guest the host baked tasted praised devoured"
+  ],
+  "l1_sentences": [
+    "the book the critic the student the professor assigned reviewed praised vanished",
+    "the cat the dog the child the woman adopted chased startled fled",
+    "the letter the lawyer the clerk the judge drafted reviewed signed arrived",
+    "the cake the chef the guest the host baked tasted praised devoured",
+    "the car the mechanic the driver fixed borrowed"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the book the critic the student the professor assigned reviewed praised vanished\", \"the cat the dog the child the woman adopted chased startled fled\", \"the letter the lawyer the clerk the judge drafted reviewed signed arrived\", \"the cake the chef the guest the host baked tasted praised devoured\", \"the car the mechanic the driver fixed borrowed\"]}\n```",
+  "run_idx": 4
+}

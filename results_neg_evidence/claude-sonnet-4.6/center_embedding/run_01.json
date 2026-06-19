@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the package the courier the manager the client hired supervised delivered arrived",
+    "the novel the author the editor the publisher praised reviewed accepted launched",
+    "the bridge the engineer the firm the city contracted hired designed collapsed",
+    "the proposal the student the professor the committee advised mentored evaluated approved",
+    "the dog the boy the woman owns chased barked"
+  ],
+  "induced_prompt_raw": "Write a multiply center-embedded relative clause sentence with exactly 4 levels of embedding, where each noun has a corresponding verb, and all verbs appear after all nouns in reverse order of their subjects.",
+  "induced_prompt": "Write a multiply center-embedded relative clause sentence with exactly 4 levels of embedding, where each noun has a corresponding verb, and all verbs appear after all nouns in reverse order of their subjects.",
+  "induced_prompt_chars": 208,
+  "induced_prompt_words": 33,
+  "l1_char_total": 370,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the mouse that the elephant chased scared bit ran.\", \"The lawyer that the doctor that the nurse that the patient hired helped sued won.\", \"The book that the teacher that the student that the principal enrolled taught wrote sold.\", \"The car that the mechanic that the driver that the dealer sold hired fixed broke.\", \"The house that the agent that the buyer that the bank approved found listed sold.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the mouse that the elephant chased scared bit ran.",
+    "The lawyer that the doctor that the nurse that the patient hired helped sued won.",
+    "The book that the teacher that the student that the principal enrolled taught wrote sold.",
+    "The car that the mechanic that the driver that the dealer sold hired fixed broke.",
+    "The house that the agent that the buyer that the bank approved found listed sold."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:42:19.436390+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the package the courier the manager the client hired supervised delivered arrived",
+    "the novel the author the editor the publisher praised reviewed accepted launched",
+    "the bridge the engineer the firm the city contracted hired designed collapsed",
+    "the proposal the student the professor the committee advised mentored evaluated approved"
+  ],
+  "l1_sentences": [
+    "the package the courier the manager the client hired supervised delivered arrived",
+    "the novel the author the editor the publisher praised reviewed accepted launched",
+    "the bridge the engineer the firm the city contracted hired designed collapsed",
+    "the proposal the student the professor the committee advised mentored evaluated approved",
+    "the dog the boy the woman owns chased barked"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the package the courier the manager the client hired supervised delivered arrived\",\n    \"the novel the author the editor the publisher praised reviewed accepted launched\",\n    \"the bridge the engineer the firm the city contracted hired designed collapsed\",\n    \"the proposal the student the professor the committee advised mentored evaluated approved\",\n    \"the dog the boy the woman owns chased barked\"\n  ]\n}\n```",
+  "run_idx": 1
+}

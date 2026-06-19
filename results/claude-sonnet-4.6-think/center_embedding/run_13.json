@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cheese the mouse the cat the dog chased cornered ate disappeared.",
+    "the project the director the manager the intern assisted briefed approved succeeded.",
+    "the school the principal the teacher the student praised impressed visited closed.",
+    "the paper the committee the advisor the researcher consulted impressed accepted circulated.",
+    "the remedy the doctor the parent the child alarmed consulted prescribed worked."
+  ],
+  "induced_prompt_raw": "Write sentences with four levels of center-embedded relative clauses, listing all noun phrases before their corresponding verbs.",
+  "induced_prompt": "Write sentences with four levels of center-embedded relative clauses, listing all noun phrases before their corresponding verbs.",
+  "induced_prompt_chars": 128,
+  "induced_prompt_words": 17,
+  "l1_char_total": 405,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The rat the cat the dog the man bit chased caught died.\", \"The paper the student the professor the dean hired supervised wrote impressed everyone.\", \"The cake the child the mother the father scolded raised baked tasted wonderful.\", \"The film the critic the editor the director chose hired reviewed won awards.\", \"The song the musician the agent the producer signed managed recorded became famous.\"]}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man bit chased caught died.",
+    "The paper the student the professor the dean hired supervised wrote impressed everyone.",
+    "The cake the child the mother the father scolded raised baked tasted wonderful.",
+    "The film the critic the editor the director chose hired reviewed won awards.",
+    "The song the musician the agent the producer signed managed recorded became famous."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:24:06.048641+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cheese the mouse the cat the dog chased cornered ate disappeared.",
+    "the project the director the manager the intern assisted briefed approved succeeded.",
+    "the school the principal the teacher the student praised impressed visited closed.",
+    "the paper the committee the advisor the researcher consulted impressed accepted circulated.",
+    "the remedy the doctor the parent the child alarmed consulted prescribed worked."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cheese the mouse the cat the dog chased cornered ate disappeared.\",\n    \"the project the director the manager the intern assisted briefed approved succeeded.\",\n    \"the school the principal the teacher the student praised impressed visited closed.\",\n    \"the paper the committee the advisor the researcher consulted impressed accepted circulated.\",\n    \"the remedy the doctor the parent the child alarmed consulted prescribed worked.\"\n  ]\n}\n```",
+  "run_idx": 13
+}

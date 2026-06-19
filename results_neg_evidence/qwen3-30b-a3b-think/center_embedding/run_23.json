@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the reviewer read edited printed vanished",
+    "the article the journalist the editor the reader wrote corrected published disappeared",
+    "the manuscript the writer the agent the editor submitted revised accepted vanished",
+    "the letter the sender the recipient the clerk delivered typed signed disappeared",
+    "the email the sender the recipient sent read deleted"
+  ],
+  "induced_prompt_raw": "the [n] the [r] the [r] the [r] [v] [v] [v] [v]",
+  "induced_prompt": "the [n] the [r] the [r] the [r] [v] [v] [v] [v]",
+  "induced_prompt_chars": 47,
+  "induced_prompt_words": 12,
+  "l1_char_total": 375,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat that that that runs runs runs runs\", \"the dog that that that jumps jumps jumps jumps\", \"the bird that that that flies flies flies flies\", \"the car that that that drives drives drives drives\", \"the book that that that reads reads reads reads\"]}",
+  "l2_sentences": [
+    "the cat that that that runs runs runs runs",
+    "the dog that that that jumps jumps jumps jumps",
+    "the bird that that that flies flies flies flies",
+    "the car that that that drives drives drives drives",
+    "the book that that that reads reads reads reads"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:14:54.051582+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the reviewer read edited printed vanished",
+    "the article the journalist the editor the reader wrote corrected published disappeared",
+    "the manuscript the writer the agent the editor submitted revised accepted vanished",
+    "the letter the sender the recipient the clerk delivered typed signed disappeared"
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the reviewer read edited printed vanished",
+    "the article the journalist the editor the reader wrote corrected published disappeared",
+    "the manuscript the writer the agent the editor submitted revised accepted vanished",
+    "the letter the sender the recipient the clerk delivered typed signed disappeared",
+    "the email the sender the recipient sent read deleted"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the reviewer read edited printed vanished\", \"the article the journalist the editor the reader wrote corrected published disappeared\", \"the manuscript the writer the agent the editor submitted revised accepted vanished\", \"the letter the sender the recipient the clerk delivered typed signed disappeared\", \"the email the sender the recipient sent read deleted\"]}",
+  "run_idx": 23
+}

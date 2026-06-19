@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased meowed",
+    "the book the student read fell",
+    "the cake the baker made rose",
+    "the ball the child kicked rolled",
+    "the letter the secretary typed disappeared"
+  ],
+  "induced_prompt_raw": "the [noun1] the [noun2] [verb_past] [verb_past]",
+  "induced_prompt": "the [noun1] the [noun2] [verb_past] [verb_past]",
+  "induced_prompt_chars": 47,
+  "induced_prompt_words": 6,
+  "l1_char_total": 161,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the dog chased barked.\", \"the wind the leaves rustled fell.\", \"the sun the clouds hid vanished.\", \"the clock the time ticked stopped.\", \"the storm the waves crashed receded.\"]}",
+  "l2_sentences": [
+    "the cat the dog chased barked.",
+    "the wind the leaves rustled fell.",
+    "the sun the clouds hid vanished.",
+    "the clock the time ticked stopped.",
+    "the storm the waves crashed receded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:21:45.858416+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased meowed",
+    "the book the student read fell",
+    "the cake the baker made rose",
+    "the ball the child kicked rolled",
+    "the letter the secretary typed disappeared"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cat the dog chased meowed\", \"the book the student read fell\", \"the cake the baker made rose\", \"the ball the child kicked rolled\", \"the letter the secretary typed disappeared\"]}",
+  "run_idx": 20
+}

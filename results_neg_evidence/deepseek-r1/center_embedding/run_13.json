@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the chef the recipe the ingredients the market sourced prepared cooked served.",
+    "the king the knight the dragon the princess rescued defeated praised celebrated.",
+    "the company the engineer the design the client requested modified implemented launched.",
+    "the teacher the student the essay the professor reviewed edited submitted published.",
+    "the child the toy the store bought returned complained."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with a series of 'the [noun]' phrases followed by an equal number of verbs. The verbs must chronologically sequence events where the last noun initiates the first verb, the first noun completes the last verb, and intermediate nouns/verbs follow reverse order alignment. Ensure all nouns are valid agents for their corresponding verbs.\"",
+  "induced_prompt": "\"Generate a sentence with a series of 'the [noun]' phrases followed by an equal number of verbs. The verbs must chronologically sequence events where the last noun initiates the first verb, the first noun completes the last verb, and intermediate nouns/verbs follow reverse order alignment. Ensure all nouns are valid agents for their corresponding verbs.\"",
+  "induced_prompt_chars": 356,
+  "induced_prompt_words": 55,
+  "l1_char_total": 384,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog, the ball, the child: threw, rolled, fetched.\", \"The king, the knight, the squire: charged, fought, fell.\", \"The mouse, the cat, the dog, the boy: yelled, chased, ran, squeaked.\", \"The student, the teacher, the bell: rang, taught, learned.\", \"The gardener, the flowers, the rain, the cloud: formed, fell, bloomed, smiled.\"]}",
+  "l2_sentences": [
+    "The dog, the ball, the child: threw, rolled, fetched.",
+    "The king, the knight, the squire: charged, fought, fell.",
+    "The mouse, the cat, the dog, the boy: yelled, chased, ran, squeaked.",
+    "The student, the teacher, the bell: rang, taught, learned.",
+    "The gardener, the flowers, the rain, the cloud: formed, fell, bloomed, smiled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:58:31.299607+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the chef the recipe the ingredients the market sourced prepared cooked served.",
+    "the king the knight the dragon the princess rescued defeated praised celebrated.",
+    "the company the engineer the design the client requested modified implemented launched.",
+    "the teacher the student the essay the professor reviewed edited submitted published."
+  ],
+  "l1_sentences": [
+    "the chef the recipe the ingredients the market sourced prepared cooked served.",
+    "the king the knight the dragon the princess rescued defeated praised celebrated.",
+    "the company the engineer the design the client requested modified implemented launched.",
+    "the teacher the student the essay the professor reviewed edited submitted published.",
+    "the child the toy the store bought returned complained."
+  ],
+  "l1_raw": "{\"sentences\": [\"the chef the recipe the ingredients the market sourced prepared cooked served.\", \"the king the knight the dragon the princess rescued defeated praised celebrated.\", \"the company the engineer the design the client requested modified implemented launched.\", \"the teacher the student the essay the professor reviewed edited submitted published.\", \"the child the toy the store bought returned complained.\"]}",
+  "run_idx": 13
+}

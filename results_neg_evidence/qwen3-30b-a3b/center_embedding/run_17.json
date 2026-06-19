@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the editor the student read corrected reviewed submitted vanished.",
+    "the letter the secretary the manager the director received signed approved forwarded disappeared.",
+    "the document the clerk the supervisor the director the assistant reviewed corrected approved submitted.",
+    "the email the intern the assistant the manager the executive read responded forwarded deleted.",
+    "the proposal the team the leader the committee the client reviewed approved presented."
+  ],
+  "induced_prompt_raw": "Generate a sentence with a chain of agents performing sequential actions on an object, ending with a final action that causes the object to disappear or be removed.",
+  "induced_prompt": "Generate a sentence with a chain of agents performing sequential actions on an object, ending with a final action that causes the object to disappear or be removed.",
+  "induced_prompt_chars": 164,
+  "induced_prompt_words": 28,
+  "l1_char_total": 466,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The first agent picked up the wooden box and carried it to the table.\", \"The second agent opened the box and removed a glowing crystal.\", \"The third agent placed the crystal into a machine and activated it.\", \"The fourth agent pressed a button that caused the machine to emit a bright flash.\", \"The fifth agent watched as the crystal vanished completely, leaving no trace behind.\"]}",
+  "l2_sentences": [
+    "The first agent picked up the wooden box and carried it to the table.",
+    "The second agent opened the box and removed a glowing crystal.",
+    "The third agent placed the crystal into a machine and activated it.",
+    "The fourth agent pressed a button that caused the machine to emit a bright flash.",
+    "The fifth agent watched as the crystal vanished completely, leaving no trace behind."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:06:49.390020+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the editor the student read corrected reviewed submitted vanished.",
+    "the letter the secretary the manager the director received signed approved forwarded disappeared.",
+    "the document the clerk the supervisor the director the assistant reviewed corrected approved submitted.",
+    "the email the intern the assistant the manager the executive read responded forwarded deleted."
+  ],
+  "l1_sentences": [
+    "the book the author the editor the student read corrected reviewed submitted vanished.",
+    "the letter the secretary the manager the director received signed approved forwarded disappeared.",
+    "the document the clerk the supervisor the director the assistant reviewed corrected approved submitted.",
+    "the email the intern the assistant the manager the executive read responded forwarded deleted.",
+    "the proposal the team the leader the committee the client reviewed approved presented."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the student read corrected reviewed submitted vanished.\", \"the letter the secretary the manager the director received signed approved forwarded disappeared.\", \"the document the clerk the supervisor the director the assistant reviewed corrected approved submitted.\", \"the email the intern the assistant the manager the executive read responded forwarded deleted.\", \"the proposal the team the leader the committee the client reviewed approved presented.\"]}",
+  "run_idx": 17
+}

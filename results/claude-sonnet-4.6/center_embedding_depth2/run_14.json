@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed spread."
+  ],
+  "induced_prompt_raw": "Write sentences where a noun is modified by a relative clause containing a transitive verb, followed by a simple intransitive predicate.",
+  "induced_prompt": "Write sentences where a noun is modified by a relative clause containing a transitive verb, followed by a simple intransitive predicate.",
+  "induced_prompt_chars": 136,
+  "induced_prompt_words": 21,
+  "l1_char_total": 193,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that she borrowed disappeared.\", \"The dog that he trained performed.\", \"The letter that they wrote arrived.\", \"The car that she drives accelerates.\", \"The song that he composed endures.\"]}\n```",
+  "l2_sentences": [
+    "The book that she borrowed disappeared.",
+    "The dog that he trained performed.",
+    "The letter that they wrote arrived.",
+    "The car that she drives accelerates.",
+    "The song that he composed endures."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:39:46.885484+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the musician composed spread."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed passed.\", \"The cake the chef baked disappeared.\", \"The letter the student wrote arrived.\", \"The bridge the engineer designed collapsed.\", \"The song the musician composed spread.\"]}\n```",
+  "run_idx": 14
+}

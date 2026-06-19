@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the teacher recommended sold.",
+    "The movie the critic praised succeeded.",
+    "The cake the baker prepared delighted.",
+    "The plan the committee endorsed worked.",
+    "The article the editor the writer submitted published praised."
+  ],
+  "induced_prompt_raw": "\"Construct sentences where a noun phrase is followed by a relative clause modifying it, then a verb. Ensure clarity by avoiding nested relative clauses.\"",
+  "induced_prompt": "\"Construct sentences where a noun phrase is followed by a relative clause modifying it, then a verb. Ensure clarity by avoiding nested relative clauses.\"",
+  "induced_prompt_chars": 153,
+  "induced_prompt_words": 24,
+  "l1_char_total": 216,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book, which I borrowed from the library, is overdue.\", \"The cat, that was sleeping on the windowsill, woke up suddenly.\", \"The car, which he bought last year, broke down yesterday.\", \"The teacher, who always arrives early, prepared the classroom.\", \"The cake, that she baked for the party, was delicious.\"]}",
+  "l2_sentences": [
+    "The book, which I borrowed from the library, is overdue.",
+    "The cat, that was sleeping on the windowsill, woke up suddenly.",
+    "The car, which he bought last year, broke down yesterday.",
+    "The teacher, who always arrives early, prepared the classroom.",
+    "The cake, that she baked for the party, was delicious."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:47:27.705764+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the teacher recommended sold.",
+    "The movie the critic praised succeeded.",
+    "The cake the baker prepared delighted.",
+    "The plan the committee endorsed worked."
+  ],
+  "l1_sentences": [
+    "The book the teacher recommended sold.",
+    "The movie the critic praised succeeded.",
+    "The cake the baker prepared delighted.",
+    "The plan the committee endorsed worked.",
+    "The article the editor the writer submitted published praised."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the teacher recommended sold.\", \"The movie the critic praised succeeded.\", \"The cake the baker prepared delighted.\", \"The plan the committee endorsed worked.\", \"The article the editor the writer submitted published praised.\"]}",
+  "run_idx": 15
+}

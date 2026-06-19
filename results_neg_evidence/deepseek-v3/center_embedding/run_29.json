@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the editor hired promoted published sold.",
+    "The cake the baker the chef the apprentice trained prepared decorated tasted.",
+    "The car the driver the mechanic the apprentice helped fixed repaired crashed.",
+    "The movie the director the producer the studio financed filmed released flopped.",
+    "The dog the owner walked fed barked."
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested relative clauses, each modifying the preceding noun, ensuring grammatical correctness and avoiding incomplete or mismatched clauses.\"",
+  "induced_prompt": "\"Generate sentences with nested relative clauses, each modifying the preceding noun, ensuring grammatical correctness and avoiding incomplete or mismatched clauses.\"",
+  "induced_prompt_chars": 165,
+  "induced_prompt_words": 20,
+  "l1_char_total": 345,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book, which was written by the author, who won the Pulitzer Prize, captivated readers.\", \"The dog, which barked at the stranger, who stood by the gate, scared the children.\", \"The car, which was parked in the driveway, that belongs to my neighbor, suddenly disappeared.\", \"The painting, which was admired by critics, who praised its intricate details, sold for millions.\", \"The professor, who taught the course, that was recommended by the dean, inspired many students.\"]}",
+  "l2_sentences": [
+    "The book, which was written by the author, who won the Pulitzer Prize, captivated readers.",
+    "The dog, which barked at the stranger, who stood by the gate, scared the children.",
+    "The car, which was parked in the driveway, that belongs to my neighbor, suddenly disappeared.",
+    "The painting, which was admired by critics, who praised its intricate details, sold for millions.",
+    "The professor, who taught the course, that was recommended by the dean, inspired many students."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:24:03.194018+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the editor hired promoted published sold.",
+    "The cake the baker the chef the apprentice trained prepared decorated tasted.",
+    "The car the driver the mechanic the apprentice helped fixed repaired crashed.",
+    "The movie the director the producer the studio financed filmed released flopped."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the editor hired promoted published sold.",
+    "The cake the baker the chef the apprentice trained prepared decorated tasted.",
+    "The car the driver the mechanic the apprentice helped fixed repaired crashed.",
+    "The movie the director the producer the studio financed filmed released flopped.",
+    "The dog the owner walked fed barked."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the editor hired promoted published sold.\", \"The cake the baker the chef the apprentice trained prepared decorated tasted.\", \"The car the driver the mechanic the apprentice helped fixed repaired crashed.\", \"The movie the director the producer the studio financed filmed released flopped.\", \"The dog the owner walked fed barked.\"]}",
+  "run_idx": 29
+}

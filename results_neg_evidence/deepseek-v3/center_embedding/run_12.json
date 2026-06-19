@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the critic praised recommended published sold.",
+    "The plan the manager the team the leader suggested implemented revised failed.",
+    "The project the engineer the client the designer consulted approved finalized succeeded.",
+    "The proposal the committee the director the advisor reviewed endorsed rejected vanished.",
+    "The student the teacher the assignment graded completed reviewed."
+  ],
+  "induced_prompt_raw": "\"Compose sentences with nested relative clauses, ensuring each clause modifies the preceding noun directly and maintains a clear chain of dependencies, avoiding ambiguity or incomplete structures.\"",
+  "induced_prompt": "\"Compose sentences with nested relative clauses, ensuring each clause modifies the preceding noun directly and maintains a clear chain of dependencies, avoiding ambiguity or incomplete structures.\"",
+  "induced_prompt_chars": 197,
+  "induced_prompt_words": 26,
+  "l1_char_total": 399,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that the author who won the award wrote is on the shelf.\", \"The artist whose painting that the critic admired created a masterpiece.\", \"The teacher who instructed the student who aced the test was proud.\", \"The chef whose recipe that the reviewer praised prepared a delightful meal.\", \"The car that the mechanic who fixed the engine repaired runs smoothly.\"]}",
+  "l2_sentences": [
+    "The book that the author who won the award wrote is on the shelf.",
+    "The artist whose painting that the critic admired created a masterpiece.",
+    "The teacher who instructed the student who aced the test was proud.",
+    "The chef whose recipe that the reviewer praised prepared a delightful meal.",
+    "The car that the mechanic who fixed the engine repaired runs smoothly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:57:38.025345+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the critic praised recommended published sold.",
+    "The plan the manager the team the leader suggested implemented revised failed.",
+    "The project the engineer the client the designer consulted approved finalized succeeded.",
+    "The proposal the committee the director the advisor reviewed endorsed rejected vanished."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the critic praised recommended published sold.",
+    "The plan the manager the team the leader suggested implemented revised failed.",
+    "The project the engineer the client the designer consulted approved finalized succeeded.",
+    "The proposal the committee the director the advisor reviewed endorsed rejected vanished.",
+    "The student the teacher the assignment graded completed reviewed."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the critic praised recommended published sold.\", \"The plan the manager the team the leader suggested implemented revised failed.\", \"The project the engineer the client the designer consulted approved finalized succeeded.\", \"The proposal the committee the director the advisor reviewed endorsed rejected vanished.\", \"The student the teacher the assignment graded completed reviewed.\"]}",
+  "run_idx": 12
+}

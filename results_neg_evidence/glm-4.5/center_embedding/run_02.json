@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended purchased",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver repaired washed drove"
+  ],
+  "induced_prompt_raw": "Generate a sentence with a noun followed by three nested agents and four consecutive verbs, where each agent acts on the previous result.",
+  "induced_prompt": "Generate a sentence with a noun followed by three nested agents and four consecutive verbs, where each agent acts on the previous result.",
+  "induced_prompt_chars": 137,
+  "induced_prompt_words": 23,
+  "l1_char_total": 379,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The teacher instructed the student to write the essay which the professor reviewed and graded.\",\n    \"The manager directed the employee to complete the report which the supervisor checked and approved.\",\n    \"The chef told the apprentice to prepare the dish which the critic tasted and praised.\",\n    \"The captain ordered the soldier to secure the base which the general inspected and commended.\",\n    \"The author asked the editor to review the manuscript which the publisher read and accepted.\"\n  ]\n}",
+  "l2_sentences": [
+    "The teacher instructed the student to write the essay which the professor reviewed and graded.",
+    "The manager directed the employee to complete the report which the supervisor checked and approved.",
+    "The chef told the apprentice to prepare the dish which the critic tasted and praised.",
+    "The captain ordered the soldier to secure the base which the general inspected and commended.",
+    "The author asked the editor to review the manuscript which the publisher read and accepted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:43:31.957209+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended purchased",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended purchased",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver repaired washed drove"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read reviewed recommended purchased\",\n    \"the plan the manager the team the client developed presented accepted implemented\",\n    \"the house the architect the builder the owner designed constructed inspected sold\",\n    \"the car the mechanic the driver repaired washed drove\"\n  ]\n}",
+  "run_idx": 2
+}

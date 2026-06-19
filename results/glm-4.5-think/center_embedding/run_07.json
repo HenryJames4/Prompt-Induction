@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the car the driver the passenger the child drove annoyed calmed stopped.",
+    "the book the author the reader the student wrote confused enlightened published.",
+    "the house the owner the tenant the guest owned evicted hosted sold.",
+    "the meal the chef the customer the critic cooked impressed reviewed served.",
+    "the game the player the coach the referee played trained supervised won."
+  ],
+  "induced_prompt_raw": "Four events: N2 V1 N1, N2 V2 N3, N3 V3 N4, N4 V4 N1",
+  "induced_prompt": "Four events: N2 V1 N1, N2 V2 N3, N3 V3 N4, N4 V4 N1",
+  "induced_prompt_chars": 51,
+  "induced_prompt_words": 14,
+  "l1_char_total": 366,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The gardener planted the seed.\",\n    \"The gardener watered the soil.\",\n    \"The soil nourished the plant.\",\n    \"The plant produced the seed.\",\n    \"The cycle of life continued.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The gardener planted the seed.",
+    "The gardener watered the soil.",
+    "The soil nourished the plant.",
+    "The plant produced the seed.",
+    "The cycle of life continued."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:14:02.999829+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the driver the passenger the child drove annoyed calmed stopped.",
+    "the book the author the reader the student wrote confused enlightened published.",
+    "the house the owner the tenant the guest owned evicted hosted sold.",
+    "the meal the chef the customer the critic cooked impressed reviewed served.",
+    "the game the player the coach the referee played trained supervised won."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the driver the passenger the child drove annoyed calmed stopped.\",\n    \"the book the author the reader the student wrote confused enlightened published.\",\n    \"the house the owner the tenant the guest owned evicted hosted sold.\",\n    \"the meal the chef the customer the critic cooked impressed reviewed served.\",\n    \"the game the player the coach the referee played trained supervised won.\"\n  ]\n}\n```",
+  "run_idx": 7
+}

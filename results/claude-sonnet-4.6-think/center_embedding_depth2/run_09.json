@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the proposal the reviewer approved passed",
+    "the bill the senator introduced failed",
+    "the dog the child kicked yelped",
+    "the book the student read helped",
+    "the car the mechanic fixed stalled"
+  ],
+  "induced_prompt_raw": "Write sentences with center-embedded object relative clauses, where the main subject is modified by a clause before the main verb.",
+  "induced_prompt": "Write sentences with center-embedded object relative clauses, where the main subject is modified by a clause before the main verb.",
+  "induced_prompt_chars": 130,
+  "induced_prompt_words": 20,
+  "l1_char_total": 176,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The report that the manager reviewed contained several critical errors.\", \"The painting that the curator selected was displayed in the main hall.\", \"The letter that the lawyer drafted outlined the terms of the agreement.\", \"The bridge that the engineers designed collapsed during the storm.\", \"The novel that the professor assigned became a topic of heated debate.\"]}\n```",
+  "l2_sentences": [
+    "The report that the manager reviewed contained several critical errors.",
+    "The painting that the curator selected was displayed in the main hall.",
+    "The letter that the lawyer drafted outlined the terms of the agreement.",
+    "The bridge that the engineers designed collapsed during the storm.",
+    "The novel that the professor assigned became a topic of heated debate."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:38:40.507963+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the proposal the reviewer approved passed",
+    "the bill the senator introduced failed",
+    "the dog the child kicked yelped",
+    "the book the student read helped",
+    "the car the mechanic fixed stalled"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the proposal the reviewer approved passed\", \"the bill the senator introduced failed\", \"the dog the child kicked yelped\", \"the book the student read helped\", \"the car the mechanic fixed stalled\"]}\n```",
+  "run_idx": 9
+}

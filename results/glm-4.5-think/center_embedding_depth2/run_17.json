@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read sold.",
+    "the house the builder designed burned.",
+    "the car the thief stole crashed.",
+    "the letter the secretary wrote arrived."
+  ],
+  "induced_prompt_raw": "Head noun, relative subject noun, relative verb, main verb.",
+  "induced_prompt": "Head noun, relative subject noun, relative verb, main verb.",
+  "induced_prompt_chars": 59,
+  "induced_prompt_words": 9,
+  "l1_char_total": 171,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that meowed loudly ran away.\",\n    \"The book that I read last week was fascinating.\",\n    \"The student who studies hard will succeed.\",\n    \"The house that they built is beautiful.\",\n    \"The computer that crashed needs repair.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that meowed loudly ran away.",
+    "The book that I read last week was fascinating.",
+    "The student who studies hard will succeed.",
+    "The house that they built is beautiful.",
+    "The computer that crashed needs repair."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:17:44.385245+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read sold.",
+    "the house the builder designed burned.",
+    "the car the thief stole crashed.",
+    "the letter the secretary wrote arrived."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read sold.\",\n    \"the house the builder designed burned.\",\n    \"the car the thief stole crashed.\",\n    \"the letter the secretary wrote arrived.\"\n  ]\n}\n```",
+  "run_idx": 17
+}

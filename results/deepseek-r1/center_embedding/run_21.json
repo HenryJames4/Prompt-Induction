@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the bird the mouse chased caught saw escaped.",
+    "the book the author the editor the student wrote revised read published.",
+    "the car the driver the mechanic the owner fixed drove inspected bought.",
+    "the house the architect the builder the client designed constructed approved sold.",
+    "the cake the baker the chef the assistant baked decorated sampled delivered."
+  ],
+  "induced_prompt_raw": "Generate a sentence with four definite noun phrases followed by four past tense verbs in a nested relative clause structure.",
+  "induced_prompt": "Generate a sentence with four definite noun phrases followed by four past tense verbs in a nested relative clause structure.",
+  "induced_prompt_chars": 124,
+  "induced_prompt_words": 20,
+  "l1_char_total": 362,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The chef who prepared the meal that included the sauce which used the spices cooked.\", \"The gardener who planted the flowers that attracted the bees which pollinated the trees grew.\", \"The writer who drafted the story that featured the character who solved the mystery published.\", \"The mechanic who fixed the car that had the engine which burned the oil repaired.\", \"The artist who painted the portrait that depicted the scene which captured the light exhibited.\"]}",
+  "l2_sentences": [
+    "The chef who prepared the meal that included the sauce which used the spices cooked.",
+    "The gardener who planted the flowers that attracted the bees which pollinated the trees grew.",
+    "The writer who drafted the story that featured the character who solved the mystery published.",
+    "The mechanic who fixed the car that had the engine which burned the oil repaired.",
+    "The artist who painted the portrait that depicted the scene which captured the light exhibited."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:39:19.853565+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the bird the mouse chased caught saw escaped.",
+    "the book the author the editor the student wrote revised read published.",
+    "the car the driver the mechanic the owner fixed drove inspected bought.",
+    "the house the architect the builder the client designed constructed approved sold.",
+    "the cake the baker the chef the assistant baked decorated sampled delivered."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the cat the bird the mouse chased caught saw escaped.\", \"the book the author the editor the student wrote revised read published.\", \"the car the driver the mechanic the owner fixed drove inspected bought.\", \"the house the architect the builder the client designed constructed approved sold.\", \"the cake the baker the chef the assistant baked decorated sampled delivered.\"]}",
+  "run_idx": 21
+}

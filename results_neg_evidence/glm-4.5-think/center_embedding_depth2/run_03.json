@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased ran.",
+    "the book the student read won.",
+    "the idea the committee discussed passed.",
+    "the house the builder constructed sold.",
+    "the man the woman the child saw greeted smiled."
+  ],
+  "induced_prompt_raw": "Two 'the' nouns and two verbs: first noun is object of first verb by second noun and subject of second verb.",
+  "induced_prompt": "Two 'the' nouns and two verbs: first noun is object of first verb by second noun and subject of second verb.",
+  "induced_prompt_chars": 108,
+  "induced_prompt_words": 21,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The boy kicked the ball and the ball bounced.\", \"The storm damaged the house and the house collapsed.\", \"The teacher praised the student and the student smiled.\", \"The dog chased the cat and the cat climbed.\", \"The wind blew the leaves and the leaves scattered.\"]}\n```",
+  "l2_sentences": [
+    "The boy kicked the ball and the ball bounced.",
+    "The storm damaged the house and the house collapsed.",
+    "The teacher praised the student and the student smiled.",
+    "The dog chased the cat and the cat climbed.",
+    "The wind blew the leaves and the leaves scattered."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:36:08.816509+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased ran.",
+    "the book the student read won.",
+    "the idea the committee discussed passed.",
+    "the house the builder constructed sold."
+  ],
+  "l1_sentences": [
+    "the cat the dog chased ran.",
+    "the book the student read won.",
+    "the idea the committee discussed passed.",
+    "the house the builder constructed sold.",
+    "the man the woman the child saw greeted smiled."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased ran.\",\n    \"the book the student read won.\",\n    \"the idea the committee discussed passed.\",\n    \"the house the builder constructed sold.\",\n    \"the man the woman the child saw greeted smiled.\"\n  ]\n}\n```",
+  "run_idx": 3
+}

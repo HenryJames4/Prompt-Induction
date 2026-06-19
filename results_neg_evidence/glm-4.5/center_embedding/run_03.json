@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read recommended borrowed returned",
+    "the plan the manager the team the client developed presented accepted rejected",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver repaired washed drove"
+  ],
+  "induced_prompt_raw": "Generate a sentence with a noun and three nested relative clauses, each modifying the previous noun, followed by four verbs in sequence.",
+  "induced_prompt": "Generate a sentence with a noun and three nested relative clauses, each modifying the previous noun, followed by four verbs in sequence.",
+  "induced_prompt_chars": 136,
+  "induced_prompt_words": 22,
+  "l1_char_total": 375,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book that was written by the author who won the award that was presented last year sat on the shelf collected dust gathered readers inspired minds changed lives.\",\n    \"The house that was built by the architect who designed the building that won the prize that was announced yesterday stood on the hill attracted visitors impressed critics housed families created memories.\",\n    \"The car that was driven by the racer who won the championship that was held last month that was broadcast worldwide raced on the track accelerated quickly turned corners overtook opponents finished first.\",\n    \"The painting that was created by the artist who studied under the master who developed the technique that revolutionized art hung on the wall attracted viewers inspired students provoked thought challenged conventions.\",\n    \"The computer that was invented by the scientist who worked for the company that developed the technology that changed the world processed data analyzed results solved problems predicted outcomes transformed industries.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book that was written by the author who won the award that was presented last year sat on the shelf collected dust gathered readers inspired minds changed lives.",
+    "The house that was built by the architect who designed the building that won the prize that was announced yesterday stood on the hill attracted visitors impressed critics housed families created memories.",
+    "The car that was driven by the racer who won the championship that was held last month that was broadcast worldwide raced on the track accelerated quickly turned corners overtook opponents finished first.",
+    "The painting that was created by the artist who studied under the master who developed the technique that revolutionized art hung on the wall attracted viewers inspired students provoked thought challenged conventions.",
+    "The computer that was invented by the scientist who worked for the company that developed the technology that changed the world processed data analyzed results solved problems predicted outcomes transformed industries."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:44:53.427594+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read recommended borrowed returned",
+    "the plan the manager the team the client developed presented accepted rejected",
+    "the house the architect the builder the owner designed constructed inspected sold"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read recommended borrowed returned",
+    "the plan the manager the team the client developed presented accepted rejected",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver repaired washed drove"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read recommended borrowed returned\",\n    \"the plan the manager the team the client developed presented accepted rejected\",\n    \"the house the architect the builder the owner designed constructed inspected sold\",\n    \"the car the mechanic the driver repaired washed drove\"\n  ]\n}",
+  "run_idx": 3
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student read vanished.",
+    "The chef the customer praised smiled.",
+    "The car the mechanic repaired started.",
+    "The artist the crowd applauded bowed.",
+    "The rat the cat the dog chased killed ran."
+  ],
+  "induced_prompt_raw": "Generate sentences with exactly one center-embedded object relative clause (structured as: \"The [noun] the [noun] [transitive verb] [intransitive verb]\"). Avoid double center-embedding or nesting multiple relative clauses.",
+  "induced_prompt": "Generate sentences with exactly one center-embedded object relative clause (structured as: \"The [noun] the [noun] [transitive verb] [intransitive verb]\"). Avoid double center-embedding or nesting multiple relative clauses.",
+  "induced_prompt_chars": 222,
+  "induced_prompt_words": 27,
+  "l1_char_total": 189,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The boy the girl saw smiled.\",\n    \"The book the teacher read disappeared.\",\n    \"The toy the child lost vanished.\",\n    \"The mouse the cat caught died.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat the dog chased escaped.",
+    "The boy the girl saw smiled.",
+    "The book the teacher read disappeared.",
+    "The toy the child lost vanished.",
+    "The mouse the cat caught died."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:46:06.935517+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student read vanished.",
+    "The chef the customer praised smiled.",
+    "The car the mechanic repaired started.",
+    "The artist the crowd applauded bowed."
+  ],
+  "l1_sentences": [
+    "The book the student read vanished.",
+    "The chef the customer praised smiled.",
+    "The car the mechanic repaired started.",
+    "The artist the crowd applauded bowed.",
+    "The rat the cat the dog chased killed ran."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The book the student read vanished.\",\n    \"The chef the customer praised smiled.\",\n    \"The car the mechanic repaired started.\",\n    \"The artist the crowd applauded bowed.\",\n    \"The rat the cat the dog chased killed ran.\"\n  ]\n}\n```",
+  "run_idx": 13
+}

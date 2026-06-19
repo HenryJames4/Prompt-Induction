@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased escaped",
+    "the book the student read disappeared",
+    "the idea the committee rejected failed",
+    "the man the woman called arrived",
+    "the cat the dog the mouse chased saw ran"
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly two nouns and two verbs: noun1 noun2 verb1 verb2, meaning noun2 verb1 noun1 and noun1 verb2.",
+  "induced_prompt": "Generate a sentence with exactly two nouns and two verbs: noun1 noun2 verb1 verb2, meaning noun2 verb1 noun1 and noun1 verb2.",
+  "induced_prompt_chars": 125,
+  "induced_prompt_words": 21,
+  "l1_char_total": 177,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"Ball boy threw rolled.\",\n    \"Car mechanic fixed started.\",\n    \"Seed bird dropped grew.\",\n    \"Book student read inspired.\",\n    \"Door wind opened slammed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "Ball boy threw rolled.",
+    "Car mechanic fixed started.",
+    "Seed bird dropped grew.",
+    "Book student read inspired.",
+    "Door wind opened slammed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:51:40.136363+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased escaped",
+    "the book the student read disappeared",
+    "the idea the committee rejected failed",
+    "the man the woman called arrived"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased escaped",
+    "the book the student read disappeared",
+    "the idea the committee rejected failed",
+    "the man the woman called arrived",
+    "the cat the dog the mouse chased saw ran"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped\",\n    \"the book the student read disappeared\",\n    \"the idea the committee rejected failed\",\n    \"the man the woman called arrived\",\n    \"the cat the dog the mouse chased saw ran\"\n  ]\n}\n```",
+  "run_idx": 20
+}

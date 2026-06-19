@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the editor suggested sold",
+    "the plan the committee endorsed succeeded",
+    "the movie the director filmed premiered",
+    "the cake the baker decorated pleased",
+    "the teacher the principal the parents praised thanked scolded"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a nested structure: 'the [noun1] the [noun2] [verb1] [verb2]', where each verb corresponds to the immediately preceding noun. Avoid stacking more than two nested clauses.\"",
+  "induced_prompt": "\"Generate sentences with a nested structure: 'the [noun1] the [noun2] [verb1] [verb2]', where each verb corresponds to the immediately preceding noun. Avoid stacking more than two nested clauses.\"",
+  "induced_prompt_chars": 196,
+  "induced_prompt_words": 28,
+  "l1_char_total": 211,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the cat chased barked.\", \"The teacher the student admired taught.\", \"The bird the wind carried flew.\", \"The chef the recipe inspired cooked.\", \"The car the mechanic repaired drove.\"]}",
+  "l2_sentences": [
+    "The dog the cat chased barked.",
+    "The teacher the student admired taught.",
+    "The bird the wind carried flew.",
+    "The chef the recipe inspired cooked.",
+    "The car the mechanic repaired drove."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:59:35.685371+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the editor suggested sold",
+    "the plan the committee endorsed succeeded",
+    "the movie the director filmed premiered",
+    "the cake the baker decorated pleased"
+  ],
+  "l1_sentences": [
+    "the book the editor suggested sold",
+    "the plan the committee endorsed succeeded",
+    "the movie the director filmed premiered",
+    "the cake the baker decorated pleased",
+    "the teacher the principal the parents praised thanked scolded"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor suggested sold\", \"the plan the committee endorsed succeeded\", \"the movie the director filmed premiered\", \"the cake the baker decorated pleased\", \"the teacher the principal the parents praised thanked scolded\"]}",
+  "run_idx": 29
+}

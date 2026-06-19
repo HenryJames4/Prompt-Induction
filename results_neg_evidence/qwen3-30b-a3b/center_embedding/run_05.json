@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the editor the student read corrected reviewed vanished.",
+    "the letter the secretary the manager the director received signed approved disappeared.",
+    "the document the intern the assistant the editor the boss reviewed revised approved submitted.",
+    "the email the clerk the supervisor the director the employee sent forwarded approved vanished.",
+    "the package the courier the receiver the neighbor the guest delivered accepted arrived."
+  ],
+  "induced_prompt_raw": "Generate a sentence where a noun is successively acted upon by a chain of agents, each performing a distinct action in sequence, ending with the noun disappearing or being removed from context.",
+  "induced_prompt": "Generate a sentence where a noun is successively acted upon by a chain of agents, each performing a distinct action in sequence, ending with the noun disappearing or being removed from context.",
+  "induced_prompt_chars": 193,
+  "induced_prompt_words": 32,
+  "l1_char_total": 438,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The scientist analyzed the sample under the microscope.\", \"The technician transferred the sample to a sealed container.\", \"The courier delivered the container to the disposal facility.\", \"The incinerator burned the container, reducing its contents to ash.\", \"The ash was swept away, leaving no trace of the original sample.\"]}",
+  "l2_sentences": [
+    "The scientist analyzed the sample under the microscope.",
+    "The technician transferred the sample to a sealed container.",
+    "The courier delivered the container to the disposal facility.",
+    "The incinerator burned the container, reducing its contents to ash.",
+    "The ash was swept away, leaving no trace of the original sample."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:47:44.160133+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the editor the student read corrected reviewed vanished.",
+    "the letter the secretary the manager the director received signed approved disappeared.",
+    "the document the intern the assistant the editor the boss reviewed revised approved submitted.",
+    "the email the clerk the supervisor the director the employee sent forwarded approved vanished."
+  ],
+  "l1_sentences": [
+    "the book the author the editor the student read corrected reviewed vanished.",
+    "the letter the secretary the manager the director received signed approved disappeared.",
+    "the document the intern the assistant the editor the boss reviewed revised approved submitted.",
+    "the email the clerk the supervisor the director the employee sent forwarded approved vanished.",
+    "the package the courier the receiver the neighbor the guest delivered accepted arrived."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the student read corrected reviewed vanished.\", \"the letter the secretary the manager the director received signed approved disappeared.\", \"the document the intern the assistant the editor the boss reviewed revised approved submitted.\", \"the email the clerk the supervisor the director the employee sent forwarded approved vanished.\", \"the package the courier the receiver the neighbor the guest delivered accepted arrived.\"]}",
+  "run_idx": 5
+}

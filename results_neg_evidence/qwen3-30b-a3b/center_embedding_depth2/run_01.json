@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the song the singer performed won.",
+    "the plan the manager devised failed.",
+    "the idea the student proposed succeeded.",
+    "the project the team completed the client approved the budget."
+  ],
+  "induced_prompt_raw": "Create a sentence with a relative clause modifying a noun, followed by a main clause where the noun is the subject and the verb agrees in number and tense.",
+  "induced_prompt": "Create a sentence with a relative clause modifying a noun, followed by a main clause where the noun is the subject and the verb agrees in number and tense.",
+  "induced_prompt_chars": 155,
+  "induced_prompt_words": 29,
+  "l1_char_total": 203,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library is due tomorrow.\", \"The book that I borrowed from the library is due tomorrow.\", \"The book that I borrowed from the library is due tomorrow.\", \"The book that I borrowed from the library is due tomorrow.\", \"The book that I borrowed from the library is due tomorrow.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library is due tomorrow.",
+    "The book that I borrowed from the library is due tomorrow.",
+    "The book that I borrowed from the library is due tomorrow.",
+    "The book that I borrowed from the library is due tomorrow.",
+    "The book that I borrowed from the library is due tomorrow."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:34:49.255211+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the song the singer performed won.",
+    "the plan the manager devised failed.",
+    "the idea the student proposed succeeded."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the song the singer performed won.",
+    "the plan the manager devised failed.",
+    "the idea the student proposed succeeded.",
+    "the project the team completed the client approved the budget."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the song the singer performed won.\", \"the plan the manager devised failed.\", \"the idea the student proposed succeeded.\", \"the project the team completed the client approved the budget.\"]}",
+  "run_idx": 1
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read recommended reviewed enjoyed",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver repaired washed drove"
+  ],
+  "induced_prompt_raw": "Generate a center-embedded sentence structure with four nouns and four verbs, where each verb applies to the noun-verb phrase immediately to its right.",
+  "induced_prompt": "Generate a center-embedded sentence structure with four nouns and four verbs, where each verb applies to the noun-verb phrase immediately to its right.",
+  "induced_prompt_chars": 151,
+  "induced_prompt_words": 23,
+  "l1_char_total": 377,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog that the bird that the worm startled chased hunted purred.\",\n    \"The teacher that the student that the principal that the parent admired praised thanked smiled.\",\n    \"The car that the truck that the bike that the scooter hit damaged raced stopped.\",\n    \"The book that the magazine that the newspaper that the article contained featured published sold.\",\n    \"The house that the storm that the wind that the rain generated destroyed flooded collapsed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog that the bird that the worm startled chased hunted purred.",
+    "The teacher that the student that the principal that the parent admired praised thanked smiled.",
+    "The car that the truck that the bike that the scooter hit damaged raced stopped.",
+    "The book that the magazine that the newspaper that the article contained featured published sold.",
+    "The house that the storm that the wind that the rain generated destroyed flooded collapsed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:24:27.591217+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read recommended reviewed enjoyed",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read recommended reviewed enjoyed",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver repaired washed drove"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read recommended reviewed enjoyed\",\n    \"the plan the manager the team the client developed presented accepted implemented\",\n    \"the house the architect the builder the owner designed constructed inspected sold\",\n    \"the car the mechanic the driver repaired washed drove\"\n  ]\n}",
+  "run_idx": 29
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the car the driver the owner the company bought sold repaired crashed.",
+    "the book the author the publisher the reader wrote printed read burned.",
+    "the house the builder the architect the family designed built sold moved.",
+    "the dog the owner the vet the groomer fed washed treated trained.",
+    "the computer the user the technician the company used fixed upgraded replaced."
+  ],
+  "induced_prompt_raw": "Nested relative clauses: four nouns then four verbs.",
+  "induced_prompt": "Nested relative clauses: four nouns then four verbs.",
+  "induced_prompt_chars": 52,
+  "induced_prompt_words": 8,
+  "l1_char_total": 357,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The house that the architect designed, the builder constructed, the family occupied, the storm destroyed.\",\n    \"The book that the author wrote, the editor reviewed, the publisher printed, the reader enjoyed.\",\n    \"The car that the engineer designed, the factory assembled, the dealer sold, the driver crashed.\",\n    \"The tree that the gardener planted, the children climbed, the birds nested in, the lightning struck.\",\n    \"The painting that the artist created, the collector bought, the museum displayed, the fire damaged.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The house that the architect designed, the builder constructed, the family occupied, the storm destroyed.",
+    "The book that the author wrote, the editor reviewed, the publisher printed, the reader enjoyed.",
+    "The car that the engineer designed, the factory assembled, the dealer sold, the driver crashed.",
+    "The tree that the gardener planted, the children climbed, the birds nested in, the lightning struck.",
+    "The painting that the artist created, the collector bought, the museum displayed, the fire damaged."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:48:06.102682+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the driver the owner the company bought sold repaired crashed.",
+    "the book the author the publisher the reader wrote printed read burned.",
+    "the house the builder the architect the family designed built sold moved.",
+    "the dog the owner the vet the groomer fed washed treated trained.",
+    "the computer the user the technician the company used fixed upgraded replaced."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the driver the owner the company bought sold repaired crashed.\",\n    \"the book the author the publisher the reader wrote printed read burned.\",\n    \"the house the builder the architect the family designed built sold moved.\",\n    \"the dog the owner the vet the groomer fed washed treated trained.\",\n    \"the computer the user the technician the company used fixed upgraded replaced.\"\n  ]\n}\n```",
+  "run_idx": 26
+}

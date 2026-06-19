@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the car the mechanic fixed started.",
+    "the letter the secretary typed arrived.",
+    "the house the builder constructed collapsed.",
+    "the meal the chef cooked burned.",
+    "the book the author wrote sold."
+  ],
+  "induced_prompt_raw": "Det N Det N V V",
+  "induced_prompt": "Det N Det N V V",
+  "induced_prompt_chars": 15,
+  "induced_prompt_words": 6,
+  "l1_char_total": 181,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog the cat chased bit.\",\n    \"My book this author wrote read.\",\n    \"A child a tree climbed played.\",\n    \"That car this driver bought sold.\",\n    \"Every bird a fish caught ate.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog the cat chased bit.",
+    "My book this author wrote read.",
+    "A child a tree climbed played.",
+    "That car this driver bought sold.",
+    "Every bird a fish caught ate."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:00:16.155496+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the mechanic fixed started.",
+    "the letter the secretary typed arrived.",
+    "the house the builder constructed collapsed.",
+    "the meal the chef cooked burned.",
+    "the book the author wrote sold."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the car the mechanic fixed started.\", \"the letter the secretary typed arrived.\", \"the house the builder constructed collapsed.\", \"the meal the chef cooked burned.\", \"the book the author wrote sold.\"]}\n```",
+  "run_idx": 2
+}

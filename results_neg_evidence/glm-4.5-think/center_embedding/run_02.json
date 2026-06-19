@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the car the mechanic the owner the dealer fixed washed sold crashed",
+    "the book the teacher the student the librarian recommended borrowed returned lost",
+    "the house the architect the builder the inspector designed built approved collapsed",
+    "the plan the manager the team created implemented failed"
+  ],
+  "induced_prompt_raw": "Generate: the N1 the N2 the N3 the N4 V1 V2 V3 V4, where V1 is done by N4, V2 by N3, V3 by N2, and V4 by N1.",
+  "induced_prompt": "Generate: the N1 the N2 the N3 the N4 V1 V2 V3 V4, where V1 is done by N4, V2 by N3, V3 by N2, and V4 by N1.",
+  "induced_prompt_chars": 108,
+  "induced_prompt_words": 29,
+  "l1_char_total": 372,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog the bird the fish swims flies barks meows.\",\n    \"The flower the tree the grass the leaf falls grows sways blooms.\",\n    \"The book the pen the paper the ink spills tears writes reads.\",\n    \"The car the truck the bus the bike pedals honks tows parks.\",\n    \"The star the moon the sun the planet rotates sets glows twinkles.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the dog the bird the fish swims flies barks meows.",
+    "The flower the tree the grass the leaf falls grows sways blooms.",
+    "The book the pen the paper the ink spills tears writes reads.",
+    "The car the truck the bus the bike pedals honks tows parks.",
+    "The star the moon the sun the planet rotates sets glows twinkles."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:42:33.601006+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the car the mechanic the owner the dealer fixed washed sold crashed",
+    "the book the teacher the student the librarian recommended borrowed returned lost",
+    "the house the architect the builder the inspector designed built approved collapsed"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the car the mechanic the owner the dealer fixed washed sold crashed",
+    "the book the teacher the student the librarian recommended borrowed returned lost",
+    "the house the architect the builder the inspector designed built approved collapsed",
+    "the plan the manager the team created implemented failed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the car the mechanic the owner the dealer fixed washed sold crashed\",\n    \"the book the teacher the student the librarian recommended borrowed returned lost\",\n    \"the house the architect the builder the inspector designed built approved collapsed\",\n    \"the plan the manager the team created implemented failed\"\n  ]\n}\n```",
+  "run_idx": 2
+}

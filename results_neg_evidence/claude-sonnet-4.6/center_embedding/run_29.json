@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef the apprentice the critic praised trained baked vanished",
+    "the letter the lawyer the secretary the client wrote signed sent arrived",
+    "the song the musician the producer the fan recorded mixed loved played",
+    "the bridge the engineer the worker the mayor designed built approved opened",
+    "the book the author the editor praised wrote published"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly 4 nested noun phrases followed by exactly 4 verbs in reverse order of their associated nouns, with no relative pronouns.",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly 4 nested noun phrases followed by exactly 4 verbs in reverse order of their associated nouns, with no relative pronouns.",
+  "induced_prompt_chars": 182,
+  "induced_prompt_words": 28,
+  "l1_char_total": 345,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog the rat the mouse chased bit scared ran.\", \"The book the student the teacher the principal praised assigned read fell.\", \"The car the man the woman the child saw drove bought stopped.\", \"The cake the guest the host the chef invited welcomed baked ate.\", \"The song the fan the singer the producer loved performed signed played.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog the rat the mouse chased bit scared ran.",
+    "The book the student the teacher the principal praised assigned read fell.",
+    "The car the man the woman the child saw drove bought stopped.",
+    "The cake the guest the host the chef invited welcomed baked ate.",
+    "The song the fan the singer the producer loved performed signed played."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:24:35.223809+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef the apprentice the critic praised trained baked vanished",
+    "the letter the lawyer the secretary the client wrote signed sent arrived",
+    "the song the musician the producer the fan recorded mixed loved played",
+    "the bridge the engineer the worker the mayor designed built approved opened"
+  ],
+  "l1_sentences": [
+    "the cake the chef the apprentice the critic praised trained baked vanished",
+    "the letter the lawyer the secretary the client wrote signed sent arrived",
+    "the song the musician the producer the fan recorded mixed loved played",
+    "the bridge the engineer the worker the mayor designed built approved opened",
+    "the book the author the editor praised wrote published"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the apprentice the critic praised trained baked vanished\", \"the letter the lawyer the secretary the client wrote signed sent arrived\", \"the song the musician the producer the fan recorded mixed loved played\", \"the bridge the engineer the worker the mayor designed built approved opened\", \"the book the author the editor praised wrote published\"]}\n```",
+  "run_idx": 29
+}

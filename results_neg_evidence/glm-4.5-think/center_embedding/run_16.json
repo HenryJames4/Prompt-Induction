@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog the fox the hunter chased bit caught escaped.",
+    "The book the teacher the student the principal assigned read recommended burned.",
+    "The car the mechanic the owner the driver repaired sold crashed exploded.",
+    "The house the architect the builder the inspector designed built condemned collapsed.",
+    "The letter the secretary the manager typed filed shredded."
+  ],
+  "induced_prompt_raw": "Generate a 4-noun, 4-verb center-embedded sentence: \"The [N1] the [N2] the [N3] the [N4] [V1] [V2] [V3] [V4]\" where V1-V3 are transitive, V4 is intransitive, and actions chain: N4→V1→N3, N3→V2→N2, N2→V3→N1, N1→V4.",
+  "induced_prompt": "Generate a 4-noun, 4-verb center-embedded sentence: \"The [N1] the [N2] the [N3] the [N4] [V1] [V2] [V3] [V4]\" where V1-V3 are transitive, V4 is intransitive, and actions chain: N4→V1→N3, N3→V2→N2, N2→V3→N1, N1→V4.",
+  "induced_prompt_chars": 213,
+  "induced_prompt_words": 32,
+  "l1_char_total": 357,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The man the dog the cat the mouse chased caught bit ran.\",\n    \"The king the knight the dragon the princess rescued fought betrayed ruled.\",\n    \"The car the truck the motorcycle the bicycle passed overtook crashed stalled.\",\n    \"The student the teacher the book the pen used read lost studied.\",\n    \"The tree the leaf the wind the branch shook tore broke fell.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The man the dog the cat the mouse chased caught bit ran.",
+    "The king the knight the dragon the princess rescued fought betrayed ruled.",
+    "The car the truck the motorcycle the bicycle passed overtook crashed stalled.",
+    "The student the teacher the book the pen used read lost studied.",
+    "The tree the leaf the wind the branch shook tore broke fell."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:04:08.558460+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog the fox the hunter chased bit caught escaped.",
+    "The book the teacher the student the principal assigned read recommended burned.",
+    "The car the mechanic the owner the driver repaired sold crashed exploded.",
+    "The house the architect the builder the inspector designed built condemned collapsed."
+  ],
+  "l1_sentences": [
+    "The cat the dog the fox the hunter chased bit caught escaped.",
+    "The book the teacher the student the principal assigned read recommended burned.",
+    "The car the mechanic the owner the driver repaired sold crashed exploded.",
+    "The house the architect the builder the inspector designed built condemned collapsed.",
+    "The letter the secretary the manager typed filed shredded."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog the fox the hunter chased bit caught escaped.\",\n    \"The book the teacher the student the principal assigned read recommended burned.\",\n    \"The car the mechanic the owner the driver repaired sold crashed exploded.\",\n    \"The house the architect the builder the inspector designed built condemned collapsed.\",\n    \"The letter the secretary the manager typed filed shredded.\"\n  ]\n}\n```",
+  "run_idx": 16
+}

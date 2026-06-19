@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the teacher the student the parent recommended read reviewed enjoyed",
+    "the plan the manager the team the client presented discussed accepted implemented",
+    "the idea the professor the student the colleague proposed developed tested published",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver repaired washed drove"
+  ],
+  "induced_prompt_raw": "Generate a nested relative clause structure with four nouns and four verbs, where each verb modifies the preceding noun in a chain of dependencies.",
+  "induced_prompt": "Generate a nested relative clause structure with four nouns and four verbs, where each verb modifies the preceding noun in a chain of dependencies.",
+  "induced_prompt_chars": 147,
+  "induced_prompt_words": 24,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that chased the mouse that ate the cheese that smelled bad that sat on the table meowed loudly.\",\n    \"The teacher who graded the papers that contained errors that confused students that needed help smiled warmly.\",\n    \"The car that hit the pole that damaged the bumper that scratched the paint that needed repair stopped abruptly.\",\n    \"The child who read the book that told stories that featured dragons that breathed fire that scared monsters giggled happily.\",\n    \"The detective who solved the case that involved clues that pointed to suspects who lied repeatedly testified confidently.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that chased the mouse that ate the cheese that smelled bad that sat on the table meowed loudly.",
+    "The teacher who graded the papers that contained errors that confused students that needed help smiled warmly.",
+    "The car that hit the pole that damaged the bumper that scratched the paint that needed repair stopped abruptly.",
+    "The child who read the book that told stories that featured dragons that breathed fire that scared monsters giggled happily.",
+    "The detective who solved the case that involved clues that pointed to suspects who lied repeatedly testified confidently."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:47:46.343395+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the teacher the student the parent recommended read reviewed enjoyed",
+    "the plan the manager the team the client presented discussed accepted implemented",
+    "the idea the professor the student the colleague proposed developed tested published",
+    "the house the architect the builder the owner designed constructed inspected sold"
+  ],
+  "l1_sentences": [
+    "the book the teacher the student the parent recommended read reviewed enjoyed",
+    "the plan the manager the team the client presented discussed accepted implemented",
+    "the idea the professor the student the colleague proposed developed tested published",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver repaired washed drove"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the teacher the student the parent recommended read reviewed enjoyed\",\n    \"the plan the manager the team the client presented discussed accepted implemented\",\n    \"the idea the professor the student the colleague proposed developed tested published\",\n    \"the house the architect the builder the owner designed constructed inspected sold\",\n    \"the car the mechanic the driver repaired washed drove\"\n  ]\n}",
+  "run_idx": 5
+}

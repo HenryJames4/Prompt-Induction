@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic praised sold",
+    "the dog the child chased barked",
+    "the letter the manager signed arrived",
+    "the cake the baker made disappeared",
+    "the report the editor the journalist wrote reviewed published"
+  ],
+  "induced_prompt_raw": "Write sentences with one level of center-embedding, where a relative clause interrupts the main clause (e.g., subject + [relative clause] + main verb). Avoid nesting multiple relative clauses inside one another.",
+  "induced_prompt": "Write sentences with one level of center-embedding, where a relative clause interrupts the main clause (e.g., subject + [relative clause] + main verb). Avoid nesting multiple relative clauses inside one another.",
+  "induced_prompt_chars": 211,
+  "induced_prompt_words": 31,
+  "l1_char_total": 196,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that she borrowed yesterday was incredibly fascinating.\", \"The dog that chased the squirrel finally returned home.\", \"The scientist who discovered the new element received a prestigious award.\", \"The old bridge that connected the two villages collapsed during the storm.\", \"The letter that arrived this morning contained surprising news.\"]}\n```",
+  "l2_sentences": [
+    "The book that she borrowed yesterday was incredibly fascinating.",
+    "The dog that chased the squirrel finally returned home.",
+    "The scientist who discovered the new element received a prestigious award.",
+    "The old bridge that connected the two villages collapsed during the storm.",
+    "The letter that arrived this morning contained surprising news."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:57:21.415902+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic praised sold",
+    "the dog the child chased barked",
+    "the letter the manager signed arrived",
+    "the cake the baker made disappeared"
+  ],
+  "l1_sentences": [
+    "the book the critic praised sold",
+    "the dog the child chased barked",
+    "the letter the manager signed arrived",
+    "the cake the baker made disappeared",
+    "the report the editor the journalist wrote reviewed published"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the critic praised sold\", \"the dog the child chased barked\", \"the letter the manager signed arrived\", \"the cake the baker made disappeared\", \"the report the editor the journalist wrote reviewed published\"]}",
+  "run_idx": 26
+}

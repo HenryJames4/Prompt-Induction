@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the bridge the engineer the contractor the mayor hired supervised built collapsed.",
+    "the book the author the critic the reader admired reviewed published sold.",
+    "the letter the lawyer the clerk the boss hired trained wrote arrived.",
+    "the painting the artist the critic the collector hired praised created sold.",
+    "the song the singer the manager the agent hired advised recorded released."
+  ],
+  "induced_prompt_raw": "Write sentences with multiple center-embedded relative clauses, where a chain of people hired/supervised one another, ending with a final intransitive or transitive verb describing the outcome of the main subject.",
+  "induced_prompt": "Write sentences with multiple center-embedded relative clauses, where a chain of people hired/supervised one another, ending with a final intransitive or transitive verb describing the outcome of the main subject.",
+  "induced_prompt_chars": 213,
+  "induced_prompt_words": 30,
+  "l1_char_total": 375,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The engineer that the manager that the CEO hired supervised quit abruptly.\",\n    \"The analyst that the director that the consultant that the board hired fired supervised resigned in protest.\",\n    \"The intern that the supervisor that the executive hired managed succeeded brilliantly.\",\n    \"The lawyer that the partner that the associate that the client hired recommended supervised won the case.\",\n    \"The teacher that the principal that the superintendent hired evaluated retired early.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The engineer that the manager that the CEO hired supervised quit abruptly.",
+    "The analyst that the director that the consultant that the board hired fired supervised resigned in protest.",
+    "The intern that the supervisor that the executive hired managed succeeded brilliantly.",
+    "The lawyer that the partner that the associate that the client hired recommended supervised won the case.",
+    "The teacher that the principal that the superintendent hired evaluated retired early."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:22:09.226375+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the bridge the engineer the contractor the mayor hired supervised built collapsed.",
+    "the book the author the critic the reader admired reviewed published sold.",
+    "the letter the lawyer the clerk the boss hired trained wrote arrived.",
+    "the painting the artist the critic the collector hired praised created sold.",
+    "the song the singer the manager the agent hired advised recorded released."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the bridge the engineer the contractor the mayor hired supervised built collapsed.\",\n    \"the book the author the critic the reader admired reviewed published sold.\",\n    \"the letter the lawyer the clerk the boss hired trained wrote arrived.\",\n    \"the painting the artist the critic the collector hired praised created sold.\",\n    \"the song the singer the manager the agent hired advised recorded released.\"\n  ]\n}\n```",
+  "run_idx": 10
+}

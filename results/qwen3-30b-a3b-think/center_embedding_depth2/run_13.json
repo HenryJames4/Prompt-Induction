@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the idea the scientist proposed failed.",
+    "the plan the manager approved ended.",
+    "the report the editor reviewed passed.",
+    "the draft the writer completed left."
+  ],
+  "induced_prompt_raw": "the [N] the [P] [V1] [V2]",
+  "induced_prompt": "the [N] the [P] [V1] [V2]",
+  "induced_prompt_chars": 25,
+  "induced_prompt_words": 6,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the dog the in runs jumps.\", \"the cat the on walks sings.\", \"the river the at flows falls.\", \"the sun the by shines rises.\", \"the city the under grows changes.\"]}",
+  "l2_sentences": [
+    "the dog the in runs jumps.",
+    "the cat the on walks sings.",
+    "the river the at flows falls.",
+    "the sun the by shines rises.",
+    "the city the under grows changes."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:12:41.762280+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the idea the scientist proposed failed.",
+    "the plan the manager approved ended.",
+    "the report the editor reviewed passed.",
+    "the draft the writer completed left."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the idea the scientist proposed failed.\", \"the plan the manager approved ended.\", \"the report the editor reviewed passed.\", \"the draft the writer completed left.\"]}",
+  "run_idx": 13
+}

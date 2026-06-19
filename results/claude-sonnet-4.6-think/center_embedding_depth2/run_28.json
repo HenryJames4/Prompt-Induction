@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cake the chef baked disappeared.",
+    "The book the student read vanished.",
+    "The report the manager signed circulated.",
+    "The dog the child chased escaped.",
+    "The bridge the engineer designed collapsed."
+  ],
+  "induced_prompt_raw": "Write sentences using center-embedded relative clauses, where a main noun is modified by a \"the [agent] [verb]ed\" clause, followed by a single intransitive main verb.",
+  "induced_prompt": "Write sentences using center-embedded relative clauses, where a main noun is modified by a \"the [agent] [verb]ed\" clause, followed by a single intransitive main verb.",
+  "induced_prompt_chars": 166,
+  "induced_prompt_words": 25,
+  "l1_char_total": 188,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog chased ran.\", \"The book the scholar borrowed disappeared.\", \"The cake the chef baked vanished.\", \"The deer the hunter spotted fled.\", \"The letter the spy wrote surfaced.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog chased ran.",
+    "The book the scholar borrowed disappeared.",
+    "The cake the chef baked vanished.",
+    "The deer the hunter spotted fled.",
+    "The letter the spy wrote surfaced."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:44:06.814259+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cake the chef baked disappeared.",
+    "The book the student read vanished.",
+    "The report the manager signed circulated.",
+    "The dog the child chased escaped.",
+    "The bridge the engineer designed collapsed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The cake the chef baked disappeared.\", \"The book the student read vanished.\", \"The report the manager signed circulated.\", \"The dog the child chased escaped.\", \"The bridge the engineer designed collapsed.\"]}\n```",
+  "run_idx": 28
+}

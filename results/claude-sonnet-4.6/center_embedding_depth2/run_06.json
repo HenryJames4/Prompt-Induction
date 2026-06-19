@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed circulated.",
+    "The cake the chef baked vanished.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the composer finished spread."
+  ],
+  "induced_prompt_raw": "Write sentences with a double-subject relative clause structure where an object undergoes a simple intransitive action.",
+  "induced_prompt": "Write sentences with a double-subject relative clause structure where an object undergoes a simple intransitive action.",
+  "induced_prompt_chars": 119,
+  "induced_prompt_words": 16,
+  "l1_char_total": 194,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the child owns chased ran away.\", \"The bird that the hawk that the storm frightened startled disappeared.\", \"The leaf that the wind that the autumn brought stirred fell.\", \"The rabbit that the fox that the farmer kept scared fled.\", \"The fish that the heron that the boy watched hunted swam.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the child owns chased ran away.",
+    "The bird that the hawk that the storm frightened startled disappeared.",
+    "The leaf that the wind that the autumn brought stirred fell.",
+    "The rabbit that the fox that the farmer kept scared fled.",
+    "The fish that the heron that the boy watched hunted swam."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:36:42.851478+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed circulated.",
+    "The cake the chef baked vanished.",
+    "The letter the student wrote arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The song the composer finished spread."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed circulated.\", \"The cake the chef baked vanished.\", \"The letter the student wrote arrived.\", \"The bridge the engineer designed collapsed.\", \"The song the composer finished spread.\"]}\n```",
+  "run_idx": 6
+}

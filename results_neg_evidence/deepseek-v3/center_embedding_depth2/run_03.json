@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the baker decorated sold",
+    "the book the editor revised published",
+    "the plan the committee approved succeeded",
+    "the painting the artist created exhibited",
+    "the song the band played enjoyed praised recorded"
+  ],
+  "induced_prompt_raw": "\"Generate sentences where a noun is modified by a relative clause, followed by a main verb, ensuring clarity and avoiding overly complex or ambiguous constructions.\"",
+  "induced_prompt": "\"Generate sentences where a noun is modified by a relative clause, followed by a main verb, ensuring clarity and avoiding overly complex or ambiguous constructions.\"",
+  "induced_prompt_chars": 165,
+  "induced_prompt_words": 25,
+  "l1_char_total": 201,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book, which I borrowed from the library, is overdue.\", \"The dog, who barked loudly all night, finally fell asleep.\", \"The car, that was parked in the driveway, belongs to my neighbor.\", \"The cake, which she baked for the party, was delicious.\", \"The teacher, who gave us the assignment, explained it clearly.\"]}",
+  "l2_sentences": [
+    "The book, which I borrowed from the library, is overdue.",
+    "The dog, who barked loudly all night, finally fell asleep.",
+    "The car, that was parked in the driveway, belongs to my neighbor.",
+    "The cake, which she baked for the party, was delicious.",
+    "The teacher, who gave us the assignment, explained it clearly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:36:19.190871+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the baker decorated sold",
+    "the book the editor revised published",
+    "the plan the committee approved succeeded",
+    "the painting the artist created exhibited"
+  ],
+  "l1_sentences": [
+    "the cake the baker decorated sold",
+    "the book the editor revised published",
+    "the plan the committee approved succeeded",
+    "the painting the artist created exhibited",
+    "the song the band played enjoyed praised recorded"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the baker decorated sold\", \"the book the editor revised published\", \"the plan the committee approved succeeded\", \"the painting the artist created exhibited\", \"the song the band played enjoyed praised recorded\"]}",
+  "run_idx": 3
+}

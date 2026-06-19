@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the bird the mouse chased saw ignored vanished",
+    "the student the professor the dean the committee advised praised recommended promoted",
+    "the book the author the publisher the reader reviewed edited published enjoyed",
+    "the car the mechanic the owner the insurance fixed inspected sold covered",
+    "the house the architect the builder designed constructed destroyed"
+  ],
+  "induced_prompt_raw": "Four 'the' nouns then four verbs: first three transitive, last intransitive.",
+  "induced_prompt": "Four 'the' nouns then four verbs: first three transitive, last intransitive.",
+  "induced_prompt_chars": 76,
+  "induced_prompt_words": 11,
+  "l1_char_total": 364,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat, the dog, the mouse, the bird chased, caught, ate, slept.\",\n    \"The boy, the girl, the man, the woman saw, met, greeted, smiled.\",\n    \"The car, the truck, the bus, the bike passed, overtook, parked, waited.\",\n    \"The book, the pen, the paper, the desk opened, used, wrote, rested.\",\n    \"The sun, the moon, the star, the cloud rose, set, shone, moved.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat, the dog, the mouse, the bird chased, caught, ate, slept.",
+    "The boy, the girl, the man, the woman saw, met, greeted, smiled.",
+    "The car, the truck, the bus, the bike passed, overtook, parked, waited.",
+    "The book, the pen, the paper, the desk opened, used, wrote, rested.",
+    "The sun, the moon, the star, the cloud rose, set, shone, moved."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:15:00.650516+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the bird the mouse chased saw ignored vanished",
+    "the student the professor the dean the committee advised praised recommended promoted",
+    "the book the author the publisher the reader reviewed edited published enjoyed",
+    "the car the mechanic the owner the insurance fixed inspected sold covered"
+  ],
+  "l1_sentences": [
+    "the cat the dog the bird the mouse chased saw ignored vanished",
+    "the student the professor the dean the committee advised praised recommended promoted",
+    "the book the author the publisher the reader reviewed edited published enjoyed",
+    "the car the mechanic the owner the insurance fixed inspected sold covered",
+    "the house the architect the builder designed constructed destroyed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog the bird the mouse chased saw ignored vanished\",\n    \"the student the professor the dean the committee advised praised recommended promoted\",\n    \"the book the author the publisher the reader reviewed edited published enjoyed\",\n    \"the car the mechanic the owner the insurance fixed inspected sold covered\",\n    \"the house the architect the builder designed constructed destroyed\"\n  ]\n}\n```",
+  "run_idx": 23
+}

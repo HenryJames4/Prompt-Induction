@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the paper the journal the reviewer the author contacted convinced published disappeared",
+    "the cake the chef the assistant the manager hired trained baked vanished",
+    "the project the director the supervisor the intern impressed promoted completed succeeded",
+    "the building the architect the engineer the client hired consulted designed collapsed",
+    "the film the director the actor impressed cast premiered"
+  ],
+  "induced_prompt_raw": "Write triply center-embedded relative clause sentences in the format NP1 NP2 NP3 NP4 V1 V2 V3 V4, using exactly four noun phrases followed by four verbs with no relative pronouns. Each verb corresponds to the noun phrase at the same depth of embedding. Do not use only double embedding (three NPs and three verbs).",
+  "induced_prompt": "Write triply center-embedded relative clause sentences in the format NP1 NP2 NP3 NP4 V1 V2 V3 V4, using exactly four noun phrases followed by four verbs with no relative pronouns. Each verb corresponds to the noun phrase at the same depth of embedding. Do not use only double embedding (three NPs and three verbs).",
+  "induced_prompt_chars": 314,
+  "induced_prompt_words": 54,
+  "l1_char_total": 389,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The report the analyst the firm the client hired funded wrote convinced the board.\",\n    \"The book the student the professor the dean hired taught read impressed the committee.\",\n    \"The child the nurse the doctor the hospital employed examined treated recovered quickly.\",\n    \"The paper the journalist the editor the publisher funded hired wrote won the award.\",\n    \"The bill the senator the party the voters supported endorsed drafted passed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The report the analyst the firm the client hired funded wrote convinced the board.",
+    "The book the student the professor the dean hired taught read impressed the committee.",
+    "The child the nurse the doctor the hospital employed examined treated recovered quickly.",
+    "The paper the journalist the editor the publisher funded hired wrote won the award.",
+    "The bill the senator the party the voters supported endorsed drafted passed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:24:03.781325+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the paper the journal the reviewer the author contacted convinced published disappeared",
+    "the cake the chef the assistant the manager hired trained baked vanished",
+    "the project the director the supervisor the intern impressed promoted completed succeeded",
+    "the building the architect the engineer the client hired consulted designed collapsed"
+  ],
+  "l1_sentences": [
+    "the paper the journal the reviewer the author contacted convinced published disappeared",
+    "the cake the chef the assistant the manager hired trained baked vanished",
+    "the project the director the supervisor the intern impressed promoted completed succeeded",
+    "the building the architect the engineer the client hired consulted designed collapsed",
+    "the film the director the actor impressed cast premiered"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the paper the journal the reviewer the author contacted convinced published disappeared\",\n    \"the cake the chef the assistant the manager hired trained baked vanished\",\n    \"the project the director the supervisor the intern impressed promoted completed succeeded\",\n    \"the building the architect the engineer the client hired consulted designed collapsed\",\n    \"the film the director the actor impressed cast premiered\"\n  ]\n}\n```",
+  "run_idx": 29
+}

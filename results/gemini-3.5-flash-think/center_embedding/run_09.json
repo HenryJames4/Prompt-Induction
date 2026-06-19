@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the rat the boy chased bit scratched barked",
+    "the car the truck the biker the officer stopped avoided hit crashed",
+    "the book the student the teacher the principal hired helped read vanished",
+    "the soup the chef the owner the customer thanked employed cooked boiled",
+    "the song the singer the writer the fan praised inspired sang played"
+  ],
+  "induced_prompt_raw": "Write a sentence with a triple center-embedded relative clause structure.",
+  "induced_prompt": "Write a sentence with a triple center-embedded relative clause structure.",
+  "induced_prompt_chars": 73,
+  "induced_prompt_words": 10,
+  "l1_char_total": 337,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The patient that the doctor that the nurse that the clinic hired supervised treated recovered.\",\n    \"The book that the student that the teacher that the principal praised recommended read was lost.\",\n    \"The rat that the cat that the dog that the boy kept bit chased died.\",\n    \"The food that the guest that the chef that the owner hired served ate was delicious.\",\n    \"The painting that the artist that the patron that the museum contacted supported painted was sold.\"\n  ]\n}",
+  "l2_sentences": [
+    "The patient that the doctor that the nurse that the clinic hired supervised treated recovered.",
+    "The book that the student that the teacher that the principal praised recommended read was lost.",
+    "The rat that the cat that the dog that the boy kept bit chased died.",
+    "The food that the guest that the chef that the owner hired served ate was delicious.",
+    "The painting that the artist that the patron that the museum contacted supported painted was sold."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:21:25.569707+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the rat the boy chased bit scratched barked",
+    "the car the truck the biker the officer stopped avoided hit crashed",
+    "the book the student the teacher the principal hired helped read vanished",
+    "the soup the chef the owner the customer thanked employed cooked boiled",
+    "the song the singer the writer the fan praised inspired sang played"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the dog the cat the rat the boy chased bit scratched barked\",\n    \"the car the truck the biker the officer stopped avoided hit crashed\",\n    \"the book the student the teacher the principal hired helped read vanished\",\n    \"the soup the chef the owner the customer thanked employed cooked boiled\",\n    \"the song the singer the writer the fan praised inspired sang played\"\n  ]\n}",
+  "run_idx": 9
+}

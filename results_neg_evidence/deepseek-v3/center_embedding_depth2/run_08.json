@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the editor reviewed published.",
+    "The movie the director filmed premiered.",
+    "The cake the baker decorated sold.",
+    "The report the committee evaluated circulated.",
+    "The story the writer the editor praised revised released."
+  ],
+  "induced_prompt_raw": "\"Generate sentences where a noun phrase modified by a subordinate clause (e.g., 'the book the editor reviewed') is followed by a main verb, ensuring the subordinate clause contains only one verb and avoids nested clauses.\"",
+  "induced_prompt": "\"Generate sentences where a noun phrase modified by a subordinate clause (e.g., 'the book the editor reviewed') is followed by a main verb, ensuring the subordinate clause contains only one verb and avoids nested clauses.\"",
+  "induced_prompt_chars": 222,
+  "induced_prompt_words": 35,
+  "l1_char_total": 216,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The cake the baker decorated was delicious.\", \"The car the mechanic repaired runs smoothly.\", \"The painting the artist displayed caught everyone's attention.\", \"The dog the trainer taught performs tricks beautifully.\", \"The laptop the technician fixed works perfectly.\"]}",
+  "l2_sentences": [
+    "The cake the baker decorated was delicious.",
+    "The car the mechanic repaired runs smoothly.",
+    "The painting the artist displayed caught everyone's attention.",
+    "The dog the trainer taught performs tricks beautifully.",
+    "The laptop the technician fixed works perfectly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:41:24.334511+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the editor reviewed published.",
+    "The movie the director filmed premiered.",
+    "The cake the baker decorated sold.",
+    "The report the committee evaluated circulated."
+  ],
+  "l1_sentences": [
+    "The book the editor reviewed published.",
+    "The movie the director filmed premiered.",
+    "The cake the baker decorated sold.",
+    "The report the committee evaluated circulated.",
+    "The story the writer the editor praised revised released."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the editor reviewed published.\", \"The movie the director filmed premiered.\", \"The cake the baker decorated sold.\", \"The report the committee evaluated circulated.\", \"The story the writer the editor praised revised released.\"]}",
+  "run_idx": 8
+}

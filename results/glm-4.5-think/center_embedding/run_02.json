@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the car the mechanic the owner the dealer bought repaired sold vanished.",
+    "the book the author the reader the critic wrote read reviewed vanished.",
+    "the house the builder the owner the tenant built painted rented collapsed.",
+    "the meal the chef the customer the critic cooked served ate burned."
+  ],
+  "induced_prompt_raw": "Object, three agents, four verbs: three actions then a negative outcome.",
+  "induced_prompt": "Object, three agents, four verbs: three actions then a negative outcome.",
+  "induced_prompt_chars": 72,
+  "induced_prompt_words": 11,
+  "l1_char_total": 370,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The pirate found the treasure, the sailor hid the treasure, the parrot guarded the treasure, and then the treasure was lost.\",\n    \"The sailor hid the treasure, the pirate found the treasure, the parrot guarded the treasure, and then the treasure was lost.\",\n    \"The parrot guarded the treasure, the sailor found the treasure, the pirate hid the treasure, and then the treasure was lost.\",\n    \"The pirate found the treasure, the parrot guarded the treasure, the sailor hid the treasure, and then the treasure was lost.\",\n    \"The sailor hid the treasure, the parrot guarded the treasure, the pirate found the treasure, and then the treasure was lost.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The pirate found the treasure, the sailor hid the treasure, the parrot guarded the treasure, and then the treasure was lost.",
+    "The sailor hid the treasure, the pirate found the treasure, the parrot guarded the treasure, and then the treasure was lost.",
+    "The parrot guarded the treasure, the sailor found the treasure, the pirate hid the treasure, and then the treasure was lost.",
+    "The pirate found the treasure, the parrot guarded the treasure, the sailor hid the treasure, and then the treasure was lost.",
+    "The sailor hid the treasure, the parrot guarded the treasure, the pirate found the treasure, and then the treasure was lost."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:00:16.749161+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the car the mechanic the owner the dealer bought repaired sold vanished.",
+    "the book the author the reader the critic wrote read reviewed vanished.",
+    "the house the builder the owner the tenant built painted rented collapsed.",
+    "the meal the chef the customer the critic cooked served ate burned."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared.\",\n    \"the car the mechanic the owner the dealer bought repaired sold vanished.\",\n    \"the book the author the reader the critic wrote read reviewed vanished.\",\n    \"the house the builder the owner the tenant built painted rented collapsed.\",\n    \"the meal the chef the customer the critic cooked served ate burned.\"\n  ]\n}\n```",
+  "run_idx": 2
+}

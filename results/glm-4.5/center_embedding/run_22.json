@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The cat the dog the boy the woman chased fed petted loved.",
+    "The book the teacher the student the principal assigned read discussed praised.",
+    "The car the mechanic the owner the dealer repaired sold drove admired.",
+    "The house the architect the builder the family designed constructed visited enjoyed.",
+    "The meal the chef the critic the guest prepared tasted reviewed savored."
+  ],
+  "induced_prompt_raw": "Center-embedded relative clauses with four nouns and four verbs.",
+  "induced_prompt": "Center-embedded relative clauses with four nouns and four verbs.",
+  "induced_prompt_chars": 64,
+  "induced_prompt_words": 9,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog that the bird that the mouse chased startled hunted purred.\",\n    \"The book that the student that the teacher that the principal admired recommended read fascinated.\",\n    \"The car that the mechanic that the owner that the dealer trusted hired repaired broke down.\",\n    \"The painting that the artist that the critic that the gallery owner praised exhibited created sold.\",\n    \"The house that the architect that the builder that the developer employed designed collapsed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog that the bird that the mouse chased startled hunted purred.",
+    "The book that the student that the teacher that the principal admired recommended read fascinated.",
+    "The car that the mechanic that the owner that the dealer trusted hired repaired broke down.",
+    "The painting that the artist that the critic that the gallery owner praised exhibited created sold.",
+    "The house that the architect that the builder that the developer employed designed collapsed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:40:59.390934+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cat the dog the boy the woman chased fed petted loved.",
+    "The book the teacher the student the principal assigned read discussed praised.",
+    "The car the mechanic the owner the dealer repaired sold drove admired.",
+    "The house the architect the builder the family designed constructed visited enjoyed.",
+    "The meal the chef the critic the guest prepared tasted reviewed savored."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog the boy the woman chased fed petted loved.\",\n    \"The book the teacher the student the principal assigned read discussed praised.\",\n    \"The car the mechanic the owner the dealer repaired sold drove admired.\",\n    \"The house the architect the builder the family designed constructed visited enjoyed.\",\n    \"The meal the chef the critic the guest prepared tasted reviewed savored.\"\n  ]\n}",
+  "run_idx": 22
+}

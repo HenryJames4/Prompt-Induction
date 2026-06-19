@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the car the mechanic the owner the dealer inspected repaired sold crashed",
+    "the book the teacher the student the principal assigned read reviewed praised",
+    "the house the architect the builder the family designed constructed admired demolished",
+    "the meal the chef the patron prepared enjoyed"
+  ],
+  "induced_prompt_raw": "Generate a four-verb chain of events, each performed on the preceding noun, ending in an involuntary event.",
+  "induced_prompt": "Generate a four-verb chain of events, each performed on the preceding noun, ending in an involuntary event.",
+  "induced_prompt_chars": 107,
+  "induced_prompt_words": 17,
+  "l1_char_total": 366,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The ball hit the bat which swung at the pitcher who startled the crowd that gasped in surprise.\",\n    \"The car crashed into the wall which collapsed onto the bystander who jumped in fear that triggered a scream.\",\n    \"The cat chased the mouse that ran into the snake which hissed at the dog that barked involuntarily.\",\n    \"The rain soaked the roof that leaked onto the floor which slipped under the man who fell unexpectedly.\",\n    \"The light illuminated the dust that floated into the eye which blinked reflexively causing a tear to form.\"\n  ]\n}",
+  "l2_sentences": [
+    "The ball hit the bat which swung at the pitcher who startled the crowd that gasped in surprise.",
+    "The car crashed into the wall which collapsed onto the bystander who jumped in fear that triggered a scream.",
+    "The cat chased the mouse that ran into the snake which hissed at the dog that barked involuntarily.",
+    "The rain soaked the roof that leaked onto the floor which slipped under the man who fell unexpectedly.",
+    "The light illuminated the dust that floated into the eye which blinked reflexively causing a tear to form."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:20:41.286700+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the car the mechanic the owner the dealer inspected repaired sold crashed",
+    "the book the teacher the student the principal assigned read reviewed praised",
+    "the house the architect the builder the family designed constructed admired demolished"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the car the mechanic the owner the dealer inspected repaired sold crashed",
+    "the book the teacher the student the principal assigned read reviewed praised",
+    "the house the architect the builder the family designed constructed admired demolished",
+    "the meal the chef the patron prepared enjoyed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the car the mechanic the owner the dealer inspected repaired sold crashed\",\n    \"the book the teacher the student the principal assigned read reviewed praised\",\n    \"the house the architect the builder the family designed constructed admired demolished\",\n    \"the meal the chef the patron prepared enjoyed\"\n  ]\n}",
+  "run_idx": 26
+}

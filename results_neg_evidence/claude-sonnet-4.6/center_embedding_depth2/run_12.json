@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef baked disappeared",
+    "the letter the student wrote impressed",
+    "the song the musician composed spread",
+    "the report the manager reviewed circulated",
+    "the novel the editor the publisher the author wrote approved released sold"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly one level of embedding, where a subject noun is modified by a relative clause before its main verb. Avoid multiple nested embeddings.",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly one level of embedding, where a subject noun is modified by a relative clause before its main verb. Avoid multiple nested embeddings.",
+  "induced_prompt_chars": 195,
+  "induced_prompt_words": 30,
+  "l1_char_total": 226,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that she borrowed yesterday was fascinating.\", \"The dog that bit the mail carrier escaped from the yard.\", \"The scientist who discovered the cure received a Nobel Prize.\", \"The car that my father restored sits in the garage.\", \"The student who studied hardest passed the difficult exam.\"]}\n```",
+  "l2_sentences": [
+    "The book that she borrowed yesterday was fascinating.",
+    "The dog that bit the mail carrier escaped from the yard.",
+    "The scientist who discovered the cure received a Nobel Prize.",
+    "The car that my father restored sits in the garage.",
+    "The student who studied hardest passed the difficult exam."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:45:21.561181+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef baked disappeared",
+    "the letter the student wrote impressed",
+    "the song the musician composed spread",
+    "the report the manager reviewed circulated"
+  ],
+  "l1_sentences": [
+    "the cake the chef baked disappeared",
+    "the letter the student wrote impressed",
+    "the song the musician composed spread",
+    "the report the manager reviewed circulated",
+    "the novel the editor the publisher the author wrote approved released sold"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the chef baked disappeared\", \"the letter the student wrote impressed\", \"the song the musician composed spread\", \"the report the manager reviewed circulated\", \"the novel the editor the publisher the author wrote approved released sold\"]}",
+  "run_idx": 12
+}

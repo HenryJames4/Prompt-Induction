@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read vanished.",
+    "The idea the committee rejected failed.",
+    "The movie the critic reviewed succeeded.",
+    "The house the architect the client hired designed burned."
+  ],
+  "induced_prompt_raw": "Generate sentences with a center-embedded relative clause modifying the subject, followed by a main verb.",
+  "induced_prompt": "Generate sentences with a center-embedded relative clause modifying the subject, followed by a main verb.",
+  "induced_prompt_chars": 105,
+  "induced_prompt_words": 15,
+  "l1_char_total": 202,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that chased the mouse climbed the tree.\",\n    \"The book that won the award sat on the shelf.\",\n    \"The student who solved the equation received the prize.\",\n    \"The car that crashed into the wall needed repairs.\",\n    \"The artist who painted the mural signed her name.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that chased the mouse climbed the tree.",
+    "The book that won the award sat on the shelf.",
+    "The student who solved the equation received the prize.",
+    "The car that crashed into the wall needed repairs.",
+    "The artist who painted the mural signed her name."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T14:00:48.844565+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased escaped.",
+    "The book the student read vanished.",
+    "The idea the committee rejected failed.",
+    "The movie the critic reviewed succeeded."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read vanished.",
+    "The idea the committee rejected failed.",
+    "The movie the critic reviewed succeeded.",
+    "The house the architect the client hired designed burned."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The book the student read vanished.\",\n    \"The idea the committee rejected failed.\",\n    \"The movie the critic reviewed succeeded.\",\n    \"The house the architect the client hired designed burned.\"\n  ]\n}\n```",
+  "run_idx": 30
+}

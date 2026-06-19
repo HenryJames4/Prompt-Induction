@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog the mouse the cheese chased hunted ate disappeared.",
+    "The student the professor the book the library recommended borrowed read returned.",
+    "The car the driver the road the accident avoided caused witnessed reported.",
+    "The house the owner the agent the buyer sold inspected negotiated purchased.",
+    "The bird the worm the sky caught ate flew."
+  ],
+  "induced_prompt_raw": "Generate a nested relative clause sentence: four nouns followed by four verbs, with the last verb intransitive.",
+  "induced_prompt": "Generate a nested relative clause sentence: four nouns followed by four verbs, with the last verb intransitive.",
+  "induced_prompt_chars": 111,
+  "induced_prompt_words": 17,
+  "l1_char_total": 342,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The car that the driver that the owner that the company employs hired washed gleamed.\",\n    \"The book that the student that the teacher that the school hired taught read disappeared.\",\n    \"The house that the agent that the buyer that the bank employs sold collapsed and burned.\",\n    \"The dog that the child that the neighbor that the city employs owns barked and growled.\",\n    \"The tree that the storm that the wind that the season brings uproots fell and crashed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The car that the driver that the owner that the company employs hired washed gleamed.",
+    "The book that the student that the teacher that the school hired taught read disappeared.",
+    "The house that the agent that the buyer that the bank employs sold collapsed and burned.",
+    "The dog that the child that the neighbor that the city employs owns barked and growled.",
+    "The tree that the storm that the wind that the season brings uproots fell and crashed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:57:17.008423+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog the mouse the cheese chased hunted ate disappeared.",
+    "The student the professor the book the library recommended borrowed read returned.",
+    "The car the driver the road the accident avoided caused witnessed reported.",
+    "The house the owner the agent the buyer sold inspected negotiated purchased."
+  ],
+  "l1_sentences": [
+    "The cat the dog the mouse the cheese chased hunted ate disappeared.",
+    "The student the professor the book the library recommended borrowed read returned.",
+    "The car the driver the road the accident avoided caused witnessed reported.",
+    "The house the owner the agent the buyer sold inspected negotiated purchased.",
+    "The bird the worm the sky caught ate flew."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog the mouse the cheese chased hunted ate disappeared.\",\n    \"The student the professor the book the library recommended borrowed read returned.\",\n    \"The car the driver the road the accident avoided caused witnessed reported.\",\n    \"The house the owner the agent the buyer sold inspected negotiated purchased.\",\n    \"The bird the worm the sky caught ate flew.\"\n  ]\n}\n```",
+  "run_idx": 12
+}

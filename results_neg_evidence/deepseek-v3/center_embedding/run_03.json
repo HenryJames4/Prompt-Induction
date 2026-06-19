@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cake the baker the chef the apprentice trained supervised decorated disappeared.",
+    "The movie the director the producer the actor hired promoted filmed flopped.",
+    "The car the mechanic the owner the dealer consulted repaired inspected broke.",
+    "The book the author the editor the publisher reviewed revised printed sold.",
+    "The dog the cat the bird chased scratched flew."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with a nested structure where each noun is modified by a subsequent clause (e.g., 'the X the Y the Z verbed verbed verbed'), ensuring each verb correctly aligns with its preceding noun in the chain. Avoid mismatched verb-noun pairs or incomplete chains.\"",
+  "induced_prompt": "\"Generate a sentence with a nested structure where each noun is modified by a subsequent clause (e.g., 'the X the Y the Z verbed verbed verbed'), ensuring each verb correctly aligns with its preceding noun in the chain. Avoid mismatched verb-noun pairs or incomplete chains.\"",
+  "induced_prompt_chars": 275,
+  "induced_prompt_words": 45,
+  "l1_char_total": 359,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the boy the girl petted fed barked.\", \"The cake the baker the customer ordered baked tasted.\", \"The book the author the publisher approved wrote sold.\", \"The car the mechanic the driver hired repaired crashed.\", \"The song the singer the audience cheered performed ended.\"]}",
+  "l2_sentences": [
+    "The dog the boy the girl petted fed barked.",
+    "The cake the baker the customer ordered baked tasted.",
+    "The book the author the publisher approved wrote sold.",
+    "The car the mechanic the driver hired repaired crashed.",
+    "The song the singer the audience cheered performed ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:44:41.961779+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cake the baker the chef the apprentice trained supervised decorated disappeared.",
+    "The movie the director the producer the actor hired promoted filmed flopped.",
+    "The car the mechanic the owner the dealer consulted repaired inspected broke.",
+    "The book the author the editor the publisher reviewed revised printed sold."
+  ],
+  "l1_sentences": [
+    "The cake the baker the chef the apprentice trained supervised decorated disappeared.",
+    "The movie the director the producer the actor hired promoted filmed flopped.",
+    "The car the mechanic the owner the dealer consulted repaired inspected broke.",
+    "The book the author the editor the publisher reviewed revised printed sold.",
+    "The dog the cat the bird chased scratched flew."
+  ],
+  "l1_raw": "{\"sentences\": [\"The cake the baker the chef the apprentice trained supervised decorated disappeared.\", \"The movie the director the producer the actor hired promoted filmed flopped.\", \"The car the mechanic the owner the dealer consulted repaired inspected broke.\", \"The book the author the editor the publisher reviewed revised printed sold.\", \"The dog the cat the bird chased scratched flew.\"]}",
+  "run_idx": 3
+}

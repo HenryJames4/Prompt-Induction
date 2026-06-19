@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student read collapsed.",
+    "The program the engineer wrote crashed.",
+    "The song the band played ended.",
+    "The letter the postman delivered burned.",
+    "The child the dog the cat scratched chased ran."
+  ],
+  "induced_prompt_raw": "Generate simple sentences containing exactly one subject-relative clause (e.g., \"The [noun1] the [noun2] [verb2] [verb1]\"), avoiding double-nested or center-embedded clauses (like \"the N the N the N V V V\").",
+  "induced_prompt": "Generate simple sentences containing exactly one subject-relative clause (e.g., \"The [noun1] the [noun2] [verb2] [verb1]\"), avoiding double-nested or center-embedded clauses (like \"the N the N the N V V V\").",
+  "induced_prompt_chars": 207,
+  "induced_prompt_words": 30,
+  "l1_char_total": 193,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog that chased the cat barked loudly.\",\n    \"The chef who baked the cake won an award.\",\n    \"The teacher who helped the students smiled warmly.\",\n    \"The artist who painted the mural lives nearby.\",\n    \"The athlete who won the race received a gold medal.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog that chased the cat barked loudly.",
+    "The chef who baked the cake won an award.",
+    "The teacher who helped the students smiled warmly.",
+    "The artist who painted the mural lives nearby.",
+    "The athlete who won the race received a gold medal."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:59:22.760418+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student read collapsed.",
+    "The program the engineer wrote crashed.",
+    "The song the band played ended.",
+    "The letter the postman delivered burned."
+  ],
+  "l1_sentences": [
+    "The book the student read collapsed.",
+    "The program the engineer wrote crashed.",
+    "The song the band played ended.",
+    "The letter the postman delivered burned.",
+    "The child the dog the cat scratched chased ran."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student read collapsed.\",\n    \"The program the engineer wrote crashed.\",\n    \"The song the band played ended.\",\n    \"The letter the postman delivered burned.\",\n    \"The child the dog the cat scratched chased ran.\"\n  ]\n}",
+  "run_idx": 28
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the reviewer wrote edited printed sold.",
+    "the car the mechanic the dealer the customer bought fixed sold drove.",
+    "the cake the baker the customer the chef decorated baked served ate.",
+    "the song the singer the producer the band recorded mixed performed played.",
+    "the house the architect the builder the homeowner designed constructed sold moved."
+  ],
+  "induced_prompt_raw": "noun noun noun noun verb verb verb verb",
+  "induced_prompt": "noun noun noun noun verb verb verb verb",
+  "induced_prompt_chars": 39,
+  "induced_prompt_words": 8,
+  "l1_char_total": 366,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The sun moon stars planets shone glittered danced floated\", \"The river stream waterfall lake flowed splashed gurgled sparkled\", \"The book page chapter story read explored understood enjoyed\", \"The car engine wheel tire drove accelerated braked honked\", \"The teacher student class lesson taught explained answered encouraged\"]}",
+  "l2_sentences": [
+    "The sun moon stars planets shone glittered danced floated",
+    "The river stream waterfall lake flowed splashed gurgled sparkled",
+    "The book page chapter story read explored understood enjoyed",
+    "The car engine wheel tire drove accelerated braked honked",
+    "The teacher student class lesson taught explained answered encouraged"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:00:05.224366+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the reviewer wrote edited printed sold.",
+    "the car the mechanic the dealer the customer bought fixed sold drove.",
+    "the cake the baker the customer the chef decorated baked served ate.",
+    "the song the singer the producer the band recorded mixed performed played.",
+    "the house the architect the builder the homeowner designed constructed sold moved."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the reviewer wrote edited printed sold.\", \"the car the mechanic the dealer the customer bought fixed sold drove.\", \"the cake the baker the customer the chef decorated baked served ate.\", \"the song the singer the producer the band recorded mixed performed played.\", \"the house the architect the builder the homeowner designed constructed sold moved.\"]}",
+  "run_idx": 1
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the student the teacher recommended published read vanished",
+    "the movie the director the actor the producer filmed edited screened premiered",
+    "the song the singer the musician the composer recorded performed released disappeared",
+    "the painting the artist the curator the collector admired displayed sold faded",
+    "the software the developer the tester the manager designed debugged deployed crashed"
+  ],
+  "induced_prompt_raw": "The prompt appears to be generating sentences with a **nested relative clause structure**, where each noun is modified by a subsequent clause, leading to a chain of dependencies. Here's a concise prompt that captures this pattern:  \n\n**\"Generate sentences where each noun is modified by a subsequent relative clause, forming a recursive chain, and end with a verb.\"**  \n\nThis avoids copying the examples while preserving the syntactic structure.",
+  "induced_prompt": "The prompt appears to be generating sentences with a **nested relative clause structure**, where each noun is modified by a subsequent clause, leading to a chain of dependencies. Here's a concise prompt that captures this pattern:  \n\n**\"Generate sentences where each noun is modified by a subsequent relative clause, forming a recursive chain, and end with a verb.\"**  \n\nThis avoids copying the examples while preserving the syntactic structure.",
+  "induced_prompt_chars": 445,
+  "induced_prompt_words": 67,
+  "l1_char_total": 404,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The book that contained the map that led to the treasure that was hidden by the pirates disappeared.\", \"The man who owned the dog that chased the cat that climbed the tree shouted.\", \"The teacher who assigned the project that required the research that explored the theory explained.\", \"The woman who bought the dress that was designed by the artist that inspired the collection smiled.\", \"The child who found the toy that belonged to the friend who moved away laughed.\"]}",
+  "l2_sentences": [
+    "The book that contained the map that led to the treasure that was hidden by the pirates disappeared.",
+    "The man who owned the dog that chased the cat that climbed the tree shouted.",
+    "The teacher who assigned the project that required the research that explored the theory explained.",
+    "The woman who bought the dress that was designed by the artist that inspired the collection smiled.",
+    "The child who found the toy that belonged to the friend who moved away laughed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:45:22.197271+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the student the teacher recommended published read vanished",
+    "the movie the director the actor the producer filmed edited screened premiered",
+    "the song the singer the musician the composer recorded performed released disappeared",
+    "the painting the artist the curator the collector admired displayed sold faded",
+    "the software the developer the tester the manager designed debugged deployed crashed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the student the teacher recommended published read vanished\", \"the movie the director the actor the producer filmed edited screened premiered\", \"the song the singer the musician the composer recorded performed released disappeared\", \"the painting the artist the curator the collector admired displayed sold faded\", \"the software the developer the tester the manager designed debugged deployed crashed\"]}",
+  "run_idx": 25
+}

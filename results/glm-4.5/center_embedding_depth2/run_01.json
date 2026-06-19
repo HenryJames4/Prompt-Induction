@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The cat the dog chased escaped.",
+    "The book the student read fascinated.",
+    "The car the mechanic fixed broke.",
+    "The movie the critic reviewed disappointed.",
+    "The house the builder designed collapsed."
+  ],
+  "induced_prompt_raw": "Complex sentences with center-embedded relative clauses.",
+  "induced_prompt": "Complex sentences with center-embedded relative clauses.",
+  "induced_prompt_chars": 56,
+  "induced_prompt_words": 6,
+  "l1_char_total": 185,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog that the boy owned chased climbed the tree.\",\n    \"The book that the professor who the students respected wrote became a bestseller.\",\n    \"The house that the architect who the mayor hired designed won an award.\",\n    \"The car that the mechanic that the dealership employed fixed broke down again.\",\n    \"The painting that the artist who the gallery represented created sold for a million dollars.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog that the boy owned chased climbed the tree.",
+    "The book that the professor who the students respected wrote became a bestseller.",
+    "The house that the architect who the mayor hired designed won an award.",
+    "The car that the mechanic that the dealership employed fixed broke down again.",
+    "The painting that the artist who the gallery represented created sold for a million dollars."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:59:03.423857+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The cat the dog chased escaped.",
+    "The book the student read fascinated.",
+    "The car the mechanic fixed broke.",
+    "The movie the critic reviewed disappointed.",
+    "The house the builder designed collapsed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The book the student read fascinated.\",\n    \"The car the mechanic fixed broke.\",\n    \"The movie the critic reviewed disappointed.\",\n    \"The house the builder designed collapsed.\"\n  ]\n}",
+  "run_idx": 1
+}

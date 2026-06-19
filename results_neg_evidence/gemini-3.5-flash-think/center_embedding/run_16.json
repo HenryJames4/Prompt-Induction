@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic the author the fan praised influenced reviewed failed",
+    "the masterpiece the museum the curator the artist inspired joined displayed survived",
+    "the bill the senator the lobbyist the citizen contacted persuaded sponsored passed",
+    "the patient the doctor the nurse the student assisted paged treated recovered",
+    "the book the critic the author met reviewed failed"
+  ],
+  "induced_prompt_raw": "Generate sentences with a triple center-embedded relative clause structure, consisting of exactly four subject nouns followed by four verbs (N1 N2 N3 N4 V4 V3 V2 V1). Avoid double center-embedded structures that contain only three nouns and three verbs.",
+  "induced_prompt": "Generate sentences with a triple center-embedded relative clause structure, consisting of exactly four subject nouns followed by four verbs (N1 N2 N3 N4 V4 V3 V2 V1). Avoid double center-embedded structures that contain only three nouns and three verbs.",
+  "induced_prompt_chars": 253,
+  "induced_prompt_words": 39,
+  "l1_char_total": 366,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the principal scolded failed lost mattered.\",\n    \"The car the mechanic the boss the owner fired blamed fixed vanished.\",\n    \"The masterpiece the artist the critic the patron hired praised painted burned.\",\n    \"The program the coder the manager the director promoted instructed wrote crashed.\",\n    \"The cheese the rat the cat the dog chased caught nibbled smelled.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book the student the teacher the principal scolded failed lost mattered.",
+    "The car the mechanic the boss the owner fired blamed fixed vanished.",
+    "The masterpiece the artist the critic the patron hired praised painted burned.",
+    "The program the coder the manager the director promoted instructed wrote crashed.",
+    "The cheese the rat the cat the dog chased caught nibbled smelled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:04:33.309934+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic the author the fan praised influenced reviewed failed",
+    "the masterpiece the museum the curator the artist inspired joined displayed survived",
+    "the bill the senator the lobbyist the citizen contacted persuaded sponsored passed",
+    "the patient the doctor the nurse the student assisted paged treated recovered"
+  ],
+  "l1_sentences": [
+    "the book the critic the author the fan praised influenced reviewed failed",
+    "the masterpiece the museum the curator the artist inspired joined displayed survived",
+    "the bill the senator the lobbyist the citizen contacted persuaded sponsored passed",
+    "the patient the doctor the nurse the student assisted paged treated recovered",
+    "the book the critic the author met reviewed failed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the critic the author the fan praised influenced reviewed failed\",\n    \"the masterpiece the museum the curator the artist inspired joined displayed survived\",\n    \"the bill the senator the lobbyist the citizen contacted persuaded sponsored passed\",\n    \"the patient the doctor the nurse the student assisted paged treated recovered\",\n    \"the book the critic the author met reviewed failed\"\n  ]\n}\n```",
+  "run_idx": 16
+}

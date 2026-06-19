@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor recommended sold",
+    "the movie the critic praised flopped",
+    "the cake the baker decorated collapsed",
+    "the car the mechanic repaired started",
+    "the song the producer released topped"
+  ],
+  "induced_prompt_raw": "\"Generate sentences following the pattern: '[noun1] [noun2] [verb1] [verb2]', where noun2 modifies noun1 and verb2 is the result of verb1.\"",
+  "induced_prompt": "\"Generate sentences following the pattern: '[noun1] [noun2] [verb1] [verb2]', where noun2 modifies noun1 and verb2 is the result of verb1.\"",
+  "induced_prompt_chars": 139,
+  "induced_prompt_words": 20,
+  "l1_char_total": 184,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cake frosting melted drip.\", \"The dog leash snapped release.\", \"The car engine roared accelerate.\", \"The book pages flipped scatter.\", \"The tree branch cracked fall.\"]}",
+  "l2_sentences": [
+    "The cake frosting melted drip.",
+    "The dog leash snapped release.",
+    "The car engine roared accelerate.",
+    "The book pages flipped scatter.",
+    "The tree branch cracked fall."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:08:19.765666+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor recommended sold",
+    "the movie the critic praised flopped",
+    "the cake the baker decorated collapsed",
+    "the car the mechanic repaired started",
+    "the song the producer released topped"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor recommended sold\", \"the movie the critic praised flopped\", \"the cake the baker decorated collapsed\", \"the car the mechanic repaired started\", \"the song the producer released topped\"]}",
+  "run_idx": 9
+}

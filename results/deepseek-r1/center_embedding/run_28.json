@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the man the child the woman petted fed walked slept.",
+    "the book the student the teacher the librarian recommended assigned read vanished.",
+    "the car the engine the mechanic the owner hired fixed started broke.",
+    "the house the architect the builder the developer contracted constructed designed collapsed.",
+    "the computer the programmer the analyst the client requested analyzed programmed crashed."
+  ],
+  "induced_prompt_raw": "To generate sentences with the specific syntactic structure observed, the following prompt captures the essence concisely:\n\n**Prompt:**  \n\"Chain of nouns followed by past tense verbs: rightmost noun acts via first verb on noun leftward, recursively, until leftmost noun performs intransitive final verb.\"\n\n### Explanation:\n- **Nouns and Verbs Order:** The structure starts with a sequence of nouns (e.g., \"dog, man, child, woman\") followed by a sequence of past-tense verbs (e.g., \"petted, fed, walked, slept\").\n- **Right-to-Left Action:** The rightmost noun (e.g., \"woman\") is the subject of the first verb (\"petted\") and acts on the noun immediately to its left (\"child\"). This object (\"child\") then becomes the subject of the next verb (\"fed\") and acts on the next leftward noun (\"man\"), repeating the pattern.\n- **Termination:** The leftmost noun (e.g., \"dog\") is the subject of the final verb (\"slept\"), which is intransitive (no object).\n- **Recursion:** Each verb (except the last) transitions the object of the previous action into the subject of the next, moving leftward through the noun list.\n\nThis prompt is **shorter** than the original list (5 sentences) and avoids copying any examples while ensuring the generated structure matches.",
+  "induced_prompt": "To generate sentences with the specific syntactic structure observed, the following prompt captures the essence concisely:\n\n**Prompt:**  \n\"Chain of nouns followed by past tense verbs: rightmost noun acts via first verb on noun leftward, recursively, until leftmost noun performs intransitive final verb.\"\n\n### Explanation:\n- **Nouns and Verbs Order:** The structure starts with a sequence of nouns (e.g., \"dog, man, child, woman\") followed by a sequence of past-tense verbs (e.g., \"petted, fed, walked, slept\").\n- **Right-to-Left Action:** The rightmost noun (e.g., \"woman\") is the subject of the first verb (\"petted\") and acts on the noun immediately to its left (\"child\"). This object (\"child\") then becomes the subject of the next verb (\"fed\") and acts on the next leftward noun (\"man\"), repeating the pattern.\n- **Termination:** The leftmost noun (e.g., \"dog\") is the subject of the final verb (\"slept\"), which is intransitive (no object).\n- **Recursion:** Each verb (except the last) transitions the object of the previous action into the subject of the next, moving leftward through the noun list.\n\nThis prompt is **shorter** than the original list (5 sentences) and avoids copying any examples while ensuring the generated structure matches.",
+  "induced_prompt_chars": 1248,
+  "induced_prompt_words": 190,
+  "l1_char_total": 391,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef prepared the meal, and the meal simmered.\",\n    \"The wind shook the tree, the tree dropped the fruit, and the fruit rolled.\",\n    \"The director instructed the actor, the actor mimicked the stuntman, the stuntman performed the leap, and the leap astonished.\",\n    \"The programmer debugged the code, the code executed the function, and the function completed.\",\n    \"The audience applauded the singer, the singer thanked the band, the band packed the instruments, and the instruments rested.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef prepared the meal, and the meal simmered.",
+    "The wind shook the tree, the tree dropped the fruit, and the fruit rolled.",
+    "The director instructed the actor, the actor mimicked the stuntman, the stuntman performed the leap, and the leap astonished.",
+    "The programmer debugged the code, the code executed the function, and the function completed.",
+    "The audience applauded the singer, the singer thanked the band, the band packed the instruments, and the instruments rested."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:52:45.289554+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the man the child the woman petted fed walked slept.",
+    "the book the student the teacher the librarian recommended assigned read vanished.",
+    "the car the engine the mechanic the owner hired fixed started broke.",
+    "the house the architect the builder the developer contracted constructed designed collapsed.",
+    "the computer the programmer the analyst the client requested analyzed programmed crashed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the man the child the woman petted fed walked slept.\", \"the book the student the teacher the librarian recommended assigned read vanished.\", \"the car the engine the mechanic the owner hired fixed started broke.\", \"the house the architect the builder the developer contracted constructed designed collapsed.\", \"the computer the programmer the analyst the client requested analyzed programmed crashed.\"]}",
+  "run_idx": 28
+}

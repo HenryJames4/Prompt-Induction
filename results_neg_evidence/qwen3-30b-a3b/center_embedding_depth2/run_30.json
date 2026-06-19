@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the letter the manager sent arrived.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked.",
+    "the story the writer told the audience enjoyed the ending."
+  ],
+  "induced_prompt_raw": "Create a sentence with a relative clause modifying a noun, where the main clause has the same subject as the relative clause's subject, and the relative clause ends with a transitive verb followed by its object.",
+  "induced_prompt": "Create a sentence with a relative clause modifying a noun, where the main clause has the same subject as the relative clause's subject, and the relative clause ends with a transitive verb followed by its object.",
+  "induced_prompt_chars": 211,
+  "induced_prompt_words": 36,
+  "l1_char_total": 203,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The student who wrote the essay submitted it on time.\", \"The artist who painted the mural completed it yesterday.\", \"The chef who baked the cake served it at the party.\", \"The writer who edited the manuscript sent it to the publisher.\", \"The athlete who trained for the race won it with ease.\"]}",
+  "l2_sentences": [
+    "The student who wrote the essay submitted it on time.",
+    "The artist who painted the mural completed it yesterday.",
+    "The chef who baked the cake served it at the party.",
+    "The writer who edited the manuscript sent it to the publisher.",
+    "The athlete who trained for the race won it with ease."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T14:00:59.670931+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the letter the manager sent arrived.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the letter the manager sent arrived.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked.",
+    "the story the writer told the audience enjoyed the ending."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the letter the manager sent arrived.\", \"the plan the committee rejected failed.\", \"the idea the scientist proposed worked.\", \"the story the writer told the audience enjoyed the ending.\"]}",
+  "run_idx": 30
+}

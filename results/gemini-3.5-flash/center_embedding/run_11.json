@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the chef the waiter the customer the manager noticed thanked tipped rewarded",
+    "the student the tutor the professor the dean praised questioned helped congratulated",
+    "the child the mother the doctor the nurse called consulted thanked hugged",
+    "the actor the director the agent the producer hired called fired blamed",
+    "the writer the editor the publisher the critic ignored challenged hired praised"
+  ],
+  "induced_prompt_raw": "Generate a sentence with three nested relative clauses where four nouns are followed by four transitive verbs in reverse order of their subjects (syntactic structure: $N_1\\ N_2\\ N_3\\ N_4\\ V_4\\ V_3\\ V_2\\ V_1$).",
+  "induced_prompt": "Generate a sentence with three nested relative clauses where four nouns are followed by four transitive verbs in reverse order of their subjects (syntactic structure: $N_1\\ N_2\\ N_3\\ N_4\\ V_4\\ V_3\\ V_2\\ V_1$).",
+  "induced_prompt_chars": 209,
+  "induced_prompt_words": 33,
+  "l1_char_total": 383,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef the critic the writer the blogger mentioned praised disliked fired.\",\n    \"The dog the cat the rat the beetle chased caught scratched bit.\",\n    \"The student the teacher the principal the superintendent suspended reprimanded questioned thanked.\",\n    \"The artist the collector the dealer the thief targeted outsmarted sued painted.\",\n    \"The child the nurse the doctor the surgeon helped consulted scolded loved.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef the critic the writer the blogger mentioned praised disliked fired.",
+    "The dog the cat the rat the beetle chased caught scratched bit.",
+    "The student the teacher the principal the superintendent suspended reprimanded questioned thanked.",
+    "The artist the collector the dealer the thief targeted outsmarted sued painted.",
+    "The child the nurse the doctor the surgeon helped consulted scolded loved."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:22:27.979840+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the waiter the customer the manager noticed thanked tipped rewarded",
+    "the student the tutor the professor the dean praised questioned helped congratulated",
+    "the child the mother the doctor the nurse called consulted thanked hugged",
+    "the actor the director the agent the producer hired called fired blamed",
+    "the writer the editor the publisher the critic ignored challenged hired praised"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the waiter the customer the manager noticed thanked tipped rewarded\",\n    \"the student the tutor the professor the dean praised questioned helped congratulated\",\n    \"the child the mother the doctor the nurse called consulted thanked hugged\",\n    \"the actor the director the agent the producer hired called fired blamed\",\n    \"the writer the editor the publisher the critic ignored challenged hired praised\"\n  ]\n}",
+  "run_idx": 11
+}

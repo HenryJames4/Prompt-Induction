@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the idea the committee discussed failed.",
+    "the man the woman saw ran.",
+    "the car the driver the passenger saw stopped crashed."
+  ],
+  "induced_prompt_raw": "Generate a sentence: \"the [head noun] the [relative subject] [transitive verb] [main verb]\" where the head noun is the object of the transitive verb, with no nested relative clauses.",
+  "induced_prompt": "Generate a sentence: \"the [head noun] the [relative subject] [transitive verb] [main verb]\" where the head noun is the object of the transitive verb, with no nested relative clauses.",
+  "induced_prompt_chars": 182,
+  "induced_prompt_words": 29,
+  "l1_char_total": 188,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"the book the author wrote sold\",\n    \"the movie the director directed won\",\n    \"the car the mechanic fixed ran\",\n    \"the meal the chef cooked tasted\",\n    \"the house the builder constructed stood\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "the book the author wrote sold",
+    "the movie the director directed won",
+    "the car the mechanic fixed ran",
+    "the meal the chef cooked tasted",
+    "the house the builder constructed stood"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:48:13.752166+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the idea the committee discussed failed.",
+    "the man the woman saw ran."
+  ],
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the idea the committee discussed failed.",
+    "the man the woman saw ran.",
+    "the car the driver the passenger saw stopped crashed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read disappeared.\",\n    \"the idea the committee discussed failed.\",\n    \"the man the woman saw ran.\",\n    \"the car the driver the passenger saw stopped crashed.\"\n  ]\n}\n```",
+  "run_idx": 16
+}

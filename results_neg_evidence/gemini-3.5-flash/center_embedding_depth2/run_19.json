@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the candidate the voters supported won",
+    "the report the manager requested arrived",
+    "the car the mechanic repaired broke",
+    "the song the choir sang echoed",
+    "the chef the kitchen the owner managed hired cooked"
+  ],
+  "induced_prompt_raw": "Generate a simple sentence containing a single object relative clause (e.g., \"[noun] [noun] [verb] [verb]\"), avoiding double embeddings or multiple nested clauses.",
+  "induced_prompt": "Generate a simple sentence containing a single object relative clause (e.g., \"[noun] [noun] [verb] [verb]\"), avoiding double embeddings or multiple nested clauses.",
+  "induced_prompt_chars": 163,
+  "induced_prompt_words": 22,
+  "l1_char_total": 194,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book he read was long.\",\n    \"The car she drove was red.\",\n    \"The song they sang was beautiful.\",\n    \"The dog she found was friendly.\",\n    \"The food he cooked tasted delicious.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book he read was long.",
+    "The car she drove was red.",
+    "The song they sang was beautiful.",
+    "The dog she found was friendly.",
+    "The food he cooked tasted delicious."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:51:11.161834+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the candidate the voters supported won",
+    "the report the manager requested arrived",
+    "the car the mechanic repaired broke",
+    "the song the choir sang echoed"
+  ],
+  "l1_sentences": [
+    "the candidate the voters supported won",
+    "the report the manager requested arrived",
+    "the car the mechanic repaired broke",
+    "the song the choir sang echoed",
+    "the chef the kitchen the owner managed hired cooked"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the candidate the voters supported won\",\n    \"the report the manager requested arrived\",\n    \"the car the mechanic repaired broke\",\n    \"the song the choir sang echoed\",\n    \"the chef the kitchen the owner managed hired cooked\"\n  ]\n}",
+  "run_idx": 19
+}

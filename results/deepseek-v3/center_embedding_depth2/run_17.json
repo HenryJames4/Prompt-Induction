@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cake the baker baked rose",
+    "the song the singer sang resonated",
+    "the letter the writer wrote arrived",
+    "the painting the artist painted sold",
+    "the film the director directed premiered"
+  ],
+  "induced_prompt_raw": "**Prompt:**  \n*\"Generate sentences with a [noun] [relative clause] [verb] structure.\"*  \n\n(Alternatively, if you want it even shorter: *\"Write sentences following 'the X the Y Y-ed V' pattern.\"*)",
+  "induced_prompt": "**Prompt:**  \n*\"Generate sentences with a [noun] [relative clause] [verb] structure.\"*  \n\n(Alternatively, if you want it even shorter: *\"Write sentences following 'the X the Y Y-ed V' pattern.\"*)",
+  "induced_prompt_chars": 195,
+  "induced_prompt_words": 27,
+  "l1_char_total": 174,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The dog the boy saw barked loudly.\", \"The cake the baker made tasted delicious.\", \"The car the mechanic fixed ran smoothly.\", \"The book the librarian recommended inspired readers.\", \"The song the singer performed captivated the audience.\"]}",
+  "l2_sentences": [
+    "The dog the boy saw barked loudly.",
+    "The cake the baker made tasted delicious.",
+    "The car the mechanic fixed ran smoothly.",
+    "The book the librarian recommended inspired readers.",
+    "The song the singer performed captivated the audience."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:17:41.496179+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the baker baked rose",
+    "the song the singer sang resonated",
+    "the letter the writer wrote arrived",
+    "the painting the artist painted sold",
+    "the film the director directed premiered"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the baker baked rose\", \"the song the singer sang resonated\", \"the letter the writer wrote arrived\", \"the painting the artist painted sold\", \"the film the director directed premiered\"]}",
+  "run_idx": 17
+}

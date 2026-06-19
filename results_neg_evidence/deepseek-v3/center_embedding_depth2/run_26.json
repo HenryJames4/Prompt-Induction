@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the editor recommended sold",
+    "the song the musician composed played",
+    "the cake the baker decorated tasted",
+    "the story the writer drafted published",
+    "the painting the artist the gallery displayed admired sold"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a nested structure where a noun is modified by a clause containing a subject and verb, followed by a main verb. Avoid stacking multiple nested clauses.\"",
+  "induced_prompt": "\"Generate sentences with a nested structure where a noun is modified by a clause containing a subject and verb, followed by a main verb. Avoid stacking multiple nested clauses.\"",
+  "induced_prompt_chars": 177,
+  "induced_prompt_words": 29,
+  "l1_char_total": 204,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that he recommended was fascinating.\", \"The car that she drives is very expensive.\", \"The cake that they baked tasted delicious.\", \"The movie that we watched last night was thrilling.\", \"The dog that barks loudly belongs to my neighbor.\"]}",
+  "l2_sentences": [
+    "The book that he recommended was fascinating.",
+    "The car that she drives is very expensive.",
+    "The cake that they baked tasted delicious.",
+    "The movie that we watched last night was thrilling.",
+    "The dog that barks loudly belongs to my neighbor."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:57:01.146482+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the editor recommended sold",
+    "the song the musician composed played",
+    "the cake the baker decorated tasted",
+    "the story the writer drafted published"
+  ],
+  "l1_sentences": [
+    "the book the editor recommended sold",
+    "the song the musician composed played",
+    "the cake the baker decorated tasted",
+    "the story the writer drafted published",
+    "the painting the artist the gallery displayed admired sold"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor recommended sold\", \"the song the musician composed played\", \"the cake the baker decorated tasted\", \"the story the writer drafted published\", \"the painting the artist the gallery displayed admired sold\"]}",
+  "run_idx": 26
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the car the driver the student the teacher instructed advised crashed burned.",
+    "the cake the baker the customer the chef served praised baked disappeared.",
+    "the letter the secretary the manager the boss promoted instructed typed arrived.",
+    "the novel the writer the agent the fan admired represented wrote succeeded.",
+    "the team the coach the player the captain selected impressed led won."
+  ],
+  "induced_prompt_raw": "Four nouns and four verbs: the last acts on the third, the third on the second, the second on the first, and the first undergoes an event.",
+  "induced_prompt": "Four nouns and four verbs: the last acts on the third, the third on the second, the second on the first, and the first undergoes an event.",
+  "induced_prompt_chars": 138,
+  "induced_prompt_words": 27,
+  "l1_char_total": 375,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The sun heats the wind.\",\n    \"The wind blows the tree.\",\n    \"The tree pushes the rock.\",\n    \"The rock breaks.\",\n    \"The rock breaks completely.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The sun heats the wind.",
+    "The wind blows the tree.",
+    "The tree pushes the rock.",
+    "The rock breaks.",
+    "The rock breaks completely."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:40:15.131393+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the driver the student the teacher instructed advised crashed burned.",
+    "the cake the baker the customer the chef served praised baked disappeared.",
+    "the letter the secretary the manager the boss promoted instructed typed arrived.",
+    "the novel the writer the agent the fan admired represented wrote succeeded.",
+    "the team the coach the player the captain selected impressed led won."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the driver the student the teacher instructed advised crashed burned.\",\n    \"the cake the baker the customer the chef served praised baked disappeared.\",\n    \"the letter the secretary the manager the boss promoted instructed typed arrived.\",\n    \"the novel the writer the agent the fan admired represented wrote succeeded.\",\n    \"the team the coach the player the captain selected impressed led won.\"\n  ]\n}\n```",
+  "run_idx": 21
+}

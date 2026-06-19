@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the bird the mouse chased caught sang slept.",
+    "the king the knight the squire the page commanded obeyed served ruled.",
+    "the car the driver the passenger the child saw drove arrived broke.",
+    "the book the student the professor the librarian recommended read returned vanished.",
+    "the cake the baker the assistant the customer ordered prepared delivered cooled."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with four noun phrases, each starting with 'the', followed by four verbs. The structure should be: the first noun, the second noun, the third noun, the fourth noun, then verb1 (performed by the fourth noun on the third), verb2 (by the third on the second), verb3 (by the second on the first), and verb4 (by the first noun).\"",
+  "induced_prompt": "\"Generate a sentence with four noun phrases, each starting with 'the', followed by four verbs. The structure should be: the first noun, the second noun, the third noun, the fourth noun, then verb1 (performed by the fourth noun on the third), verb2 (by the third on the second), verb3 (by the second on the first), and verb4 (by the first noun).\"",
+  "induced_prompt_chars": 345,
+  "induced_prompt_words": 61,
+  "l1_char_total": 361,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The king, the knight, the dragon, the princess subdued, obeyed, protected, reigned.\", \"The tree, the squirrel, the acorn, the storm dislodged, struck, climbed, swayed.\", \"The teacher, the student, the textbook, the author revised, studied, assisted, lectured.\", \"The mountain, the hiker, the path, the landslide buried, blocked, ascended, towered.\", \"The chef, the customer, the meal, the waiter served, enjoyed, thanked, cooked.\"]}",
+  "l2_sentences": [
+    "The king, the knight, the dragon, the princess subdued, obeyed, protected, reigned.",
+    "The tree, the squirrel, the acorn, the storm dislodged, struck, climbed, swayed.",
+    "The teacher, the student, the textbook, the author revised, studied, assisted, lectured.",
+    "The mountain, the hiker, the path, the landslide buried, blocked, ascended, towered.",
+    "The chef, the customer, the meal, the waiter served, enjoyed, thanked, cooked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:04:46.651784+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the bird the mouse chased caught sang slept.",
+    "the king the knight the squire the page commanded obeyed served ruled.",
+    "the car the driver the passenger the child saw drove arrived broke.",
+    "the book the student the professor the librarian recommended read returned vanished.",
+    "the cake the baker the assistant the customer ordered prepared delivered cooled."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the cat the bird the mouse chased caught sang slept.\", \"the king the knight the squire the page commanded obeyed served ruled.\", \"the car the driver the passenger the child saw drove arrived broke.\", \"the book the student the professor the librarian recommended read returned vanished.\", \"the cake the baker the assistant the customer ordered prepared delivered cooled.\"]}",
+  "run_idx": 4
+}

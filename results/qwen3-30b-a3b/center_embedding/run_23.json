@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the editor the publisher read corrected published vanished",
+    "the letter the clerk the secretary the manager wrote signed forwarded disappeared",
+    "the document the typist the assistant the director reviewed finalized submitted vanished",
+    "the proposal the intern the analyst the supervisor drafted evaluated presented disappeared",
+    "the file the employee the coordinator the administrator accessed updated uploaded vanished"
+  ],
+  "induced_prompt_raw": "A sequence of actions involving multiple roles processing a item until it disappears",
+  "induced_prompt": "A sequence of actions involving multiple roles processing a item until it disappears",
+  "induced_prompt_chars": 84,
+  "induced_prompt_words": 13,
+  "l1_char_total": 427,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"A chef prepares a piece of raw meat on a cutting board.\", \"A cook slices the meat into thin strips and places it in a bowl.\", \"A server carries the bowl to the dining table and sets it before a guest.\", \"The guest uses chopsticks to eat the meat, reducing it to small fragments.\", \"As the last bite is consumed, the plate is empty and the item has disappeared.\"] }",
+  "l2_sentences": [
+    "A chef prepares a piece of raw meat on a cutting board.",
+    "A cook slices the meat into thin strips and places it in a bowl.",
+    "A server carries the bowl to the dining table and sets it before a guest.",
+    "The guest uses chopsticks to eat the meat, reducing it to small fragments.",
+    "As the last bite is consumed, the plate is empty and the item has disappeared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:42:32.488999+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the editor the publisher read corrected published vanished",
+    "the letter the clerk the secretary the manager wrote signed forwarded disappeared",
+    "the document the typist the assistant the director reviewed finalized submitted vanished",
+    "the proposal the intern the analyst the supervisor drafted evaluated presented disappeared",
+    "the file the employee the coordinator the administrator accessed updated uploaded vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher read corrected published vanished\", \"the letter the clerk the secretary the manager wrote signed forwarded disappeared\", \"the document the typist the assistant the director reviewed finalized submitted vanished\", \"the proposal the intern the analyst the supervisor drafted evaluated presented disappeared\", \"the file the employee the coordinator the administrator accessed updated uploaded vanished\"]}",
+  "run_idx": 23
+}

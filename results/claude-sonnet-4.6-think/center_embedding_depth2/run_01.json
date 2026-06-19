@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The bill the senator introduced failed.",
+    "The cake the chef baked burned.",
+    "The dog the owner trained obeyed.",
+    "The letter the student wrote vanished.",
+    "The bridge the engineer designed collapsed."
+  ],
+  "induced_prompt_raw": "Write sentences using center-embedded relative clauses, where a subject noun is modified by a clause (\"the [noun] the [noun] [verb]\") followed by a single intransitive main verb.",
+  "induced_prompt": "Write sentences using center-embedded relative clauses, where a subject noun is modified by a clause (\"the [noun] the [noun] [verb]\") followed by a single intransitive main verb.",
+  "induced_prompt_chars": 178,
+  "induced_prompt_words": 27,
+  "l1_char_total": 184,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The rat the cat chased ran.\", \"The dog the child startled barked.\", \"The deer the wolf stalked fled.\", \"The fish the heron hunted escaped.\", \"The bird the hawk pursued disappeared.\"]}\n```",
+  "l2_sentences": [
+    "The rat the cat chased ran.",
+    "The dog the child startled barked.",
+    "The deer the wolf stalked fled.",
+    "The fish the heron hunted escaped.",
+    "The bird the hawk pursued disappeared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:35:44.560527+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The bill the senator introduced failed.",
+    "The cake the chef baked burned.",
+    "The dog the owner trained obeyed.",
+    "The letter the student wrote vanished.",
+    "The bridge the engineer designed collapsed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The bill the senator introduced failed.\", \"The cake the chef baked burned.\", \"The dog the owner trained obeyed.\", \"The letter the student wrote vanished.\", \"The bridge the engineer designed collapsed.\"]}\n```",
+  "run_idx": 1
+}

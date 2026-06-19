@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the artist the crowd admired bowed",
+    "the chef the critic praised smiled",
+    "the author the editor helped wrote",
+    "the student the teacher helped failed",
+    "the patient the doctor treated died"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with the syntactic structure: [Noun Phrase 1] [Noun Phrase 2] [Transitive Verb] [Intransitive Verb], where Noun Phrase 2 and the transitive verb form a reduced relative clause modifying Noun Phrase 1.\"",
+  "induced_prompt": "\"Generate sentences with the syntactic structure: [Noun Phrase 1] [Noun Phrase 2] [Transitive Verb] [Intransitive Verb], where Noun Phrase 2 and the transitive verb form a reduced relative clause modifying Noun Phrase 1.\"",
+  "induced_prompt_chars": 221,
+  "induced_prompt_words": 33,
+  "l1_char_total": 174,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The letter the boy wrote disappeared.\",\n    \"The house the fire destroyed collapsed.\",\n    \"The path the guide chose vanished.\",\n    \"The toy the child broke fell.\",\n    \"The song the choir sang ended.\"\n  ]\n}",
+  "l2_sentences": [
+    "The letter the boy wrote disappeared.",
+    "The house the fire destroyed collapsed.",
+    "The path the guide chose vanished.",
+    "The toy the child broke fell.",
+    "The song the choir sang ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:44:29.370797+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the artist the crowd admired bowed",
+    "the chef the critic praised smiled",
+    "the author the editor helped wrote",
+    "the student the teacher helped failed",
+    "the patient the doctor treated died"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the artist the crowd admired bowed\",\n    \"the chef the critic praised smiled\",\n    \"the author the editor helped wrote\",\n    \"the student the teacher helped failed\",\n    \"the patient the doctor treated died\"\n  ]\n}",
+  "run_idx": 30
+}

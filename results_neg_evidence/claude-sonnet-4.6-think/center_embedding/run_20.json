@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the professor the student the librarian recommended impressed cited sold",
+    "the proposal the manager the analyst the intern helped convinced submitted succeeded",
+    "the paper the journal the reviewer the author contacted recommended published circulated",
+    "the law the judge the lawyer the witness convinced persuaded upheld passed",
+    "the book the professor the student recommended impressed sold"
+  ],
+  "induced_prompt_raw": "Generate multiply center-embedded relative clause sentences with **exactly four noun phrases** followed by **exactly four verbs**, where each verb corresponds to its noun phrase in reverse order (structure: NP1 NP2 NP3 NP4 V4 V3 V2 V1). Do not use only three noun phrase-verb pairs.",
+  "induced_prompt": "Generate multiply center-embedded relative clause sentences with **exactly four noun phrases** followed by **exactly four verbs**, where each verb corresponds to its noun phrase in reverse order (structure: NP1 NP2 NP3 NP4 V4 V3 V2 V1). Do not use only three noun phrase-verb pairs.",
+  "induced_prompt_chars": 282,
+  "induced_prompt_words": 44,
+  "l1_char_total": 388,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog the rat the mouse scared bit chased fled.\", \"The reporter the senator the lobbyist the activist contacted hired interviewed left.\", \"The book the student the professor the dean praised assigned read disappeared.\", \"The woman the man the child the teacher taught helped loved smiled.\", \"The cake the chef the critic the journalist interviewed praised baked vanished.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog the rat the mouse scared bit chased fled.",
+    "The reporter the senator the lobbyist the activist contacted hired interviewed left.",
+    "The book the student the professor the dean praised assigned read disappeared.",
+    "The woman the man the child the teacher taught helped loved smiled.",
+    "The cake the chef the critic the journalist interviewed praised baked vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:11:10.603796+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the professor the student the librarian recommended impressed cited sold",
+    "the proposal the manager the analyst the intern helped convinced submitted succeeded",
+    "the paper the journal the reviewer the author contacted recommended published circulated",
+    "the law the judge the lawyer the witness convinced persuaded upheld passed"
+  ],
+  "l1_sentences": [
+    "the book the professor the student the librarian recommended impressed cited sold",
+    "the proposal the manager the analyst the intern helped convinced submitted succeeded",
+    "the paper the journal the reviewer the author contacted recommended published circulated",
+    "the law the judge the lawyer the witness convinced persuaded upheld passed",
+    "the book the professor the student recommended impressed sold"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the professor the student the librarian recommended impressed cited sold\",\n    \"the proposal the manager the analyst the intern helped convinced submitted succeeded\",\n    \"the paper the journal the reviewer the author contacted recommended published circulated\",\n    \"the law the judge the lawyer the witness convinced persuaded upheld passed\",\n    \"the book the professor the student recommended impressed sold\"\n  ]\n}\n```",
+  "run_idx": 20
+}

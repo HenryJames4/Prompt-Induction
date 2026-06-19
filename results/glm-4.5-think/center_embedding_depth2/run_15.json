@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the letter the secretary typed arrived.",
+    "the car the mechanic fixed started.",
+    "the problem the committee solved vanished."
+  ],
+  "induced_prompt_raw": "Subject with embedded relative clause without pronoun and main verb.",
+  "induced_prompt": "Subject with embedded relative clause without pronoun and main verb.",
+  "induced_prompt_chars": 68,
+  "induced_prompt_words": 10,
+  "l1_char_total": 185,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The woman wearing a red dress crossed the street.\",\n    \"The house built in 1920 needs renovation.\",\n    \"The boy kicked by the ball started crying.\",\n    \"The car parked illegally received a ticket.\",\n    \"The student studying diligently passed the exam.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The woman wearing a red dress crossed the street.",
+    "The house built in 1920 needs renovation.",
+    "The boy kicked by the ball started crying.",
+    "The car parked illegally received a ticket.",
+    "The student studying diligently passed the exam."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:15:43.065191+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the letter the secretary typed arrived.",
+    "the car the mechanic fixed started.",
+    "the problem the committee solved vanished."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read disappeared.\",\n    \"the letter the secretary typed arrived.\",\n    \"the car the mechanic fixed started.\",\n    \"the problem the committee solved vanished.\"\n  ]\n}\n```",
+  "run_idx": 15
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the man the woman kicked petted drove read.",
+    "the child the car the house the book wrote painted saw heard.",
+    "the computer the tree the flower the bird ate drank built planted.",
+    "the student the teacher the doctor the lawyer watered watched liked loved.",
+    "the president the actor the artist the engineer hated admired called visited."
+  ],
+  "induced_prompt_raw": "Four 'the [noun]' phrases and four past tense verbs.",
+  "induced_prompt": "Four 'the [noun]' phrases and four past tense verbs.",
+  "induced_prompt_chars": 52,
+  "induced_prompt_words": 9,
+  "l1_char_total": 337,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog ran.\", \"The cat jumped.\", \"The car drove.\", \"The house slept.\", \"The dog slept.\"]}",
+  "l2_sentences": [
+    "The dog ran.",
+    "The cat jumped.",
+    "The car drove.",
+    "The house slept.",
+    "The dog slept."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:43:38.999820+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the man the woman kicked petted drove read.",
+    "the child the car the house the book wrote painted saw heard.",
+    "the computer the tree the flower the bird ate drank built planted.",
+    "the student the teacher the doctor the lawyer watered watched liked loved.",
+    "the president the actor the artist the engineer hated admired called visited."
+  ],
+  "l1_raw": "{\"sentences\": [\"the cat the dog the man the woman kicked petted drove read.\", \"the child the car the house the book wrote painted saw heard.\", \"the computer the tree the flower the bird ate drank built planted.\", \"the student the teacher the doctor the lawyer watered watched liked loved.\", \"the president the actor the artist the engineer hated admired called visited.\"]}",
+  "run_idx": 22
+}

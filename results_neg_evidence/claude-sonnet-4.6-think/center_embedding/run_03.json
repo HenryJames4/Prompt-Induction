@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the proposal the manager the analyst the intern contacted impressed approved succeeded",
+    "the cake the chef the baker the apprentice helped trained baked disappeared",
+    "the bill the senator the aide the lobbyist contacted persuaded signed passed",
+    "the trophy the athlete the coach the trainer motivated trained won gleamed",
+    "the book the professor the student impressed assigned sold"
+  ],
+  "induced_prompt_raw": "**Prompt:**\n\nWrite sentences using exactly 4 levels of center-embedded (nested) relative clauses: list 4 noun phrases in sequence, then 4 verbs in sequence. The innermost NP acts on the next, each acting outward, with the outermost NP taking a final intransitive verb. Do not use only 3 noun phrases and 3 verbs.",
+  "induced_prompt": "**Prompt:**\n\nWrite sentences using exactly 4 levels of center-embedded (nested) relative clauses: list 4 noun phrases in sequence, then 4 verbs in sequence. The innermost NP acts on the next, each acting outward, with the outermost NP taking a final intransitive verb. Do not use only 3 noun phrases and 3 verbs.",
+  "induced_prompt_chars": 312,
+  "induced_prompt_words": 52,
+  "l1_char_total": 369,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The rat that the cat that the dog that the man hit chased ate died.\", \"The book that the student that the professor that the dean hired taught read disappeared.\", \"The cake that the child that the mother that the father called scolded ate crumbled.\", \"The song that the musician that the producer that the label signed hired recorded charted.\", \"The trophy that the athlete that the coach that the sponsor funded trained won gleamed.\"]}\n```",
+  "l2_sentences": [
+    "The rat that the cat that the dog that the man hit chased ate died.",
+    "The book that the student that the professor that the dean hired taught read disappeared.",
+    "The cake that the child that the mother that the father called scolded ate crumbled.",
+    "The song that the musician that the producer that the label signed hired recorded charted.",
+    "The trophy that the athlete that the coach that the sponsor funded trained won gleamed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:44:30.850375+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the proposal the manager the analyst the intern contacted impressed approved succeeded",
+    "the cake the chef the baker the apprentice helped trained baked disappeared",
+    "the bill the senator the aide the lobbyist contacted persuaded signed passed",
+    "the trophy the athlete the coach the trainer motivated trained won gleamed"
+  ],
+  "l1_sentences": [
+    "the proposal the manager the analyst the intern contacted impressed approved succeeded",
+    "the cake the chef the baker the apprentice helped trained baked disappeared",
+    "the bill the senator the aide the lobbyist contacted persuaded signed passed",
+    "the trophy the athlete the coach the trainer motivated trained won gleamed",
+    "the book the professor the student impressed assigned sold"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the proposal the manager the analyst the intern contacted impressed approved succeeded\",\n    \"the cake the chef the baker the apprentice helped trained baked disappeared\",\n    \"the bill the senator the aide the lobbyist contacted persuaded signed passed\",\n    \"the trophy the athlete the coach the trainer motivated trained won gleamed\",\n    \"the book the professor the student impressed assigned sold\"\n  ]\n}\n```",
+  "run_idx": 3
+}

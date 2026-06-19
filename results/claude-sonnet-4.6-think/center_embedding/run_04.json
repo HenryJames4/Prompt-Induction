@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the critic the student impressed praised wrote sold.",
+    "the project the director the manager the intern assisted supervised funded succeeded.",
+    "the contract the lawyer the clerk the client hired briefed signed expired.",
+    "the meal the chef the cook the farmer supplied trained prepared disappeared.",
+    "the award the judge the artist the critic praised impressed presented gleamed."
+  ],
+  "induced_prompt_raw": "Write sentences with quadruply center-embedded relative clauses, where four noun phrases appear consecutively followed by four verbs in reverse dependency order.",
+  "induced_prompt": "Write sentences with quadruply center-embedded relative clauses, where four noun phrases appear consecutively followed by four verbs in reverse dependency order.",
+  "induced_prompt_chars": 161,
+  "induced_prompt_words": 21,
+  "l1_char_total": 385,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat that the dog that the rat that the man caught chased bit died.\",\n    \"The professor that the student that the paper that the committee reviewed impressed satisfied retired.\",\n    \"The house that the builder that the architect that the client approved hired constructed collapsed.\",\n    \"The bill that the senator that the lobbyist that the company funded influenced passed failed.\",\n    \"The symphony that the conductor that the musician that the teacher trained impressed led succeeded.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the rat that the man caught chased bit died.",
+    "The professor that the student that the paper that the committee reviewed impressed satisfied retired.",
+    "The house that the builder that the architect that the client approved hired constructed collapsed.",
+    "The bill that the senator that the lobbyist that the company funded influenced passed failed.",
+    "The symphony that the conductor that the musician that the teacher trained impressed led succeeded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:18:10.945067+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the critic the student impressed praised wrote sold.",
+    "the project the director the manager the intern assisted supervised funded succeeded.",
+    "the contract the lawyer the clerk the client hired briefed signed expired.",
+    "the meal the chef the cook the farmer supplied trained prepared disappeared.",
+    "the award the judge the artist the critic praised impressed presented gleamed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the author the critic the student impressed praised wrote sold.\",\n    \"the project the director the manager the intern assisted supervised funded succeeded.\",\n    \"the contract the lawyer the clerk the client hired briefed signed expired.\",\n    \"the meal the chef the cook the farmer supplied trained prepared disappeared.\",\n    \"the award the judge the artist the critic praised impressed presented gleamed.\"\n  ]\n}\n```",
+  "run_idx": 4
+}

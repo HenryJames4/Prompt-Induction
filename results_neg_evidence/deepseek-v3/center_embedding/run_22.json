@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cake the chef the baker the apprentice baked decorated served disappeared.",
+    "The memo the manager the secretary the intern wrote reviewed forwarded vanished.",
+    "The project the team the leader the consultant planned executed presented failed.",
+    "The book the author the editor the publisher wrote revised printed sold.",
+    "The car the driver the mechanic repaired drove crashed."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with nested relative clauses where each clause modifies the preceding noun, ensuring all verbs align correctly and the structure remains grammatically sound.\"",
+  "induced_prompt": "\"Generate a sentence with nested relative clauses where each clause modifies the preceding noun, ensuring all verbs align correctly and the structure remains grammatically sound.\"",
+  "induced_prompt_chars": 179,
+  "induced_prompt_words": 25,
+  "l1_char_total": 366,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that the librarian who the principal hired recommended is fascinating.\", \"The dog that the neighbor who the landlord warned owns barked loudly.\", \"The cake that the baker who the manager praised made was delicious.\", \"The car that the mechanic who the owner trusted fixed runs smoothly.\", \"The painting that the artist who the curator admired created is stunning.\"]}",
+  "l2_sentences": [
+    "The book that the librarian who the principal hired recommended is fascinating.",
+    "The dog that the neighbor who the landlord warned owns barked loudly.",
+    "The cake that the baker who the manager praised made was delicious.",
+    "The car that the mechanic who the owner trusted fixed runs smoothly.",
+    "The painting that the artist who the curator admired created is stunning."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:14:18.851942+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cake the chef the baker the apprentice baked decorated served disappeared.",
+    "The memo the manager the secretary the intern wrote reviewed forwarded vanished.",
+    "The project the team the leader the consultant planned executed presented failed.",
+    "The book the author the editor the publisher wrote revised printed sold."
+  ],
+  "l1_sentences": [
+    "The cake the chef the baker the apprentice baked decorated served disappeared.",
+    "The memo the manager the secretary the intern wrote reviewed forwarded vanished.",
+    "The project the team the leader the consultant planned executed presented failed.",
+    "The book the author the editor the publisher wrote revised printed sold.",
+    "The car the driver the mechanic repaired drove crashed."
+  ],
+  "l1_raw": "{\"sentences\": [\"The cake the chef the baker the apprentice baked decorated served disappeared.\", \"The memo the manager the secretary the intern wrote reviewed forwarded vanished.\", \"The project the team the leader the consultant planned executed presented failed.\", \"The book the author the editor the publisher wrote revised printed sold.\", \"The car the driver the mechanic repaired drove crashed.\"]}",
+  "run_idx": 22
+}

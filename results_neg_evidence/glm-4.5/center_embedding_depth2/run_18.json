@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the storm damaged collapsed",
+    "the movie the critic reviewed won awards",
+    "the car the mechanic the owner hired repaired broke down"
+  ],
+  "induced_prompt_raw": "Generate sentences with one relative clause nested inside another, where each clause modifies the noun immediately preceding it.",
+  "induced_prompt": "Generate sentences with one relative clause nested inside another, where each clause modifies the noun immediately preceding it.",
+  "induced_prompt_chars": 128,
+  "induced_prompt_words": 18,
+  "l1_char_total": 200,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book that I bought yesterday which was written by a famous author is on the table.\",\n    \"The car that my father drives which is very old needs to be replaced.\",\n    \"The house that they built last year which has a red roof is for sale.\",\n    \"The movie that we watched last night which won several awards was quite boring.\",\n    \"The restaurant that we visited last week which serves Italian food is very popular.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book that I bought yesterday which was written by a famous author is on the table.",
+    "The car that my father drives which is very old needs to be replaced.",
+    "The house that they built last year which has a red roof is for sale.",
+    "The movie that we watched last night which won several awards was quite boring.",
+    "The restaurant that we visited last week which serves Italian food is very popular."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:50:12.194759+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the storm damaged collapsed",
+    "the movie the critic reviewed won awards"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased ran",
+    "the book the student read was interesting",
+    "the house the storm damaged collapsed",
+    "the movie the critic reviewed won awards",
+    "the car the mechanic the owner hired repaired broke down"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased ran\",\n    \"the book the student read was interesting\",\n    \"the house the storm damaged collapsed\",\n    \"the movie the critic reviewed won awards\",\n    \"the car the mechanic the owner hired repaired broke down\"\n  ]\n}",
+  "run_idx": 18
+}

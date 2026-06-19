@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed delivered disappeared.",
+    "the document the clerk the supervisor the director examined approved forwarded vanished.",
+    "the proposal the intern the assistant the manager the director presented accepted submitted failed.",
+    "the story the writer the editor the publisher the reader enjoyed published released."
+  ],
+  "induced_prompt_raw": "Create a sentence with a chain of nested clauses where each subject performs an action on an object, ending with a final verb that describes the object's disappearance or failure, using a consistent hierarchical structure.",
+  "induced_prompt": "Create a sentence with a chain of nested clauses where each subject performs an action on an object, ending with a final verb that describes the object's disappearance or failure, using a consistent hierarchical structure.",
+  "induced_prompt_chars": 222,
+  "induced_prompt_words": 35,
+  "l1_char_total": 438,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The child, who had been drawing on the paper with a crayon, tore the paper, which had been placed on the table, causing the drawing to vanish into the air.\", \"The artist, who had been sketching the landscape on the canvas, painted over it, which had been stretched across the easel, making the image disappear into the shadows.\", \"The librarian, who had been shelving the book on the shelf, removed it, which had been placed between two others, causing the title to fade from memory.\", \"The chef, who had been seasoning the dish on the plate, stirred it, which had been arranged on the table, making the flavor vanish into the steam.\", \"The writer, who had been typing the story on the screen, deleted the file, which had been saved on the drive, resulting in the words disappearing into the void.\"]}",
+  "l2_sentences": [
+    "The child, who had been drawing on the paper with a crayon, tore the paper, which had been placed on the table, causing the drawing to vanish into the air.",
+    "The artist, who had been sketching the landscape on the canvas, painted over it, which had been stretched across the easel, making the image disappear into the shadows.",
+    "The librarian, who had been shelving the book on the shelf, removed it, which had been placed between two others, causing the title to fade from memory.",
+    "The chef, who had been seasoning the dish on the plate, stirred it, which had been arranged on the table, making the flavor vanish into the steam.",
+    "The writer, who had been typing the story on the screen, deleted the file, which had been saved on the drive, resulting in the words disappearing into the void."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:17:58.396277+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed delivered disappeared.",
+    "the document the clerk the supervisor the director examined approved forwarded vanished.",
+    "the proposal the intern the assistant the manager the director presented accepted submitted failed."
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the librarian borrowed read returned vanished.",
+    "the letter the secretary the manager the director reviewed signed delivered disappeared.",
+    "the document the clerk the supervisor the director examined approved forwarded vanished.",
+    "the proposal the intern the assistant the manager the director presented accepted submitted failed.",
+    "the story the writer the editor the publisher the reader enjoyed published released."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian borrowed read returned vanished.\", \"the letter the secretary the manager the director reviewed signed delivered disappeared.\", \"the document the clerk the supervisor the director examined approved forwarded vanished.\", \"the proposal the intern the assistant the manager the director presented accepted submitted failed.\", \"the story the writer the editor the publisher the reader enjoyed published released.\"] }",
+  "run_idx": 24
+}

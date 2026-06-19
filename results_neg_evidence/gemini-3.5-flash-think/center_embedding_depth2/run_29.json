@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The doctor the nurse helped graduated.",
+    "The book the student read disappeared.",
+    "The dog the boy adopted barked.",
+    "The cake the baker decorated collapsed.",
+    "The rat the cat the dog chased killed died."
+  ],
+  "induced_prompt_raw": "Generate sentences containing exactly one center-embedded object relative clause modifying the main subject (e.g., \"The [noun] the [noun] [verb] [verb]\"). Avoid double or nested center-embeddings.",
+  "induced_prompt": "Generate sentences containing exactly one center-embedded object relative clause modifying the main subject (e.g., \"The [noun] the [noun] [verb] [verb]\"). Avoid double or nested center-embeddings.",
+  "induced_prompt_chars": 196,
+  "induced_prompt_words": 25,
+  "l1_char_total": 189,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The baker the boy helped smiled.\",\n    \"The book the girl read fell.\",\n    \"The car the man bought broke.\",\n    \"The teacher the children loved retired.\",\n    \"The chef the critic praised bowed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The baker the boy helped smiled.",
+    "The book the girl read fell.",
+    "The car the man bought broke.",
+    "The teacher the children loved retired.",
+    "The chef the critic praised bowed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:59:42.262722+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The doctor the nurse helped graduated.",
+    "The book the student read disappeared.",
+    "The dog the boy adopted barked.",
+    "The cake the baker decorated collapsed."
+  ],
+  "l1_sentences": [
+    "The doctor the nurse helped graduated.",
+    "The book the student read disappeared.",
+    "The dog the boy adopted barked.",
+    "The cake the baker decorated collapsed.",
+    "The rat the cat the dog chased killed died."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The doctor the nurse helped graduated.\",\n    \"The book the student read disappeared.\",\n    \"The dog the boy adopted barked.\",\n    \"The cake the baker decorated collapsed.\",\n    \"The rat the cat the dog chased killed died.\"\n  ]\n}",
+  "run_idx": 29
+}

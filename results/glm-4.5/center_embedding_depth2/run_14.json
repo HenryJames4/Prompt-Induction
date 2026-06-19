@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the car the mechanic repaired broke.",
+    "the tree the wind blew fell.",
+    "the letter the secretary sent arrived."
+  ],
+  "induced_prompt_raw": "Subject, relative clause, verb.",
+  "induced_prompt": "Subject, relative clause, verb.",
+  "induced_prompt_chars": 31,
+  "induced_prompt_words": 4,
+  "l1_char_total": 171,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat, which was sleeping on the couch, suddenly woke up.\",\n    \"The book, which I borrowed from the library, needs to be returned.\",\n    \"The children, who were playing in the park, ran home when it started to rain.\",\n    \"The car, which had been parked illegally, was towed away.\",\n    \"The teacher, who had been explaining the concept, asked if there were any questions.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat, which was sleeping on the couch, suddenly woke up.",
+    "The book, which I borrowed from the library, needs to be returned.",
+    "The children, who were playing in the park, ran home when it started to rain.",
+    "The car, which had been parked illegally, was towed away.",
+    "The teacher, who had been explaining the concept, asked if there were any questions."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:14:36.012650+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the car the mechanic repaired broke.",
+    "the tree the wind blew fell.",
+    "the letter the secretary sent arrived."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read disappeared.\",\n    \"the car the mechanic repaired broke.\",\n    \"the tree the wind blew fell.\",\n    \"the letter the secretary sent arrived.\"\n  ]\n}",
+  "run_idx": 14
+}

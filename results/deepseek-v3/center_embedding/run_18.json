@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the librarian the student the professor recommended returned borrowed disappeared",
+    "the cake the baker the chef the customer prepared decorated served enjoyed",
+    "the letter the secretary the manager the director wrote signed mailed received",
+    "the painting the artist the curator the collector created displayed purchased admired",
+    "the package the courier the supervisor the recipient delivered checked accepted opened"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested noun phrases where each subsequent noun modifies the previous one, ending with a sequence of past tense verbs.\"",
+  "induced_prompt": "\"Generate sentences with nested noun phrases where each subsequent noun modifies the previous one, ending with a sequence of past tense verbs.\"",
+  "induced_prompt_chars": 143,
+  "induced_prompt_words": 22,
+  "l1_char_total": 413,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book of the author of the novel fascinated readers.\", \"The teacher of the class of the school announced the results.\", \"The car of the driver of the race accelerated quickly.\", \"The cake of the chef of the bakery delighted the customers.\", \"The dog of the owner of the house barked loudly.\"]}",
+  "l2_sentences": [
+    "The book of the author of the novel fascinated readers.",
+    "The teacher of the class of the school announced the results.",
+    "The car of the driver of the race accelerated quickly.",
+    "The cake of the chef of the bakery delighted the customers.",
+    "The dog of the owner of the house barked loudly."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:33:16.655821+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the librarian the student the professor recommended returned borrowed disappeared",
+    "the cake the baker the chef the customer prepared decorated served enjoyed",
+    "the letter the secretary the manager the director wrote signed mailed received",
+    "the painting the artist the curator the collector created displayed purchased admired",
+    "the package the courier the supervisor the recipient delivered checked accepted opened"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the librarian the student the professor recommended returned borrowed disappeared\", \"the cake the baker the chef the customer prepared decorated served enjoyed\", \"the letter the secretary the manager the director wrote signed mailed received\", \"the painting the artist the curator the collector created displayed purchased admired\", \"the package the courier the supervisor the recipient delivered checked accepted opened\"]}",
+  "run_idx": 18
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the client the lawyer the clerk the typist hired consulted defended won",
+    "the cat the dog the rat the mouse bit chased scratched escaped",
+    "the patient the doctor the nurse the student assisted guided treated recovered",
+    "the student the teacher the principal the superintendent hired questioned scolded graduated",
+    "the child the mother the grandmother the neighbor helped watched comforted smiled"
+  ],
+  "induced_prompt_raw": "Generate a sentence using quadruple center-embedding (three nested relative clauses with deleted relative pronouns), where four subjects are followed by four verbs in reverse order (NP1 NP2 NP3 NP4 V4 V3 V2 V1).",
+  "induced_prompt": "Generate a sentence using quadruple center-embedding (three nested relative clauses with deleted relative pronouns), where four subjects are followed by four verbs in reverse order (NP1 NP2 NP3 NP4 V4 V3 V2 V1).",
+  "induced_prompt_chars": 211,
+  "induced_prompt_words": 33,
+  "l1_char_total": 383,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The pizza the boy the dog the cat scratched bit ate dropped.\",\n    \"The report the intern the manager the director hired questioned approved filed.\",\n    \"The software the developer the tester the client called blamed praised released.\",\n    \"The song the singer the writer the producer criticized inspired recorded failed.\",\n    \"The car the mechanic the driver the owner sued blamed repaired crashed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The pizza the boy the dog the cat scratched bit ate dropped.",
+    "The report the intern the manager the director hired questioned approved filed.",
+    "The software the developer the tester the client called blamed praised released.",
+    "The song the singer the writer the producer criticized inspired recorded failed.",
+    "The car the mechanic the driver the owner sued blamed repaired crashed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:17:55.490591+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the client the lawyer the clerk the typist hired consulted defended won",
+    "the cat the dog the rat the mouse bit chased scratched escaped",
+    "the patient the doctor the nurse the student assisted guided treated recovered",
+    "the student the teacher the principal the superintendent hired questioned scolded graduated",
+    "the child the mother the grandmother the neighbor helped watched comforted smiled"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the client the lawyer the clerk the typist hired consulted defended won\",\n    \"the cat the dog the rat the mouse bit chased scratched escaped\",\n    \"the patient the doctor the nurse the student assisted guided treated recovered\",\n    \"the student the teacher the principal the superintendent hired questioned scolded graduated\",\n    \"the child the mother the grandmother the neighbor helped watched comforted smiled\"\n  ]\n}",
+  "run_idx": 4
+}

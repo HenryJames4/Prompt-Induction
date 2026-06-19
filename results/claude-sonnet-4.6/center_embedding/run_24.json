@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the teacher trained hired baked vanished.",
+    "the letter the lawyer the clerk the judge appointed hired wrote arrived.",
+    "the bridge the crew the engineer the mayor hired supervised built collapsed.",
+    "the novel the critic the author the agent signed reviewed wrote sold.",
+    "the plan the boss the worker the client hired managed approved failed."
+  ],
+  "induced_prompt_raw": "Write sentences with multiply center-embedded relative clauses involving a chain of agents and actions, ending with the final outcome.",
+  "induced_prompt": "Write sentences with multiply center-embedded relative clauses involving a chain of agents and actions, ending with the final outcome.",
+  "induced_prompt_chars": 134,
+  "induced_prompt_words": 19,
+  "l1_char_total": 358,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the child owned chased scratched the furniture.\", \"The report that the editor that the journalist that the intern hired reviewed approved was published.\", \"The cake that the chef that the woman that the man loved married baked burned in the oven.\", \"The letter that the lawyer that the firm that the client trusted hired wrote was dismissed by the judge.\", \"The song that the producer that the label that the investor funded signed discovered became a worldwide hit.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the child owned chased scratched the furniture.",
+    "The report that the editor that the journalist that the intern hired reviewed approved was published.",
+    "The cake that the chef that the woman that the man loved married baked burned in the oven.",
+    "The letter that the lawyer that the firm that the client trusted hired wrote was dismissed by the judge.",
+    "The song that the producer that the label that the investor funded signed discovered became a worldwide hit."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:29:58.130469+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the teacher trained hired baked vanished.",
+    "the letter the lawyer the clerk the judge appointed hired wrote arrived.",
+    "the bridge the crew the engineer the mayor hired supervised built collapsed.",
+    "the novel the critic the author the agent signed reviewed wrote sold.",
+    "the plan the boss the worker the client hired managed approved failed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef the student the teacher trained hired baked vanished.\", \"the letter the lawyer the clerk the judge appointed hired wrote arrived.\", \"the bridge the crew the engineer the mayor hired supervised built collapsed.\", \"the novel the critic the author the agent signed reviewed wrote sold.\", \"the plan the boss the worker the client hired managed approved failed.\"]}\n```",
+  "run_idx": 24
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the chef the cook the assistant the apprentice helped supervised assisted resigned",
+    "the patient the doctor the nurse the student shadowed assisted treated recovered",
+    "the client the lawyer the partner the associate hired mentored advised congratulated",
+    "the student the teacher the tutor the volunteer guided supported instructed graduated",
+    "the artist the critic the curator the director welcomed introduced praised departed"
+  ],
+  "induced_prompt_raw": "Generate a sentence with four nested relative clauses using the syntactic structure: [Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1], where the verbs are performed by the preceding nouns in reverse order (e.g., \"The [N1] whom the [N2] whom the [N3] whom the [N4] [V4] [V3] [V2] [V1]\").",
+  "induced_prompt": "Generate a sentence with four nested relative clauses using the syntactic structure: [Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1], where the verbs are performed by the preceding nouns in reverse order (e.g., \"The [N1] whom the [N2] whom the [N3] whom the [N4] [V4] [V3] [V2] [V1]\").",
+  "induced_prompt_chars": 309,
+  "induced_prompt_words": 56,
+  "l1_char_total": 414,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book that the student whom the teacher whom the principal hired praised read misplaced has been found.\",\n    \"The mouse that the cat that the dog that the boy owned chased caught escaped.\",\n    \"The car that the mechanic whom the man whom the police arrested employed repaired crashed.\",\n    \"The cheese that the rat that the cat that the chef kept feared ate smelled.\",\n    \"The report that the intern whom the manager whom the director promoted supervised wrote vanished.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book that the student whom the teacher whom the principal hired praised read misplaced has been found.",
+    "The mouse that the cat that the dog that the boy owned chased caught escaped.",
+    "The car that the mechanic whom the man whom the police arrested employed repaired crashed.",
+    "The cheese that the rat that the cat that the chef kept feared ate smelled.",
+    "The report that the intern whom the manager whom the director promoted supervised wrote vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:32:24.749031+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the cook the assistant the apprentice helped supervised assisted resigned",
+    "the patient the doctor the nurse the student shadowed assisted treated recovered",
+    "the client the lawyer the partner the associate hired mentored advised congratulated",
+    "the student the teacher the tutor the volunteer guided supported instructed graduated",
+    "the artist the critic the curator the director welcomed introduced praised departed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the cook the assistant the apprentice helped supervised assisted resigned\",\n    \"the patient the doctor the nurse the student shadowed assisted treated recovered\",\n    \"the client the lawyer the partner the associate hired mentored advised congratulated\",\n    \"the student the teacher the tutor the volunteer guided supported instructed graduated\",\n    \"the artist the critic the curator the director welcomed introduced praised departed\"\n  ]\n}",
+  "run_idx": 28
+}

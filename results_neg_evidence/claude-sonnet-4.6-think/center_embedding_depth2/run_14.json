@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the proposal the reviewer approved passed",
+    "the cat the dog chased ran",
+    "the book the student read won",
+    "the letter the lawyer wrote arrived",
+    "the report the analyst the editor hired reviewed circulated"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause, where a noun phrase is modified by a clause before the main verb completes the sentence (e.g., \"NP1 NP2 VERB VERB\"). Use only one level of embedding — do not nest relative clauses inside other relative clauses.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause, where a noun phrase is modified by a clause before the main verb completes the sentence (e.g., \"NP1 NP2 VERB VERB\"). Use only one level of embedding — do not nest relative clauses inside other relative clauses.",
+  "induced_prompt_chars": 273,
+  "induced_prompt_words": 45,
+  "l1_char_total": 190,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The book the professor recommended was surprisingly difficult.\", \"The letter the secretary typed contained several errors.\", \"The cake the baker made disappeared within minutes.\", \"The report the analyst wrote surprised the entire board.\", \"The song the musician composed became an overnight sensation.\"]}\n```",
+  "l2_sentences": [
+    "The book the professor recommended was surprisingly difficult.",
+    "The letter the secretary typed contained several errors.",
+    "The cake the baker made disappeared within minutes.",
+    "The report the analyst wrote surprised the entire board.",
+    "The song the musician composed became an overnight sensation."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:46:37.326565+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the proposal the reviewer approved passed",
+    "the cat the dog chased ran",
+    "the book the student read won",
+    "the letter the lawyer wrote arrived"
+  ],
+  "l1_sentences": [
+    "the proposal the reviewer approved passed",
+    "the cat the dog chased ran",
+    "the book the student read won",
+    "the letter the lawyer wrote arrived",
+    "the report the analyst the editor hired reviewed circulated"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the proposal the reviewer approved passed\", \"the cat the dog chased ran\", \"the book the student read won\", \"the letter the lawyer wrote arrived\", \"the report the analyst the editor hired reviewed circulated\"]}\n```",
+  "run_idx": 14
+}

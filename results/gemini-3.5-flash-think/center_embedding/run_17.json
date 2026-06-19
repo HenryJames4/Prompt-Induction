@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the critic the fan praised challenged wrote vanished",
+    "the song the singer the coach the student thanked trained performed ended",
+    "the painting the artist the teacher the parent phoned inspired created faded",
+    "the computer the hacker the guard the dog distracted stopped targeted crashed",
+    "the letter the lawyer the client the spouse angered hired mailed arrived"
+  ],
+  "induced_prompt_raw": "Generate a sentence with three nested center-embedded relative clauses, matching the pattern: [Noun Phrase 1] [Noun Phrase 2] [Noun Phrase 3] [Noun Phrase 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1].",
+  "induced_prompt": "Generate a sentence with three nested center-embedded relative clauses, matching the pattern: [Noun Phrase 1] [Noun Phrase 2] [Noun Phrase 3] [Noun Phrase 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1].",
+  "induced_prompt_chars": 194,
+  "induced_prompt_words": 32,
+  "l1_char_total": 370,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The man the dog the cat the mouse scared scratched bit screamed.\",\n    \"The teacher the student the parent the principal phoned blamed annoyed resigned.\",\n    \"The car the truck the barrier the rust weakened stopped hit exploded.\",\n    \"The chef the critic the waiter the customer tipped ignored praised smiled.\",\n    \"The app the user the bug the update triggered confused deleted crashed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The man the dog the cat the mouse scared scratched bit screamed.",
+    "The teacher the student the parent the principal phoned blamed annoyed resigned.",
+    "The car the truck the barrier the rust weakened stopped hit exploded.",
+    "The chef the critic the waiter the customer tipped ignored praised smiled.",
+    "The app the user the bug the update triggered confused deleted crashed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:26:01.565337+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the critic the fan praised challenged wrote vanished",
+    "the song the singer the coach the student thanked trained performed ended",
+    "the painting the artist the teacher the parent phoned inspired created faded",
+    "the computer the hacker the guard the dog distracted stopped targeted crashed",
+    "the letter the lawyer the client the spouse angered hired mailed arrived"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the author the critic the fan praised challenged wrote vanished\",\n    \"the song the singer the coach the student thanked trained performed ended\",\n    \"the painting the artist the teacher the parent phoned inspired created faded\",\n    \"the computer the hacker the guard the dog distracted stopped targeted crashed\",\n    \"the letter the lawyer the client the spouse angered hired mailed arrived\"\n  ]\n}",
+  "run_idx": 17
+}

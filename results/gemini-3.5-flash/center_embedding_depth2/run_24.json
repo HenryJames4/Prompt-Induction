@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the student the teacher helped graduated",
+    "the dog the cat chased ran",
+    "the boy the girl saw waved",
+    "the artist the crowd applauded bowed",
+    "the patient the doctor treated recovered"
+  ],
+  "induced_prompt_raw": "Write five sentences using the syntactic structure: [Noun Phrase 1] + [Noun Phrase 2] + [Transitive Verb] + [Intransitive Verb], where the middle phrase acts as a relative clause modifying the first noun (e.g., \"The [noun] [the noun verb] [verb]\").",
+  "induced_prompt": "Write five sentences using the syntactic structure: [Noun Phrase 1] + [Noun Phrase 2] + [Transitive Verb] + [Intransitive Verb], where the middle phrase acts as a relative clause modifying the first noun (e.g., \"The [noun] [the noun verb] [verb]\").",
+  "induced_prompt_chars": 248,
+  "induced_prompt_words": 40,
+  "l1_char_total": 168,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the dog bit ran.\",\n    \"The book the student read disappeared.\",\n    \"The glass the child dropped shattered.\",\n    \"The athlete the coach trained triumphed.\",\n    \"The letter the mailman delivered vanished.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the dog bit ran.",
+    "The book the student read disappeared.",
+    "The glass the child dropped shattered.",
+    "The athlete the coach trained triumphed.",
+    "The letter the mailman delivered vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:42:52.622248+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the student the teacher helped graduated",
+    "the dog the cat chased ran",
+    "the boy the girl saw waved",
+    "the artist the crowd applauded bowed",
+    "the patient the doctor treated recovered"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the student the teacher helped graduated\",\n    \"the dog the cat chased ran\",\n    \"the boy the girl saw waved\",\n    \"the artist the crowd applauded bowed\",\n    \"the patient the doctor treated recovered\"\n  ]\n}",
+  "run_idx": 24
+}

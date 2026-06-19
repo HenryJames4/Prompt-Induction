@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the student the teacher the principal the dean praised rewarded promoted graduated.",
+    "the car the driver the owner the dealer arrived left waited departed.",
+    "the house the builder the architect the client complained argued negotiated agreed.",
+    "the book the author the publisher the reader appeared vanished emerged dissolved.",
+    "the dog the owner the trainer the vet barked growled bit attacked."
+  ],
+  "induced_prompt_raw": "Chain of four nouns then four verbs.",
+  "induced_prompt": "Chain of four nouns then four verbs.",
+  "induced_prompt_chars": 36,
+  "induced_prompt_words": 7,
+  "l1_char_total": 382,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"Students teachers books desks studied wrote read learned.\",\n    \"Cars trucks buses trains drove sped parked stopped.\",\n    \"Cats dogs mice birds chased ran jumped flew.\",\n    \"Roses daisies tulips lilies bloomed wilted grew withered.\",\n    \"Computers phones tablets laptops processed stored displayed connected.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "Students teachers books desks studied wrote read learned.",
+    "Cars trucks buses trains drove sped parked stopped.",
+    "Cats dogs mice birds chased ran jumped flew.",
+    "Roses daisies tulips lilies bloomed wilted grew withered.",
+    "Computers phones tablets laptops processed stored displayed connected."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:51:27.456312+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the student the teacher the principal the dean praised rewarded promoted graduated.",
+    "the car the driver the owner the dealer arrived left waited departed.",
+    "the house the builder the architect the client complained argued negotiated agreed.",
+    "the book the author the publisher the reader appeared vanished emerged dissolved.",
+    "the dog the owner the trainer the vet barked growled bit attacked."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the student the teacher the principal the dean praised rewarded promoted graduated.\",\n    \"the car the driver the owner the dealer arrived left waited departed.\",\n    \"the house the builder the architect the client complained argued negotiated agreed.\",\n    \"the book the author the publisher the reader appeared vanished emerged dissolved.\",\n    \"the dog the owner the trainer the vet barked growled bit attacked.\"\n  ]\n}\n```",
+  "run_idx": 28
+}

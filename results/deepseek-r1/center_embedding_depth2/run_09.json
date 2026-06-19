@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the child petted slept.",
+    "the book the student read arrived.",
+    "the song the artist recorded played.",
+    "the dog the neighbor fed barked.",
+    "the meal the chef prepared cooled."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with a subject noun phrase modified by an object relative clause (without 'that') followed by a main verb in past tense.\"",
+  "induced_prompt": "\"Generate a sentence with a subject noun phrase modified by an object relative clause (without 'that') followed by a main verb in past tense.\"",
+  "induced_prompt_chars": 142,
+  "induced_prompt_words": 24,
+  "l1_char_total": 167,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book I borrowed yesterday contained valuable information.\", \"The dog the children rescued barked loudly.\", \"The solution the scientist proposed solved the complex equation.\", \"The song the band played energized the crowd.\", \"The instructions the teacher gave clarified the assignment completely.\"]}",
+  "l2_sentences": [
+    "The book I borrowed yesterday contained valuable information.",
+    "The dog the children rescued barked loudly.",
+    "The solution the scientist proposed solved the complex equation.",
+    "The song the band played energized the crowd.",
+    "The instructions the teacher gave clarified the assignment completely."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:09:09.387139+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the child petted slept.",
+    "the book the student read arrived.",
+    "the song the artist recorded played.",
+    "the dog the neighbor fed barked.",
+    "the meal the chef prepared cooled."
+  ],
+  "l1_raw": "{\"sentences\": [\"the cat the child petted slept.\", \"the book the student read arrived.\", \"the song the artist recorded played.\", \"the dog the neighbor fed barked.\", \"the meal the chef prepared cooled.\"]}",
+  "run_idx": 9
+}

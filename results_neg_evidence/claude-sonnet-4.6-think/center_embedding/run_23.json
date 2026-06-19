@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the proposal the director the manager the analyst briefed impressed accepted succeeded",
+    "the car the mechanic the apprentice the customer hired assisted repaired started",
+    "the paper the professor the student the librarian helped assisted submitted appeared",
+    "the treaty the diplomat the advisor the president consulted briefed signed passed",
+    "the novel the author the critic admired wrote sold"
+  ],
+  "induced_prompt_raw": "Generate triply center-embedded relative clause sentences with exactly 4 noun phrases followed by 4 verbs in sequence, where the final verb is intransitive. Do not produce doubly center-embedded sentences with only 3 noun phrases and 3 verbs.",
+  "induced_prompt": "Generate triply center-embedded relative clause sentences with exactly 4 noun phrases followed by 4 verbs in sequence, where the final verb is intransitive. Do not produce doubly center-embedded sentences with only 3 noun phrases and 3 verbs.",
+  "induced_prompt_chars": 242,
+  "induced_prompt_words": 37,
+  "l1_char_total": 381,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog that the cat that the rat that the cheese attracted bit chased ran.\",\n    \"The man that the woman that the child that the teacher praised admired loved disappeared.\",\n    \"The report that the editor that the journalist that the source contacted interviewed published circulated.\",\n    \"The book that the professor that the student that the dean reprimanded taught assigned vanished.\",\n    \"The letter that the lawyer that the witness that the judge questioned hired wrote arrived.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog that the cat that the rat that the cheese attracted bit chased ran.",
+    "The man that the woman that the child that the teacher praised admired loved disappeared.",
+    "The report that the editor that the journalist that the source contacted interviewed published circulated.",
+    "The book that the professor that the student that the dean reprimanded taught assigned vanished.",
+    "The letter that the lawyer that the witness that the judge questioned hired wrote arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:16:26.414803+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the proposal the director the manager the analyst briefed impressed accepted succeeded",
+    "the car the mechanic the apprentice the customer hired assisted repaired started",
+    "the paper the professor the student the librarian helped assisted submitted appeared",
+    "the treaty the diplomat the advisor the president consulted briefed signed passed"
+  ],
+  "l1_sentences": [
+    "the proposal the director the manager the analyst briefed impressed accepted succeeded",
+    "the car the mechanic the apprentice the customer hired assisted repaired started",
+    "the paper the professor the student the librarian helped assisted submitted appeared",
+    "the treaty the diplomat the advisor the president consulted briefed signed passed",
+    "the novel the author the critic admired wrote sold"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the proposal the director the manager the analyst briefed impressed accepted succeeded\",\n    \"the car the mechanic the apprentice the customer hired assisted repaired started\",\n    \"the paper the professor the student the librarian helped assisted submitted appeared\",\n    \"the treaty the diplomat the advisor the president consulted briefed signed passed\",\n    \"the novel the author the critic admired wrote sold\"\n  ]\n}\n```",
+  "run_idx": 23
+}

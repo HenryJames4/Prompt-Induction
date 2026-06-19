@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the contract the lawyer the client the judge hired reviewed signed expired.",
+    "the book the author the editor the critic praised hired wrote sold.",
+    "the song the singer the manager the label signed hired recorded charted.",
+    "the proposal the director the consultant the board hired briefed submitted failed.",
+    "the film the director the producer the studio funded hired shot premiered."
+  ],
+  "induced_prompt_raw": "Write sentences with triple center-embedded relative clauses, each involving a chain of four professional roles where all four verbs appear stacked at the end.",
+  "induced_prompt": "Write sentences with triple center-embedded relative clauses, each involving a chain of four professional roles where all four verbs appear stacked at the end.",
+  "induced_prompt_chars": 159,
+  "induced_prompt_words": 24,
+  "l1_char_total": 370,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The lawyer that the doctor that the engineer that the teacher hired examined advised won the case.\",\n    \"The surgeon that the professor that the architect that the nurse trained supervised consulted published the findings.\",\n    \"The journalist that the senator that the banker that the officer recruited funded interviewed broke the story.\",\n    \"The chef that the critic that the manager that the investor hired praised recommended earned the award.\",\n    \"The pilot that the captain that the mechanic that the inspector certified trained praised landed the plane safely.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The lawyer that the doctor that the engineer that the teacher hired examined advised won the case.",
+    "The surgeon that the professor that the architect that the nurse trained supervised consulted published the findings.",
+    "The journalist that the senator that the banker that the officer recruited funded interviewed broke the story.",
+    "The chef that the critic that the manager that the investor hired praised recommended earned the award.",
+    "The pilot that the captain that the mechanic that the inspector certified trained praised landed the plane safely."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:31:19.892424+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the contract the lawyer the client the judge hired reviewed signed expired.",
+    "the book the author the editor the critic praised hired wrote sold.",
+    "the song the singer the manager the label signed hired recorded charted.",
+    "the proposal the director the consultant the board hired briefed submitted failed.",
+    "the film the director the producer the studio funded hired shot premiered."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the contract the lawyer the client the judge hired reviewed signed expired.\",\n    \"the book the author the editor the critic praised hired wrote sold.\",\n    \"the song the singer the manager the label signed hired recorded charted.\",\n    \"the proposal the director the consultant the board hired briefed submitted failed.\",\n    \"the film the director the producer the studio funded hired shot premiered.\"\n  ]\n}\n```",
+  "run_idx": 24
+}

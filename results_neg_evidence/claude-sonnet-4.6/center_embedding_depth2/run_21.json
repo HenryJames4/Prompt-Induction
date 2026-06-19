@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cake the chef baked disappeared.",
+    "The report the manager submitted confused everyone.",
+    "The dog the child found barked loudly.",
+    "The letter the student wrote impressed the teacher.",
+    "The song the musician the producer the label signed recorded played topped the charts."
+  ],
+  "induced_prompt_raw": "Write sentences with a single embedded relative clause (subject + object relative clause + main verb phrase), avoiding multiple levels of center-embedding.",
+  "induced_prompt": "Write sentences with a single embedded relative clause (subject + object relative clause + main verb phrase), avoiding multiple levels of center-embedding.",
+  "induced_prompt_chars": 155,
+  "induced_prompt_words": 22,
+  "l1_char_total": 262,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that she borrowed yesterday was absolutely fascinating.\", \"The scientist who discovered the vaccine received a prestigious award.\", \"The dog that my neighbor owns barks every single morning.\", \"The song that he wrote last summer became an unexpected hit.\", \"The teacher whom the students admired retired after thirty years.\"]}\n```",
+  "l2_sentences": [
+    "The book that she borrowed yesterday was absolutely fascinating.",
+    "The scientist who discovered the vaccine received a prestigious award.",
+    "The dog that my neighbor owns barks every single morning.",
+    "The song that he wrote last summer became an unexpected hit.",
+    "The teacher whom the students admired retired after thirty years."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:53:18.244873+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cake the chef baked disappeared.",
+    "The report the manager submitted confused everyone.",
+    "The dog the child found barked loudly.",
+    "The letter the student wrote impressed the teacher."
+  ],
+  "l1_sentences": [
+    "The cake the chef baked disappeared.",
+    "The report the manager submitted confused everyone.",
+    "The dog the child found barked loudly.",
+    "The letter the student wrote impressed the teacher.",
+    "The song the musician the producer the label signed recorded played topped the charts."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The cake the chef baked disappeared.\", \"The report the manager submitted confused everyone.\", \"The dog the child found barked loudly.\", \"The letter the student wrote impressed the teacher.\", \"The song the musician the producer the label signed recorded played topped the charts.\"]}\n```",
+  "run_idx": 21
+}

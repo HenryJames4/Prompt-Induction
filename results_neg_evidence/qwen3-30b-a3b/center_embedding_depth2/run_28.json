@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked.",
+    "the message the teacher sent arrived.",
+    "the story the child told the teacher about the dog was interesting."
+  ],
+  "induced_prompt_raw": "Create a sentence with a noun phrase followed by a relative clause and a main verb, where the relative clause modifies the noun and the main clause describes the result or outcome of the action.",
+  "induced_prompt": "Create a sentence with a noun phrase followed by a relative clause and a main verb, where the relative clause modifies the noun and the main clause describes the result or outcome of the action.",
+  "induced_prompt_chars": 194,
+  "induced_prompt_words": 35,
+  "l1_char_total": 213,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library helped me understand the topic better.\", \"The car that was parked outside broke down after the long trip.\", \"The student who studied all night passed the exam with flying colors.\", \"The bridge that was built last year connects the two towns successfully.\", \"The plan that we finalized yesterday led to a significant increase in productivity.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library helped me understand the topic better.",
+    "The car that was parked outside broke down after the long trip.",
+    "The student who studied all night passed the exam with flying colors.",
+    "The bridge that was built last year connects the two towns successfully.",
+    "The plan that we finalized yesterday led to a significant increase in productivity."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:59:13.423941+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked.",
+    "the message the teacher sent arrived."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked.",
+    "the message the teacher sent arrived.",
+    "the story the child told the teacher about the dog was interesting."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the plan the committee rejected failed.\", \"the idea the scientist proposed worked.\", \"the message the teacher sent arrived.\", \"the story the child told the teacher about the dog was interesting.\"]}",
+  "run_idx": 28
+}

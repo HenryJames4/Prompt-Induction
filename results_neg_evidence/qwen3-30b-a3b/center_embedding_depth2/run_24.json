@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked.",
+    "the project the manager completed succeeded.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "induced_prompt_raw": "Create a sentence with a noun phrase followed by a relative clause and a main verb, where the relative clause modifies the noun and the main verb describes the outcome of the noun.",
+  "induced_prompt": "Create a sentence with a noun phrase followed by a relative clause and a main verb, where the relative clause modifies the noun and the main verb describes the outcome of the noun.",
+  "induced_prompt_chars": 180,
+  "induced_prompt_words": 33,
+  "l1_char_total": 219,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book, which had been lost for decades, finally resurfaced in a forgotten attic.\", \"The bridge, which was built in the 1800s, still supports heavy traffic today.\", \"The painting, which was thought to be a forgery, was revealed to be a masterpiece.\", \"The key, which had been misplaced under the sofa, unlocked the secret drawer.\", \"The letter, which arrived without a return address, contained a shocking confession.\"]}",
+  "l2_sentences": [
+    "The book, which had been lost for decades, finally resurfaced in a forgotten attic.",
+    "The bridge, which was built in the 1800s, still supports heavy traffic today.",
+    "The painting, which was thought to be a forgery, was revealed to be a masterpiece.",
+    "The key, which had been misplaced under the sofa, unlocked the secret drawer.",
+    "The letter, which arrived without a return address, contained a shocking confession."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:55:57.118059+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked.",
+    "the project the manager completed succeeded."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the plan the committee rejected failed.",
+    "the idea the scientist proposed worked.",
+    "the project the manager completed succeeded.",
+    "the story the writer told the audience moved the listeners deeply."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the plan the committee rejected failed.\", \"the idea the scientist proposed worked.\", \"the project the manager completed succeeded.\", \"the story the writer told the audience moved the listeners deeply.\"]}",
+  "run_idx": 24
+}

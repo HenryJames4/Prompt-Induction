@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the chef the critic praised smiled",
+    "the student the teacher helped failed",
+    "the dog the boy chased barked",
+    "the actor the director hired cried",
+    "the athlete the coach trained won"
+  ],
+  "induced_prompt_raw": "Write five sentences with the syntactic structure: [Determiner + Noun (Subject)] + [Determiner + Noun (Subject of relative clause) + Transitive Verb] + [Intransitive Verb (Main Verb)].",
+  "induced_prompt": "Write five sentences with the syntactic structure: [Determiner + Noun (Subject)] + [Determiner + Noun (Subject of relative clause) + Transitive Verb] + [Intransitive Verb (Main Verb)].",
+  "induced_prompt_chars": 184,
+  "induced_prompt_words": 27,
+  "l1_char_total": 167,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the boy trained barked.\",\n    \"The ice the sun melted dripped.\",\n    \"The ship the storm battered sank.\",\n    \"A child a dog chased tripped.\",\n    \"The teacher the student watched smiled.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the boy trained barked.",
+    "The ice the sun melted dripped.",
+    "The ship the storm battered sank.",
+    "A child a dog chased tripped.",
+    "The teacher the student watched smiled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:36:22.630211+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the critic praised smiled",
+    "the student the teacher helped failed",
+    "the dog the boy chased barked",
+    "the actor the director hired cried",
+    "the athlete the coach trained won"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the critic praised smiled\",\n    \"the student the teacher helped failed\",\n    \"the dog the boy chased barked\",\n    \"the actor the director hired cried\",\n    \"the athlete the coach trained won\"\n  ]\n}",
+  "run_idx": 4
+}

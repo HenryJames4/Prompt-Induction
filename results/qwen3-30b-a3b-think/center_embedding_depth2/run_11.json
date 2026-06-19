@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased ran.",
+    "the apple the boy ate fell.",
+    "the car the driver fixed started.",
+    "the song the singer performed ended.",
+    "the story the writer told impressed."
+  ],
+  "induced_prompt_raw": "the N the N V V",
+  "induced_prompt": "the N the N V V",
+  "induced_prompt_chars": 15,
+  "induced_prompt_words": 6,
+  "l1_char_total": 159,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the car the bike drives stops.\", \"the bird the fish flies swims.\", \"the man the woman walks talks.\", \"the book the pen reads writes.\", \"the sun the moon rises sets.\"]}",
+  "l2_sentences": [
+    "the car the bike drives stops.",
+    "the bird the fish flies swims.",
+    "the man the woman walks talks.",
+    "the book the pen reads writes.",
+    "the sun the moon rises sets."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:09:53.876923+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased ran.",
+    "the apple the boy ate fell.",
+    "the car the driver fixed started.",
+    "the song the singer performed ended.",
+    "the story the writer told impressed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the cat the dog chased ran.\", \"the apple the boy ate fell.\", \"the car the driver fixed started.\", \"the song the singer performed ended.\", \"the story the writer told impressed.\"]}",
+  "run_idx": 11
+}

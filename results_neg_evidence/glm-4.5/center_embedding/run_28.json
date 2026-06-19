@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the boy the woman chased fed petted loved",
+    "the book the teacher the student the principal assigned read graded praised",
+    "the car the mechanic the owner the dealer fixed inspected sold admired",
+    "the house the architect the builder the family designed constructed purchased enjoyed",
+    "the cake the baker the chef baked decorated served"
+  ],
+  "induced_prompt_raw": "Generate a four-verb sentence where each noun is acted upon by the next, forming a complete chain of four nested actions.",
+  "induced_prompt": "Generate a four-verb sentence where each noun is acted upon by the next, forming a complete chain of four nested actions.",
+  "induced_prompt_chars": 121,
+  "induced_prompt_words": 21,
+  "l1_char_total": 337,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat chased the mouse that ate the cheese that attracted the ant that carried the crumb.\",\n    \"The boy threw the ball that hit the window that broke the glass that cut the curtain.\",\n    \"The wind blew the leaves that covered the grass that hid the snake that scared the rabbit.\",\n    \"The teacher read the book that told the story that described the hero that saved the village.\",\n    \"The chef cooked the meal that pleased the critic that wrote the review that praised the restaurant.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat chased the mouse that ate the cheese that attracted the ant that carried the crumb.",
+    "The boy threw the ball that hit the window that broke the glass that cut the curtain.",
+    "The wind blew the leaves that covered the grass that hid the snake that scared the rabbit.",
+    "The teacher read the book that told the story that described the hero that saved the village.",
+    "The chef cooked the meal that pleased the critic that wrote the review that praised the restaurant."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:23:25.487345+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the boy the woman chased fed petted loved",
+    "the book the teacher the student the principal assigned read graded praised",
+    "the car the mechanic the owner the dealer fixed inspected sold admired",
+    "the house the architect the builder the family designed constructed purchased enjoyed"
+  ],
+  "l1_sentences": [
+    "the cat the dog the boy the woman chased fed petted loved",
+    "the book the teacher the student the principal assigned read graded praised",
+    "the car the mechanic the owner the dealer fixed inspected sold admired",
+    "the house the architect the builder the family designed constructed purchased enjoyed",
+    "the cake the baker the chef baked decorated served"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the boy the woman chased fed petted loved\",\n    \"the book the teacher the student the principal assigned read graded praised\",\n    \"the car the mechanic the owner the dealer fixed inspected sold admired\",\n    \"the house the architect the builder the family designed constructed purchased enjoyed\",\n    \"the cake the baker the chef baked decorated served\"\n  ]\n}",
+  "run_idx": 28
+}

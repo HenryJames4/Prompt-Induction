@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat chased ran",
+    "the boy the girl saw waved",
+    "the teacher the student liked smiled",
+    "the cake the chef baked fell",
+    "the car the mechanic repaired broke"
+  ],
+  "induced_prompt_raw": "Generate sentences with the syntactic structure: \"the [noun1] the [noun2] [transitive verb] [intransitive verb]\".",
+  "induced_prompt": "Generate sentences with the syntactic structure: \"the [noun1] the [noun2] [transitive verb] [intransitive verb]\".",
+  "induced_prompt_chars": 113,
+  "induced_prompt_words": 14,
+  "l1_char_total": 151,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the girl saw slipped.\",\n    \"The car the man bought stalled.\",\n    \"The food the chef cooked spoiled.\",\n    \"The dog the child petted barked.\",\n    \"The ice the sun warmed melted.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the girl saw slipped.",
+    "The car the man bought stalled.",
+    "The food the chef cooked spoiled.",
+    "The dog the child petted barked.",
+    "The ice the sun warmed melted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:37:14.568167+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat chased ran",
+    "the boy the girl saw waved",
+    "the teacher the student liked smiled",
+    "the cake the chef baked fell",
+    "the car the mechanic repaired broke"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the dog the cat chased ran\",\n    \"the boy the girl saw waved\",\n    \"the teacher the student liked smiled\",\n    \"the cake the chef baked fell\",\n    \"the car the mechanic repaired broke\"\n  ]\n}",
+  "run_idx": 7
+}

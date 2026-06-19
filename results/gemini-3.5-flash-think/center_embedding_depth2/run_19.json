@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the meal the chef cooked burned",
+    "the car the mechanic fixed stopped",
+    "the toy the child dropped broke",
+    "the book the teacher read disappeared",
+    "the letter the writer wrote arrived"
+  ],
+  "induced_prompt_raw": "Write sentences with the syntactic structure: \"The [noun] the [noun] [verb] [verb]\" using past tense.",
+  "induced_prompt": "Write sentences with the syntactic structure: \"The [noun] the [noun] [verb] [verb]\" using past tense.",
+  "induced_prompt_chars": 101,
+  "induced_prompt_words": 15,
+  "l1_char_total": 168,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The toy the child broke squeaked.\",\n    \"The cake the baker baked burned.\",\n    \"The book the teacher read disappeared.\",\n    \"The car the man bought stalled.\",\n    \"The letter the girl wrote arrived.\"\n  ]\n}",
+  "l2_sentences": [
+    "The toy the child broke squeaked.",
+    "The cake the baker baked burned.",
+    "The book the teacher read disappeared.",
+    "The car the man bought stalled.",
+    "The letter the girl wrote arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:41:47.173704+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the meal the chef cooked burned",
+    "the car the mechanic fixed stopped",
+    "the toy the child dropped broke",
+    "the book the teacher read disappeared",
+    "the letter the writer wrote arrived"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the meal the chef cooked burned\",\n    \"the car the mechanic fixed stopped\",\n    \"the toy the child dropped broke\",\n    \"the book the teacher read disappeared\",\n    \"the letter the writer wrote arrived\"\n  ]\n}",
+  "run_idx": 19
+}

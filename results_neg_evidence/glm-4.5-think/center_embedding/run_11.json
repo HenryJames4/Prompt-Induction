@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the boy the girl the man the woman thanked helped greeted smiled",
+    "the book the author the critic the publisher read reviewed praised sold",
+    "the tree the bird the cat the dog chased saw climbed fell",
+    "the house the builder the architect the owner hired designed built sold",
+    "the car the driver the mechanic fixed drove crashed"
+  ],
+  "induced_prompt_raw": "Generate a logical chain of noun phrases and verbs: each verb (except the last) is transitive with the next noun phrase as its object, and the last verb is intransitive. The subject of each verb is the preceding noun phrase. Ensure all actions are logically possible.",
+  "induced_prompt": "Generate a logical chain of noun phrases and verbs: each verb (except the last) is transitive with the next noun phrase as its object, and the last verb is intransitive. The subject of each verb is the preceding noun phrase. Ensure all actions are logically possible.",
+  "induced_prompt_chars": 267,
+  "induced_prompt_words": 46,
+  "l1_char_total": 314,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The chef chops the onion slices that fall.\",\n    \"The child throws the ball that bounces.\",\n    \"The gardener waters the plants that grow.\",\n    \"The hunter shoots the deer that runs.\",\n    \"The student writes the essay that excels.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The chef chops the onion slices that fall.",
+    "The child throws the ball that bounces.",
+    "The gardener waters the plants that grow.",
+    "The hunter shoots the deer that runs.",
+    "The student writes the essay that excels."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:56:34.840121+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the boy the girl the man the woman thanked helped greeted smiled",
+    "the book the author the critic the publisher read reviewed praised sold",
+    "the tree the bird the cat the dog chased saw climbed fell",
+    "the house the builder the architect the owner hired designed built sold"
+  ],
+  "l1_sentences": [
+    "the boy the girl the man the woman thanked helped greeted smiled",
+    "the book the author the critic the publisher read reviewed praised sold",
+    "the tree the bird the cat the dog chased saw climbed fell",
+    "the house the builder the architect the owner hired designed built sold",
+    "the car the driver the mechanic fixed drove crashed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the boy the girl the man the woman thanked helped greeted smiled\",\n    \"the book the author the critic the publisher read reviewed praised sold\",\n    \"the tree the bird the cat the dog chased saw climbed fell\",\n    \"the house the builder the architect the owner hired designed built sold\",\n    \"the car the driver the mechanic fixed drove crashed\"\n  ]\n}\n```",
+  "run_idx": 11
+}

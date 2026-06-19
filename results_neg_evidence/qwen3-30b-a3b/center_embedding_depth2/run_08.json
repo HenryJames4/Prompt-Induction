@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the story the teacher told impressed.",
+    "the plan the manager devised succeeded.",
+    "the idea the student presented inspired.",
+    "the project the team developed the client approved the results."
+  ],
+  "induced_prompt_raw": "Create a sentence with a noun phrase followed by a relative clause and a main verb, where the relative clause describes the noun and the main verb applies directly to the noun.",
+  "induced_prompt": "Create a sentence with a noun phrase followed by a relative clause and a main verb, where the relative clause describes the noun and the main verb applies directly to the noun.",
+  "induced_prompt_chars": 176,
+  "induced_prompt_words": 32,
+  "l1_char_total": 210,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library is overdue.\", \"The car that my father bought last year runs smoothly.\", \"The student who solved the problem was praised by the teacher.\", \"The song that played during the ceremony moved everyone.\", \"The painting that hung in the museum was admired by all.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library is overdue.",
+    "The car that my father bought last year runs smoothly.",
+    "The student who solved the problem was praised by the teacher.",
+    "The song that played during the ceremony moved everyone.",
+    "The painting that hung in the museum was admired by all."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:41:25.991718+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the story the teacher told impressed.",
+    "the plan the manager devised succeeded.",
+    "the idea the student presented inspired."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the story the teacher told impressed.",
+    "the plan the manager devised succeeded.",
+    "the idea the student presented inspired.",
+    "the project the team developed the client approved the results."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the story the teacher told impressed.\", \"the plan the manager devised succeeded.\", \"the idea the student presented inspired.\", \"the project the team developed the client approved the results.\"]}",
+  "run_idx": 8
+}

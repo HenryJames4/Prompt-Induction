@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The proposal the reviewer approved passed.",
+    "The cake the baker made disappeared.",
+    "The bridge the engineer designed collapsed.",
+    "The letter the secretary typed vanished.",
+    "The bill the senator drafted failed."
+  ],
+  "induced_prompt_raw": "Write sentences using a reduced relative clause (no \"that\") where a professional acts on a noun, which then undergoes an intransitive outcome.",
+  "induced_prompt": "Write sentences using a reduced relative clause (no \"that\") where a professional acts on a noun, which then undergoes an intransitive outcome.",
+  "induced_prompt_chars": 142,
+  "induced_prompt_words": 22,
+  "l1_char_total": 197,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The patient the surgeon operated on recovered within days.\", \"The bridge the engineer inspected collapsed overnight.\", \"The athlete the coach trained improved dramatically by season's end.\", \"The wound the nurse treated healed faster than expected.\", \"The crop the agronomist fertilized flourished through the dry summer.\"]}\n```",
+  "l2_sentences": [
+    "The patient the surgeon operated on recovered within days.",
+    "The bridge the engineer inspected collapsed overnight.",
+    "The athlete the coach trained improved dramatically by season's end.",
+    "The wound the nurse treated healed faster than expected.",
+    "The crop the agronomist fertilized flourished through the dry summer."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:39:28.896027+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The proposal the reviewer approved passed.",
+    "The cake the baker made disappeared.",
+    "The bridge the engineer designed collapsed.",
+    "The letter the secretary typed vanished.",
+    "The bill the senator drafted failed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The proposal the reviewer approved passed.\", \"The cake the baker made disappeared.\", \"The bridge the engineer designed collapsed.\", \"The letter the secretary typed vanished.\", \"The bill the senator drafted failed.\"]}\n```",
+  "run_idx": 12
+}

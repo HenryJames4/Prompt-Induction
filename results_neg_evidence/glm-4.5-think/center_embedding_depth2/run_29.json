@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased ran.",
+    "the book the student read vanished.",
+    "the idea the committee rejected succeeded.",
+    "the man the woman married smiled.",
+    "the cat the dog the fox chased bit ran."
+  ],
+  "induced_prompt_raw": "Generate sentences with exactly two noun phrases: the first modified by a relative clause, followed by two verbs.",
+  "induced_prompt": "Generate sentences with exactly two noun phrases: the first modified by a relative clause, followed by two verbs.",
+  "induced_prompt_chars": 113,
+  "induced_prompt_words": 18,
+  "l1_char_total": 176,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The car that was repaired started and moved to the garage.\", \"The student who studied hard passed and received the diploma.\", \"The bird that sang beautifully flew and sang a song.\", \"The dog that barked loudly ran and jumped the fence.\", \"The tree that fell blocked and damaged the road.\"]}",
+  "l2_sentences": [
+    "The car that was repaired started and moved to the garage.",
+    "The student who studied hard passed and received the diploma.",
+    "The bird that sang beautifully flew and sang a song.",
+    "The dog that barked loudly ran and jumped the fence.",
+    "The tree that fell blocked and damaged the road."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T14:00:03.425229+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased ran.",
+    "the book the student read vanished.",
+    "the idea the committee rejected succeeded.",
+    "the man the woman married smiled."
+  ],
+  "l1_sentences": [
+    "the cat the dog chased ran.",
+    "the book the student read vanished.",
+    "the idea the committee rejected succeeded.",
+    "the man the woman married smiled.",
+    "the cat the dog the fox chased bit ran."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased ran.\",\n    \"the book the student read vanished.\",\n    \"the idea the committee rejected succeeded.\",\n    \"the man the woman married smiled.\",\n    \"the cat the dog the fox chased bit ran.\"\n  ]\n}\n```",
+  "run_idx": 29
+}

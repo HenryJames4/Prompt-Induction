@@ -1,0 +1,48 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the dog the neighbor fed barked.",
+    "the letter the secretary typed arrived.",
+    "the plan the manager proposed succeeded.",
+    "the student the teacher praised the principal promoted."
+  ],
+  "induced_prompt_raw": "Create a sentence with a relative clause modifying a noun, followed by a main clause where the noun is the subject and performs a simple action.",
+  "induced_prompt": "Create a sentence with a relative clause modifying a noun, followed by a main clause where the noun is the subject and performs a simple action.",
+  "induced_prompt_chars": 144,
+  "induced_prompt_words": 26,
+  "l1_char_total": 197,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library is overdue.\", \"The book that I borrowed from the library is overdue and must be returned.\", \"The dog that barks loudly every morning belongs to my neighbor.\", \"The dog that barks loudly every morning belongs to my neighbor and keeps me awake.\", \"The car that broke down on the highway was repaired by a mechanic.\", \"The car that broke down on the highway was repaired by a mechanic and now runs smoothly.\", \"The student who studied hard passed the exam with flying colors.\", \"The student who studied hard passed the exam with flying colors and received a scholarship.\", \"The house that stands at the end of the street has a red door.\", \"The house that stands at the end of the street has a red door and a small garden.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library is overdue.",
+    "The book that I borrowed from the library is overdue and must be returned.",
+    "The dog that barks loudly every morning belongs to my neighbor.",
+    "The dog that barks loudly every morning belongs to my neighbor and keeps me awake.",
+    "The car that broke down on the highway was repaired by a mechanic."
+  ],
+  "l2_parse_warnings": [
+    "JSON response had 10 sentences; expected 5."
+  ],
+  "timestamp": "2026-06-14T13:54:59.663578+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the dog the neighbor fed barked.",
+    "the letter the secretary typed arrived.",
+    "the plan the manager proposed succeeded."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the dog the neighbor fed barked.",
+    "the letter the secretary typed arrived.",
+    "the plan the manager proposed succeeded.",
+    "the student the teacher praised the principal promoted."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the dog the neighbor fed barked.\", \"the letter the secretary typed arrived.\", \"the plan the manager proposed succeeded.\", \"the student the teacher praised the principal promoted.\"] }",
+  "run_idx": 23
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the manager draft submitted",
+    "the song the artist sang triumphed",
+    "the painting the client bought broke",
+    "the letter the postal worker delivered arrived",
+    "the student the teacher the principal saw helped ran"
+  ],
+  "induced_prompt_raw": "Generate sentences with exactly one relative clause containing a transitive verb and no relative pronoun (e.g., \"the [noun] the [noun] [verb] [verb]\"), avoiding deeply nested multiple embeddings.",
+  "induced_prompt": "Generate sentences with exactly one relative clause containing a transitive verb and no relative pronoun (e.g., \"the [noun] the [noun] [verb] [verb]\"), avoiding deeply nested multiple embeddings.",
+  "induced_prompt_chars": 195,
+  "induced_prompt_words": 27,
+  "l1_char_total": 206,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book the boy read was very exciting.\",\n    \"The pizza the man baked tasted absolutely delicious.\",\n    \"The song the band played energized the crowd.\",\n    \"The letter the girl wrote made her mother smile.\",\n    \"The movie the critics praised won several awards.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book the boy read was very exciting.",
+    "The pizza the man baked tasted absolutely delicious.",
+    "The song the band played energized the crowd.",
+    "The letter the girl wrote made her mother smile.",
+    "The movie the critics praised won several awards."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:56:42.749160+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the manager draft submitted",
+    "the song the artist sang triumphed",
+    "the painting the client bought broke",
+    "the letter the postal worker delivered arrived"
+  ],
+  "l1_sentences": [
+    "the report the manager draft submitted",
+    "the song the artist sang triumphed",
+    "the painting the client bought broke",
+    "the letter the postal worker delivered arrived",
+    "the student the teacher the principal saw helped ran"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the manager draft submitted\",\n    \"the song the artist sang triumphed\",\n    \"the painting the client bought broke\",\n    \"the letter the postal worker delivered arrived\",\n    \"the student the teacher the principal saw helped ran\"\n  ]\n}",
+  "run_idx": 25
+}

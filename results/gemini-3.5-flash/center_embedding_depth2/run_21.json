@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the chef the critic praised smiled",
+    "the student the teacher helped graduated",
+    "the athlete the coach trained won",
+    "the artist the collector hired painted",
+    "the author the editor guided succeeded"
+  ],
+  "induced_prompt_raw": "Write 5 sentences following the syntactic structure: [Subject] + [Object Relative Clause with relative pronoun omitted] + [Intransitive Verb] (e.g., \"The noun the noun verbed verbed\").",
+  "induced_prompt": "Write 5 sentences following the syntactic structure: [Subject] + [Object Relative Clause with relative pronoun omitted] + [Intransitive Verb] (e.g., \"The noun the noun verbed verbed\").",
+  "induced_prompt_chars": 184,
+  "induced_prompt_words": 26,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cake the baker baked fell.\",\n    \"The letter the girl wrote arrived.\",\n    \"The dog the boy chased escaped.\",\n    \"The car the man bought broke.\",\n    \"The secret the friend kept leaked.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cake the baker baked fell.",
+    "The letter the girl wrote arrived.",
+    "The dog the boy chased escaped.",
+    "The car the man bought broke.",
+    "The secret the friend kept leaked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:42:02.096672+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the critic praised smiled",
+    "the student the teacher helped graduated",
+    "the athlete the coach trained won",
+    "the artist the collector hired painted",
+    "the author the editor guided succeeded"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the critic praised smiled\",\n    \"the student the teacher helped graduated\",\n    \"the athlete the coach trained won\",\n    \"the artist the collector hired painted\",\n    \"the author the editor guided succeeded\"\n  ]\n}",
+  "run_idx": 21
+}

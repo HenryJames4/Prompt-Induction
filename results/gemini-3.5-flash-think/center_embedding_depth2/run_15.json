@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat scratched ran",
+    "the student the teacher praised smiled",
+    "the car the mechanic fixed started",
+    "the child the mother hugged laughed",
+    "the cake the baker decorated fell"
+  ],
+  "induced_prompt_raw": "Generate sentences with the syntactic structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\"",
+  "induced_prompt": "Generate sentences with the syntactic structure: \"the [noun] the [noun] [transitive verb] [intransitive verb]\"",
+  "induced_prompt_chars": 110,
+  "induced_prompt_words": 14,
+  "l1_char_total": 169,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The car the man bought stalled.\",\n    \"The dog the boy chased barked.\",\n    \"The actor the crowd saw bowed.\",\n    \"The toy the child lost vanished.\",\n    \"The chef the critic praised smiled.\"\n  ]\n}",
+  "l2_sentences": [
+    "The car the man bought stalled.",
+    "The dog the boy chased barked.",
+    "The actor the crowd saw bowed.",
+    "The toy the child lost vanished.",
+    "The chef the critic praised smiled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:40:51.292680+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat scratched ran",
+    "the student the teacher praised smiled",
+    "the car the mechanic fixed started",
+    "the child the mother hugged laughed",
+    "the cake the baker decorated fell"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the dog the cat scratched ran\",\n    \"the student the teacher praised smiled\",\n    \"the car the mechanic fixed started\",\n    \"the child the mother hugged laughed\",\n    \"the cake the baker decorated fell\"\n  ]\n}",
+  "run_idx": 15
+}

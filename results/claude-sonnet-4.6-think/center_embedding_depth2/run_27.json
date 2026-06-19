@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The book the student read vanished.",
+    "The cat the dog chased fled.",
+    "The letter the manager signed arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The cake the chef baked disappeared."
+  ],
+  "induced_prompt_raw": "Write sentences using center-embedded relative clauses as subjects, following the pattern: \"The [noun] the [noun] [verb] [verb].\"",
+  "induced_prompt": "Write sentences using center-embedded relative clauses as subjects, following the pattern: \"The [noun] the [noun] [verb] [verb].\"",
+  "induced_prompt_chars": 129,
+  "induced_prompt_words": 17,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The rat the cat chased fled.\", \"The cake the baker made disappeared.\", \"The car the mechanic fixed stalled.\", \"The letter the teacher wrote arrived.\", \"The book the student borrowed vanished.\"]}\n```",
+  "l2_sentences": [
+    "The rat the cat chased fled.",
+    "The cake the baker made disappeared.",
+    "The car the mechanic fixed stalled.",
+    "The letter the teacher wrote arrived.",
+    "The book the student borrowed vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:43:52.018036+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The book the student read vanished.",
+    "The cat the dog chased fled.",
+    "The letter the manager signed arrived.",
+    "The bridge the engineer designed collapsed.",
+    "The cake the chef baked disappeared."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The book the student read vanished.\",\n    \"The cat the dog chased fled.\",\n    \"The letter the manager signed arrived.\",\n    \"The bridge the engineer designed collapsed.\",\n    \"The cake the chef baked disappeared.\"\n  ]\n}\n```",
+  "run_idx": 27
+}

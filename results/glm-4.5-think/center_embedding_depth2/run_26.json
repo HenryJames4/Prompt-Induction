@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the student read arrived.",
+    "the car the mechanic fixed broke.",
+    "the idea the scientist proposed failed.",
+    "the house the builder constructed collapsed.",
+    "the dog the owner trained won."
+  ],
+  "induced_prompt_raw": "Subject with reduced relative clause and verb",
+  "induced_prompt": "Subject with reduced relative clause and verb",
+  "induced_prompt_chars": 45,
+  "induced_prompt_words": 7,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The woman singing in the choir won the competition.\",\n    \"The car parked in the driveway belongs to my neighbor.\",\n    \"The children playing in the park need supervision.\",\n    \"The book written by J.K. Rowling became a bestseller.\",\n    \"The man arrested by the police confessed to the crime.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The woman singing in the choir won the competition.",
+    "The car parked in the driveway belongs to my neighbor.",
+    "The children playing in the park need supervision.",
+    "The book written by J.K. Rowling became a bestseller.",
+    "The man arrested by the police confessed to the crime."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:28:52.380859+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the student read arrived.",
+    "the car the mechanic fixed broke.",
+    "the idea the scientist proposed failed.",
+    "the house the builder constructed collapsed.",
+    "the dog the owner trained won."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the student read arrived.\",\n    \"the car the mechanic fixed broke.\",\n    \"the idea the scientist proposed failed.\",\n    \"the house the builder constructed collapsed.\",\n    \"the dog the owner trained won.\"\n  ]\n}\n```",
+  "run_idx": 26
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The book the teacher the student the child helped tutored read vanished.",
+    "The plan the manager the worker the boss hired trained suggested failed.",
+    "The song the musician the pupil the coach inspired taught recorded spread.",
+    "The paper the scholar the student the dean hired mentored wrote circulated.",
+    "The house the architect the builder the client hired trained designed collapsed."
+  ],
+  "induced_prompt_raw": "Write sentences with quadruply center-embedded relative clauses, where four noun phrases appear consecutively followed by four verbs in reverse dependency order.",
+  "induced_prompt": "Write sentences with quadruply center-embedded relative clauses, where four noun phrases appear consecutively followed by four verbs in reverse dependency order.",
+  "induced_prompt_chars": 161,
+  "induced_prompt_words": 21,
+  "l1_char_total": 373,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat that the cat that the dog that the man owned trained chased died.\",\n    \"The book that the student that the professor that the dean hired taught read sold.\",\n    \"The play that the actor that the director that the producer funded hired staged succeeded.\",\n    \"The experiment that the student that the scientist that the university employed supervised conducted failed.\",\n    \"The bill that the senator that the lobbyist that the corporation hired persuaded introduced passed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat that the cat that the dog that the man owned trained chased died.",
+    "The book that the student that the professor that the dean hired taught read sold.",
+    "The play that the actor that the director that the producer funded hired staged succeeded.",
+    "The experiment that the student that the scientist that the university employed supervised conducted failed.",
+    "The bill that the senator that the lobbyist that the corporation hired persuaded introduced passed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:30:47.573206+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The book the teacher the student the child helped tutored read vanished.",
+    "The plan the manager the worker the boss hired trained suggested failed.",
+    "The song the musician the pupil the coach inspired taught recorded spread.",
+    "The paper the scholar the student the dean hired mentored wrote circulated.",
+    "The house the architect the builder the client hired trained designed collapsed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The book the teacher the student the child helped tutored read vanished.\",\n    \"The plan the manager the worker the boss hired trained suggested failed.\",\n    \"The song the musician the pupil the coach inspired taught recorded spread.\",\n    \"The paper the scholar the student the dean hired mentored wrote circulated.\",\n    \"The house the architect the builder the client hired trained designed collapsed.\"\n  ]\n}\n```",
+  "run_idx": 25
+}

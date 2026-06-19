@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the professor the student the child taught helped published vanished.",
+    "The document the lawyer the clerk the judge appointed hired signed disappeared.",
+    "The proposal the manager the analyst the director hired trained submitted collapsed.",
+    "The film the critic the actor the director cast praised reviewed premiered.",
+    "The article the editor the journalist wrote published circulated."
+  ],
+  "induced_prompt_raw": "Generate sentences with **quadruply center-embedded relative clauses**, following the structure: **NP1 NP2 NP3 NP4 V4 V3 V2 V1**, where NP4 acts on NP3, NP3 acts on NP2, NP2 acts on NP1, and NP1 takes a final intransitive verb. Each sentence must contain exactly four consecutive noun phrases followed by four verbs in reverse order. Do not produce sentences with only three noun phrases and three verbs (triple embedding).",
+  "induced_prompt": "Generate sentences with **quadruply center-embedded relative clauses**, following the structure: **NP1 NP2 NP3 NP4 V4 V3 V2 V1**, where NP4 acts on NP3, NP3 acts on NP2, NP2 acts on NP1, and NP1 takes a final intransitive verb. Each sentence must contain exactly four consecutive noun phrases followed by four verbs in reverse order. Do not produce sentences with only three noun phrases and three verbs (triple embedding).",
+  "induced_prompt_chars": 423,
+  "induced_prompt_words": 68,
+  "l1_char_total": 381,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The rat the cat the dog the man chased bit ate fled.\",\n    \"The book the student the teacher the principal hired graded read disappeared.\",\n    \"The child the woman the officer the judge warned arrested comforted wept.\",\n    \"The fish the shark the whale the diver spotted chased frightened swam.\",\n    \"The paper the professor the dean the board appointed hired reviewed vanished.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The rat the cat the dog the man chased bit ate fled.",
+    "The book the student the teacher the principal hired graded read disappeared.",
+    "The child the woman the officer the judge warned arrested comforted wept.",
+    "The fish the shark the whale the diver spotted chased frightened swam.",
+    "The paper the professor the dean the board appointed hired reviewed vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:25:35.219482+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the professor the student the child taught helped published vanished.",
+    "The document the lawyer the clerk the judge appointed hired signed disappeared.",
+    "The proposal the manager the analyst the director hired trained submitted collapsed.",
+    "The film the critic the actor the director cast praised reviewed premiered."
+  ],
+  "l1_sentences": [
+    "The book the professor the student the child taught helped published vanished.",
+    "The document the lawyer the clerk the judge appointed hired signed disappeared.",
+    "The proposal the manager the analyst the director hired trained submitted collapsed.",
+    "The film the critic the actor the director cast praised reviewed premiered.",
+    "The article the editor the journalist wrote published circulated."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The book the professor the student the child taught helped published vanished.\",\n    \"The document the lawyer the clerk the judge appointed hired signed disappeared.\",\n    \"The proposal the manager the analyst the director hired trained submitted collapsed.\",\n    \"The film the critic the actor the director cast praised reviewed premiered.\",\n    \"The article the editor the journalist wrote published circulated.\"\n  ]\n}\n```",
+  "run_idx": 30
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the rat the cheese tempted bit chased escaped",
+    "the client the lawyer the judge the guard watched questioned defended sued",
+    "the patient the doctor the nurse the student helped assisted treated cured",
+    "the movie the critic the director the producer hired inspired reviewed failed",
+    "the bill the senator the lobbyist the activist threatened pressured supported passed"
+  ],
+  "induced_prompt_raw": "Generate a quadruple center-embedded sentence (multiply self-embedded relative clause structure) with the template: [Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1].",
+  "induced_prompt": "Generate a quadruple center-embedded sentence (multiply self-embedded relative clause structure) with the template: [Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb 4] [Verb 3] [Verb 2] [Verb 1].",
+  "induced_prompt_chars": 188,
+  "induced_prompt_words": 29,
+  "l1_char_total": 370,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the cat the mouse the cheese attracted bit chased ran.\",\n    \"The coder the manager the client the designer hired criticized fired quit.\",\n    \"The patient the doctor the nurse the patient liked trusted thanked recovered.\",\n    \"The student the teacher the principal the parent called questioned scolded smiled.\",\n    \"The book the student the teacher the librarian helped read graded lost.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the cat the mouse the cheese attracted bit chased ran.",
+    "The coder the manager the client the designer hired criticized fired quit.",
+    "The patient the doctor the nurse the patient liked trusted thanked recovered.",
+    "The student the teacher the principal the parent called questioned scolded smiled.",
+    "The book the student the teacher the librarian helped read graded lost."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:16:07.566339+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the rat the cheese tempted bit chased escaped",
+    "the client the lawyer the judge the guard watched questioned defended sued",
+    "the patient the doctor the nurse the student helped assisted treated cured",
+    "the movie the critic the director the producer hired inspired reviewed failed",
+    "the bill the senator the lobbyist the activist threatened pressured supported passed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the rat the cheese tempted bit chased escaped\",\n    \"the client the lawyer the judge the guard watched questioned defended sued\",\n    \"the patient the doctor the nurse the student helped assisted treated cured\",\n    \"the movie the critic the director the producer hired inspired reviewed failed\",\n    \"the bill the senator the lobbyist the activist threatened pressured supported passed\"\n  ]\n}",
+  "run_idx": 1
+}

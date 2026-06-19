@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cake the baker made collapsed",
+    "the toy the child broke vanished",
+    "the letter the student wrote arrived",
+    "the song the artist sang ended",
+    "the car the mechanic repaired failed"
+  ],
+  "induced_prompt_raw": "Generate five sentences with the structure: \"the [noun] the [noun] [past-tense verb] [past-tense verb]\"",
+  "induced_prompt": "Generate five sentences with the structure: \"the [noun] the [noun] [past-tense verb] [past-tense verb]\"",
+  "induced_prompt_chars": 103,
+  "induced_prompt_words": 14,
+  "l1_char_total": 167,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cheese the mouse ate smelled.\",\n    \"The car the man bought broke.\",\n    \"The book the student wrote vanished.\",\n    \"The dog the boy found barked.\",\n    \"The ball the girl threw bounced.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cheese the mouse ate smelled.",
+    "The car the man bought broke.",
+    "The book the student wrote vanished.",
+    "The dog the boy found barked.",
+    "The ball the girl threw bounced."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:36:17.356175+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the baker made collapsed",
+    "the toy the child broke vanished",
+    "the letter the student wrote arrived",
+    "the song the artist sang ended",
+    "the car the mechanic repaired failed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cake the baker made collapsed\",\n    \"the toy the child broke vanished\",\n    \"the letter the student wrote arrived\",\n    \"the song the artist sang ended\",\n    \"the car the mechanic repaired failed\"\n  ]\n}",
+  "run_idx": 3
+}

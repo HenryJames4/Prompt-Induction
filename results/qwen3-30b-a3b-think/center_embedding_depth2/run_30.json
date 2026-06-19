@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the idea the scientist proposed succeeded.",
+    "the plan the manager devised worked.",
+    "the solution the engineer found passed.",
+    "the article the editor reviewed appeared."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [main verb]",
+  "induced_prompt": "the [noun] the [role] [verb] [main verb]",
+  "induced_prompt_chars": 40,
+  "induced_prompt_words": 7,
+  "l1_char_total": 189,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the doctor saw run\", \"the dog the teacher helped learn\", \"the child the parent guided grow\", \"the student the coach encouraged achieve\", \"the team the leader supported succeed\"]}",
+  "l2_sentences": [
+    "the cat the doctor saw run",
+    "the dog the teacher helped learn",
+    "the child the parent guided grow",
+    "the student the coach encouraged achieve",
+    "the team the leader supported succeed"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:33:14.848359+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the idea the scientist proposed succeeded.",
+    "the plan the manager devised worked.",
+    "the solution the engineer found passed.",
+    "the article the editor reviewed appeared."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the idea the scientist proposed succeeded.\", \"the plan the manager devised worked.\", \"the solution the engineer found passed.\", \"the article the editor reviewed appeared.\"]}",
+  "run_idx": 30
+}

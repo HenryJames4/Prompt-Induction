@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the editor recommended sold",
+    "the movie the critic praised flopped",
+    "the plan the committee endorsed failed",
+    "the design the architect proposed won",
+    "the article the author the editor hired published criticized"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a nested noun phrase structure where a main clause follows a relative clause modifying the subject. Avoid stacking multiple relative clauses.\"",
+  "induced_prompt": "\"Generate sentences with a nested noun phrase structure where a main clause follows a relative clause modifying the subject. Avoid stacking multiple relative clauses.\"",
+  "induced_prompt_chars": 167,
+  "induced_prompt_words": 24,
+  "l1_char_total": 207,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book, which was written by my favorite author, became a bestseller.\", \"The dog, who barked loudly at the stranger, ran back to its owner.\", \"The cake, which was decorated with fresh strawberries, tasted delicious.\", \"The car, which had been parked in the driveway, suddenly started rolling.\", \"The teacher, who assigned the challenging project, explained it in detail.\"]}",
+  "l2_sentences": [
+    "The book, which was written by my favorite author, became a bestseller.",
+    "The dog, who barked loudly at the stranger, ran back to its owner.",
+    "The cake, which was decorated with fresh strawberries, tasted delicious.",
+    "The car, which had been parked in the driveway, suddenly started rolling.",
+    "The teacher, who assigned the challenging project, explained it in detail."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:42:28.313286+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the editor recommended sold",
+    "the movie the critic praised flopped",
+    "the plan the committee endorsed failed",
+    "the design the architect proposed won"
+  ],
+  "l1_sentences": [
+    "the book the editor recommended sold",
+    "the movie the critic praised flopped",
+    "the plan the committee endorsed failed",
+    "the design the architect proposed won",
+    "the article the author the editor hired published criticized"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor recommended sold\", \"the movie the critic praised flopped\", \"the plan the committee endorsed failed\", \"the design the architect proposed won\", \"the article the author the editor hired published criticized\"]}",
+  "run_idx": 9
+}

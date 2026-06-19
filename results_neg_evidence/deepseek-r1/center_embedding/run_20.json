@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the park the boy the ball the dog chased hit visited closed.",
+    "the letter the secretary the manager the intern called instructed typed arrived.",
+    "the car the driver the mechanic the owner called assisted drove broke.",
+    "the building the architect the contractor the investor funded hired designed collapsed.",
+    "the cat the mouse the cheese ate stole ran."
+  ],
+  "induced_prompt_raw": "Generate a sentence with four consecutive 'the'-prefixed nouns followed by four past-tense verbs. Ensure the verbs form nested relative clauses: the innermost verb (V4) pairs the last noun as subject and the third as object; V3 pairs the third noun as subject and the second as object; V2 pairs the second noun as subject and the first as object; the outermost verb (V1) is intransitive with the first noun as subject. Avoid ambiguous or ungrammatical sequences.",
+  "induced_prompt": "Generate a sentence with four consecutive 'the'-prefixed nouns followed by four past-tense verbs. Ensure the verbs form nested relative clauses: the innermost verb (V4) pairs the last noun as subject and the third as object; V3 pairs the third noun as subject and the second as object; V2 pairs the second noun as subject and the first as object; the outermost verb (V1) is intransitive with the first noun as subject. Avoid ambiguous or ungrammatical sequences.",
+  "induced_prompt_chars": 462,
+  "induced_prompt_words": 76,
+  "l1_char_total": 340,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The king that the knight that the dragon that the fire consumed defeated protected ruled.\", \"The flowers that the seeds that the ground that the rain soaked swallowed produced bloomed.\", \"The singer that the fan that the song that the lyrics moved inspired applauded performed.\", \"The tree that the lumberjack that the axe that the handle broke slipped cut fell.\", \"The chef that the waiter that the dish that the spices flavored impressed served cooked.\"]}",
+  "l2_sentences": [
+    "The king that the knight that the dragon that the fire consumed defeated protected ruled.",
+    "The flowers that the seeds that the ground that the rain soaked swallowed produced bloomed.",
+    "The singer that the fan that the song that the lyrics moved inspired applauded performed.",
+    "The tree that the lumberjack that the axe that the handle broke slipped cut fell.",
+    "The chef that the waiter that the dish that the spices flavored impressed served cooked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:12:59.408383+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the park the boy the ball the dog chased hit visited closed.",
+    "the letter the secretary the manager the intern called instructed typed arrived.",
+    "the car the driver the mechanic the owner called assisted drove broke.",
+    "the building the architect the contractor the investor funded hired designed collapsed."
+  ],
+  "l1_sentences": [
+    "the park the boy the ball the dog chased hit visited closed.",
+    "the letter the secretary the manager the intern called instructed typed arrived.",
+    "the car the driver the mechanic the owner called assisted drove broke.",
+    "the building the architect the contractor the investor funded hired designed collapsed.",
+    "the cat the mouse the cheese ate stole ran."
+  ],
+  "l1_raw": "{\"sentences\": [\"the park the boy the ball the dog chased hit visited closed.\", \"the letter the secretary the manager the intern called instructed typed arrived.\", \"the car the driver the mechanic the owner called assisted drove broke.\", \"the building the architect the contractor the investor funded hired designed collapsed.\", \"the cat the mouse the cheese ate stole ran.\"]}",
+  "run_idx": 20
+}

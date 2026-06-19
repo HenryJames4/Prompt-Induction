@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cake the baker the chef the apprentice trained baked decorated disappeared.",
+    "The book the author the editor the intern interviewed revised published vanished.",
+    "The car the mechanic the driver the owner hired repaired inspected crashed.",
+    "The painting the artist the curator the collector admired restored displayed sold.",
+    "The dog the boy the girl fed walked played."
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring grammatical correctness and avoiding ambiguity or illogical structure.\"",
+  "induced_prompt": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring grammatical correctness and avoiding ambiguity or illogical structure.\"",
+  "induced_prompt_chars": 176,
+  "induced_prompt_words": 22,
+  "l1_char_total": 360,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that was written by the author who won the award that impressed the critics that attended the event was a bestseller.\", \"The dog that chased the cat that scared the bird that nested in the tree barked loudly.\", \"The teacher who taught the student who solved the problem that puzzled the class was proud.\", \"The car that was driven by the man who bought the house that overlooked the lake had a flat tire.\", \"The cake that was baked by the chef who worked in the restaurant that served the mayor was delicious.\"]}",
+  "l2_sentences": [
+    "The book that was written by the author who won the award that impressed the critics that attended the event was a bestseller.",
+    "The dog that chased the cat that scared the bird that nested in the tree barked loudly.",
+    "The teacher who taught the student who solved the problem that puzzled the class was proud.",
+    "The car that was driven by the man who bought the house that overlooked the lake had a flat tire.",
+    "The cake that was baked by the chef who worked in the restaurant that served the mayor was delicious."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:11:59.957527+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cake the baker the chef the apprentice trained baked decorated disappeared.",
+    "The book the author the editor the intern interviewed revised published vanished.",
+    "The car the mechanic the driver the owner hired repaired inspected crashed.",
+    "The painting the artist the curator the collector admired restored displayed sold."
+  ],
+  "l1_sentences": [
+    "The cake the baker the chef the apprentice trained baked decorated disappeared.",
+    "The book the author the editor the intern interviewed revised published vanished.",
+    "The car the mechanic the driver the owner hired repaired inspected crashed.",
+    "The painting the artist the curator the collector admired restored displayed sold.",
+    "The dog the boy the girl fed walked played."
+  ],
+  "l1_raw": "{\"sentences\": [\"The cake the baker the chef the apprentice trained baked decorated disappeared.\", \"The book the author the editor the intern interviewed revised published vanished.\", \"The car the mechanic the driver the owner hired repaired inspected crashed.\", \"The painting the artist the curator the collector admired restored displayed sold.\", \"The dog the boy the girl fed walked played.\"]}",
+  "run_idx": 20
+}

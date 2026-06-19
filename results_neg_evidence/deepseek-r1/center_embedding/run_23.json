@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the publisher the company hired contacted wrote sold",
+    "the cake the baker the customer the child annoyed called made arrived",
+    "the song the singer the producer the studio hired discovered recorded played",
+    "the house the architect the client the investor hired interviewed designed collapsed",
+    "the dog the cat the mouse bit ran chased"
+  ],
+  "induced_prompt_raw": "Generate a sentence: 'the N1 the N2 the N3 the N4 V1 V2 V3 V4' with V1 transitive (N4 acts on N3), V2 transitive (N3 acts on N2), V3 transitive (N2 acts on N1), and V4 intransitive (N1 acts).",
+  "induced_prompt": "Generate a sentence: 'the N1 the N2 the N3 the N4 V1 V2 V3 V4' with V1 transitive (N4 acts on N3), V2 transitive (N3 acts on N2), V3 transitive (N2 acts on N1), and V4 intransitive (N1 acts).",
+  "induced_prompt_chars": 191,
+  "induced_prompt_words": 39,
+  "l1_char_total": 341,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The king the queen the servant the guard praised instructed commanded bowed.\", \"The dog the cat the mouse the hawk chased scared bit fled.\", \"The teacher the student the parent the principal called advised thanked sighed.\", \"The car the driver the mechanic the owner hired fixed started stalled.\", \"The ball the player the coach the team passed trained kicked celebrated.\"]}",
+  "l2_sentences": [
+    "The king the queen the servant the guard praised instructed commanded bowed.",
+    "The dog the cat the mouse the hawk chased scared bit fled.",
+    "The teacher the student the parent the principal called advised thanked sighed.",
+    "The car the driver the mechanic the owner hired fixed started stalled.",
+    "The ball the player the coach the team passed trained kicked celebrated."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:18:11.837987+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the publisher the company hired contacted wrote sold",
+    "the cake the baker the customer the child annoyed called made arrived",
+    "the song the singer the producer the studio hired discovered recorded played",
+    "the house the architect the client the investor hired interviewed designed collapsed"
+  ],
+  "l1_sentences": [
+    "the book the author the publisher the company hired contacted wrote sold",
+    "the cake the baker the customer the child annoyed called made arrived",
+    "the song the singer the producer the studio hired discovered recorded played",
+    "the house the architect the client the investor hired interviewed designed collapsed",
+    "the dog the cat the mouse bit ran chased"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the author the publisher the company hired contacted wrote sold\",\n    \"the cake the baker the customer the child annoyed called made arrived\",\n    \"the song the singer the producer the studio hired discovered recorded played\",\n    \"the house the architect the client the investor hired interviewed designed collapsed\",\n    \"the dog the cat the mouse bit ran chased\"\n  ]\n}",
+  "run_idx": 23
+}

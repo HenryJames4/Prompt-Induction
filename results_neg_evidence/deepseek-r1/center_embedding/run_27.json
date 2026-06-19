@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef the baker the apprentice helped taught made collapsed",
+    "the building the architect the engineer the worker hired inspected designed collapsed",
+    "the meal the chef the waiter the customer called served prepared arrived",
+    "the decision the committee the president the advisor advised consulted made emerged",
+    "the house the builder the architect hired built stood"
+  ],
+  "induced_prompt_raw": "\"Construct a sentence with a main noun followed by three dependent nouns, each paired with a verb in reverse sequence, then the main verb. Ensure all dependent verbs are included.\"",
+  "induced_prompt": "\"Construct a sentence with a main noun followed by three dependent nouns, each paired with a verb in reverse sequence, then the main verb. Ensure all dependent verbs are included.\"",
+  "induced_prompt_chars": 180,
+  "induced_prompt_words": 30,
+  "l1_char_total": 364,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The chef the sauce stirs the vegetables chops the meat seasons cooks.\", \"The programmer the code debugs the algorithm refines the design sketches codes.\", \"The gardener the flowers waters the trees trims the bushes prunes tends.\", \"The teacher the assignment grades the test administers the lesson plans teaches.\", \"The artist the canvas paints the sketch erases the idea conceptualizes creates.\"]}",
+  "l2_sentences": [
+    "The chef the sauce stirs the vegetables chops the meat seasons cooks.",
+    "The programmer the code debugs the algorithm refines the design sketches codes.",
+    "The gardener the flowers waters the trees trims the bushes prunes tends.",
+    "The teacher the assignment grades the test administers the lesson plans teaches.",
+    "The artist the canvas paints the sketch erases the idea conceptualizes creates."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:23:06.072952+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef the baker the apprentice helped taught made collapsed",
+    "the building the architect the engineer the worker hired inspected designed collapsed",
+    "the meal the chef the waiter the customer called served prepared arrived",
+    "the decision the committee the president the advisor advised consulted made emerged"
+  ],
+  "l1_sentences": [
+    "the cake the chef the baker the apprentice helped taught made collapsed",
+    "the building the architect the engineer the worker hired inspected designed collapsed",
+    "the meal the chef the waiter the customer called served prepared arrived",
+    "the decision the committee the president the advisor advised consulted made emerged",
+    "the house the builder the architect hired built stood"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the chef the baker the apprentice helped taught made collapsed\", \"the building the architect the engineer the worker hired inspected designed collapsed\", \"the meal the chef the waiter the customer called served prepared arrived\", \"the decision the committee the president the advisor advised consulted made emerged\", \"the house the builder the architect hired built stood\"]}",
+  "run_idx": 27
+}

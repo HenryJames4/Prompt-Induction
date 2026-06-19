@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the car the mechanic fixed started.",
+    "the book the student read disappeared.",
+    "the house the builder constructed collapsed.",
+    "the meal the chef prepared tasted.",
+    "the signal the operator sent arrived."
+  ],
+  "induced_prompt_raw": "Reduced relative clause modifying subject, then verb.",
+  "induced_prompt": "Reduced relative clause modifying subject, then verb.",
+  "induced_prompt_chars": 53,
+  "induced_prompt_words": 7,
+  "l1_char_total": 188,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The woman wearing a red dress entered the room.\",\n    \"The car parked illegally was towed away.\",\n    \"The children playing in the park laughed loudly.\",\n    \"The documents stolen from the office have been recovered.\",\n    \"The man accused of the crime protested his innocence.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The woman wearing a red dress entered the room.",
+    "The car parked illegally was towed away.",
+    "The children playing in the park laughed loudly.",
+    "The documents stolen from the office have been recovered.",
+    "The man accused of the crime protested his innocence."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:08:52.041656+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the mechanic fixed started.",
+    "the book the student read disappeared.",
+    "the house the builder constructed collapsed.",
+    "the meal the chef prepared tasted.",
+    "the signal the operator sent arrived."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the mechanic fixed started.\",\n    \"the book the student read disappeared.\",\n    \"the house the builder constructed collapsed.\",\n    \"the meal the chef prepared tasted.\",\n    \"the signal the operator sent arrived.\"\n  ]\n}\n```",
+  "run_idx": 9
+}

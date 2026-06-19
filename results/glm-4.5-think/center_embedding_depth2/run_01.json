@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read won.",
+    "the idea the committee accepted succeeded.",
+    "the man the officer arrested confessed.",
+    "the house the builder constructed collapsed."
+  ],
+  "induced_prompt_raw": "[Det] [Noun] [Det] [Noun] [Verb] [Verb].",
+  "induced_prompt": "[Det] [Noun] [Det] [Noun] [Verb] [Verb].",
+  "induced_prompt_chars": 40,
+  "induced_prompt_words": 6,
+  "l1_char_total": 186,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat a mouse chases catches.\",\n    \"A boy the ball throws kicks.\",\n    \"My teacher a book reads writes.\",\n    \"This car that truck overtakes passes.\",\n    \"Her dog a bone eats buries.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat a mouse chases catches.",
+    "A boy the ball throws kicks.",
+    "My teacher a book reads writes.",
+    "This car that truck overtakes passes.",
+    "Her dog a bone eats buries."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:59:29.015896+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read won.",
+    "the idea the committee accepted succeeded.",
+    "the man the officer arrested confessed.",
+    "the house the builder constructed collapsed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read won.\",\n    \"the idea the committee accepted succeeded.\",\n    \"the man the officer arrested confessed.\",\n    \"the house the builder constructed collapsed.\"\n  ]\n}\n```",
+  "run_idx": 1
+}

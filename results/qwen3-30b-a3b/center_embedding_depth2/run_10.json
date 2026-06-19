@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor accepted sold.",
+    "the plan the manager approved failed.",
+    "the idea the scientist tested succeeded.",
+    "the report the analyst reviewed passed.",
+    "the method the professor taught worked."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [past tense outcome]",
+  "induced_prompt": "the [noun] the [role] [verb] [past tense outcome]",
+  "induced_prompt_chars": 49,
+  "induced_prompt_words": 8,
+  "l1_char_total": 189,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the trainer trained completed the obstacle course.\", \"The student the teacher instructed passed the final exam.\", \"The song the musician composed won the competition.\", \"The project the manager led delivered the results on time.\", \"The player the coach mentored scored the winning goal.\"]}",
+  "l2_sentences": [
+    "The dog the trainer trained completed the obstacle course.",
+    "The student the teacher instructed passed the final exam.",
+    "The song the musician composed won the competition.",
+    "The project the manager led delivered the results on time.",
+    "The player the coach mentored scored the winning goal."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:09:32.275491+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor accepted sold.",
+    "the plan the manager approved failed.",
+    "the idea the scientist tested succeeded.",
+    "the report the analyst reviewed passed.",
+    "the method the professor taught worked."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor accepted sold.\", \"the plan the manager approved failed.\", \"the idea the scientist tested succeeded.\", \"the report the analyst reviewed passed.\", \"the method the professor taught worked.\"]}",
+  "run_idx": 10
+}

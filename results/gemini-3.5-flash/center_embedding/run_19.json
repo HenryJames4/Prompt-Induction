@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the client the lawyer the clerk the typist hired consulted defended won",
+    "the song the artist the producer the engineer hired assisted recorded succeeded",
+    "the bill the senator the lobbyist the activist called questioned opposed failed",
+    "the patient the doctor the nurse the student trained assisted treated survived",
+    "the case the detective the officer the witness helped questioned investigated closed"
+  ],
+  "induced_prompt_raw": "Generate a sentence with three nested, center-embedded relative clauses, following the noun phrase template: \"the [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\".",
+  "induced_prompt": "Generate a sentence with three nested, center-embedded relative clauses, following the noun phrase template: \"the [Noun1] the [Noun2] the [Noun3] the [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\".",
+  "induced_prompt_chars": 191,
+  "induced_prompt_words": 26,
+  "l1_char_total": 391,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef the critic the writer the editor praised questioned disliked resigned.\",\n    \"The dog the cat the rat the mouse bit chased scratched escaped.\",\n    \"The doctor the nurse the patient the visitor saw helped thanked retired.\",\n    \"The teacher the student the parent the principal called questioned blamed apologized.\",\n    \"The boy the girl the man the woman saw met liked wave.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef the critic the writer the editor praised questioned disliked resigned.",
+    "The dog the cat the rat the mouse bit chased scratched escaped.",
+    "The doctor the nurse the patient the visitor saw helped thanked retired.",
+    "The teacher the student the parent the principal called questioned blamed apologized.",
+    "The boy the girl the man the woman saw met liked wave."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:26:44.931878+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the client the lawyer the clerk the typist hired consulted defended won",
+    "the song the artist the producer the engineer hired assisted recorded succeeded",
+    "the bill the senator the lobbyist the activist called questioned opposed failed",
+    "the patient the doctor the nurse the student trained assisted treated survived",
+    "the case the detective the officer the witness helped questioned investigated closed"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the client the lawyer the clerk the typist hired consulted defended won\",\n    \"the song the artist the producer the engineer hired assisted recorded succeeded\",\n    \"the bill the senator the lobbyist the activist called questioned opposed failed\",\n    \"the patient the doctor the nurse the student trained assisted treated survived\",\n    \"the case the detective the officer the witness helped questioned investigated closed\"\n  ]\n}",
+  "run_idx": 19
+}

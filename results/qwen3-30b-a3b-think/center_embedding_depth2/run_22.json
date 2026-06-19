@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the idea the scientist proposed failed.",
+    "the plan the manager approved ended.",
+    "the report the editor reviewed passed.",
+    "the draft the writer completed left."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [outcome]",
+  "induced_prompt": "the [noun] the [role] [verb] [outcome]",
+  "induced_prompt_chars": 38,
+  "induced_prompt_words": 6,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the child the parent guided grow.\", \"the student the tutor encouraged achieve.\", \"the patient the nurse comforted recover.\", \"the team the coach motivated win.\", \"the artist the mentor inspired create.\"]}",
+  "l2_sentences": [
+    "the child the parent guided grow.",
+    "the student the tutor encouraged achieve.",
+    "the patient the nurse comforted recover.",
+    "the team the coach motivated win.",
+    "the artist the mentor inspired create."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:23:04.578540+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the idea the scientist proposed failed.",
+    "the plan the manager approved ended.",
+    "the report the editor reviewed passed.",
+    "the draft the writer completed left."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the idea the scientist proposed failed.\", \"the plan the manager approved ended.\", \"the report the editor reviewed passed.\", \"the draft the writer completed left.\"]}",
+  "run_idx": 22
+}

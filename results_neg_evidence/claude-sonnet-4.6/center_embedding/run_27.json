@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the package the courier the manager the client hired supervised delivered arrived",
+    "the novel the author the editor the publisher hired reviewed accepted sold",
+    "the cake the baker the chef the owner trained supervised baked disappeared",
+    "the letter the student the teacher the principal contacted informed wrote arrived",
+    "the dog the boy the woman saw chased barked"
+  ],
+  "induced_prompt_raw": "Write a multiply center-embedded relative clause sentence with exactly 4 levels of embedding, where each noun phrase is modified by a relative clause before the main verbs appear in reverse order at the end. Ensure there are 4 nouns and 4 verbs total.",
+  "induced_prompt": "Write a multiply center-embedded relative clause sentence with exactly 4 levels of embedding, where each noun phrase is modified by a relative clause before the main verbs appear in reverse order at the end. Ensure there are 4 nouns and 4 verbs total.",
+  "induced_prompt_chars": 251,
+  "induced_prompt_words": 43,
+  "l1_char_total": 353,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat that the dog that the bird that the fish saw chased scared ran.\", \"The man that the woman that the child that the nurse helped taught loved smiled.\", \"The book that the student that the teacher that the dean hired trained read fell.\", \"The mouse that the cat that the dog that the boy owns chased caught squeaked.\", \"The cake that the chef that the critic that the host invited praised baked disappeared.\"]}\n```",
+  "l2_sentences": [
+    "The cat that the dog that the bird that the fish saw chased scared ran.",
+    "The man that the woman that the child that the nurse helped taught loved smiled.",
+    "The book that the student that the teacher that the dean hired trained read fell.",
+    "The mouse that the cat that the dog that the boy owns chased caught squeaked.",
+    "The cake that the chef that the critic that the host invited praised baked disappeared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:22:06.178209+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the package the courier the manager the client hired supervised delivered arrived",
+    "the novel the author the editor the publisher hired reviewed accepted sold",
+    "the cake the baker the chef the owner trained supervised baked disappeared",
+    "the letter the student the teacher the principal contacted informed wrote arrived"
+  ],
+  "l1_sentences": [
+    "the package the courier the manager the client hired supervised delivered arrived",
+    "the novel the author the editor the publisher hired reviewed accepted sold",
+    "the cake the baker the chef the owner trained supervised baked disappeared",
+    "the letter the student the teacher the principal contacted informed wrote arrived",
+    "the dog the boy the woman saw chased barked"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the package the courier the manager the client hired supervised delivered arrived\", \"the novel the author the editor the publisher hired reviewed accepted sold\", \"the cake the baker the chef the owner trained supervised baked disappeared\", \"the letter the student the teacher the principal contacted informed wrote arrived\", \"the dog the boy the woman saw chased barked\"]}\n```",
+  "run_idx": 27
+}

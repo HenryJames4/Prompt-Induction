@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased escaped",
+    "the man the woman hired fired",
+    "the book the teacher recommended sold",
+    "the house the builder constructed collapsed",
+    "the cat the dog the mouse saw chased escaped"
+  ],
+  "induced_prompt_raw": "Generate a sentence with two noun phrases and two verbs: the N1 the N2 V1 V2.",
+  "induced_prompt": "Generate a sentence with two noun phrases and two verbs: the N1 the N2 V1 V2.",
+  "induced_prompt_chars": 77,
+  "induced_prompt_words": 16,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the mouse chased caught.\",\n    \"the sun the moon rose set.\",\n    \"the teacher the student taught learned.\",\n    \"the bird the fish flew swam.\",\n    \"the car the truck drove crashed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "the cat the mouse chased caught.",
+    "the sun the moon rose set.",
+    "the teacher the student taught learned.",
+    "the bird the fish flew swam.",
+    "the car the truck drove crashed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:43:06.154699+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased escaped",
+    "the man the woman hired fired",
+    "the book the teacher recommended sold",
+    "the house the builder constructed collapsed"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased escaped",
+    "the man the woman hired fired",
+    "the book the teacher recommended sold",
+    "the house the builder constructed collapsed",
+    "the cat the dog the mouse saw chased escaped"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped\",\n    \"the man the woman hired fired\",\n    \"the book the teacher recommended sold\",\n    \"the house the builder constructed collapsed\",\n    \"the cat the dog the mouse saw chased escaped\"\n  ]\n}\n```",
+  "run_idx": 10
+}

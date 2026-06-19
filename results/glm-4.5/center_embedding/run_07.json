@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the mouse the elephant chased hunted captured escaped.",
+    "the book the teacher the student the principal read assigned recommended borrowed.",
+    "the car the mechanic the owner the driver repaired fixed examined started.",
+    "the house the agent the buyer the owner showed sold purchased renovated.",
+    "the meal the chef the critic the guest prepared tasted reviewed enjoyed."
+  ],
+  "induced_prompt_raw": "A sequence of nouns followed by a sequence of transitive verbs.",
+  "induced_prompt": "A sequence of nouns followed by a sequence of transitive verbs.",
+  "induced_prompt_chars": 63,
+  "induced_prompt_words": 11,
+  "l1_char_total": 370,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat chased the mouse.\",\n    \"The boy kicked the ball.\",\n    \"The teacher graded the papers.\",\n    \"The chef prepared the meal.\",\n    \"The artist painted the canvas.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat chased the mouse.",
+    "The boy kicked the ball.",
+    "The teacher graded the papers.",
+    "The chef prepared the meal.",
+    "The artist painted the canvas."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:12:45.366074+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the mouse the elephant chased hunted captured escaped.",
+    "the book the teacher the student the principal read assigned recommended borrowed.",
+    "the car the mechanic the owner the driver repaired fixed examined started.",
+    "the house the agent the buyer the owner showed sold purchased renovated.",
+    "the meal the chef the critic the guest prepared tasted reviewed enjoyed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the mouse the elephant chased hunted captured escaped.\",\n    \"the book the teacher the student the principal read assigned recommended borrowed.\",\n    \"the car the mechanic the owner the driver repaired fixed examined started.\",\n    \"the house the agent the buyer the owner showed sold purchased renovated.\",\n    \"the meal the chef the critic the guest prepared tasted reviewed enjoyed.\"\n  ]\n}",
+  "run_idx": 7
+}

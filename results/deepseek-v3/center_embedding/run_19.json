@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the editor wrote printed published disappeared",
+    "the cake the baker the chef the waiter baked decorated served spoiled",
+    "the letter the writer the manager the secretary composed signed mailed vanished",
+    "the painting the artist the gallery the curator created displayed exhibited faded",
+    "the car the mechanic the dealer the customer repaired sold drove crashed"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a chain of noun phrases followed by verbs in past tense, where each noun is associated with the next verb in sequence.\"",
+  "induced_prompt": "\"Generate sentences with a chain of noun phrases followed by verbs in past tense, where each noun is associated with the next verb in sequence.\"",
+  "induced_prompt_chars": 144,
+  "induced_prompt_words": 25,
+  "l1_char_total": 381,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog barked and startled the cat.\", \"The cat jumped and knocked over the vase.\", \"The vase shattered and alarmed the homeowner.\", \"The homeowner called and notified the neighbor.\", \"The neighbor arrived and examined the damage.\"]}",
+  "l2_sentences": [
+    "The dog barked and startled the cat.",
+    "The cat jumped and knocked over the vase.",
+    "The vase shattered and alarmed the homeowner.",
+    "The homeowner called and notified the neighbor.",
+    "The neighbor arrived and examined the damage."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:34:36.971324+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the editor wrote printed published disappeared",
+    "the cake the baker the chef the waiter baked decorated served spoiled",
+    "the letter the writer the manager the secretary composed signed mailed vanished",
+    "the painting the artist the gallery the curator created displayed exhibited faded",
+    "the car the mechanic the dealer the customer repaired sold drove crashed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the editor wrote printed published disappeared\", \"the cake the baker the chef the waiter baked decorated served spoiled\", \"the letter the writer the manager the secretary composed signed mailed vanished\", \"the painting the artist the gallery the curator created displayed exhibited faded\", \"the car the mechanic the dealer the customer repaired sold drove crashed\"]}",
+  "run_idx": 19
+}

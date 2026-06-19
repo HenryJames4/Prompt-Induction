@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author the editor the publisher reviewed corrected published vanished.",
+    "the letter the secretary the manager the director read signed sent disappeared.",
+    "the proposal the student the professor the committee submitted approved rejected vanished.",
+    "the data the analyst the supervisor the director collected analyzed reported disappeared.",
+    "the document the clerk the lawyer the client reviewed signed delivered."
+  ],
+  "induced_prompt_raw": "Create a sentence where a noun is processed through a chain of three agents in sequence, each performing a distinct action, followed by a final event that causes the noun to disappear, ensuring each agent acts in a logical order and no action is omitted.",
+  "induced_prompt": "Create a sentence where a noun is processed through a chain of three agents in sequence, each performing a distinct action, followed by a final event that causes the noun to disappear, ensuring each agent acts in a logical order and no action is omitted.",
+  "induced_prompt_chars": 254,
+  "induced_prompt_words": 45,
+  "l1_char_total": 412,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The scientist examined the crystal under a microscope.\", \"The technician dissolved the crystal in a chemical solution.\", \"The chemist evaporated the liquid, leaving behind a residue.\", \"The researcher ignited the residue with a flame.\", \"The final spark consumed the residue, causing it to vanish completely.\"]}",
+  "l2_sentences": [
+    "The scientist examined the crystal under a microscope.",
+    "The technician dissolved the crystal in a chemical solution.",
+    "The chemist evaporated the liquid, leaving behind a residue.",
+    "The researcher ignited the residue with a flame.",
+    "The final spark consumed the residue, causing it to vanish completely."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:13:11.933630+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author the editor the publisher reviewed corrected published vanished.",
+    "the letter the secretary the manager the director read signed sent disappeared.",
+    "the proposal the student the professor the committee submitted approved rejected vanished.",
+    "the data the analyst the supervisor the director collected analyzed reported disappeared."
+  ],
+  "l1_sentences": [
+    "the book the author the editor the publisher reviewed corrected published vanished.",
+    "the letter the secretary the manager the director read signed sent disappeared.",
+    "the proposal the student the professor the committee submitted approved rejected vanished.",
+    "the data the analyst the supervisor the director collected analyzed reported disappeared.",
+    "the document the clerk the lawyer the client reviewed signed delivered."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the editor the publisher reviewed corrected published vanished.\", \"the letter the secretary the manager the director read signed sent disappeared.\", \"the proposal the student the professor the committee submitted approved rejected vanished.\", \"the data the analyst the supervisor the director collected analyzed reported disappeared.\", \"the document the clerk the lawyer the client reviewed signed delivered.\"]}",
+  "run_idx": 21
+}

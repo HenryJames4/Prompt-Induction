@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client developed presented accepted rejected",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver repaired washed parked"
+  ],
+  "induced_prompt_raw": "Generate a center-embedded sentence of five noun phrases and four verbs, where each verb applies to the entire preceding phrase.",
+  "induced_prompt": "Generate a center-embedded sentence of five noun phrases and four verbs, where each verb applies to the entire preceding phrase.",
+  "induced_prompt_chars": 128,
+  "induced_prompt_words": 20,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that chased the mouse that ate the cheese that smelled terrible that was in the kitchen disappeared.\",\n    \"The boy that kicked the ball that hit the window that broke loudly that scared the dog ran away.\",\n    \"The teacher that graded the test that failed the student that cheated blatantly that got caught left early.\",\n    \"The bird that built the nest that held the eggs that hatched quickly that grew feathers flew away.\",\n    \"The detective that solved the case that involved the suspect that confessed willingly that told the truth retired.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that chased the mouse that ate the cheese that smelled terrible that was in the kitchen disappeared.",
+    "The boy that kicked the ball that hit the window that broke loudly that scared the dog ran away.",
+    "The teacher that graded the test that failed the student that cheated blatantly that got caught left early.",
+    "The bird that built the nest that held the eggs that hatched quickly that grew feathers flew away.",
+    "The detective that solved the case that involved the suspect that confessed willingly that told the truth retired."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:59:18.545157+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client developed presented accepted rejected",
+    "the house the architect the builder the owner designed constructed inspected sold"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended returned",
+    "the plan the manager the team the client developed presented accepted rejected",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver repaired washed parked"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read reviewed recommended returned\",\n    \"the plan the manager the team the client developed presented accepted rejected\",\n    \"the house the architect the builder the owner designed constructed inspected sold\",\n    \"the car the mechanic the driver repaired washed parked\"\n  ]\n}",
+  "run_idx": 13
+}

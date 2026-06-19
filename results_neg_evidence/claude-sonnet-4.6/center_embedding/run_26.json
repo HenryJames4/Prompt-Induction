@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the contract the lawyer the client the judge hired reviewed signed expired",
+    "the cake the chef the owner the critic trained hired baked praised",
+    "the letter the student the teacher the principal wrote graded signed mailed",
+    "the song the singer the producer the fan trained hired recorded loved",
+    "the book the author the editor published revised approved"
+  ],
+  "induced_prompt_raw": "Write a center-embedded relative clause sentence with exactly **4 noun phrases** followed by exactly **4 verbs**, where each verb corresponds to its noun phrase in reverse order. Do not use only 3 noun phrases and 3 verbs.",
+  "induced_prompt": "Write a center-embedded relative clause sentence with exactly **4 noun phrases** followed by exactly **4 verbs**, where each verb corresponds to its noun phrase in reverse order. Do not use only 3 noun phrases and 3 verbs.",
+  "induced_prompt_chars": 222,
+  "induced_prompt_words": 37,
+  "l1_char_total": 341,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The cat the dog the rat the mouse chased scared bit fled.\", \"The book the student the teacher the principal admired praised read disappeared.\", \"The cake the chef the critic the judge hired reviewed baked won.\", \"The song the singer the producer the label signed approved recorded charted.\", \"The car the driver the mechanic the inspector hired fixed checked passed.\"]}\n```",
+  "l2_sentences": [
+    "The cat the dog the rat the mouse chased scared bit fled.",
+    "The book the student the teacher the principal admired praised read disappeared.",
+    "The cake the chef the critic the judge hired reviewed baked won.",
+    "The song the singer the producer the label signed approved recorded charted.",
+    "The car the driver the mechanic the inspector hired fixed checked passed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:20:46.800670+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the contract the lawyer the client the judge hired reviewed signed expired",
+    "the cake the chef the owner the critic trained hired baked praised",
+    "the letter the student the teacher the principal wrote graded signed mailed",
+    "the song the singer the producer the fan trained hired recorded loved"
+  ],
+  "l1_sentences": [
+    "the contract the lawyer the client the judge hired reviewed signed expired",
+    "the cake the chef the owner the critic trained hired baked praised",
+    "the letter the student the teacher the principal wrote graded signed mailed",
+    "the song the singer the producer the fan trained hired recorded loved",
+    "the book the author the editor published revised approved"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the contract the lawyer the client the judge hired reviewed signed expired\", \"the cake the chef the owner the critic trained hired baked praised\", \"the letter the student the teacher the principal wrote graded signed mailed\", \"the song the singer the producer the fan trained hired recorded loved\", \"the book the author the editor published revised approved\"]}\n```",
+  "run_idx": 26
+}

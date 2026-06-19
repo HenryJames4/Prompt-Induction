@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the editor recommended published distributed vanished.",
+    "The cake the baker the chef the assistant prepared decorated served disappeared.",
+    "The plan the manager the consultant the intern proposed reviewed approved failed.",
+    "The painting the artist the gallery the curator selected displayed admired sold.",
+    "The letter the writer the editor revised submitted published."
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring all verbs agree and the structure remains grammatically sound. Avoid incomplete or mismatched clauses.\"",
+  "induced_prompt": "\"Generate sentences with nested relative clauses where each clause modifies the preceding noun, ensuring all verbs agree and the structure remains grammatically sound. Avoid incomplete or mismatched clauses.\"",
+  "induced_prompt_chars": 208,
+  "induced_prompt_words": 28,
+  "l1_char_total": 390,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book, which was written by the author, who had traveled extensively, that inspired countless readers, remains a bestseller.\", \"The car, which was designed by the engineer, who had studied in Germany, that won several awards, now sits in a museum.\", \"The painting, which was created by the artist, who had lived in Paris, that depicted a bustling street, hangs in the gallery.\", \"The house, which was built by the architect, who had a passion for sustainability, that uses solar energy, is located in the countryside.\", \"The recipe, which was developed by the chef, who had trained in Italy, that includes fresh herbs, has become a family favorite.\"]}",
+  "l2_sentences": [
+    "The book, which was written by the author, who had traveled extensively, that inspired countless readers, remains a bestseller.",
+    "The car, which was designed by the engineer, who had studied in Germany, that won several awards, now sits in a museum.",
+    "The painting, which was created by the artist, who had lived in Paris, that depicted a bustling street, hangs in the gallery.",
+    "The house, which was built by the architect, who had a passion for sustainability, that uses solar energy, is located in the countryside.",
+    "The recipe, which was developed by the chef, who had trained in Italy, that includes fresh herbs, has become a family favorite."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:45:40.828787+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the editor recommended published distributed vanished.",
+    "The cake the baker the chef the assistant prepared decorated served disappeared.",
+    "The plan the manager the consultant the intern proposed reviewed approved failed.",
+    "The painting the artist the gallery the curator selected displayed admired sold."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the editor recommended published distributed vanished.",
+    "The cake the baker the chef the assistant prepared decorated served disappeared.",
+    "The plan the manager the consultant the intern proposed reviewed approved failed.",
+    "The painting the artist the gallery the curator selected displayed admired sold.",
+    "The letter the writer the editor revised submitted published."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the editor recommended published distributed vanished.\", \"The cake the baker the chef the assistant prepared decorated served disappeared.\", \"The plan the manager the consultant the intern proposed reviewed approved failed.\", \"The painting the artist the gallery the curator selected displayed admired sold.\", \"The letter the writer the editor revised submitted published.\"]}",
+  "run_idx": 4
+}

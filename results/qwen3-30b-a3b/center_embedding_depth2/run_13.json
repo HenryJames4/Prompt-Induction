@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the editor accepted sold.",
+    "the plan the manager rejected failed.",
+    "the idea the scientist tested worked.",
+    "the project the leader launched succeeded.",
+    "the method the researcher used proved."
+  ],
+  "induced_prompt_raw": "the [noun] the [role] [verb] [past participle]",
+  "induced_prompt": "the [noun] the [role] [verb] [past participle]",
+  "induced_prompt_chars": 46,
+  "induced_prompt_words": 7,
+  "l1_char_total": 188,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat the veterinarian treated healed quickly.\", \"The book the editor revised became a bestseller.\", \"The student the teacher praised excelled in class.\", \"The car the mechanic fixed ran smoothly.\", \"The song the producer mastered topped the charts.\"]}",
+  "l2_sentences": [
+    "The cat the veterinarian treated healed quickly.",
+    "The book the editor revised became a bestseller.",
+    "The student the teacher praised excelled in class.",
+    "The car the mechanic fixed ran smoothly.",
+    "The song the producer mastered topped the charts."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:13:24.941920+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the editor accepted sold.",
+    "the plan the manager rejected failed.",
+    "the idea the scientist tested worked.",
+    "the project the leader launched succeeded.",
+    "the method the researcher used proved."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the editor accepted sold.\", \"the plan the manager rejected failed.\", \"the idea the scientist tested worked.\", \"the project the leader launched succeeded.\", \"the method the researcher used proved.\"]}",
+  "run_idx": 13
+}

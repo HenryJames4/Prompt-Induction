@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student read won",
+    "the cake the chef baked disappeared",
+    "the letter the manager signed arrived",
+    "the film the director cut premiered",
+    "the report the analyst the editor the boss hired reviewed submitted leaked"
+  ],
+  "induced_prompt_raw": "Write sentences with a single level of centre-embedding (one relative clause inside a main clause), where a noun phrase is modified by a relative clause before the main verb. Avoid stacking multiple nested relative clauses.",
+  "induced_prompt": "Write sentences with a single level of centre-embedding (one relative clause inside a main clause), where a noun phrase is modified by a relative clause before the main verb. Avoid stacking multiple nested relative clauses.",
+  "induced_prompt_chars": 223,
+  "induced_prompt_words": 35,
+  "l1_char_total": 210,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that she borrowed last week is overdue.\", \"The scientist who discovered the vaccine received a prestigious award.\", \"The dog that my neighbor adopted barks every morning.\", \"The letter that he wrote years ago finally arrived.\", \"The museum that we visited last summer was breathtaking.\"]}\n```",
+  "l2_sentences": [
+    "The book that she borrowed last week is overdue.",
+    "The scientist who discovered the vaccine received a prestigious award.",
+    "The dog that my neighbor adopted barks every morning.",
+    "The letter that he wrote years ago finally arrived.",
+    "The museum that we visited last summer was breathtaking."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:55:03.129867+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student read won",
+    "the cake the chef baked disappeared",
+    "the letter the manager signed arrived",
+    "the film the director cut premiered"
+  ],
+  "l1_sentences": [
+    "the book the student read won",
+    "the cake the chef baked disappeared",
+    "the letter the manager signed arrived",
+    "the film the director cut premiered",
+    "the report the analyst the editor the boss hired reviewed submitted leaked"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the book the student read won\", \"the cake the chef baked disappeared\", \"the letter the manager signed arrived\", \"the film the director cut premiered\", \"the report the analyst the editor the boss hired reviewed submitted leaked\"]}\n```",
+  "run_idx": 23
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the baker the chef the apprentice trained supervised decorated collapsed.",
+    "the book the author the agent the publisher contacted represented wrote arrived.",
+    "the house the architect the builder the worker admired employed designed collapsed.",
+    "the program the developer the manager the intern assisted supervised wrote crashed.",
+    "the dog the cat the mouse chased slept barked."
+  ],
+  "induced_prompt_raw": "\"Chain nouns: the main subject, then modifiers (each modifying the prior noun) ending with the innermost. Follow with verbs: for each modifier from innermost to outermost, a transitive verb (subject=modifier, object=prior noun), then an intransitive verb for the main subject.\"",
+  "induced_prompt": "\"Chain nouns: the main subject, then modifiers (each modifying the prior noun) ending with the innermost. Follow with verbs: for each modifier from innermost to outermost, a transitive verb (subject=modifier, object=prior noun), then an intransitive verb for the main subject.\"",
+  "induced_prompt_chars": 277,
+  "induced_prompt_words": 40,
+  "l1_char_total": 374,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The forest's tree's branch's leaf brushed the branch; the branch scraped the tree; the tree swayed the forest; and the forest thrived.\", \"The castle's tower's flag's emblem symbolized the flag; the flag represented the tower; the tower dominated the castle; and the castle stood.\", \"The ocean's wave's foam's bubble popped the foam; the foam coated the wave; the wave crashed the ocean; and the ocean roared.\", \"The mountain's path's stone's moss covered the stone; the stone lined the path; the path wound the mountain; and the mountain loomed.\", \"The city's park's bench's paint protected the bench; the bench adorned the park; the park beautified the city; and the city expanded.\"]}",
+  "l2_sentences": [
+    "The forest's tree's branch's leaf brushed the branch; the branch scraped the tree; the tree swayed the forest; and the forest thrived.",
+    "The castle's tower's flag's emblem symbolized the flag; the flag represented the tower; the tower dominated the castle; and the castle stood.",
+    "The ocean's wave's foam's bubble popped the foam; the foam coated the wave; the wave crashed the ocean; and the ocean roared.",
+    "The mountain's path's stone's moss covered the stone; the stone lined the path; the path wound the mountain; and the mountain loomed.",
+    "The city's park's bench's paint protected the bench; the bench adorned the park; the park beautified the city; and the city expanded."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:59:48.734478+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the baker the chef the apprentice trained supervised decorated collapsed.",
+    "the book the author the agent the publisher contacted represented wrote arrived.",
+    "the house the architect the builder the worker admired employed designed collapsed.",
+    "the program the developer the manager the intern assisted supervised wrote crashed."
+  ],
+  "l1_sentences": [
+    "the cake the baker the chef the apprentice trained supervised decorated collapsed.",
+    "the book the author the agent the publisher contacted represented wrote arrived.",
+    "the house the architect the builder the worker admired employed designed collapsed.",
+    "the program the developer the manager the intern assisted supervised wrote crashed.",
+    "the dog the cat the mouse chased slept barked."
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the baker the chef the apprentice trained supervised decorated collapsed.\", \"the book the author the agent the publisher contacted represented wrote arrived.\", \"the house the architect the builder the worker admired employed designed collapsed.\", \"the program the developer the manager the intern assisted supervised wrote crashed.\", \"the dog the cat the mouse chased slept barked.\"]}",
+  "run_idx": 12
+}

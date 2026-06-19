@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the car the driver the mechanic the owner drove repaired inspected crashed",
+    "the house the builder the architect the client designed constructed approved collapsed",
+    "the book the author the editor the publisher wrote revised printed sold",
+    "the project the director the committee the chairman initiated reviewed funded completed"
+  ],
+  "induced_prompt_raw": "Object, three agents, four verbs",
+  "induced_prompt": "Object, three agents, four verbs",
+  "induced_prompt_chars": 32,
+  "induced_prompt_words": 5,
+  "l1_char_total": 403,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The chef, the waiter, and the critic chopped, tasted, seasoned, and presented the dish.\",\n    \"The teacher, the student, and the principal wrote, read, graded, and discussed the essay.\",\n    \"The artist, the curator, and the buyer painted, framed, displayed, and purchased the portrait.\",\n    \"The engineer, the technician, and the inspector designed, assembled, tested, and approved the machine.\",\n    \"The gardener, the landscaper, and the homeowner planted, watered, pruned, and admired the roses.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The chef, the waiter, and the critic chopped, tasted, seasoned, and presented the dish.",
+    "The teacher, the student, and the principal wrote, read, graded, and discussed the essay.",
+    "The artist, the curator, and the buyer painted, framed, displayed, and purchased the portrait.",
+    "The engineer, the technician, and the inspector designed, assembled, tested, and approved the machine.",
+    "The gardener, the landscaper, and the homeowner planted, watered, pruned, and admired the roses."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:33:12.461881+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the car the driver the mechanic the owner drove repaired inspected crashed",
+    "the house the builder the architect the client designed constructed approved collapsed",
+    "the book the author the editor the publisher wrote revised printed sold",
+    "the project the director the committee the chairman initiated reviewed funded completed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the car the driver the mechanic the owner drove repaired inspected crashed\",\n    \"the house the builder the architect the client designed constructed approved collapsed\",\n    \"the book the author the editor the publisher wrote revised printed sold\",\n    \"the project the director the committee the chairman initiated reviewed funded completed\"\n  ]\n}\n```",
+  "run_idx": 18
+}

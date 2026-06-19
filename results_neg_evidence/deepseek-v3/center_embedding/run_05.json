@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the baker the chef the student prepared decorated served disappeared",
+    "the letter the manager the secretary the intern typed signed mailed vanished",
+    "the project the director the designer the developer proposed reviewed implemented failed",
+    "the book the author the editor the publisher wrote revised published sold",
+    "the painting the artist the curator displayed admired"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested noun phrases where each subsequent noun phrase modifies the previous one, ensuring all verbs align sequentially at the end. Avoid incomplete or misaligned verb chains.\"",
+  "induced_prompt": "\"Generate sentences with nested noun phrases where each subsequent noun phrase modifies the previous one, ensuring all verbs align sequentially at the end. Avoid incomplete or misaligned verb chains.\"",
+  "induced_prompt_chars": 200,
+  "induced_prompt_words": 29,
+  "l1_char_total": 367,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog chased the cat that startled the mouse hiding in the corner.\", \"The teacher praised the student who finished the assignment explaining the concept.\", \"The chef prepared the dish that delighted the guests attending the event.\", \"The mechanic fixed the car that belonged to the neighbor living across the street.\", \"The artist painted the portrait that captured the essence of the model posing gracefully.\"]}",
+  "l2_sentences": [
+    "The dog chased the cat that startled the mouse hiding in the corner.",
+    "The teacher praised the student who finished the assignment explaining the concept.",
+    "The chef prepared the dish that delighted the guests attending the event.",
+    "The mechanic fixed the car that belonged to the neighbor living across the street.",
+    "The artist painted the portrait that captured the essence of the model posing gracefully."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:47:35.969922+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the baker the chef the student prepared decorated served disappeared",
+    "the letter the manager the secretary the intern typed signed mailed vanished",
+    "the project the director the designer the developer proposed reviewed implemented failed",
+    "the book the author the editor the publisher wrote revised published sold"
+  ],
+  "l1_sentences": [
+    "the cake the baker the chef the student prepared decorated served disappeared",
+    "the letter the manager the secretary the intern typed signed mailed vanished",
+    "the project the director the designer the developer proposed reviewed implemented failed",
+    "the book the author the editor the publisher wrote revised published sold",
+    "the painting the artist the curator displayed admired"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the baker the chef the student prepared decorated served disappeared\", \"the letter the manager the secretary the intern typed signed mailed vanished\", \"the project the director the designer the developer proposed reviewed implemented failed\", \"the book the author the editor the publisher wrote revised published sold\", \"the painting the artist the curator displayed admired\"]}",
+  "run_idx": 5
+}

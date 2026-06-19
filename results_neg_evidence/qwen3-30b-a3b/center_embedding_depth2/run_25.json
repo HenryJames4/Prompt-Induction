@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b",
+  "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold.",
+    "the story the narrator told ended.",
+    "the plan the committee proposed failed.",
+    "the idea the scientist tested succeeded.",
+    "the report the manager reviewed the assistant submitted was detailed."
+  ],
+  "induced_prompt_raw": "Create a simple sentence where a noun phrase with a relative clause modifies the subject of a main clause, and the main clause has a single verb describing the outcome.",
+  "induced_prompt": "Create a simple sentence where a noun phrase with a relative clause modifies the subject of a main clause, and the main clause has a single verb describing the outcome.",
+  "induced_prompt_chars": 168,
+  "induced_prompt_words": 30,
+  "l1_char_total": 213,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that I borrowed from the library helped me understand the topic.\", \"The student who studied hard passed the exam.\", \"The car that was parked outside broke down this morning.\", \"The dog that barked loudly scared the mail carrier.\", \"The tree that fell during the storm blocked the road.\"]}",
+  "l2_sentences": [
+    "The book that I borrowed from the library helped me understand the topic.",
+    "The student who studied hard passed the exam.",
+    "The car that was parked outside broke down this morning.",
+    "The dog that barked loudly scared the mail carrier.",
+    "The tree that fell during the storm blocked the road."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:56:23.705942+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold.",
+    "the story the narrator told ended.",
+    "the plan the committee proposed failed.",
+    "the idea the scientist tested succeeded."
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold.",
+    "the story the narrator told ended.",
+    "the plan the committee proposed failed.",
+    "the idea the scientist tested succeeded.",
+    "the report the manager reviewed the assistant submitted was detailed."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold.\", \"the story the narrator told ended.\", \"the plan the committee proposed failed.\", \"the idea the scientist tested succeeded.\", \"the report the manager reviewed the assistant submitted was detailed.\"]}",
+  "run_idx": 25
+}

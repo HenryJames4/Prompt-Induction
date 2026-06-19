@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The cat the dog chased ran.",
+    "The man the woman loved died.",
+    "The car the mechanic fixed crashed.",
+    "The idea the professor presented spread.",
+    "The cat the dog the mouse saw chased ran."
+  ],
+  "induced_prompt_raw": "Generate a center-embedded sentence with exactly two nouns and two verbs: \"The [noun1] the [noun2] [verb1] [verb2].\" Avoid multiple relative clauses.",
+  "induced_prompt": "Generate a center-embedded sentence with exactly two nouns and two verbs: \"The [noun1] the [noun2] [verb1] [verb2].\" Avoid multiple relative clauses.",
+  "induced_prompt_chars": 149,
+  "induced_prompt_words": 21,
+  "l1_char_total": 172,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased ran away.\",\n    \"The man the woman saw waved.\",\n    \"The book the student read was interesting.\",\n    \"The house the builder constructed collapsed.\",\n    \"The idea the scientist proposed revolutionized physics.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the dog chased ran away.",
+    "The man the woman saw waved.",
+    "The book the student read was interesting.",
+    "The house the builder constructed collapsed.",
+    "The idea the scientist proposed revolutionized physics."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:49:49.686872+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The cat the dog chased ran.",
+    "The man the woman loved died.",
+    "The car the mechanic fixed crashed.",
+    "The idea the professor presented spread."
+  ],
+  "l1_sentences": [
+    "The cat the dog chased ran.",
+    "The man the woman loved died.",
+    "The car the mechanic fixed crashed.",
+    "The idea the professor presented spread.",
+    "The cat the dog the mouse saw chased ran."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased ran.\",\n    \"The man the woman loved died.\",\n    \"The car the mechanic fixed crashed.\",\n    \"The idea the professor presented spread.\",\n    \"The cat the dog the mouse saw chased ran.\"\n  ]\n}\n```",
+  "run_idx": 18
+}

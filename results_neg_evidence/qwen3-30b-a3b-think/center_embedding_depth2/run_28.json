@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the manager approved failed",
+    "the solution the engineer designed worked",
+    "the book the author the editor read sold passed"
+  ],
+  "induced_prompt_raw": "the noun the role verb outcome",
+  "induced_prompt": "the noun the role verb outcome",
+  "induced_prompt_chars": 30,
+  "induced_prompt_words": 6,
+  "l1_char_total": 195,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The engineer the lead designer created the innovative prototype.\", \"The doctor the chief physician treated the complex case.\", \"The teacher the curriculum specialist developed the new program.\", \"The programmer the senior developer optimized the system performance.\", \"The chef the executive chef crafted the signature dish.\"]}",
+  "l2_sentences": [
+    "The engineer the lead designer created the innovative prototype.",
+    "The doctor the chief physician treated the complex case.",
+    "The teacher the curriculum specialist developed the new program.",
+    "The programmer the senior developer optimized the system performance.",
+    "The chef the executive chef crafted the signature dish."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:58:37.178324+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the manager approved failed",
+    "the solution the engineer designed worked"
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold",
+    "the idea the scientist presented vanished",
+    "the plan the manager approved failed",
+    "the solution the engineer designed worked",
+    "the book the author the editor read sold passed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold\", \"the idea the scientist presented vanished\", \"the plan the manager approved failed\", \"the solution the engineer designed worked\", \"the book the author the editor read sold passed\"]}",
+  "run_idx": 28
+}

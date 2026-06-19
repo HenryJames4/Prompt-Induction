@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the book the student read closed.",
+    "the dog the owner fed slept.",
+    "the car the mechanic fixed started.",
+    "the cake the baker made cooled.",
+    "the door the child opened locked."
+  ],
+  "induced_prompt_raw": "Generate a past tense sentence with the structure: definite article, noun1, definite article, noun2, past tense verb1, past tense verb2, where noun1 is the object of verb1 and the subject of verb2, and noun2 is the subject of verb1.",
+  "induced_prompt": "Generate a past tense sentence with the structure: definite article, noun1, definite article, noun2, past tense verb1, past tense verb2, where noun1 is the object of verb1 and the subject of verb2, and noun2 is the subject of verb1.",
+  "induced_prompt_chars": 232,
+  "induced_prompt_words": 39,
+  "l1_char_total": 160,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The dog the trainer taught obeyed.\", \"The cake the baker decorated collapsed.\", \"The letter the secretary typed vanished.\", \"The car the mechanic fixed stalled.\", \"The book the author published sold.\"]}",
+  "l2_sentences": [
+    "The dog the trainer taught obeyed.",
+    "The cake the baker decorated collapsed.",
+    "The letter the secretary typed vanished.",
+    "The car the mechanic fixed stalled.",
+    "The book the author published sold."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:23:40.890502+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the student read closed.",
+    "the dog the owner fed slept.",
+    "the car the mechanic fixed started.",
+    "the cake the baker made cooled.",
+    "the door the child opened locked."
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student read closed.\", \"the dog the owner fed slept.\", \"the car the mechanic fixed started.\", \"the cake the baker made cooled.\", \"the door the child opened locked.\"]}",
+  "run_idx": 22
+}

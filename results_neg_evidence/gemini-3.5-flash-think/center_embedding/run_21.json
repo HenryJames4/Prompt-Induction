@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the principal recommended praised read fell",
+    "the car the mechanic the apprentice the master trained assisted fixed broke",
+    "the patient the doctor the nurse the supervisor scheduled helped cured smiled",
+    "the song the singer the coach the director selected trained performed ended",
+    "the student the teacher the advisor helped praised graduated"
+  ],
+  "induced_prompt_raw": "Generate a triple center-embedded sentence consisting of exactly four noun phrases followed by four verbs (NP1 NP2 NP3 NP4 V4 V3 V2 V1). Avoid double center-embedding (which only uses three nouns and three verbs).",
+  "induced_prompt": "Generate a triple center-embedded sentence consisting of exactly four noun phrases followed by four verbs (NP1 NP2 NP3 NP4 V4 V3 V2 V1). Avoid double center-embedding (which only uses three nouns and three verbs).",
+  "induced_prompt_chars": 213,
+  "induced_prompt_words": 34,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The report the student the teacher the principal noticed helped wrote vanished.\",\n    \"The car the mechanic the owner the driver annoyed paid fixed broke.\",\n    \"The book the reader the author the editor praised inspired bought burned.\",\n    \"The house the builder the architect the client sued hired constructed collapsed.\",\n    \"The song the singer the producer the critic hated discovered sang trended.\"\n  ]\n}",
+  "l2_sentences": [
+    "The report the student the teacher the principal noticed helped wrote vanished.",
+    "The car the mechanic the owner the driver annoyed paid fixed broke.",
+    "The book the reader the author the editor praised inspired bought burned.",
+    "The house the builder the architect the client sued hired constructed collapsed.",
+    "The song the singer the producer the critic hated discovered sang trended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:12:48.172731+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the principal recommended praised read fell",
+    "the car the mechanic the apprentice the master trained assisted fixed broke",
+    "the patient the doctor the nurse the supervisor scheduled helped cured smiled",
+    "the song the singer the coach the director selected trained performed ended"
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the principal recommended praised read fell",
+    "the car the mechanic the apprentice the master trained assisted fixed broke",
+    "the patient the doctor the nurse the supervisor scheduled helped cured smiled",
+    "the song the singer the coach the director selected trained performed ended",
+    "the student the teacher the advisor helped praised graduated"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the student the teacher the principal recommended praised read fell\",\n    \"the car the mechanic the apprentice the master trained assisted fixed broke\",\n    \"the patient the doctor the nurse the supervisor scheduled helped cured smiled\",\n    \"the song the singer the coach the director selected trained performed ended\",\n    \"the student the teacher the advisor helped praised graduated\"\n  ]\n}",
+  "run_idx": 21
+}

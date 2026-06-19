@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the critic the student the teacher hired impressed reviewed sold.",
+    "the film the director the producer the investor funded hired made flopped.",
+    "the proposal the manager the analyst the clerk assisted briefed submitted failed.",
+    "the bill the senator the lobbyist the donor approached persuaded passed expired.",
+    "the house the buyer the agent the lawyer advised contacted purchased collapsed."
+  ],
+  "induced_prompt_raw": "Write quadruply center-embedded sentences in which four noun phrases appear consecutively, followed by four verbs in reverse nesting order.",
+  "induced_prompt": "Write quadruply center-embedded sentences in which four noun phrases appear consecutively, followed by four verbs in reverse nesting order.",
+  "induced_prompt_chars": 139,
+  "induced_prompt_words": 19,
+  "l1_char_total": 388,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog the cat the rat the cheese attracted bit chased barked.\",\n    \"The president the senator the lobbyist the corporation funded bribed influenced resigned.\",\n    \"The river the dam the engineers the government employed built blocked flooded.\",\n    \"The audience the actor the director the producer hired praised watched applauded.\",\n    \"The child the teacher the principal the parents concerned summoned disciplined cried.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog the cat the rat the cheese attracted bit chased barked.",
+    "The president the senator the lobbyist the corporation funded bribed influenced resigned.",
+    "The river the dam the engineers the government employed built blocked flooded.",
+    "The audience the actor the director the producer hired praised watched applauded.",
+    "The child the teacher the principal the parents concerned summoned disciplined cried."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:33:06.723511+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the critic the student the teacher hired impressed reviewed sold.",
+    "the film the director the producer the investor funded hired made flopped.",
+    "the proposal the manager the analyst the clerk assisted briefed submitted failed.",
+    "the bill the senator the lobbyist the donor approached persuaded passed expired.",
+    "the house the buyer the agent the lawyer advised contacted purchased collapsed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the critic the student the teacher hired impressed reviewed sold.\",\n    \"the film the director the producer the investor funded hired made flopped.\",\n    \"the proposal the manager the analyst the clerk assisted briefed submitted failed.\",\n    \"the bill the senator the lobbyist the donor approached persuaded passed expired.\",\n    \"the house the buyer the agent the lawyer advised contacted purchased collapsed.\"\n  ]\n}\n```",
+  "run_idx": 29
+}

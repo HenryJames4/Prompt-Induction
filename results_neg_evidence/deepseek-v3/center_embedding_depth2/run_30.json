@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student read impressed",
+    "the movie the audience watched delighted",
+    "the project the team completed succeeded",
+    "the cake the baker decorated amazed",
+    "the dog the boy the cat chased barked ran"
+  ],
+  "induced_prompt_raw": "\"Generate a sentence with two nested noun phrases where the second noun phrase modifies the first, followed by a verb, ensuring no more than one level of embedding and avoiding ambiguity or excessive complexity.\"",
+  "induced_prompt": "\"Generate a sentence with two nested noun phrases where the second noun phrase modifies the first, followed by a verb, ensuring no more than one level of embedding and avoiding ambiguity or excessive complexity.\"",
+  "induced_prompt_chars": 212,
+  "induced_prompt_words": 34,
+  "l1_char_total": 191,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The book with the red cover fell.\", \"The car with the broken headlight stopped.\", \"The house with the blue shutters sold.\", \"The dog with the wagging tail barked.\", \"The cake with the chocolate frosting disappeared.\"]}",
+  "l2_sentences": [
+    "The book with the red cover fell.",
+    "The car with the broken headlight stopped.",
+    "The house with the blue shutters sold.",
+    "The dog with the wagging tail barked.",
+    "The cake with the chocolate frosting disappeared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T14:01:06.467984+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student read impressed",
+    "the movie the audience watched delighted",
+    "the project the team completed succeeded",
+    "the cake the baker decorated amazed"
+  ],
+  "l1_sentences": [
+    "the book the student read impressed",
+    "the movie the audience watched delighted",
+    "the project the team completed succeeded",
+    "the cake the baker decorated amazed",
+    "the dog the boy the cat chased barked ran"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student read impressed\", \"the movie the audience watched delighted\", \"the project the team completed succeeded\", \"the cake the baker decorated amazed\", \"the dog the boy the cat chased barked ran\"]}",
+  "run_idx": 30
+}

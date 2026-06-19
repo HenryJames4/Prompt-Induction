@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The bridge the engineer designed collapsed.",
+    "The novel the critic praised sold.",
+    "The plan the director approved failed."
+  ],
+  "induced_prompt_raw": "Write sentences with embedded relative clauses where a noun is modified by a subject-verb-object clause, followed by a simple intransitive verb.",
+  "induced_prompt": "Write sentences with embedded relative clauses where a noun is modified by a subject-verb-object clause, followed by a simple intransitive verb.",
+  "induced_prompt_chars": 144,
+  "induced_prompt_words": 21,
+  "l1_char_total": 190,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The scientist who discovered the cure celebrated.\",\n    \"The dog that chased the cat slept.\",\n    \"The teacher who graded the papers smiled.\",\n    \"The child who broke the vase apologized.\",\n    \"The athlete who won the race collapsed.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The scientist who discovered the cure celebrated.",
+    "The dog that chased the cat slept.",
+    "The teacher who graded the papers smiled.",
+    "The child who broke the vase apologized.",
+    "The athlete who won the race collapsed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:41:39.202655+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager reviewed passed.",
+    "The cake the chef baked disappeared.",
+    "The bridge the engineer designed collapsed.",
+    "The novel the critic praised sold.",
+    "The plan the director approved failed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager reviewed passed.\", \"The cake the chef baked disappeared.\", \"The bridge the engineer designed collapsed.\", \"The novel the critic praised sold.\", \"The plan the director approved failed.\"]}\n```",
+  "run_idx": 20
+}

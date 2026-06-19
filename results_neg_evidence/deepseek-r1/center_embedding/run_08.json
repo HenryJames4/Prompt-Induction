@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the king the servant the maid the boy called helped praised slept.",
+    "the cake the chef the customer the waiter served recommended enjoyed melted.",
+    "the book the author the publisher the editor accepted published wrote arrived.",
+    "the house the architect the client the builder hired consulted designed collapsed.",
+    "the cat the dog the man fed walked ran."
+  ],
+  "induced_prompt_raw": "Prompt:  \n\"Generate a sentence with exactly four consecutive nouns each preceded by 'the', followed by exactly four past-tense verbs in reverse order: the last noun's action first, then the third noun's, then the second's, then the first's.\"  \n\nThis prompt:  \n- Specifies the exact pattern (four \"the + noun\" phrases followed by four verbs).  \n- Enforces reverse-order verb alignment (V4 for N4, V3 for N3, V2 for N2, V1 for N1).  \n- Avoids the incorrect example’s error (wrong noun/verb count and misaligned verb order).  \n- Uses 24 words, shorter than the original examples.",
+  "induced_prompt": "Prompt:  \n\"Generate a sentence with exactly four consecutive nouns each preceded by 'the', followed by exactly four past-tense verbs in reverse order: the last noun's action first, then the third noun's, then the second's, then the first's.\"  \n\nThis prompt:  \n- Specifies the exact pattern (four \"the + noun\" phrases followed by four verbs).  \n- Enforces reverse-order verb alignment (V4 for N4, V3 for N3, V2 for N2, V1 for N1).  \n- Avoids the incorrect example’s error (wrong noun/verb count and misaligned verb order).  \n- Uses 24 words, shorter than the original examples.",
+  "induced_prompt_chars": 576,
+  "induced_prompt_words": 92,
+  "l1_char_total": 341,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The king, the queen, the knight, the jester laughed, bowed, knelt, waved.\", \"The wind, the rain, the thunder, the lightning flashed, roared, poured, howled.\", \"The cat, the dog, the bird, the fish swam, flew, chased, slept.\", \"The teacher, the student, the book, the pen wrote, studied, read, lectured.\", \"The chef, the waiter, the customer, the meal enjoyed, consumed, served, prepared.\"]}",
+  "l2_sentences": [
+    "The king, the queen, the knight, the jester laughed, bowed, knelt, waved.",
+    "The wind, the rain, the thunder, the lightning flashed, roared, poured, howled.",
+    "The cat, the dog, the bird, the fish swam, flew, chased, slept.",
+    "The teacher, the student, the book, the pen wrote, studied, read, lectured.",
+    "The chef, the waiter, the customer, the meal enjoyed, consumed, served, prepared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:52:59.607926+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the king the servant the maid the boy called helped praised slept.",
+    "the cake the chef the customer the waiter served recommended enjoyed melted.",
+    "the book the author the publisher the editor accepted published wrote arrived.",
+    "the house the architect the client the builder hired consulted designed collapsed."
+  ],
+  "l1_sentences": [
+    "the king the servant the maid the boy called helped praised slept.",
+    "the cake the chef the customer the waiter served recommended enjoyed melted.",
+    "the book the author the publisher the editor accepted published wrote arrived.",
+    "the house the architect the client the builder hired consulted designed collapsed.",
+    "the cat the dog the man fed walked ran."
+  ],
+  "l1_raw": "{\"sentences\": [\"the king the servant the maid the boy called helped praised slept.\", \"the cake the chef the customer the waiter served recommended enjoyed melted.\", \"the book the author the publisher the editor accepted published wrote arrived.\", \"the house the architect the client the builder hired consulted designed collapsed.\", \"the cat the dog the man fed walked ran.\"]}",
+  "run_idx": 8
+}

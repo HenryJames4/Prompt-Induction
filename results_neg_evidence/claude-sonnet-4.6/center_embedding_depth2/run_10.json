@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the critic praised sold",
+    "the dog the child fed barked",
+    "the report the manager reviewed failed",
+    "the cake the chef baked disappeared",
+    "the letter the secretary the manager the director hired typed sent arrived"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (subject + relative clause + main verb), avoiding multiple nested embeddings.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (subject + relative clause + main verb), avoiding multiple nested embeddings.",
+  "induced_prompt_chars": 139,
+  "induced_prompt_words": 19,
+  "l1_char_total": 207,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that she borrowed yesterday was fascinating.\", \"The dog that my neighbor owns barks every morning.\", \"The scientist who won the award gave an inspiring speech.\", \"The car that he repaired last week broke down again.\", \"The student who studied all night passed the exam easily.\"]}\n```",
+  "l2_sentences": [
+    "The book that she borrowed yesterday was fascinating.",
+    "The dog that my neighbor owns barks every morning.",
+    "The scientist who won the award gave an inspiring speech.",
+    "The car that he repaired last week broke down again.",
+    "The student who studied all night passed the exam easily."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:43:38.327642+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the critic praised sold",
+    "the dog the child fed barked",
+    "the report the manager reviewed failed",
+    "the cake the chef baked disappeared"
+  ],
+  "l1_sentences": [
+    "the book the critic praised sold",
+    "the dog the child fed barked",
+    "the report the manager reviewed failed",
+    "the cake the chef baked disappeared",
+    "the letter the secretary the manager the director hired typed sent arrived"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the book the critic praised sold\", \"the dog the child fed barked\", \"the report the manager reviewed failed\", \"the cake the chef baked disappeared\", \"the letter the secretary the manager the director hired typed sent arrived\"]}\n```",
+  "run_idx": 10
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The proposal the reviewer approved passed.",
+    "The cat the dog chased escaped.",
+    "The book the student read was interesting.",
+    "The idea the professor suggested was brilliant.",
+    "The proposal the reviewer the committee approved passed failed."
+  ],
+  "induced_prompt_raw": "Generate a sentence with a main subject, a reduced relative clause (one noun phrase subject and verb) modifying it, and a main verb. Avoid two noun phrases in the relative clause.",
+  "induced_prompt": "Generate a sentence with a main subject, a reduced relative clause (one noun phrase subject and verb) modifying it, and a main verb. Avoid two noun phrases in the relative clause.",
+  "induced_prompt_chars": 179,
+  "induced_prompt_words": 31,
+  "l1_char_total": 225,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The woman singing performed beautifully.\",\n    \"The car parked illegally was towed.\",\n    \"Children playing in the park should be supervised.\",\n    \"The dog barking loudly startled the neighbors.\",\n    \"The man standing by the door is the manager.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The woman singing performed beautifully.",
+    "The car parked illegally was towed.",
+    "Children playing in the park should be supervised.",
+    "The dog barking loudly startled the neighbors.",
+    "The man standing by the door is the manager."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:57:51.291833+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The proposal the reviewer approved passed.",
+    "The cat the dog chased escaped.",
+    "The book the student read was interesting.",
+    "The idea the professor suggested was brilliant."
+  ],
+  "l1_sentences": [
+    "The proposal the reviewer approved passed.",
+    "The cat the dog chased escaped.",
+    "The book the student read was interesting.",
+    "The idea the professor suggested was brilliant.",
+    "The proposal the reviewer the committee approved passed failed."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The proposal the reviewer approved passed.\",\n    \"The cat the dog chased escaped.\",\n    \"The book the student read was interesting.\",\n    \"The idea the professor suggested was brilliant.\",\n    \"The proposal the reviewer the committee approved passed failed.\"\n  ]\n}\n```",
+  "run_idx": 27
+}

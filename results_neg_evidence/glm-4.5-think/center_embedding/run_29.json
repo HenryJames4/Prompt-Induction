@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the student the teacher the principal the dean praised reprimanded suspended fired",
+    "the soldier the officer the general the president decorated promoted honored awarded",
+    "the apple the pie the baker the customer baked tasted enjoyed bought",
+    "the car the driver the mechanic fixed washed polished"
+  ],
+  "induced_prompt_raw": "Generate a nested sentence with four noun phrases and four verbs.",
+  "induced_prompt": "Generate a nested sentence with four noun phrases and four verbs.",
+  "induced_prompt_chars": 65,
+  "induced_prompt_words": 11,
+  "l1_char_total": 372,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The teacher who graded the paper that the student who studied the topic that fascinated the professor wrote submitted.\",\n    \"The dog that chased the cat that caught the mouse that stole the cheese that sat on the counter barked.\",\n    \"The storm that destroyed the house that sheltered the family that owned the car that was parked outside raged.\",\n    \"The artist who painted the mural that depicted the battle that ended the war that changed the world signed.\",\n    \"The detective who solved the case that involved the witness who saw the suspect that fled the scene testified.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The teacher who graded the paper that the student who studied the topic that fascinated the professor wrote submitted.",
+    "The dog that chased the cat that caught the mouse that stole the cheese that sat on the counter barked.",
+    "The storm that destroyed the house that sheltered the family that owned the car that was parked outside raged.",
+    "The artist who painted the mural that depicted the battle that ended the war that changed the world signed.",
+    "The detective who solved the case that involved the witness who saw the suspect that fled the scene testified."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:23:48.223906+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the student the teacher the principal the dean praised reprimanded suspended fired",
+    "the soldier the officer the general the president decorated promoted honored awarded",
+    "the apple the pie the baker the customer baked tasted enjoyed bought"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the student the teacher the principal the dean praised reprimanded suspended fired",
+    "the soldier the officer the general the president decorated promoted honored awarded",
+    "the apple the pie the baker the customer baked tasted enjoyed bought",
+    "the car the driver the mechanic fixed washed polished"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the student the teacher the principal the dean praised reprimanded suspended fired\",\n    \"the soldier the officer the general the president decorated promoted honored awarded\",\n    \"the apple the pie the baker the customer baked tasted enjoyed bought\",\n    \"the car the driver the mechanic fixed washed polished\"\n  ]\n}\n```",
+  "run_idx": 29
+}

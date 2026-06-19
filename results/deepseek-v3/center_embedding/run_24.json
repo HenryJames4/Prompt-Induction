@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the student the teacher the librarian recommended read returned vanished",
+    "the cake the chef the baker the apprentice prepared decorated served disappeared",
+    "the letter the author the editor the assistant drafted revised signed vanished",
+    "the car the driver the mechanic the apprentice repaired fixed drove vanished",
+    "the painting the artist the curator the assistant created displayed admired disappeared"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with nested noun phrases and a vanishing action, using the structure: [object] [person1] [person2] [person3] [verb1] [verb2] [verb3] vanished/disappeared.\"",
+  "induced_prompt": "\"Generate sentences with nested noun phrases and a vanishing action, using the structure: [object] [person1] [person2] [person3] [verb1] [verb2] [verb3] vanished/disappeared.\"",
+  "induced_prompt_chars": 175,
+  "induced_prompt_words": 21,
+  "l1_char_total": 402,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The letter the teacher the student the principal handed vanished.\", \"The key the locksmith the homeowner the landlord gave disappeared.\", \"The package the courier the recipient the neighbor delivered vanished.\", \"The book the librarian the reader the friend lent disappeared.\", \"The necklace the jeweler the customer the partner fixed vanished.\"]}",
+  "l2_sentences": [
+    "The letter the teacher the student the principal handed vanished.",
+    "The key the locksmith the homeowner the landlord gave disappeared.",
+    "The package the courier the recipient the neighbor delivered vanished.",
+    "The book the librarian the reader the friend lent disappeared.",
+    "The necklace the jeweler the customer the partner fixed vanished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:43:36.713541+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the student the teacher the librarian recommended read returned vanished",
+    "the cake the chef the baker the apprentice prepared decorated served disappeared",
+    "the letter the author the editor the assistant drafted revised signed vanished",
+    "the car the driver the mechanic the apprentice repaired fixed drove vanished",
+    "the painting the artist the curator the assistant created displayed admired disappeared"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student the teacher the librarian recommended read returned vanished\", \"the cake the chef the baker the apprentice prepared decorated served disappeared\", \"the letter the author the editor the assistant drafted revised signed vanished\", \"the car the driver the mechanic the apprentice repaired fixed drove vanished\", \"the painting the artist the curator the assistant created displayed admired disappeared\"]}",
+  "run_idx": 24
+}

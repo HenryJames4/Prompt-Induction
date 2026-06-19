@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the professor the committee read recommended approved published",
+    "the plan the manager the director the board presented reviewed endorsed implemented",
+    "the idea the scientist the panel the agency proposed evaluated accepted funded",
+    "the car the mechanic the owner the dealer fixed inspected sold delivered",
+    "the ball the boy the dog threw caught returned"
+  ],
+  "induced_prompt_raw": "Generate: the N1 the N2 the N3 the N4 verb4 verb3 verb2 verb1, where N4 verb4 N3, N3 verb3 N2, N2 verb2 N1, and verb1 applies to N1.",
+  "induced_prompt": "Generate: the N1 the N2 the N3 the N4 verb4 verb3 verb2 verb1, where N4 verb4 N3, N3 verb3 N2, N2 verb2 N1, and verb1 applies to N1.",
+  "induced_prompt_chars": 132,
+  "induced_prompt_words": 28,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"the king the crown the gold the jewel adorned made wore shone.\",\n    \"the cat the mouse the cheese the trap caught ate lured squeaked.\",\n    \"the farmer the field the seed the rain watered planted tilled grew.\",\n    \"the student the book the knowledge the teacher imparted gained read learned.\",\n    \"the tree the apple the pie the oven baked made grew fell.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "the king the crown the gold the jewel adorned made wore shone.",
+    "the cat the mouse the cheese the trap caught ate lured squeaked.",
+    "the farmer the field the seed the rain watered planted tilled grew.",
+    "the student the book the knowledge the teacher imparted gained read learned.",
+    "the tree the apple the pie the oven baked made grew fell."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:07:22.886822+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the professor the committee read recommended approved published",
+    "the plan the manager the director the board presented reviewed endorsed implemented",
+    "the idea the scientist the panel the agency proposed evaluated accepted funded",
+    "the car the mechanic the owner the dealer fixed inspected sold delivered"
+  ],
+  "l1_sentences": [
+    "the book the student the professor the committee read recommended approved published",
+    "the plan the manager the director the board presented reviewed endorsed implemented",
+    "the idea the scientist the panel the agency proposed evaluated accepted funded",
+    "the car the mechanic the owner the dealer fixed inspected sold delivered",
+    "the ball the boy the dog threw caught returned"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the student the professor the committee read recommended approved published\",\n    \"the plan the manager the director the board presented reviewed endorsed implemented\",\n    \"the idea the scientist the panel the agency proposed evaluated accepted funded\",\n    \"the car the mechanic the owner the dealer fixed inspected sold delivered\",\n    \"the ball the boy the dog threw caught returned\"\n  ]\n}\n```",
+  "run_idx": 18
+}

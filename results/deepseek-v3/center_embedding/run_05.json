@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the student the professor studied cited published vanished",
+    "the letter the writer the secretary the manager drafted signed mailed arrived",
+    "the cake the baker the assistant the chef prepared decorated served melted",
+    "the car the driver the mechanic the owner repaired washed parked broke",
+    "the song the composer the singer the audience recorded performed listened faded"
+  ],
+  "induced_prompt_raw": "**Prompt:** *\"Generate sentences with nested noun phrases followed by verbs in a cascading structure.\"*  \n\n(Alternatively, a more concise version: *\"Create sentences with recursive noun-verb chains.\"*)",
+  "induced_prompt": "**Prompt:** *\"Generate sentences with nested noun phrases followed by verbs in a cascading structure.\"*  \n\n(Alternatively, a more concise version: *\"Create sentences with recursive noun-verb chains.\"*)",
+  "induced_prompt_chars": 201,
+  "induced_prompt_words": 25,
+  "l1_char_total": 378,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog that chased the cat that climbed the tree barked loudly.\", \"The teacher who praised the student who solved the problem smiled warmly.\", \"The car that hit the bike that blocked the lane screeched to a halt.\", \"The chef who cooked the meal that pleased the guests received applause.\", \"The book that inspired the author who wrote the story became famous.\"]}",
+  "l2_sentences": [
+    "The dog that chased the cat that climbed the tree barked loudly.",
+    "The teacher who praised the student who solved the problem smiled warmly.",
+    "The car that hit the bike that blocked the lane screeched to a halt.",
+    "The chef who cooked the meal that pleased the guests received applause.",
+    "The book that inspired the author who wrote the story became famous."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:08:34.989812+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the student the professor studied cited published vanished",
+    "the letter the writer the secretary the manager drafted signed mailed arrived",
+    "the cake the baker the assistant the chef prepared decorated served melted",
+    "the car the driver the mechanic the owner repaired washed parked broke",
+    "the song the composer the singer the audience recorded performed listened faded"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the student the professor studied cited published vanished\", \"the letter the writer the secretary the manager drafted signed mailed arrived\", \"the cake the baker the assistant the chef prepared decorated served melted\", \"the car the driver the mechanic the owner repaired washed parked broke\", \"the song the composer the singer the audience recorded performed listened faded\"]}",
+  "run_idx": 5
+}

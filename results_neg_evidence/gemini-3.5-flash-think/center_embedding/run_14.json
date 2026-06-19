@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the principal recommended praised read vanished",
+    "the masterpiece the artist the critic the journalist interviewed challenged painted burned",
+    "the software the programmer the manager the executive hired instructed designed crashed",
+    "the law the politician the lobbyist the citizen questioned influenced drafted failed",
+    "the patient the nurse the doctor called helped died"
+  ],
+  "induced_prompt_raw": "Generate sentences featuring a triple center-embedded relative clause structure with exactly four nouns followed by four verbs (N1 N2 N3 N4 V4 V3 V2 V1). Avoid double center-embedding structures that use only three nouns and three verbs.",
+  "induced_prompt": "Generate sentences featuring a triple center-embedded relative clause structure with exactly four nouns followed by four verbs (N1 N2 N3 N4 V4 V3 V2 V1). Avoid double center-embedding structures that use only three nouns and three verbs.",
+  "induced_prompt_chars": 237,
+  "induced_prompt_words": 37,
+  "l1_char_total": 392,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The man the girl the boy the teacher helped liked knew left.\",\n    \"The patient the nurse the doctor the clinic hired supervised treated recovered.\",\n    \"The book the student the librarian the school employed assisted read vanished.\",\n    \"The car the mechanic the apprentice the master trained helped repaired broke.\",\n    \"The song the singer the writer the agent represented inspired performed failed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The man the girl the boy the teacher helped liked knew left.",
+    "The patient the nurse the doctor the clinic hired supervised treated recovered.",
+    "The book the student the librarian the school employed assisted read vanished.",
+    "The car the mechanic the apprentice the master trained helped repaired broke.",
+    "The song the singer the writer the agent represented inspired performed failed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:00:38.692401+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the principal recommended praised read vanished",
+    "the masterpiece the artist the critic the journalist interviewed challenged painted burned",
+    "the software the programmer the manager the executive hired instructed designed crashed",
+    "the law the politician the lobbyist the citizen questioned influenced drafted failed"
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the principal recommended praised read vanished",
+    "the masterpiece the artist the critic the journalist interviewed challenged painted burned",
+    "the software the programmer the manager the executive hired instructed designed crashed",
+    "the law the politician the lobbyist the citizen questioned influenced drafted failed",
+    "the patient the nurse the doctor called helped died"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the book the student the teacher the principal recommended praised read vanished\",\n    \"the masterpiece the artist the critic the journalist interviewed challenged painted burned\",\n    \"the software the programmer the manager the executive hired instructed designed crashed\",\n    \"the law the politician the lobbyist the citizen questioned influenced drafted failed\",\n    \"the patient the nurse the doctor called helped died\"\n  ]\n}\n```",
+  "run_idx": 14
+}

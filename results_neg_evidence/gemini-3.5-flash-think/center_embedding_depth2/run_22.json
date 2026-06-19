@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The student the teacher praised graduated.",
+    "The cake the baker decorated dropped.",
+    "The child the dog chased cried.",
+    "The movie the critic disliked failed.",
+    "The rat the cat the dog chased killed escaped."
+  ],
+  "induced_prompt_raw": "Generate sentences with a single center-embedded relative clause (e.g., \"The [noun] the [noun] [verb] [verb]\"). Do not use double center-embedding (e.g., three nouns followed by three verbs).",
+  "induced_prompt": "Generate sentences with a single center-embedded relative clause (e.g., \"The [noun] the [noun] [verb] [verb]\"). Do not use double center-embedding (e.g., three nouns followed by three verbs).",
+  "induced_prompt_chars": 191,
+  "induced_prompt_words": 27,
+  "l1_char_total": 193,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book the student read fell.\",\n    \"The actor the director praised bowed.\",\n    \"The car the mechanic repaired broke.\",\n    \"The cake the baker made burned.\",\n    \"The song the band played ended.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book the student read fell.",
+    "The actor the director praised bowed.",
+    "The car the mechanic repaired broke.",
+    "The cake the baker made burned.",
+    "The song the band played ended."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:53:56.984419+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The student the teacher praised graduated.",
+    "The cake the baker decorated dropped.",
+    "The child the dog chased cried.",
+    "The movie the critic disliked failed."
+  ],
+  "l1_sentences": [
+    "The student the teacher praised graduated.",
+    "The cake the baker decorated dropped.",
+    "The child the dog chased cried.",
+    "The movie the critic disliked failed.",
+    "The rat the cat the dog chased killed escaped."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The student the teacher praised graduated.\",\n    \"The cake the baker decorated dropped.\",\n    \"The child the dog chased cried.\",\n    \"The movie the critic disliked failed.\",\n    \"The rat the cat the dog chased killed escaped.\"\n  ]\n}",
+  "run_idx": 22
+}

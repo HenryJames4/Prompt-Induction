@@ -1,0 +1,42 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the analyst the statistician analyzed processed interpreted vanished",
+    "the proposal the committee the chairman the secretary reviewed evaluated presented vanished",
+    "the evidence the detective the lawyer the judge examined questioned supported disappeared",
+    "the email the sender the recipient sent reviewed canceled"
+  ],
+  "induced_prompt_raw": "Generate: thing, 3 roles, 3 verbs, then disappeared or vanished",
+  "induced_prompt": "Generate: thing, 3 roles, 3 verbs, then disappeared or vanished",
+  "induced_prompt_chars": 63,
+  "induced_prompt_words": 10,
+  "l1_char_total": 420,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The old key, which the detective searched for, the child found, and the grandmother locked away, disappeared or vanished.\", \"After the detective searched the attic, the child found the key, and the grandmother locked it in the box, it disappeared or vanished.\", \"The key, once held by the detective, found by the child, and locked by the grandmother, disappeared or vanished without a trace.\", \"The detective searched the desk, the child found the key under the rug, and the grandmother locked it in the safe, but it disappeared or vanished.\", \"Despite the detective's search, the child's discovery, and the grandmother's lock, the key disappeared or vanished entirely.\"]",
+  "l2_sentences": [],
+  "l2_parse_warnings": [
+    "Model returned only 0 valid lines; expected 5."
+  ],
+  "timestamp": "2026-06-14T12:46:09.100000+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the analyst the statistician analyzed processed interpreted vanished",
+    "the proposal the committee the chairman the secretary reviewed evaluated presented vanished",
+    "the evidence the detective the lawyer the judge examined questioned supported disappeared"
+  ],
+  "l1_sentences": [
+    "the manuscript the author the editor the proofreader revised corrected approved disappeared",
+    "the data the researcher the analyst the statistician analyzed processed interpreted vanished",
+    "the proposal the committee the chairman the secretary reviewed evaluated presented vanished",
+    "the evidence the detective the lawyer the judge examined questioned supported disappeared",
+    "the email the sender the recipient sent reviewed canceled"
+  ],
+  "l1_raw": "{\"sentences\": [\"the manuscript the author the editor the proofreader revised corrected approved disappeared\", \"the data the researcher the analyst the statistician analyzed processed interpreted vanished\", \"the proposal the committee the chairman the secretary reviewed evaluated presented vanished\", \"the evidence the detective the lawyer the judge examined questioned supported disappeared\", \"the email the sender the recipient sent reviewed canceled\"]}",
+  "run_idx": 5
+}

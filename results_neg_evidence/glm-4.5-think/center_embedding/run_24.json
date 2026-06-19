@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the problem the student the teacher the principal called helped solved disappeared",
+    "the cake the child the mother the baker hired taught decorated looked",
+    "the book the student the teacher the author consulted assigned read disappeared",
+    "the house the family the agent the owner hired showed bought burned",
+    "the car the driver the mechanic called fixed started"
+  ],
+  "induced_prompt_raw": "Create a chain: object, agent2, agent3, agent4, then verbs: agent4 acts on agent3, agent3 on agent2, agent2 on object, object acts.",
+  "induced_prompt": "Create a chain: object, agent2, agent3, agent4, then verbs: agent4 acts on agent3, agent3 on agent2, agent2 on object, object acts.",
+  "induced_prompt_chars": 131,
+  "induced_prompt_words": 21,
+  "l1_char_total": 349,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The principal observed the teacher.\",\n    \"The teacher instructed the student.\",\n    \"The student opened the book.\",\n    \"The book revealed ancient secrets.\",\n    \"The book's pages fluttered in the breeze.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The principal observed the teacher.",
+    "The teacher instructed the student.",
+    "The student opened the book.",
+    "The book revealed ancient secrets.",
+    "The book's pages fluttered in the breeze."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:17:34.850530+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the problem the student the teacher the principal called helped solved disappeared",
+    "the cake the child the mother the baker hired taught decorated looked",
+    "the book the student the teacher the author consulted assigned read disappeared",
+    "the house the family the agent the owner hired showed bought burned"
+  ],
+  "l1_sentences": [
+    "the problem the student the teacher the principal called helped solved disappeared",
+    "the cake the child the mother the baker hired taught decorated looked",
+    "the book the student the teacher the author consulted assigned read disappeared",
+    "the house the family the agent the owner hired showed bought burned",
+    "the car the driver the mechanic called fixed started"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the problem the student the teacher the principal called helped solved disappeared\",\n    \"the cake the child the mother the baker hired taught decorated looked\",\n    \"the book the student the teacher the author consulted assigned read disappeared\",\n    \"the house the family the agent the owner hired showed bought burned\",\n    \"the car the driver the mechanic called fixed started\"\n  ]\n}\n```",
+  "run_idx": 24
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the editor hired recommended reviewed sold quickly.",
+    "The cake the baker the chef the apprentice trained prepared decorated tasted amazing.",
+    "The car the driver the mechanic the apprentice supervised repaired drove broke down.",
+    "The painting the artist the curator the assistant selected framed displayed attracted attention.",
+    "The project the manager the intern submitted reviewed failed."
+  ],
+  "induced_prompt_raw": "\"Generate complex nested noun phrases with multiple center-embedded relative clauses, ensuring each noun is properly modified by its subsequent clause without gaps or missing links. Avoid structures where a modifying clause skips over an intermediate noun.\"",
+  "induced_prompt": "\"Generate complex nested noun phrases with multiple center-embedded relative clauses, ensuring each noun is properly modified by its subsequent clause without gaps or missing links. Avoid structures where a modifying clause skips over an intermediate noun.\"",
+  "induced_prompt_chars": 257,
+  "induced_prompt_words": 36,
+  "l1_char_total": 411,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book that the professor who the students admired recommended was insightful.\", \"The car that the mechanic who the owner trusted repaired broke down again.\", \"The painting that the artist who the critic praised created sold for millions.\", \"The cake that the baker who the chef trained made won the competition.\", \"The dog that the trainer who the family hired taught performed tricks beautifully.\"]}",
+  "l2_sentences": [
+    "The book that the professor who the students admired recommended was insightful.",
+    "The car that the mechanic who the owner trusted repaired broke down again.",
+    "The painting that the artist who the critic praised created sold for millions.",
+    "The cake that the baker who the chef trained made won the competition.",
+    "The dog that the trainer who the family hired taught performed tricks beautifully."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:25:37.655214+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the editor hired recommended reviewed sold quickly.",
+    "The cake the baker the chef the apprentice trained prepared decorated tasted amazing.",
+    "The car the driver the mechanic the apprentice supervised repaired drove broke down.",
+    "The painting the artist the curator the assistant selected framed displayed attracted attention."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the editor hired recommended reviewed sold quickly.",
+    "The cake the baker the chef the apprentice trained prepared decorated tasted amazing.",
+    "The car the driver the mechanic the apprentice supervised repaired drove broke down.",
+    "The painting the artist the curator the assistant selected framed displayed attracted attention.",
+    "The project the manager the intern submitted reviewed failed."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the editor hired recommended reviewed sold quickly.\", \"The cake the baker the chef the apprentice trained prepared decorated tasted amazing.\", \"The car the driver the mechanic the apprentice supervised repaired drove broke down.\", \"The painting the artist the curator the assistant selected framed displayed attracted attention.\", \"The project the manager the intern submitted reviewed failed.\"]}",
+  "run_idx": 30
+}

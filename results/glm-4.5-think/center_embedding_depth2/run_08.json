@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the car the driver drove crashed.",
+    "the book the student read failed.",
+    "the meal the chef cooked spoiled.",
+    "the document the lawyer signed vanished.",
+    "the song the singer wrote aired."
+  ],
+  "induced_prompt_raw": "the [noun] the [noun] [verb] [verb].",
+  "induced_prompt": "the [noun] the [noun] [verb] [verb].",
+  "induced_prompt_chars": 36,
+  "induced_prompt_words": 6,
+  "l1_char_total": 171,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased barked.\",\n    \"the teacher the student taught scolded.\",\n    \"the bird the worm ate sang.\",\n    \"the car the truck passed honked.\",\n    \"the player the ball kicked threw.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "the cat the dog chased barked.",
+    "the teacher the student taught scolded.",
+    "the bird the worm ate sang.",
+    "the car the truck passed honked.",
+    "the player the ball kicked threw."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:08:03.564566+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the car the driver drove crashed.",
+    "the book the student read failed.",
+    "the meal the chef cooked spoiled.",
+    "the document the lawyer signed vanished.",
+    "the song the singer wrote aired."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the driver drove crashed.\",\n    \"the book the student read failed.\",\n    \"the meal the chef cooked spoiled.\",\n    \"the document the lawyer signed vanished.\",\n    \"the song the singer wrote aired.\"\n  ]\n}\n```",
+  "run_idx": 8
+}

@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "The report the editor the assistant the intern consulted revised approved disappeared.",
+    "The car the driver the mechanic the owner washed repaired painted sold.",
+    "The house the builder the architect the owner designed constructed inspected sold.",
+    "The book the author the publisher the reader wrote edited printed read.",
+    "The meal the chef the critic the guest prepared tasted enjoyed finished."
+  ],
+  "induced_prompt_raw": "Four nouns, four verbs: last verbs third, third verbs second, second verbs first, first verbs.",
+  "induced_prompt": "Four nouns, four verbs: last verbs third, third verbs second, second verbs first, first verbs.",
+  "induced_prompt_chars": 94,
+  "induced_prompt_words": 15,
+  "l1_char_total": 382,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog chases the cat.\",\n    \"The bird catches the dog.\",\n    \"The fish eats the bird.\",\n    \"The cat sees the fish.\",\n    \"This completes the cycle.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog chases the cat.",
+    "The bird catches the dog.",
+    "The fish eats the bird.",
+    "The cat sees the fish.",
+    "This completes the cycle."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:43:29.167716+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the editor the assistant the intern consulted revised approved disappeared.",
+    "The car the driver the mechanic the owner washed repaired painted sold.",
+    "The house the builder the architect the owner designed constructed inspected sold.",
+    "The book the author the publisher the reader wrote edited printed read.",
+    "The meal the chef the critic the guest prepared tasted enjoyed finished."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The report the editor the assistant the intern consulted revised approved disappeared.\",\n    \"The car the driver the mechanic the owner washed repaired painted sold.\",\n    \"The house the builder the architect the owner designed constructed inspected sold.\",\n    \"The book the author the publisher the reader wrote edited printed read.\",\n    \"The meal the chef the critic the guest prepared tasted enjoyed finished.\"\n  ]\n}\n```",
+  "run_idx": 24
+}

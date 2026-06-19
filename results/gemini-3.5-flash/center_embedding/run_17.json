@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the chef the waiter the customer the manager noticed thanked tipped rewarded",
+    "the patient the doctor the nurse the student helped guided treated thanked",
+    "the actor the director the writer the producer hired fired assisted praised",
+    "the student the teacher the tutor the parent called helped scolded congratulated",
+    "the dog the cat the mouse the rat bit chased scratched escaped"
+  ],
+  "induced_prompt_raw": "Write a sentence using four nouns followed by four transitive verbs, creating a deeply nested center-embedded relative clause structure (e.g., \"[Noun1] [Noun2] [Noun3] [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\").",
+  "induced_prompt": "Write a sentence using four nouns followed by four transitive verbs, creating a deeply nested center-embedded relative clause structure (e.g., \"[Noun1] [Noun2] [Noun3] [Noun4] [Verb4] [Verb3] [Verb2] [Verb1]\").",
+  "induced_prompt_chars": 210,
+  "induced_prompt_words": 28,
+  "l1_char_total": 367,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boys the girls the teachers the principals disliked avoided ignored tolerated.\",\n    \"The dog the cat the rat the cheese attracted bit chased lost.\",\n    \"The program the coder the system the company hired designed updated crashed.\",\n    \"The patients the doctors the clinics the governments funded hired treated cured.\",\n    \"The report the analyst the manager the executives questioned reviewed edited filed.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boys the girls the teachers the principals disliked avoided ignored tolerated.",
+    "The dog the cat the rat the cheese attracted bit chased lost.",
+    "The program the coder the system the company hired designed updated crashed.",
+    "The patients the doctors the clinics the governments funded hired treated cured.",
+    "The report the analyst the manager the executives questioned reviewed edited filed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:25:38.468641+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the chef the waiter the customer the manager noticed thanked tipped rewarded",
+    "the patient the doctor the nurse the student helped guided treated thanked",
+    "the actor the director the writer the producer hired fired assisted praised",
+    "the student the teacher the tutor the parent called helped scolded congratulated",
+    "the dog the cat the mouse the rat bit chased scratched escaped"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the chef the waiter the customer the manager noticed thanked tipped rewarded\",\n    \"the patient the doctor the nurse the student helped guided treated thanked\",\n    \"the actor the director the writer the producer hired fired assisted praised\",\n    \"the student the teacher the tutor the parent called helped scolded congratulated\",\n    \"the dog the cat the mouse the rat bit chased scratched escaped\"\n  ]\n}",
+  "run_idx": 17
+}

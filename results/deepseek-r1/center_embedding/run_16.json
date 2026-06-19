@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the baker the child the parent watched helped decorated vanished",
+    "the car the mechanic the owner the driver hired fired fixed broke",
+    "the book the author the critic the reader praised interviewed wrote sold",
+    "the building the architect the engineer the inspector met advised designed collapsed",
+    "the painting the artist the student the teacher taught admired created hung"
+  ],
+  "induced_prompt_raw": "\"Four definite noun phrases A, B, C, D followed by four verbs: D performs V1 on C, C performs V2 on B, B performs V3 on A, and A performs V4.\"",
+  "induced_prompt": "\"Four definite noun phrases A, B, C, D followed by four verbs: D performs V1 on C, C performs V2 on B, B performs V3 on A, and A performs V4.\"",
+  "induced_prompt_chars": 142,
+  "induced_prompt_words": 31,
+  "l1_char_total": 369,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog bites the cat.\", \"The cat scratches the mouse.\", \"The mouse nibbles the cheese.\", \"The cheese sits.\", \"This ends the chain.\"]}",
+  "l2_sentences": [
+    "The dog bites the cat.",
+    "The cat scratches the mouse.",
+    "The mouse nibbles the cheese.",
+    "The cheese sits.",
+    "This ends the chain."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:30:36.566757+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the baker the child the parent watched helped decorated vanished",
+    "the car the mechanic the owner the driver hired fired fixed broke",
+    "the book the author the critic the reader praised interviewed wrote sold",
+    "the building the architect the engineer the inspector met advised designed collapsed",
+    "the painting the artist the student the teacher taught admired created hung"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the baker the child the parent watched helped decorated vanished\", \"the car the mechanic the owner the driver hired fired fixed broke\", \"the book the author the critic the reader praised interviewed wrote sold\", \"the building the architect the engineer the inspector met advised designed collapsed\", \"the painting the artist the student the teacher taught admired created hung\"]}",
+  "run_idx": 16
+}

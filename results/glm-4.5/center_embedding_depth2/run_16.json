@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read fascinated.",
+    "the car the mechanic fixed broke.",
+    "the house the builder constructed collapsed.",
+    "the movie the critic reviewed disappointed."
+  ],
+  "induced_prompt_raw": "Center-embedded relative clauses with transitive verbs.",
+  "induced_prompt": "Center-embedded relative clauses with transitive verbs.",
+  "induced_prompt_chars": 55,
+  "induced_prompt_words": 6,
+  "l1_char_total": 188,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog chased escaped.\",\n    \"The book that the student read was interesting.\",\n    \"The man that the woman called arrived.\",\n    \"The car that the mechanic repaired broke down again.\",\n    \"The painting that the artist created won an award.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog chased escaped.",
+    "The book that the student read was interesting.",
+    "The man that the woman called arrived.",
+    "The car that the mechanic repaired broke down again.",
+    "The painting that the artist created won an award."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:16:56.065026+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read fascinated.",
+    "the car the mechanic fixed broke.",
+    "the house the builder constructed collapsed.",
+    "the movie the critic reviewed disappointed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read fascinated.\",\n    \"the car the mechanic fixed broke.\",\n    \"the house the builder constructed collapsed.\",\n    \"the movie the critic reviewed disappointed.\"\n  ]\n}",
+  "run_idx": 16
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The report the editor the assistant the intern consulted revised approved disappeared.",
+    "The car the mechanic the owner the dealer fixed sold recalled crashed.",
+    "The house the architect the builder the family designed constructed bought burned.",
+    "The plan the manager the team the client proposed approved rejected failed.",
+    "The idea the professor the student presented accepted vanished."
+  ],
+  "induced_prompt_raw": "Generate a sentence: The N1 the N2 the N3 the N4 V1 V2 V3 V4, where N4 acts on N3 with V1, N3 acts on N2 with V2, N2 acts on N1 with V3, and N1 acts alone with V4.",
+  "induced_prompt": "Generate a sentence: The N1 the N2 the N3 the N4 V1 V2 V3 V4, where N4 acts on N3 with V1, N3 acts on N2 with V2, N2 acts on N1 with V3, and N1 acts alone with V4.",
+  "induced_prompt_chars": 163,
+  "induced_prompt_words": 40,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog the mouse the elephant chased bit scratched meowed\",\n    \"The king the queen the prince the dragon burned scared angered ruled\",\n    \"The knight the dragon the princess the witch cursed begged attacked fought\",\n    \"The seed the soil the rain the sun evaporated watered nourished sprouted\",\n    \"The student the teacher the book the library housed provided instructed graduated\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the dog the mouse the elephant chased bit scratched meowed",
+    "The king the queen the prince the dragon burned scared angered ruled",
+    "The knight the dragon the princess the witch cursed begged attacked fought",
+    "The seed the soil the rain the sun evaporated watered nourished sprouted",
+    "The student the teacher the book the library housed provided instructed graduated"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:01:50.919434+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The report the editor the assistant the intern consulted revised approved disappeared.",
+    "The car the mechanic the owner the dealer fixed sold recalled crashed.",
+    "The house the architect the builder the family designed constructed bought burned.",
+    "The plan the manager the team the client proposed approved rejected failed."
+  ],
+  "l1_sentences": [
+    "The report the editor the assistant the intern consulted revised approved disappeared.",
+    "The car the mechanic the owner the dealer fixed sold recalled crashed.",
+    "The house the architect the builder the family designed constructed bought burned.",
+    "The plan the manager the team the client proposed approved rejected failed.",
+    "The idea the professor the student presented accepted vanished."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The report the editor the assistant the intern consulted revised approved disappeared.\",\n    \"The car the mechanic the owner the dealer fixed sold recalled crashed.\",\n    \"The house the architect the builder the family designed constructed bought burned.\",\n    \"The plan the manager the team the client proposed approved rejected failed.\",\n    \"The idea the professor the student presented accepted vanished.\"\n  ]\n}\n```",
+  "run_idx": 15
+}

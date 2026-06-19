@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog chased escaped",
+    "the book the student read vanished",
+    "the man the woman hired resigned",
+    "the house the architect designed collapsed",
+    "the cat the dog the rat chased bit escaped"
+  ],
+  "induced_prompt_raw": "Generate: 'the A the B verb1 verb2' meaning B verb1 A and A verb2. Only two nouns and two verbs.",
+  "induced_prompt": "Generate: 'the A the B verb1 verb2' meaning B verb1 A and A verb2. Only two nouns and two verbs.",
+  "induced_prompt_chars": 96,
+  "induced_prompt_words": 20,
+  "l1_char_total": 180,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased scratched\",\n    \"the boy the girl pushed yelled\",\n    \"the bird the snake saw flew\",\n    \"the student the teacher questioned learned\",\n    \"the lion the zebra hunted escaped\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "the cat the dog chased scratched",
+    "the boy the girl pushed yelled",
+    "the bird the snake saw flew",
+    "the student the teacher questioned learned",
+    "the lion the zebra hunted escaped"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:49:03.569034+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog chased escaped",
+    "the book the student read vanished",
+    "the man the woman hired resigned",
+    "the house the architect designed collapsed"
+  ],
+  "l1_sentences": [
+    "the cat the dog chased escaped",
+    "the book the student read vanished",
+    "the man the woman hired resigned",
+    "the house the architect designed collapsed",
+    "the cat the dog the rat chased bit escaped"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog chased escaped\",\n    \"the book the student read vanished\",\n    \"the man the woman hired resigned\",\n    \"the house the architect designed collapsed\",\n    \"the cat the dog the rat chased bit escaped\"\n  ]\n}\n```",
+  "run_idx": 17
+}

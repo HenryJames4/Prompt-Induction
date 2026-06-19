@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the dog the boy chased barked.",
+    "the cake the baker made collapsed.",
+    "the book the author wrote sold.",
+    "the song the singer performed impressed.",
+    "the mouse the cat the dog chased caught escaped."
+  ],
+  "induced_prompt_raw": "\"Write: 'the N1 the N2 Vtrans-past Vintrans-past.'  \nMeaning: N2 performed Vtrans on N1 (implied object), then N1 performed Vintrans.  \nUse exactly two nouns (N1, N2) and two verbs (Vtrans, Vintrans).  \nAvoid nested clauses or extra elements.\"",
+  "induced_prompt": "\"Write: 'the N1 the N2 Vtrans-past Vintrans-past.'  \nMeaning: N2 performed Vtrans on N1 (implied object), then N1 performed Vintrans.  \nUse exactly two nouns (N1, N2) and two verbs (Vtrans, Vintrans).  \nAvoid nested clauses or extra elements.\"",
+  "induced_prompt_chars": 243,
+  "induced_prompt_words": 36,
+  "l1_char_total": 183,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"the cat the woman stroked slept.\", \"the ball the child threw bounced.\", \"the door the guard closed locked.\", \"the bird the boy watched flew.\", \"the cake the baker baked cooled.\"]}",
+  "l2_sentences": [
+    "the cat the woman stroked slept.",
+    "the ball the child threw bounced.",
+    "the door the guard closed locked.",
+    "the bird the boy watched flew.",
+    "the cake the baker baked cooled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:51:05.263747+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the dog the boy chased barked.",
+    "the cake the baker made collapsed.",
+    "the book the author wrote sold.",
+    "the song the singer performed impressed."
+  ],
+  "l1_sentences": [
+    "the dog the boy chased barked.",
+    "the cake the baker made collapsed.",
+    "the book the author wrote sold.",
+    "the song the singer performed impressed.",
+    "the mouse the cat the dog chased caught escaped."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy chased barked.\", \"the cake the baker made collapsed.\", \"the book the author wrote sold.\", \"the song the singer performed impressed.\", \"the mouse the cat the dog chased caught escaped.\"]}",
+  "run_idx": 19
+}

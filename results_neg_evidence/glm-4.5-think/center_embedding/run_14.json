@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the baker the customer the judge tasted ordered praised won",
+    "the team the coach the owner the sponsor trained hired paid celebrated",
+    "the painting the artist the collector the museum created bought donated displayed",
+    "the speech the speaker the audience the critic wrote heard reviewed praised",
+    "the car the driver the mechanic drove repaired crashed"
+  ],
+  "induced_prompt_raw": "Generate a center-embedded sentence: main noun, then k agents, then k+1 verbs. First verb: agent1 acts on main. Next verbs: each subsequent agent acts on the previous agent. Last verb: main noun acts. Ensure all verbs are semantically coherent.",
+  "induced_prompt": "Generate a center-embedded sentence: main noun, then k agents, then k+1 verbs. First verb: agent1 acts on main. Next verbs: each subsequent agent acts on the previous agent. Last verb: main noun acts. Ensure all verbs are semantically coherent.",
+  "induced_prompt_chars": 244,
+  "induced_prompt_words": 39,
+  "l1_char_total": 348,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat the dog chased escaped.\",\n    \"The mouse the cat the dog hunted chased escaped.\",\n    \"The cheese the mouse the cat the dog ate caught chased disappeared.\",\n    \"The student the teacher the principal taught scolded learned.\",\n    \"The bird the cat watched flew away.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat the dog chased escaped.",
+    "The mouse the cat the dog hunted chased escaped.",
+    "The cheese the mouse the cat the dog ate caught chased disappeared.",
+    "The student the teacher the principal taught scolded learned.",
+    "The bird the cat watched flew away."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:00:45.007556+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the baker the customer the judge tasted ordered praised won",
+    "the team the coach the owner the sponsor trained hired paid celebrated",
+    "the painting the artist the collector the museum created bought donated displayed",
+    "the speech the speaker the audience the critic wrote heard reviewed praised"
+  ],
+  "l1_sentences": [
+    "the cake the baker the customer the judge tasted ordered praised won",
+    "the team the coach the owner the sponsor trained hired paid celebrated",
+    "the painting the artist the collector the museum created bought donated displayed",
+    "the speech the speaker the audience the critic wrote heard reviewed praised",
+    "the car the driver the mechanic drove repaired crashed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cake the baker the customer the judge tasted ordered praised won\",\n    \"the team the coach the owner the sponsor trained hired paid celebrated\",\n    \"the painting the artist the collector the museum created bought donated displayed\",\n    \"the speech the speaker the audience the critic wrote heard reviewed praised\",\n    \"the car the driver the mechanic drove repaired crashed\"\n  ]\n}\n```",
+  "run_idx": 14
+}

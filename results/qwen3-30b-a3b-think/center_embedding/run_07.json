@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the book the author the publisher the reviewer wrote edited published vanished.",
+    "the car the driver the mechanic the customer drove fixed tested disappeared.",
+    "the letter the secretary the manager the client wrote sent read vanished.",
+    "the cake the baker the chef the customer baked decorated served disappeared."
+  ],
+  "induced_prompt_raw": "noun, three roles, three verbs, vanish",
+  "induced_prompt": "noun, three roles, three verbs, vanish",
+  "induced_prompt_chars": 38,
+  "induced_prompt_words": 6,
+  "l1_char_total": 390,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The detective observes the shadow vanish into the mist.\", \"The scientist discovers the shadow's hidden pattern in the data.\", \"The child watches the shadow fade away completely.\", \"The detective tracks the shadow's movement across the city.\", \"The scientist explains how shadows vanish under certain light conditions.\"]}",
+  "l2_sentences": [
+    "The detective observes the shadow vanish into the mist.",
+    "The scientist discovers the shadow's hidden pattern in the data.",
+    "The child watches the shadow fade away completely.",
+    "The detective tracks the shadow's movement across the city.",
+    "The scientist explains how shadows vanish under certain light conditions."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:11:30.358201+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared.",
+    "the book the author the publisher the reviewer wrote edited published vanished.",
+    "the car the driver the mechanic the customer drove fixed tested disappeared.",
+    "the letter the secretary the manager the client wrote sent read vanished.",
+    "the cake the baker the chef the customer baked decorated served disappeared."
+  ],
+  "l1_raw": "{\"sentences\": [\"the report the editor the assistant the intern consulted revised approved disappeared.\", \"the book the author the publisher the reviewer wrote edited published vanished.\", \"the car the driver the mechanic the customer drove fixed tested disappeared.\", \"the letter the secretary the manager the client wrote sent read vanished.\", \"the cake the baker the chef the customer baked decorated served disappeared.\"]}",
+  "run_idx": 7
+}

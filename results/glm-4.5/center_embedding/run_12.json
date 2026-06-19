@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the mouse the elephant chased hunted escaped disappeared.",
+    "the book the teacher the student the principal recommended read borrowed lost.",
+    "the car the mechanic the owner the driver repaired sold bought crashed.",
+    "the house the agent the buyer the owner showed visited purchased sold.",
+    "the meal the chef the critic the guest prepared tasted enjoyed ordered."
+  ],
+  "induced_prompt_raw": "A sequence of nouns followed by a sequence of verbs describing their actions.",
+  "induced_prompt": "A sequence of nouns followed by a sequence of verbs describing their actions.",
+  "induced_prompt_chars": 77,
+  "induced_prompt_words": 13,
+  "l1_char_total": 363,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"Cats dogs birds fish run jump swim fly.\",\n    \"Children teachers books computers learn read play type.\",\n    \"Cars trains planes bicycles drive speed race pedal.\",\n    \"Sun moon stars clouds shine twinkle glow float.\",\n    \"Water fire earth wind flow burn move blow.\"\n  ]\n}",
+  "l2_sentences": [
+    "Cats dogs birds fish run jump swim fly.",
+    "Children teachers books computers learn read play type.",
+    "Cars trains planes bicycles drive speed race pedal.",
+    "Sun moon stars clouds shine twinkle glow float.",
+    "Water fire earth wind flow burn move blow."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:22:04.882632+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the mouse the elephant chased hunted escaped disappeared.",
+    "the book the teacher the student the principal recommended read borrowed lost.",
+    "the car the mechanic the owner the driver repaired sold bought crashed.",
+    "the house the agent the buyer the owner showed visited purchased sold.",
+    "the meal the chef the critic the guest prepared tasted enjoyed ordered."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the mouse the elephant chased hunted escaped disappeared.\",\n    \"the book the teacher the student the principal recommended read borrowed lost.\",\n    \"the car the mechanic the owner the driver repaired sold bought crashed.\",\n    \"the house the agent the buyer the owner showed visited purchased sold.\",\n    \"the meal the chef the critic the guest prepared tasted enjoyed ordered.\"\n  ]\n}",
+  "run_idx": 12
+}

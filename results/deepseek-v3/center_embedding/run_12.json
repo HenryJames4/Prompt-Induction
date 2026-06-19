@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the baker the chef the apprentice baked decorated served disappeared",
+    "the book the author the editor the intern wrote revised published vanished",
+    "the car the mechanic the driver the assistant repaired cleaned drove stalled",
+    "the song the singer the guitarist the drummer performed practiced recorded faded",
+    "the painting the artist the curator the assistant created displayed admired sold"
+  ],
+  "induced_prompt_raw": "Generate a sequence where each entity in a chain interacts with the next, leading to a final outcome.",
+  "induced_prompt": "Generate a sequence where each entity in a chain interacts with the next, leading to a final outcome.",
+  "induced_prompt_chars": 101,
+  "induced_prompt_words": 18,
+  "l1_char_total": 387,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The wind blew fiercely, shaking the trees.\", \"A branch snapped and fell onto the road.\", \"A car swerved to avoid the branch, skidding off the pavement.\", \"The car hit a lamppost, causing it to tilt dangerously.\", \"The tilted lamppost eventually collapsed onto the sidewalk, blocking the path.\"]}",
+  "l2_sentences": [
+    "The wind blew fiercely, shaking the trees.",
+    "A branch snapped and fell onto the road.",
+    "A car swerved to avoid the branch, skidding off the pavement.",
+    "The car hit a lamppost, causing it to tilt dangerously.",
+    "The tilted lamppost eventually collapsed onto the sidewalk, blocking the path."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:21:41.088138+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the baker the chef the apprentice baked decorated served disappeared",
+    "the book the author the editor the intern wrote revised published vanished",
+    "the car the mechanic the driver the assistant repaired cleaned drove stalled",
+    "the song the singer the guitarist the drummer performed practiced recorded faded",
+    "the painting the artist the curator the assistant created displayed admired sold"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the baker the chef the apprentice baked decorated served disappeared\", \"the book the author the editor the intern wrote revised published vanished\", \"the car the mechanic the driver the assistant repaired cleaned drove stalled\", \"the song the singer the guitarist the drummer performed practiced recorded faded\", \"the painting the artist the curator the assistant created displayed admired sold\"]}",
+  "run_idx": 12
+}

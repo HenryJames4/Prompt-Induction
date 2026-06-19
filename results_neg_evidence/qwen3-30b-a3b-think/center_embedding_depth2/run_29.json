@@ -1,0 +1,46 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the author wrote sold",
+    "the idea the scientist proposed failed",
+    "the plan the manager developed succeeded",
+    "the report the committee reviewed passed",
+    "the book the author the editor read sold passed"
+  ],
+  "induced_prompt_raw": "the [noun] the [person] [verb] [verb]",
+  "induced_prompt": "the [noun] the [person] [verb] [verb]",
+  "induced_prompt_chars": 37,
+  "induced_prompt_words": 6,
+  "l1_char_total": 195,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the boy chased ran.\", \"The cat the girl fed slept.\", \"The book the man read wrote.\", \"The sun the girl watched rose.\", \"The tree the boy climbed fell.\"]}",
+  "l2_sentences": [
+    "The dog the boy chased ran.",
+    "The cat the girl fed slept.",
+    "The book the man read wrote.",
+    "The sun the girl watched rose.",
+    "The tree the boy climbed fell."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:59:43.300709+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the author wrote sold",
+    "the idea the scientist proposed failed",
+    "the plan the manager developed succeeded",
+    "the report the committee reviewed passed"
+  ],
+  "l1_sentences": [
+    "the book the author wrote sold",
+    "the idea the scientist proposed failed",
+    "the plan the manager developed succeeded",
+    "the report the committee reviewed passed",
+    "the book the author the editor read sold passed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author wrote sold\", \"the idea the scientist proposed failed\", \"the plan the manager developed succeeded\", \"the report the committee reviewed passed\", \"the book the author the editor read sold passed\"]}",
+  "run_idx": 29
+}

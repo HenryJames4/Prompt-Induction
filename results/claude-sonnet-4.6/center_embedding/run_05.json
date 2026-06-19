@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the critic the student the professor assigned reviewed published vanished",
+    "the cake the chef the apprentice the owner hired baked tasted disappeared",
+    "the letter the lawyer the clerk the judge appointed wrote signed delivered",
+    "the film the director the actor the studio funded cast produced released",
+    "the bridge the engineer the worker the mayor hired built inspected collapsed"
+  ],
+  "induced_prompt_raw": "Write sentences with four center-embedded relative clauses involving a chain of assigned roles, ending in four sequential verbs.",
+  "induced_prompt": "Write sentences with four center-embedded relative clauses involving a chain of assigned roles, ending in four sequential verbs.",
+  "induced_prompt_chars": 128,
+  "induced_prompt_words": 18,
+  "l1_char_total": 377,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The dog that the cat that the mouse that the elephant chased caught bit barked growled ran.\", \"The lawyer that the judge that the clerk that the bailiff summoned called questioned argued objected ruled.\", \"The student that the teacher that the principal that the board hired fired tested cheated struggled failed.\", \"The soldier that the general that the colonel that the captain commanded ordered trained fought bled surrendered.\", \"The child that the mother that the father that the grandparent raised disciplined held cried laughed slept.\"]}\n```",
+  "l2_sentences": [
+    "The dog that the cat that the mouse that the elephant chased caught bit barked growled ran.",
+    "The lawyer that the judge that the clerk that the bailiff summoned called questioned argued objected ruled.",
+    "The student that the teacher that the principal that the board hired fired tested cheated struggled failed.",
+    "The soldier that the general that the colonel that the captain commanded ordered trained fought bled surrendered.",
+    "The child that the mother that the father that the grandparent raised disciplined held cried laughed slept."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:18:25.008158+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the critic the student the professor assigned reviewed published vanished",
+    "the cake the chef the apprentice the owner hired baked tasted disappeared",
+    "the letter the lawyer the clerk the judge appointed wrote signed delivered",
+    "the film the director the actor the studio funded cast produced released",
+    "the bridge the engineer the worker the mayor hired built inspected collapsed"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the book the critic the student the professor assigned reviewed published vanished\", \"the cake the chef the apprentice the owner hired baked tasted disappeared\", \"the letter the lawyer the clerk the judge appointed wrote signed delivered\", \"the film the director the actor the studio funded cast produced released\", \"the bridge the engineer the worker the mayor hired built inspected collapsed\"]}\n```",
+  "run_idx": 5
+}

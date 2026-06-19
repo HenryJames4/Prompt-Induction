@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the dog the cat the mouse the bird chased caught bit barked.",
+    "the car the mechanic the apprentice the owner hired taught fixed started.",
+    "the book the author the editor the publisher hired reviewed wrote sold.",
+    "the house the architect the builder the engineer mentored designed built stood.",
+    "the cake the baker the assistant the chef trained helped baked cooled."
+  ],
+  "induced_prompt_raw": "Based on the given sentences, the syntactic structure consists of four noun phrases (each starting with \"the\") followed by four verbs, forming a nested chain of actions. The prompt capturing this structure without copying any sentences and being concise is:\n\n**Generate a sentence: 'the N1 the N2 the N3 the N4 V1 V2 V3 V4' with actions: N4 V1 N3, N3 V2 N2, N2 V3 N1, N1 V4.**",
+  "induced_prompt": "Based on the given sentences, the syntactic structure consists of four noun phrases (each starting with \"the\") followed by four verbs, forming a nested chain of actions. The prompt capturing this structure without copying any sentences and being concise is:\n\n**Generate a sentence: 'the N1 the N2 the N3 the N4 V1 V2 V3 V4' with actions: N4 V1 N3, N3 V2 N2, N2 V3 N1, N1 V4.**",
+  "induced_prompt_chars": 376,
+  "induced_prompt_words": 68,
+  "l1_char_total": 353,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"the table the cheese the mouse the cat chased nibbled soiled collapsed.\",\n    \"the king the knight the princess the dragon captured threatened warned worried.\",\n    \"the school the principal the teacher the student admired commended managed flourished.\",\n    \"the family the house the roof the rain pounded protected sheltered slept.\",\n    \"the boy the drink the ice the sun melted cooled refreshed smiled.\"\n  ]\n}",
+  "l2_sentences": [
+    "the table the cheese the mouse the cat chased nibbled soiled collapsed.",
+    "the king the knight the princess the dragon captured threatened warned worried.",
+    "the school the principal the teacher the student admired commended managed flourished.",
+    "the family the house the roof the rain pounded protected sheltered slept.",
+    "the boy the drink the ice the sun melted cooled refreshed smiled."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:03:13.189709+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the cat the mouse the bird chased caught bit barked.",
+    "the car the mechanic the apprentice the owner hired taught fixed started.",
+    "the book the author the editor the publisher hired reviewed wrote sold.",
+    "the house the architect the builder the engineer mentored designed built stood.",
+    "the cake the baker the assistant the chef trained helped baked cooled."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the cat the mouse the bird chased caught bit barked.\", \"the car the mechanic the apprentice the owner hired taught fixed started.\", \"the book the author the editor the publisher hired reviewed wrote sold.\", \"the house the architect the builder the engineer mentored designed built stood.\", \"the cake the baker the assistant the chef trained helped baked cooled.\"]}",
+  "run_idx": 2
+}

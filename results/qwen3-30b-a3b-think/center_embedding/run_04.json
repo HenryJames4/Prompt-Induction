@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the reviewer wrote edited printed sold",
+    "the car the mechanic the dealer the customer bought repaired sold drove",
+    "the cake the baker the customer the chef decorated baked served ate",
+    "the song the singer the producer the band recorded mixed performed played",
+    "the house the architect the builder the homeowner designed constructed sold moved"
+  ],
+  "induced_prompt_raw": "the [noun] the [role1] the [role2] the [role3] [verb] [verb] [verb] [verb]",
+  "induced_prompt": "the [noun] the [role1] the [role2] the [role3] [verb] [verb] [verb] [verb]",
+  "induced_prompt_chars": 74,
+  "induced_prompt_words": 12,
+  "l1_char_total": 364,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the doctor the teacher the engineer runs jumps sings dances\", \"the dog the lawyer the chef the pilot flies eats cooks drives\", \"the bird the singer the dancer the actor sings dances acts performs\", \"the car the driver the mechanic the designer drives fixes creates races\", \"the book the author the editor the reader reads writes edits shares\"]}",
+  "l2_sentences": [
+    "the cat the doctor the teacher the engineer runs jumps sings dances",
+    "the dog the lawyer the chef the pilot flies eats cooks drives",
+    "the bird the singer the dancer the actor sings dances acts performs",
+    "the car the driver the mechanic the designer drives fixes creates races",
+    "the book the author the editor the reader reads writes edits shares"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:05:04.569648+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the reviewer wrote edited printed sold",
+    "the car the mechanic the dealer the customer bought repaired sold drove",
+    "the cake the baker the customer the chef decorated baked served ate",
+    "the song the singer the producer the band recorded mixed performed played",
+    "the house the architect the builder the homeowner designed constructed sold moved"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the reviewer wrote edited printed sold\", \"the car the mechanic the dealer the customer bought repaired sold drove\", \"the cake the baker the customer the chef decorated baked served ate\", \"the song the singer the producer the band recorded mixed performed played\", \"the house the architect the builder the homeowner designed constructed sold moved\"]}",
+  "run_idx": 4
+}

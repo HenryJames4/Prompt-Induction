@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef the student the child helped instructed decorated collapsed",
+    "the book the author the agent the publisher signed contacted praised vanished",
+    "the car the driver the mechanic the owner called hired fixed broke",
+    "the letter the secretary the manager the intern fetched supervised typed disappeared",
+    "the painting the artist the model the photographer admired photographed painted faded"
+  ],
+  "induced_prompt_raw": "Create sentences with nested relative clauses, each noun followed by a past-tense verb, ending with a concluding action.",
+  "induced_prompt": "Create sentences with nested relative clauses, each noun followed by a past-tense verb, ending with a concluding action.",
+  "induced_prompt_chars": 120,
+  "induced_prompt_words": 18,
+  "l1_char_total": 389,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\n  \"The professor that the student that the dean praised admired published groundbreaking research.\",\n  \"The dog that the cat that the mouse terrified chased barked loudly at the mail carrier.\",\n  \"The artist that the gallery that the investors funded featured painted a stunning mural downtown.\",\n  \"The engineer that the company that the CEO founded hired designed an efficient new prototype.\",\n  \"The cake that the baker that the critic applauded baked won first prize at the competition.\"\n]}",
+  "l2_sentences": [
+    "The professor that the student that the dean praised admired published groundbreaking research.",
+    "The dog that the cat that the mouse terrified chased barked loudly at the mail carrier.",
+    "The artist that the gallery that the investors funded featured painted a stunning mural downtown.",
+    "The engineer that the company that the CEO founded hired designed an efficient new prototype.",
+    "The cake that the baker that the critic applauded baked won first prize at the competition."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:37:01.423145+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef the student the child helped instructed decorated collapsed",
+    "the book the author the agent the publisher signed contacted praised vanished",
+    "the car the driver the mechanic the owner called hired fixed broke",
+    "the letter the secretary the manager the intern fetched supervised typed disappeared",
+    "the painting the artist the model the photographer admired photographed painted faded"
+  ],
+  "l1_raw": "{\"sentences\": [\"the cake the chef the student the child helped instructed decorated collapsed\", \"the book the author the agent the publisher signed contacted praised vanished\", \"the car the driver the mechanic the owner called hired fixed broke\", \"the letter the secretary the manager the intern fetched supervised typed disappeared\", \"the painting the artist the model the photographer admired photographed painted faded\"]}",
+  "run_idx": 20
+}

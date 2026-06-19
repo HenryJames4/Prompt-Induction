@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the car the mechanic fixed worked",
+    "the bill the senator proposed passed",
+    "the cake the chef baked disappeared",
+    "the dog the child chased barked",
+    "the proposal the editor the manager hired submitted passed"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause modifying the subject, following the pattern \"the [noun] the [noun] [verb] [verb].\" Use only one level of embedding — do not nest multiple relative clauses inside one another.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause modifying the subject, following the pattern \"the [noun] the [noun] [verb] [verb].\" Use only one level of embedding — do not nest multiple relative clauses inside one another.",
+  "induced_prompt_chars": 237,
+  "induced_prompt_words": 36,
+  "l1_char_total": 193,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The dog the cat chased barked.\", \"The book the student read disappeared.\", \"The bridge the engineers built collapsed.\", \"The cake the chef baked vanished.\", \"The letter the professor wrote circulated.\"]}\n```",
+  "l2_sentences": [
+    "The dog the cat chased barked.",
+    "The book the student read disappeared.",
+    "The bridge the engineers built collapsed.",
+    "The cake the chef baked vanished.",
+    "The letter the professor wrote circulated."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:59:07.868354+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the car the mechanic fixed worked",
+    "the bill the senator proposed passed",
+    "the cake the chef baked disappeared",
+    "the dog the child chased barked"
+  ],
+  "l1_sentences": [
+    "the car the mechanic fixed worked",
+    "the bill the senator proposed passed",
+    "the cake the chef baked disappeared",
+    "the dog the child chased barked",
+    "the proposal the editor the manager hired submitted passed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the car the mechanic fixed worked\",\n    \"the bill the senator proposed passed\",\n    \"the cake the chef baked disappeared\",\n    \"the dog the child chased barked\",\n    \"the proposal the editor the manager hired submitted passed\"\n  ]\n}\n```",
+  "run_idx": 28
+}

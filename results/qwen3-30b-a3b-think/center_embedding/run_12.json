@@ -1,0 +1,40 @@
+{
+  "model_key": "qwen3-30b-a3b-think",
+  "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the document the manager the client the customer submitted printed read wrote",
+    "the book the author the publisher the reader reviewed edited approved checked",
+    "the email the sender the recipient the assistant sent received viewed reviewed",
+    "the file the computer the user the system saved deleted printed shared"
+  ],
+  "induced_prompt_raw": "the [noun] the [noun] the [noun] the [noun] [verb] [verb] [verb] [verb]",
+  "induced_prompt": "the [noun] the [noun] the [noun] the [noun] [verb] [verb] [verb] [verb]",
+  "induced_prompt_chars": 71,
+  "induced_prompt_words": 12,
+  "l1_char_total": 387,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"the cat the dog the bird the fish jump run fly swim\", \"the sun the moon the star the cloud shine glow twinkle drift\", \"the book the pen the paper the desk write draw read type\", \"the car the bike the bus the train drive ride stop go\", \"the apple the banana the orange the grape eat peel slice juice\"]}",
+  "l2_sentences": [
+    "the cat the dog the bird the fish jump run fly swim",
+    "the sun the moon the star the cloud shine glow twinkle drift",
+    "the book the pen the paper the desk write draw read type",
+    "the car the bike the bus the train drive ride stop go",
+    "the apple the banana the orange the grape eat peel slice juice"
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:20:57.374532+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the document the manager the client the customer submitted printed read wrote",
+    "the book the author the publisher the reader reviewed edited approved checked",
+    "the email the sender the recipient the assistant sent received viewed reviewed",
+    "the file the computer the user the system saved deleted printed shared"
+  ],
+  "l1_raw": "{\"sentences\": [\"the report the editor the assistant the intern consulted revised approved disappeared\", \"the document the manager the client the customer submitted printed read wrote\", \"the book the author the publisher the reader reviewed edited approved checked\", \"the email the sender the recipient the assistant sent received viewed reviewed\", \"the file the computer the user the system saved deleted printed shared\"]}",
+  "run_idx": 12
+}

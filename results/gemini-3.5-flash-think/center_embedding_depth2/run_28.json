@@ -1,0 +1,40 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the artist the critic praised smiled",
+    "the book the student read disappeared",
+    "the child the dog chased fell",
+    "the chef the king hired cooked",
+    "the car the mechanic repaired ran"
+  ],
+  "induced_prompt_raw": "Write five sentences with the pattern: \"the [noun] the [noun] [transitive verb] [intransitive verb]\" in the past tense.",
+  "induced_prompt": "Write five sentences with the pattern: \"the [noun] the [noun] [transitive verb] [intransitive verb]\" in the past tense.",
+  "induced_prompt_chars": 119,
+  "induced_prompt_words": 18,
+  "l1_char_total": 165,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat the girl chased slept.\",\n    \"The car the man bought stalled.\",\n    \"The letter the woman wrote arrived.\",\n    \"The food the chef cooked spoiled.\",\n    \"The phone the student dropped rang.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat the girl chased slept.",
+    "The car the man bought stalled.",
+    "The letter the woman wrote arrived.",
+    "The food the chef cooked spoiled.",
+    "The phone the student dropped rang."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:44:09.282886+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the artist the critic praised smiled",
+    "the book the student read disappeared",
+    "the child the dog chased fell",
+    "the chef the king hired cooked",
+    "the car the mechanic repaired ran"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the artist the critic praised smiled\",\n    \"the book the student read disappeared\",\n    \"the child the dog chased fell\",\n    \"the chef the king hired cooked\",\n    \"the car the mechanic repaired ran\"\n  ]\n}",
+  "run_idx": 28
+}

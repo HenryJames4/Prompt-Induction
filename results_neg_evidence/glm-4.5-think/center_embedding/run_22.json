@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cat the dog the boy the girl chased saw petted smiled.",
+    "the book the teacher the student the principal read assigned recommended praised.",
+    "the car the mechanic the owner the dealer fixed inspected drove sold.",
+    "the letter the secretary the manager the CEO typed reviewed signed filed.",
+    "the house the builder the architect designed built sold."
+  ],
+  "induced_prompt_raw": "Generate: the N1 the N2 the N3 the N4 V1 V2 V3 V4. Chain: N1 V1 N2, N2 V2 N3, N3 V3 N4, N4 V4.",
+  "induced_prompt": "Generate: the N1 the N2 the N3 the N4 V1 V2 V3 V4. Chain: N1 V1 N2, N2 V2 N3, N3 V3 N4, N4 V4.",
+  "induced_prompt_chars": 94,
+  "induced_prompt_words": 25,
+  "l1_char_total": 337,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The cat chased the dog.\",\n    \"The dog saw the bird.\",\n    \"The bird caught the fish.\",\n    \"The fish ate.\",\n    \"The cat ate the fish.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The cat chased the dog.",
+    "The dog saw the bird.",
+    "The bird caught the fish.",
+    "The fish ate.",
+    "The cat ate the fish."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:14:07.382173+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cat the dog the boy the girl chased saw petted smiled.",
+    "the book the teacher the student the principal read assigned recommended praised.",
+    "the car the mechanic the owner the dealer fixed inspected drove sold.",
+    "the letter the secretary the manager the CEO typed reviewed signed filed."
+  ],
+  "l1_sentences": [
+    "the cat the dog the boy the girl chased saw petted smiled.",
+    "the book the teacher the student the principal read assigned recommended praised.",
+    "the car the mechanic the owner the dealer fixed inspected drove sold.",
+    "the letter the secretary the manager the CEO typed reviewed signed filed.",
+    "the house the builder the architect designed built sold."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cat the dog the boy the girl chased saw petted smiled.\",\n    \"the book the teacher the student the principal read assigned recommended praised.\",\n    \"the car the mechanic the owner the dealer fixed inspected drove sold.\",\n    \"the letter the secretary the manager the CEO typed reviewed signed filed.\",\n    \"the house the builder the architect designed built sold.\"\n  ]\n}\n```",
+  "run_idx": 22
+}

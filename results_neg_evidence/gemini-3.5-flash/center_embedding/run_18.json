@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the memo the manager the secretary the clerk hired wrote edited misplaced",
+    "the law the senator the lobbyist the lawyer hired advised drafted repealed",
+    "the code the developer the designer the intern questioned assisted refactored crashed",
+    "the cake the chef the baker helped baked burned"
+  ],
+  "induced_prompt_raw": "Generate a sentence with exactly three nested, center-embedded relative clauses using the template: **[Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb A] [Verb B] [Verb C] [Verb D]**. \n\nEnsure every noun has a corresponding active verb (forming subject-verb pairs in reverse order: 4-A, 3-B, 2-C, 1-D) so that no noun is left without its predicate. Do not truncate the verb sequence.",
+  "induced_prompt": "Generate a sentence with exactly three nested, center-embedded relative clauses using the template: **[Noun 1] [Noun 2] [Noun 3] [Noun 4] [Verb A] [Verb B] [Verb C] [Verb D]**. \n\nEnsure every noun has a corresponding active verb (forming subject-verb pairs in reverse order: 4-A, 3-B, 2-C, 1-D) so that no noun is left without its predicate. Do not truncate the verb sequence.",
+  "induced_prompt_chars": 376,
+  "induced_prompt_words": 62,
+  "l1_char_total": 364,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"Doctors patients nurses interns assist treat cure survive.\",\n    \"Chefs bakers assistants apprentices help instruct supervise bake.\",\n    \"Teachers students peers friends value trust respect learn.\",\n    \"Directors actors agents writers hire advise consult perform.\",\n    \"Leaders followers helpers guides direct assist lead succeed.\"\n  ]\n}",
+  "l2_sentences": [
+    "Doctors patients nurses interns assist treat cure survive.",
+    "Chefs bakers assistants apprentices help instruct supervise bake.",
+    "Teachers students peers friends value trust respect learn.",
+    "Directors actors agents writers hire advise consult perform.",
+    "Leaders followers helpers guides direct assist lead succeed."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:08:18.124927+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the memo the manager the secretary the clerk hired wrote edited misplaced",
+    "the law the senator the lobbyist the lawyer hired advised drafted repealed",
+    "the code the developer the designer the intern questioned assisted refactored crashed"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the memo the manager the secretary the clerk hired wrote edited misplaced",
+    "the law the senator the lobbyist the lawyer hired advised drafted repealed",
+    "the code the developer the designer the intern questioned assisted refactored crashed",
+    "the cake the chef the baker helped baked burned"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the memo the manager the secretary the clerk hired wrote edited misplaced\",\n    \"the law the senator the lobbyist the lawyer hired advised drafted repealed\",\n    \"the code the developer the designer the intern questioned assisted refactored crashed\",\n    \"the cake the chef the baker helped baked burned\"\n  ]\n}",
+  "run_idx": 18
+}

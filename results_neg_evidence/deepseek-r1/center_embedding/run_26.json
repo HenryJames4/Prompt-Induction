@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the boy the girl the teacher the principal hired recommended praised left",
+    "the book the author the editor the publisher hired assisted published sold",
+    "the cake the chef the customer the waiter served thanked ordered arrived",
+    "the letter the secretary the manager the director fired scolded typed disappeared",
+    "the man the woman the child saw left cried"
+  ],
+  "induced_prompt_raw": "**Prompt:** Generate a sentence with four nouns (each preceded by \"the\") followed by four verbs in the pattern: *the N1 the N2 the N3 the N4 V4 V3 V2 V1*. Ensure V4 corresponds to N4 acting on N3, V3 to N3 acting on N2, V2 to N2 acting on N1, and V1 to N1's main action. Maintain strict nested relative clauses without ambiguous attachments or missing hierarchy.",
+  "induced_prompt": "**Prompt:** Generate a sentence with four nouns (each preceded by \"the\") followed by four verbs in the pattern: *the N1 the N2 the N3 the N4 V4 V3 V2 V1*. Ensure V4 corresponds to N4 acting on N3, V3 to N3 acting on N2, V2 to N2 acting on N1, and V1 to N1's main action. Maintain strict nested relative clauses without ambiguous attachments or missing hierarchy.",
+  "induced_prompt_chars": 362,
+  "induced_prompt_words": 67,
+  "l1_char_total": 342,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The audience the performer the music the conductor directed inspired moved cheered.\",\n    \"The child the mother the story the author wrote comforted told slept.\",\n    \"The judge the lawyer the evidence the detective collected convinced addressed deliberated.\",\n    \"The farmer the sheep the wolf the darkness obscured frightened followed slept.\",\n    \"The student the theory the research the scientist conducted supported confused yawned.\"\n  ]\n}",
+  "l2_sentences": [
+    "The audience the performer the music the conductor directed inspired moved cheered.",
+    "The child the mother the story the author wrote comforted told slept.",
+    "The judge the lawyer the evidence the detective collected convinced addressed deliberated.",
+    "The farmer the sheep the wolf the darkness obscured frightened followed slept.",
+    "The student the theory the research the scientist conducted supported confused yawned."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:21:17.217008+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the boy the girl the teacher the principal hired recommended praised left",
+    "the book the author the editor the publisher hired assisted published sold",
+    "the cake the chef the customer the waiter served thanked ordered arrived",
+    "the letter the secretary the manager the director fired scolded typed disappeared"
+  ],
+  "l1_sentences": [
+    "the boy the girl the teacher the principal hired recommended praised left",
+    "the book the author the editor the publisher hired assisted published sold",
+    "the cake the chef the customer the waiter served thanked ordered arrived",
+    "the letter the secretary the manager the director fired scolded typed disappeared",
+    "the man the woman the child saw left cried"
+  ],
+  "l1_raw": "{\"sentences\": [\"the boy the girl the teacher the principal hired recommended praised left\", \"the book the author the editor the publisher hired assisted published sold\", \"the cake the chef the customer the waiter served thanked ordered arrived\", \"the letter the secretary the manager the director fired scolded typed disappeared\", \"the man the woman the child saw left cried\"]}",
+  "run_idx": 26
+}

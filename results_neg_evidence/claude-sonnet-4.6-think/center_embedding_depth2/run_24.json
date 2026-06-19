@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the chef baked disappeared",
+    "the letter the secretary typed arrived",
+    "the song the musician composed won",
+    "the report the analyst wrote circulated",
+    "the paper the student the professor taught wrote passed"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded object relative clause, where a noun phrase is modified by a clause before the main verb continues. Use the structure: \"the [noun] the [noun] [verb] [verb].\" Do not nest multiple relative clauses inside one another.",
+  "induced_prompt": "Write sentences with a single center-embedded object relative clause, where a noun phrase is modified by a clause before the main verb continues. Use the structure: \"the [noun] the [noun] [verb] [verb].\" Do not nest multiple relative clauses inside one another.",
+  "induced_prompt_chars": 261,
+  "induced_prompt_words": 41,
+  "l1_char_total": 201,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\"sentences\": [\"The cake the chef baked disappeared.\", \"The book the student read inspired her.\", \"The car the mechanic fixed broke down.\", \"The letter the lawyer wrote confused everyone.\", \"The song the musician composed moved the audience.\"]}\n```",
+  "l2_sentences": [
+    "The cake the chef baked disappeared.",
+    "The book the student read inspired her.",
+    "The car the mechanic fixed broke down.",
+    "The letter the lawyer wrote confused everyone.",
+    "The song the musician composed moved the audience."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:55:36.660994+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the chef baked disappeared",
+    "the letter the secretary typed arrived",
+    "the song the musician composed won",
+    "the report the analyst wrote circulated"
+  ],
+  "l1_sentences": [
+    "the cake the chef baked disappeared",
+    "the letter the secretary typed arrived",
+    "the song the musician composed won",
+    "the report the analyst wrote circulated",
+    "the paper the student the professor taught wrote passed"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef baked disappeared\", \"the letter the secretary typed arrived\", \"the song the musician composed won\", \"the report the analyst wrote circulated\", \"the paper the student the professor taught wrote passed\"]}\n```",
+  "run_idx": 24
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The car the mechanic the apprentice the client called assisted repaired crashed.",
+    "The song the singer the producer the director hired advised recorded failed.",
+    "The code the developer the manager the executive questioned directed wrote broke.",
+    "The cake the baker the assistant helped iced fell."
+  ],
+  "induced_prompt_raw": "Generate a sentence featuring exactly four nested levels of center embedding (four nouns followed by four verbs, i.e., N1 N2 N3 N4 V4 V3 V2 V1), avoiding shallower structures that only have three levels (three nouns and three verbs).",
+  "induced_prompt": "Generate a sentence featuring exactly four nested levels of center embedding (four nouns followed by four verbs, i.e., N1 N2 N3 N4 V4 V3 V2 V1), avoiding shallower structures that only have three levels (three nouns and three verbs).",
+  "induced_prompt_chars": 233,
+  "induced_prompt_words": 39,
+  "l1_char_total": 364,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The mouse the cat the dog the boy chased bit scratched fled.\",\n    \"The story the book the student the teacher recommended contained inspired fascinated.\",\n    \"The code the programmer the manager the client hired reviewed tested failed.\",\n    \"The song the singer the guitarist the drummer joined performed recorded pleased.\",\n    \"The report the analyst the director the board appointed wrote approved leaked.\"\n  ]\n}",
+  "l2_sentences": [
+    "The mouse the cat the dog the boy chased bit scratched fled.",
+    "The story the book the student the teacher recommended contained inspired fascinated.",
+    "The code the programmer the manager the client hired reviewed tested failed.",
+    "The song the singer the guitarist the drummer joined performed recorded pleased.",
+    "The report the analyst the director the board appointed wrote approved leaked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:57:03.693543+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The car the mechanic the apprentice the client called assisted repaired crashed.",
+    "The song the singer the producer the director hired advised recorded failed.",
+    "The code the developer the manager the executive questioned directed wrote broke."
+  ],
+  "l1_sentences": [
+    "The book the student the teacher the principal praised recommended read lost.",
+    "The car the mechanic the apprentice the client called assisted repaired crashed.",
+    "The song the singer the producer the director hired advised recorded failed.",
+    "The code the developer the manager the executive questioned directed wrote broke.",
+    "The cake the baker the assistant helped iced fell."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"The book the student the teacher the principal praised recommended read lost.\",\n    \"The car the mechanic the apprentice the client called assisted repaired crashed.\",\n    \"The song the singer the producer the director hired advised recorded failed.\",\n    \"The code the developer the manager the executive questioned directed wrote broke.\",\n    \"The cake the baker the assistant helped iced fell.\"\n  ]\n}",
+  "run_idx": 11
+}

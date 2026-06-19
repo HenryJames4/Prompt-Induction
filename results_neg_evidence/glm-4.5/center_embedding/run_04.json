@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended purchased",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the dealer the buyer test drove purchased"
+  ],
+  "induced_prompt_raw": "Generate a sequence of four noun phrases, each with one more verb than the last, to show a chain of actions.",
+  "induced_prompt": "Generate a sequence of four noun phrases, each with one more verb than the last, to show a chain of actions.",
+  "induced_prompt_chars": 108,
+  "induced_prompt_words": 21,
+  "l1_char_total": 375,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat.\",\n    \"The cat sleeping.\",\n    \"The cat sleeping and dreaming.\",\n    \"The cat sleeping, dreaming, and twitching.\",\n    \"The cat sleeping, dreaming, twitching, and waking.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat.",
+    "The cat sleeping.",
+    "The cat sleeping and dreaming.",
+    "The cat sleeping, dreaming, and twitching.",
+    "The cat sleeping, dreaming, twitching, and waking."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:45:47.978364+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended purchased",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended purchased",
+    "the plan the manager the team the client developed presented accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the dealer the buyer test drove purchased"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read reviewed recommended purchased\",\n    \"the plan the manager the team the client developed presented accepted implemented\",\n    \"the house the architect the builder the owner designed constructed inspected sold\",\n    \"the car the dealer the buyer test drove purchased\"\n  ]\n}",
+  "run_idx": 4
+}

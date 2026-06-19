@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the manager reviewed was published",
+    "the plan the committee endorsed succeeded",
+    "the book the author wrote sold well",
+    "the project the team finished launched successfully",
+    "the proposal the reviewer approved the committee passed"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a noun phrase followed by a relative clause (without an embedded object) and a main clause.\"",
+  "induced_prompt": "\"Generate sentences with a noun phrase followed by a relative clause (without an embedded object) and a main clause.\"",
+  "induced_prompt_chars": 117,
+  "induced_prompt_words": 19,
+  "l1_char_total": 227,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The book, which was lying on the table, caught my attention.\", \"The cat, who purred softly, curled up on the sofa.\", \"The car, which had broken down, was towed away.\", \"The tree, which stood tall in the garden, provided ample shade.\", \"The child, who laughed joyfully, ran across the park.\"]}",
+  "l2_sentences": [
+    "The book, which was lying on the table, caught my attention.",
+    "The cat, who purred softly, curled up on the sofa.",
+    "The car, which had broken down, was towed away.",
+    "The tree, which stood tall in the garden, provided ample shade.",
+    "The child, who laughed joyfully, ran across the park."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:38:12.426394+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the manager reviewed was published",
+    "the plan the committee endorsed succeeded",
+    "the book the author wrote sold well",
+    "the project the team finished launched successfully"
+  ],
+  "l1_sentences": [
+    "the report the manager reviewed was published",
+    "the plan the committee endorsed succeeded",
+    "the book the author wrote sold well",
+    "the project the team finished launched successfully",
+    "the proposal the reviewer approved the committee passed"
+  ],
+  "l1_raw": "{\"sentences\": [\"the report the manager reviewed was published\", \"the plan the committee endorsed succeeded\", \"the book the author wrote sold well\", \"the project the team finished launched successfully\", \"the proposal the reviewer approved the committee passed\"]}",
+  "run_idx": 5
+}

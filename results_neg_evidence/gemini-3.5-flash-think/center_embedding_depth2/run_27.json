@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the student read vanished.",
+    "The car the mechanic fixed ran.",
+    "The food the chef prepared spoiled.",
+    "The letter the girl wrote arrived.",
+    "The dog the cat the rat bit chased ran."
+  ],
+  "induced_prompt_raw": "Generate sentences with a single center-embedded relative clause (Noun1 + Noun2 + Verb2 + Verb1). Avoid double or multiple center-embedding.",
+  "induced_prompt": "Generate sentences with a single center-embedded relative clause (Noun1 + Noun2 + Verb2 + Verb1). Avoid double or multiple center-embedding.",
+  "induced_prompt_chars": 140,
+  "induced_prompt_words": 20,
+  "l1_char_total": 174,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The book the student read vanished.\",\n    \"The car the mechanic fixed broke.\",\n    \"The cake the baker made collapsed.\",\n    \"The song the band played ended.\",\n    \"The letter the girl wrote arrived.\"\n  ]\n}",
+  "l2_sentences": [
+    "The book the student read vanished.",
+    "The car the mechanic fixed broke.",
+    "The cake the baker made collapsed.",
+    "The song the band played ended.",
+    "The letter the girl wrote arrived."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:58:28.762241+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the student read vanished.",
+    "The car the mechanic fixed ran.",
+    "The food the chef prepared spoiled.",
+    "The letter the girl wrote arrived."
+  ],
+  "l1_sentences": [
+    "The book the student read vanished.",
+    "The car the mechanic fixed ran.",
+    "The food the chef prepared spoiled.",
+    "The letter the girl wrote arrived.",
+    "The dog the cat the rat bit chased ran."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"The book the student read vanished.\",\n    \"The car the mechanic fixed ran.\",\n    \"The food the chef prepared spoiled.\",\n    \"The letter the girl wrote arrived.\",\n    \"The dog the cat the rat bit chased ran.\"\n  ]\n}\n```",
+  "run_idx": 27
+}

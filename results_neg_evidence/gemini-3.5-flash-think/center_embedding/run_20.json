@@ -1,0 +1,46 @@
+{
+  "model_key": "gemini-3.5-flash-think",
+  "model_id": "google/gemini-3.5-flash",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student the teacher the principal praised helped read vanished",
+    "the law the politician the lobbyist the journalist questioned influenced drafted failed",
+    "the masterpiece the artist the critic the patron insulted ignored painted burned",
+    "the building the architect the engineer the inspector blamed hired designed collapsed",
+    "the patient the nurse the doctor supervised treated recovered"
+  ],
+  "induced_prompt_raw": "Generate a quadruple center-embedded sentence with exactly four nouns and four verbs in the pattern: \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\". Avoid using only three nouns and three verbs (e.g., \"the N1 the N2 the N3 V3 V2 V1\").",
+  "induced_prompt": "Generate a quadruple center-embedded sentence with exactly four nouns and four verbs in the pattern: \"the N1 the N2 the N3 the N4 V4 V3 V2 V1\". Avoid using only three nouns and three verbs (e.g., \"the N1 the N2 the N3 V3 V2 V1\").",
+  "induced_prompt_chars": 229,
+  "induced_prompt_words": 45,
+  "l1_char_total": 388,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The boy the dog the cat the mouse bit chased loved died.\",\n    \"The nurse the doctor the patient the child distracted angered called fainted.\",\n    \"The king the queen the knight the page summoned protected served ruled.\",\n    \"The teacher the student the parent the principal blamed questioned thanked resigned.\",\n    \"The chef the critic the waiter the customer tipped avoided praised retired.\"\n  ]\n}",
+  "l2_sentences": [
+    "The boy the dog the cat the mouse bit chased loved died.",
+    "The nurse the doctor the patient the child distracted angered called fainted.",
+    "The king the queen the knight the page summoned protected served ruled.",
+    "The teacher the student the parent the principal blamed questioned thanked resigned.",
+    "The chef the critic the waiter the customer tipped avoided praised retired."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:11:29.750784+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student the teacher the principal praised helped read vanished",
+    "the law the politician the lobbyist the journalist questioned influenced drafted failed",
+    "the masterpiece the artist the critic the patron insulted ignored painted burned",
+    "the building the architect the engineer the inspector blamed hired designed collapsed"
+  ],
+  "l1_sentences": [
+    "the book the student the teacher the principal praised helped read vanished",
+    "the law the politician the lobbyist the journalist questioned influenced drafted failed",
+    "the masterpiece the artist the critic the patron insulted ignored painted burned",
+    "the building the architect the engineer the inspector blamed hired designed collapsed",
+    "the patient the nurse the doctor supervised treated recovered"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the book the student the teacher the principal praised helped read vanished\",\n    \"the law the politician the lobbyist the journalist questioned influenced drafted failed\",\n    \"the masterpiece the artist the critic the patron insulted ignored painted burned\",\n    \"the building the architect the engineer the inspector blamed hired designed collapsed\",\n    \"the patient the nurse the doctor supervised treated recovered\"\n  ]\n}",
+  "run_idx": 20
+}

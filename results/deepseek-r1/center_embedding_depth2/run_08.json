@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the dog the boy fed barked.",
+    "the cake the baker made rose.",
+    "the car the mechanic fixed started.",
+    "the book the student read arrived.",
+    "the song the composer wrote ended."
+  ],
+  "induced_prompt_raw": "the [noun1] the [noun2] [verb1] [verb2].",
+  "induced_prompt": "the [noun1] the [noun2] [verb1] [verb2].",
+  "induced_prompt_chars": 40,
+  "induced_prompt_words": 6,
+  "l1_char_total": 159,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the cat chase jump.\", \"The wind the leaves rustle scatter.\", \"The chef the meal prepare serve.\", \"The rain the roof tap drum.\", \"The child the toy build create.\"]}",
+  "l2_sentences": [
+    "The dog the cat chase jump.",
+    "The wind the leaves rustle scatter.",
+    "The chef the meal prepare serve.",
+    "The rain the roof tap drum.",
+    "The child the toy build create."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:07:50.416887+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the dog the boy fed barked.",
+    "the cake the baker made rose.",
+    "the car the mechanic fixed started.",
+    "the book the student read arrived.",
+    "the song the composer wrote ended."
+  ],
+  "l1_raw": "{\"sentences\": [\"the dog the boy fed barked.\", \"the cake the baker made rose.\", \"the car the mechanic fixed started.\", \"the book the student read arrived.\", \"the song the composer wrote ended.\"]}",
+  "run_idx": 8
+}

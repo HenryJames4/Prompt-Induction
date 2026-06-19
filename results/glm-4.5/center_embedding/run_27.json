@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the mouse the elephant chased hunted caught escaped",
+    "the book the teacher the student the principal recommended read borrowed returned",
+    "the car the mechanic the owner the driver repaired fixed washed crashed",
+    "the house the agent the buyer the seller showed visited purchased sold",
+    "the computer the programmer the company the client designed built tested launched"
+  ],
+  "induced_prompt_raw": "Noun series with transitive verbs in sequence.",
+  "induced_prompt": "Noun series with transitive verbs in sequence.",
+  "induced_prompt_chars": 46,
+  "induced_prompt_words": 7,
+  "l1_char_total": 370,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The chef chopped the vegetables, sliced the meat, and seasoned the dish.\",\n    \"The teacher graded the papers, recorded the scores, and returned the assignments.\",\n    \"The child built the tower, knocked it down, and laughed loudly.\",\n    \"The mechanic fixed the engine, replaced the filter, and tested the car.\",\n    \"The photographer adjusted the settings, focused the lens, and captured the moment.\"\n  ]\n}",
+  "l2_sentences": [
+    "The chef chopped the vegetables, sliced the meat, and seasoned the dish.",
+    "The teacher graded the papers, recorded the scores, and returned the assignments.",
+    "The child built the tower, knocked it down, and laughed loudly.",
+    "The mechanic fixed the engine, replaced the filter, and tested the car.",
+    "The photographer adjusted the settings, focused the lens, and captured the moment."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:49:48.751936+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the mouse the elephant chased hunted caught escaped",
+    "the book the teacher the student the principal recommended read borrowed returned",
+    "the car the mechanic the owner the driver repaired fixed washed crashed",
+    "the house the agent the buyer the seller showed visited purchased sold",
+    "the computer the programmer the company the client designed built tested launched"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the mouse the elephant chased hunted caught escaped\",\n    \"the book the teacher the student the principal recommended read borrowed returned\",\n    \"the car the mechanic the owner the driver repaired fixed washed crashed\",\n    \"the house the agent the buyer the seller showed visited purchased sold\",\n    \"the computer the programmer the company the client designed built tested launched\"\n  ]\n}",
+  "run_idx": 27
+}

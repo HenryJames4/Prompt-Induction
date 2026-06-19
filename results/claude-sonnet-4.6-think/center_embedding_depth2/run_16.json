@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cake the chef baked burned.",
+    "the letter the lawyer wrote arrived.",
+    "the bridge the engineer designed collapsed.",
+    "the book the student read disappeared.",
+    "the report the manager reviewed leaked."
+  ],
+  "induced_prompt_raw": "Write sentences using a center-embedded relative clause structure: \"The [noun] the [noun] [verb]ed [verb]ed.\"",
+  "induced_prompt": "Write sentences using a center-embedded relative clause structure: \"The [noun] the [noun] [verb]ed [verb]ed.\"",
+  "induced_prompt_chars": 109,
+  "induced_prompt_words": 14,
+  "l1_char_total": 187,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The rat the cat chased escaped.\", \"The book the student borrowed disappeared.\", \"The cake the chef baked burned.\", \"The letter the teacher graded vanished.\", \"The dog the child frightened barked.\"]}\n```",
+  "l2_sentences": [
+    "The rat the cat chased escaped.",
+    "The book the student borrowed disappeared.",
+    "The cake the chef baked burned.",
+    "The letter the teacher graded vanished.",
+    "The dog the child frightened barked."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:40:51.522744+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cake the chef baked burned.",
+    "the letter the lawyer wrote arrived.",
+    "the bridge the engineer designed collapsed.",
+    "the book the student read disappeared.",
+    "the report the manager reviewed leaked."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the cake the chef baked burned.\", \"the letter the lawyer wrote arrived.\", \"the bridge the engineer designed collapsed.\", \"the book the student read disappeared.\", \"the report the manager reviewed leaked.\"]}\n```",
+  "run_idx": 16
+}

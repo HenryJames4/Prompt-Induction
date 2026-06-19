@@ -1,0 +1,40 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the book the author the publisher the printer wrote published printed disappeared",
+    "the cake the baker the chef the assistant baked decorated served vanished",
+    "the letter the writer the editor the secretary drafted reviewed signed vanished",
+    "the car the driver the mechanic the owner repaired inspected sold disappeared",
+    "the painting the artist the curator the collector created displayed sold vanished"
+  ],
+  "induced_prompt_raw": "\"Generate sentences with a chain of noun phrases followed by a sequence of matching verbs in the past tense, ending with a final verb indicating disappearance or vanishing.\"",
+  "induced_prompt": "\"Generate sentences with a chain of noun phrases followed by a sequence of matching verbs in the past tense, ending with a final verb indicating disappearance or vanishing.\"",
+  "induced_prompt_chars": 173,
+  "induced_prompt_words": 28,
+  "l1_char_total": 391,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The cat, the mouse, the cheese scurried, squeaked, vanished.\", \"The wind, the leaves, the dust swirled, rustled, disappeared.\", \"The sun, the clouds, the shadows shifted, drifted, faded.\", \"The car, the dog, the man sped, barked, vanished.\", \"The star, the moon, the light twinkled, glowed, disappeared.\"]}",
+  "l2_sentences": [
+    "The cat, the mouse, the cheese scurried, squeaked, vanished.",
+    "The wind, the leaves, the dust swirled, rustled, disappeared.",
+    "The sun, the clouds, the shadows shifted, drifted, faded.",
+    "The car, the dog, the man sped, barked, vanished.",
+    "The star, the moon, the light twinkled, glowed, disappeared."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:47:40.932243+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the book the author the publisher the printer wrote published printed disappeared",
+    "the cake the baker the chef the assistant baked decorated served vanished",
+    "the letter the writer the editor the secretary drafted reviewed signed vanished",
+    "the car the driver the mechanic the owner repaired inspected sold disappeared",
+    "the painting the artist the curator the collector created displayed sold vanished"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the author the publisher the printer wrote published printed disappeared\", \"the cake the baker the chef the assistant baked decorated served vanished\", \"the letter the writer the editor the secretary drafted reviewed signed vanished\", \"the car the driver the mechanic the owner repaired inspected sold disappeared\", \"the painting the artist the curator the collector created displayed sold vanished\"]}",
+  "run_idx": 26
+}

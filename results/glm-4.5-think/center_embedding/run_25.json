@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5-think",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cheese the mouse the cat the dog chased caught ate disappeared.",
+    "the idea the experiment the discovery the scientist had caused produced changed.",
+    "the theory the experiment the breakthrough the physicist proposed inspired confirmed emerged.",
+    "the tree the bird the squirrel the storm shook held scared ran.",
+    "the exam the student the question the teacher asked stumped failed ended."
+  ],
+  "induced_prompt_raw": "N1 N2 N3 N4 V1 V2 V3 V4: N4 V1 N3, N3 V2 N2, N2 V3 N1, N1 V4",
+  "induced_prompt": "N1 N2 N3 N4 V1 V2 V3 V4: N4 V1 N3, N3 V2 N2, N2 V3 N1, N1 V4",
+  "induced_prompt_chars": 60,
+  "induced_prompt_words": 19,
+  "l1_char_total": 376,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The fish ate the bird.\",\n    \"The bird bit the dog.\",\n    \"The dog chased the cat.\",\n    \"The cat slept.\",\n    \"The fish slept.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The fish ate the bird.",
+    "The bird bit the dog.",
+    "The dog chased the cat.",
+    "The cat slept.",
+    "The fish slept."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:47:42.431574+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cheese the mouse the cat the dog chased caught ate disappeared.",
+    "the idea the experiment the discovery the scientist had caused produced changed.",
+    "the theory the experiment the breakthrough the physicist proposed inspired confirmed emerged.",
+    "the tree the bird the squirrel the storm shook held scared ran.",
+    "the exam the student the question the teacher asked stumped failed ended."
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the cheese the mouse the cat the dog chased caught ate disappeared.\",\n    \"the idea the experiment the discovery the scientist had caused produced changed.\",\n    \"the theory the experiment the breakthrough the physicist proposed inspired confirmed emerged.\",\n    \"the tree the bird the squirrel the storm shook held scared ran.\",\n    \"the exam the student the question the teacher asked stumped failed ended.\"\n  ]\n}\n```",
+  "run_idx": 25
+}

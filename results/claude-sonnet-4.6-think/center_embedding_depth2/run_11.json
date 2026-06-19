@@ -1,0 +1,40 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "The report the manager submitted failed.",
+    "The bill the senator proposed passed.",
+    "The cake the baker made disappeared.",
+    "The book the author wrote sold.",
+    "The bridge the engineer designed collapsed."
+  ],
+  "induced_prompt_raw": "Write sentences using reduced object relative clauses, following the pattern: \"The [thing] the [person] [verb] [verb].\"",
+  "induced_prompt": "Write sentences using reduced object relative clauses, following the pattern: \"The [thing] the [person] [verb] [verb].\"",
+  "induced_prompt_chars": 119,
+  "induced_prompt_words": 16,
+  "l1_char_total": 187,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The book the teacher recommended disappeared.\", \"The letter the soldier wrote survived.\", \"The painting the artist created sold.\", \"The plan the manager proposed failed.\", \"The song the musician composed enchanted.\"]}\n```",
+  "l2_sentences": [
+    "The book the teacher recommended disappeared.",
+    "The letter the soldier wrote survived.",
+    "The painting the artist created sold.",
+    "The plan the manager proposed failed.",
+    "The song the musician composed enchanted."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:39:03.099038+00:00",
+  "error": null,
+  "l1_sentences": [
+    "The report the manager submitted failed.",
+    "The bill the senator proposed passed.",
+    "The cake the baker made disappeared.",
+    "The book the author wrote sold.",
+    "The bridge the engineer designed collapsed."
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"The report the manager submitted failed.\", \"The bill the senator proposed passed.\", \"The cake the baker made disappeared.\", \"The book the author wrote sold.\", \"The bridge the engineer designed collapsed.\"]}\n```",
+  "run_idx": 11
+}

@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the book the student read fascinated",
+    "the cake the baker decorated delighted",
+    "the movie the audience applauded impressed",
+    "the project the team completed succeeded",
+    "the artist the gallery exhibited showcased inspired"
+  ],
+  "induced_prompt_raw": "\"Generate sentences where a noun phrase is modified by a relative clause (e.g., 'the book the student read'), followed by a verb that describes the main action or state. Ensure the main verb logically connects to the initial noun phrase and avoids redundancy or awkward phrasing.\"",
+  "induced_prompt": "\"Generate sentences where a noun phrase is modified by a relative clause (e.g., 'the book the student read'), followed by a verb that describes the main action or state. Ensure the main verb logically connects to the initial noun phrase and avoids redundancy or awkward phrasing.\"",
+  "induced_prompt_chars": 280,
+  "induced_prompt_words": 46,
+  "l1_char_total": 207,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "{\"sentences\": [\"The car the mechanic repaired runs smoothly.\", \"The cake the baker decorated looks delicious.\", \"The movie the director filmed received critical acclaim.\", \"The dog the trainer adopted behaves impeccably.\", \"The painting the artist created hangs in the gallery.\"]}",
+  "l2_sentences": [
+    "The car the mechanic repaired runs smoothly.",
+    "The cake the baker decorated looks delicious.",
+    "The movie the director filmed received critical acclaim.",
+    "The dog the trainer adopted behaves impeccably.",
+    "The painting the artist created hangs in the gallery."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:53:05.448892+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the book the student read fascinated",
+    "the cake the baker decorated delighted",
+    "the movie the audience applauded impressed",
+    "the project the team completed succeeded"
+  ],
+  "l1_sentences": [
+    "the book the student read fascinated",
+    "the cake the baker decorated delighted",
+    "the movie the audience applauded impressed",
+    "the project the team completed succeeded",
+    "the artist the gallery exhibited showcased inspired"
+  ],
+  "l1_raw": "{\"sentences\": [\"the book the student read fascinated\", \"the cake the baker decorated delighted\", \"the movie the audience applauded impressed\", \"the project the team completed succeeded\", \"the artist the gallery exhibited showcased inspired\"]}",
+  "run_idx": 21
+}

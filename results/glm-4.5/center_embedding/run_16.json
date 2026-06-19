@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog the mouse the elephant chased hunted scared escaped.",
+    "the book the teacher the student the principal assigned read recommended praised.",
+    "the car the mechanic the owner the driver repaired fixed washed sold.",
+    "the house the agent the buyer the seller showed visited inspected purchased.",
+    "the meal the chef the critic the customer prepared tasted reviewed enjoyed."
+  ],
+  "induced_prompt_raw": "A sequence of nouns followed by verbs describing a chain of actions.",
+  "induced_prompt": "A sequence of nouns followed by verbs describing a chain of actions.",
+  "induced_prompt_chars": 68,
+  "induced_prompt_words": 12,
+  "l1_char_total": 369,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat chased the mouse.\",\n    \"The mouse escaped through the hole.\",\n    \"The dog barked at the stranger.\",\n    \"The stranger ran down the street.\",\n    \"The street light flickered in the darkness.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat chased the mouse.",
+    "The mouse escaped through the hole.",
+    "The dog barked at the stranger.",
+    "The stranger ran down the street.",
+    "The street light flickered in the darkness."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T21:30:04.640757+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog the mouse the elephant chased hunted scared escaped.",
+    "the book the teacher the student the principal assigned read recommended praised.",
+    "the car the mechanic the owner the driver repaired fixed washed sold.",
+    "the house the agent the buyer the seller showed visited inspected purchased.",
+    "the meal the chef the critic the customer prepared tasted reviewed enjoyed."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog the mouse the elephant chased hunted scared escaped.\",\n    \"the book the teacher the student the principal assigned read recommended praised.\",\n    \"the car the mechanic the owner the driver repaired fixed washed sold.\",\n    \"the house the agent the buyer the seller showed visited inspected purchased.\",\n    \"the meal the chef the critic the customer prepared tasted reviewed enjoyed.\"\n  ]\n}",
+  "run_idx": 16
+}

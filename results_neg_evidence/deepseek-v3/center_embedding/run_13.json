@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-v3",
+  "model_id": "deepseek/deepseek-chat",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "The book the author the publisher the editor selected revised published disappeared.",
+    "The cake the chef the baker the apprentice prepared decorated served collapsed.",
+    "The song the musician the producer the engineer recorded mixed mastered vanished.",
+    "The car the mechanic the driver the owner inspected repaired sold stalled.",
+    "The plan the manager the team discussed implemented failed."
+  ],
+  "induced_prompt_raw": "\"Generate a sentence using nested relative clauses, each describing a chain of actions involving distinct entities, ensuring all verbs align sequentially with their respective subjects. Avoid omitting intermediate links in the chain.\"",
+  "induced_prompt": "\"Generate a sentence using nested relative clauses, each describing a chain of actions involving distinct entities, ensuring all verbs align sequentially with their respective subjects. Avoid omitting intermediate links in the chain.\"",
+  "induced_prompt_chars": 234,
+  "induced_prompt_words": 32,
+  "l1_char_total": 377,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The boy, who saw the dog that chased the cat which startled the bird, began to laugh.\", \"The teacher, who assigned the project that inspired the student who created the sculpture, smiled proudly.\", \"The chef, who prepared the meal that delighted the guest who recommended the restaurant, received praise.\", \"The gardener, who planted the tree that attracted the butterfly which fascinated the child, felt content.\", \"The mechanic, who fixed the car that the driver who avoided the accident thanked, felt accomplished.\"]}",
+  "l2_sentences": [
+    "The boy, who saw the dog that chased the cat which startled the bird, began to laugh.",
+    "The teacher, who assigned the project that inspired the student who created the sculpture, smiled proudly.",
+    "The chef, who prepared the meal that delighted the guest who recommended the restaurant, received praise.",
+    "The gardener, who planted the tree that attracted the butterfly which fascinated the child, felt content.",
+    "The mechanic, who fixed the car that the driver who avoided the accident thanked, felt accomplished."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T12:58:45.246836+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "The book the author the publisher the editor selected revised published disappeared.",
+    "The cake the chef the baker the apprentice prepared decorated served collapsed.",
+    "The song the musician the producer the engineer recorded mixed mastered vanished.",
+    "The car the mechanic the driver the owner inspected repaired sold stalled."
+  ],
+  "l1_sentences": [
+    "The book the author the publisher the editor selected revised published disappeared.",
+    "The cake the chef the baker the apprentice prepared decorated served collapsed.",
+    "The song the musician the producer the engineer recorded mixed mastered vanished.",
+    "The car the mechanic the driver the owner inspected repaired sold stalled.",
+    "The plan the manager the team discussed implemented failed."
+  ],
+  "l1_raw": "{\"sentences\": [\"The book the author the publisher the editor selected revised published disappeared.\", \"The cake the chef the baker the apprentice prepared decorated served collapsed.\", \"The song the musician the producer the engineer recorded mixed mastered vanished.\", \"The car the mechanic the driver the owner inspected repaired sold stalled.\", \"The plan the manager the team discussed implemented failed.\"]}",
+  "run_idx": 13
+}

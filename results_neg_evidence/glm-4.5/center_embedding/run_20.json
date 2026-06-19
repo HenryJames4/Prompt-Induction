@@ -1,0 +1,46 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended enjoyed",
+    "the plan the manager the team the client proposed discussed accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver fixed washed drove"
+  ],
+  "induced_prompt_raw": "Generate a right-branching noun phrase with four \"the\" phrases followed by four past-tense verbs.",
+  "induced_prompt": "Generate a right-branching noun phrase with four \"the\" phrases followed by four past-tense verbs.",
+  "induced_prompt_chars": 97,
+  "induced_prompt_words": 14,
+  "l1_char_total": 373,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The dog the boy the girl the man walked ran jumped played.\",\n    \"The cat the woman the child the neighbor saw chased caught released.\",\n    \"The book the teacher the student the principal read discussed recommended returned.\",\n    \"The car the mechanic the owner the police officer inspected repaired ticketed impounded.\",\n    \"The house the agent the buyer the seller visited negotiated purchased renovated.\"\n  ]\n}",
+  "l2_sentences": [
+    "The dog the boy the girl the man walked ran jumped played.",
+    "The cat the woman the child the neighbor saw chased caught released.",
+    "The book the teacher the student the principal read discussed recommended returned.",
+    "The car the mechanic the owner the police officer inspected repaired ticketed impounded.",
+    "The house the agent the buyer the seller visited negotiated purchased renovated."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:12:03.732677+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended enjoyed",
+    "the plan the manager the team the client proposed discussed accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold"
+  ],
+  "l1_sentences": [
+    "the report the editor the assistant the intern consulted revised approved disappeared",
+    "the book the teacher the student the parent read reviewed recommended enjoyed",
+    "the plan the manager the team the client proposed discussed accepted implemented",
+    "the house the architect the builder the owner designed constructed inspected sold",
+    "the car the mechanic the driver fixed washed drove"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the report the editor the assistant the intern consulted revised approved disappeared\",\n    \"the book the teacher the student the parent read reviewed recommended enjoyed\",\n    \"the plan the manager the team the client proposed discussed accepted implemented\",\n    \"the house the architect the builder the owner designed constructed inspected sold\",\n    \"the car the mechanic the driver fixed washed drove\"\n  ]\n}",
+  "run_idx": 20
+}

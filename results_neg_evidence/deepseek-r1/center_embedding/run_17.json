@@ -1,0 +1,46 @@
+{
+  "model_key": "deepseek-r1",
+  "model_id": "deepseek/deepseek-r1",
+  "model_type": "LRM",
+  "template": "center_embedding",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the cake the baker the child the parent praised thanked decorated vanished",
+    "the letter the secretary the manager the CEO hired supervised typed arrived",
+    "the car the engine the mechanic the owner hired repaired powered stalled",
+    "the building the architect the investor the bank funded hired designed collapsed",
+    "the cat the mouse the cheese ate chased slept"
+  ],
+  "induced_prompt_raw": "Generate a sentence of the form: \"the NP1 the NP2 the NP3 the NP4 V4 V3 V2 V1\" where:  \n- V4 is transitive (subject: NP4, object: NP3)  \n- V3 is transitive (subject: NP3, object: NP2)  \n- V2 is transitive (subject: NP2, object: NP1)  \n- V1 is intransitive (subject: NP1).  \nEnsure exactly four NPs and four verbs.",
+  "induced_prompt": "Generate a sentence of the form: \"the NP1 the NP2 the NP3 the NP4 V4 V3 V2 V1\" where:  \n- V4 is transitive (subject: NP4, object: NP3)  \n- V3 is transitive (subject: NP3, object: NP2)  \n- V2 is transitive (subject: NP2, object: NP1)  \n- V1 is intransitive (subject: NP1).  \nEnsure exactly four NPs and four verbs.",
+  "induced_prompt_chars": 313,
+  "induced_prompt_words": 56,
+  "l1_char_total": 346,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\"sentences\": [\"The dog the cat the boy the girl praises chases scratches barks.\", \"The king the queen the knight the squire serves protects advises rules.\", \"The student the teacher the principal the parent supports supervises instructs studies.\", \"The leaf the tree the gardener the owner employs trims holds falls.\", \"The fish the food the child the mother watches drops attracts swims.\"]}",
+  "l2_sentences": [
+    "The dog the cat the boy the girl praises chases scratches barks.",
+    "The king the queen the knight the squire serves protects advises rules.",
+    "The student the teacher the principal the parent supports supervises instructs studies.",
+    "The leaf the tree the gardener the owner employs trims holds falls.",
+    "The fish the food the child the mother watches drops attracts swims."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:06:52.218256+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the cake the baker the child the parent praised thanked decorated vanished",
+    "the letter the secretary the manager the CEO hired supervised typed arrived",
+    "the car the engine the mechanic the owner hired repaired powered stalled",
+    "the building the architect the investor the bank funded hired designed collapsed"
+  ],
+  "l1_sentences": [
+    "the cake the baker the child the parent praised thanked decorated vanished",
+    "the letter the secretary the manager the CEO hired supervised typed arrived",
+    "the car the engine the mechanic the owner hired repaired powered stalled",
+    "the building the architect the investor the bank funded hired designed collapsed",
+    "the cat the mouse the cheese ate chased slept"
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cake the baker the child the parent praised thanked decorated vanished\",\n    \"the letter the secretary the manager the CEO hired supervised typed arrived\",\n    \"the car the engine the mechanic the owner hired repaired powered stalled\",\n    \"the building the architect the investor the bank funded hired designed collapsed\",\n    \"the cat the mouse the cheese ate chased slept\"\n  ]\n}",
+  "run_idx": 17
+}

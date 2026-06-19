@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6-think",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LRM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the proposal the reviewer approved passed",
+    "the book the student read won",
+    "the cake the chef baked sold",
+    "the letter the secretary typed arrived",
+    "the paper the student the professor taught wrote passed"
+  ],
+  "induced_prompt_raw": "Write grammatical English sentences with a single center-embedded relative clause (e.g., a head noun modified by a short subject-verb relative clause, followed by the main verb). Use only one level of embedding — do not nest relative clauses inside other relative clauses.",
+  "induced_prompt": "Write grammatical English sentences with a single center-embedded relative clause (e.g., a head noun modified by a short subject-verb relative clause, followed by the main verb). Use only one level of embedding — do not nest relative clauses inside other relative clauses.",
+  "induced_prompt_chars": 272,
+  "induced_prompt_words": 42,
+  "l1_char_total": 191,
+  "prompt_shorter_than_l1": false,
+  "l2_raw": "```json\n{\n  \"sentences\": [\n    \"The dog that barked all night woke the neighbors.\",\n    \"The letter that arrived yesterday contained good news.\",\n    \"The professor who teaches chemistry won a prestigious award.\",\n    \"The bridge that collapsed last spring was rebuilt within months.\",\n    \"The child who sang at the concert received a standing ovation.\"\n  ]\n}\n```",
+  "l2_sentences": [
+    "The dog that barked all night woke the neighbors.",
+    "The letter that arrived yesterday contained good news.",
+    "The professor who teaches chemistry won a prestigious award.",
+    "The bridge that collapsed last spring was rebuilt within months.",
+    "The child who sang at the concert received a standing ovation."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:49:48.097284+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the proposal the reviewer approved passed",
+    "the book the student read won",
+    "the cake the chef baked sold",
+    "the letter the secretary typed arrived"
+  ],
+  "l1_sentences": [
+    "the proposal the reviewer approved passed",
+    "the book the student read won",
+    "the cake the chef baked sold",
+    "the letter the secretary typed arrived",
+    "the paper the student the professor taught wrote passed"
+  ],
+  "l1_raw": "```json\n{\n  \"sentences\": [\n    \"the proposal the reviewer approved passed\",\n    \"the book the student read won\",\n    \"the cake the chef baked sold\",\n    \"the letter the secretary typed arrived\",\n    \"the paper the student the professor taught wrote passed\"\n  ]\n}\n```",
+  "run_idx": 18
+}

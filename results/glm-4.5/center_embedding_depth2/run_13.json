@@ -1,0 +1,40 @@
+{
+  "model_key": "glm-4.5",
+  "model_id": "z-ai/glm-4.5",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": null,
+  "induction_input": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the car the mechanic repaired broke.",
+    "the tree the wind blew fell.",
+    "the bird the cat caught flew."
+  ],
+  "induced_prompt_raw": "A sentence with a center-embedded relative clause.",
+  "induced_prompt": "A sentence with a center-embedded relative clause.",
+  "induced_prompt_chars": 50,
+  "induced_prompt_words": 7,
+  "l1_char_total": 162,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "{\n  \"sentences\": [\n    \"The cat that the dog chased ran up the tree.\",\n    \"The book that I bought yesterday is on the table.\",\n    \"The man who the woman interviewed got the job.\",\n    \"The house that the architect designed won an award.\",\n    \"The car that the mechanic repaired is running smoothly now.\"\n  ]\n}",
+  "l2_sentences": [
+    "The cat that the dog chased ran up the tree.",
+    "The book that I bought yesterday is on the table.",
+    "The man who the woman interviewed got the job.",
+    "The house that the architect designed won an award.",
+    "The car that the mechanic repaired is running smoothly now."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-13T22:13:31.633956+00:00",
+  "error": null,
+  "l1_sentences": [
+    "the cat the dog chased escaped.",
+    "the book the student read disappeared.",
+    "the car the mechanic repaired broke.",
+    "the tree the wind blew fell.",
+    "the bird the cat caught flew."
+  ],
+  "l1_raw": "{\n  \"sentences\": [\n    \"the cat the dog chased escaped.\",\n    \"the book the student read disappeared.\",\n    \"the car the mechanic repaired broke.\",\n    \"the tree the wind blew fell.\",\n    \"the bird the cat caught flew.\"\n  ]\n}",
+  "run_idx": 13
+}

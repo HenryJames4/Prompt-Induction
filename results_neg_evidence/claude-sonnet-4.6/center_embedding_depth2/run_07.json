@@ -1,0 +1,46 @@
+{
+  "model_key": "claude-sonnet-4.6",
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "model_type": "LLM",
+  "template": "center_embedding_depth2",
+  "variant": "neg_evidence",
+  "induction_input": [
+    "the bill the senator proposed failed",
+    "the book the student borrowed vanished",
+    "the car the mechanic repaired stalled",
+    "the report the manager reviewed circulated",
+    "the cake the chef the owner hired baked tasted delicious"
+  ],
+  "induced_prompt_raw": "Write sentences with a single center-embedded relative clause (subject + relative clause + main verb), avoiding multiple levels of embedding.",
+  "induced_prompt": "Write sentences with a single center-embedded relative clause (subject + relative clause + main verb), avoiding multiple levels of embedding.",
+  "induced_prompt_chars": 141,
+  "induced_prompt_words": 20,
+  "l1_char_total": 209,
+  "prompt_shorter_than_l1": true,
+  "l2_raw": "```json\n{\"sentences\": [\"The book that she borrowed yesterday was fascinating.\", \"The dog that my neighbor owns barks every morning.\", \"The scientist who discovered the cure received a Nobel Prize.\", \"The car that he repaired last week broke down again.\", \"The teacher whom the students admired retired last spring.\"]}\n```",
+  "l2_sentences": [
+    "The book that she borrowed yesterday was fascinating.",
+    "The dog that my neighbor owns barks every morning.",
+    "The scientist who discovered the cure received a Nobel Prize.",
+    "The car that he repaired last week broke down again.",
+    "The teacher whom the students admired retired last spring."
+  ],
+  "l2_parse_warnings": [],
+  "timestamp": "2026-06-14T13:40:34.153952+00:00",
+  "error": null,
+  "induction_input_correct": [
+    "the bill the senator proposed failed",
+    "the book the student borrowed vanished",
+    "the car the mechanic repaired stalled",
+    "the report the manager reviewed circulated"
+  ],
+  "l1_sentences": [
+    "the bill the senator proposed failed",
+    "the book the student borrowed vanished",
+    "the car the mechanic repaired stalled",
+    "the report the manager reviewed circulated",
+    "the cake the chef the owner hired baked tasted delicious"
+  ],
+  "l1_raw": "```json\n{\"sentences\": [\"the bill the senator proposed failed\", \"the book the student borrowed vanished\", \"the car the mechanic repaired stalled\", \"the report the manager reviewed circulated\", \"the cake the chef the owner hired baked tasted delicious\"]}\n```",
+  "run_idx": 7
+}
