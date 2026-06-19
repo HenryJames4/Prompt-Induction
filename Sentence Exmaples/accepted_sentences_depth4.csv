@@ -1,0 +1,730 @@
+model,type,family,run_idx,sentence
+claude-sonnet-4.6,LLM,claude,1,The rat the cat the dog the boy owned chased caught squeaked.
+claude-sonnet-4.6,LLM,claude,1,The book the student the teacher the principal hired taught read disappeared.
+claude-sonnet-4.6,LLM,claude,1,The cake the girl the woman the chef trained taught baked crumbled.
+claude-sonnet-4.6,LLM,claude,1,The ball the child the coach the director appointed trained kicked bounced.
+claude-sonnet-4.6,LLM,claude,1,The song the choir the conductor the dean recruited led performed echoed.
+claude-sonnet-4.6,LLM,claude,2,The cat that the dog that the child that the woman raised trained chased slept.
+claude-sonnet-4.6,LLM,claude,2,The book that the scholar that the professor that the dean hired supervised published vanished.
+claude-sonnet-4.6,LLM,claude,2,The mouse that the owl that the hawk that the storm startled frightened cornered fled.
+claude-sonnet-4.6,LLM,claude,2,The painting that the critic that the curator that the collector funded employed reviewed faded.
+claude-sonnet-4.6,LLM,claude,2,The song that the singer that the coach that the school appointed trained performed echoed.
+claude-sonnet-4.6,LLM,claude,3,The cat that the dog that the rat that the boy chased bit scratched meowed loudly.
+claude-sonnet-4.6,LLM,claude,6,The cake the guest the chef the critic reviewed hired baked ate.
+claude-sonnet-4.6,LLM,claude,6,The letter the clerk the manager the director appointed hired wrote sent.
+claude-sonnet-4.6,LLM,claude,7,The cat that the dog that the rat that the boy chased bit scratched meowed.
+claude-sonnet-4.6,LLM,claude,7,The book that the scholar that the university that the city funded established read crumbled.
+claude-sonnet-4.6,LLM,claude,7,The fish that the seal that the shark that the diver spotted hunted caught flipped.
+claude-sonnet-4.6,LLM,claude,7,The law that the judge that the court that the senate formed appointed upheld changed.
+claude-sonnet-4.6,LLM,claude,7,The song that the choir that the school that the town built opened trained performed faded.
+claude-sonnet-4.6,LLM,claude,8,The cake that the chef that the critic that the journalist interviewed praised baked disappeared quickly.
+claude-sonnet-4.6,LLM,claude,9,The cat that the dog that the child that the woman raised trained chased fled.
+claude-sonnet-4.6,LLM,claude,10,The man the woman the child the dog bit scared loved left.
+claude-sonnet-4.6,LLM,claude,10,The book the student the teacher the principal hired assigned read disappeared.
+claude-sonnet-4.6,LLM,claude,11,The book that the professor that the student that the librarian helped taught assigned confused everyone.
+claude-sonnet-4.6,LLM,claude,11,The treaty that the diplomat that the minister that the council appointed advised drafted collapsed overnight.
+claude-sonnet-4.6,LLM,claude,12,The cake the chef the critic the editor praised interviewed baked crumbled.
+claude-sonnet-4.6,LLM,claude,13,The dog the cat the rat the elephant chased caught bit barked.
+claude-sonnet-4.6,LLM,claude,13,The book the student the teacher the principal admired assigned read disappeared.
+claude-sonnet-4.6,LLM,claude,14,The proposal the committee the director the board elected formed reviewed passed.
+claude-sonnet-4.6,LLM,claude,14,The letter the secretary the manager the CEO hired trained wrote arrived late.
+claude-sonnet-4.6,LLM,claude,16,The cat the dog the rat the elephant chased bit scratched fled.
+claude-sonnet-4.6,LLM,claude,16,The book the student the teacher the principal hired assigned read disappeared.
+claude-sonnet-4.6,LLM,claude,16,The cake the child the mother the baker trained made ate crumbled.
+claude-sonnet-4.6,LLM,claude,16,The letter the clerk the lawyer the judge appointed wrote signed burned.
+claude-sonnet-4.6,LLM,claude,16,The song the fan the artist the label signed recorded loved faded.
+claude-sonnet-4.6,LLM,claude,17,The surgeon that the lawyer that the judge that the jury acquitted sentenced operated recovered.
+claude-sonnet-4.6,LLM,claude,17,The wolf that the dog that the cat that the mouse startled chased hunted fled.
+claude-sonnet-4.6,LLM,claude,17,The bill that the senator that the lobbyist that the activist pressured influenced drafted passed.
+claude-sonnet-4.6,LLM,claude,17,The report that the editor that the journalist that the source contacted interviewed wrote published.
+claude-sonnet-4.6,LLM,claude,17,The cake that the chef that the student that the teacher trained hired baked disappeared.
+claude-sonnet-4.6,LLM,claude,18,The cat that the dog that the boy that the girl loved owned chased ran away.
+claude-sonnet-4.6,LLM,claude,18,The book that the professor that the student that the dean hired taught assigned confused everyone.
+claude-sonnet-4.6,LLM,claude,18,The car that the man that the woman that the child saw knew drove crashed yesterday.
+claude-sonnet-4.6,LLM,claude,18,The song that the band that the label that the investor funded signed recorded played beautifully.
+claude-sonnet-4.6,LLM,claude,18,The letter that the lawyer that the firm that the client retained hired wrote arrived today.
+claude-sonnet-4.6,LLM,claude,19,The cat that the dog that the man that the woman saw owned chased ran away.
+claude-sonnet-4.6,LLM,claude,19,The book that the student that the teacher that the principal hired trained read fell apart.
+claude-sonnet-4.6,LLM,claude,19,The cake that the chef that the critic that the journalist interviewed praised baked disappeared quickly.
+claude-sonnet-4.6,LLM,claude,20,The cake that the baker that the customer that the waiter served complained to made burned.
+claude-sonnet-4.6,LLM,claude,21,The mouse that the cat that the dog that the boy owned chased caught squeaked loudly.
+claude-sonnet-4.6,LLM,claude,21,The proposal that the committee that the director that the board appointed formed reviewed failed immediately.
+claude-sonnet-4.6,LLM,claude,22,The cat that the dog that the man that the woman saw met chased ran.
+claude-sonnet-4.6,LLM,claude,22,The report that the editor that the journalist that the source contacted interviewed revised collapsed.
+claude-sonnet-4.6,LLM,claude,22,The cake that the baker that the chef that the critic praised hired made crumbled.
+claude-sonnet-4.6,LLM,claude,22,The letter that the clerk that the lawyer that the judge appointed hired wrote vanished.
+claude-sonnet-4.6,LLM,claude,22,The song that the singer that the producer that the label signed discovered performed ended.
+claude-sonnet-4.6,LLM,claude,23,The vase that the collector that the museum that the city funded acquired displayed shattered.
+claude-sonnet-4.6,LLM,claude,23,The manuscript that the scholar that the university that the grant supported hired translated vanished.
+claude-sonnet-4.6,LLM,claude,23,The painting that the critic that the gallery that the patron endowed employed praised faded.
+claude-sonnet-4.6,LLM,claude,23,The statue that the restorer that the institute that the donor established trained preserved crumbled.
+claude-sonnet-4.6,LLM,claude,23,The gem that the jeweler that the house that the merchant built employed polished disappeared.
+claude-sonnet-4.6,LLM,claude,25,The bridge that the engineer that the firm that the city contracted hired designed collapsed yesterday.
+claude-sonnet-4.6,LLM,claude,25,The law that the senator that the lobbyist that the corporation funded influenced sponsored passed narrowly.
+claude-sonnet-4.6,LLM,claude,26,The apprentice that the mentor that the director that the board appointed hired supervised excelled remarkably.
+claude-sonnet-4.6,LLM,claude,27,The cat that the dog that the fox that the wolf chased bit scratched fled.
+claude-sonnet-4.6,LLM,claude,27,The child that the teacher that the principal that the board hired appointed praised succeeded.
+claude-sonnet-4.6,LLM,claude,27,The fish that the shark that the whale that the diver spotted followed hunted escaped.
+claude-sonnet-4.6,LLM,claude,27,The soldier that the general that the king that the council crowned commanded deployed retreated.
+claude-sonnet-4.6,LLM,claude,27,The bird that the hawk that the snake that the mongoose cornered threatened pursued soared.
+claude-sonnet-4.6,LLM,claude,28,The cat that the dog that the mouse that the child chased caught scared ran.
+claude-sonnet-4.6,LLM,claude,28,The book that the student that the teacher that the principal hired trained read disappeared.
+claude-sonnet-4.6,LLM,claude,28,The car that the man that the woman that the boy loved married drove crashed.
+claude-sonnet-4.6,LLM,claude,28,The cake that the chef that the critic that the editor interviewed praised baked crumbled.
+claude-sonnet-4.6,LLM,claude,28,The song that the band that the producer that the label signed managed recorded faded.
+claude-sonnet-4.6,LLM,claude,30,The proposal the committee the board the CEO appointed formed reviewed failed.
+claude-sonnet-4.6,LLM,claude,30,The letter the lawyer the firm the judge praised employed drafted arrived.
+claude-sonnet-4.6,LLM,claude,30,The cake the baker the shop the woman owned hired made tasted wonderful.
+claude-sonnet-4.6-think,LRM,claude,2,The cheese the rat the cat the dog chased killed ate smelled.
+claude-sonnet-4.6-think,LRM,claude,2,The car the mechanic the boss the owner hired fired fixed broke.
+claude-sonnet-4.6-think,LRM,claude,2,The letter the secretary the manager the CEO promoted demoted typed arrived.
+claude-sonnet-4.6-think,LRM,claude,2,The song the musician the producer the label signed dropped recorded charted.
+claude-sonnet-4.6-think,LRM,claude,4,The cat that the dog that the rat that the man caught chased bit died.
+claude-sonnet-4.6-think,LRM,claude,4,The professor that the student that the paper that the committee reviewed impressed satisfied retired.
+claude-sonnet-4.6-think,LRM,claude,4,The house that the builder that the architect that the client approved hired constructed collapsed.
+claude-sonnet-4.6-think,LRM,claude,4,The bill that the senator that the lobbyist that the company funded influenced passed failed.
+claude-sonnet-4.6-think,LRM,claude,4,The symphony that the conductor that the musician that the teacher trained impressed led succeeded.
+claude-sonnet-4.6-think,LRM,claude,5,The article the journalist the editor the publisher employed assigned wrote won.
+claude-sonnet-4.6-think,LRM,claude,7,The bill the senator the aide the lobbyist hired supported opposed passed.
+claude-sonnet-4.6-think,LRM,claude,7,The paper the student the professor the committee selected failed wrote won.
+claude-sonnet-4.6-think,LRM,claude,7,The letter the secretary the manager the director appointed supervised typed arrived.
+claude-sonnet-4.6-think,LRM,claude,7,The film the director the studio the investor backed hired made succeeded.
+claude-sonnet-4.6-think,LRM,claude,9,The rat the cat the dog the man owned bit chased died.
+claude-sonnet-4.6-think,LRM,claude,9,The book the student the professor the dean hired taught read disappeared.
+claude-sonnet-4.6-think,LRM,claude,9,The cake the child the woman the baker trained fed ate vanished.
+claude-sonnet-4.6-think,LRM,claude,9,The report the editor the journalist the politician hired contacted reviewed leaked.
+claude-sonnet-4.6-think,LRM,claude,9,The letter the secretary the manager the CEO hired supervised filed vanished.
+claude-sonnet-4.6-think,LRM,claude,11,The rat that the cat that the dog that the man trained chased caught died.
+claude-sonnet-4.6-think,LRM,claude,11,The book that the student that the professor that the dean hired taught read disappeared.
+claude-sonnet-4.6-think,LRM,claude,11,The cheese that the mouse that the cat that the dog frightened chased ate spoiled.
+claude-sonnet-4.6-think,LRM,claude,11,The letter that the secretary that the manager that the CEO appointed supervised wrote arrived.
+claude-sonnet-4.6-think,LRM,claude,11,The flower that the bee that the bird that the child startled watched visited bloomed.
+claude-sonnet-4.6-think,LRM,claude,12,The cat the dog the rat the elephant scared bit chased ran.
+claude-sonnet-4.6-think,LRM,claude,12,The man the woman the child the dog bit scared loved left.
+claude-sonnet-4.6-think,LRM,claude,12,The paper the analyst the professor the committee appointed supervised wrote circulated widely.
+claude-sonnet-4.6-think,LRM,claude,12,The house the family the agent the bank funded hired bought burned down.
+claude-sonnet-4.6-think,LRM,claude,13,The rat the cat the dog the man bit chased caught died.
+claude-sonnet-4.6-think,LRM,claude,13,The paper the student the professor the dean hired supervised wrote impressed everyone.
+claude-sonnet-4.6-think,LRM,claude,13,The cake the child the mother the father scolded raised baked tasted wonderful.
+claude-sonnet-4.6-think,LRM,claude,13,The film the critic the editor the director chose hired reviewed won awards.
+claude-sonnet-4.6-think,LRM,claude,14,The letter the clerk the manager the CEO promoted hired wrote reached headquarters.
+claude-sonnet-4.6-think,LRM,claude,14,The trophy the athlete the coach the federation appointed trained won gleamed brightly.
+claude-sonnet-4.6-think,LRM,claude,14,The report the analyst the director the board selected appointed wrote impressed everyone.
+claude-sonnet-4.6-think,LRM,claude,15,The report the analyst the manager the CEO hired supervised reviewed contained errors.
+claude-sonnet-4.6-think,LRM,claude,15,The film the critic the editor the publisher praised employed reviewed won awards.
+claude-sonnet-4.6-think,LRM,claude,16,The rat the cat the dog the man kicked bit chased died.
+claude-sonnet-4.6-think,LRM,claude,16,The book the student the teacher the professor praised taught read fell.
+claude-sonnet-4.6-think,LRM,claude,16,The child the woman the man the doctor examined treated comforted cried.
+claude-sonnet-4.6-think,LRM,claude,16,The cake the baker the chef the critic praised trained made burned.
+claude-sonnet-4.6-think,LRM,claude,16,The song the musician the conductor the audience applauded hired performed echoed.
+claude-sonnet-4.6-think,LRM,claude,18,The cake the chef the restaurant the critic reviewed employed baked tasted delicious.
+claude-sonnet-4.6-think,LRM,claude,21,The dog the cat the mouse the rat chased bit attacked ran.
+claude-sonnet-4.6-think,LRM,claude,22,The rat the cat the dog the man owned bit chased died.
+claude-sonnet-4.6-think,LRM,claude,22,The letter the clerk the boss the CEO hired fired wrote arrived.
+claude-sonnet-4.6-think,LRM,claude,22,The house the contractor the firm the investors funded hired built collapsed.
+claude-sonnet-4.6-think,LRM,claude,22,The song the singer the producer the label signed discovered recorded charted.
+claude-sonnet-4.6-think,LRM,claude,22,The bill the senator the lobbyist the corporation funded backed introduced passed.
+claude-sonnet-4.6-think,LRM,claude,23,The man the woman the child the dog frightened loved met left.
+claude-sonnet-4.6-think,LRM,claude,23,The letter the secretary the boss the client contacted hired wrote arrived.
+claude-sonnet-4.6-think,LRM,claude,25,The rat that the cat that the dog that the man owned trained chased died.
+claude-sonnet-4.6-think,LRM,claude,25,The book that the student that the professor that the dean hired taught read sold.
+claude-sonnet-4.6-think,LRM,claude,25,The play that the actor that the director that the producer funded hired staged succeeded.
+claude-sonnet-4.6-think,LRM,claude,25,The experiment that the student that the scientist that the university employed supervised conducted failed.
+claude-sonnet-4.6-think,LRM,claude,25,The bill that the senator that the lobbyist that the corporation hired persuaded introduced passed.
+claude-sonnet-4.6-think,LRM,claude,26,The rat the cat the dog the man kept chased caught died.
+claude-sonnet-4.6-think,LRM,claude,26,The report the analyst the manager the CEO hired supervised wrote circulated.
+claude-sonnet-4.6-think,LRM,claude,26,The song the child the teacher the school employed trained sang echoed.
+claude-sonnet-4.6-think,LRM,claude,26,The letter the secretary the lawyer the firm retained hired typed vanished.
+claude-sonnet-4.6-think,LRM,claude,26,The flower the bee the bird the gardener loved watched followed bloomed.
+claude-sonnet-4.6-think,LRM,claude,28,The letter the secretary the manager the director hired trained wrote arrived late.
+claude-sonnet-4.6-think,LRM,claude,28,The report the intern the editor the publisher hired supervised wrote impressed everyone.
+claude-sonnet-4.6-think,LRM,claude,29,The dog the cat the rat the cheese attracted bit chased barked.
+claude-sonnet-4.6-think,LRM,claude,29,The president the senator the lobbyist the corporation funded bribed influenced resigned.
+claude-sonnet-4.6-think,LRM,claude,29,The river the dam the engineers the government employed built blocked flooded.
+claude-sonnet-4.6-think,LRM,claude,29,The audience the actor the director the producer hired praised watched applauded.
+claude-sonnet-4.6-think,LRM,claude,29,The child the teacher the principal the parents concerned summoned disciplined cried.
+deepseek-r1,LRM,deepseek,1,The king the knight the squire the page praised advised protected ruled.
+deepseek-r1,LRM,deepseek,1,The plankton the fish the seal the bear consumed swallowed hunted drifted.
+deepseek-r1,LRM,deepseek,1,The student the teacher the principal the superintendent evaluated directed instructed studied.
+deepseek-r1,LRM,deepseek,1,The child the mother the father the boss fired scolded comforted played.
+deepseek-r1,LRM,deepseek,1,The seed the soil the rain the cloud nourished soaked softened sprouted.
+deepseek-r1,LRM,deepseek,2,the table the cheese the mouse the cat chased nibbled soiled collapsed.
+deepseek-r1,LRM,deepseek,2,the king the knight the princess the dragon captured threatened warned worried.
+deepseek-r1,LRM,deepseek,2,the school the principal the teacher the student admired commended managed flourished.
+deepseek-r1,LRM,deepseek,2,the family the house the roof the rain pounded protected sheltered slept.
+deepseek-r1,LRM,deepseek,2,the boy the drink the ice the sun melted cooled refreshed smiled.
+deepseek-r1,LRM,deepseek,3,The mountain the valley the river the forest towered sprawled flowed flourished.
+deepseek-r1,LRM,deepseek,3,The teacher the student the book the lesson explained listened read learned.
+deepseek-r1,LRM,deepseek,3,The chef the knife the ingredients the meal chopped stirred cooked served.
+deepseek-r1,LRM,deepseek,3,The wind the leaves the branches the trees rustled swayed creaked bent.
+deepseek-r1,LRM,deepseek,3,The conductor the orchestra the audience the symphony directed played applauded ended.
+deepseek-r1,LRM,deepseek,4,"The king, the knight, the dragon, the princess subdued, obeyed, protected, reigned."
+deepseek-r1,LRM,deepseek,4,"The tree, the squirrel, the acorn, the storm dislodged, struck, climbed, swayed."
+deepseek-r1,LRM,deepseek,4,"The teacher, the student, the textbook, the author revised, studied, assisted, lectured."
+deepseek-r1,LRM,deepseek,4,"The mountain, the hiker, the path, the landslide buried, blocked, ascended, towered."
+deepseek-r1,LRM,deepseek,4,"The chef, the customer, the meal, the waiter served, enjoyed, thanked, cooked."
+deepseek-r1,LRM,deepseek,6,The wind the leaves the trees the branches rustles shakes bends sways.
+deepseek-r1,LRM,deepseek,6,The sun the sea the waves the sand shines sparkles crashes spreads.
+deepseek-r1,LRM,deepseek,6,The chef the knife the onion the pan chops dices sizzles fries.
+deepseek-r1,LRM,deepseek,6,The cat the mouse the hole the cheese chases scurries hides nibbles.
+deepseek-r1,LRM,deepseek,6,The clock the hour the minute the second ticks tocks moves advances.
+deepseek-r1,LRM,deepseek,7,"The chef, the waiter, the customer, the meal praised, enjoyed, served, prepared."
+deepseek-r1,LRM,deepseek,7,"The king, the knight, the dragon, the treasure guarded, fought, protected, ruled."
+deepseek-r1,LRM,deepseek,7,"The baker, the dough, the oven, the bread baked, heated, rose, kneaded."
+deepseek-r1,LRM,deepseek,7,"The teacher, the student, the book, the lesson explained, read, studied, taught."
+deepseek-r1,LRM,deepseek,8,The cat the dog the ball the tree jumped ran rolled fell.
+deepseek-r1,LRM,deepseek,8,The sun the moon the stars the sky shone glowed twinkled darkened.
+deepseek-r1,LRM,deepseek,8,The king the queen the prince the princess ruled waved smiled bowed.
+deepseek-r1,LRM,deepseek,8,The wind the rain the thunder the lightning blew poured rumbled flashed.
+deepseek-r1,LRM,deepseek,8,The car the bike the bus the train accelerated braked stopped arrived.
+deepseek-r1,LRM,deepseek,9,the ball the child the dog the man threw chased kicked bounced.
+deepseek-r1,LRM,deepseek,9,the window the student the teacher the principal reprimanded scolded broke shattered.
+deepseek-r1,LRM,deepseek,9,the cake the baker the assistant the chef instructed supervised decorated cooled.
+deepseek-r1,LRM,deepseek,9,the letter the clerk the manager the director approved reviewed signed arrived.
+deepseek-r1,LRM,deepseek,9,the door the guard the visitor the officer questioned frisked opened creaked.
+deepseek-r1,LRM,deepseek,10,The cake that the child that the baker that the customer praised instructed sampled tasted delicious.
+deepseek-r1,LRM,deepseek,10,The report that the manager that the analyst that the intern assisted trained wrote impressed everyone.
+deepseek-r1,LRM,deepseek,10,The theorem that the professor that the student that the university recruited mentored proved revolutionized mathematics.
+deepseek-r1,LRM,deepseek,19,"The cat, the dog, the bird, the fish swam, chirped, barked, purred."
+deepseek-r1,LRM,deepseek,19,"The wind, the leaves, the rain, the sun shone, fell, rustled, blew."
+deepseek-r1,LRM,deepseek,19,"The teacher, the students, the books, the bell rang, opened, studied, taught."
+deepseek-r1,LRM,deepseek,19,"The chef, the waiter, the customers, the food arrived, ate, served, cooked."
+deepseek-r1,LRM,deepseek,19,"The car, the bike, the bus, the train departed, stopped, raced, accelerated."
+deepseek-r1,LRM,deepseek,23,"The mountain, the river, the forest, the sky darkened, rustled, flowed, stood."
+deepseek-r1,LRM,deepseek,23,"The lion, the deer, the rabbit, the owl hooted, hopped, grazed, roared."
+deepseek-r1,LRM,deepseek,23,"The book, the pen, the paper, the desk creaked, rustled, wrote, opened."
+deepseek-r1,LRM,deepseek,23,"The morning, the sun, the clouds, the breeze blew, drifted, rose, began."
+deepseek-r1,LRM,deepseek,23,"The chef, the knife, the vegetables, the stove heated, sizzled, chopped, cooked."
+deepseek-r1,LRM,deepseek,24,The sun the moon the stars the sky sparkled shone faded twinkled.
+deepseek-r1,LRM,deepseek,24,The cat the dog the ball the park chased barked played fetched.
+deepseek-r1,LRM,deepseek,24,The teacher the student the book the pen lectured studied read wrote.
+deepseek-r1,LRM,deepseek,24,The wind the leaves the trees the branches rustled shook swayed bent.
+deepseek-r1,LRM,deepseek,24,The child the toy the parent the pet hugged watched smiled played.
+deepseek-r1,LRM,deepseek,25,The king the knight the dragon the princess rescued defeated praised laughed.
+deepseek-r1,LRM,deepseek,25,The teacher the student the book the author wrote inspired discussed yawned.
+deepseek-r1,LRM,deepseek,25,The dog the cat the mouse the cheese ate chased frightened slept.
+deepseek-r1,LRM,deepseek,25,The sun the rain the cloud the wind formed produced obscured shone.
+deepseek-r1,LRM,deepseek,25,The audience the actor the script the writer wrote inspired moved applauded.
+deepseek-r1,LRM,deepseek,26,"The ocean, the sea, the bay, the pond; drip, flow, surge, flood."
+deepseek-r1,LRM,deepseek,26,"The nation, the province, the city, the neighborhood; whisper, speak, announce, broadcast."
+deepseek-r1,LRM,deepseek,26,"The forest, the grove, the tree, the leaf; tremble, sway, bend, flourish."
+deepseek-r1,LRM,deepseek,26,"The century, the decade, the year, the day; blink, pass, progress, unfold."
+deepseek-v3,LLM,deepseek,8,The book the author the publisher the editor reviewed revised approved published.
+deepseek-v3,LLM,deepseek,8,The painting the artist the gallery the curator examined framed displayed unveiled.
+deepseek-v3,LLM,deepseek,8,The software the developer the client the tester debugged optimized deployed launched.
+deepseek-v3,LLM,deepseek,8,The sculpture the sculptor the museum the director polished mounted showcased celebrated.
+deepseek-v3,LLM,deepseek,8,The film the director the studio the producer edited promoted premiered screened.
+deepseek-v3,LLM,deepseek,16,the book the author the editor the reader writes edits publishes reads.
+deepseek-v3,LLM,deepseek,16,the cake the baker the decorator the customer bakes decorates delivers enjoys.
+deepseek-v3,LLM,deepseek,16,the song the composer the singer the audience composes performs listens applauds.
+deepseek-v3,LLM,deepseek,16,the painting the artist the curator the viewer creates displays admires critiques.
+deepseek-v3,LLM,deepseek,16,the code the developer the tester the user writes tests debugs uses.
+deepseek-v3,LLM,deepseek,17,the book the author the revised the editor published reviewed edited finalized.
+deepseek-v3,LLM,deepseek,17,the painting the artist the intricate the curator displayed analyzed restored showcased.
+deepseek-v3,LLM,deepseek,17,the software the developer the updated the tester debugged optimized deployed launched.
+deepseek-v3,LLM,deepseek,17,the sculpture the sculptor the polished the gallery exhibited admired photographed acquired.
+deepseek-v3,LLM,deepseek,17,the recipe the chef the perfected the apprentice prepared tasted adjusted served.
+deepseek-v3,LLM,deepseek,20,The book the teacher the student the principal recommended reviewed approved astonished.
+deepseek-v3,LLM,deepseek,20,The cake the baker the customer the manager decorated served admired delighted.
+deepseek-v3,LLM,deepseek,20,The painting the artist the curator the director created displayed discussed inspired.
+deepseek-v3,LLM,deepseek,20,The song the musician the producer the listener composed performed recorded moved.
+deepseek-v3,LLM,deepseek,20,The plan the engineer the architect the client designed proposed implemented impressed.
+deepseek-v3,LLM,deepseek,21,The book the teacher the student the librarian read discussed analyzed vanished.
+deepseek-v3,LLM,deepseek,21,The painting the curator the artist the critic admired studied interpreted disappeared.
+deepseek-v3,LLM,deepseek,21,The sculpture the historian the sculptor the collector examined praised debated vanished.
+deepseek-v3,LLM,deepseek,21,The manuscript the author the editor the publisher wrote revised edited disappeared.
+deepseek-v3,LLM,deepseek,21,The artifact the archaeologist the historian the researcher discovered studied documented vanished.
+gemini-3.5-flash,LLM,gemini,1,The dog the cat the mouse the cheese attracted bit chased ran.
+gemini-3.5-flash,LLM,gemini,1,The coder the manager the client the designer hired criticized fired quit.
+gemini-3.5-flash,LLM,gemini,1,The patient the doctor the nurse the patient liked trusted thanked recovered.
+gemini-3.5-flash,LLM,gemini,1,The student the teacher the principal the parent called questioned scolded smiled.
+gemini-3.5-flash,LLM,gemini,1,The book the student the teacher the librarian helped read graded lost.
+gemini-3.5-flash,LLM,gemini,2,The cheese the rat the cat the dog chased caught ate smelled.
+gemini-3.5-flash,LLM,gemini,2,The program the computer the technician the engineer called fixed ran crashed.
+gemini-3.5-flash,LLM,gemini,2,The letter the boy the girl the teacher helped wrote mailed arrived late.
+gemini-3.5-flash,LLM,gemini,3,The chef the waiter the customer the manager blamed scolded fired praised.
+gemini-3.5-flash,LLM,gemini,3,The dog the cat the mouse the cheese attracted startled scratched bit.
+gemini-3.5-flash,LLM,gemini,3,The teacher the student the parent the principal called worried embarrassed suspended.
+gemini-3.5-flash,LLM,gemini,4,The pizza the boy the dog the cat scratched bit ate dropped.
+gemini-3.5-flash,LLM,gemini,4,The report the intern the manager the director hired questioned approved filed.
+gemini-3.5-flash,LLM,gemini,4,The software the developer the tester the client called blamed praised released.
+gemini-3.5-flash,LLM,gemini,4,The song the singer the writer the producer criticized inspired recorded failed.
+gemini-3.5-flash,LLM,gemini,4,The car the mechanic the driver the owner sued blamed repaired crashed.
+gemini-3.5-flash,LLM,gemini,5,The dog the cat the mouse the cheese attracted bit chased barked.
+gemini-3.5-flash,LLM,gemini,5,The reporter the senator the lobbyist the citizen bribed influenced questioned resigned.
+gemini-3.5-flash,LLM,gemini,5,The criminal the detective the cop the witness identified assisted captured confessed.
+gemini-3.5-flash,LLM,gemini,5,The child the teacher the principal the superintendent hired blamed disciplined cried.
+gemini-3.5-flash,LLM,gemini,6,The patient the nurse the doctor the intern assisted supervised monitored recovered.
+gemini-3.5-flash,LLM,gemini,6,The report the intern the analyst the manager hired wrote reviewed submitted.
+gemini-3.5-flash,LLM,gemini,6,The song the child the student the teacher mentored sang liked remembered.
+gemini-3.5-flash,LLM,gemini,6,The painting the guest the artist the museum invited praised admired purchased.
+gemini-3.5-flash,LLM,gemini,6,The car the driver the mechanic the inspector warned fixed crashed stopped.
+gemini-3.5-flash,LLM,gemini,7,The mouse the cat the dog the boy chased bit scratched fled.
+gemini-3.5-flash,LLM,gemini,7,The book the student the teacher the principal praised recommended read closed.
+gemini-3.5-flash,LLM,gemini,7,The cheese the rat the ferret the owl hunted stole ate disappeared.
+gemini-3.5-flash,LLM,gemini,7,The report the intern the manager the director questioned drafted reviewed leaked.
+gemini-3.5-flash,LLM,gemini,7,The masterpiece the artist the collector the museum hired painted bought vanished.
+gemini-3.5-flash,LLM,gemini,8,The dog the cat the rat the cheese ate bit chased barked.
+gemini-3.5-flash,LLM,gemini,8,The manager the supervisor the clerk the customer scolded warned assisted thanked.
+gemini-3.5-flash,LLM,gemini,8,The boy the girl the teacher the principal praised questioned comforted hugged.
+gemini-3.5-flash,LLM,gemini,8,The scientist the assistant the student the professor questioned trained helped respected.
+gemini-3.5-flash,LLM,gemini,8,The artist the model the photographer the designer hired posed clicked painted.
+gemini-3.5-flash,LLM,gemini,9,The patient the doctor the nurse the intern assisted supervised cured survived.
+gemini-3.5-flash,LLM,gemini,9,The boy the girl the dog the cat scratched bit chased loved smiled.
+gemini-3.5-flash,LLM,gemini,9,The actor the director the writer the agent hired inspired admired left.
+gemini-3.5-flash,LLM,gemini,9,The student the teacher the principal the inspector questioned supported suspended cried.
+gemini-3.5-flash,LLM,gemini,10,The cheese the rat the cat the dog chased caught ate smelled.
+gemini-3.5-flash,LLM,gemini,10,The report the assistant the manager the executive hired questioned completed lost.
+gemini-3.5-flash,LLM,gemini,10,The program the intern the developer the architect mentored coded tested crashed.
+gemini-3.5-flash,LLM,gemini,10,The painting the thief the detective the police chief suspected stole hid vanished.
+gemini-3.5-flash,LLM,gemini,10,The book the student the teacher the principal praised read reviewed misplaced.
+gemini-3.5-flash,LLM,gemini,11,The chef the critic the writer the blogger mentioned praised disliked fired.
+gemini-3.5-flash,LLM,gemini,11,The dog the cat the rat the beetle chased caught scratched bit.
+gemini-3.5-flash,LLM,gemini,11,The student the teacher the principal the superintendent suspended reprimanded questioned thanked.
+gemini-3.5-flash,LLM,gemini,11,The artist the collector the dealer the thief targeted outsmarted sued painted.
+gemini-3.5-flash,LLM,gemini,11,The child the nurse the doctor the surgeon helped consulted scolded loved.
+gemini-3.5-flash,LLM,gemini,12,The mouse the cat the dog the master owned chased scratched died.
+gemini-3.5-flash,LLM,gemini,12,The book the student the teacher the principal hired praised read burned.
+gemini-3.5-flash,LLM,gemini,12,The cheese the rat the feline the canine chased snatched nibbled spoiled.
+gemini-3.5-flash,LLM,gemini,12,The report the intern the manager the director promoted supervised wrote leaked.
+gemini-3.5-flash,LLM,gemini,12,The painting the artist the patron the museum selected sponsored created vanished.
+gemini-3.5-flash,LLM,gemini,13,The mouse the cat the dog the boy chased bit scratched died.
+gemini-3.5-flash,LLM,gemini,13,The cheese the rat the cat the dog chased caught ate smelled.
+gemini-3.5-flash,LLM,gemini,13,The book the student the teacher the principal praised questioned read lost.
+gemini-3.5-flash,LLM,gemini,13,The song the girl the boy the mother heard hummed sang faded.
+gemini-3.5-flash,LLM,gemini,13,The toy the baby the puppy the kitten nudged chewed broke vanished.
+gemini-3.5-flash,LLM,gemini,14,The mouse the cat the dog the boy chased bit scratched died.
+gemini-3.5-flash,LLM,gemini,14,The book the student the teacher the principal praised assigned read lost.
+gemini-3.5-flash,LLM,gemini,14,The cheese the rat the cat the dog chased caught ate smelled.
+gemini-3.5-flash,LLM,gemini,14,The letter the girl the boy the mother scolded loved wrote burned.
+gemini-3.5-flash,LLM,gemini,14,The car the mechanic the driver the owner hired blamed repaired crashed.
+gemini-3.5-flash,LLM,gemini,15,The mouse the cat the dog the boy chased bit scratched squeaked.
+gemini-3.5-flash,LLM,gemini,15,The book the student the teacher the principal praised assigned read lost.
+gemini-3.5-flash,LLM,gemini,15,The car the mechanic the owner the driver hired questioned repaired crashed.
+gemini-3.5-flash,LLM,gemini,15,The song the singer the writer the producer hired challenged sang failed.
+gemini-3.5-flash,LLM,gemini,15,The painting the artist the collector the museum sued hired created burned.
+gemini-3.5-flash,LLM,gemini,16,The patient the nurse the doctor the intern assisted supervised treated recovered.
+gemini-3.5-flash,LLM,gemini,16,The program the intern the engineer the architect hired trained tested crashed.
+gemini-3.5-flash,LLM,gemini,16,The suspect the officer the detective the chief suspected questioned arrested confessed.
+gemini-3.5-flash,LLM,gemini,16,The student the tutor the teacher the principal blamed defended praised graduated.
+gemini-3.5-flash,LLM,gemini,16,The book the student the editor the publisher rejected revised read succeeded.
+gemini-3.5-flash,LLM,gemini,17,The boys the girls the teachers the principals disliked avoided ignored tolerated.
+gemini-3.5-flash,LLM,gemini,17,The dog the cat the rat the cheese attracted bit chased lost.
+gemini-3.5-flash,LLM,gemini,17,The program the coder the system the company hired designed updated crashed.
+gemini-3.5-flash,LLM,gemini,17,The patients the doctors the clinics the governments funded hired treated cured.
+gemini-3.5-flash,LLM,gemini,17,The report the analyst the manager the executives questioned reviewed edited filed.
+gemini-3.5-flash,LLM,gemini,18,The client the designer the developer the manager hired assisted liked resigned.
+gemini-3.5-flash,LLM,gemini,18,The child the puppy the kitten the hamster scratched bit chased loved cried.
+gemini-3.5-flash,LLM,gemini,18,The student the teacher the principal the superintendent praised questioned dismissed thanked.
+gemini-3.5-flash,LLM,gemini,18,The patient the doctor the nurse the intern trained assisted treated recovered.
+gemini-3.5-flash,LLM,gemini,18,The cheese the rat the cat the dog chased caught ate smelled moldy.
+gemini-3.5-flash,LLM,gemini,19,The chef the critic the writer the editor praised questioned disliked resigned.
+gemini-3.5-flash,LLM,gemini,19,The dog the cat the rat the mouse bit chased scratched escaped.
+gemini-3.5-flash,LLM,gemini,19,The doctor the nurse the patient the visitor saw helped thanked retired.
+gemini-3.5-flash,LLM,gemini,19,The teacher the student the parent the principal called questioned blamed apologized.
+gemini-3.5-flash,LLM,gemini,19,The boy the girl the man the woman saw met liked wave.
+gemini-3.5-flash,LLM,gemini,20,The chef the critic the writer the editor praised questioned congratulated retired.
+gemini-3.5-flash,LLM,gemini,20,The dog the cat the rat the beetle bit chased scratched escaped.
+gemini-3.5-flash,LLM,gemini,20,The child the mother the doctor the nurse scolded consulted thanked smiled.
+gemini-3.5-flash,LLM,gemini,20,The student the teacher the principal the superintendent disliked suspended reprimanded resigned.
+gemini-3.5-flash,LLM,gemini,20,The artist the collector the dealer the curator discovered hired trusted triumphed.
+gemini-3.5-flash,LLM,gemini,21,The chef the critic the writer the blogger mentioned praised fired resigned.
+gemini-3.5-flash,LLM,gemini,21,The patient the doctor the nurse the intern assisted treated cured thanked.
+gemini-3.5-flash,LLM,gemini,21,The book the student the teacher the principal recommended assigned read vanished.
+gemini-3.5-flash,LLM,gemini,21,The house the architect the builder the contractor hired designed constructed collapsed.
+gemini-3.5-flash,LLM,gemini,21,The software the programmer the analyst the manager supervised tested modified crashed.
+gemini-3.5-flash,LLM,gemini,23,The patient the nurse the doctor the intern assisted supervised blamed sued.
+gemini-3.5-flash,LLM,gemini,23,The mouse the cat the dog the boy chased startled bit escaped.
+gemini-3.5-flash,LLM,gemini,23,The code the programmer the manager the client hired directed reviewed failed.
+gemini-3.5-flash,LLM,gemini,23,The book the student the teacher the principal selected praised assigned lost.
+gemini-3.5-flash,LLM,gemini,23,The song the singer the producer the critic disliked hired recorded trended.
+gemini-3.5-flash,LLM,gemini,24,The story the book the student the teacher recommended contained explained ended well.
+gemini-3.5-flash,LLM,gemini,24,The house the builder the architect the client hired consulted constructed collapsed.
+gemini-3.5-flash,LLM,gemini,24,The song the singer the writer the producer hired inspired performed went viral.
+gemini-3.5-flash,LLM,gemini,24,The car the mechanic the driver the owner trusted hired repaired crashed.
+gemini-3.5-flash,LLM,gemini,25,The chefs the waiters the patrons the critics praised disliked avoided resigned.
+gemini-3.5-flash,LLM,gemini,25,The artists the collectors the dealers the curators ignored supported questioned retired.
+gemini-3.5-flash,LLM,gemini,25,The students the teachers the principals the superintendents feared respected disliked resigned.
+gemini-3.5-flash,LLM,gemini,25,The programmers the users the testers the managers hired blamed trusted quit.
+gemini-3.5-flash,LLM,gemini,25,The dogs the cats the mice the birds watched chased feared fled.
+gemini-3.5-flash,LLM,gemini,26,The man the boy the dog the cat scratched bit chased smiled.
+gemini-3.5-flash,LLM,gemini,26,The book the student the teacher the principal praised recommended read lost.
+gemini-3.5-flash,LLM,gemini,26,The report the intern the manager the director hired questioned approved filed.
+gemini-3.5-flash,LLM,gemini,26,The song the singer the writer the critic disliked adored performed failed.
+gemini-3.5-flash,LLM,gemini,26,The cheese the mouse the cat the dog chased caught ate smelled.
+gemini-3.5-flash,LLM,gemini,27,The dog the cat the mouse the cheese attracted bit chased ran.
+gemini-3.5-flash,LLM,gemini,27,The man the woman the child the toy pleased watched thanked smiled.
+gemini-3.5-flash,LLM,gemini,27,The book the student the teacher the principal hired liked read lost.
+gemini-3.5-flash,LLM,gemini,27,The chef the critic the writer the editor hired praised inspired quit.
+gemini-3.5-flash,LLM,gemini,27,The artist the collector the dealer the museum selected contacted praised retired.
+gemini-3.5-flash,LLM,gemini,28,The mouse that the cat that the dog that the boy owned chased caught escaped.
+gemini-3.5-flash,LLM,gemini,28,The cheese that the rat that the cat that the chef kept feared ate smelled.
+gemini-3.5-flash,LLM,gemini,29,The mouse the cat the dog the boy chased bit scratched died.
+gemini-3.5-flash,LLM,gemini,29,The document the intern the manager the director promoted reviewed printed lost.
+gemini-3.5-flash,LLM,gemini,29,The painting the artist the collector the thief targeted acquired finished burned.
+gemini-3.5-flash,LLM,gemini,29,The book the student the teacher the librarian recommended assigned read misplaced.
+gemini-3.5-flash,LLM,gemini,30,The cheese the rat the cat the dog chased caught ate smelled.
+gemini-3.5-flash,LLM,gemini,30,The book the student the teacher the principal praised questioned read lost.
+gemini-3.5-flash,LLM,gemini,30,The car the mechanic the driver the owner hired blamed repaired crashed.
+gemini-3.5-flash,LLM,gemini,30,The report the analyst the manager the director promoted questioned reviewed leaked.
+gemini-3.5-flash,LLM,gemini,30,The song the child the mother the father loved sang hummed recorded.
+gemini-3.5-flash-think,LRM,gemini,1,The cheese the rat the cat the dog chased caught ate smelled.
+gemini-3.5-flash-think,LRM,gemini,1,The student the teacher the principal the parent annoyed fired praised graduated.
+gemini-3.5-flash-think,LRM,gemini,1,The car the mechanic the owner the insurer called paid fixed broke.
+gemini-3.5-flash-think,LRM,gemini,1,The book the editor the author the publicist helped hired revised sold.
+gemini-3.5-flash-think,LRM,gemini,1,The computer the programmer the manager the client phoned scolded broke crashed.
+gemini-3.5-flash-think,LRM,gemini,3,The patient the nurse the doctor the intern assisted paged treated survived.
+gemini-3.5-flash-think,LRM,gemini,3,The chef the critic the waiter the customer tipped blamed praised rejoiced.
+gemini-3.5-flash-think,LRM,gemini,3,The student the teacher the principal the parent called warned helped graduated.
+gemini-3.5-flash-think,LRM,gemini,3,The book the author the editor the publisher fired hired wrote sold.
+gemini-3.5-flash-think,LRM,gemini,3,The computer the programmer the manager the client annoyed hired designed crashed.
+gemini-3.5-flash-think,LRM,gemini,4,The juice the girl the boy the dog chased liked drank stained.
+gemini-3.5-flash-think,LRM,gemini,4,The car the mechanic the driver the cop stopped hired fixed broke.
+gemini-3.5-flash-think,LRM,gemini,4,The book the student the teacher the principal fired praised read disappeared.
+gemini-3.5-flash-think,LRM,gemini,4,The song the singer the writer the critic insulted inspired performed ended.
+gemini-3.5-flash-think,LRM,gemini,4,The house the builder the architect the client sued employed constructed collapsed.
+gemini-3.5-flash-think,LRM,gemini,5,The masterpiece the artist the critic the reporter interviewed praised painted vanished.
+gemini-3.5-flash-think,LRM,gemini,5,The car the mechanic the driver the bystander filmed blamed repaired crashed.
+gemini-3.5-flash-think,LRM,gemini,5,The book the author the editor the publisher hired advised wrote failed.
+gemini-3.5-flash-think,LRM,gemini,5,The software the coder the manager the director fired instructed designed glitched.
+gemini-3.5-flash-think,LRM,gemini,5,The house the builder the architect the client sued recommended constructed collapsed.
+gemini-3.5-flash-think,LRM,gemini,6,The chef the critic the waiter the customer angered avoided praised resigned.
+gemini-3.5-flash-think,LRM,gemini,6,The book the student the teacher the principal hired scolded read vanished.
+gemini-3.5-flash-think,LRM,gemini,6,The car the mechanic the owner the thief injured blamed repaired broke.
+gemini-3.5-flash-think,LRM,gemini,6,The painting the artist the patron the agent fired supported painted faded.
+gemini-3.5-flash-think,LRM,gemini,6,The software the developer the manager the director promoted pressured wrote crashed.
+gemini-3.5-flash-think,LRM,gemini,7,The cheese the mouse the cat the dog scared caught ate smelled.
+gemini-3.5-flash-think,LRM,gemini,7,The report the intern the manager the director promoted hired wrote leaked.
+gemini-3.5-flash-think,LRM,gemini,7,The car the mechanic the owner the banker sued paid fixed broke.
+gemini-3.5-flash-think,LRM,gemini,7,The masterpiece the artist the patron the rival envied funded made vanished.
+gemini-3.5-flash-think,LRM,gemini,7,The toy the child the mother the father called scolded lost broke.
+gemini-3.5-flash-think,LRM,gemini,8,The man the chef the critic the waiter served despised hired resigned.
+gemini-3.5-flash-think,LRM,gemini,8,The student the teacher the principal the parent angered fired helped graduated.
+gemini-3.5-flash-think,LRM,gemini,8,The patient the doctor the nurse the intern assisted blamed treated recovered.
+gemini-3.5-flash-think,LRM,gemini,8,The book the author the editor the publisher hired advised wrote vanished.
+gemini-3.5-flash-think,LRM,gemini,8,The car the mechanic the driver the officer stopped paid repaired stalled.
+gemini-3.5-flash-think,LRM,gemini,9,The patient that the doctor that the nurse that the clinic hired supervised treated recovered.
+gemini-3.5-flash-think,LRM,gemini,9,The rat that the cat that the dog that the boy kept bit chased died.
+gemini-3.5-flash-think,LRM,gemini,10,The boy the girl the bird the seed lured scratched helped smiled.
+gemini-3.5-flash-think,LRM,gemini,10,The intern the designer the director the salary pleased hired trained resigned.
+gemini-3.5-flash-think,LRM,gemini,10,The victim the detective the suspect the evidence implicated outsmarted protected survived.
+gemini-3.5-flash-think,LRM,gemini,10,The king the knight the dragon the gold tempted wounded defended celebrated.
+gemini-3.5-flash-think,LRM,gemini,10,The dog the cat the rat the cheese attracted bit chased escaped.
+gemini-3.5-flash-think,LRM,gemini,11,The cheese the rat the cat the dog chased caught ate spoiled.
+gemini-3.5-flash-think,LRM,gemini,11,The car the mechanic the owner the police questioned hired fixed stalled.
+gemini-3.5-flash-think,LRM,gemini,11,The song the singer the producer the manager fired sued sang ended.
+gemini-3.5-flash-think,LRM,gemini,11,The house the builder the architect the client sued blamed renovated collapsed.
+gemini-3.5-flash-think,LRM,gemini,11,The letter the spy the guard the captain trusted captured wrote burned.
+gemini-3.5-flash-think,LRM,gemini,12,The patient the nurse the clinic the storm damaged hired treated recovered.
+gemini-3.5-flash-think,LRM,gemini,12,The book the student the teacher the school dismissed praised lost fell.
+gemini-3.5-flash-think,LRM,gemini,12,The car the mechanic the garage the fire destroyed employed repaired exploded.
+gemini-3.5-flash-think,LRM,gemini,12,The chef the critic the newspaper the lawsuit ruined hired disliked quit.
+gemini-3.5-flash-think,LRM,gemini,12,The cat the dog the boy the girl helped trained chased meowed.
+gemini-3.5-flash-think,LRM,gemini,13,The student the teacher the principal the superintendent warned avoided helped failed.
+gemini-3.5-flash-think,LRM,gemini,13,The mouse the cat the dog the owner leashed chased caught escaped.
+gemini-3.5-flash-think,LRM,gemini,13,The report the analyst the manager the director hired blamed wrote vanished.
+gemini-3.5-flash-think,LRM,gemini,13,The code the programmer the client the competitor sued annoyed deleted crashed.
+gemini-3.5-flash-think,LRM,gemini,13,The diamond the thief the detective the informant betrayed pursued stole glittered.
+gemini-3.5-flash-think,LRM,gemini,14,The book the student the teacher the principal fired praised read disappeared.
+gemini-3.5-flash-think,LRM,gemini,14,The car the mechanic the owner the police arrested hired fixed broke down.
+gemini-3.5-flash-think,LRM,gemini,14,The song the singer the producer the label sued discovered performed trended.
+gemini-3.5-flash-think,LRM,gemini,14,The painting the artist the collector the thief robbed commissioned created burned.
+gemini-3.5-flash-think,LRM,gemini,14,The house the architect the client the bank bankrupted employed designed collapsed.
+gemini-3.5-flash-think,LRM,gemini,15,The book the student the teacher the principal hired praised read disappeared.
+gemini-3.5-flash-think,LRM,gemini,15,The car the mechanic the owner the driver blamed paid repaired broke.
+gemini-3.5-flash-think,LRM,gemini,15,The painting the artist the critic the public ignored admired created burned.
+gemini-3.5-flash-think,LRM,gemini,15,The mouse the cat the dog the man kicked chased caught escaped.
+gemini-3.5-flash-think,LRM,gemini,15,The report the executive the manager the assistant helped promoted wrote leaked.
+gemini-3.5-flash-think,LRM,gemini,16,The cheese the rat the cat the dog chased ate smelled fell.
+gemini-3.5-flash-think,LRM,gemini,16,The book the student the teacher the principal fired praised lost disappeared.
+gemini-3.5-flash-think,LRM,gemini,16,The car the mechanic the driver the officer arrested hired fixed broke.
+gemini-3.5-flash-think,LRM,gemini,16,The painting the artist the critic the patron ignored detested sold vanished.
+gemini-3.5-flash-think,LRM,gemini,16,The letter the mailman the dog the boy called bit delivered burned.
+gemini-3.5-flash-think,LRM,gemini,17,The man the dog the cat the mouse scared scratched bit screamed.
+gemini-3.5-flash-think,LRM,gemini,17,The teacher the student the parent the principal phoned blamed annoyed resigned.
+gemini-3.5-flash-think,LRM,gemini,17,The car the truck the barrier the rust weakened stopped hit exploded.
+gemini-3.5-flash-think,LRM,gemini,17,The chef the critic the waiter the customer tipped ignored praised smiled.
+gemini-3.5-flash-think,LRM,gemini,17,The app the user the bug the update triggered confused deleted crashed.
+gemini-3.5-flash-think,LRM,gemini,18,The dog the cat the mouse the cheese attracted bit chased ran.
+gemini-3.5-flash-think,LRM,gemini,18,The teacher the student the parent the principal scolded blamed annoyed resigned.
+gemini-3.5-flash-think,LRM,gemini,18,The chef the critic the waiter the customer tipped insulted praised smiled.
+gemini-3.5-flash-think,LRM,gemini,18,The child the mother the doctor the nurse assisted called hugged cried.
+gemini-3.5-flash-think,LRM,gemini,18,The building the architect the assistant the agency fired helped designed collapsed.
+gemini-3.5-flash-think,LRM,gemini,19,The report the secretary the executive the assistant helped blamed wrote leaked.
+gemini-3.5-flash-think,LRM,gemini,19,The song the band the producer the critic annoyed hired played ended.
+gemini-3.5-flash-think,LRM,gemini,19,The car the mechanic the driver the officer stopped paid fixed stalled.
+gemini-3.5-flash-think,LRM,gemini,19,The painting the artist the patron the thief distracted funded created burned.
+gemini-3.5-flash-think,LRM,gemini,19,The book the author the editor the publisher rushed advised wrote sold.
+gemini-3.5-flash-think,LRM,gemini,20,The report the intern the manager the director hired fired wrote leaked.
+gemini-3.5-flash-think,LRM,gemini,20,The car the mechanic the customer the salesman cheated blamed fixed broke.
+gemini-3.5-flash-think,LRM,gemini,20,The program the coder the teacher the student annoyed helped designed crashed.
+gemini-3.5-flash-think,LRM,gemini,20,The book the boy the girl the dog bit chased read fell.
+gemini-3.5-flash-think,LRM,gemini,20,The cake the guest the host the cook hired thanked ate vanished.
+gemini-3.5-flash-think,LRM,gemini,21,The book the girl the boy the teacher praised helped read vanished.
+gemini-3.5-flash-think,LRM,gemini,21,The car the man the woman the child hugged hired bought broke.
+gemini-3.5-flash-think,LRM,gemini,21,The song the singer the writer the fan annoyed inspired performed resonated.
+gemini-3.5-flash-think,LRM,gemini,21,The house the builder the architect the client sued recommended constructed collapsed.
+gemini-3.5-flash-think,LRM,gemini,21,The painting the artist the model the photographer distracted selected created burned.
+gemini-3.5-flash-think,LRM,gemini,22,The cheese the rat the cat the dog chased killed ate rotted.
+gemini-3.5-flash-think,LRM,gemini,22,The cake the boy the sister the mother scolded helped baked burned.
+gemini-3.5-flash-think,LRM,gemini,22,The letter the postman the dog the boy trained bit delivered vanished.
+gemini-3.5-flash-think,LRM,gemini,22,The report the student the teacher the principal fired praised wrote disappeared.
+gemini-3.5-flash-think,LRM,gemini,22,The painting the artist the critic the crowd cheered annoyed painted faded.
+gemini-3.5-flash-think,LRM,gemini,23,The report the intern the manager the executive fired blamed wrote vanished.
+gemini-3.5-flash-think,LRM,gemini,23,The cheese the mouse the cat the dog chased caught ate smelled.
+gemini-3.5-flash-think,LRM,gemini,23,The car the mechanic the owner the thief threatened hired fixed broke.
+gemini-3.5-flash-think,LRM,gemini,23,The book the student the teacher the principal praised helped read fell.
+gemini-3.5-flash-think,LRM,gemini,23,The house the builder the client the banker avoided sued designed collapsed.
+gemini-3.5-flash-think,LRM,gemini,24,The boy the girl the dog the cat scratched bit kicked cried.
+gemini-3.5-flash-think,LRM,gemini,24,The car the truck the bike the kid hit scratched dented stalled.
+gemini-3.5-flash-think,LRM,gemini,24,The cheese the rat the cat the dog chased caught ate vanished.
+gemini-3.5-flash-think,LRM,gemini,24,The book the student the teacher the principal scolded praised lost reappeared.
+gemini-3.5-flash-think,LRM,gemini,24,The software the developer the manager the director fired hired designed crashed.
+gemini-3.5-flash-think,LRM,gemini,25,The dog the cat the rat the cheese lured bit chased escaped.
+gemini-3.5-flash-think,LRM,gemini,25,The director the actor the agent the contract pleased hired sued retired.
+gemini-3.5-flash-think,LRM,gemini,25,The student the teacher the parent the letter worried blamed helped graduated.
+gemini-3.5-flash-think,LRM,gemini,25,The suspect the detective the witness the bribe corrupted helped arrested escaped.
+gemini-3.5-flash-think,LRM,gemini,25,The patient the doctor the researcher the funding enabled advised cured recovered.
+gemini-3.5-flash-think,LRM,gemini,26,The dog the cat the rat the man saw bit chased barked.
+gemini-3.5-flash-think,LRM,gemini,26,The cheese the mouse the cat the dog chased caught ate smelled.
+gemini-3.5-flash-think,LRM,gemini,26,The car the mechanic the owner the lawyer sued paid fixed stalled.
+gemini-3.5-flash-think,LRM,gemini,26,The book the student the teacher the principal fired praised read vanished.
+gemini-3.5-flash-think,LRM,gemini,26,The patient the doctor the nurse the director hired assisted treated recovered.
+gemini-3.5-flash-think,LRM,gemini,27,The cheese the mouse the cat the dog chased bit ate spoiled.
+gemini-3.5-flash-think,LRM,gemini,27,The book the student the teacher the principal fired praised read vanished.
+gemini-3.5-flash-think,LRM,gemini,27,The car the man the woman the child distracted helped drove crashed.
+gemini-3.5-flash-think,LRM,gemini,27,The house the family the builder the banker sued helped bought burned.
+gemini-3.5-flash-think,LRM,gemini,27,The song the singer the writer the critic loathed inspired sang played.
+gemini-3.5-flash-think,LRM,gemini,28,The masterpiece the artist the critic the patron supported detested painted vanished.
+gemini-3.5-flash-think,LRM,gemini,28,The car the mechanic the owner the driver insulted hired fixed stalled.
+gemini-3.5-flash-think,LRM,gemini,28,The book the student the teacher the principal scolded helped read disappeared.
+gemini-3.5-flash-think,LRM,gemini,28,The song the singer the producer the director fired discovered sang resonated.
+gemini-3.5-flash-think,LRM,gemini,28,The house the builder the architect the client sued employed constructed collapsed.
+gemini-3.5-flash-think,LRM,gemini,29,The cheese the rat the cat the dog chased bit ate spoiled.
+gemini-3.5-flash-think,LRM,gemini,29,The book the student the teacher the principal praised helped read disappeared.
+gemini-3.5-flash-think,LRM,gemini,29,The car the mechanic the assistant the manager blamed helped built crashed.
+gemini-3.5-flash-think,LRM,gemini,29,The program the coder the boss the client annoyed fired wrote failed.
+gemini-3.5-flash-think,LRM,gemini,29,The soup the chef the critic the editor phoned praised made spilled.
+gemini-3.5-flash-think,LRM,gemini,30,The cheese the rat the cat the dog chased ate nibbled smelled.
+gemini-3.5-flash-think,LRM,gemini,30,The patient the nurse the doctor the chief hired paged helped recovered.
+gemini-3.5-flash-think,LRM,gemini,30,The car the mechanic the driver the police stopped called fixed stalled.
+gemini-3.5-flash-think,LRM,gemini,30,The book the student the teacher the principal scolded inspired read disappeared.
+gemini-3.5-flash-think,LRM,gemini,30,The house the builder the architect the client sued hired built collapsed.
+glm-4.5,LLM,glm,22,The cat that the dog that the bird that the mouse chased startled hunted purred.
+glm-4.5,LLM,glm,22,The book that the student that the teacher that the principal admired recommended read fascinated.
+glm-4.5,LLM,glm,22,The car that the mechanic that the owner that the dealer trusted hired repaired broke down.
+glm-4.5,LLM,glm,22,The painting that the artist that the critic that the gallery owner praised exhibited created sold.
+glm-4.5-think,LRM,glm,6,The student that the teacher that the principal that the school hired recommended praised graduated.
+glm-4.5-think,LRM,glm,6,The car that the mechanic that the owner that the dealer employed hired maintained drove.
+glm-4.5-think,LRM,glm,6,The letter that the secretary that the manager that the director signed wrote typed sent.
+glm-4.5-think,LRM,glm,6,The cake that the baker that the customer that the shop paid ordered baked ate.
+glm-4.5-think,LRM,glm,6,The movie that the director that the producer that the studio hired funded directed released.
+glm-4.5-think,LRM,glm,10,The sun the moon the stars the sky shine twinkle glow sparkle.
+glm-4.5-think,LRM,glm,10,The teacher the student the book the desk read write learn study.
+glm-4.5-think,LRM,glm,10,The chef the knife the onion the pot chop stir fry boil.
+glm-4.5-think,LRM,glm,10,The car the road the engine the wheel drive turn accelerate brake.
+glm-4.5-think,LRM,glm,10,The flower the bee the garden the wind bloom buzz sway blow.
+glm-4.5-think,LRM,glm,11,The dog the cat the bird the fish jumped ran swam flew.
+glm-4.5-think,LRM,glm,11,The teacher the student the book the desk wrote read taught closed.
+glm-4.5-think,LRM,glm,11,The car the bus the train the plane drove flew traveled arrived.
+glm-4.5-think,LRM,glm,11,The apple the banana the orange the grape grew ripened fell rotted.
+glm-4.5-think,LRM,glm,11,The house the tree the flower the grass stood bloomed swayed grew.
+glm-4.5-think,LRM,glm,14,The cat that the dog that the bird that the fish swam flew chased ate.
+glm-4.5-think,LRM,glm,14,The boy that the girl that the man that the woman kicked hit pushed saw.
+glm-4.5-think,LRM,glm,14,The car that the truck that the bus that the bike scratched damaged hit crashed.
+glm-4.5-think,LRM,glm,14,The teacher that the student that the principal that the dean expelled punished scolded praised.
+glm-4.5-think,LRM,glm,14,The king that the queen that the prince that the princess despised admired hated loved.
+qwen3-30b-a3b,LLM,qwen,2,The cat the student the teacher the doctor laughed laughed laughed laughed.
+qwen3-30b-a3b,LLM,qwen,2,The book the writer the editor the professor read read read read.
+qwen3-30b-a3b,LLM,qwen,2,The car the mechanic the driver the passenger broke broke broke broke.
+qwen3-30b-a3b,LLM,qwen,2,The song the singer the composer the musician played played played played.
+qwen3-30b-a3b,LLM,qwen,2,The project the manager the team the client completed completed completed completed.
+qwen3-30b-a3b,LLM,qwen,4,The cat the student the teacher the doctor laughed laughed laughed laughed.
+qwen3-30b-a3b,LLM,qwen,4,The book the writer the editor the publisher printed printed printed printed.
+qwen3-30b-a3b,LLM,qwen,4,The song the singer the producer the label released released released released.
+qwen3-30b-a3b,LLM,qwen,4,The project the manager the team the client completed completed completed completed.
+qwen3-30b-a3b,LLM,qwen,4,The game the player the coach the team won won won won.
+qwen3-30b-a3b,LLM,qwen,6,The cat the hunter the watcher the guardian stalks stalks stalks stalks.
+qwen3-30b-a3b,LLM,qwen,6,The dog the protector the guard the defender barks barks barks barks.
+qwen3-30b-a3b,LLM,qwen,6,The bird the flyer the watcher the scout flies flies flies flies.
+qwen3-30b-a3b,LLM,qwen,6,The wolf the tracker the hunter the survivor runs runs runs runs.
+qwen3-30b-a3b,LLM,qwen,6,The tree the guardian the watcher the protector stands stands stands stands.
+qwen3-30b-a3b,LLM,qwen,7,The cat the detective the teacher the student ran ran ran ran.
+qwen3-30b-a3b,LLM,qwen,7,The book the librarian the professor the researcher read read read read.
+qwen3-30b-a3b,LLM,qwen,7,The car the mechanic the driver the passenger fixed fixed fixed fixed.
+qwen3-30b-a3b,LLM,qwen,7,The song the singer the musician the composer wrote wrote wrote wrote.
+qwen3-30b-a3b,LLM,qwen,7,The project the manager the developer the designer completed completed completed completed.
+qwen3-30b-a3b,LLM,qwen,11,The cat the student the teacher the doctor ran ran ran ran.
+qwen3-30b-a3b,LLM,qwen,11,The book the writer the editor the publisher wrote wrote wrote wrote.
+qwen3-30b-a3b,LLM,qwen,11,The car the mechanic the driver the passenger fixed fixed fixed fixed.
+qwen3-30b-a3b,LLM,qwen,11,The song the singer the producer the band performed performed performed performed.
+qwen3-30b-a3b,LLM,qwen,11,The plan the manager the employee the leader executed executed executed executed.
+qwen3-30b-a3b,LLM,qwen,12,The cat the chef the waiter the manager ordered ordered ordered ordered.
+qwen3-30b-a3b,LLM,qwen,12,The book the teacher the student the librarian read read read read.
+qwen3-30b-a3b,LLM,qwen,12,The car the mechanic the driver the passenger fixed fixed fixed fixed.
+qwen3-30b-a3b,LLM,qwen,12,The song the singer the band the audience loved loved loved loved.
+qwen3-30b-a3b,LLM,qwen,12,The project the leader the team the client completed completed completed completed.
+qwen3-30b-a3b,LLM,qwen,13,The cat the hunter the gardener the teacher walked ran jumped danced.
+qwen3-30b-a3b,LLM,qwen,13,The dog the chef the artist the student painted drew sang played.
+qwen3-30b-a3b,LLM,qwen,13,The bird the doctor the musician the writer sang composed wrote read.
+qwen3-30b-a3b,LLM,qwen,13,The tree the engineer the actor the poet built acted wrote performed.
+qwen3-30b-a3b,LLM,qwen,13,The river the scientist the dancer the poet flowed swam danced wrote.
+qwen3-30b-a3b,LLM,qwen,14,The cat the musician the teacher the student sings dances jumps runs.
+qwen3-30b-a3b,LLM,qwen,14,The book the doctor the lawyer the engineer reads writes speaks listens.
+qwen3-30b-a3b,LLM,qwen,14,The car the chef the actor the artist drives paints draws sketches.
+qwen3-30b-a3b,LLM,qwen,14,The song the singer the dancer the musician hums sways performs sings.
+qwen3-30b-a3b,LLM,qwen,14,The tree the gardener the scientist the student grows shelters blooms shades.
+qwen3-30b-a3b,LLM,qwen,15,The cat the student the teacher the doctor ran jumped climbed flew danced.
+qwen3-30b-a3b,LLM,qwen,15,The book the writer the editor the publisher wrote typed published read.
+qwen3-30b-a3b,LLM,qwen,15,The car the mechanic the driver the passenger broke started drove stopped.
+qwen3-30b-a3b,LLM,qwen,15,The song the singer the musician the producer sang played recorded performed.
+qwen3-30b-a3b,LLM,qwen,15,The plan the leader the team the manager devised executed implemented reviewed.
+qwen3-30b-a3b,LLM,qwen,18,The cat the astronaut the chef the teacher laughed screamed shouted whispered.
+qwen3-30b-a3b,LLM,qwen,18,The book the manager the artist the student painted drew wrote read.
+qwen3-30b-a3b,LLM,qwen,18,The car the driver the mechanic the engineer repaired fixed tested drove.
+qwen3-30b-a3b,LLM,qwen,18,The song the singer the composer the musician sang played composed listened.
+qwen3-30b-a3b,LLM,qwen,20,The cat the student the teacher the doctor laughed laughed laughed laughed.
+qwen3-30b-a3b,LLM,qwen,20,The book the writer the editor the publisher published published published published.
+qwen3-30b-a3b,LLM,qwen,20,The song the singer the producer the label released released released released.
+qwen3-30b-a3b,LLM,qwen,20,The project the manager the team the client completed completed completed completed.
+qwen3-30b-a3b,LLM,qwen,20,The game the player the coach the team won won won won.
+qwen3-30b-a3b,LLM,qwen,21,The cat the chef the waiter the manager smiled smiled nodded nodded.
+qwen3-30b-a3b,LLM,qwen,21,The book the teacher the student the librarian read read studied studied.
+qwen3-30b-a3b,LLM,qwen,21,The car the driver the passenger the mechanic fixed fixed checked tested tested.
+qwen3-30b-a3b,LLM,qwen,21,The song the singer the dancer the musician sang sang performed played.
+qwen3-30b-a3b,LLM,qwen,21,The project the leader the team the client completed completed reviewed approved approved.
+qwen3-30b-a3b,LLM,qwen,22,The cat the student the teacher the doctor laughed laughed laughed laughed.
+qwen3-30b-a3b,LLM,qwen,22,The book the writer the editor the publisher published published published published.
+qwen3-30b-a3b,LLM,qwen,22,The car the driver the mechanic the engineer fixed fixed fixed fixed.
+qwen3-30b-a3b,LLM,qwen,22,The song the singer the producer the musician performed performed performed performed.
+qwen3-30b-a3b,LLM,qwen,22,The project the manager the team the client completed completed completed completed.
+qwen3-30b-a3b,LLM,qwen,24,The cat the veterinarian the teacher the student ran ran ran ran.
+qwen3-30b-a3b,LLM,qwen,24,The book the librarian the professor the researcher read read read read.
+qwen3-30b-a3b,LLM,qwen,24,The car the mechanic the driver the passenger fixed fixed fixed fixed.
+qwen3-30b-a3b,LLM,qwen,24,The song the singer the composer the musician played played played played.
+qwen3-30b-a3b,LLM,qwen,24,The project the manager the team the client completed completed completed completed.
+qwen3-30b-a3b,LLM,qwen,25,The cat the neighbor the teacher the student ran ran ran ran.
+qwen3-30b-a3b,LLM,qwen,25,The dog the owner the parent the child jumped jumped jumped jumped.
+qwen3-30b-a3b,LLM,qwen,25,The bird the keeper the caregiver the trainer flew flew flew flew.
+qwen3-30b-a3b,LLM,qwen,25,The car the driver the passenger the rider accelerated accelerated accelerated accelerated.
+qwen3-30b-a3b,LLM,qwen,25,The book the reader the learner the student absorbed absorbed absorbed absorbed.
+qwen3-30b-a3b,LLM,qwen,26,The cat the scientist the teacher the student observed studied examined analyzed recorded.
+qwen3-30b-a3b,LLM,qwen,26,The book the author the editor the reviewer read corrected reviewed assessed.
+qwen3-30b-a3b,LLM,qwen,26,The car the mechanic the driver the passenger repaired tested drove operated.
+qwen3-30b-a3b,LLM,qwen,26,The song the musician the producer the singer composed arranged performed recorded.
+qwen3-30b-a3b,LLM,qwen,26,The project the manager the team the client completed planned executed delivered.
+qwen3-30b-a3b,LLM,qwen,27,The cat the student the teacher the doctor laughed laughed laughed laughed.
+qwen3-30b-a3b,LLM,qwen,27,The book the writer the editor the publisher sold sold sold sold.
+qwen3-30b-a3b,LLM,qwen,27,The car the mechanic the driver the owner fixed fixed fixed fixed.
+qwen3-30b-a3b,LLM,qwen,27,The song the singer the producer the listener enjoyed enjoyed enjoyed enjoyed.
+qwen3-30b-a3b,LLM,qwen,27,The project the manager the team the client completed completed completed completed.
+qwen3-30b-a3b,LLM,qwen,29,The cat the teacher the student the student runs runs jumps jumps.
+qwen3-30b-a3b,LLM,qwen,29,The book the writer the editor the editor writes writes reads reads.
+qwen3-30b-a3b,LLM,qwen,29,The car the mechanic the driver the driver fixes fixes drives drives.
+qwen3-30b-a3b,LLM,qwen,29,The song the singer the producer the producer records records plays plays.
+qwen3-30b-a3b,LLM,qwen,29,The game the player the coach the coach wins wins plays plays.
+qwen3-30b-a3b-think,LRM,qwen,3,the sun the bright the bright the bright shine glow warm radiate.
+qwen3-30b-a3b-think,LRM,qwen,3,the cat the fluffy the fluffy the fluffy purr nap sleep dream.
+qwen3-30b-a3b-think,LRM,qwen,3,the car the fast the fast the fast zoom race speed fly.
+qwen3-30b-a3b-think,LRM,qwen,3,the book the interesting the interesting the interesting read learn study explore.
+qwen3-30b-a3b-think,LRM,qwen,3,the music the loud the loud the loud play dance sing move.
+qwen3-30b-a3b-think,LRM,qwen,4,the cat the doctor the teacher the engineer runs jumps sings dances
+qwen3-30b-a3b-think,LRM,qwen,4,the dog the lawyer the chef the pilot flies eats cooks drives
+qwen3-30b-a3b-think,LRM,qwen,4,the bird the singer the dancer the actor sings dances acts performs
+qwen3-30b-a3b-think,LRM,qwen,4,the car the driver the mechanic the designer drives fixes creates races
+qwen3-30b-a3b-think,LRM,qwen,4,the book the author the editor the reader reads writes edits shares
+qwen3-30b-a3b-think,LRM,qwen,5,the cat the mother the father the sister ran jumped laughed danced
+qwen3-30b-a3b-think,LRM,qwen,5,the dog the brother the aunt the uncle sang danced skipped cried
+qwen3-30b-a3b-think,LRM,qwen,5,the bird the grandmother the grandfather the cousin walked talked smiled shouted
+qwen3-30b-a3b-think,LRM,qwen,5,the car the driver the passenger the conductor swam flew yelled whispered
+qwen3-30b-a3b-think,LRM,qwen,5,the book the teacher the student the librarian cooked baked shared sighed
+qwen3-30b-a3b-think,LRM,qwen,6,the dog the cat the cat the cat runs jumps barks plays
+qwen3-30b-a3b-think,LRM,qwen,6,the house the window the window the window opens closes glows shines
+qwen3-30b-a3b-think,LRM,qwen,6,the car the engine the engine the engine revs hums starts stops
+qwen3-30b-a3b-think,LRM,qwen,6,the book the story the story the story begins ends unfolds concludes
+qwen3-30b-a3b-think,LRM,qwen,6,the sun the sky the sky the sky brightens warms glows shines
+qwen3-30b-a3b-think,LRM,qwen,8,the cat the knight the sorcerer the merchant leapt cast traded sang
+qwen3-30b-a3b-think,LRM,qwen,8,the dog the doctor the pilot the chef ran fixed cooked danced
+qwen3-30b-a3b-think,LRM,qwen,8,the bird the teacher the engineer the singer flew taught built sang
+qwen3-30b-a3b-think,LRM,qwen,8,the book the writer the editor the reader opened wrote edited read
+qwen3-30b-a3b-think,LRM,qwen,8,the car the driver the mechanic the passenger drove fixed traveled slept
+qwen3-30b-a3b-think,LRM,qwen,9,the city the mayor the engineer the teacher built solved taught inspired
+qwen3-30b-a3b-think,LRM,qwen,9,the project the manager the designer the coder created debugged coded launched
+qwen3-30b-a3b-think,LRM,qwen,9,the company the CEO the CFO the HR expanded negotiated hired mentored
+qwen3-30b-a3b-think,LRM,qwen,9,the team the captain the strategist the coach planned executed won celebrated
+qwen3-30b-a3b-think,LRM,qwen,9,the garden the gardener the botanist the volunteer planted watered pruned bloomed
+qwen3-30b-a3b-think,LRM,qwen,10,the cat the doctor the doctor the doctor sings dances jumps laughs
+qwen3-30b-a3b-think,LRM,qwen,10,the cat the doctor the doctor the doctor runs swims flies sings
+qwen3-30b-a3b-think,LRM,qwen,10,the cat the doctor the doctor the doctor writes paints draws jumps
+qwen3-30b-a3b-think,LRM,qwen,10,the cat the doctor the doctor the doctor cooks cleans sings dances
+qwen3-30b-a3b-think,LRM,qwen,10,the cat the doctor the doctor the doctor teaches learns speaks laughs
+qwen3-30b-a3b-think,LRM,qwen,11,The cat the doctor the teacher the engineer fixed taught built solved
+qwen3-30b-a3b-think,LRM,qwen,11,The dog the lawyer the chef the scientist analyzed cooked designed predicted
+qwen3-30b-a3b-think,LRM,qwen,11,The bird the nurse the artist the pilot flew painted created launched
+qwen3-30b-a3b-think,LRM,qwen,11,The car the mechanic the writer the architect repaired wrote planned designed
+qwen3-30b-a3b-think,LRM,qwen,11,The book the historian the gardener the musician read planted composed performed
+qwen3-30b-a3b-think,LRM,qwen,12,the cat the dog the bird the fish jump run fly swim
+qwen3-30b-a3b-think,LRM,qwen,12,the sun the moon the star the cloud shine glow twinkle drift
+qwen3-30b-a3b-think,LRM,qwen,12,the book the pen the paper the desk write draw read type
+qwen3-30b-a3b-think,LRM,qwen,12,the car the bike the bus the train drive ride stop go
+qwen3-30b-a3b-think,LRM,qwen,12,the apple the banana the orange the grape eat peel slice juice
+qwen3-30b-a3b-think,LRM,qwen,13,The architect the designer the designer the designer creates creates creates creates
+qwen3-30b-a3b-think,LRM,qwen,13,The engineer the builder the builder the builder constructs constructs constructs constructs
+qwen3-30b-a3b-think,LRM,qwen,13,The teacher the mentor the mentor the mentor guides guides guides guides
+qwen3-30b-a3b-think,LRM,qwen,13,The scientist the researcher the researcher the researcher discovers discovers discovers discovers
+qwen3-30b-a3b-think,LRM,qwen,13,The writer the author the author the author writes writes writes writes
+qwen3-30b-a3b-think,LRM,qwen,14,the cat the teacher the doctor the engineer ran jumped sang danced
+qwen3-30b-a3b-think,LRM,qwen,14,the book the chef the artist the programmer read wrote painted coded
+qwen3-30b-a3b-think,LRM,qwen,14,the car the pilot the nurse the firefighter drove flew treated rescued
+qwen3-30b-a3b-think,LRM,qwen,14,the tree the mayor the scientist the musician grew studied played performed
+qwen3-30b-a3b-think,LRM,qwen,14,the computer the manager the actor the gardener processed acted spoke tended
+qwen3-30b-a3b-think,LRM,qwen,16,the cat the doctor the doctor the doctor sings dances jumps laughs
+qwen3-30b-a3b-think,LRM,qwen,16,the cat the doctor the doctor the doctor runs swims flies sings
+qwen3-30b-a3b-think,LRM,qwen,16,the cat the doctor the doctor the doctor writes paints draws jumps
+qwen3-30b-a3b-think,LRM,qwen,16,the cat the doctor the doctor the doctor cooks cleans sings dances
+qwen3-30b-a3b-think,LRM,qwen,16,the cat the doctor the doctor the doctor teaches learns speaks laughs
+qwen3-30b-a3b-think,LRM,qwen,18,the cat the knight the knight the knight swords dances sings dances
+qwen3-30b-a3b-think,LRM,qwen,18,the cat the knight the knight the knight fights jumps laughs shouts
+qwen3-30b-a3b-think,LRM,qwen,18,the cat the knight the knight the knight flies glides chirps tweets
+qwen3-30b-a3b-think,LRM,qwen,18,the cat the knight the knight the knight scurries hides squeaks eats
+qwen3-30b-a3b-think,LRM,qwen,18,the cat the knight the knight the knight swims dives glides sings
+qwen3-30b-a3b-think,LRM,qwen,19,the cat the doctor the nurse the lawyer ran jumped sang danced
+qwen3-30b-a3b-think,LRM,qwen,19,the dog the teacher the pilot the artist jumped sang danced ate
+qwen3-30b-a3b-think,LRM,qwen,19,the book the engineer the writer the singer sang danced ate wrote
+qwen3-30b-a3b-think,LRM,qwen,19,the car the student the chef the actor danced ate wrote ran
+qwen3-30b-a3b-think,LRM,qwen,19,the house the chef the singer the pilot ate wrote ran jumped
+qwen3-30b-a3b-think,LRM,qwen,20,the cat the dog the book the tree runs jumps eats sleeps
+qwen3-30b-a3b-think,LRM,qwen,20,the sun the moon the star the planet rises sets shines glows
+qwen3-30b-a3b-think,LRM,qwen,20,the river the mountain the forest the lake flows climbs flows glides
+qwen3-30b-a3b-think,LRM,qwen,20,the car the train the plane the boat moves flies drives floats
+qwen3-30b-a3b-think,LRM,qwen,20,the apple the banana the orange the pear tastes sweet juicy fresh
+qwen3-30b-a3b-think,LRM,qwen,22,The architect the designer the designer the designer creates creates creates creates
+qwen3-30b-a3b-think,LRM,qwen,22,The engineer the builder the builder the builder constructs constructs constructs constructs
+qwen3-30b-a3b-think,LRM,qwen,22,The teacher the mentor the mentor the mentor guides guides guides guides
+qwen3-30b-a3b-think,LRM,qwen,22,The scientist the researcher the researcher the researcher discovers discovers discovers discovers
+qwen3-30b-a3b-think,LRM,qwen,22,The writer the author the author the author writes writes writes writes
+qwen3-30b-a3b-think,LRM,qwen,23,the cat the dog the bird the fish ran jumped flew ate.
+qwen3-30b-a3b-think,LRM,qwen,23,the apple the orange the banana the grape rolled bounced skipped tasted.
+qwen3-30b-a3b-think,LRM,qwen,23,the car the train the plane the boat drove zoomed soared docked.
+qwen3-30b-a3b-think,LRM,qwen,23,the book the pen the paper the desk opened closed wrote typed.
+qwen3-30b-a3b-think,LRM,qwen,23,the sun the moon the star the planet rose set shone glowed.
+qwen3-30b-a3b-think,LRM,qwen,25,the cat the knight the knight the knight swords dances sings dances
+qwen3-30b-a3b-think,LRM,qwen,25,the cat the knight the knight the knight fights jumps laughs shouts
+qwen3-30b-a3b-think,LRM,qwen,25,the cat the knight the knight the knight flies glides chirps tweets
+qwen3-30b-a3b-think,LRM,qwen,25,the cat the knight the knight the knight scurries hides squeaks eats
+qwen3-30b-a3b-think,LRM,qwen,25,the cat the knight the knight the knight swims dives glides sings
+qwen3-30b-a3b-think,LRM,qwen,26,the startup the CEO the CTO the CFO launched innovated expanded secured.
+qwen3-30b-a3b-think,LRM,qwen,26,the corporation the founder the engineer the designer developed collaborated implemented optimized.
+qwen3-30b-a3b-think,LRM,qwen,26,the firm the director the strategist the analyst launched grew achieved expanded.
+qwen3-30b-a3b-think,LRM,qwen,26,the enterprise the head the manager the HR secured innovated implemented grew.
+qwen3-30b-a3b-think,LRM,qwen,26,the organization the leader the executive the operations achieved launched collaborated optimized.
+qwen3-30b-a3b-think,LRM,qwen,28,the cat the doctor the teacher the engineer runs jumps sings dances.
+qwen3-30b-a3b-think,LRM,qwen,28,the book the chef the artist the writer flips turns reads writes.
+qwen3-30b-a3b-think,LRM,qwen,28,the car the pilot the nurse the plumber drives fixes starts stops.
+qwen3-30b-a3b-think,LRM,qwen,28,the tree the gardener the scientist the photographer grows shades blooms sways.
+qwen3-30b-a3b-think,LRM,qwen,28,the dog the actor the singer the dancer barks howls twirls leaps.
+qwen3-30b-a3b-think,LRM,qwen,30,the dog the cat the bird the fish ran ran jumped jumped.
+qwen3-30b-a3b-think,LRM,qwen,30,the sun the moon the star the planet rose rose shone shone.
+qwen3-30b-a3b-think,LRM,qwen,30,the river the mountain the forest the lake flowed flowed grew grew.
+qwen3-30b-a3b-think,LRM,qwen,30,the book the pen the paper the desk wrote wrote read read.
+qwen3-30b-a3b-think,LRM,qwen,30,the car the train the plane the boat moved moved flew flew.

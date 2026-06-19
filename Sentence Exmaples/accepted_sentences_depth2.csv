@@ -1,0 +1,883 @@
+model,type,family,run_idx,sentence
+claude-sonnet-4.6,LLM,claude,2,The dog that the boy found barked.
+claude-sonnet-4.6,LLM,claude,3,The students the professor challenged thrived academically.
+claude-sonnet-4.6,LLM,claude,3,The athlete the coaches selected performed flawlessly.
+claude-sonnet-4.6,LLM,claude,4,A flower the gardener planted overnight bloomed.
+claude-sonnet-4.6,LLM,claude,8,The students the professor challenged daily succeeded.
+claude-sonnet-4.6,LLM,claude,8,The singer the crowd adored endlessly disappeared.
+claude-sonnet-4.6,LLM,claude,8,The plan the committee discussed thoroughly failed.
+claude-sonnet-4.6,LLM,claude,9,A dog the neighbors owned barked.
+claude-sonnet-4.6,LLM,claude,10,The cat the neighbor feeds sleeps.
+claude-sonnet-4.6,LLM,claude,10,The book the scholar wrote disappeared.
+claude-sonnet-4.6,LLM,claude,10,The bridge the engineers built collapsed.
+claude-sonnet-4.6,LLM,claude,10,The song the children sang echoed.
+claude-sonnet-4.6,LLM,claude,10,The painting the artist created survived.
+claude-sonnet-4.6,LLM,claude,13,The novel that the editor reviewed yesterday sold.
+claude-sonnet-4.6,LLM,claude,13,The report that the committee examined carefully disappeared.
+claude-sonnet-4.6,LLM,claude,13,The sculpture that the designer crafted overnight crumbled.
+claude-sonnet-4.6,LLM,claude,15,The patient that the doctor examined yesterday recovered.
+claude-sonnet-4.6,LLM,claude,15,The manuscript that the editor reviewed carefully disappeared.
+claude-sonnet-4.6,LLM,claude,15,The painting that the artist restored completely vanished.
+claude-sonnet-4.6,LLM,claude,15,The athlete that the coach trained rigorously excelled.
+claude-sonnet-4.6,LLM,claude,15,The building that the architect designed eventually collapsed.
+claude-sonnet-4.6,LLM,claude,16,The book the scholar read crumbled.
+claude-sonnet-4.6,LLM,claude,16,The cake the baker made disappeared.
+claude-sonnet-4.6,LLM,claude,16,The bridge the engineer built collapsed.
+claude-sonnet-4.6,LLM,claude,16,The song the musician wrote resonated.
+claude-sonnet-4.6,LLM,claude,16,The garden the gardener planted flourished.
+claude-sonnet-4.6,LLM,claude,17,The student the professor praised graduated early.
+claude-sonnet-4.6,LLM,claude,18,The patient that the surgeon operated on recovered.
+claude-sonnet-4.6,LLM,claude,18,The manuscript that the editor revised circulated.
+claude-sonnet-4.6,LLM,claude,18,The building that the architect designed stood.
+claude-sonnet-4.6,LLM,claude,18,The athlete that the coach trained competed.
+claude-sonnet-4.6,LLM,claude,18,The painting that the restorer preserved survived.
+claude-sonnet-4.6,LLM,claude,19,The dog that the boy chased disappeared.
+claude-sonnet-4.6,LLM,claude,19,The letter that the lawyer drafted arrived.
+claude-sonnet-4.6,LLM,claude,19,The bird that the cat startled fled.
+claude-sonnet-4.6,LLM,claude,19,The ship that the storm damaged sank.
+claude-sonnet-4.6,LLM,claude,20,The bridge that the engineers reinforced eventually collapsed.
+claude-sonnet-4.6,LLM,claude,20,The tree that the storm uprooted slowly decayed.
+claude-sonnet-4.6,LLM,claude,20,The car that the mechanic repaired finally stopped.
+claude-sonnet-4.6,LLM,claude,20,The painting that the artist restored gradually faded.
+claude-sonnet-4.6,LLM,claude,21,The dog the child frightened whimpered.
+claude-sonnet-4.6,LLM,claude,21,The bird the cat chased escaped.
+claude-sonnet-4.6,LLM,claude,21,The man the crowd surrounded trembled.
+claude-sonnet-4.6,LLM,claude,21,The deer the hunter spotted fled.
+claude-sonnet-4.6,LLM,claude,21,The child the teacher praised beamed.
+claude-sonnet-4.6,LLM,claude,23,The song the choir performed beautifully echoed.
+claude-sonnet-4.6,LLM,claude,23,The flower the gardener planted daily bloomed.
+claude-sonnet-4.6,LLM,claude,25,The book that the student read glowed.
+claude-sonnet-4.6,LLM,claude,25,The song that the choir performed echoed.
+claude-sonnet-4.6,LLM,claude,25,The bridge that the engineers built trembled.
+claude-sonnet-4.6,LLM,claude,25,The fire that the firefighters extinguished smoldered.
+claude-sonnet-4.6,LLM,claude,25,The cake that the baker decorated disappeared.
+claude-sonnet-4.6,LLM,claude,26,The dog that the child chased barked.
+claude-sonnet-4.6,LLM,claude,26,The flower that the gardener planted bloomed.
+claude-sonnet-4.6,LLM,claude,26,The bird that the cat startled flew.
+claude-sonnet-4.6,LLM,claude,26,The man that the crowd followed stumbled.
+claude-sonnet-4.6,LLM,claude,26,The candle that the wind touched flickered.
+claude-sonnet-4.6,LLM,claude,29,The letter that the soldier wrote trembled.
+claude-sonnet-4.6,LLM,claude,29,The cake that the children baked disappeared.
+claude-sonnet-4.6,LLM,claude,29,The bridge that the engineers designed collapsed.
+claude-sonnet-4.6,LLM,claude,29,The song that the choir performed echoed.
+claude-sonnet-4.6,LLM,claude,29,The painting that the artist created survived.
+claude-sonnet-4.6,LLM,claude,30,The patient that the surgeon examined recovered.
+claude-sonnet-4.6,LLM,claude,30,The manuscript that the editor reviewed circulated.
+claude-sonnet-4.6,LLM,claude,30,The bridge that the engineer inspected collapsed.
+claude-sonnet-4.6,LLM,claude,30,The defendant that the lawyer represented fled.
+claude-sonnet-4.6,LLM,claude,30,The painting that the curator restored deteriorated.
+claude-sonnet-4.6-think,LRM,claude,1,The rat the cat chased ran.
+claude-sonnet-4.6-think,LRM,claude,1,The dog the child startled barked.
+claude-sonnet-4.6-think,LRM,claude,1,The deer the wolf stalked fled.
+claude-sonnet-4.6-think,LRM,claude,1,The fish the heron hunted escaped.
+claude-sonnet-4.6-think,LRM,claude,1,The bird the hawk pursued disappeared.
+claude-sonnet-4.6-think,LRM,claude,2,The cake the chef baked disappeared.
+claude-sonnet-4.6-think,LRM,claude,2,The letter the secretary typed arrived.
+claude-sonnet-4.6-think,LRM,claude,2,The book the student borrowed vanished.
+claude-sonnet-4.6-think,LRM,claude,2,The cat the dog chased fled.
+claude-sonnet-4.6-think,LRM,claude,2,The report the manager reviewed circulated.
+claude-sonnet-4.6-think,LRM,claude,3,The cat the dog chased ran.
+claude-sonnet-4.6-think,LRM,claude,3,The book the student read disappeared.
+claude-sonnet-4.6-think,LRM,claude,3,The cake the chef baked vanished.
+claude-sonnet-4.6-think,LRM,claude,3,The car the mechanic fixed broke.
+claude-sonnet-4.6-think,LRM,claude,3,The letter the lawyer wrote arrived.
+claude-sonnet-4.6-think,LRM,claude,8,The cat the dog chased fled.
+claude-sonnet-4.6-think,LRM,claude,8,The book the student read disappeared.
+claude-sonnet-4.6-think,LRM,claude,8,The car the mechanic fixed broke down.
+claude-sonnet-4.6-think,LRM,claude,8,The letter the secretary typed arrived.
+claude-sonnet-4.6-think,LRM,claude,8,The fish the cat caught escaped.
+claude-sonnet-4.6-think,LRM,claude,10,The book the student read disappeared.
+claude-sonnet-4.6-think,LRM,claude,10,The cake the chef baked vanished.
+claude-sonnet-4.6-think,LRM,claude,10,The letter the spy wrote burned.
+claude-sonnet-4.6-think,LRM,claude,10,The car the mechanic fixed stalled.
+claude-sonnet-4.6-think,LRM,claude,10,The painting the artist sold returned.
+claude-sonnet-4.6-think,LRM,claude,11,The book the teacher recommended disappeared.
+claude-sonnet-4.6-think,LRM,claude,11,The letter the soldier wrote survived.
+claude-sonnet-4.6-think,LRM,claude,11,The painting the artist created sold.
+claude-sonnet-4.6-think,LRM,claude,11,The plan the manager proposed failed.
+claude-sonnet-4.6-think,LRM,claude,11,The song the musician composed enchanted.
+claude-sonnet-4.6-think,LRM,claude,12,The bridge the engineer inspected collapsed overnight.
+claude-sonnet-4.6-think,LRM,claude,13,The cake the chef baked disappeared.
+claude-sonnet-4.6-think,LRM,claude,13,The letter the secretary typed vanished.
+claude-sonnet-4.6-think,LRM,claude,13,The dog the neighbor owned escaped.
+claude-sonnet-4.6-think,LRM,claude,13,The painting the artist created crumbled.
+claude-sonnet-4.6-think,LRM,claude,13,The book the student borrowed reappeared.
+claude-sonnet-4.6-think,LRM,claude,15,The cake the baker made disappeared.
+claude-sonnet-4.6-think,LRM,claude,15,The bridge the engineer designed collapsed.
+claude-sonnet-4.6-think,LRM,claude,15,The plan the team proposed failed.
+claude-sonnet-4.6-think,LRM,claude,15,The car the mechanic fixed stalled.
+claude-sonnet-4.6-think,LRM,claude,15,The painting the artist created sold.
+claude-sonnet-4.6-think,LRM,claude,17,The cat the dog chased ran.
+claude-sonnet-4.6-think,LRM,claude,17,The book the student read disappeared.
+claude-sonnet-4.6-think,LRM,claude,17,The cake the chef baked vanished.
+claude-sonnet-4.6-think,LRM,claude,17,The ball the child kicked flew.
+claude-sonnet-4.6-think,LRM,claude,17,The letter the teacher graded arrived.
+claude-sonnet-4.6-think,LRM,claude,18,The report that the analyst prepared vanished.
+claude-sonnet-4.6-think,LRM,claude,18,The bridge that the engineers designed collapsed.
+claude-sonnet-4.6-think,LRM,claude,18,The letter that the secretary typed disappeared.
+claude-sonnet-4.6-think,LRM,claude,18,The sculpture that the artist carved crumbled.
+claude-sonnet-4.6-think,LRM,claude,18,The house that the family built burned.
+claude-sonnet-4.6-think,LRM,claude,20,The book the student read disappeared.
+claude-sonnet-4.6-think,LRM,claude,20,The cake the chef baked vanished.
+claude-sonnet-4.6-think,LRM,claude,20,The painting the artist created survived.
+claude-sonnet-4.6-think,LRM,claude,20,The letter the spy wrote resurfaced.
+claude-sonnet-4.6-think,LRM,claude,20,The song the musician composed endured.
+claude-sonnet-4.6-think,LRM,claude,21,The rat the cat chased ran.
+claude-sonnet-4.6-think,LRM,claude,21,The cake the chef baked disappeared.
+claude-sonnet-4.6-think,LRM,claude,21,The book the student read vanished.
+claude-sonnet-4.6-think,LRM,claude,21,The letter the lawyer wrote arrived.
+claude-sonnet-4.6-think,LRM,claude,21,The dog the man trained escaped.
+claude-sonnet-4.6-think,LRM,claude,24,The bridge that the engineers inspected collapsed overnight.
+claude-sonnet-4.6-think,LRM,claude,25,The cake the baker prepared vanished.
+claude-sonnet-4.6-think,LRM,claude,25,The letter the secretary typed arrived.
+claude-sonnet-4.6-think,LRM,claude,25,The painting the artist created disappeared.
+claude-sonnet-4.6-think,LRM,claude,25,The mouse the cat chased escaped.
+claude-sonnet-4.6-think,LRM,claude,25,The report the analyst compiled surfaced.
+claude-sonnet-4.6-think,LRM,claude,26,The deer the hunters chased fled.
+claude-sonnet-4.6-think,LRM,claude,26,The cake the chef baked disappeared.
+claude-sonnet-4.6-think,LRM,claude,26,The letter the student wrote vanished.
+claude-sonnet-4.6-think,LRM,claude,26,The ball the children kicked rolled.
+claude-sonnet-4.6-think,LRM,claude,26,The book the professor recommended sold.
+claude-sonnet-4.6-think,LRM,claude,27,The rat the cat chased fled.
+claude-sonnet-4.6-think,LRM,claude,27,The cake the baker made disappeared.
+claude-sonnet-4.6-think,LRM,claude,27,The car the mechanic fixed stalled.
+claude-sonnet-4.6-think,LRM,claude,27,The letter the teacher wrote arrived.
+claude-sonnet-4.6-think,LRM,claude,27,The book the student borrowed vanished.
+claude-sonnet-4.6-think,LRM,claude,28,The dog the cat chased ran.
+claude-sonnet-4.6-think,LRM,claude,28,The book the student read disappeared.
+claude-sonnet-4.6-think,LRM,claude,28,The cake the chef baked vanished.
+claude-sonnet-4.6-think,LRM,claude,28,The letter the secretary typed arrived.
+claude-sonnet-4.6-think,LRM,claude,28,The car the mechanic fixed stalled.
+claude-sonnet-4.6-think,LRM,claude,30,The book that the professor recommended disappeared.
+claude-sonnet-4.6-think,LRM,claude,30,The dog that the child frightened ran away.
+claude-sonnet-4.6-think,LRM,claude,30,The letter that the secretary typed arrived.
+claude-sonnet-4.6-think,LRM,claude,30,The witness that the lawyer questioned trembled.
+claude-sonnet-4.6-think,LRM,claude,30,The athlete that the coach trained excelled.
+deepseek-r1,LRM,deepseek,1,The cat the mouse chased slept.
+deepseek-r1,LRM,deepseek,1,The wind the leaves scattered howled.
+deepseek-r1,LRM,deepseek,1,The chef the dough kneaded laughed.
+deepseek-r1,LRM,deepseek,1,The child the toy broke cried.
+deepseek-r1,LRM,deepseek,1,The storm the ship sank passed.
+deepseek-r1,LRM,deepseek,2,The ball the child kicked bounced.
+deepseek-r1,LRM,deepseek,2,The door the wind slammed creaked.
+deepseek-r1,LRM,deepseek,2,The cake the baker baked cooled.
+deepseek-r1,LRM,deepseek,2,The letter the secretary typed disappeared.
+deepseek-r1,LRM,deepseek,2,The bird the cat chased flew.
+deepseek-r1,LRM,deepseek,3,The dog the child saw barked.
+deepseek-r1,LRM,deepseek,3,The cake the baker baked delighted.
+deepseek-r1,LRM,deepseek,3,The book the student read inspired.
+deepseek-r1,LRM,deepseek,3,The song the audience heard resonated.
+deepseek-r1,LRM,deepseek,3,The painting the artist created sold.
+deepseek-r1,LRM,deepseek,4,The dog the cat chased barked.
+deepseek-r1,LRM,deepseek,4,The book the student read fell.
+deepseek-r1,LRM,deepseek,4,The car the mechanic fixed started.
+deepseek-r1,LRM,deepseek,4,The cake the baker baked tasted.
+deepseek-r1,LRM,deepseek,4,The song the band played ended.
+deepseek-r1,LRM,deepseek,5,The dog the ball fetched rolled.
+deepseek-r1,LRM,deepseek,5,The cat the mouse chased escaped.
+deepseek-r1,LRM,deepseek,5,The wind the leaves blew scattered.
+deepseek-r1,LRM,deepseek,5,The car the mechanic fixed started.
+deepseek-r1,LRM,deepseek,5,The boy the girl helped smiled.
+deepseek-r1,LRM,deepseek,6,The dog the cat chased escaped.
+deepseek-r1,LRM,deepseek,6,The cake the baker baked burned.
+deepseek-r1,LRM,deepseek,6,The ball the child kicked rolled.
+deepseek-r1,LRM,deepseek,6,The door the wind opened slammed.
+deepseek-r1,LRM,deepseek,6,The letter the postman delivered arrived.
+deepseek-r1,LRM,deepseek,7,The cat the moon chases glows.
+deepseek-r1,LRM,deepseek,7,The wind the leaves carries rustles.
+deepseek-r1,LRM,deepseek,7,The child the ball kicks rolls.
+deepseek-r1,LRM,deepseek,7,The chef the sauce stirs simmers.
+deepseek-r1,LRM,deepseek,7,The wave the shore crashes recedes.
+deepseek-r1,LRM,deepseek,8,The dog the cat chase jump.
+deepseek-r1,LRM,deepseek,8,The wind the leaves rustle scatter.
+deepseek-r1,LRM,deepseek,8,The chef the meal prepare serve.
+deepseek-r1,LRM,deepseek,8,The rain the roof tap drum.
+deepseek-r1,LRM,deepseek,8,The child the toy build create.
+deepseek-r1,LRM,deepseek,9,The dog the children rescued barked loudly.
+deepseek-r1,LRM,deepseek,10,The dog the cat chased escaped.
+deepseek-r1,LRM,deepseek,10,The cake the baker baked rose.
+deepseek-r1,LRM,deepseek,10,The ball the child threw bounced.
+deepseek-r1,LRM,deepseek,10,The door the wind blew slammed.
+deepseek-r1,LRM,deepseek,10,The song the band played ended.
+deepseek-r1,LRM,deepseek,11,The cat the dog chases runs.
+deepseek-r1,LRM,deepseek,11,The sun the moon orbits sets.
+deepseek-r1,LRM,deepseek,11,The book the child reads teaches.
+deepseek-r1,LRM,deepseek,11,The wind the leaves scatter blows.
+deepseek-r1,LRM,deepseek,11,The chef the food prepares serves.
+deepseek-r1,LRM,deepseek,12,The dog the cat chases barks.
+deepseek-r1,LRM,deepseek,12,The book the student reads fascinates.
+deepseek-r1,LRM,deepseek,12,The cake the baker decorates delights.
+deepseek-r1,LRM,deepseek,12,The car the mechanic fixes runs.
+deepseek-r1,LRM,deepseek,12,The song the choir performs inspires.
+deepseek-r1,LRM,deepseek,13,the cat the mouse chased pounced.
+deepseek-r1,LRM,deepseek,13,the wind the leaves blew scattered.
+deepseek-r1,LRM,deepseek,13,the chef the meal prepared served.
+deepseek-r1,LRM,deepseek,13,the rain the roof pounded leaked.
+deepseek-r1,LRM,deepseek,13,the child the toy broke cried.
+deepseek-r1,LRM,deepseek,14,The cat the ball chased bounced.
+deepseek-r1,LRM,deepseek,14,The book the shelf fell landed.
+deepseek-r1,LRM,deepseek,14,The car the hill rolled stopped.
+deepseek-r1,LRM,deepseek,14,The sun the clouds shone disappeared.
+deepseek-r1,LRM,deepseek,14,The dog the stick fetched dropped.
+deepseek-r1,LRM,deepseek,15,The storm the ship tossed sank.
+deepseek-r1,LRM,deepseek,15,The chef the cake baked decorated.
+deepseek-r1,LRM,deepseek,15,The teacher the students taught inspired.
+deepseek-r1,LRM,deepseek,15,The dog the ball fetched returned.
+deepseek-r1,LRM,deepseek,15,The sun the ice melted dripped.
+deepseek-r1,LRM,deepseek,16,the dog the ball chased bounced.
+deepseek-r1,LRM,deepseek,16,the wind the leaves scattered swirled.
+deepseek-r1,LRM,deepseek,16,the chef the meal prepared served.
+deepseek-r1,LRM,deepseek,16,the rain the roof leaked damaged.
+deepseek-r1,LRM,deepseek,16,the child the toy broke cried.
+deepseek-r1,LRM,deepseek,17,the ball the child threw bounced.
+deepseek-r1,LRM,deepseek,17,the door the wind slammed rattled.
+deepseek-r1,LRM,deepseek,17,the cake the baker decorated collapsed.
+deepseek-r1,LRM,deepseek,17,the letter the mailman delivered vanished.
+deepseek-r1,LRM,deepseek,17,the song the singer performed echoed.
+deepseek-r1,LRM,deepseek,18,The dog the man fed barked.
+deepseek-r1,LRM,deepseek,18,The cake the baker made sold.
+deepseek-r1,LRM,deepseek,18,The car the mechanic fixed started.
+deepseek-r1,LRM,deepseek,18,The book the child read fell.
+deepseek-r1,LRM,deepseek,18,The cat the woman petted purred.
+deepseek-r1,LRM,deepseek,19,The dog the ball chased fetched.
+deepseek-r1,LRM,deepseek,19,The wind the leaves scattered piled.
+deepseek-r1,LRM,deepseek,19,The chef the meal prepared served.
+deepseek-r1,LRM,deepseek,19,The storm the roof damaged leaked.
+deepseek-r1,LRM,deepseek,19,The child the toy dropped cried.
+deepseek-r1,LRM,deepseek,20,the cat the dog chased barked.
+deepseek-r1,LRM,deepseek,20,the wind the leaves rustled fell.
+deepseek-r1,LRM,deepseek,20,the sun the clouds hid vanished.
+deepseek-r1,LRM,deepseek,20,the clock the time ticked stopped.
+deepseek-r1,LRM,deepseek,20,the storm the waves crashed receded.
+deepseek-r1,LRM,deepseek,22,The dog the trainer taught obeyed.
+deepseek-r1,LRM,deepseek,22,The cake the baker decorated collapsed.
+deepseek-r1,LRM,deepseek,22,The letter the secretary typed vanished.
+deepseek-r1,LRM,deepseek,22,The car the mechanic fixed stalled.
+deepseek-r1,LRM,deepseek,22,The book the author published sold.
+deepseek-r1,LRM,deepseek,23,The cake the baker burned crumbled.
+deepseek-r1,LRM,deepseek,23,The ball the child kicked bounced.
+deepseek-r1,LRM,deepseek,23,The letter the secretary typed vanished.
+deepseek-r1,LRM,deepseek,23,The window the storm shattered leaked.
+deepseek-r1,LRM,deepseek,23,The song the audience requested ended.
+deepseek-r1,LRM,deepseek,24,The cat the mouse chased pounced.
+deepseek-r1,LRM,deepseek,24,The storm the ship capsized sank.
+deepseek-r1,LRM,deepseek,24,The chef the cake baked frosted.
+deepseek-r1,LRM,deepseek,24,The wind the leaves scattered piled.
+deepseek-r1,LRM,deepseek,24,The king the decree announced enforced.
+deepseek-r1,LRM,deepseek,25,The bird the cat chased flew away.
+deepseek-r1,LRM,deepseek,25,The door the wind opened slammed shut.
+deepseek-r1,LRM,deepseek,25,The cake the baker baked disappeared quickly.
+deepseek-r1,LRM,deepseek,25,The ball the child kicked rolled far.
+deepseek-r1,LRM,deepseek,26,the dog the ball chased fetched.
+deepseek-r1,LRM,deepseek,26,the cat the mouse saw hid.
+deepseek-r1,LRM,deepseek,26,the wind the leaves scattered piled.
+deepseek-r1,LRM,deepseek,26,the chef the meal prepared served.
+deepseek-r1,LRM,deepseek,26,the storm the roof damaged leaked.
+deepseek-r1,LRM,deepseek,27,the cat the dog chased escaped.
+deepseek-r1,LRM,deepseek,27,the ball the child kicked rolled.
+deepseek-r1,LRM,deepseek,27,the door the wind blew slammed.
+deepseek-r1,LRM,deepseek,27,the cake the baker baked sold.
+deepseek-r1,LRM,deepseek,27,the book the author wrote published.
+deepseek-r1,LRM,deepseek,28,The dog the mailman chased barked.
+deepseek-r1,LRM,deepseek,28,The cake the baker made tasted delicious.
+deepseek-r1,LRM,deepseek,28,The book the student read fell.
+deepseek-r1,LRM,deepseek,28,The car the mechanic fixed started.
+deepseek-r1,LRM,deepseek,28,The painting the artist created sold quickly.
+deepseek-r1,LRM,deepseek,29,The storm the house destroyed flooded.
+deepseek-r1,LRM,deepseek,29,The cat the mouse chased escaped.
+deepseek-r1,LRM,deepseek,29,The wind the leaves scattered piled.
+deepseek-r1,LRM,deepseek,29,The chef the meal prepared served.
+deepseek-r1,LRM,deepseek,29,The wave the boat rocked sank.
+deepseek-r1,LRM,deepseek,30,The cat the dog chased jumped.
+deepseek-r1,LRM,deepseek,30,The ball the child kicked rolled.
+deepseek-r1,LRM,deepseek,30,The cake the baker decorated sold.
+deepseek-r1,LRM,deepseek,30,The car the mechanic fixed started.
+deepseek-r1,LRM,deepseek,30,The book the student read fell.
+deepseek-v3,LLM,deepseek,1,the cat the baker chase jump
+deepseek-v3,LLM,deepseek,1,the book the teacher read discuss
+deepseek-v3,LLM,deepseek,1,the cake the chef bake decorate
+deepseek-v3,LLM,deepseek,1,the car the mechanic repair test
+deepseek-v3,LLM,deepseek,1,the painting the artist create admire
+deepseek-v3,LLM,deepseek,2,the chef the knife chop slice
+deepseek-v3,LLM,deepseek,2,the gardener the shovel dig plant
+deepseek-v3,LLM,deepseek,2,the painter the brush stroke blend
+deepseek-v3,LLM,deepseek,2,the carpenter the hammer nail build
+deepseek-v3,LLM,deepseek,2,the writer the pen write edit
+deepseek-v3,LLM,deepseek,6,the artist the painter creates inspires.
+deepseek-v3,LLM,deepseek,6,the musician the composer writes performs.
+deepseek-v3,LLM,deepseek,6,the teacher the educator explains motivates.
+deepseek-v3,LLM,deepseek,6,the chef the baker kneads bakes.
+deepseek-v3,LLM,deepseek,6,the engineer the designer drafts builds.
+deepseek-v3,LLM,deepseek,7,the book the teacher read wrote
+deepseek-v3,LLM,deepseek,7,the car the mechanic fixed painted
+deepseek-v3,LLM,deepseek,7,the cake the baker baked decorated
+deepseek-v3,LLM,deepseek,7,the house the architect designed built
+deepseek-v3,LLM,deepseek,7,the song the musician composed performed
+deepseek-v3,LLM,deepseek,10,The chef the writer cooked wrote.
+deepseek-v3,LLM,deepseek,10,The doctor the musician healed played.
+deepseek-v3,LLM,deepseek,10,The teacher the artist taught painted.
+deepseek-v3,LLM,deepseek,10,The engineer the gardener built planted.
+deepseek-v3,LLM,deepseek,10,The pilot the photographer flew captured.
+deepseek-v3,LLM,deepseek,11,The hammer the carpenter gripped tightened.
+deepseek-v3,LLM,deepseek,11,The brush the painter applied smoothed.
+deepseek-v3,LLM,deepseek,11,The scalpel the surgeon held sliced.
+deepseek-v3,LLM,deepseek,11,The wrench the mechanic twisted loosened.
+deepseek-v3,LLM,deepseek,11,The pen the writer dipped scribbled.
+deepseek-v3,LLM,deepseek,12,The cat the mouse chased ran.
+deepseek-v3,LLM,deepseek,12,The chef the cake baked decorated.
+deepseek-v3,LLM,deepseek,12,The dog the ball fetched returned.
+deepseek-v3,LLM,deepseek,12,The teacher the lesson taught explained.
+deepseek-v3,LLM,deepseek,12,The wind the leaves blew scattered.
+deepseek-v3,LLM,deepseek,14,the cat the dog chase bark
+deepseek-v3,LLM,deepseek,14,the teacher the student teach learn
+deepseek-v3,LLM,deepseek,14,the chef the meal prepare serve
+deepseek-v3,LLM,deepseek,14,the wind the leaves rustle fall
+deepseek-v3,LLM,deepseek,14,the sun the flowers bloom wilt
+deepseek-v3,LLM,deepseek,15,The book the teacher assigned read.
+deepseek-v3,LLM,deepseek,15,The cake the baker made decorated.
+deepseek-v3,LLM,deepseek,15,The car the driver fixed repaired.
+deepseek-v3,LLM,deepseek,15,The song the musician composed performed.
+deepseek-v3,LLM,deepseek,15,The house the architect designed built.
+deepseek-v3,LLM,deepseek,17,The dog the boy saw barked loudly.
+deepseek-v3,LLM,deepseek,17,The cake the baker made tasted delicious.
+deepseek-v3,LLM,deepseek,17,The car the mechanic fixed ran smoothly.
+deepseek-v3,LLM,deepseek,17,The book the librarian recommended inspired readers.
+deepseek-v3,LLM,deepseek,18,The dog the child pets happiness.
+deepseek-v3,LLM,deepseek,18,The rain the garden nourishes calm.
+deepseek-v3,LLM,deepseek,18,The music the audience inspires joy.
+deepseek-v3,LLM,deepseek,18,The book the reader captivates curiosity.
+deepseek-v3,LLM,deepseek,18,The storm the town frightens fear.
+deepseek-v3,LLM,deepseek,20,The hammer the carpenter swung missed.
+deepseek-v3,LLM,deepseek,20,The brush the painter dropped rolled.
+deepseek-v3,LLM,deepseek,20,The scalpel the surgeon used slipped.
+deepseek-v3,LLM,deepseek,20,The pen the writer held clicked.
+deepseek-v3,LLM,deepseek,20,The wrench the mechanic tightened slipped.
+deepseek-v3,LLM,deepseek,22,the book the student read enjoyed
+deepseek-v3,LLM,deepseek,22,the car the driver repaired fixed
+deepseek-v3,LLM,deepseek,22,the cake the baker baked decorated
+deepseek-v3,LLM,deepseek,22,the painting the artist created admired
+deepseek-v3,LLM,deepseek,22,the song the musician composed performed
+deepseek-v3,LLM,deepseek,23,The cake the baker prepared rose.
+deepseek-v3,LLM,deepseek,23,The book the author wrote inspired.
+deepseek-v3,LLM,deepseek,23,The song the musician composed resonated.
+deepseek-v3,LLM,deepseek,23,The painting the artist created dazzled.
+deepseek-v3,LLM,deepseek,23,The meal the chef cooked satisfied.
+deepseek-v3,LLM,deepseek,24,The dog the cat chased barked.
+deepseek-v3,LLM,deepseek,24,The sun the clouds covered dimmed.
+deepseek-v3,LLM,deepseek,24,The book the child read fell.
+deepseek-v3,LLM,deepseek,24,The car the driver stopped honked.
+deepseek-v3,LLM,deepseek,24,The wind the leaves scattered blew.
+deepseek-v3,LLM,deepseek,27,The book that the author wrote captivates readers.
+deepseek-v3,LLM,deepseek,27,The car that the mechanic repaired runs smoothly.
+deepseek-v3,LLM,deepseek,29,The teacher the students admired started lecturing.
+deepseek-v3,LLM,deepseek,29,The dog the boy fed barked loudly.
+deepseek-v3,LLM,deepseek,29,The cake the baker decorated tasted delicious.
+gemini-3.5-flash,LLM,gemini,1,the cat the dog chased fled
+gemini-3.5-flash,LLM,gemini,1,the man the police caught smiled
+gemini-3.5-flash,LLM,gemini,1,the student the teacher helped triumphed
+gemini-3.5-flash,LLM,gemini,1,the boy the girl kicked cried
+gemini-3.5-flash,LLM,gemini,1,the horse the jockey rode collapsed
+gemini-3.5-flash,LLM,gemini,2,The cake the baker made collapsed.
+gemini-3.5-flash,LLM,gemini,2,The car the student bought stalled.
+gemini-3.5-flash,LLM,gemini,2,The book the author wrote disappeared.
+gemini-3.5-flash,LLM,gemini,2,The dog the family adopted barked.
+gemini-3.5-flash,LLM,gemini,2,The letter the girl sent arrived.
+gemini-3.5-flash,LLM,gemini,4,The dog the boy trained barked.
+gemini-3.5-flash,LLM,gemini,4,The ice the sun melted dripped.
+gemini-3.5-flash,LLM,gemini,4,The ship the storm battered sank.
+gemini-3.5-flash,LLM,gemini,4,A child a dog chased tripped.
+gemini-3.5-flash,LLM,gemini,4,The teacher the student watched smiled.
+gemini-3.5-flash,LLM,gemini,5,The dog the boy chased barked.
+gemini-3.5-flash,LLM,gemini,5,A car a mechanic fixed crashed.
+gemini-3.5-flash,LLM,gemini,5,The letter the woman wrote arrived.
+gemini-3.5-flash,LLM,gemini,5,A cat the girl held purred.
+gemini-3.5-flash,LLM,gemini,5,The bell the actor rang chimed.
+gemini-3.5-flash,LLM,gemini,6,The boy the dog bit ran.
+gemini-3.5-flash,LLM,gemini,6,The teacher the student annoyed resigned.
+gemini-3.5-flash,LLM,gemini,6,The driver the police stopped wept.
+gemini-3.5-flash,LLM,gemini,6,The actor the director praised bowed.
+gemini-3.5-flash,LLM,gemini,6,The baby the mother cradled slept.
+gemini-3.5-flash,LLM,gemini,8,The mouse the cat chased escaped.
+gemini-3.5-flash,LLM,gemini,8,The book the student read inspired.
+gemini-3.5-flash,LLM,gemini,8,The car the mechanic repaired broke.
+gemini-3.5-flash,LLM,gemini,8,The song the musician played ended.
+gemini-3.5-flash,LLM,gemini,8,The letter the postman delivered burned.
+gemini-3.5-flash,LLM,gemini,10,The dog the boy adopted escaped.
+gemini-3.5-flash,LLM,gemini,11,The child the dog chased tripped.
+gemini-3.5-flash,LLM,gemini,11,A cat the boy adopted slept.
+gemini-3.5-flash,LLM,gemini,11,The teacher a student called smiled.
+gemini-3.5-flash,LLM,gemini,11,A worker the boss hired quit.
+gemini-3.5-flash,LLM,gemini,11,The actor the director cast bowed.
+gemini-3.5-flash,LLM,gemini,12,The target the archer missed vanished.
+gemini-3.5-flash,LLM,gemini,12,The song the choir sang resonated.
+gemini-3.5-flash,LLM,gemini,13,The dog the cat chased ran.
+gemini-3.5-flash,LLM,gemini,13,The boy the girl helped smiled.
+gemini-3.5-flash,LLM,gemini,13,The man the woman called waved.
+gemini-3.5-flash,LLM,gemini,13,The bird the cat stalked flew.
+gemini-3.5-flash,LLM,gemini,13,The child the teacher praised blushed.
+gemini-3.5-flash,LLM,gemini,14,The child the puppy chased tripped.
+gemini-3.5-flash,LLM,gemini,14,The actor the director hired apologized.
+gemini-3.5-flash,LLM,gemini,14,The athlete the coach trained collapsed.
+gemini-3.5-flash,LLM,gemini,14,The student the teacher scolded cried.
+gemini-3.5-flash,LLM,gemini,14,The criminal the police pursued escaped.
+gemini-3.5-flash,LLM,gemini,15,The letter the boy wrote arrived.
+gemini-3.5-flash,LLM,gemini,15,The vase the cat broke shattered.
+gemini-3.5-flash,LLM,gemini,15,The flower the girl picked wilted.
+gemini-3.5-flash,LLM,gemini,15,The sun the clouds blocked reappeared.
+gemini-3.5-flash,LLM,gemini,15,The ice the sun melted dripped.
+gemini-3.5-flash,LLM,gemini,16,The dog the boy trained barked.
+gemini-3.5-flash,LLM,gemini,16,A car a man bought broke.
+gemini-3.5-flash,LLM,gemini,16,The horse a rider led stumbled.
+gemini-3.5-flash,LLM,gemini,17,The car the man bought broke.
+gemini-3.5-flash,LLM,gemini,17,The book the student read disappeared.
+gemini-3.5-flash,LLM,gemini,17,The food the chef prepared spoiled.
+gemini-3.5-flash,LLM,gemini,17,The song the band played ended.
+gemini-3.5-flash,LLM,gemini,17,The dog the boy chased escaped.
+gemini-3.5-flash,LLM,gemini,18,The mouse the cat chased ran.
+gemini-3.5-flash,LLM,gemini,18,The book the student read fell.
+gemini-3.5-flash,LLM,gemini,18,The ball the boy kicked rolled.
+gemini-3.5-flash,LLM,gemini,18,The man the dog bit cried.
+gemini-3.5-flash,LLM,gemini,18,The car the mechanic fixed broke.
+gemini-3.5-flash,LLM,gemini,19,The man the dog bit ran.
+gemini-3.5-flash,LLM,gemini,19,A cat the bird watched flew.
+gemini-3.5-flash,LLM,gemini,21,The cake the baker baked fell.
+gemini-3.5-flash,LLM,gemini,21,The letter the girl wrote arrived.
+gemini-3.5-flash,LLM,gemini,21,The dog the boy chased escaped.
+gemini-3.5-flash,LLM,gemini,21,The car the man bought broke.
+gemini-3.5-flash,LLM,gemini,21,The secret the friend kept leaked.
+gemini-3.5-flash,LLM,gemini,22,the dog the cat chased ran
+gemini-3.5-flash,LLM,gemini,22,the boy the girl helped smiled
+gemini-3.5-flash,LLM,gemini,22,the man the woman loved died
+gemini-3.5-flash,LLM,gemini,22,the bird the cat caught escaped
+gemini-3.5-flash,LLM,gemini,22,the actor the director praised bowed
+gemini-3.5-flash,LLM,gemini,23,The chef the meal prepared laughed.
+gemini-3.5-flash,LLM,gemini,23,A dog a bone chewed slept.
+gemini-3.5-flash,LLM,gemini,23,The wind the trees shook howled.
+gemini-3.5-flash,LLM,gemini,24,The boy the dog bit cried.
+gemini-3.5-flash,LLM,gemini,24,The horse the man rode tripped.
+gemini-3.5-flash,LLM,gemini,24,The thief the police caught confessed.
+gemini-3.5-flash,LLM,gemini,24,The glass the child dropped shattered.
+gemini-3.5-flash,LLM,gemini,24,The actor the director hired bowed.
+gemini-3.5-flash,LLM,gemini,25,The actor the director hired tripped.
+gemini-3.5-flash,LLM,gemini,25,The musician the audience applauded smiled.
+gemini-3.5-flash,LLM,gemini,25,The athlete the coach benched cried.
+gemini-3.5-flash,LLM,gemini,25,The kitten the family adopted slept.
+gemini-3.5-flash,LLM,gemini,25,The suspect the police chased fell.
+gemini-3.5-flash,LLM,gemini,27,The actor the director cast blushed.
+gemini-3.5-flash,LLM,gemini,27,The package the mailman delivered arrived.
+gemini-3.5-flash,LLM,gemini,27,The student the teacher praised smiled.
+gemini-3.5-flash,LLM,gemini,27,The runner the coach trained collapsed.
+gemini-3.5-flash,LLM,gemini,27,The bird the cat chased vanished.
+gemini-3.5-flash,LLM,gemini,28,the dog the cat chased ran
+gemini-3.5-flash,LLM,gemini,28,the man the child helped smiled
+gemini-3.5-flash,LLM,gemini,28,the player the coach selected cheered
+gemini-3.5-flash,LLM,gemini,28,the book the student read disappeared
+gemini-3.5-flash,LLM,gemini,28,the car the truck hit spun
+gemini-3.5-flash,LLM,gemini,29,The boy the dog chased tripped.
+gemini-3.5-flash,LLM,gemini,29,The artist the critic praised smiled.
+gemini-3.5-flash,LLM,gemini,29,The teacher the student thanked bowed.
+gemini-3.5-flash,LLM,gemini,29,The child the mother hugged laughed.
+gemini-3.5-flash,LLM,gemini,29,The suspect the police pursued escaped.
+gemini-3.5-flash,LLM,gemini,30,The letter the boy wrote disappeared.
+gemini-3.5-flash,LLM,gemini,30,The house the fire destroyed collapsed.
+gemini-3.5-flash,LLM,gemini,30,The path the guide chose vanished.
+gemini-3.5-flash,LLM,gemini,30,The toy the child broke fell.
+gemini-3.5-flash,LLM,gemini,30,The song the choir sang ended.
+gemini-3.5-flash-think,LRM,gemini,1,The boy the girl helped smiled.
+gemini-3.5-flash-think,LRM,gemini,1,The car the man bought crashed.
+gemini-3.5-flash-think,LRM,gemini,1,The bird the cat watched flew.
+gemini-3.5-flash-think,LRM,gemini,1,The student the teacher praised laughed.
+gemini-3.5-flash-think,LRM,gemini,1,The toy the child dropped fell.
+gemini-3.5-flash-think,LRM,gemini,2,The boy the girl saw waved.
+gemini-3.5-flash-think,LRM,gemini,2,The car the man bought vanished.
+gemini-3.5-flash-think,LRM,gemini,2,The book the teacher read fell.
+gemini-3.5-flash-think,LRM,gemini,2,The letter the woman wrote arrived.
+gemini-3.5-flash-think,LRM,gemini,2,The child the mother hugged smiled.
+gemini-3.5-flash-think,LRM,gemini,3,The cheese the mouse ate smelled.
+gemini-3.5-flash-think,LRM,gemini,3,The car the man bought broke.
+gemini-3.5-flash-think,LRM,gemini,3,The book the student wrote vanished.
+gemini-3.5-flash-think,LRM,gemini,3,The dog the boy found barked.
+gemini-3.5-flash-think,LRM,gemini,3,The ball the girl threw bounced.
+gemini-3.5-flash-think,LRM,gemini,4,The rat the cat chased died.
+gemini-3.5-flash-think,LRM,gemini,4,The dog the boy trained barked.
+gemini-3.5-flash-think,LRM,gemini,4,The glass the girl dropped fell.
+gemini-3.5-flash-think,LRM,gemini,4,The car the man drove stalled.
+gemini-3.5-flash-think,LRM,gemini,4,The bird the cat stalked escaped.
+gemini-3.5-flash-think,LRM,gemini,5,The cat the dog chased ran.
+gemini-3.5-flash-think,LRM,gemini,5,The toy the child broke fell.
+gemini-3.5-flash-think,LRM,gemini,5,The man the officer arrested escaped.
+gemini-3.5-flash-think,LRM,gemini,5,The bird the cat watched flew.
+gemini-3.5-flash-think,LRM,gemini,5,The glass the waiter dropped shattered.
+gemini-3.5-flash-think,LRM,gemini,6,The food the chef cooked spoiled.
+gemini-3.5-flash-think,LRM,gemini,6,The car the mechanic fixed stalled.
+gemini-3.5-flash-think,LRM,gemini,6,The dog the child adopted barked.
+gemini-3.5-flash-think,LRM,gemini,6,The letter the girl wrote arrived.
+gemini-3.5-flash-think,LRM,gemini,6,The toy the baby dropped broke.
+gemini-3.5-flash-think,LRM,gemini,7,The boy the girl saw slipped.
+gemini-3.5-flash-think,LRM,gemini,7,The car the man bought stalled.
+gemini-3.5-flash-think,LRM,gemini,7,The food the chef cooked spoiled.
+gemini-3.5-flash-think,LRM,gemini,7,The dog the child petted barked.
+gemini-3.5-flash-think,LRM,gemini,7,The ice the sun warmed melted.
+gemini-3.5-flash-think,LRM,gemini,8,The boy the girl helped smiled.
+gemini-3.5-flash-think,LRM,gemini,8,The bird the cat stalked flew.
+gemini-3.5-flash-think,LRM,gemini,8,The guest the host welcomed arrived.
+gemini-3.5-flash-think,LRM,gemini,8,The car the mechanic fixed stalled.
+gemini-3.5-flash-think,LRM,gemini,8,The athlete the coach trained triumphed.
+gemini-3.5-flash-think,LRM,gemini,10,The cat the dog chased ran.
+gemini-3.5-flash-think,LRM,gemini,10,The book the boy read fell.
+gemini-3.5-flash-think,LRM,gemini,10,The car the man bought broke.
+gemini-3.5-flash-think,LRM,gemini,10,The food the chef cooked spoiled.
+gemini-3.5-flash-think,LRM,gemini,10,The song the girl sang ended.
+gemini-3.5-flash-think,LRM,gemini,11,The toy the child lost disappeared.
+gemini-3.5-flash-think,LRM,gemini,11,The man the dog bit screamed.
+gemini-3.5-flash-think,LRM,gemini,11,The letter the woman wrote arrived.
+gemini-3.5-flash-think,LRM,gemini,11,The mouse the cat chased vanished.
+gemini-3.5-flash-think,LRM,gemini,11,The actor the director hired smiled.
+gemini-3.5-flash-think,LRM,gemini,12,The boy the girl liked waved.
+gemini-3.5-flash-think,LRM,gemini,12,The cake the baker made burned.
+gemini-3.5-flash-think,LRM,gemini,12,The book the author wrote sold.
+gemini-3.5-flash-think,LRM,gemini,12,The dog the man trained barked.
+gemini-3.5-flash-think,LRM,gemini,12,The car the mechanic fixed crashed.
+gemini-3.5-flash-think,LRM,gemini,13,The cat the dog chased ran.
+gemini-3.5-flash-think,LRM,gemini,13,The letter the boy wrote arrived.
+gemini-3.5-flash-think,LRM,gemini,13,The cake the baker made fell.
+gemini-3.5-flash-think,LRM,gemini,13,The ship the captain steered sank.
+gemini-3.5-flash-think,LRM,gemini,14,The ship the captain steered sank.
+gemini-3.5-flash-think,LRM,gemini,14,The phone the woman bought rang.
+gemini-3.5-flash-think,LRM,gemini,14,The student the teacher helped failed.
+gemini-3.5-flash-think,LRM,gemini,14,The bird the cat chased escaped.
+gemini-3.5-flash-think,LRM,gemini,14,The letter the boy wrote arrived.
+gemini-3.5-flash-think,LRM,gemini,15,The rat the cat chased died.
+gemini-3.5-flash-think,LRM,gemini,15,The letter the girl wrote arrived.
+gemini-3.5-flash-think,LRM,gemini,15,The ring the woman lost disappeared.
+gemini-3.5-flash-think,LRM,gemini,15,The man the woman hugged sighed.
+gemini-3.5-flash-think,LRM,gemini,15,The baby the mother held slept.
+gemini-3.5-flash-think,LRM,gemini,16,The rat the cat chased escaped.
+gemini-3.5-flash-think,LRM,gemini,16,The cake the baker made fell.
+gemini-3.5-flash-think,LRM,gemini,16,The toy the child dropped broke.
+gemini-3.5-flash-think,LRM,gemini,16,The letter the man wrote arrived.
+gemini-3.5-flash-think,LRM,gemini,16,The mouse the owl caught squeaked.
+gemini-3.5-flash-think,LRM,gemini,17,The toy the boy dropped fell.
+gemini-3.5-flash-think,LRM,gemini,17,The letter the girl wrote vanished.
+gemini-3.5-flash-think,LRM,gemini,17,The car the man drove disappeared.
+gemini-3.5-flash-think,LRM,gemini,17,The song the choir sang faded.
+gemini-3.5-flash-think,LRM,gemini,17,The dog the cat scratched barked.
+gemini-3.5-flash-think,LRM,gemini,18,the mouse the cat chased died.
+gemini-3.5-flash-think,LRM,gemini,18,the man the crowd pushed fell.
+gemini-3.5-flash-think,LRM,gemini,18,the bird the boy watched vanished.
+gemini-3.5-flash-think,LRM,gemini,18,the actor the director hired smiled.
+gemini-3.5-flash-think,LRM,gemini,18,the guest the host welcomed arrived.
+gemini-3.5-flash-think,LRM,gemini,19,The food the chef cooked spoiled.
+gemini-3.5-flash-think,LRM,gemini,19,The car the man drove crashed.
+gemini-3.5-flash-think,LRM,gemini,19,The book the girl read disappeared.
+gemini-3.5-flash-think,LRM,gemini,19,The dog the boy found barked.
+gemini-3.5-flash-think,LRM,gemini,19,The toy the baby held broke.
+gemini-3.5-flash-think,LRM,gemini,20,The dog the boy walked barked.
+gemini-3.5-flash-think,LRM,gemini,20,The car the man drove crashed.
+gemini-3.5-flash-think,LRM,gemini,20,The book the teacher assigned helped.
+gemini-3.5-flash-think,LRM,gemini,20,The food the chef cooked burned.
+gemini-3.5-flash-think,LRM,gemini,20,The house the family built collapsed.
+gemini-3.5-flash-think,LRM,gemini,21,The baby the mother held slept.
+gemini-3.5-flash-think,LRM,gemini,21,The book the teacher recommended vanished.
+gemini-3.5-flash-think,LRM,gemini,21,The train the engineer drove arrived.
+gemini-3.5-flash-think,LRM,gemini,21,The vase the cat nudged fell.
+gemini-3.5-flash-think,LRM,gemini,21,The letter the girl wrote disappeared.
+gemini-3.5-flash-think,LRM,gemini,22,The boy the girl saw waved.
+gemini-3.5-flash-think,LRM,gemini,22,The car the man bought crashed.
+gemini-3.5-flash-think,LRM,gemini,22,The cake the child baked burned.
+gemini-3.5-flash-think,LRM,gemini,22,The thief the cop chased escaped.
+gemini-3.5-flash-think,LRM,gemini,22,The letter the woman wrote arrived.
+gemini-3.5-flash-think,LRM,gemini,23,The prisoner the guard watched escaped.
+gemini-3.5-flash-think,LRM,gemini,23,The letter the woman wrote arrived.
+gemini-3.5-flash-think,LRM,gemini,23,The baby the mother held slept.
+gemini-3.5-flash-think,LRM,gemini,23,The cake the baker made vanished.
+gemini-3.5-flash-think,LRM,gemini,23,The guest the host greeted smiled.
+gemini-3.5-flash-think,LRM,gemini,24,The man the dog bit ran.
+gemini-3.5-flash-think,LRM,gemini,24,The boy the cat scratched cried.
+gemini-3.5-flash-think,LRM,gemini,24,The bird the cat chased flew.
+gemini-3.5-flash-think,LRM,gemini,24,The ball the boy kicked rolled.
+gemini-3.5-flash-think,LRM,gemini,24,The car the mechanic repaired started.
+gemini-3.5-flash-think,LRM,gemini,25,The dog the cat chased ran.
+gemini-3.5-flash-think,LRM,gemini,25,The toy the child dropped fell.
+gemini-3.5-flash-think,LRM,gemini,25,The student the teacher praised smiled.
+gemini-3.5-flash-think,LRM,gemini,25,The package the courier carried arrived.
+gemini-3.5-flash-think,LRM,gemini,25,The man the woman loved died.
+gemini-3.5-flash-think,LRM,gemini,26,The dog the boy walked barked.
+gemini-3.5-flash-think,LRM,gemini,26,The letter the girl wrote arrived.
+gemini-3.5-flash-think,LRM,gemini,26,The car the man fixed vanished.
+gemini-3.5-flash-think,LRM,gemini,26,The cake the baker baked disappeared.
+gemini-3.5-flash-think,LRM,gemini,26,The thief the officer chased tripped.
+gemini-3.5-flash-think,LRM,gemini,27,the mouse the cat chased escaped
+gemini-3.5-flash-think,LRM,gemini,27,the ball the boy kicked popped
+gemini-3.5-flash-think,LRM,gemini,27,the actor the crowd cheered bowed
+gemini-3.5-flash-think,LRM,gemini,27,the letter the girl wrote arrived
+gemini-3.5-flash-think,LRM,gemini,27,the car the man bought stalled
+gemini-3.5-flash-think,LRM,gemini,28,The cat the girl chased slept.
+gemini-3.5-flash-think,LRM,gemini,28,The car the man bought stalled.
+gemini-3.5-flash-think,LRM,gemini,28,The letter the woman wrote arrived.
+gemini-3.5-flash-think,LRM,gemini,28,The food the chef cooked spoiled.
+gemini-3.5-flash-think,LRM,gemini,28,The phone the student dropped rang.
+gemini-3.5-flash-think,LRM,gemini,29,The dog the cat chased ran.
+gemini-3.5-flash-think,LRM,gemini,29,The bird the cat caught escaped.
+gemini-3.5-flash-think,LRM,gemini,29,The actor the director hired bowed.
+gemini-3.5-flash-think,LRM,gemini,29,The letter the man wrote arrived.
+gemini-3.5-flash-think,LRM,gemini,29,The guest the host welcomed smiled.
+gemini-3.5-flash-think,LRM,gemini,30,The boy the girl saw cried.
+gemini-3.5-flash-think,LRM,gemini,30,The cake the baker baked fell.
+gemini-3.5-flash-think,LRM,gemini,30,The mouse the cat caught escaped.
+gemini-3.5-flash-think,LRM,gemini,30,The car the mechanic fixed stalled.
+gemini-3.5-flash-think,LRM,gemini,30,The letter the woman wrote arrived.
+glm-4.5,LLM,glm,2,The cat that the dog chased escaped.
+glm-4.5,LLM,glm,2,The movie that the critic reviewed received awards.
+glm-4.5,LLM,glm,16,The cat that the dog chased escaped.
+glm-4.5,LLM,glm,16,The man that the woman called arrived.
+glm-4.5,LLM,glm,23,The cat that the dog chased ran quickly.
+glm-4.5-think,LRM,glm,1,The cat a mouse chases catches.
+glm-4.5-think,LRM,glm,1,A boy the ball throws kicks.
+glm-4.5-think,LRM,glm,2,The dog the cat chased bit.
+glm-4.5-think,LRM,glm,2,A child a tree climbed played.
+glm-4.5-think,LRM,glm,5,The cat that the dog chased meowed.
+glm-4.5-think,LRM,glm,5,The student that the teacher praised felt happy.
+glm-4.5-think,LRM,glm,6,The cat that the dog chased escaped.
+glm-4.5-think,LRM,glm,6,The house that the builder constructed collapsed.
+glm-4.5-think,LRM,glm,6,The car that the mechanic repaired broke down.
+glm-4.5-think,LRM,glm,6,The movie that the director produced won awards.
+glm-4.5-think,LRM,glm,7,the cat the dog chased barked.
+glm-4.5-think,LRM,glm,7,the sun the moon rose set.
+glm-4.5-think,LRM,glm,7,the teacher the student taught learned.
+glm-4.5-think,LRM,glm,7,the car the truck crashed honked.
+glm-4.5-think,LRM,glm,7,the bird the worm ate sang.
+glm-4.5-think,LRM,glm,8,the cat the dog chased barked.
+glm-4.5-think,LRM,glm,8,the teacher the student taught scolded.
+glm-4.5-think,LRM,glm,8,the bird the worm ate sang.
+glm-4.5-think,LRM,glm,8,the car the truck passed honked.
+glm-4.5-think,LRM,glm,8,the player the ball kicked threw.
+glm-4.5-think,LRM,glm,10,the cat the dog chases plays.
+glm-4.5-think,LRM,glm,10,the sun the moon rises sets.
+glm-4.5-think,LRM,glm,10,the teacher the student instructs learns.
+glm-4.5-think,LRM,glm,10,the bird the worm eats flies.
+glm-4.5-think,LRM,glm,10,the flower the bee blooms pollinates.
+glm-4.5-think,LRM,glm,12,The car the mechanic repaired crashed.
+glm-4.5-think,LRM,glm,12,The house the storm damaged collapsed.
+glm-4.5-think,LRM,glm,12,The book the author wrote sold.
+glm-4.5-think,LRM,glm,12,The criminal the police arrested escaped.
+glm-4.5-think,LRM,glm,12,The team the coach trained won.
+glm-4.5-think,LRM,glm,14,The car that the mechanic repaired runs smoothly.
+glm-4.5-think,LRM,glm,14,The movie that the director directed won awards.
+glm-4.5-think,LRM,glm,14,The house that the architect designed stands tall.
+glm-4.5-think,LRM,glm,14,The meal that the chef prepared tastes delicious.
+glm-4.5-think,LRM,glm,16,The car the mechanic repaired broke.
+glm-4.5-think,LRM,glm,16,The window the boy broke shattered.
+glm-4.5-think,LRM,glm,16,The book the student read fell.
+glm-4.5-think,LRM,glm,16,The letter the secretary typed arrived.
+glm-4.5-think,LRM,glm,16,The cake the baker baked tasted.
+glm-4.5-think,LRM,glm,21,The cat the dog chased played.
+glm-4.5-think,LRM,glm,21,The sun the moon rises sets.
+glm-4.5-think,LRM,glm,21,The boy the girl reads writes.
+glm-4.5-think,LRM,glm,21,The car the truck drives parks.
+glm-4.5-think,LRM,glm,21,The bird the fish flies swims.
+glm-4.5-think,LRM,glm,22,the cat the dog ran jumped.
+glm-4.5-think,LRM,glm,22,the bird the tree sang grew.
+glm-4.5-think,LRM,glm,22,the car the bike drove moved.
+glm-4.5-think,LRM,glm,22,the book the pen read wrote.
+glm-4.5-think,LRM,glm,22,the sun the moon shined glowed.
+glm-4.5-think,LRM,glm,23,The student the teacher corrected thanked.
+glm-4.5-think,LRM,glm,23,The ball the boy threw bounced.
+glm-4.5-think,LRM,glm,23,The window the bird hit broke.
+glm-4.5-think,LRM,glm,23,The car the driver crashed exploded.
+glm-4.5-think,LRM,glm,23,The plant the gardener watered grew.
+glm-4.5-think,LRM,glm,29,The cat the dog chased ran.
+glm-4.5-think,LRM,glm,29,The bird the cat watched flew.
+glm-4.5-think,LRM,glm,29,The man the woman saw smiled.
+glm-4.5-think,LRM,glm,29,The car the truck passed stopped.
+glm-4.5-think,LRM,glm,29,The student the teacher taught graduated.
+glm-4.5-think,LRM,glm,30,The man the dog chased barked.
+glm-4.5-think,LRM,glm,30,The woman the cat saw ran.
+glm-4.5-think,LRM,glm,30,The child the ball threw caught.
+glm-4.5-think,LRM,glm,30,The bird the worm ate flew.
+glm-4.5-think,LRM,glm,30,The car the truck hit parked.
+qwen3-30b-a3b,LLM,qwen,2,The cat the teacher chased ran away.
+qwen3-30b-a3b,LLM,qwen,2,The car the mechanic fixed started smoothly.
+qwen3-30b-a3b,LLM,qwen,3,The cat the teacher scratched broken.
+qwen3-30b-a3b,LLM,qwen,3,The book the editor published finished.
+qwen3-30b-a3b,LLM,qwen,3,The song the singer performed recorded.
+qwen3-30b-a3b,LLM,qwen,3,The painting the artist created sold.
+qwen3-30b-a3b,LLM,qwen,3,The story the writer told remembered.
+qwen3-30b-a3b,LLM,qwen,9,The cat the teacher chased ran away.
+qwen3-30b-a3b,LLM,qwen,9,The car the mechanic fixed started perfectly.
+qwen3-30b-a3b,LLM,qwen,11,The book the editor revised sold quickly.
+qwen3-30b-a3b,LLM,qwen,11,The car the mechanic fixed started smoothly.
+qwen3-30b-a3b,LLM,qwen,13,The cat the veterinarian treated healed quickly.
+qwen3-30b-a3b,LLM,qwen,13,The car the mechanic fixed ran smoothly.
+qwen3-30b-a3b,LLM,qwen,14,The car the mechanic repaired ran perfectly.
+qwen3-30b-a3b,LLM,qwen,18,The dog the trainer trained yesterday.
+qwen3-30b-a3b,LLM,qwen,18,The book the editor revised last week.
+qwen3-30b-a3b,LLM,qwen,18,The project the manager completed by Friday.
+qwen3-30b-a3b,LLM,qwen,18,The car the mechanic fixed this morning.
+qwen3-30b-a3b,LLM,qwen,19,The cat the teacher chased ran away.
+qwen3-30b-a3b,LLM,qwen,19,The car the driver repaired started immediately.
+qwen3-30b-a3b,LLM,qwen,19,The song the singer performed touched everyone.
+qwen3-30b-a3b,LLM,qwen,19,The project the team completed exceeded expectations.
+qwen3-30b-a3b,LLM,qwen,20,The cat the teacher chased hidden.
+qwen3-30b-a3b,LLM,qwen,20,The book the editor revised published.
+qwen3-30b-a3b,LLM,qwen,20,The song the singer performed won.
+qwen3-30b-a3b,LLM,qwen,20,The project the manager completed finished.
+qwen3-30b-a3b,LLM,qwen,20,The letter the secretary typed delivered.
+qwen3-30b-a3b,LLM,qwen,21,The project the manager led exceeded expectations.
+qwen3-30b-a3b,LLM,qwen,22,The cat the veterinarian treated healed quickly.
+qwen3-30b-a3b,LLM,qwen,22,The car the mechanic repaired ran smoothly.
+qwen3-30b-a3b,LLM,qwen,24,The cat the teacher walked the path.
+qwen3-30b-a3b,LLM,qwen,24,The book the doctor read the story.
+qwen3-30b-a3b,LLM,qwen,24,The car the engineer fixed the engine.
+qwen3-30b-a3b,LLM,qwen,24,The song the singer performed the melody.
+qwen3-30b-a3b,LLM,qwen,24,The tree the gardener planted the seed.
+qwen3-30b-a3b,LLM,qwen,25,The cat the teacher chased caught.
+qwen3-30b-a3b,LLM,qwen,25,The book the editor revised sold.
+qwen3-30b-a3b,LLM,qwen,25,The car the mechanic fixed broke.
+qwen3-30b-a3b,LLM,qwen,25,The project the manager completed impressed everyone.
+qwen3-30b-a3b,LLM,qwen,26,The cat the veterinarian treated recovered quickly.
+qwen3-30b-a3b,LLM,qwen,27,The cat the teacher chased caught.
+qwen3-30b-a3b,LLM,qwen,27,The book the editor revised sold.
+qwen3-30b-a3b,LLM,qwen,27,The song the singer performed won.
+qwen3-30b-a3b,LLM,qwen,27,The project the manager completed impressed.
+qwen3-30b-a3b,LLM,qwen,27,The car the mechanic fixed drove.
+qwen3-30b-a3b,LLM,qwen,28,The dog the trainer trained barked loudly.
+qwen3-30b-a3b,LLM,qwen,28,The book the author wrote sold quickly.
+qwen3-30b-a3b,LLM,qwen,28,The project the manager led succeeded unexpectedly.
+qwen3-30b-a3b,LLM,qwen,28,The plan the strategist designed failed completely.
+qwen3-30b-a3b,LLM,qwen,30,The cat the veterinarian treated recovered quickly.
+qwen3-30b-a3b-think,LRM,qwen,1,the cat the teacher barked laughed.
+qwen3-30b-a3b-think,LRM,qwen,1,the dog the doctor screamed solved.
+qwen3-30b-a3b-think,LRM,qwen,1,the child the parent laughed drew.
+qwen3-30b-a3b-think,LRM,qwen,1,the student the engineer solved coded.
+qwen3-30b-a3b-think,LRM,qwen,1,the chef the artist drew painted.
+qwen3-30b-a3b-think,LRM,qwen,2,the cat the engineer fixed the bridge
+qwen3-30b-a3b-think,LRM,qwen,2,the car the teacher repaired the engine
+qwen3-30b-a3b-think,LRM,qwen,2,the book the scientist explained the concept
+qwen3-30b-a3b-think,LRM,qwen,2,the house the architect designed the layout
+qwen3-30b-a3b-think,LRM,qwen,2,the code the developer debugged the error
+qwen3-30b-a3b-think,LRM,qwen,3,the dog the happy jumped quickly
+qwen3-30b-a3b-think,LRM,qwen,3,the cat the fluffy slept soundly
+qwen3-30b-a3b-think,LRM,qwen,3,the car the fast drove swiftly
+qwen3-30b-a3b-think,LRM,qwen,3,the bird the bright sang joyfully
+qwen3-30b-a3b-think,LRM,qwen,3,the house the old stood quietly
+qwen3-30b-a3b-think,LRM,qwen,4,the cat the in jumped danced
+qwen3-30b-a3b-think,LRM,qwen,4,the dog the on ran barked
+qwen3-30b-a3b-think,LRM,qwen,4,the bird the under flew sang
+qwen3-30b-a3b-think,LRM,qwen,4,the tree the by swayed rustled
+qwen3-30b-a3b-think,LRM,qwen,4,the house the near stood shone
+qwen3-30b-a3b-think,LRM,qwen,5,the cat the dog runs jumps
+qwen3-30b-a3b-think,LRM,qwen,5,the book the car reads drives
+qwen3-30b-a3b-think,LRM,qwen,5,the house the sky sleeps floats
+qwen3-30b-a3b-think,LRM,qwen,5,the bird the tree flies grows
+qwen3-30b-a3b-think,LRM,qwen,5,the sun the moon shines moves
+qwen3-30b-a3b-think,LRM,qwen,6,the dog the in walks runs
+qwen3-30b-a3b-think,LRM,qwen,6,the bird the on flies sings
+qwen3-30b-a3b-think,LRM,qwen,6,the fish the under swims eats
+qwen3-30b-a3b-think,LRM,qwen,6,the car the by drives flies
+qwen3-30b-a3b-think,LRM,qwen,6,the book the at reads writes
+qwen3-30b-a3b-think,LRM,qwen,8,the river the current carved canyon.
+qwen3-30b-a3b-think,LRM,qwen,8,the cake the baker frosted icing.
+qwen3-30b-a3b-think,LRM,qwen,8,the book the author wrote story.
+qwen3-30b-a3b-think,LRM,qwen,8,the car the mechanic fixed engine.
+qwen3-30b-a3b-think,LRM,qwen,8,the song the singer performed encore.
+qwen3-30b-a3b-think,LRM,qwen,10,the dog the in walks runs
+qwen3-30b-a3b-think,LRM,qwen,10,the bird the on flies sings
+qwen3-30b-a3b-think,LRM,qwen,10,the fish the under swims eats
+qwen3-30b-a3b-think,LRM,qwen,10,the car the by drives flies
+qwen3-30b-a3b-think,LRM,qwen,10,the book the at reads writes
+qwen3-30b-a3b-think,LRM,qwen,11,the car the bike drives stops.
+qwen3-30b-a3b-think,LRM,qwen,11,the bird the fish flies swims.
+qwen3-30b-a3b-think,LRM,qwen,11,the man the woman walks talks.
+qwen3-30b-a3b-think,LRM,qwen,11,the book the pen reads writes.
+qwen3-30b-a3b-think,LRM,qwen,11,the sun the moon rises sets.
+qwen3-30b-a3b-think,LRM,qwen,13,the dog the in runs jumps.
+qwen3-30b-a3b-think,LRM,qwen,13,the cat the on walks sings.
+qwen3-30b-a3b-think,LRM,qwen,13,the river the at flows falls.
+qwen3-30b-a3b-think,LRM,qwen,13,the sun the by shines rises.
+qwen3-30b-a3b-think,LRM,qwen,13,the city the under grows changes.
+qwen3-30b-a3b-think,LRM,qwen,14,the sun the wind blew cool
+qwen3-30b-a3b-think,LRM,qwen,14,the river the rain flowed fill
+qwen3-30b-a3b-think,LRM,qwen,14,the book the student read enjoy
+qwen3-30b-a3b-think,LRM,qwen,14,the car the driver fixed start
+qwen3-30b-a3b-think,LRM,qwen,14,the song the singer performed sing
+qwen3-30b-a3b-think,LRM,qwen,15,the dog the in walks runs
+qwen3-30b-a3b-think,LRM,qwen,15,the cat the on sleeps sings
+qwen3-30b-a3b-think,LRM,qwen,15,the river the at flows falls
+qwen3-30b-a3b-think,LRM,qwen,15,the king the by rules reigns
+qwen3-30b-a3b-think,LRM,qwen,15,the bird the over flies soars
+qwen3-30b-a3b-think,LRM,qwen,16,the dog the boy chased ran
+qwen3-30b-a3b-think,LRM,qwen,16,the bird the cat watched flew
+qwen3-30b-a3b-think,LRM,qwen,16,the fish the boy caught swam
+qwen3-30b-a3b-think,LRM,qwen,16,the car the driver repaired started
+qwen3-30b-a3b-think,LRM,qwen,16,the book the student read finished
+qwen3-30b-a3b-think,LRM,qwen,17,the cat the in jumped danced
+qwen3-30b-a3b-think,LRM,qwen,17,the dog the on ran barked
+qwen3-30b-a3b-think,LRM,qwen,17,the bird the under flew sang
+qwen3-30b-a3b-think,LRM,qwen,17,the tree the by swayed rustled
+qwen3-30b-a3b-think,LRM,qwen,17,the house the near stood shone
+qwen3-30b-a3b-think,LRM,qwen,18,the dog the teacher chased smiled
+qwen3-30b-a3b-think,LRM,qwen,18,the bird the child fed sang
+qwen3-30b-a3b-think,LRM,qwen,18,the car the driver fixed started
+qwen3-30b-a3b-think,LRM,qwen,18,the book the student read finished
+qwen3-30b-a3b-think,LRM,qwen,18,the cake the baker made tasted
+qwen3-30b-a3b-think,LRM,qwen,19,the cat the mouse chased slept
+qwen3-30b-a3b-think,LRM,qwen,19,the dog the bone ate ran
+qwen3-30b-a3b-think,LRM,qwen,19,the bird the tree flew danced
+qwen3-30b-a3b-think,LRM,qwen,19,the car the key opened jumped
+qwen3-30b-a3b-think,LRM,qwen,19,the house the door closed walked
+qwen3-30b-a3b-think,LRM,qwen,20,the cat the dog chased barked
+qwen3-30b-a3b-think,LRM,qwen,20,the book the student read wrote
+qwen3-30b-a3b-think,LRM,qwen,20,the car the mechanic fixed repaired
+qwen3-30b-a3b-think,LRM,qwen,20,the song the musician sang composed
+qwen3-30b-a3b-think,LRM,qwen,20,the cake the baker baked decorated
+qwen3-30b-a3b-think,LRM,qwen,21,the cat the mouse chased slept
+qwen3-30b-a3b-think,LRM,qwen,21,the dog the bone ate ran
+qwen3-30b-a3b-think,LRM,qwen,21,the bird the tree flew danced
+qwen3-30b-a3b-think,LRM,qwen,21,the car the key opened jumped
+qwen3-30b-a3b-think,LRM,qwen,21,the house the door closed walked
+qwen3-30b-a3b-think,LRM,qwen,22,the child the parent guided grow.
+qwen3-30b-a3b-think,LRM,qwen,22,the student the tutor encouraged achieve.
+qwen3-30b-a3b-think,LRM,qwen,22,the patient the nurse comforted recover.
+qwen3-30b-a3b-think,LRM,qwen,22,the team the coach motivated win.
+qwen3-30b-a3b-think,LRM,qwen,22,the artist the mentor inspired create.
+qwen3-30b-a3b-think,LRM,qwen,23,the cat the dog chased barked
+qwen3-30b-a3b-think,LRM,qwen,23,the book the student read wrote
+qwen3-30b-a3b-think,LRM,qwen,23,the car the mechanic fixed repaired
+qwen3-30b-a3b-think,LRM,qwen,23,the song the musician sang composed
+qwen3-30b-a3b-think,LRM,qwen,23,the cake the baker baked decorated
+qwen3-30b-a3b-think,LRM,qwen,24,the cat the hat saw ate
+qwen3-30b-a3b-think,LRM,qwen,24,the dog the ball chased jumped
+qwen3-30b-a3b-think,LRM,qwen,24,the bird the worm ate flew
+qwen3-30b-a3b-think,LRM,qwen,24,the car the road drove sped
+qwen3-30b-a3b-think,LRM,qwen,24,the book the page read flipped
+qwen3-30b-a3b-think,LRM,qwen,25,the cat the teacher saw run.
+qwen3-30b-a3b-think,LRM,qwen,25,the dog the doctor heard sing.
+qwen3-30b-a3b-think,LRM,qwen,25,the child the engineer found dance.
+qwen3-30b-a3b-think,LRM,qwen,25,the bird the scientist observed fly.
+qwen3-30b-a3b-think,LRM,qwen,25,the flower the gardener planted bloom.
+qwen3-30b-a3b-think,LRM,qwen,26,the sky the clouds drifted clear.
+qwen3-30b-a3b-think,LRM,qwen,26,the house the workers built paint.
+qwen3-30b-a3b-think,LRM,qwen,26,the cake the baker made taste.
+qwen3-30b-a3b-think,LRM,qwen,26,the car the mechanic repaired drive.
+qwen3-30b-a3b-think,LRM,qwen,26,the story the author wrote read.
+qwen3-30b-a3b-think,LRM,qwen,27,The cat the teacher walked talked.
+qwen3-30b-a3b-think,LRM,qwen,27,The book the doctor read wrote.
+qwen3-30b-a3b-think,LRM,qwen,27,The student the chef studied cooked.
+qwen3-30b-a3b-think,LRM,qwen,27,The car the artist painted drove.
+qwen3-30b-a3b-think,LRM,qwen,27,The problem the scientist solved cracked.
+qwen3-30b-a3b-think,LRM,qwen,28,the cat the mouse chased slept
+qwen3-30b-a3b-think,LRM,qwen,28,the dog the bone ate ran
+qwen3-30b-a3b-think,LRM,qwen,28,the bird the tree flew danced
+qwen3-30b-a3b-think,LRM,qwen,28,the car the key opened jumped
+qwen3-30b-a3b-think,LRM,qwen,28,the house the door closed walked
+qwen3-30b-a3b-think,LRM,qwen,29,the dog the happy jumped quickly
+qwen3-30b-a3b-think,LRM,qwen,29,the cat the fluffy slept soundly
+qwen3-30b-a3b-think,LRM,qwen,29,the car the fast drove swiftly
+qwen3-30b-a3b-think,LRM,qwen,29,the bird the bright sang joyfully
+qwen3-30b-a3b-think,LRM,qwen,29,the house the old stood quietly
+qwen3-30b-a3b-think,LRM,qwen,30,the cat the doctor saw run
+qwen3-30b-a3b-think,LRM,qwen,30,the dog the teacher helped learn
+qwen3-30b-a3b-think,LRM,qwen,30,the child the parent guided grow
+qwen3-30b-a3b-think,LRM,qwen,30,the student the coach encouraged achieve
+qwen3-30b-a3b-think,LRM,qwen,30,the team the leader supported succeed

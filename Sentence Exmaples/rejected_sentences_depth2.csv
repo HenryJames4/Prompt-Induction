@@ -1,0 +1,609 @@
+model,type,family,run_idx,sentence,reason
+claude-sonnet-4.6,LLM,claude,1,The dog that chased the cat slept.,"pos 3 is ""chased"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,1,The woman who called the doctor smiled.,relative pronoun: who
+claude-sonnet-4.6,LLM,claude,1,The boy who kicked the ball ran.,relative pronoun: who
+claude-sonnet-4.6,LLM,claude,1,The scientist who solved the problem laughed.,relative pronoun: who
+claude-sonnet-4.6,LLM,claude,1,The bird that escaped the cage sang.,"pos 3 is ""escaped"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,2,The book that she borrowed disappeared.,"pos 2 is ""that"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,2,The letter that he wrote arrived.,"pos 2 is ""that"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,2,The cake that they baked vanished.,"pos 2 is ""that"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,2,The car that she bought broke down.,"pos 3 is ""she"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,3,The dog my neighbor adopted barked all night.,wrong length: 8 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,3,The woman I admired most succeeded brilliantly.,"pos 3 is ""admired"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,3,The singer everyone adored disappeared suddenly.,"pos 2 is ""everyone"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,4,The dog my neighbor adopted yesterday barked.,"pos 3 is ""neighbor"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,4,A book she found on the shelf disappeared.,wrong length: 8 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,4,The car he bought last summer rusted.,"pos 3 is ""bought"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,4,The woman we met at the party laughed.,wrong length: 8 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,5,The dog chased by the cat trembled.,"pos 3 is ""by"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,5,The book left on the shelf disappeared.,"pos 3 is ""on"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,5,The child ignored by the teacher wept.,"pos 3 is ""by"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,5,The car abandoned in the lot rusted.,"pos 3 is ""in"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,5,The man hired last week resigned.,"pos 2 is ""hired"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,6,The cat that the dog that the child owns chased ran away.,wrong length: 12 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,6,The bird that the hawk that the storm frightened startled disappeared.,wrong length: 11 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,6,The leaf that the wind that the autumn brought stirred fell.,wrong length: 11 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,6,The rabbit that the fox that the farmer kept scared fled.,wrong length: 11 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,6,The fish that the heron that the boy watched hunted swam.,wrong length: 11 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,7,The sculpture a renowned artist carved downtown gleamed.,wrong length: 8 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,7,The melody a young composer wrote last spring lingered.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,7,The bridge engineers designed over decades collapsed.,"pos 3 is ""designed"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,7,The poem a grieving mother penned overnight resonated.,wrong length: 8 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,7,The garden a blind gardener tended for years bloomed.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,8,The dog my neighbor rescued yesterday barked.,"pos 3 is ""neighbor"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,8,The bridge engineers inspected last week collapsed.,"pos 3 is ""inspected"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,9,The book she borrowed yesterday disappeared.,"pos 2 is ""she"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,9,The car he fixed last week stalled.,"pos 3 is ""fixed"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,9,The woman I admired greatly succeeded.,"pos 2 is ""i"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,9,A letter my mother wrote arrived.,"pos 2 is ""my"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,11,The dog that had been barking all night finally slept.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,11,The children who were playing in the park laughed.,relative pronoun: who
+claude-sonnet-4.6,LLM,claude,11,The man who had traveled for days rested.,relative pronoun: who
+claude-sonnet-4.6,LLM,claude,11,The flowers that bloomed in spring wilted.,"pos 3 is ""bloomed"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,11,The student who studied hardest succeeded.,relative pronoun: who
+claude-sonnet-4.6,LLM,claude,12,The dog that chased the cat barked.,"pos 3 is ""chased"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,12,The woman who painted the mural smiled.,relative pronoun: who
+claude-sonnet-4.6,LLM,claude,12,The boy who kicked the ball tripped.,relative pronoun: who
+claude-sonnet-4.6,LLM,claude,12,The engineer who designed the bridge retired.,relative pronoun: who
+claude-sonnet-4.6,LLM,claude,12,The bird that caught the worm sang.,"pos 3 is ""caught"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,13,The painting that the artist created last summer survived.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,13,The manuscript that the professor reviewed last week resurfaced.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,14,The book that she borrowed disappeared.,"pos 2 is ""that"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,14,The dog that he trained performed.,"pos 2 is ""that"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,14,The letter that they wrote arrived.,"pos 2 is ""that"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,14,The car that she drives accelerates.,"pos 2 is ""that"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,14,The song that he composed endures.,"pos 2 is ""that"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,17,The dog my neighbor adopted barked all night.,wrong length: 8 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,17,The singer everyone admired performed brilliantly.,"pos 2 is ""everyone"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,17,The bridge engineers inspected collapsed suddenly.,"pos 2 is ""engineers"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,17,The flowers she planted bloomed beautifully.,"pos 2 is ""she"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,19,The cake that Maria baked vanished.,"pos 2 is ""that"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,20,The letter that she wrote carefully disappeared.,"pos 3 is ""she"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,22,"The broken leg was set by the orthopedic surgeon, and the patient walked without a limp six weeks later.",coordination (and/or)
+claude-sonnet-4.6,LLM,claude,22,"After the accountant audited the company's books, several costly discrepancies were identified and corrected.",coordination (and/or)
+claude-sonnet-4.6,LLM,claude,22,"The mechanic overhauled the engine, and the car ran smoothly for another fifty thousand miles.",coordination (and/or)
+claude-sonnet-4.6,LLM,claude,22,"Once the architect redesigned the building's foundation, the structure passed all safety inspections with high marks.",wrong length: 16 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,22,"The chef carefully seasoned and slow-roasted the lamb, resulting in a tender and flavorful dish that delighted every guest.",coordination (and/or)
+claude-sonnet-4.6,LLM,claude,23,The book she read yesterday disappeared.,"pos 2 is ""she"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,23,The cat my neighbor adopted constantly meows.,"pos 3 is ""neighbor"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,23,The letter he wrote carefully survived.,"pos 2 is ""he"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,24,The dog that chased the cat barked.,"pos 3 is ""chased"", expected det (the/a)"
+claude-sonnet-4.6,LLM,claude,24,The woman who painted the mural laughed.,relative pronoun: who
+claude-sonnet-4.6,LLM,claude,24,The child who broke the vase cried.,relative pronoun: who
+claude-sonnet-4.6,LLM,claude,24,The teacher who graded the papers sneezed.,relative pronoun: who
+claude-sonnet-4.6,LLM,claude,24,The man who fixed the car smiled.,relative pronoun: who
+claude-sonnet-4.6,LLM,claude,27,"The chef seasoned the steak, the steak sizzling beautifully on the grill.",wrong length: 12 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,27,"The painter brushed the canvas, the canvas absorbing every stroke of color.",wrong length: 12 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,27,"The teacher corrected the essay, the essay emerging cleaner and more precise.",coordination (and/or)
+claude-sonnet-4.6,LLM,claude,27,"The mechanic tightened the bolt, the bolt holding the engine firmly in place.",wrong length: 13 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,27,"The gardener watered the roses, the roses blooming brilliantly by the next morning.",wrong length: 13 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,28,The letter written by the diplomat caused an international incident.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,28,The bridge built by engineers collapsed during the storm.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,28,The painting stolen from the museum was recovered by police.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,28,The report submitted by the committee influenced the final decision.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6,LLM,claude,28,The machine designed by the inventor revolutionized the entire industry.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,4,The cake the chef baked disappeared within minutes.,wrong length: 8 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,4,The letter the professor wrote confused all of his students.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,4,The dog the neighbors adopted escaped through the fence yesterday.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,4,The report the manager submitted caused a serious scandal.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,4,The car the mechanic fixed broke down again on the highway.,wrong length: 11 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,5,The book fell off the shelf surprised everyone in the room.,wrong length: 11 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,5,The man spoke too quietly confused the entire audience.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,5,The dog barked all night kept the neighbors awake.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,5,The student studied hardest passed the final exam.,wrong length: 8 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,5,The car broke down on the highway cost a fortune to repair.,wrong length: 12 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,7,The letter written by the professor confused the entire class.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,7,The painting stolen by the thief was recovered by detectives last week.,wrong length: 12 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,7,The cake baked by my grandmother disappeared before dinner ended.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,7,The report submitted by the intern impressed the entire board.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,7,The bridge designed by the famous engineer collapsed during the storm.,wrong length: 11 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,9,The report that the manager reviewed contained several critical errors.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,9,The painting that the curator selected was displayed in the main hall.,wrong length: 12 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,9,The letter that the lawyer drafted outlined the terms of the agreement.,wrong length: 12 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,9,The bridge that the engineers designed collapsed during the storm.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,9,The novel that the professor assigned became a topic of heated debate.,wrong length: 12 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,12,The patient the surgeon operated on recovered within days.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,12,The athlete the coach trained improved dramatically by season's end.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,12,The wound the nurse treated healed faster than expected.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,12,The crop the agronomist fertilized flourished through the dry summer.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,14,The letter that the lawyer drafted was signed by the judge.,wrong length: 11 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,14,The bridge that the engineers designed collapsed during the storm.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,14,The painting that the artist restored sold for millions at auction.,wrong length: 11 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,14,The report that the committee reviewed was published in the journal.,wrong length: 11 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,14,The dog that the trainer rescued competed in the championship.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,16,The cake my mother baked disappeared within minutes.,wrong length: 8 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,16,The report the intern submitted contained several errors.,wrong length: 8 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,16,The song the children sang echoed through the empty hall.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,16,The letter she wrote arrived three weeks later.,wrong length: 8 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,16,The painting the artist created sold for a record price.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,19,The report that the committee reviewed last week contained several critical errors.,wrong length: 12 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,19,The dog that the children found wandering near the school was reunited with its owner.,wrong length: 15 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,19,The bridge that the engineers inspected after the storm required immediate structural repairs.,wrong length: 13 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,19,The novel that the professor assigned during the first week became the students' favorite.,wrong length: 14 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,19,The letter that the lawyer drafted on Tuesday changed the outcome of the entire case.,wrong length: 15 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,22,The woman carrying the heavy basket stumbled on the uneven path.,wrong length: 11 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,22,The soldier wounded in battle received a medal of honor.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,22,The dog chasing the frightened rabbit disappeared into the woods.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,22,The children playing near the old fountain laughed loudly.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,22,The letter sent by the anonymous stranger changed everything.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,23,The cat that the dog chased climbed the tall oak tree.,wrong length: 11 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,23,The letter that the lawyer wrote confused the entire jury.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,23,The bridge that the engineer designed collapsed without warning.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,23,The song that the composer created moved the audience to tears.,wrong length: 11 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,23,The report that the manager reviewed contained several critical errors.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,24,The professor that the students admired retired last year.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,24,The novel that the critic praised won several awards.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,24,The scientist that the committee selected received a prestigious grant.,wrong length: 10 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,24,The child that the teacher noticed struggled with reading.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,29,The dog the cat chased escaped through the fence.,wrong length: 9 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,29,The book the professor assigned confused the students.,wrong length: 8 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,29,The cake the baker made disappeared before noon.,wrong length: 8 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,29,The letter the secretary typed contained several errors.,wrong length: 8 words (expected 6 or 7)
+claude-sonnet-4.6-think,LRM,claude,29,The man the woman admired moved to another city.,wrong length: 9 words (expected 6 or 7)
+deepseek-r1,LRM,deepseek,9,The book I borrowed yesterday contained valuable information.,wrong length: 8 words (expected 6 or 7)
+deepseek-r1,LRM,deepseek,9,The solution the scientist proposed solved the complex equation.,wrong length: 9 words (expected 6 or 7)
+deepseek-r1,LRM,deepseek,9,The song the band played energized the crowd.,wrong length: 8 words (expected 6 or 7)
+deepseek-r1,LRM,deepseek,9,The instructions the teacher gave clarified the assignment completely.,wrong length: 9 words (expected 6 or 7)
+deepseek-r1,LRM,deepseek,21,The chef who prepared the meal received applause.,relative pronoun: who
+deepseek-r1,LRM,deepseek,21,The musician that wrote the song performed it live.,wrong length: 9 words (expected 6 or 7)
+deepseek-r1,LRM,deepseek,21,The book that captivated readers became a bestseller.,wrong length: 8 words (expected 6 or 7)
+deepseek-r1,LRM,deepseek,21,The scientist who discovered the element won a prize.,relative pronoun: who
+deepseek-r1,LRM,deepseek,21,The gardener who planted the roses tends them daily.,relative pronoun: who
+deepseek-r1,LRM,deepseek,25,The light the storm knocked out flickered weakly.,wrong length: 8 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,3,"The student, who had studied diligently, received the highest grade in the class.",relative pronoun: who
+deepseek-v3,LLM,deepseek,3,"The book, which was written by a famous author, became an instant bestseller.",relative pronoun: which
+deepseek-v3,LLM,deepseek,3,"The dog, that barked loudly all night, kept the neighbors awake.",wrong length: 11 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,3,"The teacher, who had been working tirelessly, finally decided to take a break.",relative pronoun: who
+deepseek-v3,LLM,deepseek,3,"The painting, which was created by a renowned artist, sold for millions at the auction.",relative pronoun: which
+deepseek-v3,LLM,deepseek,4,The dog leash tangles twists.,wrong length: 5 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,4,The cake frosting drips slides.,wrong length: 5 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,4,The book pages flutter fall.,wrong length: 5 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,4,The car engine sputters stalls.,wrong length: 5 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,4,The tree leaves rustle sway.,wrong length: 5 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,5,The book that I borrowed inspires motivates.,"pos 3 is ""i"", expected det (the/a)"
+deepseek-v3,LLM,deepseek,5,The dog that barks loudly sleeps dreams.,"pos 3 is ""barks"", expected det (the/a)"
+deepseek-v3,LLM,deepseek,5,The car that he bought accelerates stops.,"pos 3 is ""he"", expected det (the/a)"
+deepseek-v3,LLM,deepseek,5,The cake that she baked smells tastes.,"pos 3 is ""she"", expected det (the/a)"
+deepseek-v3,LLM,deepseek,5,The phone that rings constantly distracts annoys.,"pos 3 is ""rings"", expected det (the/a)"
+deepseek-v3,LLM,deepseek,8,"The carpenter carved the wooden table, and it was placed in the dining room.",coordination (and/or)
+deepseek-v3,LLM,deepseek,8,"The artist painted the old vase, and it became a centerpiece.",coordination (and/or)
+deepseek-v3,LLM,deepseek,8,"The engineer upgraded the computer, and it ran faster.",coordination (and/or)
+deepseek-v3,LLM,deepseek,8,"The tailor altered the dress, and it fit perfectly.",coordination (and/or)
+deepseek-v3,LLM,deepseek,8,"The mechanic repaired the bicycle, and it rode smoothly.",coordination (and/or)
+deepseek-v3,LLM,deepseek,9,The cake frosting melted drip.,wrong length: 5 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,9,The dog leash snapped release.,wrong length: 5 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,9,The car engine roared accelerate.,wrong length: 5 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,9,The book pages flipped scatter.,wrong length: 5 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,9,The tree branch cracked fall.,wrong length: 5 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,13,The book that I borrowed from the library fell apart.,wrong length: 10 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,13,The dog that barked all night kept everyone awake.,wrong length: 9 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,13,The cake that she baked for the party disappeared quickly.,wrong length: 10 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,13,The car that he bought last week already broke down.,wrong length: 10 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,13,The painting that hung in the hallway was sold at auction.,wrong length: 11 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,16,The vase shattered into pieces when John accidentally knocked it off the table.,wrong length: 13 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,16,The paper crumpled as Sarah hastily folded it into a small square.,wrong length: 12 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,16,The car door dented after Mark slammed it shut with too much force.,wrong length: 13 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,16,The cake collapsed under the weight of the frosting Emily piled on top.,wrong length: 13 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,16,The laptop screen cracked when Alex dropped it onto the hardwood floor.,wrong length: 12 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,17,The song the singer performed captivated the audience.,wrong length: 8 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,19,The book that I borrowed yesterday fell.,"pos 3 is ""i"", expected det (the/a)"
+deepseek-v3,LLM,deepseek,19,The dog that barked all night slept.,"pos 3 is ""barked"", expected det (the/a)"
+deepseek-v3,LLM,deepseek,19,The car that we rented broke down.,"pos 3 is ""we"", expected det (the/a)"
+deepseek-v3,LLM,deepseek,19,The cake that she baked tasted amazing.,"pos 3 is ""she"", expected det (the/a)"
+deepseek-v3,LLM,deepseek,19,The phone that he dropped stopped working.,"pos 3 is ""he"", expected det (the/a)"
+deepseek-v3,LLM,deepseek,21,Dog park runs plays.,wrong length: 4 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,21,Teacher student teaches learns.,wrong length: 4 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,21,Car engine starts stops.,wrong length: 4 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,21,Book reader reads finishes.,wrong length: 4 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,21,Bird nest builds flies.,wrong length: 4 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,25,The book that she recommended captivated the readers.,wrong length: 8 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,25,The dog that barked loudly startled the neighbors.,wrong length: 8 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,25,The cake that he baked delighted everyone at the party.,wrong length: 10 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,25,The painting that they admired inspired awe in the viewers.,wrong length: 10 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,25,The song that played on the radio lifted their spirits.,wrong length: 10 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,26,The book that I borrowed is missing.,"pos 3 is ""i"", expected det (the/a)"
+deepseek-v3,LLM,deepseek,26,The dog that barks loudly is my neighbor's.,wrong length: 8 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,26,The cake that she baked tastes delicious.,"pos 3 is ""she"", expected det (the/a)"
+deepseek-v3,LLM,deepseek,26,The car that he drives is very expensive.,wrong length: 8 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,26,The teacher who taught me retired last year.,relative pronoun: who
+deepseek-v3,LLM,deepseek,27,The teacher whom the students admire inspires creativity.,relative pronoun: whom
+deepseek-v3,LLM,deepseek,27,The chef who the critics praised prepares exquisite dishes.,relative pronoun: who
+deepseek-v3,LLM,deepseek,27,The artist who the museum displayed creates stunning sculptures.,relative pronoun: who
+deepseek-v3,LLM,deepseek,28,The book that I borrowed from the library that you recommended was fascinating.,wrong length: 13 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,28,The car that my neighbor bought that had been sitting in the garage for years finally started.,wrong length: 17 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,28,The cake that the baker made that everyone raved about was delicious.,wrong length: 12 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,28,The dog that the trainer adopted that had been abandoned by its previous owner was very playful.,wrong length: 17 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,28,The movie that the director filmed that won several awards was inspiring.,wrong length: 12 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,29,The car the mechanic repaired broke down again.,wrong length: 8 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,29,The book the author wrote became a bestseller.,wrong length: 8 words (expected 6 or 7)
+deepseek-v3,LLM,deepseek,30,"The book, which was written by a renowned author, captivated readers with its intricate plot.",relative pronoun: which
+deepseek-v3,LLM,deepseek,30,"The dog, who barked incessantly at strangers, made the neighborhood feel secure.",relative pronoun: who
+deepseek-v3,LLM,deepseek,30,"The painting, which depicted a serene landscape, brought peace to the viewer's mind.",relative pronoun: which
+deepseek-v3,LLM,deepseek,30,"The song, which was performed by a talented musician, moved the audience to tears.",relative pronoun: which
+deepseek-v3,LLM,deepseek,30,"The tree, whose branches swayed gracefully in the wind, provided shade on a hot day.",relative pronoun: whose
+gemini-3.5-flash,LLM,gemini,3,The book that she read fell.,"pos 2 is ""that"", expected det (the/a)"
+gemini-3.5-flash,LLM,gemini,3,A child whom they helped smiled.,relative pronoun: whom
+gemini-3.5-flash,LLM,gemini,3,The puppy that I bought slept.,"pos 2 is ""that"", expected det (the/a)"
+gemini-3.5-flash,LLM,gemini,3,Every student whom we called graduated.,relative pronoun: whom
+gemini-3.5-flash,LLM,gemini,3,The ship that he built sank.,"pos 2 is ""that"", expected det (the/a)"
+gemini-3.5-flash,LLM,gemini,7,The cake I baked fell.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,7,The car they bought stalled.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,7,The program she wrote failed.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,7,The package we sent arrived.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,7,The athlete you mentioned tripped.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,9,The book I bought fell.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,9,The man she met smiled.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,9,The car they drove crashed.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,9,The letter you wrote arrived.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,9,The dog we chased ran.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,10,The cake my mother baked collapsed.,"pos 2 is ""my"", expected det (the/a)"
+gemini-3.5-flash,LLM,gemini,10,The book I read yesterday vanished.,"pos 2 is ""i"", expected det (the/a)"
+gemini-3.5-flash,LLM,gemini,10,The letter you sent arrived.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,10,The project we started failed.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,12,The book I bought fell.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,12,The letter she wrote arrived.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,12,The car we leased broke.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,16,Every book the girl read vanished.,"pos 0 is ""every"", expected det (the/a)"
+gemini-3.5-flash,LLM,gemini,16,That toy a child broke squeaked.,"pos 0 is ""that"", expected det (the/a)"
+gemini-3.5-flash,LLM,gemini,19,This boy that girl pushed slipped.,"pos 0 is ""this"", expected det (the/a)"
+gemini-3.5-flash,LLM,gemini,19,Each student every teacher helped succeeded.,"pos 0 is ""each"", expected det (the/a)"
+gemini-3.5-flash,LLM,gemini,19,Some people those leaders misled rebelled.,"pos 0 is ""some"", expected det (the/a)"
+gemini-3.5-flash,LLM,gemini,20,The car I bought broke.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,20,The book you recommended fell.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,20,The pie we baked cooled.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,20,The dog they rescued barked.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,20,The plan she designed failed.,wrong length: 5 words (expected 6 or 7)
+gemini-3.5-flash,LLM,gemini,23,Every student every book read smiled.,"pos 0 is ""every"", expected det (the/a)"
+gemini-3.5-flash,LLM,gemini,23,That girl that song sang danced.,"pos 0 is ""that"", expected det (the/a)"
+gemini-3.5-flash,LLM,gemini,26,The young boy his sister saw run.,"pos 3 is ""his"", expected det (the/a)"
+gemini-3.5-flash,LLM,gemini,26,The hungry dog the bone wanted chew.,"pos 2 is ""dog"", expected ""that"""
+gemini-3.5-flash,LLM,gemini,26,Our friendly neighbors the car watched leave.,"pos 0 is ""our"", expected det (the/a)"
+gemini-3.5-flash,LLM,gemini,26,That brave firefighter the child helped escape.,"pos 0 is ""that"", expected det (the/a)"
+gemini-3.5-flash,LLM,gemini,26,The excited crowd the singer heard perform.,"pos 2 is ""crowd"", expected ""that"""
+gemini-3.5-flash-think,LRM,gemini,13,The toy the child lost appeared.,pattern mismatch
+glm-4.5,LLM,glm,1,The cat that the dog that the boy owned chased climbed the tree.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,1,The book that the professor who the students respected wrote became a bestseller.,relative pronoun: who
+glm-4.5,LLM,glm,1,The house that the architect who the mayor hired designed won an award.,relative pronoun: who
+glm-4.5,LLM,glm,1,The car that the mechanic that the dealership employed fixed broke down again.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,1,The painting that the artist who the gallery represented created sold for a million dollars.,relative pronoun: who
+glm-4.5,LLM,glm,2,The book that the student read was interesting.,wrong length: 8 words (expected 6 or 7)
+glm-4.5,LLM,glm,2,The man that the woman interviewed got the job.,wrong length: 9 words (expected 6 or 7)
+glm-4.5,LLM,glm,2,The house that the builder constructed was impressive.,wrong length: 8 words (expected 6 or 7)
+glm-4.5,LLM,glm,3,The cat that the dog that the boy owned chased climbed the tree.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,3,The report that the committee that the board established reviewed was comprehensive.,wrong length: 12 words (expected 6 or 7)
+glm-4.5,LLM,glm,3,The book that the author that the critic admired wrote became a bestseller.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,3,The house that the architect that the developer hired designed won an award.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,3,The car that the mechanic that the dealership employed fixed ran perfectly.,wrong length: 12 words (expected 6 or 7)
+glm-4.5,LLM,glm,4,The cat that the dog that the boy owned chased ran up the tree.,wrong length: 14 words (expected 6 or 7)
+glm-4.5,LLM,glm,4,The report that the committee that the senator formed submitted was approved.,wrong length: 12 words (expected 6 or 7)
+glm-4.5,LLM,glm,4,The book that the author that the publisher discovered wrote became a bestseller.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,4,The house that the builder that the architect hired constructed won an award.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,4,The car that the mechanic that the dealership employed fixed was sold quickly.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,5,The cat that the dog that the boy owned chased ran away.,wrong length: 12 words (expected 6 or 7)
+glm-4.5,LLM,glm,5,The book that the professor who the students respected wrote became a bestseller.,relative pronoun: who
+glm-4.5,LLM,glm,5,The house that the architect who the magazine featured designed won an award.,relative pronoun: who
+glm-4.5,LLM,glm,5,The car that the mechanic who the dealer recommended fixed runs perfectly now.,relative pronoun: who
+glm-4.5,LLM,glm,5,The painting that the artist who the gallery represented created sold for a million dollars.,relative pronoun: who
+glm-4.5,LLM,glm,6,The cat that was sleeping in the sun meowed loudly.,wrong length: 10 words (expected 6 or 7)
+glm-4.5,LLM,glm,6,The book which I borrowed from the library has interesting characters.,relative pronoun: which
+glm-4.5,LLM,glm,6,The student who studied diligently passed the exam with flying colors.,relative pronoun: who
+glm-4.5,LLM,glm,6,The house that stands on the hill was built in the 1920s.,wrong length: 12 words (expected 6 or 7)
+glm-4.5,LLM,glm,6,The car that parked illegally was towed away by the police.,wrong length: 11 words (expected 6 or 7)
+glm-4.5,LLM,glm,7,The book that I bought yesterday has a beautiful cover with intricate designs.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,7,The woman who lives next door has a garden filled with colorful flowers.,relative pronoun: who
+glm-4.5,LLM,glm,7,The car that parked in front of our house has a dent on its passenger side door.,wrong length: 17 words (expected 6 or 7)
+glm-4.5,LLM,glm,7,The restaurant that just opened downtown serves a delicious pasta with homemade sauce.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,7,The teacher who won the award received a certificate with a golden seal.,relative pronoun: who
+glm-4.5,LLM,glm,8,The teacher who explained the lesson graded the papers that were submitted late.,relative pronoun: who
+glm-4.5,LLM,glm,8,The car that was parked illegally received a ticket which caused the owner to complain.,relative pronoun: which
+glm-4.5,LLM,glm,8,The children who played in the park built a sandcastle that impressed their parents.,relative pronoun: who
+glm-4.5,LLM,glm,8,The book that I borrowed from the library contains information which helped me with my project.,relative pronoun: which
+glm-4.5,LLM,glm,8,The restaurant where we had dinner last night serves food that is made from locally sourced ingredients.,relative pronoun: where
+glm-4.5,LLM,glm,9,The cat that the dog that the boy owned chased escaped.,wrong length: 11 words (expected 6 or 7)
+glm-4.5,LLM,glm,9,The book that the professor who the students respected wrote became a bestseller.,relative pronoun: who
+glm-4.5,LLM,glm,9,The house that the architect who the magazine featured designed won an award.,relative pronoun: who
+glm-4.5,LLM,glm,9,The car that the mechanic that the dealership hired repaired broke down again.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,9,The painting that the artist who the gallery represented created sold for a million dollars.,relative pronoun: who
+glm-4.5,LLM,glm,10,The old house that stood on the hill collapsed during the storm.,wrong length: 12 words (expected 6 or 7)
+glm-4.5,LLM,glm,10,The children who played in the park ran home when it started to rain.,relative pronoun: who
+glm-4.5,LLM,glm,10,The book that I borrowed from the library needs to be returned tomorrow.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,10,The man who lives next door works as a doctor at the local hospital.,relative pronoun: who
+glm-4.5,LLM,glm,10,The car that was parked outside was damaged by the falling tree.,wrong length: 12 words (expected 6 or 7)
+glm-4.5,LLM,glm,11,"The cat, which was sleeping on the couch, suddenly woke up.",relative pronoun: which
+glm-4.5,LLM,glm,11,The book that I borrowed from the library is due tomorrow.,wrong length: 11 words (expected 6 or 7)
+glm-4.5,LLM,glm,11,"My neighbor, who lives across the street, won the lottery.",relative pronoun: who
+glm-4.5,LLM,glm,11,The restaurant where we had dinner last night has closed down.,relative pronoun: where
+glm-4.5,LLM,glm,11,The teacher who taught me math is retiring this year.,relative pronoun: who
+glm-4.5,LLM,glm,12,The cat that the dog that the boy owned chased ran up the tree.,wrong length: 14 words (expected 6 or 7)
+glm-4.5,LLM,glm,12,The report that the committee that the senator formed submitted was approved.,wrong length: 12 words (expected 6 or 7)
+glm-4.5,LLM,glm,12,The book that the author that the critic admired wrote became a bestseller.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,12,The house that the architect that the developer hired designed won an award.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,12,The car that the mechanic that the dealership employed repaired was sold quickly.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,13,The cat that the dog chased ran up the tree.,wrong length: 10 words (expected 6 or 7)
+glm-4.5,LLM,glm,13,The book that I bought yesterday is on the table.,wrong length: 10 words (expected 6 or 7)
+glm-4.5,LLM,glm,13,The man who the woman interviewed got the job.,relative pronoun: who
+glm-4.5,LLM,glm,13,The house that the architect designed won an award.,wrong length: 9 words (expected 6 or 7)
+glm-4.5,LLM,glm,13,The car that the mechanic repaired is running smoothly now.,wrong length: 10 words (expected 6 or 7)
+glm-4.5,LLM,glm,14,"The cat, which was sleeping on the couch, suddenly woke up.",relative pronoun: which
+glm-4.5,LLM,glm,14,"The book, which I borrowed from the library, needs to be returned.",relative pronoun: which
+glm-4.5,LLM,glm,14,"The children, who were playing in the park, ran home when it started to rain.",relative pronoun: who
+glm-4.5,LLM,glm,14,"The car, which had been parked illegally, was towed away.",relative pronoun: which
+glm-4.5,LLM,glm,14,"The teacher, who had been explaining the concept, asked if there were any questions.",relative pronoun: who
+glm-4.5,LLM,glm,15,The book that I bought yesterday is fascinating.,wrong length: 8 words (expected 6 or 7)
+glm-4.5,LLM,glm,15,The woman who lives next door is a doctor.,relative pronoun: who
+glm-4.5,LLM,glm,15,The car that was parked outside belongs to my friend.,wrong length: 10 words (expected 6 or 7)
+glm-4.5,LLM,glm,15,The movie which we watched last night won several awards.,relative pronoun: which
+glm-4.5,LLM,glm,15,The house where I grew up has been sold.,relative pronoun: where
+glm-4.5,LLM,glm,16,The book that the student read was interesting.,wrong length: 8 words (expected 6 or 7)
+glm-4.5,LLM,glm,16,The car that the mechanic repaired broke down again.,wrong length: 9 words (expected 6 or 7)
+glm-4.5,LLM,glm,16,The painting that the artist created won an award.,wrong length: 9 words (expected 6 or 7)
+glm-4.5,LLM,glm,17,The book that I bought yesterday fell off the shelf.,wrong length: 10 words (expected 6 or 7)
+glm-4.5,LLM,glm,17,The woman who lives next door works at the hospital.,relative pronoun: who
+glm-4.5,LLM,glm,17,The car that was parked outside got a ticket.,wrong length: 9 words (expected 6 or 7)
+glm-4.5,LLM,glm,17,The children who played in the park went home for dinner.,relative pronoun: who
+glm-4.5,LLM,glm,17,The movie that we watched last night won three awards.,wrong length: 10 words (expected 6 or 7)
+glm-4.5,LLM,glm,18,"The cat, which was sleeping on the couch, suddenly woke up.",relative pronoun: which
+glm-4.5,LLM,glm,18,The book that I borrowed from the library is due tomorrow.,wrong length: 11 words (expected 6 or 7)
+glm-4.5,LLM,glm,18,The man who lives next door is a famous musician.,relative pronoun: who
+glm-4.5,LLM,glm,18,The car that parked in front of our house belongs to my aunt.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,18,The children who played in the park went home for dinner.,relative pronoun: who
+glm-4.5,LLM,glm,19,The book that I borrowed from the library is due tomorrow.,wrong length: 11 words (expected 6 or 7)
+glm-4.5,LLM,glm,19,The woman who lives next door is a doctor.,relative pronoun: who
+glm-4.5,LLM,glm,19,The car that was parked in the driveway belongs to my uncle.,wrong length: 12 words (expected 6 or 7)
+glm-4.5,LLM,glm,19,The movie which we watched last night won several awards.,relative pronoun: which
+glm-4.5,LLM,glm,19,The restaurant where we had dinner last week has closed down.,relative pronoun: where
+glm-4.5,LLM,glm,20,The cat that chased the mouse that ate the cheese slept on the mat.,wrong length: 14 words (expected 6 or 7)
+glm-4.5,LLM,glm,20,The teacher that graded the student that wrote the essay praised the class.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,20,The dog that barked at the mailman that delivered the package wagged its tail.,wrong length: 14 words (expected 6 or 7)
+glm-4.5,LLM,glm,20,The woman that interviewed the candidate that applied for the job made the decision.,wrong length: 14 words (expected 6 or 7)
+glm-4.5,LLM,glm,20,The house that stood on the hill that overlooked the lake was painted white.,wrong length: 14 words (expected 6 or 7)
+glm-4.5,LLM,glm,21,The cat that the dog that the boy chased barked at meowed loudly.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,21,The book that the professor who the students respected assigned was difficult.,relative pronoun: who
+glm-4.5,LLM,glm,21,The house that the builder that the architect hired constructed was impressive.,wrong length: 12 words (expected 6 or 7)
+glm-4.5,LLM,glm,21,The car that the mechanic that the owner trusted repaired broke down again.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,21,The idea that the researcher that the committee selected proposed was innovative.,wrong length: 12 words (expected 6 or 7)
+glm-4.5,LLM,glm,22,The proposal that was approved by the committee was implemented immediately.,wrong length: 11 words (expected 6 or 7)
+glm-4.5,LLM,glm,22,The book that was written by the famous author won several awards.,wrong length: 12 words (expected 6 or 7)
+glm-4.5,LLM,glm,22,The car that was repaired by the mechanic runs much better now.,wrong length: 12 words (expected 6 or 7)
+glm-4.5,LLM,glm,22,The painting that was restored by the experts was displayed in the museum.,wrong length: 13 words (expected 6 or 7)
+glm-4.5,LLM,glm,22,The decision that was made by the board affected all employees.,wrong length: 11 words (expected 6 or 7)
+glm-4.5,LLM,glm,23,The book that the student read was interesting.,wrong length: 8 words (expected 6 or 7)
+glm-4.5,LLM,glm,23,The man that the woman interviewed got the job.,wrong length: 9 words (expected 6 or 7)
+glm-4.5,LLM,glm,23,The house that the storm damaged was rebuilt.,wrong length: 8 words (expected 6 or 7)
+glm-4.5,LLM,glm,23,The car that the mechanic fixed is working now.,wrong length: 9 words (expected 6 or 7)
+glm-4.5,LLM,glm,24,The cat that was sleeping peacefully jumped suddenly.,wrong length: 8 words (expected 6 or 7)
+glm-4.5,LLM,glm,24,The book which I borrowed yesterday needs to be returned.,relative pronoun: which
+glm-4.5,LLM,glm,24,The children who were playing outside ran home when it started to rain.,relative pronoun: who
+glm-4.5,LLM,glm,24,The car that was parked illegally got a ticket.,wrong length: 9 words (expected 6 or 7)
+glm-4.5,LLM,glm,24,The woman who lives next door is a doctor.,relative pronoun: who
+glm-4.5,LLM,glm,25,The cat chased the mouse.,wrong length: 5 words (expected 6 or 7)
+glm-4.5,LLM,glm,25,A student read the book.,wrong length: 5 words (expected 6 or 7)
+glm-4.5,LLM,glm,25,My brother fixed the car.,wrong length: 5 words (expected 6 or 7)
+glm-4.5,LLM,glm,25,The teacher explained the lesson.,wrong length: 5 words (expected 6 or 7)
+glm-4.5,LLM,glm,25,The dog fetched the ball.,wrong length: 5 words (expected 6 or 7)
+glm-4.5,LLM,glm,26,The book that I bought yesterday fell off the shelf.,wrong length: 10 words (expected 6 or 7)
+glm-4.5,LLM,glm,26,The woman who lives next door works at the hospital.,relative pronoun: who
+glm-4.5,LLM,glm,26,The car that was parked outside got a ticket.,wrong length: 9 words (expected 6 or 7)
+glm-4.5,LLM,glm,26,The children who were playing in the park went home.,relative pronoun: who
+glm-4.5,LLM,glm,26,The movie that we watched last night won an award.,wrong length: 10 words (expected 6 or 7)
+glm-4.5,LLM,glm,27,The cat that was sleeping on the couch suddenly woke up.,wrong length: 11 words (expected 6 or 7)
+glm-4.5,LLM,glm,27,The book which I borrowed from the library is due tomorrow.,relative pronoun: which
+glm-4.5,LLM,glm,27,The children who were playing in the park ran home when it started raining.,relative pronoun: who
+glm-4.5,LLM,glm,27,The car that was parked by the curb had a flat tire.,wrong length: 12 words (expected 6 or 7)
+glm-4.5,LLM,glm,27,The woman who lives next door is a famous artist.,relative pronoun: who
+glm-4.5,LLM,glm,28,The teacher who explained the lesson assigned homework that was challenging.,relative pronoun: who
+glm-4.5,LLM,glm,28,The book that I borrowed from the library contains information which is fascinating.,relative pronoun: which
+glm-4.5,LLM,glm,28,The dog that barked loudly chased the cat which ran across the street.,relative pronoun: which
+glm-4.5,LLM,glm,28,The restaurant where we ate last night serves food that tastes delicious.,relative pronoun: where
+glm-4.5,LLM,glm,28,The student who answered the question correctly received praise that was well-deserved.,relative pronoun: who
+glm-4.5,LLM,glm,29,"The cat, which was sleeping on the couch, suddenly woke up.",relative pronoun: which
+glm-4.5,LLM,glm,29,The book that I borrowed from the library is due tomorrow.,wrong length: 11 words (expected 6 or 7)
+glm-4.5,LLM,glm,29,The man who lives next door is a doctor.,relative pronoun: who
+glm-4.5,LLM,glm,29,The car that was parked in the driveway has been stolen.,wrong length: 11 words (expected 6 or 7)
+glm-4.5,LLM,glm,29,The children who were playing in the park went home.,relative pronoun: who
+glm-4.5,LLM,glm,30,The cat that the dog that the boy owned chased escaped.,wrong length: 11 words (expected 6 or 7)
+glm-4.5,LLM,glm,30,The book that the professor who the students respected wrote became a bestseller.,relative pronoun: who
+glm-4.5,LLM,glm,30,The house that the architect who the firm hired designed won an award.,relative pronoun: who
+glm-4.5,LLM,glm,30,The car that the mechanic who the dealership recommended fixed broke down again.,relative pronoun: who
+glm-4.5,LLM,glm,30,The painting that the artist who the gallery represented created sold for a million dollars.,relative pronoun: who
+glm-4.5-think,LRM,glm,1,My teacher a book reads writes.,"pos 0 is ""my"", expected det (the/a)"
+glm-4.5-think,LRM,glm,1,This car that truck overtakes passes.,"pos 0 is ""this"", expected det (the/a)"
+glm-4.5-think,LRM,glm,1,Her dog a bone eats buries.,"pos 0 is ""her"", expected det (the/a)"
+glm-4.5-think,LRM,glm,2,My book this author wrote read.,"pos 0 is ""my"", expected det (the/a)"
+glm-4.5-think,LRM,glm,2,That car this driver bought sold.,"pos 0 is ""that"", expected det (the/a)"
+glm-4.5-think,LRM,glm,2,Every bird a fish caught ate.,"pos 0 is ""every"", expected det (the/a)"
+glm-4.5-think,LRM,glm,3,The dog the owner saw running in the park was a Labrador.,wrong length: 12 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,3,The book the student read and enjoyed yesterday was a bestseller.,coordination (and/or)
+glm-4.5-think,LRM,glm,3,The man the police had arrested was a known criminal.,wrong length: 10 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,3,The house the builders were constructing last year won an award.,wrong length: 11 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,3,The car the mechanic fixed and tested yesterday is ready.,coordination (and/or)
+glm-4.5-think,LRM,glm,4,The dog that barked loudly scared the mailman.,wrong length: 8 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,4,The woman who won the lottery donated her prize.,relative pronoun: who
+glm-4.5-think,LRM,glm,4,The tree that fell in the storm blocked the road.,wrong length: 10 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,4,The boy who broke the window apologized.,relative pronoun: who
+glm-4.5-think,LRM,glm,4,The movie that won the award was directed by a newcomer.,wrong length: 11 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,5,The book that I read yesterday was interesting.,wrong length: 8 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,5,The man who the woman interviewed got the job.,relative pronoun: who
+glm-4.5-think,LRM,glm,5,The house that the storm destroyed was old.,wrong length: 8 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,6,The book that the student read was interesting.,wrong length: 8 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,9,The woman wearing a red dress entered the room.,wrong length: 9 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,9,The car parked illegally was towed away.,"pos 3 is ""illegally"", expected det (the/a)"
+glm-4.5-think,LRM,glm,9,The children playing in the park laughed loudly.,wrong length: 8 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,9,The documents stolen from the office have been recovered.,wrong length: 9 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,9,The man accused of the crime protested his innocence.,wrong length: 9 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,11,The woman wearing the blue coat won the award.,wrong length: 9 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,11,The car parked illegally was towed away.,"pos 3 is ""illegally"", expected det (the/a)"
+glm-4.5-think,LRM,glm,11,The children playing in the park need supervision.,wrong length: 8 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,11,The book written by Hemingway sold millions.,"pos 3 is ""by"", expected det (the/a)"
+glm-4.5-think,LRM,glm,11,The man arrested last week confessed to the crime.,wrong length: 9 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,13,The happy little children and the puppies played and laughed.,coordination (and/or)
+glm-4.5-think,LRM,glm,13,The tall green trees and the bushes swayed and rustled.,coordination (and/or)
+glm-4.5-think,LRM,glm,13,The loud booming thunder and the lightning rumbled and flashed.,coordination (and/or)
+glm-4.5-think,LRM,glm,13,The colorful tropical birds and the butterflies flew and fluttered.,coordination (and/or)
+glm-4.5-think,LRM,glm,13,The bright twinkling stars and the planets shone and glowed.,coordination (and/or)
+glm-4.5-think,LRM,glm,14,The book that the student reads opens new worlds.,wrong length: 9 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,15,The woman wearing a red dress crossed the street.,wrong length: 9 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,15,The house built in 1920 needs renovation.,"pos 3 is ""in"", expected det (the/a)"
+glm-4.5-think,LRM,glm,15,The boy kicked by the ball started crying.,wrong length: 8 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,15,The car parked illegally received a ticket.,"pos 3 is ""illegally"", expected det (the/a)"
+glm-4.5-think,LRM,glm,15,The student studying diligently passed the exam.,"pos 3 is ""diligently"", expected det (the/a)"
+glm-4.5-think,LRM,glm,17,The cat that meowed loudly ran away.,"pos 3 is ""meowed"", expected det (the/a)"
+glm-4.5-think,LRM,glm,17,The book that I read last week was fascinating.,wrong length: 9 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,17,The student who studies hard will succeed.,relative pronoun: who
+glm-4.5-think,LRM,glm,17,The house that they built is beautiful.,"pos 3 is ""they"", expected det (the/a)"
+glm-4.5-think,LRM,glm,17,The computer that crashed needs repair.,"pos 2 is ""that"", expected det (the/a)"
+glm-4.5-think,LRM,glm,18,The book that I borrowed yesterday needs to be returned tomorrow.,wrong length: 11 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,18,The woman who lives next door won the gardening competition.,relative pronoun: who
+glm-4.5-think,LRM,glm,18,The car that was parked illegally received a parking ticket.,wrong length: 10 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,18,The children who played in the park went home for dinner.,relative pronoun: who
+glm-4.5-think,LRM,glm,18,The movie that we watched last night received excellent reviews.,wrong length: 10 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,19,The book read by the student fascinated the professor.,wrong length: 9 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,19,The cake baked by the chef delighted the guests.,wrong length: 9 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,19,The car repaired by the mechanic ran smoothly.,wrong length: 8 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,19,The song written by the artist topped the charts.,wrong length: 9 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,19,The tree planted by the gardener flourished quickly.,wrong length: 8 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,20,The woman standing by the door waved.,"pos 3 is ""by"", expected det (the/a)"
+glm-4.5-think,LRM,glm,20,The documents stolen from the safe were recovered.,wrong length: 8 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,20,The children playing in the park shouted excitedly.,wrong length: 8 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,20,The car parked illegally received a ticket.,"pos 3 is ""illegally"", expected det (the/a)"
+glm-4.5-think,LRM,glm,20,The man injured in the accident received treatment.,wrong length: 8 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,24,The man bitten by the dog screamed.,"pos 3 is ""by"", expected det (the/a)"
+glm-4.5-think,LRM,glm,24,The window broken by the boy shattered.,"pos 3 is ""by"", expected det (the/a)"
+glm-4.5-think,LRM,glm,24,The letter written by the secretary arrived.,"pos 3 is ""by"", expected det (the/a)"
+glm-4.5-think,LRM,glm,24,The cake decorated by the chef looked beautiful.,wrong length: 8 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,24,The bridge designed by the engineers collapsed.,"pos 3 is ""by"", expected det (the/a)"
+glm-4.5-think,LRM,glm,25,The evidence collected yesterday disappeared.,wrong length: 5 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,25,The man arrested last week fled.,"pos 2 is ""arrested"", expected det (the/a)"
+glm-4.5-think,LRM,glm,25,The package delivered this morning arrived.,"pos 2 is ""delivered"", expected det (the/a)"
+glm-4.5-think,LRM,glm,25,The car stolen last night vanished.,"pos 2 is ""stolen"", expected det (the/a)"
+glm-4.5-think,LRM,glm,25,The trees planted in spring grew.,"pos 2 is ""planted"", expected det (the/a)"
+glm-4.5-think,LRM,glm,26,The woman singing in the choir won the competition.,wrong length: 9 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,26,The car parked in the driveway belongs to my neighbor.,wrong length: 10 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,26,The children playing in the park need supervision.,wrong length: 8 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,26,The book written by J.K. Rowling became a bestseller.,wrong length: 9 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,26,The man arrested by the police confessed to the crime.,wrong length: 10 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,27,The woman I saw smiled.,wrong length: 5 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,27,The idea I thought of vanished.,"pos 2 is ""i"", expected det (the/a)"
+glm-4.5-think,LRM,glm,27,The man I looked at waved.,"pos 2 is ""i"", expected det (the/a)"
+glm-4.5-think,LRM,glm,27,The book I read fell.,wrong length: 5 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,27,The car I passed stopped.,wrong length: 5 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,28,The professor graded the paper the student submitted yesterday.,wrong length: 9 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,28,She admired the painting the artist donated to the gallery.,wrong length: 10 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,28,We repaired the computer the technician damaged accidentally.,wrong length: 8 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,28,He recognized the song the band performed at the concert.,wrong length: 10 words (expected 6 or 7)
+glm-4.5-think,LRM,glm,28,They discussed the theory the researcher proposed recently.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,1,The cat the veterinarian treated was finally cured.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,1,The book the librarian shelved was lost for years.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,1,The car the mechanic repaired ran smoothly again.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,1,The song the singer performed was praised by critics.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,1,The project the manager completed was awarded an honor.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,2,The book the editor revised was published last month.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,2,The song the singer performed won the award.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,2,The project the manager completed met all deadlines.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,4,The cat the teacher walked the past tense verb.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,4,The book the student read the past tense verb.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,4,The car the driver fixed the past tense verb.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,4,The song the singer performed the past tense verb.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,4,The project the team completed the past tense verb.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,5,The cat the veterinarian treated was very sick.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,5,The book the professor assigned was extremely difficult.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,5,The car the mechanic repaired ran perfectly afterward.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,5,The student the teacher praised earned top marks.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,5,The song the singer performed won the competition.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,6,The project the manager completed resulted in a major breakthrough.,wrong length: 10 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,6,The team the leader inspired achieved outstanding success.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,6,The system the engineer designed improved efficiency significantly.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,6,The strategy the consultant recommended led to increased profits.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,6,The initiative the coordinator launched produced lasting change.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,7,The cat the veterinarian treated was finally cured.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,7,The book the editor revised was published last week.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,7,The project the manager completed was praised by the board.,wrong length: 10 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,7,The song the singer recorded went viral overnight.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,7,The house the contractor built was sold within days.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,8,The cat the veterinarian examined was very sick.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,8,The book the librarian recommended became a bestseller.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,8,The car the mechanic repaired runs perfectly now.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,8,The student the teacher praised won the award.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,8,The song the producer mastered received critical acclaim.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,9,The book the student read was fascinating.,"pos 3 is ""student"", expected det (the/a)"
+qwen3-30b-a3b,LLM,qwen,9,The song the singer performed won the award.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,9,The story the writer told captivated the audience.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,10,The dog the trainer trained completed the obstacle course.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,10,The student the teacher instructed passed the final exam.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,10,The song the musician composed won the competition.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,10,The project the manager led delivered the results on time.,wrong length: 10 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,10,The player the coach mentored scored the winning goal.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,11,The cat the teacher chased caught the mouse.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,11,The song the singer performed won the award.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,11,The project the manager completed impressed the team.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,12,The cat the veterinarian examined was healthy.,"pos 3 is ""veterinarian"", expected det (the/a)"
+qwen3-30b-a3b,LLM,qwen,12,The book the librarian shelved was overdue.,"pos 3 is ""librarian"", expected det (the/a)"
+qwen3-30b-a3b,LLM,qwen,12,The song the singer performed was a hit.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,12,The painting the curator restored was priceless.,"pos 3 is ""curator"", expected det (the/a)"
+qwen3-30b-a3b,LLM,qwen,12,The letter the secretary delivered was urgent.,"pos 3 is ""secretary"", expected det (the/a)"
+qwen3-30b-a3b,LLM,qwen,13,The book the editor revised became a bestseller.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,13,The student the teacher praised excelled in class.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,13,The song the producer mastered topped the charts.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,14,The cat the veterinarian examined was very sick.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,14,The book the professor assigned was extremely difficult.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,14,The song the singer performed was breathtaking.,"pos 3 is ""singer"", expected det (the/a)"
+qwen3-30b-a3b,LLM,qwen,14,The project the manager approved was highly innovative.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,15,The cat the veterinarian examined was very calm.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,15,The book the librarian recommended became a bestseller.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,15,The song the singer performed was deeply emotional.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,15,The painting the curator displayed received critical acclaim.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,15,The student the teacher praised excelled in the competition.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,16,The cat the veterinarian examined was very sick.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,16,The book the editor reviewed was published last year.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,16,The song the singer performed was a hit.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,16,The painting the curator restored was centuries old.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,16,The project the manager completed was highly praised.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,17,The dog the trainer trained successfully completed the course.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,17,The student the teacher guided passed the final exam with flying colors.,wrong length: 12 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,17,The employee the manager mentored received a promotion within a year.,wrong length: 11 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,17,The athlete the coach prepared won the championship last season.,wrong length: 10 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,17,The child the parent encouraged achieved academic excellence this year.,wrong length: 10 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,18,The song the singer performed at the concert.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,19,The book the student read was fascinating.,"pos 3 is ""student"", expected det (the/a)"
+qwen3-30b-a3b,LLM,qwen,21,The cat the teacher chased vanished into the alley.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,21,The book the editor reviewed became a bestseller.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,21,The song the singer performed won the competition.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,21,The letter the secretary typed arrived too late.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,22,The book the editor revised received critical acclaim.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,22,The player the coach trained won the championship.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,22,The student the teacher praised achieved top honors.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,23,The cat the veterinarian examined was sick.,"pos 3 is ""veterinarian"", expected det (the/a)"
+qwen3-30b-a3b,LLM,qwen,23,The book the editor reviewed was published.,"pos 3 is ""editor"", expected det (the/a)"
+qwen3-30b-a3b,LLM,qwen,23,The student the teacher praised received a reward.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,23,The car the mechanic fixed was drivable.,"pos 3 is ""mechanic"", expected det (the/a)"
+qwen3-30b-a3b,LLM,qwen,23,The song the singer performed was popular.,"pos 3 is ""singer"", expected det (the/a)"
+qwen3-30b-a3b,LLM,qwen,25,The song the singer recorded became popular.,"pos 3 is ""singer"", expected det (the/a)"
+qwen3-30b-a3b,LLM,qwen,26,The book the editor revised was published next month.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,26,The student the teacher praised won the award.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,26,The project the manager approved received full funding.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,26,The song the musician composed became a hit.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,28,The song the musician composed became famous.,"pos 3 is ""musician"", expected det (the/a)"
+qwen3-30b-a3b,LLM,qwen,29,The cat the veterinarian treated was very calm.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,29,The book the editor revised was published last month.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,29,The car the mechanic fixed runs perfectly now.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,29,The song the producer recorded became a hit.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,29,The project the manager completed was highly praised.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,30,The book the editor revised sold out immediately.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,30,The student the teacher praised earned top honors.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,30,The project the manager approved launched on time.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b,LLM,qwen,30,The song the producer mixed became a hit.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b-think,LRM,qwen,7,The book lying on the desk is mine.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b-think,LRM,qwen,7,The woman speaking at the conference is my professor.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b-think,LRM,qwen,7,The car parked outside needs washing.,"pos 2 is ""parked"", expected det (the/a)"
+qwen3-30b-a3b-think,LRM,qwen,7,The dog barking loudly belongs to the neighbors.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b-think,LRM,qwen,7,The students arriving early get first choice of seats.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b-think,LRM,qwen,9,The cat chased the mouse.,wrong length: 5 words (expected 6 or 7)
+qwen3-30b-a3b-think,LRM,qwen,9,The sun warmed the soil.,wrong length: 5 words (expected 6 or 7)
+qwen3-30b-a3b-think,LRM,qwen,9,The child painted the wall.,wrong length: 5 words (expected 6 or 7)
+qwen3-30b-a3b-think,LRM,qwen,9,The river flowed steadily.,wrong length: 4 words (expected 6 or 7)
+qwen3-30b-a3b-think,LRM,qwen,9,The teacher explained the lesson.,wrong length: 5 words (expected 6 or 7)
+qwen3-30b-a3b-think,LRM,qwen,12,The book lying on the desk is mine.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b-think,LRM,qwen,12,The woman speaking at the conference is my professor.,wrong length: 9 words (expected 6 or 7)
+qwen3-30b-a3b-think,LRM,qwen,12,The car parked outside needs washing.,"pos 2 is ""parked"", expected det (the/a)"
+qwen3-30b-a3b-think,LRM,qwen,12,The dog barking loudly belongs to the neighbors.,wrong length: 8 words (expected 6 or 7)
+qwen3-30b-a3b-think,LRM,qwen,12,The students arriving early get first choice of seats.,wrong length: 9 words (expected 6 or 7)
