@@ -8,7 +8,7 @@ import logging
 from openai import OpenAI
 from dotenv import load_dotenv
 
-import config
+from src import config
 
 load_dotenv()
 

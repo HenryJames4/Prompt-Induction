@@ -23,8 +23,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import numpy as np
 import pandas as pd
 
-import config
-from experiment import generate_l1, run_induction, compute_run_metrics
+from src import config
+from src.experiment import generate_l1, run_induction, compute_run_metrics
 
 VARIANT_RESULTS_DIR = {
     "neg_evidence": "results_neg_evidence",

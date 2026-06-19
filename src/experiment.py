@@ -6,13 +6,13 @@ Each function corresponds to one stage of the L1 → induction → L2 pipeline.
 import logging
 from datetime import datetime, timezone
 
-import config
-from models import generate_text
-from prompts import (
+from src import config
+from src.models import generate_text
+from src.prompts import (
     build_l1_prompt, build_induction_prompt, build_l2_prompt,
     build_l1_prompt_neg_evidence, build_induction_prompt_neg_evidence,
 )
-from utils import parse_sentences
+from src.utils import parse_sentences
 
 VARIANTS = (None, "neg_evidence")
 logger = logging.getLogger(__name__)
